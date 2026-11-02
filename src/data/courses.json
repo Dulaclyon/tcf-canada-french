@@ -1,0 +1,5477 @@
+[
+  {
+    "id": "grammar-01",
+    "title": "主语、être 与基本句型",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用主语、être 与基本句型",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [],
+    "source": {
+      "file": "leçon 2/Leçon 2(1).pdf",
+      "page": 1,
+      "node": "Être 变位的应用 / Nouns",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "法语陈述句通常需要明确的主语。être 表示身份、性质或状态：je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont。职业在 être 后通常不用不定冠词；有形容词修饰时可使用 un/une。名词的性须连同冠词记忆。",
+        "examples": [
+          {
+            "fr": "Je suis étudiant et mon amie est infirmière.",
+            "zh": "我是一名学生，我的朋友是一名护士。"
+          },
+          {
+            "fr": "Nous sommes à Montréal pour apprendre le français.",
+            "zh": "我们在蒙特利尔学习法语。"
+          }
+        ]
+      }
+    ],
+    "comparison": "être 描述状态或身份（je suis étudiant），avoir 表示拥有（j’ai un livre）；“我20岁”用 j’ai vingt ans，不能照中文写 je suis vingt ans。",
+    "errors": [
+      {
+        "wrong": "Je est calme.",
+        "correct": "Je suis calme.",
+        "reason": "主语 je 须与 suis 配合。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-02"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-01",
+      "title": "在蒙特利尔的新生活",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察主语、être 与基本句型",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-01"
+      ],
+      "text": "Je suis étudiant et mon amie est infirmière. Nous sommes à Montréal pour apprendre le français. Notre classe est petite, mais les cours sont intéressants. Le professeur est patient. Après le cours, nous sommes souvent à la bibliothèque. Là, je suis calme et je peux travailler. Le soir, mon amie est fatiguée. Nous parlons de notre journée autour d’un thé.",
+      "translation": "我是一名学生，我的朋友是一名护士。我们在蒙特利尔学习法语。我们的班级很小，但课程很有趣。老师很有耐心。下课后，我们常在图书馆。在那里，我心情平静，能够学习。晚上，我的朋友很累。我们边喝茶边聊一天的生活。",
+      "vocabulary": [
+        {
+          "fr": "infirmière",
+          "zh": "护士"
+        },
+        {
+          "fr": "autour de",
+          "zh": "在……周围；围坐"
+        },
+        {
+          "fr": "la bibliothèque",
+          "zh": "图书馆"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Je suis étudiant et mon amie est infirmière.",
+          "explanation": "法语陈述句通常需要明确的主语。être 表示身份、性质或状态：je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont。职业在 être 后通常不用不定冠词；有形容词修饰时可使用 un/une。名词的性须连同冠词记忆。",
+          "knowledgeId": "grammar-01"
+        },
+        {
+          "fr": "Nous sommes à Montréal pour apprendre le français.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-01"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公和朋友为什么在蒙特利尔？",
+          "answer": "Pour apprendre le français. 为了学习法语。"
+        },
+        {
+          "question": "主人公通常下课后去哪里？",
+          "answer": "À la bibliothèque. 图书馆。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-01-ex-01",
+        "knowledgeId": "grammar-01",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Je ___ étudiant.",
+        "answers": [
+          "suis"
+        ],
+        "explanation": "je 对应 suis。",
+        "pitfall": "je 对应 suis。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "est",
+          "suis",
+          "es"
+        ]
+      },
+      {
+        "id": "grammar-01-ex-02",
+        "knowledgeId": "grammar-01",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Nous ___ à la bibliothèque.（être，现在时）",
+        "answers": [
+          "sommes"
+        ],
+        "explanation": "nous 对应 sommes。",
+        "pitfall": "nous 对应 sommes。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-03",
+        "knowledgeId": "grammar-01",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "être：vous ___",
+        "answers": [
+          "êtes"
+        ],
+        "explanation": "注意 ê 重音。",
+        "pitfall": "注意 ê 重音。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-04",
+        "knowledgeId": "grammar-01",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Mes amies ___ infirmières.（être，现在时）",
+        "answers": [
+          "sont"
+        ],
+        "explanation": "复数主语用 sont。",
+        "pitfall": "复数主语用 sont。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-05",
+        "knowledgeId": "grammar-01",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Je est calme.",
+        "answers": [
+          "Je suis calme."
+        ],
+        "explanation": "主语 je 须与 suis 配合。",
+        "pitfall": "主语 je 须与 suis 配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-06",
+        "knowledgeId": "grammar-01",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：她是医生。",
+        "answers": [
+          "Elle est médecin."
+        ],
+        "explanation": "职业直接接在 être 后。",
+        "pitfall": "职业直接接在 être 后。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-07",
+        "knowledgeId": "grammar-01",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：sommes / nous / étudiants",
+        "answers": [
+          "Nous sommes étudiants."
+        ],
+        "explanation": "陈述句主语在动词前。",
+        "pitfall": "陈述句主语在动词前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-08",
+        "knowledgeId": "grammar-01",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Tu ___ patient.",
+        "answers": [
+          "es"
+        ],
+        "explanation": "tu 对应 es。",
+        "pitfall": "tu 对应 es。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-09",
+        "knowledgeId": "grammar-01",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我们在蒙特利尔。",
+        "answers": [
+          "Nous sommes à Montréal.",
+          "Nous sommes à Montréal"
+        ],
+        "explanation": "城市前使用 à。",
+        "pitfall": "城市前使用 à。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-01-ex-10",
+        "knowledgeId": "grammar-01",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "用 être 表达“我很累”（男性说话者）。",
+        "answers": [
+          "Je suis fatigué."
+        ],
+        "explanation": "形容词用阳性单数。",
+        "pitfall": "形容词用阳性单数。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-02",
+    "title": "冠词与名词的性数",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用冠词与名词的性数",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-01"
+    ],
+    "source": {
+      "file": "leçon 2/Leçon 2(1).pdf",
+      "page": 1,
+      "node": "Nouns 名词 / 冠词",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "不定冠词 un/une/des 引入尚未确定的事物；定冠词 le/la/les 指已知或泛指的事物。元音或哑音 h 前 le/la 省音为 l’。复数名词常加 s，但很多词有例外。不能只凭中文含义判断阴阳性。",
+        "examples": [
+          {
+            "fr": "Dans ma rue, il y a une boulangerie et un café.",
+            "zh": "我住的街上有一家面包店和一家咖啡馆。"
+          },
+          {
+            "fr": "La boulangerie ouvre tôt.",
+            "zh": "面包店开门很早。"
+          }
+        ]
+      }
+    ],
+    "comparison": "un/une 引入一件新事物（un café），le/la 指已知对象（le café de ma rue）；泛指爱好也用定冠词（j’aime le café）。",
+    "errors": [
+      {
+        "wrong": "la café",
+        "correct": "le café",
+        "reason": "café 为阳性。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-03"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-02",
+      "title": "街角的咖啡馆",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察冠词与名词的性数",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-02"
+      ],
+      "text": "Dans ma rue, il y a une boulangerie et un café. La boulangerie ouvre tôt. Le café propose des sandwichs et des boissons chaudes. J’achète un sandwich, puis je m’assieds près de la fenêtre. Les clients parlent doucement. À côté de moi, une femme lit un journal. J’aime les petits cafés : on peut y travailler sans se presser.",
+      "translation": "我住的街上有一家面包店和一家咖啡馆。面包店开门很早。咖啡馆供应三明治和热饮。我买了一个三明治，然后坐在窗边。顾客们轻声交谈。我旁边的一位女士在看报纸。我喜欢小咖啡馆：在那里可以从容地工作。",
+      "vocabulary": [
+        {
+          "fr": "la boulangerie",
+          "zh": "面包店"
+        },
+        {
+          "fr": "s’asseoir",
+          "zh": "坐下"
+        },
+        {
+          "fr": "sans se presser",
+          "zh": "不慌不忙"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Dans ma rue, il y a une boulangerie et un café.",
+          "explanation": "不定冠词 un/une/des 引入尚未确定的事物；定冠词 le/la/les 指已知或泛指的事物。元音或哑音 h 前 le/la 省音为 l’。复数名词常加 s，但很多词有例外。不能只凭中文含义判断阴阳性。",
+          "knowledgeId": "grammar-02"
+        },
+        {
+          "fr": "La boulangerie ouvre tôt.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-02"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公买了什么？",
+          "answer": "Un sandwich. 一个三明治。"
+        },
+        {
+          "question": "文中咖啡馆的顾客如何说话？",
+          "answer": "Ils parlent doucement. 他们轻声交谈。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-02-ex-01",
+        "knowledgeId": "grammar-02",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "首次提到一家面包店：___ boulangerie",
+        "answers": [
+          "une"
+        ],
+        "explanation": "boulangerie 为阴性单数。",
+        "pitfall": "boulangerie 为阴性单数。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "un",
+          "une",
+          "des"
+        ]
+      },
+      {
+        "id": "grammar-02-ex-02",
+        "knowledgeId": "grammar-02",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "首次提到一本书：___ livre",
+        "answers": [
+          "un"
+        ],
+        "explanation": "livre 在“书”的意义下是阳性。",
+        "pitfall": "livre 在“书”的意义下是阳性。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-03",
+        "knowledgeId": "grammar-02",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "已知的学校：___ école",
+        "answers": [
+          "l’",
+          "l'"
+        ],
+        "explanation": "école 前定冠词省音。",
+        "pitfall": "école 前定冠词省音。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-04",
+        "knowledgeId": "grammar-02",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "un ami 的不定冠词复数：___ amis",
+        "answers": [
+          "des"
+        ],
+        "explanation": "不定复数用 des。",
+        "pitfall": "不定复数用 des。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-05",
+        "knowledgeId": "grammar-02",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：la café",
+        "answers": [
+          "le café"
+        ],
+        "explanation": "café 为阳性。",
+        "pitfall": "café 为阳性。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-06",
+        "knowledgeId": "grammar-02",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我喜欢书。",
+        "answers": [
+          "J’aime les livres.",
+          "J'aime les livres."
+        ],
+        "explanation": "表达一般喜好用定冠词。",
+        "pitfall": "表达一般喜好用定冠词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-07",
+        "knowledgeId": "grammar-02",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：une / j’achète / baguette",
+        "answers": [
+          "J’achète une baguette.",
+          "J'achète une baguette."
+        ],
+        "explanation": "动词后接宾语名词组。",
+        "pitfall": "动词后接宾语名词组。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-08",
+        "knowledgeId": "grammar-02",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "已知的两扇窗：___ fenêtres",
+        "answers": [
+          "les"
+        ],
+        "explanation": "定冠词复数用 les。",
+        "pitfall": "定冠词复数用 les。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-09",
+        "knowledgeId": "grammar-02",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：这是一辆汽车。",
+        "answers": [
+          "C’est une voiture.",
+          "C'est une voiture."
+        ],
+        "explanation": "voiture 是阴性名词。",
+        "pitfall": "voiture 是阴性名词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-02-ex-10",
+        "knowledgeId": "grammar-02",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "你第一次提到一位女邻居，用“我有一位女邻居”。",
+        "answers": [
+          "J’ai une voisine.",
+          "J'ai une voisine."
+        ],
+        "explanation": "引入一位未确定的人用 une。",
+        "pitfall": "引入一位未确定的人用 une。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-03",
+    "title": "现在时：规则动词与常用不规则动词",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用现在时：规则动词与常用不规则动词",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-02"
+    ],
+    "source": {
+      "file": "leçon 6/Les quatre saisons 四季(3).pdf",
+      "page": 1,
+      "node": "第一类规则动词 / 第二类动词变位",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "-er 动词以去掉 -er 的词干加 -e, -es, -e, -ons, -ez, -ent。第二组 -ir 动词如 finir 使用 -is, -is, -it, -issons, -issez, -issent；并非所有 -ir 动词都是第二组。avoir：ai, as, a, avons, avez, ont。aller：vais, vas, va, allons, allez, vont。",
+        "examples": [
+          {
+            "fr": "Chaque mardi, je travaille dans un café associatif.",
+            "zh": "每周二，我在一家社区咖啡馆工作。"
+          },
+          {
+            "fr": "J’arrive à neuf heures et je prépare les tables.",
+            "zh": "我九点到达，准备桌子。"
+          }
+        ]
+      }
+    ],
+    "comparison": "finir 属第二组（nous finissons），partir 虽以 -ir 结尾却是第三组（nous partons）；不能把所有 -ir 动词套同一套词尾。",
+    "errors": [
+      {
+        "wrong": "Nous finons le travail.",
+        "correct": "Nous finissons le travail.",
+        "reason": "finir 的 nous 形式有 -iss-。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-04"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-03",
+      "title": "社区咖啡馆的一天",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察现在时：规则动词与常用不规则动词",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-03"
+      ],
+      "text": "Chaque mardi, je travaille dans un café associatif. J’arrive à neuf heures et je prépare les tables. Ma collègue choisit la musique pendant que je parle avec les visiteurs. Nous finissons le service à midi. Certains clients ont des questions sur le quartier. Je leur donne un plan, puis ils vont découvrir le marché. J’aime ce travail parce que je rencontre des gens différents.",
+      "translation": "每周二，我在一家社区咖啡馆工作。我九点到达，准备桌子。我与来访者交谈时，同事挑选音乐。我们中午结束服务。有些顾客对这个街区有疑问。我给他们一张地图，然后他们去逛市场。我喜欢这份工作，因为我能遇见不同的人。",
+      "vocabulary": [
+        {
+          "fr": "associatif",
+          "zh": "社团的、社区组织的"
+        },
+        {
+          "fr": "un visiteur",
+          "zh": "来访者"
+        },
+        {
+          "fr": "le quartier",
+          "zh": "街区"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Chaque mardi, je travaille dans un café associatif.",
+          "explanation": "-er 动词以去掉 -er 的词干加 -e, -es, -e, -ons, -ez, -ent。第二组 -ir 动词如 finir 使用 -is, -is, -it, -issons, -issez, -issent；并非所有 -ir 动词都是第二组。avoir：ai, as, a, avons, avez, ont。aller：vais, vas, va, allons, allez, vont。",
+          "knowledgeId": "grammar-03"
+        },
+        {
+          "fr": "J’arrive à neuf heures et je prépare les tables.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-03"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "服务几点结束？",
+          "answer": "À midi. 中午。"
+        },
+        {
+          "question": "同事负责什么？",
+          "answer": "Elle choisit la musique. 她挑选音乐。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-03-ex-01",
+        "knowledgeId": "grammar-03",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "parler：nous ___",
+        "answers": [
+          "parlons"
+        ],
+        "explanation": "词干 parl- 加 ons。",
+        "pitfall": "词干 parl- 加 ons。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-02",
+        "knowledgeId": "grammar-03",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "finir：ils ___",
+        "answers": [
+          "finissent"
+        ],
+        "explanation": "第二组复数用 -issent。",
+        "pitfall": "第二组复数用 -issent。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-03",
+        "knowledgeId": "grammar-03",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "avoir：j’___",
+        "answers": [
+          "ai"
+        ],
+        "explanation": "avoir 的不规则变位。",
+        "pitfall": "avoir 的不规则变位。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-04",
+        "knowledgeId": "grammar-03",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "aller：vous ___",
+        "answers": [
+          "allez"
+        ],
+        "explanation": "vous 对应 allez。",
+        "pitfall": "vous 对应 allez。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-05",
+        "knowledgeId": "grammar-03",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Nous finons le travail.",
+        "answers": [
+          "Nous finissons le travail."
+        ],
+        "explanation": "finir 的 nous 形式有 -iss-。",
+        "pitfall": "finir 的 nous 形式有 -iss-。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-06",
+        "knowledgeId": "grammar-03",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Tu ___ français.（parler）",
+        "answers": [
+          "parles"
+        ],
+        "explanation": "tu 对应 -es。",
+        "pitfall": "tu 对应 -es。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "parlez",
+          "parles",
+          "parlent"
+        ]
+      },
+      {
+        "id": "grammar-03-ex-07",
+        "knowledgeId": "grammar-03",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我选择这本书。",
+        "answers": [
+          "Je choisis ce livre."
+        ],
+        "explanation": "choisir 按第二组变位。",
+        "pitfall": "choisir 按第二组变位。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-08",
+        "knowledgeId": "grammar-03",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：au marché / vont / ils",
+        "answers": [
+          "Ils vont au marché."
+        ],
+        "explanation": "主语后接变位动词。",
+        "pitfall": "主语后接变位动词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-09",
+        "knowledgeId": "grammar-03",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Elle ___ deux enfants.（avoir，现在时）",
+        "answers": [
+          "a"
+        ],
+        "explanation": "elle 对应 a。",
+        "pitfall": "elle 对应 a。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-03-ex-10",
+        "knowledgeId": "grammar-03",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "用 travailler 表达“我们周一工作”。",
+        "answers": [
+          "Nous travaillons le lundi."
+        ],
+        "explanation": "规律发生的星期前可用 le。",
+        "pitfall": "规律发生的星期前可用 le。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-04",
+    "title": "介词、地点与缩合冠词",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用介词、地点与缩合冠词",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-03"
+    ],
+    "source": {
+      "file": "leçon 7/Leçon sept.pdf",
+      "page": 1,
+      "node": "冠词 → 缩合冠词",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "à + le = au；à + les = aux；de + le = du；de + les = des。à la/à l’ 不缩合。城市通常用 à，阴性国家用 en、阳性辅音开头国家用 au、复数国家用 aux。chez 用于某人的住处或某类从业者处。",
+        "examples": [
+          {
+            "fr": "Samedi, je vais au marché avec ma voisine.",
+            "zh": "周六，我和邻居去市场。"
+          },
+          {
+            "fr": "Nous partons de la maison à dix heures.",
+            "zh": "我们十点从家出发。"
+          }
+        ]
+      }
+    ],
+    "comparison": "au 是 à + le 的缩合（au marché）；à la 保持两词（à la pharmacie）；aux 用于复数（aux États-Unis）。chez Paul 指保罗家，à Paris 指城市。",
+    "errors": [
+      {
+        "wrong": "Je vais à le marché.",
+        "correct": "Je vais au marché.",
+        "reason": "à le 必须缩合。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-05"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-04",
+      "title": "和邻居逛市场",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察介词、地点与缩合冠词",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-04"
+      ],
+      "text": "Samedi, je vais au marché avec ma voisine. Nous partons de la maison à dix heures. Au marché, nous achetons des légumes, puis nous allons à la pharmacie. Ma voisine veut ensuite passer chez le boulanger. Elle vient du Canada et elle connaît bien ce quartier. Pour rentrer, nous marchons jusqu’à la station de métro. C’est une promenade agréable.",
+      "translation": "周六，我和邻居去市场。我们十点从家出发。在市场，我们买了蔬菜，然后去药店。邻居接着想去面包师的店。她来自加拿大，非常熟悉这个街区。回家时，我们步行到地铁站。这是一次愉快的散步。",
+      "vocabulary": [
+        {
+          "fr": "une voisine",
+          "zh": "女邻居"
+        },
+        {
+          "fr": "la pharmacie",
+          "zh": "药店"
+        },
+        {
+          "fr": "jusqu’à",
+          "zh": "直到、一直到"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Samedi, je vais au marché avec ma voisine.",
+          "explanation": "à + le = au；à + les = aux；de + le = du；de + les = des。à la/à l’ 不缩合。城市通常用 à，阴性国家用 en、阳性辅音开头国家用 au、复数国家用 aux。chez 用于某人的住处或某类从业者处。",
+          "knowledgeId": "grammar-04"
+        },
+        {
+          "fr": "Nous partons de la maison à dix heures.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-04"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "逛市场后，两人先去了哪里？",
+          "answer": "À la pharmacie. 药店。"
+        },
+        {
+          "question": "他们走到哪里去坐地铁回家？",
+          "answer": "Jusqu’à la station de métro. 走到地铁站。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-04-ex-01",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Je vais ___ cinéma.",
+        "answers": [
+          "au"
+        ],
+        "explanation": "à + le 缩合为 au。",
+        "pitfall": "à + le 缩合为 au。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "à le",
+          "au",
+          "du"
+        ]
+      },
+      {
+        "id": "grammar-04-ex-02",
+        "knowledgeId": "grammar-04",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Elle revient ___ Canada.（从加拿大回来，用de与定冠词缩合）",
+        "answers": [
+          "du"
+        ],
+        "explanation": "de + le 缩合为 du。",
+        "pitfall": "de + le 缩合为 du。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-03",
+        "knowledgeId": "grammar-04",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Nous habitons ___ France.",
+        "answers": [
+          "en"
+        ],
+        "explanation": "阴性国家前用 en。",
+        "pitfall": "阴性国家前用 en。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-04",
+        "knowledgeId": "grammar-04",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Ils vont ___ États-Unis.",
+        "answers": [
+          "aux"
+        ],
+        "explanation": "复数国家用 aux。",
+        "pitfall": "复数国家用 aux。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-05",
+        "knowledgeId": "grammar-04",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Je vais à le marché.",
+        "answers": [
+          "Je vais au marché."
+        ],
+        "explanation": "à le 必须缩合。",
+        "pitfall": "à le 必须缩合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-06",
+        "knowledgeId": "grammar-04",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我去保罗家。",
+        "answers": [
+          "Je vais chez Paul."
+        ],
+        "explanation": "某人的家用 chez。",
+        "pitfall": "某人的家用 chez。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-07",
+        "knowledgeId": "grammar-04",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：à Montréal / habite / elle",
+        "answers": [
+          "Elle habite à Montréal."
+        ],
+        "explanation": "城市前用 à。",
+        "pitfall": "城市前用 à。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-08",
+        "knowledgeId": "grammar-04",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Je parle ___ voisins.（de + les）",
+        "answers": [
+          "des"
+        ],
+        "explanation": "de les 缩合为 des。",
+        "pitfall": "de les 缩合为 des。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-09",
+        "knowledgeId": "grammar-04",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：她去学校。",
+        "answers": [
+          "Elle va à l’école.",
+          "Elle va à l'école."
+        ],
+        "explanation": "à l’ 不缩合。",
+        "pitfall": "à l’ 不缩合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-04-ex-10",
+        "knowledgeId": "grammar-04",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "告诉朋友你在面包店，用“我在面包师的店里”。",
+        "answers": [
+          "Je suis chez le boulanger."
+        ],
+        "explanation": "chez 也可用于从业者营业处。",
+        "pitfall": "chez 也可用于从业者营业处。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-05",
+    "title": "部分冠词、数量与否定",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用部分冠词、数量与否定",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-04"
+    ],
+    "source": {
+      "file": "leçon 7/Leçon sept.pdf",
+      "page": 1,
+      "node": "冠词 → 部分冠词；短文 → 否定",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "du/de la/de l’ 用于未定量的不可数事物，des 用于未定量的可数复数。数量短语 beaucoup de/un peu de 后通常不用冠词。一般否定中不定冠词及部分冠词通常变为 de/d’，但 être 后通常保留原冠词，表达对比时也可能保留。",
+        "examples": [
+          {
+            "fr": "Le dimanche, je prépare une soupe pour mes amis.",
+            "zh": "周日，我为朋友们做汤。"
+          },
+          {
+            "fr": "Il faut de l’eau, des carottes et un peu de sel.",
+            "zh": "需要水、胡萝卜和一点盐。"
+          }
+        ]
+      }
+    ],
+    "comparison": "未定量：du pain；明确数量：un morceau de pain；一般否定：pas de pain。表达一般喜好用 j’aime le pain，不能把所有中文“面包”都写成 du pain。",
+    "errors": [
+      {
+        "wrong": "Je ne mange pas du pain.（一般否定，无对比）",
+        "correct": "Je ne mange pas de pain.",
+        "reason": "一般否定中 du 变 de。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-06"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-05",
+      "title": "周日的一锅汤",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察部分冠词、数量与否定",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-05"
+      ],
+      "text": "Le dimanche, je prépare une soupe pour mes amis. Il faut de l’eau, des carottes et un peu de sel. Je prends aussi du pain et du fromage. Une amie ne mange pas de viande, alors je fais un repas végétarien. Nous n’avons pas beaucoup de temps, mais tout est prêt à midi. Après le repas, nous buvons du thé et nous discutons.",
+      "translation": "周日，我为朋友们做汤。需要水、胡萝卜和一点盐。我还拿了面包和奶酪。一位朋友不吃肉，所以我做了素食餐。我们时间不多，但中午一切都准备好了。饭后，我们喝茶聊天。",
+      "vocabulary": [
+        {
+          "fr": "le sel",
+          "zh": "盐"
+        },
+        {
+          "fr": "végétarien",
+          "zh": "素食的"
+        },
+        {
+          "fr": "être prêt",
+          "zh": "准备好"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Le dimanche, je prépare une soupe pour mes amis.",
+          "explanation": "du/de la/de l’ 用于未定量的不可数事物，des 用于未定量的可数复数。数量短语 beaucoup de/un peu de 后通常不用冠词。一般否定中不定冠词及部分冠词通常变为 de/d’，但 être 后通常保留原冠词，表达对比时也可能保留。",
+          "knowledgeId": "grammar-05"
+        },
+        {
+          "fr": "Il faut de l’eau, des carottes et un peu de sel.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-05"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "为什么主人公准备素食餐？",
+          "answer": "Parce qu’une amie ne mange pas de viande. 因为一位朋友不吃肉。"
+        },
+        {
+          "question": "餐后他们做什么？",
+          "answer": "Ils boivent du thé et discutent. 他们喝茶聊天。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-05-ex-01",
+        "knowledgeId": "grammar-05",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Je bois ___ eau.",
+        "answers": [
+          "de l’",
+          "de l'"
+        ],
+        "explanation": "eau 阴性且以元音开头。",
+        "pitfall": "eau 阴性且以元音开头。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "du",
+          "de l’",
+          "de la"
+        ]
+      },
+      {
+        "id": "grammar-05-ex-02",
+        "knowledgeId": "grammar-05",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Elle mange ___ soupe.（用部分冠词表示未定量）",
+        "answers": [
+          "de la"
+        ],
+        "explanation": "soupe 为阴性不可数食物。",
+        "pitfall": "soupe 为阴性不可数食物。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-03",
+        "knowledgeId": "grammar-05",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Il achète ___ pain.（用部分冠词表示未定量）",
+        "answers": [
+          "du"
+        ],
+        "explanation": "pain 用 du 表示未定量。",
+        "pitfall": "pain 用 du 表示未定量。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-04",
+        "knowledgeId": "grammar-05",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Nous avons beaucoup ___ travail.",
+        "answers": [
+          "de"
+        ],
+        "explanation": "数量短语后用 de。",
+        "pitfall": "数量短语后用 de。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-05",
+        "knowledgeId": "grammar-05",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Je ne mange pas du pain.（一般否定，无对比）",
+        "answers": [
+          "Je ne mange pas de pain."
+        ],
+        "explanation": "一般否定中 du 变 de。",
+        "pitfall": "一般否定中 du 变 de。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-06",
+        "knowledgeId": "grammar-05",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我有一点时间。",
+        "answers": [
+          "J’ai un peu de temps.",
+          "J'ai un peu de temps."
+        ],
+        "explanation": "un peu de 后直接接名词。",
+        "pitfall": "un peu de 后直接接名词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-07",
+        "knowledgeId": "grammar-05",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：pas / de lait / je / n’ai",
+        "answers": [
+          "Je n’ai pas de lait.",
+          "Je n'ai pas de lait."
+        ],
+        "explanation": "否定包围变位动词。",
+        "pitfall": "否定包围变位动词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-08",
+        "knowledgeId": "grammar-05",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Ce n’est pas ___ café.（“这不是咖啡”，用部分冠词）",
+        "answers": [
+          "du"
+        ],
+        "explanation": "être 的否定通常保留冠词。",
+        "pitfall": "être 的否定通常保留冠词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-09",
+        "knowledgeId": "grammar-05",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：她不买苹果。",
+        "answers": [
+          "Elle n’achète pas de pommes.",
+          "Elle n'achète pas de pommes."
+        ],
+        "explanation": "不定复数 des 在一般否定中变 de。",
+        "pitfall": "不定复数 des 在一般否定中变 de。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-05-ex-10",
+        "knowledgeId": "grammar-05",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "用完整句表达“我们需要盐”。",
+        "answers": [
+          "Nous avons besoin de sel."
+        ],
+        "explanation": "avoir besoin de 后接未定量物质用 de。",
+        "pitfall": "avoir besoin de 后接未定量物质用 de。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-06",
+    "title": "疑问句与否定句",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用疑问句与否定句",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-05"
+    ],
+    "source": {
+      "file": "leçon 8/代动词(1).pdf",
+      "page": 1,
+      "node": "Négation；数量表达",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "中性提问常用 est-ce que + 陈述句语序；口语可用升调，正式表达可倒装。疑问词 où/quand/comment/pourquoi 分别询问地点、时间、方式、原因。书面否定 ne…pas 包围变位动词，ne…rien 表示什么也不，ne…personne 表示没有人。",
+        "examples": [
+          {
+            "fr": "Je cherche un cours de dessin près de chez moi.",
+            "zh": "我在家附近寻找绘画课。"
+          },
+          {
+            "fr": "J’appelle une association et je demande : « Quand est-ce que le cours commence ? » La secrétaire explique que le groupe se réunit le mercredi.",
+            "zh": "我打电话给一家协会，问：“课程什么时候开始？”秘书解释说小组周三上课。"
+          }
+        ]
+      }
+    ],
+    "comparison": "est-ce que tu viens ? 是中性提问；viens-tu ? 较正式；tu viens ? 常见于口语。书面否定应保留 ne，口语中省 ne 的形式不宜直接照搬正式作文。",
+    "errors": [
+      {
+        "wrong": "补全书面否定：Je connais personne.",
+        "correct": "Je ne connais personne.",
+        "reason": "personne 与 ne 构成否定。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-07"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-06",
+      "title": "寻找绘画课",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察疑问句与否定句",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-06"
+      ],
+      "text": "Je cherche un cours de dessin près de chez moi. J’appelle une association et je demande : « Quand est-ce que le cours commence ? » La secrétaire explique que le groupe se réunit le mercredi. Je ne travaille pas ce jour-là. Je demande aussi combien coûte l’inscription. Le matériel n’est pas cher et je ne connais personne dans le groupe. C’est l’occasion de rencontrer de nouveaux voisins.",
+      "translation": "我在家附近寻找绘画课。我打电话给一家协会，问：“课程什么时候开始？”秘书解释说小组周三上课。那天我不工作。我还问报名费是多少。材料不贵，我在组里一个人也不认识。这是认识新邻居的机会。",
+      "vocabulary": [
+        {
+          "fr": "une inscription",
+          "zh": "报名"
+        },
+        {
+          "fr": "le matériel",
+          "zh": "材料、器材"
+        },
+        {
+          "fr": "l’occasion de",
+          "zh": "做……的机会"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Je cherche un cours de dessin près de chez moi.",
+          "explanation": "中性提问常用 est-ce que + 陈述句语序；口语可用升调，正式表达可倒装。疑问词 où/quand/comment/pourquoi 分别询问地点、时间、方式、原因。书面否定 ne…pas 包围变位动词，ne…rien 表示什么也不，ne…personne 表示没有人。",
+          "knowledgeId": "grammar-06"
+        },
+        {
+          "fr": "J’appelle une association et je demande : « Quand est-ce que le cours commence ? » La secrétaire explique que le groupe se réunit le mercredi.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-06"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "绘画小组星期几上课？",
+          "answer": "Le mercredi. 星期三。"
+        },
+        {
+          "question": "主人公为什么周三方便上课？",
+          "answer": "Il ne travaille pas ce jour-là. 那天不工作。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-06-ex-01",
+        "knowledgeId": "grammar-06",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "___ habitez-vous ?（问地点）",
+        "answers": [
+          "Où"
+        ],
+        "explanation": "où 询问地点，须有重音。",
+        "pitfall": "où 询问地点，须有重音。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "Ou",
+          "Où",
+          "Quand"
+        ]
+      },
+      {
+        "id": "grammar-06-ex-02",
+        "knowledgeId": "grammar-06",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "___ est-ce que le cours commence ?（问时间）",
+        "answers": [
+          "Quand"
+        ],
+        "explanation": "quand 询问时间。",
+        "pitfall": "quand 询问时间。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-03",
+        "knowledgeId": "grammar-06",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "补全书面否定：Je connais personne.",
+        "answers": [
+          "Je ne connais personne."
+        ],
+        "explanation": "personne 与 ne 构成否定。",
+        "pitfall": "personne 与 ne 构成否定。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-04",
+        "knowledgeId": "grammar-06",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "用 est-ce que 译：你有时间吗？",
+        "answers": [
+          "Est-ce que tu as le temps ?"
+        ],
+        "explanation": "est-ce que 后保持主谓顺序。",
+        "pitfall": "est-ce que 后保持主谓顺序。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-05",
+        "knowledgeId": "grammar-06",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：pas / ne / travaille / je / demain",
+        "answers": [
+          "Je ne travaille pas demain."
+        ],
+        "explanation": "ne 和 pas 包围 travaille。",
+        "pitfall": "ne 和 pas 包围 travaille。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-06",
+        "knowledgeId": "grammar-06",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Je ne mange ___.（什么也不吃）",
+        "answers": [
+          "rien"
+        ],
+        "explanation": "ne…rien 表示没有任何东西。",
+        "pitfall": "ne…rien 表示没有任何东西。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-07",
+        "knowledgeId": "grammar-06",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：你为什么学法语？（用倒装）",
+        "answers": [
+          "Pourquoi apprends-tu le français ?"
+        ],
+        "explanation": "pourquoi 后倒装。",
+        "pitfall": "pourquoi 后倒装。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-08",
+        "knowledgeId": "grammar-06",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "___ coûte ce livre ?（问价格）",
+        "answers": [
+          "Combien"
+        ],
+        "explanation": "combien 问数量或价格。",
+        "pitfall": "combien 问数量或价格。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-09",
+        "knowledgeId": "grammar-06",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Je ne veux manger rien.",
+        "answers": [
+          "Je ne veux rien manger."
+        ],
+        "explanation": "rien 通常置于不定式前。",
+        "pitfall": "rien 通常置于不定式前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-06-ex-10",
+        "knowledgeId": "grammar-06",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "礼貌询问课程在哪里，用 où + est-ce que。",
+        "answers": [
+          "Où est-ce que le cours a lieu ?"
+        ],
+        "explanation": "avoir lieu 表示举行。",
+        "pitfall": "avoir lieu 表示举行。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-07",
+    "title": "形容词的性数与位置",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用形容词的性数与位置",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-06"
+    ],
+    "source": {
+      "file": "leçon 13/Adj 形容词(2).pdf",
+      "page": 1,
+      "node": "Adj 形容词 → 常用形容词",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "多数形容词随名词性数变化：petit/petite/petits/petites。有些阴阳同形，如 calme；beau/belle 等不规则须记忆。多数形容词放名词后，常见短形容词 grand/petit/beau 等常在名前。颜色形容词有特殊不变情形，本单元先练简单颜色。",
+        "examples": [
+          {
+            "fr": "Nous visitons un petit appartement lumineux.",
+            "zh": "我们参观一套明亮的小公寓。"
+          },
+          {
+            "fr": "La cuisine est moderne et les fenêtres sont grandes.",
+            "zh": "厨房很现代，窗户很大。"
+          }
+        ]
+      }
+    ],
+    "comparison": "grand 通常放名前：un grand appartement；颜色通常放名后：des murs blancs。grand/grande 变化，calme/calme 阴阳同形；不可机械给所有阴性加 e。",
+    "errors": [
+      {
+        "wrong": "des chaises bleu",
+        "correct": "des chaises bleues",
+        "reason": "简单颜色形容词配合。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-08"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-07",
+      "title": "参观一套公寓",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察形容词的性数与位置",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-07"
+      ],
+      "text": "Nous visitons un petit appartement lumineux. La cuisine est moderne et les fenêtres sont grandes. Dans le salon, il y a une table ronde et deux chaises bleues. Ma sœur trouve la chambre agréable, mais elle préfère les murs blancs. Le propriétaire est gentil et répond à nos questions. Le loyer reste élevé. Nous décidons de comparer quelques logements avant de signer un contrat.",
+      "translation": "我们参观一套明亮的小公寓。厨房很现代，窗户很大。客厅里有一张圆桌和两把蓝色椅子。我的姐妹觉得卧室舒适，但她更喜欢白色的墙。房东很友善，回答了我们的问题。租金仍然很高。我们决定签合同前再比较几处住房。",
+      "vocabulary": [
+        {
+          "fr": "lumineux",
+          "zh": "明亮的"
+        },
+        {
+          "fr": "le propriétaire",
+          "zh": "房东；业主"
+        },
+        {
+          "fr": "un loyer",
+          "zh": "租金"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Nous visitons un petit appartement lumineux.",
+          "explanation": "多数形容词随名词性数变化：petit/petite/petits/petites。有些阴阳同形，如 calme；beau/belle 等不规则须记忆。多数形容词放名词后，常见短形容词 grand/petit/beau 等常在名前。颜色形容词有特殊不变情形，本单元先练简单颜色。",
+          "knowledgeId": "grammar-07"
+        },
+        {
+          "fr": "La cuisine est moderne et les fenêtres sont grandes.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-07"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "他们为什么没有立即签合同？",
+          "answer": "Ils veulent comparer quelques logements ; le loyer reste élevé. 他们想比较其他住房，租金仍很高。"
+        },
+        {
+          "question": "主人公的姐妹喜欢什么颜色的墙？",
+          "answer": "Des murs blancs. 白色的墙。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-07-ex-01",
+        "knowledgeId": "grammar-07",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Une maison ___（petit）",
+        "answers": [
+          "petite"
+        ],
+        "explanation": "阴性单数加 e。",
+        "pitfall": "阴性单数加 e。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "petit",
+          "petite",
+          "petites"
+        ]
+      },
+      {
+        "id": "grammar-07-ex-02",
+        "knowledgeId": "grammar-07",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Des fenêtres ___（grand）",
+        "answers": [
+          "grandes"
+        ],
+        "explanation": "阴性复数加 es。",
+        "pitfall": "阴性复数加 es。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-03",
+        "knowledgeId": "grammar-07",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Une ___ journée（beau）",
+        "answers": [
+          "belle"
+        ],
+        "explanation": "beau 的阴性是 belle。",
+        "pitfall": "beau 的阴性是 belle。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-04",
+        "knowledgeId": "grammar-07",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：des chaises bleu",
+        "answers": [
+          "des chaises bleues"
+        ],
+        "explanation": "简单颜色形容词配合。",
+        "pitfall": "简单颜色形容词配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-05",
+        "knowledgeId": "grammar-07",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：厨房很现代。",
+        "answers": [
+          "La cuisine est moderne."
+        ],
+        "explanation": "moderne 阴阳同形。",
+        "pitfall": "moderne 阴阳同形。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-06",
+        "knowledgeId": "grammar-07",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：un / appartement / petit",
+        "answers": [
+          "Un petit appartement."
+        ],
+        "explanation": "petit 通常位于名前。",
+        "pitfall": "petit 通常位于名前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-07",
+        "knowledgeId": "grammar-07",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Mes amies sont ___（heureux）",
+        "answers": [
+          "heureuses"
+        ],
+        "explanation": "heureux 阴性为 heureuse。",
+        "pitfall": "heureux 阴性为 heureuse。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-08",
+        "knowledgeId": "grammar-07",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：两张圆桌。",
+        "answers": [
+          "Deux tables rondes."
+        ],
+        "explanation": "rond 随阴性复数变化。",
+        "pitfall": "rond 随阴性复数变化。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-09",
+        "knowledgeId": "grammar-07",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：une voisin gentil",
+        "answers": [
+          "une voisine gentille"
+        ],
+        "explanation": "名词和形容词均需阴性。",
+        "pitfall": "名词和形容词均需阴性。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-07-ex-10",
+        "knowledgeId": "grammar-07",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "描述白色复数墙壁，用“墙是白色的”。",
+        "answers": [
+          "Les murs sont blancs."
+        ],
+        "explanation": "mur 阳性复数，blanc 加 s。",
+        "pitfall": "mur 阳性复数，blanc 加 s。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-08",
+    "title": "比较级、最高级与副词",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用比较级、最高级与副词",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-07"
+    ],
+    "source": {
+      "file": "leçon 14/比较级&最高级(3).pdf",
+      "page": 1,
+      "node": "比较级 / 最高级",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "形容词或副词比较用 plus/aussi/moins…que；名词数量比较用 plus de/autant de/moins de…que。bon 的比较级是 meilleur，bien 的比较级是 mieux。形容词最高级使用 le/la/les plus 或 moins，并与名词配合。",
+        "examples": [
+          {
+            "fr": "Pour aller au travail, j’hésite entre le vélo et le bus.",
+            "zh": "上班时，我在骑车和坐公交之间犹豫。"
+          },
+          {
+            "fr": "Le vélo est moins cher que le bus, mais le trajet est plus fatigant en hiver.",
+            "zh": "骑车比公交便宜，但冬天更累。"
+          }
+        ]
+      }
+    ],
+    "comparison": "bon 是形容词（un meilleur repas），bien 是副词（manger mieux）。aussi + 形容词/副词（aussi vite），autant de + 名词（autant de livres）。",
+    "errors": [
+      {
+        "wrong": "Elle est aussi grande comme moi.",
+        "correct": "Elle est aussi grande que moi.",
+        "reason": "相等比较的连接词是 que。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-09"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-08",
+      "title": "选择上班方式",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察比较级、最高级与副词",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-08"
+      ],
+      "text": "Pour aller au travail, j’hésite entre le vélo et le bus. Le vélo est moins cher que le bus, mais le trajet est plus fatigant en hiver. Ma collègue habite aussi loin que moi et elle prend toujours le métro. Elle dit que c’est le moyen le plus pratique. Je préfère varier : quand il fait beau, je roule. Les jours de pluie, je voyage plus confortablement en bus.",
+      "translation": "上班时，我在骑车和坐公交之间犹豫。骑车比公交便宜，但冬天更累。同事住得和我一样远，她总坐地铁。她说这是最方便的方式。我更喜欢灵活选择：天气好时骑车，下雨时坐公交更舒适。",
+      "vocabulary": [
+        {
+          "fr": "hésiter entre",
+          "zh": "在……之间犹豫"
+        },
+        {
+          "fr": "fatigant",
+          "zh": "令人疲劳的"
+        },
+        {
+          "fr": "varier",
+          "zh": "变换、使多样化"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Pour aller au travail, j’hésite entre le vélo et le bus.",
+          "explanation": "形容词或副词比较用 plus/aussi/moins…que；名词数量比较用 plus de/autant de/moins de…que。bon 的比较级是 meilleur，bien 的比较级是 mieux。形容词最高级使用 le/la/les plus 或 moins，并与名词配合。",
+          "knowledgeId": "grammar-08"
+        },
+        {
+          "fr": "Le vélo est moins cher que le bus, mais le trajet est plus fatigant en hiver.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-08"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公下雨天选择什么交通方式？",
+          "answer": "Le bus. 公交车。"
+        },
+        {
+          "question": "同事通常乘什么交通工具？",
+          "answer": "Le métro. 地铁。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-08-ex-01",
+        "knowledgeId": "grammar-08",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Ce trajet est ___ long que l’autre.（更长）",
+        "answers": [
+          "plus"
+        ],
+        "explanation": "形容词比较用 plus…que。",
+        "pitfall": "形容词比较用 plus…que。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "plus",
+          "aussi",
+          "autant"
+        ]
+      },
+      {
+        "id": "grammar-08-ex-02",
+        "knowledgeId": "grammar-08",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elle a ___ de livres que moi.（一样多）",
+        "answers": [
+          "autant"
+        ],
+        "explanation": "名词数量比较用 autant de。",
+        "pitfall": "名词数量比较用 autant de。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-03",
+        "knowledgeId": "grammar-08",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Ce pain est ___ que celui d’hier.（bon 比较级）",
+        "answers": [
+          "meilleur"
+        ],
+        "explanation": "bon 不能写作 plus bon。",
+        "pitfall": "bon 不能写作 plus bon。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-04",
+        "knowledgeId": "grammar-08",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elle travaille ___ qu’avant.（bien 比较级）",
+        "answers": [
+          "mieux"
+        ],
+        "explanation": "修饰动词使用副词 mieux。",
+        "pitfall": "修饰动词使用副词 mieux。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-05",
+        "knowledgeId": "grammar-08",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Elle est aussi grande comme moi.",
+        "answers": [
+          "Elle est aussi grande que moi."
+        ],
+        "explanation": "相等比较的连接词是 que。",
+        "pitfall": "相等比较的连接词是 que。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-06",
+        "knowledgeId": "grammar-08",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：公交比汽车便宜。",
+        "answers": [
+          "Le bus est moins cher que la voiture."
+        ],
+        "explanation": "moins cher 表示更便宜。",
+        "pitfall": "moins cher 表示更便宜。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-07",
+        "knowledgeId": "grammar-08",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：la / ville / plus / belle",
+        "answers": [
+          "La plus belle ville."
+        ],
+        "explanation": "最高级冠词与 ville 配合。",
+        "pitfall": "最高级冠词与 ville 配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-08",
+        "knowledgeId": "grammar-08",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "C’est ___ meilleur restaurant du quartier.",
+        "answers": [
+          "le"
+        ],
+        "explanation": "restaurant 阳性单数。",
+        "pitfall": "restaurant 阳性单数。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-09",
+        "knowledgeId": "grammar-08",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：我跑得比以前快。",
+        "answers": [
+          "Je cours plus vite qu’avant.",
+          "Je cours plus vite qu'avant."
+        ],
+        "explanation": "vite 为副词，无性数变化。",
+        "pitfall": "vite 为副词，无性数变化。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-08-ex-10",
+        "knowledgeId": "grammar-08",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "比较两个方案：这个方案更好（用 solution）。",
+        "answers": [
+          "Cette solution est meilleure."
+        ],
+        "explanation": "meilleure 配合阴性 solution。",
+        "pitfall": "meilleure 配合阴性 solution。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-09",
+    "title": "数字、日期与时间",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用数字、日期与时间",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-08"
+    ],
+    "source": {
+      "file": "leçon 5/Central Topic(4).pdf",
+      "page": 1,
+      "node": "数字 / 日期；第16课补充数量",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "日期用 le + 数字 + 月份，月首用 premier；月份和星期通常小写。heure 随数量变化，钟点可用 et quart/et demie。cent 在倍数且后无其他数词时加 s；mille 不变。金额中的小数读 virgule 或按欧元与分读法。",
+        "examples": [
+          {
+            "fr": "L’atelier commence le premier avril à neuf heures et demie.",
+            "zh": "工作坊四月一日上午九点半开始。"
+          },
+          {
+            "fr": "Il dure deux heures.",
+            "zh": "它持续两小时。"
+          }
+        ]
+      }
+    ],
+    "comparison": "日期月首用 le premier avril，其他日子用 le deux avril；钟点九点半用 neuf heures et demie，数量“一小时半”用 une heure et demie。",
+    "errors": [
+      {
+        "wrong": "deux milles personnes",
+        "correct": "deux mille personnes",
+        "reason": "数词 mille 不加 s。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-10"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-09",
+      "title": "工作坊的安排",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察数字、日期与时间",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-09"
+      ],
+      "text": "L’atelier commence le premier avril à neuf heures et demie. Il dure deux heures. Chaque participant paie quinze euros et apporte un carnet. J’arrive à neuf heures vingt pour aider à préparer la salle. Il y a vingt et une personnes inscrites. À midi, nous partageons un déjeuner dans le jardin. Je note la date de la prochaine rencontre : le quinze mai.",
+      "translation": "工作坊四月一日上午九点半开始，持续两小时。每位参加者支付十五欧元并带一本笔记本。我九点二十分到场帮忙布置。共有二十一人报名。中午，我们在花园共进午餐。我记下下次见面的日期：五月十五日。",
+      "vocabulary": [
+        {
+          "fr": "un atelier",
+          "zh": "工作坊"
+        },
+        {
+          "fr": "un carnet",
+          "zh": "笔记本"
+        },
+        {
+          "fr": "un participant",
+          "zh": "参加者"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "L’atelier commence le premier avril à neuf heures et demie.",
+          "explanation": "日期用 le + 数字 + 月份，月首用 premier；月份和星期通常小写。heure 随数量变化，钟点可用 et quart/et demie。cent 在倍数且后无其他数词时加 s；mille 不变。金额中的小数读 virgule 或按欧元与分读法。",
+          "knowledgeId": "grammar-09"
+        },
+        {
+          "fr": "Il dure deux heures.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-09"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "工作坊持续多久？",
+          "answer": "Deux heures. 两小时。"
+        },
+        {
+          "question": "每位参与者要带什么？",
+          "answer": "Un carnet. 一册笔记本。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-09-ex-01",
+        "knowledgeId": "grammar-09",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "四月一日：le ___ avril",
+        "answers": [
+          "premier"
+        ],
+        "explanation": "日期仅月首用序数词。",
+        "pitfall": "日期仅月首用序数词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "un",
+          "premier",
+          "première"
+        ]
+      },
+      {
+        "id": "grammar-09-ex-02",
+        "knowledgeId": "grammar-09",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "把21写成法语（传统拼写）。",
+        "answers": [
+          "vingt et un"
+        ],
+        "explanation": "21 有 et。",
+        "pitfall": "21 有 et。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-03",
+        "knowledgeId": "grammar-09",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "把80写成法语。",
+        "answers": [
+          "quatre-vingts"
+        ],
+        "explanation": "整80的 vingt 加 s。",
+        "pitfall": "整80的 vingt 加 s。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-04",
+        "knowledgeId": "grammar-09",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "把81写成法语。",
+        "answers": [
+          "quatre-vingt-un"
+        ],
+        "explanation": "后有数词时 vingt 不加 s。",
+        "pitfall": "后有数词时 vingt 不加 s。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-05",
+        "knowledgeId": "grammar-09",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "200：deux ___",
+        "answers": [
+          "cents"
+        ],
+        "explanation": "倍数且末尾的 cent 加 s。",
+        "pitfall": "倍数且末尾的 cent 加 s。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-06",
+        "knowledgeId": "grammar-09",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：deux milles personnes",
+        "answers": [
+          "deux mille personnes"
+        ],
+        "explanation": "数词 mille 不加 s。",
+        "pitfall": "数词 mille 不加 s。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-07",
+        "knowledgeId": "grammar-09",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：avril / le / quinze",
+        "answers": [
+          "Le quinze avril."
+        ],
+        "explanation": "日期先数字后月份。",
+        "pitfall": "日期先数字后月份。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-08",
+        "knowledgeId": "grammar-09",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：九点半。",
+        "answers": [
+          "Neuf heures et demie."
+        ],
+        "explanation": "heure 阴性，demie 配合。",
+        "pitfall": "heure 阴性，demie 配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-09",
+        "knowledgeId": "grammar-09",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "1,5：un ___ cinq",
+        "answers": [
+          "virgule"
+        ],
+        "explanation": "法语小数点读 virgule。",
+        "pitfall": "法语小数点读 virgule。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-09-ex-10",
+        "knowledgeId": "grammar-09",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "用完整句说课程十点开始。",
+        "answers": [
+          "Le cours commence à dix heures."
+        ],
+        "explanation": "钟点前用 à。",
+        "pitfall": "钟点前用 à。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-10",
+    "title": "情态表达与最近将来时",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用情态表达与最近将来时",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-09"
+    ],
+    "source": {
+      "file": "leçon 4/Leçon quatre(4).pdf",
+      "page": 1,
+      "node": "Pouvoir / Vouloir；第2课 Aller",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "pouvoir/vouloir/devoir 后接不定式，不要将两个动词都变位。最近将来时用 aller 的现在时 + 不定式，表达计划或即将发生的事。礼貌请求常用 je voudrais/pourriez-vous，这是条件式，不能当作现在时变位。",
+        "examples": [
+          {
+            "fr": "Demain, je vais visiter une exposition avec un ami.",
+            "zh": "明天，我要和朋友参观展览。"
+          },
+          {
+            "fr": "Nous voulons partir tôt, mais il doit travailler jusqu’à midi.",
+            "zh": "我们想早点出发，但他必须工作到中午。"
+          }
+        ]
+      }
+    ],
+    "comparison": "je vais partir 用 aller 现在时 + 不定式表达接近当前的计划；je veux partir 表达意愿；je dois partir 表达义务；je voudrais 是委婉条件式。",
+    "errors": [
+      {
+        "wrong": "Je peux viens.",
+        "correct": "Je peux venir.",
+        "reason": "情态动词后不定式。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-11"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-10",
+      "title": "明天的展览",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察情态表达与最近将来时",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-10"
+      ],
+      "text": "Demain, je vais visiter une exposition avec un ami. Nous voulons partir tôt, mais il doit travailler jusqu’à midi. Je peux acheter les billets en ligne pendant la matinée. Ensuite, nous allons déjeuner près du musée. Je voudrais voir les photographies de voyage. Mon ami préfère les peintures. Nous allons prendre notre temps et discuter de ce que nous aimons.",
+      "translation": "明天，我要和朋友参观展览。我们想早点出发，但他必须工作到中午。我可以上午在网上买票。随后我们会在博物馆附近吃午饭。我想看旅行摄影，朋友更喜欢绘画。我们会慢慢看，讨论各自喜欢的内容。",
+      "vocabulary": [
+        {
+          "fr": "une exposition",
+          "zh": "展览"
+        },
+        {
+          "fr": "un billet",
+          "zh": "票"
+        },
+        {
+          "fr": "prendre son temps",
+          "zh": "慢慢来、从容行事"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Demain, je vais visiter une exposition avec un ami.",
+          "explanation": "pouvoir/vouloir/devoir 后接不定式，不要将两个动词都变位。最近将来时用 aller 的现在时 + 不定式，表达计划或即将发生的事。礼貌请求常用 je voudrais/pourriez-vous，这是条件式，不能当作现在时变位。",
+          "knowledgeId": "grammar-10"
+        },
+        {
+          "fr": "Nous voulons partir tôt, mais il doit travailler jusqu’à midi.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-10"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公和朋友偏好的展品有什么不同？",
+          "answer": "Le narrateur préfère les photographies ; son ami préfère les peintures. 主人公偏好摄影，朋友更喜欢绘画。"
+        },
+        {
+          "question": "他们为什么不能很早出发？",
+          "answer": "L’ami doit travailler jusqu’à midi. 朋友必须工作到中午。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-10-ex-01",
+        "knowledgeId": "grammar-10",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "pouvoir：nous ___",
+        "answers": [
+          "pouvons"
+        ],
+        "explanation": "pouvoir 的 nous 形式。",
+        "pitfall": "pouvoir 的 nous 形式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-02",
+        "knowledgeId": "grammar-10",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "vouloir：vous ___",
+        "answers": [
+          "voulez"
+        ],
+        "explanation": "vouloir 的 vous 形式。",
+        "pitfall": "vouloir 的 vous 形式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-03",
+        "knowledgeId": "grammar-10",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Elle va ___ demain.（partir）",
+        "answers": [
+          "partir"
+        ],
+        "explanation": "aller 后接不定式。",
+        "pitfall": "aller 后接不定式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "part",
+          "partir",
+          "parti"
+        ]
+      },
+      {
+        "id": "grammar-10-ex-04",
+        "knowledgeId": "grammar-10",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Je peux viens.",
+        "answers": [
+          "Je peux venir."
+        ],
+        "explanation": "情态动词后不定式。",
+        "pitfall": "情态动词后不定式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-05",
+        "knowledgeId": "grammar-10",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "用最近将来时译成法语：我们要学习。",
+        "answers": [
+          "Nous allons étudier."
+        ],
+        "explanation": "最近将来：aller + 不定式。",
+        "pitfall": "最近将来：aller + 不定式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-06",
+        "knowledgeId": "grammar-10",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：dois / partir / je",
+        "answers": [
+          "Je dois partir."
+        ],
+        "explanation": "只对 dois 变位。",
+        "pitfall": "只对 dois 变位。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-07",
+        "knowledgeId": "grammar-10",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Tu ___ acheter le billet.（vouloir）",
+        "answers": [
+          "veux"
+        ],
+        "explanation": "tu 对应 veux。",
+        "pitfall": "tu 对应 veux。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-08",
+        "knowledgeId": "grammar-10",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我想要一杯咖啡。（礼貌）",
+        "answers": [
+          "Je voudrais un café."
+        ],
+        "explanation": "voudrais 比 veux 更委婉。",
+        "pitfall": "voudrais 比 veux 更委婉。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-09",
+        "knowledgeId": "grammar-10",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Ils vont travaillent.",
+        "answers": [
+          "Ils vont travailler."
+        ],
+        "explanation": "最近将来第二个动词不变位。",
+        "pitfall": "最近将来第二个动词不变位。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-10-ex-10",
+        "knowledgeId": "grammar-10",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "告诉同伴你可以帮他，用“我可以帮助你”。",
+        "answers": [
+          "Je peux t’aider.",
+          "Je peux t'aider."
+        ],
+        "explanation": "宾语代词放在所属不定式前。",
+        "pitfall": "宾语代词放在所属不定式前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-11",
+    "title": "代动词与日常生活",
+    "level": "A1",
+    "difficulty": "A1",
+    "objectives": [
+      "理解并正确使用代动词与日常生活",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-10"
+    ],
+    "source": {
+      "file": "leçon 8/代动词(1).pdf",
+      "page": 1,
+      "node": "动词 → Se réveiller / Se lever",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "代动词带随主语变化的代词：me, te, se, nous, vous, se。现在时：je me lève / nous nous levons，注意词干重音。否定 ne 放在反身代词前：je ne me lève pas。并非所有代动词都可字面译为“自己”。",
+        "examples": [
+          {
+            "fr": "En semaine, je me réveille à sept heures.",
+            "zh": "工作日，我七点醒来。"
+          },
+          {
+            "fr": "Je me lève doucement pour ne pas réveiller mon colocataire.",
+            "zh": "我轻轻起床，免得吵醒室友。"
+          }
+        ]
+      }
+    ],
+    "comparison": "je lave la voiture 表示我洗车；je me lave 表示洗自己；je me lave les mains 中 mains 是直接宾语。需要区分动作对象而非看到中文“洗”就加 se。",
+    "errors": [
+      {
+        "wrong": "Tu se couches tôt.",
+        "correct": "Tu te couches tôt.",
+        "reason": "tu 对应 te。"
+      }
+    ],
+    "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-12"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-11",
+      "title": "平常的一天",
+      "level": "A1",
+      "goals": [
+        "在自然语境中观察代动词与日常生活",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-11"
+      ],
+      "text": "En semaine, je me réveille à sept heures. Je me lève doucement pour ne pas réveiller mon colocataire. Je me lave, puis je m’habille avant de préparer le petit déjeuner. Mon colocataire se dépêche souvent parce qu’il commence tôt. Le soir, nous nous reposons dans le salon. Je me couche vers onze heures, sauf le vendredi, quand je retrouve mes amis.",
+      "translation": "工作日，我七点醒来。我轻轻起床，免得吵醒室友。我洗漱，穿好衣服，再做早餐。室友经常很赶，因为他上班早。晚上，我们在客厅休息。我十一点左右睡觉，周五除外，那天我会和朋友见面。",
+      "vocabulary": [
+        {
+          "fr": "un colocataire",
+          "zh": "室友"
+        },
+        {
+          "fr": "sauf",
+          "zh": "除……之外"
+        },
+        {
+          "fr": "se dépêcher",
+          "zh": "赶快"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "En semaine, je me réveille à sept heures.",
+          "explanation": "代动词带随主语变化的代词：me, te, se, nous, vous, se。现在时：je me lève / nous nous levons，注意词干重音。否定 ne 放在反身代词前：je ne me lève pas。并非所有代动词都可字面译为“自己”。",
+          "knowledgeId": "grammar-11"
+        },
+        {
+          "fr": "Je me lève doucement pour ne pas réveiller mon colocataire.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-11"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公为什么轻轻起床？",
+          "answer": "Pour ne pas réveiller son colocataire. 为了不吵醒室友。"
+        },
+        {
+          "question": "主人公周五为什么可能不按平常时间睡觉？",
+          "answer": "Il retrouve ses amis. 他会去见朋友。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-11-ex-01",
+        "knowledgeId": "grammar-11",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Je ___ réveille à sept heures.",
+        "answers": [
+          "me"
+        ],
+        "explanation": "主语 je 对应 me。",
+        "pitfall": "主语 je 对应 me。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "se",
+          "me",
+          "te"
+        ]
+      },
+      {
+        "id": "grammar-11-ex-02",
+        "knowledgeId": "grammar-11",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Nous ___ reposons.",
+        "answers": [
+          "nous"
+        ],
+        "explanation": "nous 的反身代词也是 nous。",
+        "pitfall": "nous 的反身代词也是 nous。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-03",
+        "knowledgeId": "grammar-11",
+        "type": "conjugation",
+        "level": "A1",
+        "prompt": "se lever：elle ___",
+        "answers": [
+          "se lève"
+        ],
+        "explanation": "单数词干重音变化。",
+        "pitfall": "单数词干重音变化。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-04",
+        "knowledgeId": "grammar-11",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Tu se couches tôt.",
+        "answers": [
+          "Tu te couches tôt."
+        ],
+        "explanation": "tu 对应 te。",
+        "pitfall": "tu 对应 te。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-05",
+        "knowledgeId": "grammar-11",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：我不早起。",
+        "answers": [
+          "Je ne me lève pas tôt."
+        ],
+        "explanation": "ne 在 me 前，pas 在动词后。",
+        "pitfall": "ne 在 me 前，pas 在动词后。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-06",
+        "knowledgeId": "grammar-11",
+        "type": "order",
+        "level": "A1",
+        "prompt": "排序：habille / m’ / je",
+        "answers": [
+          "Je m’habille.",
+          "Je m'habille."
+        ],
+        "explanation": "元音前 me 省音。",
+        "pitfall": "元音前 me 省音。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-07",
+        "knowledgeId": "grammar-11",
+        "type": "fill",
+        "level": "A1",
+        "prompt": "Vous ___ dépêchez.",
+        "answers": [
+          "vous"
+        ],
+        "explanation": "vous 的代词是 vous。",
+        "pitfall": "vous 的代词是 vous。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-08",
+        "knowledgeId": "grammar-11",
+        "type": "translation",
+        "level": "A1",
+        "prompt": "译成法语：他们在休息。",
+        "answers": [
+          "Ils se reposent."
+        ],
+        "explanation": "ils 用 se，动词复数。",
+        "pitfall": "ils 用 se，动词复数。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-09",
+        "knowledgeId": "grammar-11",
+        "type": "correction",
+        "level": "A1",
+        "prompt": "改正：Nous nous lèvons.",
+        "answers": [
+          "Nous nous levons."
+        ],
+        "explanation": "nous 形式词干无重音。",
+        "pitfall": "nous 形式词干无重音。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-11-ex-10",
+        "knowledgeId": "grammar-11",
+        "type": "scenario",
+        "level": "A1",
+        "prompt": "表达你十点睡觉：用 se coucher。",
+        "answers": [
+          "Je me couche à dix heures."
+        ],
+        "explanation": "须保留反身代词 me。",
+        "pitfall": "须保留反身代词 me。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-12",
+    "title": "复合过去时：avoir 与 être",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用复合过去时：avoir 与 être",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-11"
+    ],
+    "source": {
+      "file": "leçon 9/Passé composé(1).pdf",
+      "page": 1,
+      "node": "passé composé",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "复合过去时表达过去已完成的事件：助动词现在时 + 过去分词。大多数动词用 avoir；一部分移动或状态变化动词等用 être。être 后过去分词通常与主语配合；avoir 通常不与主语配合。-er 的过去分词常为 -é，finir 为 fini，faire 为 fait。 avoir 的过去分词若有前置直接宾语须检查配合，例如 les lettres que j’ai écrites；某些动词随及物/不及物用法改变助动词，例如 elle est sortie / elle a sorti les clés。",
+        "examples": [
+          {
+            "fr": "Hier, nous avons organisé une sortie au parc.",
+            "zh": "昨天，我们组织了一次公园出游。"
+          },
+          {
+            "fr": "J’ai préparé des sandwichs et mon frère a acheté des fruits.",
+            "zh": "我准备了三明治，我的兄弟买了水果。"
+          }
+        ]
+      }
+    ],
+    "comparison": "j’ai mangé 用 avoir；je suis arrivé 用 être。elle a mangé 不与主语配合，而 elle est arrivée 需加 e；动词类别决定助动词，不能一概用 avoir。",
+    "errors": [
+      {
+        "wrong": "Elle a mangée une pomme.",
+        "correct": "Elle a mangé une pomme.",
+        "reason": "avoir 后不与主语配合。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-13"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-12",
+      "title": "公园里的周末",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察复合过去时：avoir 与 être",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-12"
+      ],
+      "text": "Hier, nous avons organisé une sortie au parc. J’ai préparé des sandwichs et mon frère a acheté des fruits. Nous sommes partis à dix heures. Au parc, nous avons rencontré une amie qui est arrivée à vélo. Elle a apporté une couverture. Nous avons mangé près du lac, puis nous avons joué aux cartes. À la fin de la journée, nous sommes rentrés contents.",
+      "translation": "昨天，我们组织了一次公园出游。我准备了三明治，我的兄弟买了水果。我们十点出发。在公园，我们遇到了一位骑车到达的女性朋友。她带了一条毯子。我们在湖边吃饭，然后玩纸牌。一天结束时，我们开心地回家了。",
+      "vocabulary": [
+        {
+          "fr": "une couverture",
+          "zh": "毯子"
+        },
+        {
+          "fr": "le lac",
+          "zh": "湖"
+        },
+        {
+          "fr": "rentrer",
+          "zh": "回家、返回"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Hier, nous avons organisé une sortie au parc.",
+          "explanation": "复合过去时表达过去已完成的事件：助动词现在时 + 过去分词。大多数动词用 avoir；一部分移动或状态变化动词等用 être。être 后过去分词通常与主语配合；avoir 通常不与主语配合。-er 的过去分词常为 -é，finir 为 fini，faire 为 fait。 avoir 的过去分词若有前置直接宾语须检查配合，例如 les lettres que j’ai écrites；某些动词随及物/不及物用法改变助动词，例如 elle est sortie / elle a sorti les clés。",
+          "knowledgeId": "grammar-12"
+        },
+        {
+          "fr": "J’ai préparé des sandwichs et mon frère a acheté des fruits.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-12"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "朋友给野餐带了什么？",
+          "answer": "Une couverture. 一条毯子。"
+        },
+        {
+          "question": "他们在湖边吃饭后做了什么？",
+          "answer": "Ils ont joué aux cartes. 他们玩了纸牌。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-12-ex-01",
+        "knowledgeId": "grammar-12",
+        "type": "conjugation",
+        "level": "A2",
+        "prompt": "manger：j’___（复合过去时）",
+        "answers": [
+          "ai mangé"
+        ],
+        "explanation": "avoir + mangé。",
+        "pitfall": "avoir + mangé。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-02",
+        "knowledgeId": "grammar-12",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Elle ___ arrivée hier.",
+        "answers": [
+          "est"
+        ],
+        "explanation": "arriver 用 être。",
+        "pitfall": "arriver 用 être。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "a",
+          "est",
+          "sont"
+        ]
+      },
+      {
+        "id": "grammar-12-ex-03",
+        "knowledgeId": "grammar-12",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elles sont ___（partir）",
+        "answers": [
+          "parties"
+        ],
+        "explanation": "être 后与阴性复数配合。",
+        "pitfall": "être 后与阴性复数配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-04",
+        "knowledgeId": "grammar-12",
+        "type": "conjugation",
+        "level": "A2",
+        "prompt": "faire：nous ___（复合过去时）",
+        "answers": [
+          "avons fait"
+        ],
+        "explanation": "faire 的过去分词 fait。",
+        "pitfall": "faire 的过去分词 fait。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-05",
+        "knowledgeId": "grammar-12",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Elle a mangée une pomme.",
+        "answers": [
+          "Elle a mangé une pomme."
+        ],
+        "explanation": "avoir 后不与主语配合。",
+        "pitfall": "avoir 后不与主语配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-06",
+        "knowledgeId": "grammar-12",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：我读了这本书。（用 lire）",
+        "answers": [
+          "J’ai lu ce livre.",
+          "J'ai lu ce livre."
+        ],
+        "explanation": "lire 的过去分词 lu。",
+        "pitfall": "lire 的过去分词 lu。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-07",
+        "knowledgeId": "grammar-12",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：pas / je / n’ai / travaillé",
+        "answers": [
+          "Je n’ai pas travaillé.",
+          "Je n'ai pas travaillé."
+        ],
+        "explanation": "否定包围助动词。",
+        "pitfall": "否定包围助动词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-08",
+        "knowledgeId": "grammar-12",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Il a ___ son travail.（finir）",
+        "answers": [
+          "fini"
+        ],
+        "explanation": "第二组过去分词 -i。",
+        "pitfall": "第二组过去分词 -i。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-09",
+        "knowledgeId": "grammar-12",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：她们昨天到达了。",
+        "answers": [
+          "Elles sont arrivées hier."
+        ],
+        "explanation": "arriver 用 être 并配合。",
+        "pitfall": "arriver 用 être 并配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-12-ex-10",
+        "knowledgeId": "grammar-12",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "用复合过去时说“我们买了水果”。",
+        "answers": [
+          "Nous avons acheté des fruits."
+        ],
+        "explanation": "acheté 无需与 nous 配合。",
+        "pitfall": "acheté 无需与 nous 配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-13",
+    "title": "代动词的复合过去时与配合",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用代动词的复合过去时与配合",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-12"
+    ],
+    "source": {
+      "file": "leçon 12/带动词passé composé.pdf",
+      "page": 1,
+      "node": "代动词的passé composé",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "代动词的复合过去时使用 être，但过去分词不能一概按主语加 e/s。反身代词作直接宾语且在前时通常配合：elle s’est lavée；若直接宾语在后则不配合：elle s’est lavé les mains。se parler 中 se 是间接宾语，所以 elles se sont parlé。 这里采用传统配合规则，重点讨论反身或相互意义的常见动词；本质代动词如 se souvenir 通常与主语配合：elles se sont souvenues。",
+        "examples": [
+          {
+            "fr": "Dimanche, Léa s’est levée tôt pour préparer un voyage.",
+            "zh": "周日，莱娅早起准备旅行。"
+          },
+          {
+            "fr": "Elle s’est lavé les mains, puis elle s’est habillée.",
+            "zh": "她洗了手，然后穿好衣服。"
+          }
+        ]
+      }
+    ],
+    "comparison": "elle s’est lavée：se 为前置直接宾语，配合；elle s’est lavé les mains：mains 在后，不配合；elles se sont parlé：se 是间接宾语，不配合。",
+    "errors": [
+      {
+        "wrong": "Elle s’a réveillée.",
+        "correct": "Elle s’est réveillée.",
+        "reason": "代动词助动词为 être。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-14"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-13",
+      "title": "出发旅行的早晨",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察代动词的复合过去时与配合",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-13"
+      ],
+      "text": "Dimanche, Léa s’est levée tôt pour préparer un voyage. Elle s’est lavé les mains, puis elle s’est habillée. Ses amies se sont retrouvées à la gare. Elles se sont parlé pendant quelques minutes avant le départ. Dans le train, Léa s’est reposée. À l’arrivée, toutes se sont dirigées vers le centre-ville. Elles ont laissé leurs bagages à l’hôtel et sont sorties se promener.",
+      "translation": "周日，莱娅早起准备旅行。她洗了手，然后穿好衣服。她的女性朋友们在火车站会合。出发前，她们聊了几分钟。在火车上，莱娅休息了一会儿。到达后，大家前往市中心。她们把行李放在酒店，然后出门散步。",
+      "vocabulary": [
+        {
+          "fr": "un bagage",
+          "zh": "行李"
+        },
+        {
+          "fr": "se diriger vers",
+          "zh": "朝……走去"
+        },
+        {
+          "fr": "à l’arrivée",
+          "zh": "到达时"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Dimanche, Léa s’est levée tôt pour préparer un voyage.",
+          "explanation": "代动词的复合过去时使用 être，但过去分词不能一概按主语加 e/s。反身代词作直接宾语且在前时通常配合：elle s’est lavée；若直接宾语在后则不配合：elle s’est lavé les mains。se parler 中 se 是间接宾语，所以 elles se sont parlé。 这里采用传统配合规则，重点讨论反身或相互意义的常见动词；本质代动词如 se souvenir 通常与主语配合：elles se sont souvenues。",
+          "knowledgeId": "grammar-13"
+        },
+        {
+          "fr": "Elle s’est lavé les mains, puis elle s’est habillée.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-13"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "莱娅在火车上做了什么？",
+          "answer": "Elle s’est reposée. 她休息了。"
+        },
+        {
+          "question": "她们把行李放在哪里？",
+          "answer": "À l’hôtel. 酒店。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-13-ex-01",
+        "knowledgeId": "grammar-13",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Léa s’___ levée.",
+        "answers": [
+          "est"
+        ],
+        "explanation": "代动词用 être。",
+        "pitfall": "代动词用 être。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "a",
+          "est",
+          "sont"
+        ]
+      },
+      {
+        "id": "grammar-13-ex-02",
+        "knowledgeId": "grammar-13",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elle s’est ___ les mains.（laver）",
+        "answers": [
+          "lavé"
+        ],
+        "explanation": "直接宾语 les mains 在后，不配合。",
+        "pitfall": "直接宾语 les mains 在后，不配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-03",
+        "knowledgeId": "grammar-13",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elles se sont ___.（parler）",
+        "answers": [
+          "parlé"
+        ],
+        "explanation": "se 为间接宾语，不配合。",
+        "pitfall": "se 为间接宾语，不配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-04",
+        "knowledgeId": "grammar-13",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elles se sont ___.（lever）",
+        "answers": [
+          "levées"
+        ],
+        "explanation": "此处 se 为直接宾语，阴性复数配合。",
+        "pitfall": "此处 se 为直接宾语，阴性复数配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-05",
+        "knowledgeId": "grammar-13",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Elle s’a réveillée.",
+        "answers": [
+          "Elle s’est réveillée.",
+          "Elle s'est réveillée."
+        ],
+        "explanation": "代动词助动词为 être。",
+        "pitfall": "代动词助动词为 être。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-06",
+        "knowledgeId": "grammar-13",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：我洗了手。（用 se laver）",
+        "answers": [
+          "Je me suis lavé les mains."
+        ],
+        "explanation": "les mains 在后，lavé 不配合。",
+        "pitfall": "les mains 在后，lavé 不配合。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-07",
+        "knowledgeId": "grammar-13",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：ne / s’est / elle / pas / reposée",
+        "answers": [
+          "Elle ne s’est pas reposée.",
+          "Elle ne s'est pas reposée."
+        ],
+        "explanation": "否定包围助动词组。",
+        "pitfall": "否定包围助动词组。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-08",
+        "knowledgeId": "grammar-13",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Nous nous ___ levés tôt.",
+        "answers": [
+          "sommes"
+        ],
+        "explanation": "nous 对应 sommes。",
+        "pitfall": "nous 对应 sommes。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-09",
+        "knowledgeId": "grammar-13",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Elles se sont téléphonées.",
+        "answers": [
+          "Elles se sont téléphoné."
+        ],
+        "explanation": "téléphoner à：se 为间接宾语。",
+        "pitfall": "téléphoner à：se 为间接宾语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-13-ex-10",
+        "knowledgeId": "grammar-13",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "Léa 说“我穿好衣服了”，用 s’habiller。",
+        "answers": [
+          "Je me suis habillée."
+        ],
+        "explanation": "女性说话者，habillée 加 e。",
+        "pitfall": "女性说话者，habillée 加 e。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-14",
+    "title": "未完成过去时与过去叙事",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用未完成过去时与过去叙事",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-13"
+    ],
+    "source": {
+      "file": "leçon 15/imparfait (1).pdf",
+      "page": 1,
+      "node": "imparfait → 构成 / 使用",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "未完成过去时常描述过去背景、习惯或正在进行的状态。取现在时 nous 形式去掉 -ons，加 -ais,-ais,-ait,-ions,-iez,-aient；être 词干是 ét-。复合过去时突出事件边界，未完成过去时展开背景，不可简单等同“长动作/短动作”。",
+        "examples": [
+          {
+            "fr": "Quand j’étais enfant, j’habitais dans une petite ville.",
+            "zh": "小时候，我住在一个小城。"
+          },
+          {
+            "fr": "Tous les samedis, mon père préparait des crêpes et nous allions au marché.",
+            "zh": "每周六，父亲做可丽饼，我们一起去市场。"
+          }
+        ]
+      }
+    ],
+    "comparison": "背景：il pleuvait；有边界的事件：nous avons décidé de rester。两种时态都能谈过去，区别在叙述视角和事件组织，而非单纯持续时间长短。",
+    "errors": [
+      {
+        "wrong": "Nous faissions du vélo.",
+        "correct": "Nous faisions du vélo.",
+        "reason": "faire 取 faisons 词干 fais-。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-15"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-14",
+      "title": "童年的周六",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察未完成过去时与过去叙事",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-14"
+      ],
+      "text": "Quand j’étais enfant, j’habitais dans une petite ville. Tous les samedis, mon père préparait des crêpes et nous allions au marché. Un matin, il pleuvait beaucoup. Nous avons décidé de rester à la maison. Pendant que mon père cuisinait, j’ai trouvé un vieux cahier de recettes. Nous avons essayé une nouvelle recette. Depuis ce jour, elle fait partie de nos habitudes familiales.",
+      "translation": "小时候，我住在一个小城。每周六，父亲做可丽饼，我们一起去市场。有一天早上，雨下得很大。我们决定待在家里。父亲做饭时，我找到一本旧食谱。我们尝试了一个新做法。从那天起，它成了我们家的习惯之一。",
+      "vocabulary": [
+        {
+          "fr": "une crêpe",
+          "zh": "可丽饼"
+        },
+        {
+          "fr": "une recette",
+          "zh": "食谱、做法"
+        },
+        {
+          "fr": "une habitude",
+          "zh": "习惯"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Quand j’étais enfant, j’habitais dans une petite ville.",
+          "explanation": "未完成过去时常描述过去背景、习惯或正在进行的状态。取现在时 nous 形式去掉 -ons，加 -ais,-ais,-ait,-ions,-iez,-aient；être 词干是 ét-。复合过去时突出事件边界，未完成过去时展开背景，不可简单等同“长动作/短动作”。",
+          "knowledgeId": "grammar-14"
+        },
+        {
+          "fr": "Tous les samedis, mon père préparait des crêpes et nous allions au marché.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-14"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "为什么那天他们待在家里？",
+          "answer": "Parce qu’il pleuvait beaucoup. 因为雨很大。"
+        },
+        {
+          "question": "主人公在父亲做饭时找到了什么？",
+          "answer": "Un vieux cahier de recettes. 一本旧食谱。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-14-ex-01",
+        "knowledgeId": "grammar-14",
+        "type": "conjugation",
+        "level": "A2",
+        "prompt": "être：j’___（未完成过去时）",
+        "answers": [
+          "étais"
+        ],
+        "explanation": "être 使用 ét- 词干。",
+        "pitfall": "être 使用 ét- 词干。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-02",
+        "knowledgeId": "grammar-14",
+        "type": "conjugation",
+        "level": "A2",
+        "prompt": "habiter：nous ___（未完成过去时）",
+        "answers": [
+          "habitions"
+        ],
+        "explanation": "habitons 去掉 -ons，得到 habit-，再加 -ions。",
+        "pitfall": "不要漏掉未完成过去时词尾 -ions 中的 i。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-03",
+        "knowledgeId": "grammar-14",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Chaque été, elle ___ chez sa tante.（aller，过去习惯）",
+        "answers": [
+          "allait"
+        ],
+        "explanation": "过去反复习惯用未完成过去时。",
+        "pitfall": "过去反复习惯用未完成过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "allait",
+          "allais",
+          "allaient"
+        ]
+      },
+      {
+        "id": "grammar-14-ex-04",
+        "knowledgeId": "grammar-14",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Il ___ quand je suis sorti.（pleuvoir，描述背景）",
+        "answers": [
+          "pleuvait"
+        ],
+        "explanation": "天气背景用未完成过去时。",
+        "pitfall": "天气背景用未完成过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-05",
+        "knowledgeId": "grammar-14",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Nous faissions du vélo.",
+        "answers": [
+          "Nous faisions du vélo."
+        ],
+        "explanation": "faire 取 faisons 词干 fais-。",
+        "pitfall": "faire 取 faisons 词干 fais-。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-06",
+        "knowledgeId": "grammar-14",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：小时候，我读很多书。",
+        "answers": [
+          "Quand j’étais enfant, je lisais beaucoup de livres.",
+          "Quand j'étais enfant, je lisais beaucoup de livres.",
+          "Quand j’étais enfant, je lisais beaucoup.",
+          "Quand j'étais enfant, je lisais beaucoup."
+        ],
+        "explanation": "过去习惯用 lisais；beaucoup de livres 明确表达“很多书”，语境明确时也可用 je lisais beaucoup。",
+        "pitfall": "过去习惯 lisais。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-07",
+        "knowledgeId": "grammar-14",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：étions / nous / fatigués",
+        "answers": [
+          "Nous étions fatigués."
+        ],
+        "explanation": "être 未完成过去时 étions。",
+        "pitfall": "être 未完成过去时 étions。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-08",
+        "knowledgeId": "grammar-14",
+        "type": "conjugation",
+        "level": "A2",
+        "prompt": "finir：vous ___（未完成过去时）",
+        "answers": [
+          "finissiez"
+        ],
+        "explanation": "finissons 去 ons 加 iez。",
+        "pitfall": "finissons 去 ons 加 iez。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-09",
+        "knowledgeId": "grammar-14",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "译成法语：她正在读书，这时电话响了。",
+        "answers": [
+          "Elle lisait quand le téléphone a sonné."
+        ],
+        "explanation": "背景 lisait，事件 a sonné。",
+        "pitfall": "背景 lisait，事件 a sonné。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-14-ex-10",
+        "knowledgeId": "grammar-14",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "用未完成过去时表达“以前，我们住在巴黎”。",
+        "answers": [
+          "Avant, nous habitions à Paris."
+        ],
+        "explanation": "过去居住背景。",
+        "pitfall": "过去居住背景。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-15",
+    "title": "愈过去时与事件先后",
+    "level": "B1",
+    "difficulty": "B1",
+    "objectives": [
+      "理解并正确使用愈过去时与事件先后",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-14"
+    ],
+    "source": {
+      "file": "leçon 17/Plus-que-imparfait(3).pdf",
+      "page": 1,
+      "node": "Plus-que-imparfait → 结构 / 用法",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "愈过去时表示某个过去参照点之前已发生的事：avoir 或 être 的未完成过去时 + 过去分词。助动词选择与复合过去时相同，配合规则也相同。不是所有有“之前”的句子都机械使用愈过去时，要看叙事参照点。",
+        "examples": [
+          {
+            "fr": "Quand je suis arrivé à la gare, le train était déjà parti.",
+            "zh": "我到火车站时，火车已经开走了。"
+          },
+          {
+            "fr": "J’avais mal noté l’heure sur mon agenda.",
+            "zh": "我把时刻错记在日程本上。"
+          }
+        ]
+      }
+    ],
+    "comparison": "复合过去时说明过去事件（je suis arrivé）；愈过去时说明更早的事件（le train était déjà parti）。后者必须与明确或隐含的过去参照点相联系。",
+    "errors": [
+      {
+        "wrong": "J’avais allé à Paris.",
+        "correct": "J’étais allé à Paris.",
+        "reason": "aller 使用 être，男性说话者。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-16"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-15",
+      "title": "错过火车以后",
+      "level": "B1",
+      "goals": [
+        "在自然语境中观察愈过去时与事件先后",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-15"
+      ],
+      "text": "Quand je suis arrivé à la gare, le train était déjà parti. J’avais mal noté l’heure sur mon agenda. Heureusement, ma sœur avait gardé le numéro du service client. Nous avons appelé pour changer le billet. L’employée a trouvé une place dans le train suivant. J’étais déçu, mais j’avais apporté un livre. J’ai donc attendu tranquillement dans le café de la gare.",
+      "translation": "我到火车站时，火车已经开走了。我把时刻错记在日程本上。幸好，我的姐妹保存了客服号码。我们打电话改签。工作人员在下一班车上找到了座位。我有些失望，但带了一本书。因此，我在车站咖啡馆平静地等候。",
+      "vocabulary": [
+        {
+          "fr": "un agenda",
+          "zh": "日程本"
+        },
+        {
+          "fr": "le service client",
+          "zh": "客服"
+        },
+        {
+          "fr": "le train suivant",
+          "zh": "下一班列车"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Quand je suis arrivé à la gare, le train était déjà parti.",
+          "explanation": "愈过去时表示某个过去参照点之前已发生的事：avoir 或 être 的未完成过去时 + 过去分词。助动词选择与复合过去时相同，配合规则也相同。不是所有有“之前”的句子都机械使用愈过去时，要看叙事参照点。",
+          "knowledgeId": "grammar-15"
+        },
+        {
+          "fr": "J’avais mal noté l’heure sur mon agenda.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-15"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公为什么错过火车？",
+          "answer": "Il avait mal noté l’heure. 他把时刻记错了。"
+        },
+        {
+          "question": "为什么他后来能安静地等车？",
+          "answer": "Il avait apporté un livre. 他带了一本书。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-15-ex-01",
+        "knowledgeId": "grammar-15",
+        "type": "choice",
+        "level": "B1",
+        "prompt": "Quand je suis arrivé, il ___ déjà mangé.（愈过去时）",
+        "answers": [
+          "avait"
+        ],
+        "explanation": "avoir 的未完成过去时。",
+        "pitfall": "avoir 的未完成过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "avions",
+          "avait",
+          "étaient"
+        ]
+      },
+      {
+        "id": "grammar-15-ex-02",
+        "knowledgeId": "grammar-15",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Le train ___ parti avant mon arrivée.（用愈过去时）",
+        "answers": [
+          "était"
+        ],
+        "explanation": "partir 用 être。",
+        "pitfall": "partir 用 être。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-03",
+        "knowledgeId": "grammar-15",
+        "type": "conjugation",
+        "level": "B1",
+        "prompt": "finir：nous ___（愈过去时）",
+        "answers": [
+          "avions fini"
+        ],
+        "explanation": "avions + fini。",
+        "pitfall": "avions + fini。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-04",
+        "knowledgeId": "grammar-15",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Elles étaient déjà ___.（arriver）",
+        "answers": [
+          "arrivées"
+        ],
+        "explanation": "être 后配合阴性复数。",
+        "pitfall": "être 后配合阴性复数。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-05",
+        "knowledgeId": "grammar-15",
+        "type": "correction",
+        "level": "B1",
+        "prompt": "改正：J’avais allé à Paris.（男性说话者）",
+        "answers": [
+          "J’étais allé à Paris.",
+          "J'étais allé à Paris."
+        ],
+        "explanation": "aller 使用 être，男性说话者。",
+        "pitfall": "aller 使用 être，男性说话者。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-06",
+        "knowledgeId": "grammar-15",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：我丢了钥匙。（用愈过去时）",
+        "answers": [
+          "J’avais perdu mes clés.",
+          "J'avais perdu mes clés."
+        ],
+        "explanation": "perdre 过去分词 perdu。",
+        "pitfall": "perdre 过去分词 perdu。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-07",
+        "knowledgeId": "grammar-15",
+        "type": "order",
+        "level": "B1",
+        "prompt": "排序：déjà / elle / avait / réservé",
+        "answers": [
+          "Elle avait déjà réservé."
+        ],
+        "explanation": "déjà 常在助动词后。",
+        "pitfall": "déjà 常在助动词后。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-08",
+        "knowledgeId": "grammar-15",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Vous ___ compris avant l’explication.（用愈过去时）",
+        "answers": [
+          "aviez"
+        ],
+        "explanation": "avoir 对应 vous 的未完成过去时。",
+        "pitfall": "avoir 对应 vous 的未完成过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-09",
+        "knowledgeId": "grammar-15",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：我们之前没预订。（愈过去时）",
+        "answers": [
+          "Nous n’avions pas réservé.",
+          "Nous n'avions pas réservé."
+        ],
+        "explanation": "否定包围助动词。",
+        "pitfall": "否定包围助动词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-15-ex-10",
+        "knowledgeId": "grammar-15",
+        "type": "scenario",
+        "level": "B1",
+        "prompt": "以过去到达为参照，说“她已经离开了”。",
+        "answers": [
+          "Elle était déjà partie."
+        ],
+        "explanation": "先于过去参照点，用愈过去时。",
+        "pitfall": "先于过去参照点，用愈过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-16",
+    "title": "直接与间接宾语代词",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用直接与间接宾语代词",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-15"
+    ],
+    "source": {
+      "file": "leçon 18/代词（1).pdf",
+      "page": 1,
+      "node": "代词 → 直接宾语 / 间接宾语",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "直接宾语代词 me/te/le/la/nous/vous/les 替代无介词宾语；lui/leur 常替代 à + 人（如 parler à）。代词通常放在所属的变位动词前；若补足不定式，则在不定式前。不能把所有 à + 人都替换为 lui，例如 penser à lui。",
+        "examples": [
+          {
+            "fr": "Ma voisine organise une fête et elle m’envoie une invitation.",
+            "zh": "邻居举办聚会，给我发来邀请。"
+          },
+          {
+            "fr": "Je la remercie, puis je lui demande si elle a besoin d’aide.",
+            "zh": "我向她道谢，然后问她是否需要帮助。"
+          }
+        ]
+      }
+    ],
+    "comparison": "Je la vois 替代 voir Marie 的直接宾语；je lui parle 替代 parler à Marie 的间接宾语。penser à Marie 则用 penser à elle，不能推广为 je lui pense。",
+    "errors": [
+      {
+        "wrong": "Je lui connais.",
+        "correct": "Je le connais.",
+        "reason": "connaître 接直接宾语，此处男性。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-17"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-16",
+      "title": "帮助邻居办聚会",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察直接与间接宾语代词",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-16"
+      ],
+      "text": "Ma voisine organise une fête et elle m’envoie une invitation. Je la remercie, puis je lui demande si elle a besoin d’aide. Elle cherche des chaises : je peux les apporter samedi. Ses parents viennent aussi. Je les connais déjà et je leur ai parlé au téléphone. Nous préparons ensemble une petite liste. Avec une bonne organisation, chacun peut profiter de la soirée.",
+      "translation": "邻居举办聚会，给我发来邀请。我向她道谢，然后问她是否需要帮助。她需要椅子：我可以周六带来。她的父母也会来。我已经认识他们，也和他们通过电话。我们一起准备一张小清单。组织得当，每个人都能享受晚会。",
+      "vocabulary": [
+        {
+          "fr": "une invitation",
+          "zh": "邀请"
+        },
+        {
+          "fr": "remercier",
+          "zh": "感谢"
+        },
+        {
+          "fr": "profiter de",
+          "zh": "享受、充分利用"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Ma voisine organise une fête et elle m’envoie une invitation.",
+          "explanation": "直接宾语代词 me/te/le/la/nous/vous/les 替代无介词宾语；lui/leur 常替代 à + 人（如 parler à）。代词通常放在所属的变位动词前；若补足不定式，则在不定式前。不能把所有 à + 人都替换为 lui，例如 penser à lui。",
+          "knowledgeId": "grammar-16"
+        },
+        {
+          "fr": "Je la remercie, puis je lui demande si elle a besoin d’aide.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-16"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公能为聚会带来什么？",
+          "answer": "Des chaises. 椅子。"
+        },
+        {
+          "question": "主人公是否已经认识邻居的父母？",
+          "answer": "Oui, il les connaît déjà et leur a parlé au téléphone. 是的，已认识并通过电话。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-16-ex-01",
+        "knowledgeId": "grammar-16",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Je vois Marie. Je ___ vois.",
+        "answers": [
+          "la"
+        ],
+        "explanation": "voir 接直接宾语。",
+        "pitfall": "voir 接直接宾语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "le",
+          "la",
+          "lui"
+        ]
+      },
+      {
+        "id": "grammar-16-ex-02",
+        "knowledgeId": "grammar-16",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Je parle à Paul. Je ___ parle.",
+        "answers": [
+          "lui"
+        ],
+        "explanation": "parler à 的人称间接宾语。",
+        "pitfall": "parler à 的人称间接宾语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-03",
+        "knowledgeId": "grammar-16",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "J’écris à mes parents. Je ___ écris.",
+        "answers": [
+          "leur"
+        ],
+        "explanation": "leur 为复数间接宾语。",
+        "pitfall": "leur 为复数间接宾语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-04",
+        "knowledgeId": "grammar-16",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Je lui connais.（指“我认识他”，阳性）",
+        "answers": [
+          "Je le connais."
+        ],
+        "explanation": "connaître 接直接宾语，此处男性。",
+        "pitfall": "connaître 接直接宾语，此处男性。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-05",
+        "knowledgeId": "grammar-16",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "用代词译：我可以帮助你。",
+        "answers": [
+          "Je peux t’aider.",
+          "Je peux t'aider."
+        ],
+        "explanation": "te 放在 aider 前。",
+        "pitfall": "te 放在 aider 前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-06",
+        "knowledgeId": "grammar-16",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：les / je / invite",
+        "answers": [
+          "Je les invite."
+        ],
+        "explanation": "代词在变位动词前。",
+        "pitfall": "代词在变位动词前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-07",
+        "knowledgeId": "grammar-16",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Tu appelles tes amis. Tu ___ appelles.",
+        "answers": [
+          "les"
+        ],
+        "explanation": "直接宾语复数 les。",
+        "pitfall": "直接宾语复数 les。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-08",
+        "knowledgeId": "grammar-16",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "用代词译：我已经给她打过电话了。",
+        "answers": [
+          "Je lui ai téléphoné."
+        ],
+        "explanation": "téléphoner à 使用 lui。",
+        "pitfall": "téléphoner à 使用 lui。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-09",
+        "knowledgeId": "grammar-16",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：Je pense lui.（我想到他）",
+        "answers": [
+          "Je pense à lui."
+        ],
+        "explanation": "penser à 人保留 à + 重读代词。",
+        "pitfall": "penser à 人保留 à + 重读代词。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-16-ex-10",
+        "knowledgeId": "grammar-16",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "用代词回复“Tu connais ces voisins ?”，肯定回答。",
+        "answers": [
+          "Oui, je les connais."
+        ],
+        "explanation": "ces voisins 替换为 les。",
+        "pitfall": "ces voisins 替换为 les。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-17",
+    "title": "代词 y 与 en",
+    "level": "A2",
+    "difficulty": "A2",
+    "objectives": [
+      "理解并正确使用代词 y 与 en",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-16"
+    ],
+    "source": {
+      "file": "leçon 19/代词 & 现在分词(2).pdf",
+      "page": 1,
+      "node": "代词 En / Y",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "y 常替代地点补语或 à + 事物；en 常替代 de + 名词、部分冠词或数量对象。数量必须保留：j’en ai deux。指人时应检查动词结构，初学者不要机械用 y 代替 à + 人。代词在不定式前时仍保留数量与否定结构。",
+        "examples": [
+          {
+            "fr": "Je vais souvent à la médiathèque : j’y trouve des livres et un endroit calme.",
+            "zh": "我经常去多媒体图书馆：在那里能找到书和安静的地方。"
+          },
+          {
+            "fr": "Aujourd’hui, j’ai besoin de documents sur l’environnement.",
+            "zh": "今天，我需要环保资料。"
+          }
+        ]
+      }
+    ],
+    "comparison": "y 替代地点或 à + 事物（j’y vais / j’y pense）；en 替代 de + 事物或数量对象（j’en parle / j’en ai deux）。en 代替名词，不吞掉明确数字。",
+    "errors": [
+      {
+        "wrong": "J’en ai.（要完整表达“我有两个”）",
+        "correct": "J’en ai deux.",
+        "reason": "明确数量必须保留。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-18"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-17",
+      "title": "图书馆的发现",
+      "level": "A2",
+      "goals": [
+        "在自然语境中观察代词 y 与 en",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-17"
+      ],
+      "text": "Je vais souvent à la médiathèque : j’y trouve des livres et un endroit calme. Aujourd’hui, j’ai besoin de documents sur l’environnement. La bibliothécaire m’en propose trois. J’en choisis deux et je les emprunte pour un mois. Elle me parle aussi d’un atelier. Je vais y participer samedi. Avant de partir, je vérifie les horaires pour pouvoir y retourner la semaine prochaine.",
+      "translation": "我经常去多媒体图书馆：在那里能找到书和安静的地方。今天，我需要环保资料。图书管理员向我推荐了三份。我选了两份，借一个月。她还告诉我有一个工作坊。我周六要参加。离开前，我查看开放时间，以便下周再来。",
+      "vocabulary": [
+        {
+          "fr": "emprunter",
+          "zh": "借入"
+        },
+        {
+          "fr": "une médiathèque",
+          "zh": "多媒体图书馆"
+        },
+        {
+          "fr": "les horaires",
+          "zh": "时间表、开放时间"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Je vais souvent à la médiathèque : j’y trouve des livres et un endroit calme.",
+          "explanation": "y 常替代地点补语或 à + 事物；en 常替代 de + 名词、部分冠词或数量对象。数量必须保留：j’en ai deux。指人时应检查动词结构，初学者不要机械用 y 代替 à + 人。代词在不定式前时仍保留数量与否定结构。",
+          "knowledgeId": "grammar-17"
+        },
+        {
+          "fr": "Aujourd’hui, j’ai besoin de documents sur l’environnement.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-17"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公最终借了几份资料？",
+          "answer": "Deux. 两份。"
+        },
+        {
+          "question": "这些资料能借多久？",
+          "answer": "Un mois. 一个月。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-17-ex-01",
+        "knowledgeId": "grammar-17",
+        "type": "choice",
+        "level": "A2",
+        "prompt": "Tu vas au marché ? Oui, j’___ vais.",
+        "answers": [
+          "y"
+        ],
+        "explanation": "y 替代地点。",
+        "pitfall": "y 替代地点。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "en",
+          "y",
+          "le"
+        ]
+      },
+      {
+        "id": "grammar-17-ex-02",
+        "knowledgeId": "grammar-17",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Tu veux du thé ? Oui, j’___ veux.",
+        "answers": [
+          "en"
+        ],
+        "explanation": "en 替代部分冠词名词组。",
+        "pitfall": "en 替代部分冠词名词组。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-03",
+        "knowledgeId": "grammar-17",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "J’ai trois livres. J’___ ai trois.",
+        "answers": [
+          "en"
+        ],
+        "explanation": "数量三保留。",
+        "pitfall": "数量三保留。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-04",
+        "knowledgeId": "grammar-17",
+        "type": "correction",
+        "level": "A2",
+        "prompt": "改正：J’en ai.（要完整表达“我有两个”）",
+        "answers": [
+          "J’en ai deux.",
+          "J'en ai deux."
+        ],
+        "explanation": "明确数量必须保留。",
+        "pitfall": "明确数量必须保留。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-05",
+        "knowledgeId": "grammar-17",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "用 y 改写：Je pense à ce projet.",
+        "answers": [
+          "J’y pense.",
+          "J'y pense."
+        ],
+        "explanation": "à + 事物可用 y。",
+        "pitfall": "à + 事物可用 y。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-06",
+        "knowledgeId": "grammar-17",
+        "type": "order",
+        "level": "A2",
+        "prompt": "排序：vais / y / je / participer",
+        "answers": [
+          "Je vais y participer."
+        ],
+        "explanation": "y 属于不定式 participer。",
+        "pitfall": "y 属于不定式 participer。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-07",
+        "knowledgeId": "grammar-17",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Elle parle de son travail. Elle ___ parle.",
+        "answers": [
+          "en"
+        ],
+        "explanation": "de + 事物用 en。",
+        "pitfall": "de + 事物用 en。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-08",
+        "knowledgeId": "grammar-17",
+        "type": "translation",
+        "level": "A2",
+        "prompt": "用 en 改写：Je n’ai pas de voiture.",
+        "answers": [
+          "Je n’en ai pas.",
+          "Je n'en ai pas."
+        ],
+        "explanation": "en 放在助动词或变位动词前。",
+        "pitfall": "en 放在助动词或变位动词前。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-09",
+        "knowledgeId": "grammar-17",
+        "type": "fill",
+        "level": "A2",
+        "prompt": "Nous revenons du Canada. Nous ___ revenons.",
+        "answers": [
+          "en"
+        ],
+        "explanation": "来自某地可用 en。",
+        "pitfall": "来自某地可用 en。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-17-ex-10",
+        "knowledgeId": "grammar-17",
+        "type": "scenario",
+        "level": "A2",
+        "prompt": "回答“Tu as besoin de ce document ?”，用 en 肯定回答。",
+        "answers": [
+          "Oui, j’en ai besoin.",
+          "Oui, j'en ai besoin."
+        ],
+        "explanation": "avoir besoin de 结构。",
+        "pitfall": "avoir besoin de 结构。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-18",
+    "title": "关系代词与复合句",
+    "level": "B1",
+    "difficulty": "B1",
+    "objectives": [
+      "理解并正确使用关系代词与复合句",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-17"
+    ],
+    "source": {
+      "file": "leçon 20/定语从句(1).pdf",
+      "page": 1,
+      "node": "定语从句；第21课 ce qui / ce que / ce dont",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "qui 在关系从句中作主语；que 作直接宾语；où 指地点或时间；dont 对应含 de 的补语。无明确名词先行词时用 ce qui/ce que/ce dont。判断依据是从句内部功能，不是简单看先行词是否为人。 dont 本身已包含 de，不再重复 de 或 en：le projet dont je parle，不能写 dont j’en parle。复杂介词短语还需考虑 duquel/de laquelle，不把所有 de 都机械替成 dont。",
+        "examples": [
+          {
+            "fr": "Je cherche un quartier qui possède une bibliothèque et des espaces verts.",
+            "zh": "我在寻找有图书馆和绿地的街区。"
+          },
+          {
+            "fr": "L’appartement que j’ai visité hier est près d’un parc où les enfants peuvent jouer.",
+            "zh": "昨天参观的公寓靠近一个儿童可以玩耍的公园。"
+          }
+        ]
+      }
+    ],
+    "comparison": "qui 在从句里作主语（le livre qui plaît）；que 作直接宾语（le livre que je lis）；dont 对应 de（le livre dont je parle），不能按“人用qui、物用que”判断。",
+    "errors": [
+      {
+        "wrong": "Le livre qui je lis est court.",
+        "correct": "Le livre que je lis est court.",
+        "reason": "lire 的直接宾语用 que。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-19"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-18",
+      "title": "寻找合适的街区",
+      "level": "B1",
+      "goals": [
+        "在自然语境中观察关系代词与复合句",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-18"
+      ],
+      "text": "Je cherche un quartier qui possède une bibliothèque et des espaces verts. L’appartement que j’ai visité hier est près d’un parc où les enfants peuvent jouer. Le prix dont le propriétaire m’a parlé reste assez élevé. Ce qui me plaît surtout, c’est le calme. Je dois réfléchir à ce que je peux payer chaque mois. Avant de choisir, je vais revoir mon budget.",
+      "translation": "我在寻找有图书馆和绿地的街区。昨天参观的公寓靠近一个儿童可以玩耍的公园。房东提到的价格仍然相当高。我最喜欢的是安静。我必须考虑自己每月能支付多少。做决定前，我会重新查看预算。",
+      "vocabulary": [
+        {
+          "fr": "un espace vert",
+          "zh": "绿地"
+        },
+        {
+          "fr": "un budget",
+          "zh": "预算"
+        },
+        {
+          "fr": "ce qui me plaît",
+          "zh": "我喜欢的事物"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Je cherche un quartier qui possède une bibliothèque et des espaces verts.",
+          "explanation": "qui 在关系从句中作主语；que 作直接宾语；où 指地点或时间；dont 对应含 de 的补语。无明确名词先行词时用 ce qui/ce que/ce dont。判断依据是从句内部功能，不是简单看先行词是否为人。 dont 本身已包含 de，不再重复 de 或 en：le projet dont je parle，不能写 dont j’en parle。复杂介词短语还需考虑 duquel/de laquelle，不把所有 de 都机械替成 dont。",
+          "knowledgeId": "grammar-18"
+        },
+        {
+          "fr": "L’appartement que j’ai visité hier est près d’un parc où les enfants peuvent jouer.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-18"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公最喜欢公寓周围的什么特点？",
+          "answer": "Le calme. 安静。"
+        },
+        {
+          "question": "做出选择前，主人公准备做什么？",
+          "answer": "Revoir son budget. 重新查看预算。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-18-ex-01",
+        "knowledgeId": "grammar-18",
+        "type": "choice",
+        "level": "B1",
+        "prompt": "Le voisin ___ parle est gentil.",
+        "answers": [
+          "qui"
+        ],
+        "explanation": "从句缺主语。",
+        "pitfall": "从句缺主语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "que",
+          "qui",
+          "dont"
+        ]
+      },
+      {
+        "id": "grammar-18-ex-02",
+        "knowledgeId": "grammar-18",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Le livre ___ je lis est intéressant.",
+        "answers": [
+          "que"
+        ],
+        "explanation": "从句已有主语 je，缺直接宾语。",
+        "pitfall": "从句已有主语 je，缺直接宾语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-03",
+        "knowledgeId": "grammar-18",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "用单个关系代词填空：La ville ___ j’habite est petite.",
+        "answers": [
+          "où"
+        ],
+        "explanation": "地点关系用 où。",
+        "pitfall": "地点关系用 où。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-04",
+        "knowledgeId": "grammar-18",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Le projet ___ je parle est utile.",
+        "answers": [
+          "dont"
+        ],
+        "explanation": "parler de 对应 dont。",
+        "pitfall": "parler de 对应 dont。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-05",
+        "knowledgeId": "grammar-18",
+        "type": "correction",
+        "level": "B1",
+        "prompt": "改正：Le livre qui je lis est court.",
+        "answers": [
+          "Le livre que je lis est court."
+        ],
+        "explanation": "lire 的直接宾语用 que。",
+        "pitfall": "lire 的直接宾语用 que。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-06",
+        "knowledgeId": "grammar-18",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：我理解你说的话。",
+        "answers": [
+          "Je comprends ce que tu dis."
+        ],
+        "explanation": "无明确先行词，用 ce que。",
+        "pitfall": "无明确先行词，用 ce que。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-07",
+        "knowledgeId": "grammar-18",
+        "type": "order",
+        "level": "B1",
+        "prompt": "排序：plaît / ce qui / me / c’est le calme",
+        "answers": [
+          "Ce qui me plaît, c’est le calme.",
+          "Ce qui me plaît, c'est le calme."
+        ],
+        "explanation": "ce qui 在从句中作主语。",
+        "pitfall": "ce qui 在从句中作主语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-08",
+        "knowledgeId": "grammar-18",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Ce ___ j’ai besoin, c’est du temps.",
+        "answers": [
+          "dont"
+        ],
+        "explanation": "avoir besoin de 对应 ce dont。",
+        "pitfall": "avoir besoin de 对应 ce dont。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-09",
+        "knowledgeId": "grammar-18",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：这是我出生的城市。（男性说话者）",
+        "answers": [
+          "C’est la ville où je suis né.",
+          "C'est la ville où je suis né."
+        ],
+        "explanation": "où 指出生地点，男性说话者。",
+        "pitfall": "où 指出生地点，男性说话者。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-18-ex-10",
+        "knowledgeId": "grammar-18",
+        "type": "scenario",
+        "level": "B1",
+        "prompt": "描述“一位住在这里的朋友”，用完整句“我有一位住在这里的朋友”（男性）。",
+        "answers": [
+          "J’ai un ami qui habite ici.",
+          "J'ai un ami qui habite ici."
+        ],
+        "explanation": "qui 充当 habite 的主语。",
+        "pitfall": "qui 充当 habite 的主语。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-19",
+    "title": "条件式与 si 条件句",
+    "level": "B1",
+    "difficulty": "B1",
+    "objectives": [
+      "理解并正确使用条件式与 si 条件句",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-18"
+    ],
+    "source": {
+      "file": "leçon 23/条件句.pdf",
+      "page": 1,
+      "node": "si 条件句；第22课 过去将来时",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "si + 现在时，可接现在时、简单将来时或命令式；si + 未完成过去时，主句用现在条件式；si + 愈过去时，主句用过去条件式。条件式通常由将来时词干 + 未完成过去时词尾组成。条件 si 后不用将来时或条件式，但表示“是否”的间接疑问 si 是不同结构。 以上为基础配对；实际表达也有混合时间的条件句，应根据条件和结果各自指向的时间分析。",
+        "examples": [
+          {
+            "fr": "Si j’avais plus de temps, je ferais du bénévolat chaque semaine.",
+            "zh": "如果我有更多时间，就会每周做志愿服务。"
+          },
+          {
+            "fr": "Pour le moment, je peux aider une fois par mois.",
+            "zh": "目前，我每月可以帮一次忙。"
+          }
+        ]
+      }
+    ],
+    "comparison": "条件 si 后用未完成过去时，结果用条件式：si j’avais le temps, je viendrais。间接疑问“是否”中的 si 可接将来时：je ne sais pas s’il viendra。",
+    "errors": [
+      {
+        "wrong": "Si j’aurais le temps, je viendrais.",
+        "correct": "Si j’avais le temps, je viendrais.",
+        "reason": "条件 si 后用未完成过去时。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-20"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-19",
+      "title": "给志愿服务留时间",
+      "level": "B1",
+      "goals": [
+        "在自然语境中观察条件式与 si 条件句",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-19"
+      ],
+      "text": "Si j’avais plus de temps, je ferais du bénévolat chaque semaine. Pour le moment, je peux aider une fois par mois. Si l’association a besoin de moi samedi, j’irai préparer les repas. Mon ami viendrait aussi s’il ne travaillait pas. Nous avons décidé de nous organiser à l’avance. Si nous avions connu cette association plus tôt, nous aurions déjà participé à ses activités.",
+      "translation": "如果我有更多时间，就会每周做志愿服务。目前，我每月可以帮一次忙。如果协会周六需要我，我会去准备餐食。如果朋友那天不工作，他也会来。我们决定提前安排。如果更早知道这个协会，我们早就参加过它的活动了。",
+      "vocabulary": [
+        {
+          "fr": "le bénévolat",
+          "zh": "志愿服务"
+        },
+        {
+          "fr": "à l’avance",
+          "zh": "提前"
+        },
+        {
+          "fr": "pour le moment",
+          "zh": "目前"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Si j’avais plus de temps, je ferais du bénévolat chaque semaine.",
+          "explanation": "si + 现在时，可接现在时、简单将来时或命令式；si + 未完成过去时，主句用现在条件式；si + 愈过去时，主句用过去条件式。条件式通常由将来时词干 + 未完成过去时词尾组成。条件 si 后不用将来时或条件式，但表示“是否”的间接疑问 si 是不同结构。 以上为基础配对；实际表达也有混合时间的条件句，应根据条件和结果各自指向的时间分析。",
+          "knowledgeId": "grammar-19"
+        },
+        {
+          "fr": "Pour le moment, je peux aider une fois par mois.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-19"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "主人公目前多久能做一次志愿服务？",
+          "answer": "Une fois par mois. 每月一次。"
+        },
+        {
+          "question": "为什么朋友可能不能一起来？",
+          "answer": "Parce qu’il travaille. 因为他有工作。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-19-ex-01",
+        "knowledgeId": "grammar-19",
+        "type": "choice",
+        "level": "B1",
+        "prompt": "Si j’avais le temps, je ___ .（venir）",
+        "answers": [
+          "viendrais"
+        ],
+        "explanation": "si + 未完成过去时，主句条件式。",
+        "pitfall": "si + 未完成过去时，主句条件式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "viendrais",
+          "viendrai",
+          "venais"
+        ]
+      },
+      {
+        "id": "grammar-19-ex-02",
+        "knowledgeId": "grammar-19",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Si tu viens, nous ___ ensemble.（manger，简单将来）",
+        "answers": [
+          "mangerons"
+        ],
+        "explanation": "可实现条件配将来结果。",
+        "pitfall": "可实现条件配将来结果。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-03",
+        "knowledgeId": "grammar-19",
+        "type": "conjugation",
+        "level": "B1",
+        "prompt": "être：nous ___（现在条件式）",
+        "answers": [
+          "serions"
+        ],
+        "explanation": "ser- + ions。",
+        "pitfall": "ser- + ions。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-04",
+        "knowledgeId": "grammar-19",
+        "type": "correction",
+        "level": "B1",
+        "prompt": "改正：Si j’aurais le temps, je viendrais.",
+        "answers": [
+          "Si j’avais le temps, je viendrais.",
+          "Si j'avais le temps, je viendrais."
+        ],
+        "explanation": "条件 si 后用未完成过去时。",
+        "pitfall": "条件 si 后用未完成过去时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-05",
+        "knowledgeId": "grammar-19",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：如果你有时间，给我打电话。",
+        "answers": [
+          "Si tu as le temps, appelle-moi."
+        ],
+        "explanation": "现在条件搭配命令式。",
+        "pitfall": "现在条件搭配命令式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-06",
+        "knowledgeId": "grammar-19",
+        "type": "order",
+        "level": "B1",
+        "prompt": "排序：voudrais / un renseignement / je",
+        "answers": [
+          "Je voudrais un renseignement."
+        ],
+        "explanation": "条件式表达委婉请求。",
+        "pitfall": "条件式表达委婉请求。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-07",
+        "knowledgeId": "grammar-19",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Si elle avait étudié, elle ___ réussi.（表达过去未实现的假设，主句用过去条件式）",
+        "answers": [
+          "aurait"
+        ],
+        "explanation": "过去假设结果用过去条件式。",
+        "pitfall": "过去假设结果用过去条件式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-08",
+        "knowledgeId": "grammar-19",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：我不知道他是否会来。（用将来时）",
+        "answers": [
+          "Je ne sais pas s’il viendra.",
+          "Je ne sais pas s'il viendra."
+        ],
+        "explanation": "间接疑问 si 可接将来时。",
+        "pitfall": "间接疑问 si 可接将来时。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-09",
+        "knowledgeId": "grammar-19",
+        "type": "correction",
+        "level": "B1",
+        "prompt": "改正：Je serais heureux si tu viens.（表达较不现实假设）",
+        "answers": [
+          "Je serais heureux si tu venais."
+        ],
+        "explanation": "条件式结果搭配未完成过去时条件。",
+        "pitfall": "条件式结果搭配未完成过去时条件。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-19-ex-10",
+        "knowledgeId": "grammar-19",
+        "type": "scenario",
+        "level": "B1",
+        "prompt": "礼貌请求对方帮助，用 pourriez-vous。",
+        "answers": [
+          "Pourriez-vous m’aider ?",
+          "Pourriez-vous m'aider ?"
+        ],
+        "explanation": "条件式礼貌请求。",
+        "pitfall": "条件式礼貌请求。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  },
+  {
+    "id": "grammar-20",
+    "title": "虚拟式与观点衔接",
+    "level": "B1",
+    "difficulty": "B1",
+    "objectives": [
+      "理解并正确使用虚拟式与观点衔接",
+      "在文章中辨认结构，并将其用于自己的表达"
+    ],
+    "prerequisites": [
+      "grammar-19"
+    ],
+    "source": {
+      "file": "leçon 24/虚拟语态.pdf",
+      "page": 1,
+      "node": "虚拟语态 → 构成 / 使用",
+      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+    },
+    "rules": [
+      {
+        "title": "核心规则",
+        "explanation": "il faut que、bien que、pour que 等通常引出虚拟式。规则单词干常由 ils 现在时去 -ent 加 -e,-es,-e,-ions,-iez,-ent；某些动词有双词干及不规则形式。肯定 je pense que 一般用直陈式。连接词必须依意义选择，不能堆砌。 il faut que 后的动词要按从句主语变位；同一主语可常用 pour + 不定式，两个不同主语时用 pour que + 虚拟式。",
+        "examples": [
+          {
+            "fr": "Notre quartier veut ouvrir un jardin partagé.",
+            "zh": "我们街区想开辟一个共享花园。"
+          },
+          {
+            "fr": "Je pense que ce projet est utile, car il permet de rencontrer ses voisins.",
+            "zh": "我认为这个项目有用，因为它能让邻居互相认识。"
+          }
+        ]
+      }
+    ],
+    "comparison": "肯定意见 je pense qu’il est prêt 通常用直陈式；义务 il faut qu’il soit prêt 用虚拟式。bien que 表让步并引出虚拟式，而 parce que 说明已陈述的原因。",
+    "errors": [
+      {
+        "wrong": "Il faut que vous êtes prêts.",
+        "correct": "Il faut que vous soyez prêts.",
+        "reason": "il faut que 后用虚拟式。"
+      }
+    ],
+    "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
+    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "related": [
+      "grammar-19"
+    ],
+    "contentOrigin": {
+      "structure": "基于本机PDF相应主题重组",
+      "explanations": "新增教学解释",
+      "examples": "原创法语例句",
+      "article": "原创，非原资料短文",
+      "review": "未由法语教师人工审核"
+    },
+    "article": {
+      "id": "article-20",
+      "title": "一座共享花园",
+      "level": "B1",
+      "goals": [
+        "在自然语境中观察虚拟式与观点衔接",
+        "复述文章并替换为自己的经历"
+      ],
+      "knowledgeIds": [
+        "grammar-20"
+      ],
+      "text": "Notre quartier veut ouvrir un jardin partagé. Je pense que ce projet est utile, car il permet de rencontrer ses voisins. Il faut que chacun respecte les règles. Bien que le terrain soit petit, nous pouvons y cultiver quelques légumes. L’association propose des horaires pour que tous les habitants puissent participer. À mon avis, la réussite dépend surtout du dialogue. Nous devons donc écouter les besoins de chacun.",
+      "translation": "我们街区想开辟一个共享花园。我认为这个项目有用，因为它能让邻居互相认识。每个人都必须遵守规则。虽然场地很小，我们仍可以种一些蔬菜。协会安排时间，以便所有居民都能参加。在我看来，成功主要取决于交流。因此，我们必须倾听每个人的需求。",
+      "vocabulary": [
+        {
+          "fr": "un jardin partagé",
+          "zh": "共享花园"
+        },
+        {
+          "fr": "cultiver",
+          "zh": "种植"
+        },
+        {
+          "fr": "dépendre de",
+          "zh": "取决于"
+        }
+      ],
+      "sentences": [
+        {
+          "fr": "Notre quartier veut ouvrir un jardin partagé.",
+          "explanation": "il faut que、bien que、pour que 等通常引出虚拟式。规则单词干常由 ils 现在时去 -ent 加 -e,-es,-e,-ions,-iez,-ent；某些动词有双词干及不规则形式。肯定 je pense que 一般用直陈式。连接词必须依意义选择，不能堆砌。 il faut que 后的动词要按从句主语变位；同一主语可常用 pour + 不定式，两个不同主语时用 pour que + 虚拟式。",
+          "knowledgeId": "grammar-20"
+        },
+        {
+          "fr": "Je pense que ce projet est utile, car il permet de rencontrer ses voisins.",
+          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
+          "knowledgeId": "grammar-20"
+        }
+      ],
+      "comprehension": [
+        {
+          "question": "作者认为项目成功主要取决于什么？",
+          "answer": "Le dialogue. 对话与交流。"
+        },
+        {
+          "question": "协会为什么安排时间表？",
+          "answer": "Pour que tous les habitants puissent participer. 为了让所有居民都能参加。"
+        }
+      ],
+      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
+      "source": "原创配套文章",
+      "reviewStatus": "待人工复核"
+    },
+    "exercises": [
+      {
+        "id": "grammar-20-ex-01",
+        "knowledgeId": "grammar-20",
+        "type": "choice",
+        "level": "B1",
+        "prompt": "Il faut que tu ___ à l’heure.（être）",
+        "answers": [
+          "sois"
+        ],
+        "explanation": "être 的 tu 虚拟式 sois。",
+        "pitfall": "être 的 tu 虚拟式 sois。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "sois",
+          "es",
+          "sera"
+        ]
+      },
+      {
+        "id": "grammar-20-ex-02",
+        "knowledgeId": "grammar-20",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Bien qu’il ___ froid, nous sortons.（faire）",
+        "answers": [
+          "fasse"
+        ],
+        "explanation": "bien que 引出虚拟式。",
+        "pitfall": "bien que 引出虚拟式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-03",
+        "knowledgeId": "grammar-20",
+        "type": "conjugation",
+        "level": "B1",
+        "prompt": "avoir：que nous ___（现在虚拟式）",
+        "answers": [
+          "ayons"
+        ],
+        "explanation": "avoir 的 nous 虚拟式。",
+        "pitfall": "avoir 的 nous 虚拟式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-04",
+        "knowledgeId": "grammar-20",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Je pense qu’il ___ raison.（avoir，表达当前肯定判断，用现在时）",
+        "answers": [
+          "a"
+        ],
+        "explanation": "肯定 pense que 通常直陈式。",
+        "pitfall": "肯定 pense que 通常直陈式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-05",
+        "knowledgeId": "grammar-20",
+        "type": "correction",
+        "level": "B1",
+        "prompt": "改正：Il faut que vous êtes prêts.",
+        "answers": [
+          "Il faut que vous soyez prêts."
+        ],
+        "explanation": "il faut que 后用虚拟式。",
+        "pitfall": "il faut que 后用虚拟式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-06",
+        "knowledgeId": "grammar-20",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：我们准备一切，为了让你能来。",
+        "answers": [
+          "Nous préparons tout pour que tu puisses venir."
+        ],
+        "explanation": "pour que + 虚拟式 puisses。",
+        "pitfall": "pour que + 虚拟式 puisses。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-07",
+        "knowledgeId": "grammar-20",
+        "type": "order",
+        "level": "B1",
+        "prompt": "排序：que / il faut / nous / parlions",
+        "answers": [
+          "Il faut que nous parlions."
+        ],
+        "explanation": "parler 的 nous 虚拟式 parlions。",
+        "pitfall": "parler 的 nous 虚拟式 parlions。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-08",
+        "knowledgeId": "grammar-20",
+        "type": "fill",
+        "level": "B1",
+        "prompt": "Je suis content qu’elle ___ là.（être）",
+        "answers": [
+          "soit"
+        ],
+        "explanation": "情感判断后常用虚拟式。",
+        "pitfall": "情感判断后常用虚拟式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-09",
+        "knowledgeId": "grammar-20",
+        "type": "translation",
+        "level": "B1",
+        "prompt": "译成法语：虽然他很忙，他还是帮我们。",
+        "answers": [
+          "Bien qu’il soit occupé, il nous aide.",
+          "Bien qu'il soit occupé, il nous aide."
+        ],
+        "explanation": "让步连接 bien que + 虚拟式。",
+        "pitfall": "让步连接 bien que + 虚拟式。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      },
+      {
+        "id": "grammar-20-ex-10",
+        "knowledgeId": "grammar-20",
+        "type": "scenario",
+        "level": "B1",
+        "prompt": "提出“必须保护环境”的要求，用 il faut que nous。",
+        "answers": [
+          "Il faut que nous protégions l’environnement.",
+          "Il faut que nous protégions l'environnement."
+        ],
+        "explanation": "protéger 的 nous 虚拟式 protégions。",
+        "pitfall": "protéger 的 nous 虚拟式 protégions。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核"
+      }
+    ],
+    "reviewStatus": "待人工复核",
+    "audit": {
+      "structureChecked": true,
+      "teacherReviewed": false,
+      "articleOriginal": true,
+      "sourcePage": 1
+    }
+  }
+]

@@ -1,0 +1,5126 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "fei-format",
+      "name": "France Éducation international · TCF Canada",
+      "url": "https://www.france-education-international.fr/test/tcf-canada",
+      "accessed": "2026-11-01",
+      "originalDate": null,
+      "category": "官方考试要求",
+      "verification": "官方搜索索引核实；直接访问403"
+    },
+    {
+      "id": "fei-evaluation",
+      "name": "France Éducation international · Évaluation des épreuves du TCF",
+      "url": "https://france-education-international.fr/en/node/197",
+      "accessed": "2026-11-01",
+      "originalDate": null,
+      "category": "官方评价维度",
+      "verification": "官方搜索索引核实"
+    },
+    {
+      "id": "freetcf",
+      "name": "FreeTCF",
+      "url": "https://freetcf.com",
+      "accessed": "2026-11-01",
+      "originalDate": null,
+      "category": "第三方产品研究，不是官方真题来源",
+      "verification": "公开主页与条款可访问；动态练习页文本为空；未抓取题库"
+    },
+    {
+      "id": "ircc",
+      "name": "IRCC · Language test results",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+      "accessed": "2026-11-01",
+      "originalDate": null,
+      "category": "官方NCLC对应",
+      "verification": "官方页面核实"
+    },
+    {
+      "id": "original",
+      "name": "法语通关原创模拟",
+      "url": null,
+      "accessed": "2026-11-01",
+      "originalDate": "2026-11-01",
+      "category": "原创模拟题",
+      "verification": "结构与字数自动检查，待人工教学复核"
+    }
+  ],
+  "format": {
+    "oralSeconds": 720,
+    "oralPreparationSeconds": 120,
+    "writingSeconds": 3600,
+    "listeningSeconds": 2100,
+    "readingSeconds": 3600,
+    "scope": "本版本重点训练基础语法、口语和写作；TCF Canada还包含听力和阅读。",
+    "wordCountMethod": "按空白分隔计数，忽略不含字母或数字的纯标点项；撇号和连字符连接的形式视为一个词。该计数为训练辅助，不替代考场说明。",
+    "evaluation": [
+      "语言：词汇、语法，口语的发音与流畅度，写作的拼写与句式。",
+      "语用：互动或主题展开、结构、连贯与衔接。",
+      "社会语言：用语是否适合交流对象和情境。"
+    ],
+    "feedbackDisclaimer": "自评清单和范例仅供学习参考，不是官方评分，也不预测考试成绩。未接入AI评分或语音分析。",
+    "nclcNote": "CEFR教学难度与NCLC分别管理；不从练习表现推算NCLC。",
+    "verifiedNclcExamples": [
+      {
+        "nclc": 7,
+        "oral": "10–11",
+        "writing": "10–11",
+        "listening": "458–502",
+        "reading": "453–498"
+      },
+      {
+        "nclc": 8,
+        "oral": "12–13",
+        "writing": "12–13",
+        "listening": "503–522",
+        "reading": "499–523"
+      },
+      {
+        "nclc": "9及以上（IRCC此表合并列示）",
+        "oral": "14+",
+        "writing": "14+",
+        "listening": "523+",
+        "reading": "524+"
+      }
+    ]
+  },
+  "oralTasks": [
+    {
+      "task": 1,
+      "title": "个人交流",
+      "preparationSeconds": 0,
+      "answerSeconds": 120,
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "examples": [
+        {
+          "level": "A2",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "Je m’appelle Camille. J’habite à Montréal et je travaille dans un magasin. J’apprends le français parce que je voudrais parler plus facilement avec mes collègues. Le soir, je lis de petits articles et je note les expressions utiles. Le week-end, je me promène avec des amis. Plus tard, j’aimerais suivre une formation dans le domaine du commerce.",
+          "questionId": "o1-01"
+        },
+        {
+          "level": "B2",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "Je travaille actuellement dans le commerce, un secteur qui me permet de rencontrer des personnes très différentes. Au début, je manquais parfois de vocabulaire pour expliquer un produit. J’ai donc décidé de pratiquer le français chaque jour, notamment en résumant les questions des clients après le travail. Cette habitude m’aide à gagner en confiance. À moyen terme, j’aimerais suivre une formation afin de prendre davantage de responsabilités.",
+          "questionId": "o1-01"
+        }
+      ]
+    },
+    {
+      "task": 2,
+      "title": "获取信息的互动",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "examples": [
+        {
+          "level": "A2",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "Bonjour, je vous appelle au sujet de l’appartement. Est-il encore disponible ? Quel est le montant du loyer ? Est-ce que le chauffage est compris ? Y a-t-il une machine à laver ? À partir de quelle date peut-on emménager ? Pourrais-je visiter le logement samedi ? Merci pour ces informations.",
+          "questionId": "o2-01"
+        },
+        {
+          "level": "B2",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "Bonjour, votre annonce m’intéresse et j’aimerais vérifier quelques points avant d’organiser une visite. Pourriez-vous préciser quelles charges sont comprises dans le loyer ? Si le chauffage est à ma charge, avez-vous une estimation des dépenses en hiver ? Je travaille parfois à domicile : le quartier est-il plutôt calme pendant la journée ? Enfin, quels documents dois-je préparer pour déposer ma candidature ?",
+          "questionId": "o2-01"
+        }
+      ]
+    },
+    {
+      "task": 3,
+      "title": "表达观点",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "examples": [
+        {
+          "level": "B1",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "À mon avis, le télétravail est utile, mais il ne convient pas à tout le monde. D’abord, il permet de gagner le temps du trajet. On peut ainsi avoir plus de temps pour sa famille. Cependant, il est parfois difficile de travailler dans un petit logement. Je pense donc que les salariés devraient pouvoir choisir quelques jours à distance, si leur travail le permet.",
+          "questionId": "o3-01"
+        },
+        {
+          "level": "B2",
+          "title": "原创结构片段；不是完整考试时长示范",
+          "text": "Je suis favorable à une possibilité de télétravail, à condition qu’elle reste adaptée aux besoins de l’équipe. Réduire les déplacements peut améliorer la qualité de vie et faciliter la concentration. Par exemple, une personne qui rédige un rapport bénéficie souvent de périodes sans interruption. Toutefois, le bureau joue aussi un rôle social : les échanges informels permettent de résoudre rapidement certains problèmes. Une organisation hybride me paraît donc plus équilibrée qu’une règle identique pour tous. Elle devrait être discutée régulièrement avec les salariés, en tenant compte des conditions de logement et des contraintes du service.",
+          "questionId": "o3-01"
+        }
+      ]
+    }
+  ],
+  "writingTasks": [
+    {
+      "task": 1,
+      "title": "描述、叙述或解释的消息",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "examples": [
+        {
+          "level": "A2",
+          "title": "原创范文 · w1-01",
+          "questionId": "w1-01",
+          "text": "Salut Léa,\nSamedi prochain, je voudrais organiser un pique-nique au parc près de la bibliothèque. Est-ce que tu es libre à midi ? Nous pourrions nous retrouver devant l’entrée principale et choisir une place à l’ombre. Je vais préparer des sandwichs et apporter de l’eau. Peux-tu apporter des fruits et une couverture ? S’il pleut, nous mangerons chez moi. Dis-moi si tu peux venir.\nÀ bientôt,\nCamille",
+          "wordCount": 65,
+          "status": "待人工复核"
+        },
+        {
+          "level": "B1",
+          "title": "原创范文 · w1-01",
+          "questionId": "w1-01",
+          "text": "Bonjour Léa,\nPour profiter du beau temps, je te propose un pique-nique samedi au parc des Érables. Retrouvons-nous à douze heures devant la bibliothèque, juste en face du parc. Je m’occupe des sandwichs et des boissons. Si tu le souhaites, tu pourrais apporter une salade ou quelques fruits, ainsi qu’une couverture pour nous installer confortablement. En cas de pluie, nous déjeunerons chez moi, à cinq minutes à pied. Peux-tu me confirmer ta présence avant vendredi ?\nÀ très bientôt,\nCamille",
+          "wordCount": 79,
+          "status": "待人工复核"
+        }
+      ]
+    },
+    {
+      "task": 2,
+      "title": "经历叙述与评论",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "examples": [
+        {
+          "level": "B1",
+          "title": "原创范文 · w2-01",
+          "questionId": "w2-01",
+          "text": "Le mois dernier, je suis allé à Québec en train avec un ami. Nous avions réservé nos billets deux semaines avant le départ pour payer moins cher. À la gare, nous avons trouvé notre voiture facilement et le trajet a commencé à l’heure. Pendant le voyage, nous avons discuté, lu et regardé les paysages. J’ai particulièrement apprécié de pouvoir marcher un peu et de ne pas devoir conduire. Cependant, le retour a été retardé de trente minutes, ce qui a compliqué notre correspondance en bus. Malgré ce problème, je recommande le train pour un court séjour. Il permet d’arriver au centre et de voyager plus tranquillement. À mon avis, il faut simplement prévoir une marge entre deux transports et comparer les prix avant de réserver.",
+          "wordCount": 125,
+          "status": "待人工复核"
+        },
+        {
+          "level": "B2",
+          "title": "原创范文 · w2-01",
+          "questionId": "w2-01",
+          "text": "J’ai récemment choisi le train pour rejoindre Québec, afin de découvrir une autre façon de voyager. Dès le départ, j’ai apprécié l’espace disponible et la possibilité de lire sans surveiller la route. Le paysage, que je remarque rarement en voiture, est devenu une véritable partie du séjour. Un retard au retour a néanmoins montré les limites de cette solution : ma correspondance en bus était trop serrée et j’ai dû attendre le suivant. Cette expérience reste positive, car je suis arrivé moins fatigué et directement au centre. Je conseille donc le train aux voyageurs qui disposent d’un peu de souplesse. Pour rendre ce choix plus accessible, les compagnies gagneraient à proposer des tarifs plus stables et une meilleure information sur les correspondances. Voyager autrement demande surtout une organisation adaptée.",
+          "wordCount": 128,
+          "status": "待人工复核"
+        }
+      ]
+    },
+    {
+      "task": 3,
+      "title": "比较观点并论证",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "examples": [
+        {
+          "level": "B1",
+          "title": "原创范文 · w3-01",
+          "questionId": "w3-01",
+          "text": "Les deux documents présentent des avis différents sur le télétravail. Le premier explique qu’il évite les déplacements et aide à organiser sa journée. Le second insiste sur les échanges entre collègues et sur le risque de solitude à la maison. Pour ma part, je pense que les deux situations peuvent se compléter. Travailler chez soi deux jours par semaine permet, par exemple, de terminer un dossier dans le calme. Les autres jours, les réunions au bureau facilitent les décisions et les nouvelles rencontres. Cependant, cette organisation demande un logement adapté et des règles claires. Un salarié qui partage une petite pièce ne bénéficie pas forcément du même confort. Il faudrait donc proposer le télétravail sans l’imposer, et discuter régulièrement des difficultés avec chaque équipe.",
+          "wordCount": 124,
+          "status": "待人工复核"
+        },
+        {
+          "level": "B2",
+          "title": "原创范文 · w3-01",
+          "questionId": "w3-01",
+          "text": "Le premier document souligne les avantages pratiques du télétravail, notamment le temps gagné et une meilleure organisation. Le second rappelle que la présence au bureau facilite les échanges et limite l’isolement. Ces arguments ne sont pas incompatibles : ils montrent plutôt la nécessité d’une organisation souple. À mon sens, le travail à distance devrait être proposé lorsque les missions le permettent, sans devenir une obligation. Une personne chargée de rédiger un rapport peut profiter du calme de son domicile, tandis qu’un nouvel employé bénéficie davantage de rencontres régulières avec ses collègues. Certes, les outils numériques rendent la coopération possible, mais ils ne remplacent pas toujours les conversations spontanées. Il me paraît donc préférable de définir les jours de présence collectivement et d’évaluer les résultats après quelques mois. Le logement, les responsabilités familiales et les besoins du service doivent également être pris en compte.",
+          "wordCount": 142,
+          "status": "待人工复核"
+        }
+      ]
+    }
+  ],
+  "oral": [
+    {
+      "id": "o1-01",
+      "task": 1,
+      "topic": "个人经历",
+      "title": "个人经历 · 1",
+      "prompt": "Présentez-vous et expliquez pourquoi vous apprenez le français.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-02",
+      "task": 1,
+      "topic": "家庭",
+      "title": "家庭 · 2",
+      "prompt": "Parlez des personnes avec qui vous aimez passer du temps.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-03",
+      "task": 1,
+      "topic": "工作",
+      "title": "工作 · 3",
+      "prompt": "Décrivez votre travail et une responsabilité importante.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-04",
+      "task": 1,
+      "topic": "学习",
+      "title": "学习 · 4",
+      "prompt": "Présentez une matière que vous avez aimé étudier.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-05",
+      "task": 1,
+      "topic": "住房",
+      "title": "住房 · 5",
+      "prompt": "Décrivez votre logement actuel et ce que vous appréciez.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-06",
+      "task": 1,
+      "topic": "交通",
+      "title": "交通 · 6",
+      "prompt": "Comment vous déplacez-vous au quotidien ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-07",
+      "task": 1,
+      "topic": "旅行",
+      "title": "旅行 · 7",
+      "prompt": "Racontez brièvement un voyage qui vous a marqué.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-08",
+      "task": 1,
+      "topic": "消费",
+      "title": "消费 · 8",
+      "prompt": "Comment choisissez-vous les produits que vous achetez ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-09",
+      "task": 1,
+      "topic": "公共服务",
+      "title": "公共服务 · 9",
+      "prompt": "Quelle bibliothèque ou quel service utilisez-vous régulièrement ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-10",
+      "task": 1,
+      "topic": "科技",
+      "title": "科技 · 10",
+      "prompt": "Quel outil numérique vous aide dans votre vie quotidienne ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-11",
+      "task": 1,
+      "topic": "环境",
+      "title": "环境 · 11",
+      "prompt": "Que faites-vous pour réduire vos déchets ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-12",
+      "task": 1,
+      "topic": "社会",
+      "title": "社会 · 12",
+      "prompt": "Aimez-vous participer à la vie de votre quartier ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-13",
+      "task": 1,
+      "topic": "兴趣",
+      "title": "兴趣 · 13",
+      "prompt": "Parlez d’une activité que vous pratiquez pendant votre temps libre.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-14",
+      "task": 1,
+      "topic": "健康",
+      "title": "健康 · 14",
+      "prompt": "Comment prenez-vous soin de votre santé ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-15",
+      "task": 1,
+      "topic": "饮食",
+      "title": "饮食 · 15",
+      "prompt": "Décrivez un plat que vous aimez préparer.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-16",
+      "task": 1,
+      "topic": "友谊",
+      "title": "友谊 · 16",
+      "prompt": "Comment avez-vous rencontré un ami proche ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-17",
+      "task": 1,
+      "topic": "城市",
+      "title": "城市 · 17",
+      "prompt": "Présentez la ville où vous avez grandi.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-18",
+      "task": 1,
+      "topic": "语言",
+      "title": "语言 · 18",
+      "prompt": "Qu’est-ce qui vous semble difficile en français ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-19",
+      "task": 1,
+      "topic": "未来",
+      "title": "未来 · 19",
+      "prompt": "Quels sont vos projets pour les prochaines années ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-20",
+      "task": 1,
+      "topic": "作息",
+      "title": "作息 · 20",
+      "prompt": "Décrivez une journée habituelle.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-21",
+      "task": 1,
+      "topic": "运动",
+      "title": "运动 · 21",
+      "prompt": "Quelle place le sport occupe-t-il dans votre vie ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-22",
+      "task": 1,
+      "topic": "阅读",
+      "title": "阅读 · 22",
+      "prompt": "Parlez d’un livre ou d’un article intéressant.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-23",
+      "task": 1,
+      "topic": "文化",
+      "title": "文化 · 23",
+      "prompt": "Présentez une fête que vous aimez célébrer.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-24",
+      "task": 1,
+      "topic": "工作",
+      "title": "工作 · 24",
+      "prompt": "Préférez-vous travailler seul ou en équipe ? Expliquez avec un exemple.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-25",
+      "task": 1,
+      "topic": "学习",
+      "title": "学习 · 25",
+      "prompt": "Comment organisez-vous votre apprentissage ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-26",
+      "task": 1,
+      "topic": "住房",
+      "title": "住房 · 26",
+      "prompt": "Quel serait votre quartier idéal ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-27",
+      "task": 1,
+      "topic": "旅行",
+      "title": "旅行 · 27",
+      "prompt": "Comment préparez-vous vos vacances ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-28",
+      "task": 1,
+      "topic": "消费",
+      "title": "消费 · 28",
+      "prompt": "Parlez d’un achat dont vous êtes satisfait.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-29",
+      "task": 1,
+      "topic": "家庭",
+      "title": "家庭 · 29",
+      "prompt": "Quelle activité aimez-vous partager en famille ?",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o1-30",
+      "task": 1,
+      "topic": "适应",
+      "title": "适应 · 30",
+      "prompt": "Racontez votre première journée dans un lieu nouveau.",
+      "guide": [
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120
+    },
+    {
+      "id": "o2-01",
+      "task": 2,
+      "topic": "住房",
+      "title": "住房 · 1",
+      "prompt": "Je suis propriétaire d’un appartement à louer. Vous cherchez un logement. Interrogez-moi sur le loyer, les charges, les équipements et les conditions de location.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-02",
+      "task": 2,
+      "topic": "交通",
+      "title": "交通 · 2",
+      "prompt": "Je travaille au service des transports. Vous souhaitez acheter un abonnement. Posez-moi des questions sur les tarifs, les zones et les horaires.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-03",
+      "task": 2,
+      "topic": "学习",
+      "title": "学习 · 3",
+      "prompt": "Je suis responsable d’une école de langues. Vous voulez suivre un cours du soir. Demandez des précisions sur les niveaux, les horaires et l’inscription.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-04",
+      "task": 2,
+      "topic": "工作",
+      "title": "工作 · 4",
+      "prompt": "Je recrute un assistant pour une association. Vous êtes intéressé. Renseignez-vous sur les missions, les horaires et les compétences attendues.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-05",
+      "task": 2,
+      "topic": "旅行",
+      "title": "旅行 · 5",
+      "prompt": "Je suis agent de voyage. Vous préparez un week-end sans voiture. Renseignez-vous sur les destinations, le transport et le budget.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-06",
+      "task": 2,
+      "topic": "消费",
+      "title": "消费 · 6",
+      "prompt": "Je vends un ordinateur d’occasion. Vous envisagez de l’acheter. Interrogez-moi sur son état, ses caractéristiques et les modalités de vente.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-07",
+      "task": 2,
+      "topic": "公共服务",
+      "title": "公共服务 · 7",
+      "prompt": "Je suis bibliothécaire. Vous venez d’arriver dans la ville. Demandez comment vous inscrire, emprunter des livres et participer aux activités.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-08",
+      "task": 2,
+      "topic": "科技",
+      "title": "科技 · 8",
+      "prompt": "Je travaille dans un atelier de réparation. Votre téléphone ne fonctionne plus. Renseignez-vous sur le diagnostic, le délai et le prix.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-09",
+      "task": 2,
+      "topic": "环境",
+      "title": "环境 · 9",
+      "prompt": "J’organise une collecte de déchets dans le quartier. Vous voulez participer. Posez-moi des questions sur le lieu, le matériel et les consignes.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-10",
+      "task": 2,
+      "topic": "家庭",
+      "title": "家庭 · 10",
+      "prompt": "Je propose des activités pour enfants dans un centre communautaire. Vous cherchez une activité pour votre enfant. Renseignez-vous.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-11",
+      "task": 2,
+      "topic": "健康",
+      "title": "健康 · 11",
+      "prompt": "Je suis à l’accueil d’une salle de sport. Vous voulez essayer un cours. Informez-vous sur les abonnements et les conditions d’essai.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-12",
+      "task": 2,
+      "topic": "饮食",
+      "title": "饮食 · 12",
+      "prompt": "Je travaille dans un restaurant. Vous organisez un repas de groupe. Demandez des précisions sur les menus, les allergies et la réservation.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-13",
+      "task": 2,
+      "topic": "文化",
+      "title": "文化 · 13",
+      "prompt": "Je suis bénévole dans un festival. Vous souhaitez y aller. Interrogez-moi sur le programme, les billets et l’accessibilité.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-14",
+      "task": 2,
+      "topic": "社会",
+      "title": "社会 · 14",
+      "prompt": "Je coordonne une association d’aide aux nouveaux arrivants. Vous souhaitez devenir bénévole. Posez-moi des questions.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-15",
+      "task": 2,
+      "topic": "工作",
+      "title": "工作 · 15",
+      "prompt": "Je suis votre nouveau collègue. Vous commencez lundi. Demandez-moi comment se déroule la première journée de travail.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-16",
+      "task": 2,
+      "topic": "住房",
+      "title": "住房 · 16",
+      "prompt": "Je cherche un colocataire. Vous êtes intéressé. Renseignez-vous sur les espaces partagés, les habitudes et le partage des dépenses.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-17",
+      "task": 2,
+      "topic": "旅行",
+      "title": "旅行 · 17",
+      "prompt": "Je tiens une maison d’hôtes. Vous souhaitez y séjourner avec un ami. Posez-moi des questions sur les chambres et les services.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-18",
+      "task": 2,
+      "topic": "消费",
+      "title": "消费 · 18",
+      "prompt": "Je suis vendeur dans un magasin de vélos. Vous cherchez un vélo pour aller au travail. Demandez-moi conseil.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-19",
+      "task": 2,
+      "topic": "公共服务",
+      "title": "公共服务 · 19",
+      "prompt": "Je suis à l’accueil d’une mairie. Vous souhaitez réserver une salle pour un événement. Renseignez-vous sur la procédure.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-20",
+      "task": 2,
+      "topic": "学习",
+      "title": "学习 · 20",
+      "prompt": "J’anime un atelier de photographie pour débutants. Vous voulez vous inscrire. Demandez des détails sur le contenu et le matériel.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-21",
+      "task": 2,
+      "topic": "交通",
+      "title": "交通 · 21",
+      "prompt": "Je propose un trajet en covoiturage. Vous souhaitez voyager avec moi. Interrogez-moi sur le départ, les bagages et le partage des frais.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-22",
+      "task": 2,
+      "topic": "环境",
+      "title": "环境 · 22",
+      "prompt": "Je travaille dans un jardin partagé. Vous aimeriez avoir une parcelle. Demandez des précisions sur les règles et les disponibilités.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-23",
+      "task": 2,
+      "topic": "科技",
+      "title": "科技 · 23",
+      "prompt": "Je gère un espace de travail partagé. Vous voulez y travailler deux jours par semaine. Renseignez-vous sur les équipements et les tarifs.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-24",
+      "task": 2,
+      "topic": "健康",
+      "title": "健康 · 24",
+      "prompt": "Je travaille dans un centre de loisirs. Vous souhaitez apprendre à nager. Interrogez-moi sur les cours pour adultes.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-25",
+      "task": 2,
+      "topic": "文化",
+      "title": "文化 · 25",
+      "prompt": "Je suis responsable d’un musée. Vous préparez une visite de groupe. Renseignez-vous sur les visites guidées et les réservations.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-26",
+      "task": 2,
+      "topic": "家庭",
+      "title": "家庭 · 26",
+      "prompt": "Je garde des animaux à domicile. Vous partez trois jours avec votre famille. Demandez des renseignements sur mes services et mon expérience.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-27",
+      "task": 2,
+      "topic": "消费",
+      "title": "消费 · 27",
+      "prompt": "Je suis au service après-vente. Votre appareil neuf est défectueux. Demandez les conditions d’échange ou de réparation.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-28",
+      "task": 2,
+      "topic": "工作",
+      "title": "工作 · 28",
+      "prompt": "J’organise un salon de l’emploi. Vous souhaitez y assister. Demandez quels employeurs seront présents et comment vous préparer.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-29",
+      "task": 2,
+      "topic": "社会",
+      "title": "社会 · 29",
+      "prompt": "Je suis votre voisin. Une fête de quartier est prévue. Posez-moi des questions pour savoir comment aider à l’organisation.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o2-30",
+      "task": 2,
+      "topic": "旅行",
+      "title": "旅行 · 30",
+      "prompt": "Je suis guide local. Vous recherchez une promenade accessible pour un parent âgé. Informez-vous sur le parcours et les pauses.",
+      "guide": [
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210
+    },
+    {
+      "id": "o3-01",
+      "task": 3,
+      "topic": "工作",
+      "title": "工作 · 1",
+      "prompt": "Le télétravail devrait-il être proposé à tous les salariés dont le métier le permet ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-02",
+      "task": 3,
+      "topic": "科技",
+      "title": "科技 · 2",
+      "prompt": "Les réseaux sociaux rapprochent-ils vraiment les personnes ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-03",
+      "task": 3,
+      "topic": "环境",
+      "title": "环境 · 3",
+      "prompt": "Faut-il limiter la place de la voiture dans les centres-villes ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-04",
+      "task": 3,
+      "topic": "学习",
+      "title": "学习 · 4",
+      "prompt": "Est-il préférable d’apprendre une langue seul ou dans un groupe ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-05",
+      "task": 3,
+      "topic": "住房",
+      "title": "住房 · 5",
+      "prompt": "Vaut-il mieux louer ou acheter son logement ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-06",
+      "task": 3,
+      "topic": "交通",
+      "title": "交通 · 6",
+      "prompt": "Les transports en commun devraient-ils être gratuits ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-07",
+      "task": 3,
+      "topic": "旅行",
+      "title": "旅行 · 7",
+      "prompt": "Voyager loin est-il nécessaire pour découvrir d’autres cultures ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-08",
+      "task": 3,
+      "topic": "消费",
+      "title": "消费 · 8",
+      "prompt": "Acheter moins permet-il de mieux vivre ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-09",
+      "task": 3,
+      "topic": "公共服务",
+      "title": "公共服务 · 9",
+      "prompt": "Les services publics doivent-ils rester accessibles sans Internet ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-10",
+      "task": 3,
+      "topic": "家庭",
+      "title": "家庭 · 10",
+      "prompt": "Les grands-parents jouent-ils encore un rôle essentiel dans l’éducation ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-11",
+      "task": 3,
+      "topic": "健康",
+      "title": "健康 · 11",
+      "prompt": "Les employeurs devraient-ils encourager l’activité physique au travail ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-12",
+      "task": 3,
+      "topic": "社会",
+      "title": "社会 · 12",
+      "prompt": "Le bénévolat devrait-il être intégré aux études ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-13",
+      "task": 3,
+      "topic": "科技",
+      "title": "科技 · 13",
+      "prompt": "Faut-il interdire les téléphones pendant les cours ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-14",
+      "task": 3,
+      "topic": "环境",
+      "title": "环境 · 14",
+      "prompt": "Les gestes individuels suffisent-ils pour protéger l’environnement ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-15",
+      "task": 3,
+      "topic": "工作",
+      "title": "工作 · 15",
+      "prompt": "Le salaire est-il le principal critère pour choisir un emploi ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-16",
+      "task": 3,
+      "topic": "学习",
+      "title": "学习 · 16",
+      "prompt": "Peut-on apprendre efficacement uniquement grâce à des cours en ligne ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-17",
+      "task": 3,
+      "topic": "文化",
+      "title": "文化 · 17",
+      "prompt": "Les musées devraient-ils être gratuits pour tous ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-18",
+      "task": 3,
+      "topic": "消费",
+      "title": "消费 · 18",
+      "prompt": "Les avis en ligne sont-ils fiables pour choisir un produit ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-19",
+      "task": 3,
+      "topic": "住房",
+      "title": "住房 · 19",
+      "prompt": "Vivre dans une petite ville offre-t-il une meilleure qualité de vie ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-20",
+      "task": 3,
+      "topic": "旅行",
+      "title": "旅行 · 20",
+      "prompt": "Faut-il privilégier le train à l’avion pour les trajets courts ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-21",
+      "task": 3,
+      "topic": "社会",
+      "title": "社会 · 21",
+      "prompt": "Est-il plus facile de se faire des amis aujourd’hui qu’autrefois ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-22",
+      "task": 3,
+      "topic": "家庭",
+      "title": "家庭 · 22",
+      "prompt": "Faut-il partager toutes les tâches ménagères de manière égale ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-23",
+      "task": 3,
+      "topic": "公共服务",
+      "title": "公共服务 · 23",
+      "prompt": "Les bibliothèques ont-elles toujours leur place à l’ère numérique ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-24",
+      "task": 3,
+      "topic": "环境",
+      "title": "环境 · 24",
+      "prompt": "Faut-il réduire la consommation de viande pour des raisons écologiques ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-25",
+      "task": 3,
+      "topic": "科技",
+      "title": "科技 · 25",
+      "prompt": "L’intelligence artificielle peut-elle remplacer les enseignants ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-26",
+      "task": 3,
+      "topic": "工作",
+      "title": "工作 · 26",
+      "prompt": "Changer régulièrement de métier est-il un avantage ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-27",
+      "task": 3,
+      "topic": "学习",
+      "title": "学习 · 27",
+      "prompt": "Les notes scolaires reflètent-elles les capacités d’un élève ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-28",
+      "task": 3,
+      "topic": "交通",
+      "title": "交通 · 28",
+      "prompt": "Le vélo peut-il devenir le principal moyen de transport urbain ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-29",
+      "task": 3,
+      "topic": "消费",
+      "title": "消费 · 29",
+      "prompt": "Réparer les objets devrait-il coûter moins cher que les remplacer ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    },
+    {
+      "id": "o3-30",
+      "task": 3,
+      "topic": "社会",
+      "title": "社会 · 30",
+      "prompt": "Les villes devraient-elles développer davantage les espaces de rencontre gratuits ?",
+      "guide": [
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1-01",
+      "task": 1,
+      "topic": "邀请",
+      "title": "邀请 · 1",
+      "prompt": "Écrivez à votre ami pour l’inviter à un pique-nique. Précisez le lieu, l’heure et ce qu’il peut apporter.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-02",
+      "task": 1,
+      "topic": "住房",
+      "title": "住房 · 2",
+      "prompt": "Vous venez de déménager. Écrivez à un ami pour décrire votre logement et lui expliquer comment venir.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-03",
+      "task": 1,
+      "topic": "工作",
+      "title": "工作 · 3",
+      "prompt": "Écrivez à votre collègue pour proposer un échange d’horaires. Expliquez la raison et proposez une solution.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-04",
+      "task": 1,
+      "topic": "学习",
+      "title": "学习 · 4",
+      "prompt": "Écrivez à votre professeur pour demander des renseignements sur un atelier de conversation : horaires, niveau et inscription.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-05",
+      "task": 1,
+      "topic": "旅行",
+      "title": "旅行 · 5",
+      "prompt": "Écrivez à votre hôte pour annoncer votre heure d’arrivée et demander comment rejoindre le logement.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-06",
+      "task": 1,
+      "topic": "消费",
+      "title": "消费 · 6",
+      "prompt": "Écrivez à un vendeur pour demander des informations sur un meuble d’occasion : dimensions, état et livraison.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-07",
+      "task": 1,
+      "topic": "公共服务",
+      "title": "公共服务 · 7",
+      "prompt": "Écrivez à la bibliothèque pour demander comment obtenir une carte et réserver une salle de travail.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-08",
+      "task": 1,
+      "topic": "科技",
+      "title": "科技 · 8",
+      "prompt": "Expliquez à votre ami comment participer à votre réunion vidéo : date, lien et matériel nécessaire.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-09",
+      "task": 1,
+      "topic": "环境",
+      "title": "环境 · 9",
+      "prompt": "Invitez vos voisins à participer à une journée de nettoyage du quartier. Indiquez le programme et le matériel.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-10",
+      "task": 1,
+      "topic": "家庭",
+      "title": "家庭 · 10",
+      "prompt": "Écrivez à un membre de votre famille pour organiser une visite : dates, logement et activités proposées.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-11",
+      "task": 1,
+      "topic": "健康",
+      "title": "健康 · 11",
+      "prompt": "Écrivez à un centre sportif pour demander un cours d’essai. Précisez vos disponibilités et votre objectif.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-12",
+      "task": 1,
+      "topic": "饮食",
+      "title": "饮食 · 12",
+      "prompt": "Répondez à un ami qui cherche un restaurant pour un groupe. Recommandez un lieu et expliquez votre choix.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-13",
+      "task": 1,
+      "topic": "文化",
+      "title": "文化 · 13",
+      "prompt": "Invitez un ami à une exposition. Présentez le thème, le lieu et les horaires.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-14",
+      "task": 1,
+      "topic": "社会",
+      "title": "社会 · 14",
+      "prompt": "Écrivez à une association pour proposer votre aide. Présentez vos disponibilités et vos compétences.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-15",
+      "task": 1,
+      "topic": "交通",
+      "title": "交通 · 15",
+      "prompt": "Écrivez à un ami pour expliquer un changement dans votre trajet et proposer un nouveau lieu de rendez-vous.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-16",
+      "task": 1,
+      "topic": "服务",
+      "title": "服务 · 16",
+      "prompt": "Écrivez à un hôtel pour demander la modification de votre réservation. Indiquez les nouvelles dates et vos besoins.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-17",
+      "task": 1,
+      "topic": "兴趣",
+      "title": "兴趣 · 17",
+      "prompt": "Écrivez à votre voisin pour lui proposer de pratiquer une activité ensemble. Expliquez où et quand.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-18",
+      "task": 1,
+      "topic": "感谢",
+      "title": "感谢 · 18",
+      "prompt": "Remerciez un ami qui vous a aidé à déménager et proposez-lui un repas.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-19",
+      "task": 1,
+      "topic": "道歉",
+      "title": "道歉 · 19",
+      "prompt": "Excusez-vous auprès d’un ami pour avoir manqué un rendez-vous. Expliquez ce qui s’est passé et proposez une autre date.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w1-20",
+      "task": 1,
+      "topic": "通知",
+      "title": "通知 · 20",
+      "prompt": "Prévenez les membres de votre club que la prochaine rencontre change de lieu. Donnez les nouvelles informations.",
+      "guide": [
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-01",
+      "task": 2,
+      "topic": "旅行",
+      "title": "旅行 · 1",
+      "prompt": "Sur le blog de votre école, racontez un voyage en train qui vous a marqué et donnez votre avis sur ce mode de transport.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-02",
+      "task": 2,
+      "topic": "工作",
+      "title": "工作 · 2",
+      "prompt": "Pour le journal de votre entreprise, racontez votre première semaine dans une nouvelle équipe et proposez une amélioration pour accueillir les nouveaux collègues.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-03",
+      "task": 2,
+      "topic": "学习",
+      "title": "学习 · 3",
+      "prompt": "Sur un forum d’apprenants, racontez votre expérience d’un cours de langue en ligne et expliquez à qui vous le recommandez.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-04",
+      "task": 2,
+      "topic": "住房",
+      "title": "住房 · 4",
+      "prompt": "Pour le site d’une association, racontez votre expérience de colocation et donnez des conseils aux futurs colocataires.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-05",
+      "task": 2,
+      "topic": "交通",
+      "title": "交通 · 5",
+      "prompt": "Racontez sur un blog votre semaine sans voiture et expliquez ce que vous aimeriez conserver de cette expérience.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-06",
+      "task": 2,
+      "topic": "消费",
+      "title": "消费 · 6",
+      "prompt": "Sur un forum, racontez une réparation que vous avez fait réaliser au lieu de remplacer un objet et évaluez le service reçu.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-07",
+      "task": 2,
+      "topic": "公共服务",
+      "title": "公共服务 · 7",
+      "prompt": "Pour le journal du quartier, racontez une activité à la bibliothèque et expliquez son intérêt pour les habitants.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-08",
+      "task": 2,
+      "topic": "科技",
+      "title": "科技 · 8",
+      "prompt": "Racontez une journée passée sans téléphone et donnez votre avis sur cette expérience pour le blog de votre club.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-09",
+      "task": 2,
+      "topic": "环境",
+      "title": "环境 · 9",
+      "prompt": "Pour le site de votre ville, racontez votre participation à une collecte de déchets et proposez des mesures pour améliorer la prochaine édition.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-10",
+      "task": 2,
+      "topic": "家庭",
+      "title": "家庭 · 10",
+      "prompt": "Sur un blog familial, racontez une sortie intergénérationnelle et expliquez ce qui l’a rendue réussie.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-11",
+      "task": 2,
+      "topic": "健康",
+      "title": "健康 · 11",
+      "prompt": "Pour le journal d’un centre sportif, racontez vos débuts dans un nouveau sport et encouragez les débutants avec des conseils concrets.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-12",
+      "task": 2,
+      "topic": "饮食",
+      "title": "饮食 · 12",
+      "prompt": "Sur un forum, racontez votre participation à un atelier de cuisine et expliquez ce que cette expérience vous a apporté.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-13",
+      "task": 2,
+      "topic": "文化",
+      "title": "文化 · 13",
+      "prompt": "Pour le site de votre école, racontez une visite de musée et justifiez votre recommandation.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-14",
+      "task": 2,
+      "topic": "社会",
+      "title": "社会 · 14",
+      "prompt": "Racontez une journée de bénévolat pour le journal d’une association et proposez une idée pour attirer de nouveaux bénévoles.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-15",
+      "task": 2,
+      "topic": "工作",
+      "title": "工作 · 15",
+      "prompt": "Pour un forum professionnel, racontez une formation suivie récemment et expliquez comment vous utilisez les acquis au travail.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-16",
+      "task": 2,
+      "topic": "学习",
+      "title": "学习 · 16",
+      "prompt": "Racontez votre participation à un échange linguistique et donnez votre avis sur cette façon d’apprendre, pour le blog de votre école.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-17",
+      "task": 2,
+      "topic": "旅行",
+      "title": "旅行 · 17",
+      "prompt": "Pour un blog de voyages, racontez un séjour dans une petite ville et expliquez pourquoi vous la conseillez ou non.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-18",
+      "task": 2,
+      "topic": "消费",
+      "title": "消费 · 18",
+      "prompt": "Sur le site d’un club, racontez l’organisation d’un marché d’occasion et proposez des améliorations.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-19",
+      "task": 2,
+      "topic": "环境",
+      "title": "环境 · 19",
+      "prompt": "Racontez votre première saison dans un jardin partagé et expliquez les avantages et les difficultés de cette activité.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w2-20",
+      "task": 2,
+      "topic": "文化",
+      "title": "文化 · 20",
+      "prompt": "Pour le journal de votre quartier, racontez un festival local et expliquez comment il pourrait devenir plus accessible.",
+      "guide": [
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）"
+    },
+    {
+      "id": "w3-01",
+      "task": 3,
+      "topic": "工作",
+      "title": "Le télétravail",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le télétravail » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Le travail à distance évite de longs trajets et permet de mieux organiser sa journée. Il peut aussi faciliter la concentration.",
+        "Au bureau, les échanges spontanés renforcent l’équipe. À distance, certaines personnes se sentent isolées."
+      ]
+    },
+    {
+      "id": "w3-02",
+      "task": 3,
+      "topic": "科技",
+      "title": "Les téléphones à l’école",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les téléphones à l’école » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Le téléphone permet de rechercher rapidement des informations et de travailler avec des outils éducatifs.",
+        "Les notifications détournent l’attention. Les élèves risquent de moins participer aux échanges en classe."
+      ]
+    },
+    {
+      "id": "w3-03",
+      "task": 3,
+      "topic": "环境",
+      "title": "La voiture en centre-ville",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La voiture en centre-ville » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Limiter les voitures réduit le bruit et libère de la place pour les piétons.",
+        "Certaines personnes dépendent de leur voiture, notamment lorsque les transports publics sont rares."
+      ]
+    },
+    {
+      "id": "w3-04",
+      "task": 3,
+      "topic": "学习",
+      "title": "Les cours en ligne",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les cours en ligne » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les cours en ligne permettent d’étudier à son rythme, même loin d’un centre de formation.",
+        "Sans rencontres régulières, il est difficile de garder sa motivation et de poser des questions spontanément."
+      ]
+    },
+    {
+      "id": "w3-05",
+      "task": 3,
+      "topic": "住房",
+      "title": "La vie en colocation",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La vie en colocation » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Partager un logement réduit les dépenses et permet de rencontrer des personnes.",
+        "Les différences de rythme et le partage des tâches peuvent provoquer des tensions."
+      ]
+    },
+    {
+      "id": "w3-06",
+      "task": 3,
+      "topic": "交通",
+      "title": "La gratuité des transports",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La gratuité des transports » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Des transports gratuits faciliteraient les déplacements des habitants ayant de faibles revenus.",
+        "La priorité devrait être la fréquence et la fiabilité du service, qui demandent déjà beaucoup de moyens."
+      ]
+    },
+    {
+      "id": "w3-07",
+      "task": 3,
+      "topic": "旅行",
+      "title": "Le tourisme local",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le tourisme local » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Voyager près de chez soi coûte moins cher et permet de mieux connaître sa région.",
+        "Partir loin favorise la découverte d’autres langues et de modes de vie différents."
+      ]
+    },
+    {
+      "id": "w3-08",
+      "task": 3,
+      "topic": "消费",
+      "title": "Les achats sur Internet",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les achats sur Internet » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les boutiques en ligne offrent un grand choix et évitent des déplacements.",
+        "Acheter dans les commerces locaux permet de recevoir des conseils et de faire vivre le quartier."
+      ]
+    },
+    {
+      "id": "w3-09",
+      "task": 3,
+      "topic": "公共服务",
+      "title": "Les démarches numériques",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les démarches numériques » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les démarches en ligne sont pratiques et peuvent se faire à toute heure.",
+        "Certaines personnes n’ont pas les outils ou les compétences nécessaires ; un accueil humain reste indispensable."
+      ]
+    },
+    {
+      "id": "w3-10",
+      "task": 3,
+      "topic": "家庭",
+      "title": "Les écrans pour les enfants",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les écrans pour les enfants » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Certains contenus numériques stimulent la curiosité et peuvent soutenir les apprentissages.",
+        "Un usage excessif des écrans réduit le temps consacré au sommeil, aux jeux et aux échanges."
+      ]
+    },
+    {
+      "id": "w3-11",
+      "task": 3,
+      "topic": "健康",
+      "title": "Le sport au travail",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le sport au travail » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Des activités sportives proposées par l’employeur améliorent le bien-être et les relations entre collègues.",
+        "L’activité physique relève du choix personnel ; les entreprises devraient surtout réduire la charge de travail."
+      ]
+    },
+    {
+      "id": "w3-12",
+      "task": 3,
+      "topic": "社会",
+      "title": "Le bénévolat étudiant",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le bénévolat étudiant » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Le bénévolat permet aux étudiants de découvrir la société et d’acquérir des compétences utiles.",
+        "Une obligation de bénévolat pénaliserait les étudiants qui doivent déjà travailler pour financer leurs études."
+      ]
+    },
+    {
+      "id": "w3-13",
+      "task": 3,
+      "topic": "文化",
+      "title": "Les musées gratuits",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les musées gratuits » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "La gratuité permet à davantage de personnes d’accéder au patrimoine culturel.",
+        "Les musées ont besoin de recettes pour entretenir les collections et organiser des expositions."
+      ]
+    },
+    {
+      "id": "w3-14",
+      "task": 3,
+      "topic": "消费",
+      "title": "Les produits d’occasion",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les produits d’occasion » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Acheter d’occasion réduit les déchets et permet de faire des économies.",
+        "Il est parfois difficile de vérifier l’état des produits et d’obtenir une garantie."
+      ]
+    },
+    {
+      "id": "w3-15",
+      "task": 3,
+      "topic": "住房",
+      "title": "La ville ou la campagne",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La ville ou la campagne » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "La campagne offre du calme, de l’espace et un accès plus direct à la nature.",
+        "La ville facilite l’accès aux emplois, aux soins et aux activités culturelles."
+      ]
+    },
+    {
+      "id": "w3-16",
+      "task": 3,
+      "topic": "环境",
+      "title": "La réduction des emballages",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La réduction des emballages » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les magasins devraient proposer davantage de produits sans emballage pour limiter les déchets.",
+        "Les emballages protègent certains aliments et facilitent leur transport ; leur suppression doit rester adaptée aux produits."
+      ]
+    },
+    {
+      "id": "w3-17",
+      "task": 3,
+      "topic": "科技",
+      "title": "Les outils d’intelligence artificielle pour apprendre",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les outils d’intelligence artificielle pour apprendre » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Ces outils peuvent fournir rapidement des exemples et permettre de s’exercer à tout moment.",
+        "Leurs réponses peuvent contenir des erreurs ; un accompagnement humain reste nécessaire pour progresser."
+      ]
+    },
+    {
+      "id": "w3-18",
+      "task": 3,
+      "topic": "工作",
+      "title": "La semaine de quatre jours",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La semaine de quatre jours » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Une semaine plus courte peut améliorer le repos et la motivation des salariés.",
+        "Répartir la même charge sur moins de jours risque d’augmenter le stress et de compliquer le service aux clients."
+      ]
+    },
+    {
+      "id": "w3-19",
+      "task": 3,
+      "topic": "学习",
+      "title": "Les notes scolaires",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les notes scolaires » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les notes donnent des repères clairs pour suivre les progrès et identifier les difficultés.",
+        "Une note ne montre pas toujours les efforts, la créativité ou les progrès individuels."
+      ]
+    },
+    {
+      "id": "w3-20",
+      "task": 3,
+      "topic": "社会",
+      "title": "Les espaces publics de rencontre",
+      "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les espaces publics de rencontre » et donnez votre avis argumenté.",
+      "guide": [
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "original",
+      "status": "待人工复核",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Des lieux gratuits favorisent les rencontres et réduisent l’isolement des habitants.",
+        "Créer de nouveaux lieux ne suffit pas ; il faut aussi financer leur entretien et des activités adaptées."
+      ]
+    }
+  ],
+  "review": {
+    "humanReviewed": 0,
+    "pendingHumanReview": 150,
+    "originalOral": 90,
+    "originalWriting": 60,
+    "writingExamples": 6,
+    "oralExampleExcerpts": 6,
+    "automaticChecks": [
+      "题目数量及任务分布",
+      "稳定ID唯一性",
+      "题干去重",
+      "写作范文字数范围"
+    ]
+  }
+}
