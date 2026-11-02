@@ -2,6 +2,7 @@ const KEY='french-learning-v1';
 const fresh=()=>({version:1,completed:[],favorites:[],attempts:[],oralRecords:[],drafts:{},history:[]});
 let recoveryRaw=null,recoveryExported=false;let state=fresh(),courses=[],exam={},timer=null,timerRemaining=0,timerDeadline=0,timerStartedAt=0,elapsedBeforeStart=0,selectedOral=null,selectedWriting=null;
 const main=document.querySelector('main');
+document.querySelector('.skip').addEventListener('click',e=>{e.preventDefault();main.focus();main.scrollIntoView({block:'start'});});
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arr=v=>Array.isArray(v)?v:v==null?[]:[v];
 const txt=v=>typeof v==='object'?JSON.stringify(v):String(v??'');

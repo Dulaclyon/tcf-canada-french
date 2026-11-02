@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+execFileSync(process.execPath,['scripts/build.mjs'],{stdio:'inherit'});
+// Keep a portable static export; hosted deployment adds verified server-side login.
+await fs.copyFile('landing.html','dist/index.html');
+await fs.copyFile('landing.css','dist/landing.css');
+let manifest=JSON.parse(await fs.readFile('dist/manifest.webmanifest','utf8'));
+manifest.start_url='./app.html#home';
+await fs.writeFile('dist/manifest.webmanifest',JSON.stringify(manifest,null,2));
+let sw=await fs.readFile('dist/sw.js','utf8');
+sw=sw.replace("'./index.html'","'./index.html','./app.html'").replace("caches.match('./index.html')","caches.match('./app.html')");
+await fs.writeFile('dist/sw.js',sw);
+const files={};
+const walk=async dir=>{for(const item of await fs.readdir(dir,{withFileTypes:true})){const path=`${dir}/${item.name}`;if(item.isDirectory())await walk(path);else{const rel=path.slice(5),ext=path.split('.').at(-1);files[rel]={body:await fs.readFile(path,'utf8'),type:({html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',json:'application/json; charset=utf-8',webmanifest:'application/manifest+json',svg:'image/svg+xml'})[ext]||'text/plain; charset=utf-8'};}}};
+await walk('dist');
+const handler=await fs.readFile('worker/handler.mjs','utf8');
+await fs.mkdir('dist/server',{recursive:true});
+await fs.writeFile('dist/server/index.js',handler+`\nconst files=${JSON.stringify(files)};\nexport default {fetch(request){try{return serve(request,files)}catch{return new Response('请求无法处理',{status:400})}}};\n`);
+await fs.mkdir('dist/.openai',{recursive:true});
+await fs.copyFile('.openai/hosting.json','dist/.openai/hosting.json');
+console.log('Hosted Worker built: public Hero + verified ChatGPT sign-in to app.html.');

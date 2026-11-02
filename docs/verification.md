@@ -31,3 +31,17 @@ PWA提供相对scope/start_url、路径隔离缓存、版本更新提示、同�
 已建立独立私有仓库Dulaclyon/tcf-canada-french。GitHub Pages设置页实际显示“Upgrade or make this repository public to enable Pages”。不改公开、不升级付费，因此Pages自动部署受套餐限制；工作流始终自动校验构建，部署仅在repository variable PAGES_ENABLED=true时执行，供符合条件后启用。Sites作为本人私有托管，不代表用户GitHub仓库或Pages已部署。
 
 学习数据均为测试浏览器中的测试记录；不打包、不上传。构建产物仅含应用文件和整理后的课程JSON，不含原始资料、音频、私人姓名或密钥。
+
+
+## 实际发布证据
+
+- Sites生产部署成功：2026-11-01 22:13 America/Toronto；网址 https://tcf-canada-french-dulaclyon.dulaclyon07.chatgpt.site 。owner-private不变，未登录浏览器实际显示登录门槛。用户已成功登录，线上课程、文章、练习内容已实际显示。
+- GitHub提交6ad61661562dfc90fca3dd339ffbe752473b34a4的Actions #2自动校验构建成功，Pages部署按条件跳过：https://github.com/Dulaclyon/tcf-canada-french/actions/runs/41382206355 。前一运行在未启用Pages处失败，已修工作流按套餐显式跳过，未掩盖为部署成功。
+- 跳到主要内容链接原先与hash路由冲突→拦截默认导航并实际聚焦main，避免显示不存在页面。
+
+
+## 新增Hero与公开用户入口
+
+用户明确要求介绍页与学习应用允许其他用户访问。原私有模式改为公开Hero与已登录学习空间；GitHub仓库仍保持私有，原始资料不公开。增加真实平台ChatGPT登录和退出入口；Worker在/app.html检查平台身份头，匿名请求302到标准登录地址。自动测试覆盖匿名Hero、匿名学习页跳转、已验证身份、登录会话状态、404及身份页面no-store。
+
+本地档案仍以浏览器为单位，不提供账号云同步；共用浏览器的其他账号可能看到本地记录，产品明确提醒。

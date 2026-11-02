@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {serve} from '../worker/handler.mjs';
+const files={'index.html':{body:'HERO /signin-with-chatgpt?return_to=%2Fapp.html%23home',type:'text/html'},'app.html':{body:'APP',type:'text/html'}};
+const request=(path,signedIn=false)=>new Request('https://example.test'+path,{headers:signedIn?{'oai-authenticated-user-id':'test-user'}:{}});
+assert.equal(serve(request('/'),files).status,200);
+assert((await serve(request('/'),files).text()).startsWith('HERO'));
+const anon=serve(request('/app.html'),files);assert.equal(anon.status,302);assert(anon.headers.get('location').includes('/signin-with-chatgpt?return_to='));
+assert.equal(await serve(request('/app.html',true),files).text(),'APP');
+assert((await serve(request('/',true),files).text()).includes('/app.html#home'));
+assert.deepEqual(await serve(request('/session'),files).json(),{signedIn:false});
+assert.equal(serve(request('/not-found'),files).status,404);
+assert(serve(request('/app.html',true),files).headers.get('Cache-Control').includes('no-store'));
+console.log('Auth tests passed: anonymous Hero, protected app redirect, verified identity, no-store, 404.');
