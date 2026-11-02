@@ -28,6 +28,6 @@ PWA提供相对scope/start_url、路径隔离缓存、版本更新提示、同�
 
 ## 部署边界
 
-已建立独立私有仓库Dulaclyon/tcf-canada-french。GitHub Pages设置页实际显示“Upgrade or make this repository public to enable Pages”。不改公开、不升级付费，因此Pages自动部署受套餐限制；保留工作流供符合条件后启用。Sites作为本人私有托管，不代表用户GitHub仓库或Pages已部署。
+已建立独立私有仓库Dulaclyon/tcf-canada-french。GitHub Pages设置页实际显示“Upgrade or make this repository public to enable Pages”。不改公开、不升级付费，因此Pages自动部署受套餐限制；工作流始终自动校验构建，部署仅在repository variable PAGES_ENABLED=true时执行，供符合条件后启用。Sites作为本人私有托管，不代表用户GitHub仓库或Pages已部署。
 
 学习数据均为测试浏览器中的测试记录；不打包、不上传。构建产物仅含应用文件和整理后的课程JSON，不含原始资料、音频、私人姓名或密钥。

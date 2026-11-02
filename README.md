@@ -22,7 +22,7 @@ python3 -m http.server 4173 --directory dist --bind 127.0.0.1
 
 ## 部署
 
-`.github/workflows/pages.yml` 在 main 推送时校验、构建与部署。仓库 Settings → Pages → Source 选择 GitHub Actions。私有仓库 Pages 需要符合 GitHub 套餐条件；不会自动将仓库改公开。网址与仓库权限不同，Pages 可能公开访问。
+`.github/workflows/pages.yml` 在 main 推送时校验、构建与部署。仓库 Settings → Pages → Source 选择 GitHub Actions，并在 Actions repository variables 添加 `PAGES_ENABLED=true`。默认仅自动校验与构建，部署步骤按套餐限制跳过，避免已知必然失败的发布。私有仓库 Pages 需要符合 GitHub 套餐条件；不会自动将仓库改公开。网址与仓库权限不同，Pages 可能公开访问。
 
 全部资源使用相对 URL，hash 路由支持仓库子路径与刷新，manifest scope/start_url 使用 `./`。PWA 需要 HTTPS 或 localhost；浏览器安装能力不同。未发布 App Store 或 Google Play。服务工作线程版本变化触发新缓存，内容更新后刷新应用。
 
