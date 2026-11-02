@@ -17,7 +17,7 @@ export function serve(request, files) {
   if (!asset) return new Response('页面不存在',{status:404,headers:{...headers,'Content-Type':'text/plain; charset=utf-8'}});
   let body=asset.body;
   if (path==='index.html' && identity) {
-    body=body.replaceAll('/signin-with-chatgpt?return_to=%2Fapp.html%23home','/app.html#home');
+    body=body.replaceAll('/signin-with-chatgpt?return_to=%2Fapp.html%23home','/app.html#home').replaceAll('使用 ChatGPT 登录，开始学习','进入我的学习空间').replace('>登录 <span','>进入学习 <span');
   }
   return new Response(request.method==='HEAD'?null:body,{headers:{...headers,'Content-Type':asset.type,'Cache-Control':path.endsWith('.html')?'private, no-store':'public, max-age=0, must-revalidate',...(path==='index.html'?{'Vary':'Cookie'}:{}),...(path==='sw.js'?{'Service-Worker-Allowed':'/'}:{})}});
 }
