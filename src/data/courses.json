@@ -13,7 +13,7 @@
       "file": "leçon 2/Leçon 2(1).pdf",
       "page": 1,
       "node": "Être 变位的应用 / Nouns",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -234,7 +234,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "être",
+        "text": "Être 变位的应用\nJe suis Julien;\nTu es Crystal.\nIl est Bob;\nElle est Lucy ;\nNous sommes amis ;\nVous êtes amis ;\nIls sont étudiants ;\nElles sont étudiantes ;\nElles sont en train de faire une maison ;\nJe suis en train de faire le lit ; 正在进行\nIl est en train de faire la valise ;",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "Être 变位的应用"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-02",
@@ -252,7 +262,7 @@
       "file": "leçon 2/Leçon 2(1).pdf",
       "page": 1,
       "node": "Nouns 名词 / 冠词",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -477,7 +487,24 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "名词与冠词",
+        "text": "Nouns 名词\nUn lit ---- le lit --- the bed\nUne voiture ----- la voiture ---- the car\nUne photo ---- la photo ------- the photo\nUn travail ---- le travail ----- the work\nUne maison ---- la maison --- the house\nUn restaurant ----- le restaurant\nUne valise ---- la valise ---- the luggage",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "Nouns 名词"
+      },
+      {
+        "title": "物主词",
+        "text": "物主\nJe ----- mon ma mes ----my\nTu ----- ton ta tes --- your\nIl ----- son sa ses --- his\nElle ---- son sa ses -- her\nNous ---- notre, nos ----- our\nVous ---- votre ; vos ---- your\nIls ---- leur , leurs ---- their\nElles ---- leur, leurs ---- their\nC’est la voiture ; C’est ma voiture ;\nC’est un livre ; C’est mon livre ;\nCe sont trois livres ; Ce sont mes livres.",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "物主"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-03",
@@ -495,7 +522,7 @@
       "file": "leçon 6/Les quatre saisons 四季(3).pdf",
       "page": 1,
       "node": "第一类规则动词 / 第二类动词变位",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -715,7 +742,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "动词变位",
+        "text": "第一类规则动词变位\ndétester（讨厌）\nje déteste\ntu détestes\nil/elle/on déteste\nnous détestons\nvous détestez\nils/elles détestent\ngeler（结冰）\nje gèle\ntu gèles\nil/elle/on gèle\nnous gelons\nvous gelez\nils/elles gèlent\nneiger（下雪）\n第二类动词变位（规则）\nfinir v. 完成，结束\nje finis\ntu finis\nil/elle/on finit\nnous finissons\nvous finissez\nils/elles finissent\nverdir （变绿）\nje verdis\ntu verdis\nil verdit\nnous verdissons\nvous verdissez\nils verdissent\nfleurir （开花）\nje fleuris\ntu fleuris\nil fleurit\nnous fleurissons\nvous fleurissez\nils fleurissent\nmûrir （成熟）\nje mûris\ntu mûris\nil mûrit\nnous mûrissons\nvous mûrissez\nils mûrissent\nJaunir（变黄)\nje jaunis\ntu jaunis\nil/elle/on jaunit\nnous jaunissons\nvous jaunissez\nils/elles jaunissent\nLes feuilles jaunissent en automne.\nL’herbe jaunit à cause du soleil.\n第三类非规则动词变位 il pleut （下雨了）",
+        "file": "leçon 6/Les quatre saisons 四季(3).pdf",
+        "page": 1,
+        "node": "第一类规则动词变位"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-04",
@@ -733,7 +770,7 @@
       "file": "leçon 7/Leçon sept.pdf",
       "page": 1,
       "node": "冠词 → 缩合冠词",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -954,7 +991,24 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "缩合冠词",
+        "text": "缩合冠词\nà + le au - Il va au cinéma / Je vais au\nmarché. 我去市场\nà + les aux - Il va aux Etat-unis 他去美国\nde + le du - Elle vient du Canada. / Elle\nparle du professeur. 她谈到那位教授\nde + les des - Ils viennent des Etat-Unis. 他\n们来自美国",
+        "file": "leçon 7/Leçon sept.pdf",
+        "page": 1,
+        "node": "缩合冠词"
+      },
+      {
+        "title": "地点介词",
+        "text": "Préposition\navec Je vais habiter au Canada avec Julien.\nà Il habite à North York.\ndans 接地点更多指在一个空间里头\nIl y a un livre dans la boîte（盒子）.\nJe suis dans la chambre.\nchez 在...家 Comment venez-vous chez moi?",
+        "file": "leçon 4/Leçon quatre(4).pdf",
+        "page": 1,
+        "node": "Préposition"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-05",
@@ -972,7 +1026,7 @@
       "file": "leçon 7/Leçon sept.pdf",
       "page": 1,
       "node": "冠词 → 部分冠词；短文 → 否定",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -1196,7 +1250,26 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "部分冠词",
+        "text": "部分冠词- 一些\ndes + 可数名词复数，\ndu + 不可数名词，\nde la 阴性不可数名词，\nde l' 以元音开头的不可数名词\nje veux du pain. 想要一些面包\nElle boit de la soupe. 喝一些汤\nEst-ce que vous avez du temps? 您有一些时间么？\nNous mangeons des pommes. 我们吃一些苹果\nIl veux boire de l'eau. 他想要喝一些水",
+        "file": "leçon 7/Leçon sept.pdf",
+        "page": 1,
+        "node": "部分冠词"
+      },
+      {
+        "title": "数量",
+        "text": "Quantité (数量表达)\nUn peu de → 一点\nJ’ai un peu de temps.\nEst-ce que vous avez un peu d’eau ?\nBeaucoup de → 许多\nJ’ai beaucoup de livres.\ntrop de → 太多\nIl a trop d’argent.\n总结：\nUn peu de → 少量\nBeaucoup de → 大量\nTrop de → 过多",
+        "file": "leçon 8/代动词(1).pdf",
+        "page": 1,
+        "node": "Quantité (数量表达)"
+      }
+    ],
+    "coursewareNotes": [
+      "原文“Il veux boire de l’eau”中的 veux 应为 veut。"
+    ]
   },
   {
     "id": "grammar-06",
@@ -1214,7 +1287,7 @@
       "file": "leçon 8/代动词(1).pdf",
       "page": 1,
       "node": "Négation；数量表达",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -1434,7 +1507,33 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "疑问句",
+        "text": "一般疑问句\nce 这（些）\nCe est un lit ; 这是一个.... （注意be的变位搭配\nCe sont deux maisons ； 这些是....\n1. be动词提前\n2. Est-ce que\n例子\nNous sommes amis ;----- Sommes-nous amis ? ----- Est-ce que nous sommes amis ?\nC’est un lit ; -------- Est-ce un lit ?---- Est-ce que c’est un lit ?\nC’est Crystal ; ----- Est-ce Crystal ? ----- Est-ce que c’est Crystal ?\nC’est une voiture ; ------ Est-ce une voiture ?---- est-ce que c’est une voiture ?\nEst-ce qu’il est en train de faire le travail ?\nEst-ce que tu es Crystal ? Oui, je suis Crystal ;",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "一般疑问句"
+      },
+      {
+        "title": "否定句",
+        "text": "否定 ne...pas (注意缩合的情况)\nC'est un lit. ---- Ce n’est pas un lit ;\nCe sont deux maisons ------ ce ne sont pas deux maisons ;\nElle fait le lit ; ----- elle ne fait pas le lit ;\nNous faisons la valise, ----- nous ne faisons pas la valise.",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "否定 ne"
+      },
+      {
+        "title": "否定表达",
+        "text": "Négation (否定表达)\nNe...ni...ni → 既不……也不……\nJe ne fais ni ma valise ni mon lit.\nNe...rien → 什么也没有（not anything）\nJe ne mange rien.\nJe ne veux rien manger.\nNe...personne → 没有人（nobody）\nJe ne connais personne.",
+        "file": "leçon 8/代动词(1).pdf",
+        "page": 1,
+        "node": "Négation (否定表达)"
+      }
+    ],
+    "coursewareNotes": [
+      "原文“Ce est un lit”应写作“C’est un lit”。"
+    ]
   },
   {
     "id": "grammar-07",
@@ -1452,7 +1551,7 @@
       "file": "leçon 13/Adj 形容词(2).pdf",
       "page": 1,
       "node": "Adj 形容词 → 常用形容词",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -1672,7 +1771,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "常用形容词",
+        "text": "常用形容词\n性格类形容词\n• 大方：généreux（阳），généreuse（阴）\n• 小气：radin（阳），radine（阴）\n• 聪明：intelligent（阳），intelligente（阴）\n• 愚蠢：bête（阳阴同形）\n• 和善：gentil（阳），gentille（阴）\n• 凶恶：méchant（阳），méchante（阴）\n• 害羞：timide（阳阴同形）\n• 有趣：drôle（阳阴同形）\n• 安静：calme（阳阴同形）\n• 热情：chaleureux（阳），chaleureuse（阴）\n• 冷漠：froid（阳），froide（阴）\n情绪类形容词\n• 快乐：heureux（阳），heureuse（阴）\n• 悲伤：triste（阳阴同形）\n• 累：fatigué（阳），fatiguée（阴）\n• 生病：malade（阳阴同形）\n• 有压力的：stressé（阳），stressée（阴）\n• 好奇：curieux（阳），curieuse（阴）\n冷热和环境\n• 热：chaud（阳），chaude（阴）\n• 冷：froid（阳），froide（阴）\n• 干净：propre（阳阴同形）\n• 脏：sale（阳阴同形）\n• 舒适：confortable（阳阴同形）\n• 简单：simple（阳阴同形）\n财富状况类\n• 富有：riche（阳阴同形）\n• 贫穷：pauvre（阳阴同形）\n大小类\ngrand / grande → 大\nUn grand chien. Une grande maison.\npetit / petite → 小\nUn petit garçon. Une petite table.\ngros / grosse → 胖，大块的\nUn gros chat. Une grosse valise.\nmince / mince → 瘦，苗条（阴阳同形）\nUn homme mince. Une fille mince.\nhaut / haute → 高\nUne montagne haute. Un mur haut.\nbas / basse → 低\nUne voix basse. Un plafond bas.\nlong / longue → 长\nUne longue route. Un long film.\ncourt / courte → 短\nUne jupe courte. Un trajet court.\n美丑类\nbeau / belle → 漂亮，英俊，美丽\nUn beau jardin. Une belle femme.\njoli / jolie → 漂亮，秀气（通常用于女性或事物）\nUne jolie robe. Un joli sourire.\nmoche / moche → 丑（口语）\nCe tableau est moche.\nlaid / laide → 丑陋（正式）\nUn visage laid. Une maison laide.",
+        "file": "leçon 13/Adj 形容词(2).pdf",
+        "page": 1,
+        "node": "常用形容词"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-08",
@@ -1690,7 +1799,7 @@
       "file": "leçon 14/比较级&最高级(3).pdf",
       "page": 1,
       "node": "比较级 / 最高级",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -1911,7 +2020,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "比较与最高级",
+        "text": "比较级\nsuperiority:plus...que（比...更...）\nIl est plus grand que moi.（他比我高。）\nElle parle plus vite que son frère.（她说话比她哥哥快。）\nequality: aussi...que（和...一样...）\nIl est aussi intelligent que sa sœur.（他和他姐姐一样聪明。）\nElle court aussi vite que moi.（她跑得和我一样快。）\ninferiority:moins...que（比...更不... / 比...少）\nCe film est moins intéressant que l'autre.（这部电影没那部有趣。）\nIl travaille moins sérieusement que toi.（他工作没你认真。）\n特殊情况:不规则比较级\nbon（好的）→ meilleur que（比...更好） Ce vin est meilleur que l'autre.（这瓶酒比那瓶好。）\nbien（好地）→ mieux que（比...更好） Il chante mieux que moi.（他唱得比我好。）\nmauvais（坏的）→ pire que（比...更糟）\nCette situation est pire que je ne pensais.\n（这个情况比我想象的更糟。）\n最高级\n(1) 最高程度：le/la/les plus...（最...）\nC'est le plus grand bâtiment de la ville.（这\n是城里最高的建筑。）\nElle est la plus intelligente de la classe.（她\n是班上最聪明的。）\n副词：le plus + 副词（副词无性数变化）\nIl court le plus vite.（他跑得最快。）\n(2) 最低程度：le/la/les moins...（最不...）\nC'est le moins cher des restaurants.（这是最不贵的餐厅。）\nElle est la moins timide du groupe.（她是小组里最不害羞的。）\n副词：le moins + 副词\nIl travaille le moins rapidement.（他工作得最慢。）\n不规则最高级\nbon（好的）→ le meilleur（最好的）\nC'est le meilleur film de l'année.（这是今年\n最好的电影。）\nbien（好地）→ le mieux（最好地） Il explique le mieux.（他解释得最好。）\nmauvais（坏的）→ le pire（最糟的）\nC'est le pire jour de ma vie.（这是我人生中最\n糟糕的一天。）",
+        "file": "leçon 14/比较级&最高级(3).pdf",
+        "page": 1,
+        "node": "比较级\nsuperiority:"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-09",
@@ -1929,7 +2048,7 @@
       "file": "leçon 5/Central Topic(4).pdf",
       "page": 1,
       "node": "数字 / 日期；第16课补充数量",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -2149,7 +2268,24 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "数字",
+        "text": "数字\nTrente – thirty\nTrente et un – thirty-one\nTrente-deux – thirty-two\nTrente-neuf – thirty-nine\nQuarante et un – forty-one\nQuarante-cinq – forty-five\nQuarante-neuf – forty-nine\nCinquante et un – fifty-one\nCinquante-sept – fifty-seven\nSoixante et un – sixty-one\nSoixante-huit – sixty-eight\nSoixante et onze – seventy-one\nSoixante-seize – seventy-six\nSoixante-neuf – sixty-nine\nQuatre-vingt-un – eighty-one\nQuatre-vingt-huit – eighty-eight\nQuatre-vingt-onze – ninety-one\nQuatre-vingt-dix-neuf (99) – ninety-nine\nCent – one hundred\nCent un (101) – one hundred one\nDeux cents (200) – two hundred\nDeux cent neuf (209) – two hundred nine\nNeuf cent quatre-vingt-dix-neuf (999) – nine hundred ninety-nine\nMille – one thousand\nMille un (1001) – one thousand one\nDeux mille (2000) – two thousand\nDeux mille vingt-cinq (2025) – two thousand twenty-five\nDeux mille trois cent quarante-cinq (2345) – two thousand three hundred forty-five\nNeuf mille neuf cent quatre-vingt-dix-neuf (9999) – nine thousand nine hundred ninety-nine",
+        "file": "leçon 5/Central Topic(4).pdf",
+        "page": 1,
+        "node": "数字"
+      },
+      {
+        "title": "日期",
+        "text": "Quel jour sommes-nous\naujourd'hui ?\nnous sommes\nlundi (周一）， mardi(周二)， mercredi (周三)，\njeudi (周四），vendredi (周五）， le weekend (\nsamedi 周六， dimanche 周天）\nQuelle date sommes-nous\naujourd'hui ?\nnous sommes le Le premier avril 十月一号\njanvier —— 一月\nfévrier —— 二月\nmars —— 三月\navril —— 四月\nmai —— 五月\njuin —— 六月\njuillet —— 七月\naoût —— 八月\nseptembre —— 九月\noctobre —— 十月\nnovembre —— 十一月\ndécembre —— 十二月",
+        "file": "leçon 5/Central Topic(4).pdf",
+        "page": 1,
+        "node": "Quel jour"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-10",
@@ -2167,7 +2303,7 @@
       "file": "leçon 4/Leçon quatre(4).pdf",
       "page": 1,
       "node": "Pouvoir / Vouloir；第2课 Aller",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -2388,7 +2524,24 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "aller",
+        "text": "Aller (go) 变位及应用\nje vais ; tu vas, il va, elle va, nous allons,\nvous allez, ils vont, elles vont\nNous allons au restaurant ;\nIls vont à Pékin.\nElles vont faire une maison ; （be going to do)",
+        "file": "leçon 2/Leçon 2(1).pdf",
+        "page": 1,
+        "node": "Aller (go) 变位及应用"
+      },
+      {
+        "title": "pouvoir 与 vouloir",
+        "text": "Pouvoir 能，能够\nconjugation\nJe peux, tu peux, il peut , nous pouvons ;\nvous pouvez, ils peuvent ; elles peuvent\nexample\nJe peux faire mon lit;\nJe peux venir chez toi :\nJe peux aller à Paris avec Julien.\nNous pouvons faire nos devoirs avec eux.\nVouloir 想要 ，愿意 =\nbe willing to\nconjugation\nJe veux ; tu veux ; il veut ; nous voulons ;\nvous voulez, ils veulent ; elles veulent\nexample\nIls veulent un livre.\nNous voulons aller à la piscine.\nVouloir c’est pouvoir.",
+        "file": "leçon 4/Leçon quatre(4).pdf",
+        "page": 1,
+        "node": "Pouvoir 能，能够"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-11",
@@ -2406,7 +2559,7 @@
       "file": "leçon 8/代动词(1).pdf",
       "page": 1,
       "node": "动词 → Se réveiller / Se lever",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -2627,7 +2780,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "代动词",
+        "text": "Se + Verbe (代动词)\nSe réveiller (使自己醒来)\nje me réveille, tu te réveilles, il se réveille,\nnous nous réveillons, vous vous réveillez,\nils/elles se réveillent\nSe lever (使自己起床)\nje me lève, tu te lèves, il se lève, nous nous\nlevons, vous vous levez, ils/elles se lèvent\nSe laver (使自己洗)\nje me lave, tu te laves...\nS’habiller (使自己穿衣服)\nje m’habille, tu t’habilles...\nSe coucher (使自己上床睡觉)\nje me couche, tu te couches...",
+        "file": "leçon 8/代动词(1).pdf",
+        "page": 1,
+        "node": "Se + Verbe (代动词)"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-12",
@@ -2645,7 +2808,7 @@
       "file": "leçon 9/Passé composé(1).pdf",
       "page": 1,
       "node": "passé composé",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -2867,7 +3030,24 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "构成",
+        "text": "第一类规则动词的复合过去时\n（passé composé）\npassé composé 结构 avoir + .....é （er --> é）",
+        "file": "leçon 9/Passé composé(1).pdf",
+        "page": 1,
+        "node": "第一类规则动词的复合过去时"
+      },
+      {
+        "title": "例句",
+        "text": "passé composé 应用\nÀ midi, nous avons mangé dans un petit restaurant.\nVous avez regardé un film ensemble, n’est-ce pas ?\nL’après-midi, les enfants ont joué dans le jardin.\nIls ont sauté partout et ils ont crié de joie.\nLe soir, vous avez écouté de la musique tranquille.\nNous avons parlé un peu de nos projets.\nPuis, chacun a terminé ses devoirs calmement.\nEnfin, tu as fermé la porte et elle a allumé une bougie.\npréparer → a préparé （准备）\nranger → a rangé （整理、收拾）\nlaver → as lavé （洗）\nétudier → j’ai étudié （学习）\nmanger → avons mangé （吃）\nregarder → avez regardé （看）\njouer → ont joué （玩）\nsauter → ont sauté （跳）\ncrier → ont crié （喊叫）\nécouter → avez écouté （听）\nparler → avons parlé （说话）\nterminer → a terminé （完成） （finir）\nfermer → as fermé （关闭）\nallumer → a allumé （打开（电器/灯））",
+        "file": "leçon 9/Passé composé(1).pdf",
+        "page": 1,
+        "node": "passé composé 应用"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-13",
@@ -2885,7 +3065,7 @@
       "file": "leçon 12/带动词passé composé.pdf",
       "page": 1,
       "node": "代动词的passé composé",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -3107,7 +3287,19 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "构成与配合",
+        "text": "代动词的passé composé\nStep 1：使用 être 作为助动词（不再使用 avoir）。\nStep 2：将“se”后的动词变成过去分词（participe passé）。\nStep 3：如果主语是阴性，过去分词词尾加 e；\nStep 4：如果主语是复数，词尾加 s；",
+        "file": "leçon 12/带动词passé composé.pdf",
+        "page": 1,
+        "node": "代动词的passé composé"
+      }
+    ],
+    "coursewareNotes": [
+      "过去分词不总是与主语配合：je me suis lavé les mains 中，直接宾语 les mains 在动词后，lavé 不随女性主语加 e。"
+    ]
   },
   {
     "id": "grammar-14",
@@ -3125,7 +3317,7 @@
       "file": "leçon 15/imparfait (1).pdf",
       "page": 1,
       "node": "imparfait → 构成 / 使用",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -3354,7 +3546,19 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "变位与用法",
+        "text": "Imparfait（未完成过去时）\n0. 变形\nêtre - j'étais, tu étais, il était, elle était,\nnous étions, vous étiez, ils étaient, elles\nétaient\n取动词“nous”现在时变位形式，去掉 -ons，加\n下列词尾\nJe ----ais, tu ---ais, il ---ait, elle ---ait,\nnous ----ions, vous ---iez, elles ---aitent,\nils ----aient\nHabiter（Nous habitons）\nj’habitais\ntu habitais\nil/elle habitait\nnous habitions\nvous habitiez\nils/elles habitaient\nFinir（Nous finissons）\nje finissais\ntu finissais\nil/elle finissait\nnous finissions\nvous finissiez\nils/elles finissaient\nFaire（Nous faisons）\nje faisais\ntu faisais\nil/elle faisait\nnous faisions\nvous faisiez\nils/elles faisaient\n1.描述背景 Le ciel était bleu.（天空是蓝色的）\n2.表示过去正在进行的动作\nIl est rentré quand je regardais la télévision.\n（他回来的时候我正在看电视）\n3.表示过去的习惯性动作\nQuand j’étais petit, je jouais souvent dans\nce parc.",
+        "file": "leçon 15/imparfait (1).pdf",
+        "page": 1,
+        "node": "Imparfait（未完成过去时）"
+      }
+    ],
+    "coursewareNotes": [
+      "原文 elles 的词尾“aitent”应为“aient”。"
+    ]
   },
   {
     "id": "grammar-15",
@@ -3372,7 +3576,7 @@
       "file": "leçon 17/Plus-que-imparfait(3).pdf",
       "page": 1,
       "node": "Plus-que-imparfait → 结构 / 用法",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -3595,7 +3799,19 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "构成与用法",
+        "text": "Plus-que-imparfait 时态\n结构\nêtre , avoir 的未完成时（imparfait） 形式做组\n动词 + 过去分词\n用法\n表示过去的过去！！！！！\nQuand je suis arrivé, le train était déjà parti.\nIl avait beaucoup étudié, donc il a réussi l’examen.\nIl a dit qu’il avait terminé.\n常用时间状语\nvant que , déjà , quand , après que, parce\nque , dès que\nJ'avais déjà terminé mon travail quand tu\nes arrivé.\nNous avions déjà nettoyé la class avant\nqu'ils sont montés dans la class.",
+        "file": "leçon 17/Plus-que-imparfait(3).pdf",
+        "page": 1,
+        "node": "Plus-que-imparfait 时态"
+      }
+    ],
+    "coursewareNotes": [
+      "原文“Nous avions déjà nettoyé la class avant qu’ils sont montés dans la class.”可改为“Nous avions déjà nettoyé la classe avant qu’ils ne montent dans la classe.”；avant que 后用虚拟式，ne 可省略。"
+    ]
   },
   {
     "id": "grammar-16",
@@ -3613,7 +3829,7 @@
       "file": "leçon 18/代词（1).pdf",
       "page": 1,
       "node": "代词 → 直接宾语 / 间接宾语",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -3834,7 +4050,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "宾语代词",
+        "text": "代词\n直接宾语代词\n人称 单数 复数\n第一人称 me (m’) nous\n第二人称 te (t’) vous\n第三人称 le (l’), la (l’) les\nJe vois le livre. → Je le vois. ----- je l’ai vu\nElle invite Marie. → Elle l’ invite. ------ elle l’a invitée.\nJ’achète une voiture ----- Je l’achète,\nJe construis une maison ; ------ Je la construis,\nJ’appelle mes amis ;------ je les appelle\nTu appelles moi demain ; Tu m’appelles demain ;\nJ’appelle toi demain ; Je t’appelle demain.\nEst-ce que ta mère vous réveille chaque matin ?\n间接宾语代词\n人称 单数 复数\n第一人称 me (m’) nous\n第二人称 te (t’) vous\n第三人称 lui leur\nJe parle à Paul. → Je lui parle. ---------- Je lui ai parlé ----- je vais lui\nparler ----- je lui parlais --- je lui parlerai ----------- je lui avais parlé\nElle écrit à ses parents. → Elle leur écrit. ----- Elle leur a écrit ;",
+        "file": "leçon 18/代词（1).pdf",
+        "page": 1,
+        "node": "代词\n直接宾语代词"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-17",
@@ -3852,7 +4078,7 @@
       "file": "leçon 19/代词 & 现在分词(2).pdf",
       "page": 1,
       "node": "代词 En / Y",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -4076,7 +4302,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "y 与 en",
+        "text": "代词\n代词 \"En\"\n1. 替代结构 \"de + nom\"\nIls sont en train de parler de nos projets → Ils sont en train d’en parler\nComment je me sers de ce frigo ? → Comment je m’en sers ?\nEst-ce que vous pouvez vous débarrasser de cette table ? → Est-ce que vous\npouvez vous en débarrasser ?\n2. 替代部分冠词 (du, de la, des)\nJe veux du pain → J’en veux\nIl veut des pommes → Il en veut\nIl a besoin des pommes → Il en a besoin\n3. 数量表达\nIl achète un livre → Il l’achète\nIl achète un livre → Il en achète un\nIl a pris deux voitures → Il en a pris deux\n代词 \"Y\"\n1. 替代 \"à + nom/chose\"\nLes enfants réfléchissent aux projets →\nLes enfants sont en train d’y réfléchir\nEst-ce que je peux jouer au football avec\nvous ? → Oui, tu peux y jouer avec nous\nJe pense à une question → J’y pense\n2. 替代地点 (dans, en, sur, à)\nJe suis arrivé à ma maison → J’y suis arrivé\nNous sommes arrivés à l’école → Nous y\nsommes arrivés\n代词顺序 (me / te / se / nous / vous) → (le / la / les / l’) → (lui / leur) → y → en",
+        "file": "leçon 19/代词 & 现在分词(2).pdf",
+        "page": 1,
+        "node": "代词\n代词 \"En\""
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-18",
@@ -4094,7 +4330,7 @@
       "file": "leçon 20/定语从句(1).pdf",
       "page": 1,
       "node": "定语从句；第21课 ce qui / ce que / ce dont",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -4317,7 +4553,17 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "关系代词",
+        "text": "qui 作主语，指人或物\nL’homme qui parle est mon professeur.\n（正在讲话的那个人是我的老师。）\nVoilà le livre qui est intéressant.\n（这就是那本很有趣的书。）\nque 作直接宾语，指人或物\nLa fille que tu connais est ma cousine.\n（你认识的那个女孩是我表妹。）\nC’est le film que j’ai vu hier.\n（这是我昨天看的电影。）\noù 表示地点或时间\nLa ville où je suis né est petite.\n（我出生的城市很小。）\nLe jour où nous nous sommes rencontrés\nreste inoubliable.\n（我们相遇的那一天难忘。）\ndont 替代 “de + 名词”\nVoici l’homme dont je t’ai parlé.\n（这就是我跟你提到过的人。）\nElle a un ami dont le père est médecin.\n（她有一个朋友，他的父亲是医生。）\nlequel / laquelle / lesquels / lesquelles\n通常在介词后面，表示“ lequel 相当于 qui/que\n的加强形式”\nLa maison dans laquelle il habite est vieille.\n（他住的那栋房子很旧。）\nLes sujets sur lesquels nous avons discuté étaient difficiles.\n（我们讨论的那些话题很难。）",
+        "file": "leçon 20/定语从句(1).pdf",
+        "page": 1,
+        "node": "qui 作主语"
+      }
+    ],
+    "coursewareNotes": []
   },
   {
     "id": "grammar-19",
@@ -4335,7 +4581,7 @@
       "file": "leçon 23/条件句.pdf",
       "page": 1,
       "node": "si 条件句；第22课 过去将来时",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -4558,7 +4804,20 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "si 条件句",
+        "text": "si 条件句\nsi 如果，是否 Je ne sais pas si tu viendrais demain.\nSi + présent → présent / futur / impératif\n可实现\nSi tu as faim, tu manges un sandwich.\nSi tu viens demain, nous irons au cinéma.\nSi tu es prêt, nous partons tout de suite.\nSi vous avez le temps, venez me voir.\nSi tu finis tôt, appelle-moi.\nSi elle étudie bien, elle réussira l’examen.\nSi tu veux, on fait une promenade.\nSi vous écoutez attentivement, vous comprendrez.\nSi le soleil brille, nous pique-niquerons dans le parc.\nSi vous êtes fatigués, reposez-vous un peu.\nSi + imparfait → conditionnel présent 不可\n实现\nSi j’étais riche, je voyagerais partout.\nSi nous avions une voiture, nous irions à la plage.\nSi tu savais la vérité, tu ne parlerais pas ainsi.\nSi elle habitait près d’ici, elle viendrait souvent.\nSi j’avais du temps, je lirais plus de livres.\nSi tu travaillais plus, tu réussirais mieux.\nSi nous étions libres, nous participerions à la fête.\nSi vous faisiez attention, vous éviteriez les erreurs.\nSi je connaissais son adresse, je lui écrirais une lettre.\nSi tu demandais poliment, il accepterait sûrement.\nSi + plus-que-parfait → conditionnel passé\n反思，后悔\nSi tu m’avais aidé, je t’aurais remercié.\nSi elle avait étudié, elle aurait réussi l’examen.\nSi nous avions pris le train, nous ne serions pas arrivés en retard.\nSi j’avais eu plus de courage, j’aurais parlé.\nSi tu avais fermé la porte, le chat ne serait pas sorti.\nSi vous aviez écouté, vous auriez compris.\nSi j’avais eu de l’argent, j’aurais acheté ce livre.\nSi nous avions appelé plus tôt, ils seraient venus.\nSi elle m’avait dit la vérité, je l’aurais crue.\nSi tu avais préparé ton exposé, tu aurais eu une meilleure note.",
+        "file": "leçon 23/条件句.pdf",
+        "page": 1,
+        "node": "si 条件句"
+      }
+    ],
+    "coursewareNotes": [
+      "“Je ne sais pas si tu viendrais demain”在此处应为“Je ne sais pas si tu viendras demain”。",
+      "si + imparfait 表示假设，不一定完全无法实现。"
+    ]
   },
   {
     "id": "grammar-20",
@@ -4576,7 +4835,7 @@
       "file": "leçon 24/虚拟语态.pdf",
       "page": 1,
       "node": "虚拟语态 → 构成 / 使用",
-      "status": "PDF文本已提取；规则经新增教学整理，待人工复核"
+      "status": "语法主体为用户课件原文；仅调整排版，勘误与补充另列"
     },
     "rules": [
       {
@@ -4804,6 +5063,18 @@
       "teacherReviewed": false,
       "articleOriginal": true,
       "sourcePage": 1
-    }
+    },
+    "courseware": [
+      {
+        "title": "构成与用法",
+        "text": "虚拟式\n0. 构成\n虚拟式正常心态\n规则变位动词 （单干动词）\n直陈式现在时第三人称复数 (ils/elles) 形式的词干\n去掉结尾 -ent\n加上虚拟式的词尾：\nje → -e\ntu → -es\nil/elle/on → -e\nnous → -ions\nvous → -iez\nils/elles → -ent\n不规则变位动词 （双干动词）\n双词干动词（nous/ vous 的词干不同于 je/tu/il/ils）\nboire : ils boivent → boiv- ; nous buvons → buv-\n→ que je boive, que nous buvions\nprendre : ils prennent → prenn- ; nous prenons → pren-\n→ que je prenne, que nous prenions\n特殊虚拟形态\nêtre : que je sois, que tu sois, qu’il soit, que nous soyons, que vous soyez, qu’ils soient\navoir : que j’aie, que tu aies, qu’il ait, que nous ayons, que vous ayez, qu’ils aient\naller : que j’aille, que tu ailles, qu’il aille, que nous allions, que vous alliez\nfaire : que je fasse, que tu fasses, qu’il fasse, que nous fassions\npouvoir : que je puisse, que tu puisses, qu’il puisse, que nous puissions\nsavoir : que je sache, que tu saches, qu’il sache, que nous sachions\nvouloir : que je veuille, que nous voulions\n1. 用途\n1. 要求，命令, 愿望\nJe veux que tu fasses ton travail maintenant.\nJe souhaite que tu vienne à Paris dès que\npossible; 我期望你能尽快来巴黎。\n2. 评价，情绪\nIl est triste que tu ne sois pas ici. 伤心\nJe suis content que tu fasses un bon travail. 高兴\n3. 否定，不确定，怀疑\nIl doute qu’il vienne. 怀疑\nElle n'est pas certaine qu'il vienne. 她不确\n定他回来。\nIl n'est pas sûr qu'il vienne; 他不确定他会来。\n4. 部分练习后面\nbien que /（虽然）：Bien qu’il soit malade, il est venu.\npour que （为了）：Je parle fort pour que tout le monde m’entende.\navant que ：Pars avant qu’il fasse nuit.\nà condition que （只要）：Tu peux venir à condition que tu sois calme.\nIl faut que... （必须……）\nIl est nécessaire que...\nIl est possible que...\nil faut que tu fasses ton travail\nmaintenant.",
+        "file": "leçon 24/虚拟语态.pdf",
+        "page": 1,
+        "node": "虚拟式\n0. 构成"
+      }
+    ],
+    "coursewareNotes": [
+      "原文“Je souhaite que tu vienne”应为“Je souhaite que tu viennes”。"
+    ]
   }
 ]

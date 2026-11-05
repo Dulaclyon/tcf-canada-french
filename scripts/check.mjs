@@ -9,7 +9,7 @@ let ids=new Set(),prompts=new Set(),n=0;
 for(const x of c){
  assert(!ids.has(x.id)); ids.add(x.id);
  for(const key of ['title','level','objectives','source','rules','article','exercises']) assert(x[key],`${x.id}: ${key}`);
- assert(x.rules.length>0);assert(x.article.text.length>40);assert.equal(x.article.source,"用户课件");assert.equal(x.article.sourceFile,x.source.file);assert(x.article.sourceNode&&x.article.sourcePage);
+ assert(x.rules.length>0);assert(x.courseware?.length>0,`${x.id}: original grammar`);for(const b of x.courseware){assert(b.text.length>20&&b.file&&b.node&&b.page===1,`${x.id}: courseware trace`);}assert(x.article.text.length>40);assert.equal(x.article.source,"用户课件");assert.equal(x.article.sourceFile,x.source.file);assert(x.article.sourceNode&&x.article.sourcePage);
  assert(x.source.file&&x.source.page,'source trace');
  assert.equal(x.exercises.length,10);
  for(const q of x.exercises){
