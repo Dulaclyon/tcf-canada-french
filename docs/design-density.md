@@ -31,3 +31,9 @@ Course objectives/prerequisites are expandable; core rules and examples remain v
 - Keyboard drawer Escape/close behavior checked. New login control has a 44px minimum target. Text contrast and larger body type were improved, but no full WCAG audit or screen-reader test was performed.
 - Content and auth checks/build passed. No changes to the curriculum JSON, record format, identity policy or public audience.
 - Source screenshots are internal QA artifacts, ignored by Git and excluded from deployment; no user drafts are included in the screenshot handoff.
+
+## Further Hero simplification — 2026-11-04
+
+The user found the previous simplified landing page still crowded. Scope was limited to landing.html/landing.css: replaced the multi-section page with a single-screen entrance. One short heading, one description and one primary action; removed top navigation, secondary action, learning-path sections and FAQ. Kept only understated source/privacy links in the footer. Existing learning content remains inside the app. No auth, progress format, curriculum, or learning-page changes.
+
+Current-run desktop and 390×844 phone screenshots were saved under qa-local/hero-minimal. Phone scrollWidth/clientWidth both390; title stays on one line, description intentionally wraps into two lines, and the Start link enters app.html#home. Hosted build passed. These are simulated browser viewports, not physical device tests.
