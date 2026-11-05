@@ -7,10 +7,17 @@
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
     "check": "node scripts/check.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node scripts/check.mjs && node scripts/check-auth.mjs",
+    "test": "node scripts/check.mjs && node scripts/check-auth.mjs && node scripts/check-google-auth.mjs",
     "build:hosted": "node scripts/build-hosted.mjs"
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "dependencies": {
+    "jose": "^6.2.15"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "packageManager": "pnpm@11.25.0"
 }

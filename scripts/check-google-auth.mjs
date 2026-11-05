@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import {generateKeyPair,SignJWT} from 'jose';
+import {verifyGoogleCredential,googleAuthRoute,googleSession,createGoogleSession} from '../worker/google-auth.mjs';
+import {serve} from '../worker/handler.mjs';
+const clientId='123456789-test.apps.googleusercontent.com';
+const env={AUTH_PROVIDER:'google',GOOGLE_CLIENT_ID:clientId,GOOGLE_SESSION_SECRET:'test-only-key-for-unit-tests-not-a-live-secret-123456789'};
+const {privateKey,publicKey}=await generateKeyPair('RS256');
+const nonce='unit-test-nonce',sub='test-google-user';
+const token=(extra={},options={})=>new SignJWT({nonce,...extra}).setProtectedHeader({alg:'RS256',kid:'test'}).setSubject(sub).setIssuer(options.issuer||'https://accounts.google.com').setAudience(options.audience||clientId).setIssuedAt().setExpirationTime(options.exp||'1h').sign(privateKey);
+const credential=await token();
+assert.deepEqual(await verifyGoogleCredential(credential,{clientId,nonce,keyResolver:publicKey}),{sub});
+for(const [jwt,expectedNonce] of [[await token({}, {audience:'other-client'}),nonce],[await token({}, {issuer:'https://attacker.example'}),nonce],[await token({}, {exp:'-1h'}),nonce],[credential,'wrong-nonce'],[credential.slice(0,-10)+'tampered',nonce]]){
+ await assert.rejects(()=>verifyGoogleCredential(jwt,{clientId,nonce:expectedNonce,keyResolver:publicKey}));
+}
+const unsigned='eyJhbGciOiJub25lIn0.eyJzdWIiOiJmYWtlIn0.';
+await assert.rejects(()=>verifyGoogleCredential(unsigned,{clientId,nonce,keyResolver:publicKey}));
+const origin='https://example.test';
+const callback=(body,cookie='g_csrf_token=csrf; __Host-french_google_nonce='+nonce)=>new Request(origin+'/auth/google/callback',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded',cookie},body:new URLSearchParams(body)});
+assert.equal((await googleAuthRoute(callback({credential,g_csrf_token:'wrong'}),env,{keyResolver:publicKey})).status,400);
+assert.equal((await googleAuthRoute(callback({credential,g_csrf_token:'csrf'},''),env,{keyResolver:publicKey})).status,400);
+const successful=await googleAuthRoute(callback({credential,g_csrf_token:'csrf'}),env,{keyResolver:publicKey});
+assert.equal(successful.status,303);assert.equal(successful.headers.get('Location'),'/app.html#home');
+const sessionCookie=successful.headers.getSetCookie().find(v=>v.startsWith('__Host-french_google_session='));
+assert(sessionCookie.includes('HttpOnly; Secure; SameSite=Lax; Max-Age=2592000'));
+const cookie=sessionCookie.split(';')[0];
+assert.deepEqual(await googleSession(new Request(origin,{headers:{cookie}}),env),{sub,provider:'google'});
+assert.equal(await googleSession(new Request(origin,{headers:{cookie:cookie+'x'}}),env),null);
+assert.equal(await googleSession(new Request(origin,{headers:{cookie}}),{...env,GOOGLE_SESSION_SECRET:'a-different-long-test-key-that-must-fail-verification'}),null);
+const login=await googleAuthRoute(new Request(origin+'/auth/google'),env);assert.equal(login.status,200);const html=await login.text();assert(html.includes('https://accounts.google.com/gsi/client'));assert(html.includes(clientId));assert(!html.includes(env.GOOGLE_SESSION_SECRET));assert(login.headers.get('set-cookie').includes('SameSite=None'));
+assert.equal((await googleAuthRoute(new Request(origin+'/auth/google'),{})).status,503);
+assert.equal((await googleAuthRoute(new Request(origin+'/auth/logout',{method:'POST',headers:{origin:'https://attacker.example'}}),env)).status,403);
+assert.equal((await googleAuthRoute(new Request(origin+'/auth/logout',{method:'POST',headers:{origin}}),env)).status,303);
+const files={'index.html':{body:'使用 ChatGPT 登录，开始学习 /signin-with-chatgpt?return_to=%2Fapp.html%23home',type:'text/html'},'app.html':{body:'APP',type:'text/html'}};
+const anonymous=await serve(new Request(origin+'/app.html',{headers:{'oai-authenticated-user-id':'old-openai-id'}}),files,env);
+assert.equal(anonymous.status,302);assert(anonymous.headers.get('location').startsWith(origin+'/auth/google'));
+assert.equal(await (await serve(new Request(origin+'/app.html',{headers:{cookie}}),files,env)).text(),'APP');
+const hero=await (await serve(new Request(origin),files,env)).text();assert(hero.includes('Google'));assert(!hero.includes('ChatGPT'));
+console.log('Google auth checks passed: signed tokens, issuer/audience/expiry/nonce, CSRF, secure sessions, tampering, logout, and provider isolation.');

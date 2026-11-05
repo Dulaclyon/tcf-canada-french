@@ -2,6 +2,6 @@
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent
-files=['.openai/hosting.json','README.md','.gitignore','.env.example','.nojekyll','package.json','index.html','app.js','styles.css','sw.js','manifest.webmanifest','icon.svg','landing.html','landing.css']
+files=['.openai/hosting.json','README.md','.gitignore','.env.example','.nojekyll','package.json','pnpm-lock.yaml','pnpm-workspace.yaml','index.html','app.js','styles.css','sw.js','manifest.webmanifest','icon.svg','landing.html','landing.css','privacy.html']
 files += [str(p.relative_to(root)) for d in ['scripts','docs','.github','src/data','worker'] for p in (root/d).rglob('*') if p.is_file() and p.suffix not in ['.pyc']]
 print(json.dumps([{'path':f,'mode':'100644','type':'blob','content':(root/f).read_text()} for f in sorted(set(files))],ensure_ascii=False))
