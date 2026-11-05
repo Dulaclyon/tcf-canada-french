@@ -1,7 +1,7 @@
 [
   {
     "id": "grammar-01",
-    "title": "主语、être 与基本句型",
+    "title": "être",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -40,7 +40,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-02"
     ],
@@ -53,56 +53,22 @@
     },
     "article": {
       "id": "article-01",
-      "title": "在蒙特利尔的新生活",
+      "title": "être",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察主语、être 与基本句型",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Je suis Julien;\nTu es Crystal.\nIl est Bob;\nElle est Lucy ;\nNous sommes amis ;\nVous êtes amis ;\nIls sont étudiants ;\nElles sont étudiantes ;",
+      "kind": "课件例句",
+      "source": "用户课件",
+      "sourceFile": "leçon 2/Leçon 2(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Je suis Julien;",
       "knowledgeIds": [
         "grammar-01"
       ],
-      "text": "Je suis étudiant et mon amie est infirmière. Nous sommes à Montréal pour apprendre le français. Notre classe est petite, mais les cours sont intéressants. Le professeur est patient. Après le cours, nous sommes souvent à la bibliothèque. Là, je suis calme et je peux travailler. Le soir, mon amie est fatiguée. Nous parlons de notre journée autour d’un thé.",
-      "translation": "我是一名学生，我的朋友是一名护士。我们在蒙特利尔学习法语。我们的班级很小，但课程很有趣。老师很有耐心。下课后，我们常在图书馆。在那里，我心情平静，能够学习。晚上，我的朋友很累。我们边喝茶边聊一天的生活。",
-      "vocabulary": [
-        {
-          "fr": "infirmière",
-          "zh": "护士"
-        },
-        {
-          "fr": "autour de",
-          "zh": "在……周围；围坐"
-        },
-        {
-          "fr": "la bibliothèque",
-          "zh": "图书馆"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Je suis étudiant et mon amie est infirmière.",
-          "explanation": "法语陈述句通常需要明确的主语。être 表示身份、性质或状态：je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont。职业在 être 后通常不用不定冠词；有形容词修饰时可使用 un/une。名词的性须连同冠词记忆。",
-          "knowledgeId": "grammar-01"
-        },
-        {
-          "fr": "Nous sommes à Montréal pour apprendre le français.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-01"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公和朋友为什么在蒙特利尔？",
-          "answer": "Pour apprendre le français. 为了学习法语。"
-        },
-        {
-          "question": "主人公通常下课后去哪里？",
-          "answer": "À la bibliothèque. 图书馆。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -272,7 +238,7 @@
   },
   {
     "id": "grammar-02",
-    "title": "冠词与名词的性数",
+    "title": "冠词",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -313,7 +279,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-03"
     ],
@@ -326,56 +292,22 @@
     },
     "article": {
       "id": "article-02",
-      "title": "街角的咖啡馆",
+      "title": "冠词",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察冠词与名词的性数",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Un lit ---- le lit --- the bed\nUne voiture ----- la voiture ---- the car\nUne photo ---- la photo ------- the photo\nUn travail ---- le travail ----- the work\nUne maison ---- la maison --- the house\nUn restaurant ----- le restaurant\nUne valise ---- la valise ---- the luggage",
+      "kind": "课件例句",
+      "source": "用户课件",
+      "sourceFile": "leçon 2/Leçon 2(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Un lit ----",
       "knowledgeIds": [
         "grammar-02"
       ],
-      "text": "Dans ma rue, il y a une boulangerie et un café. La boulangerie ouvre tôt. Le café propose des sandwichs et des boissons chaudes. J’achète un sandwich, puis je m’assieds près de la fenêtre. Les clients parlent doucement. À côté de moi, une femme lit un journal. J’aime les petits cafés : on peut y travailler sans se presser.",
-      "translation": "我住的街上有一家面包店和一家咖啡馆。面包店开门很早。咖啡馆供应三明治和热饮。我买了一个三明治，然后坐在窗边。顾客们轻声交谈。我旁边的一位女士在看报纸。我喜欢小咖啡馆：在那里可以从容地工作。",
-      "vocabulary": [
-        {
-          "fr": "la boulangerie",
-          "zh": "面包店"
-        },
-        {
-          "fr": "s’asseoir",
-          "zh": "坐下"
-        },
-        {
-          "fr": "sans se presser",
-          "zh": "不慌不忙"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Dans ma rue, il y a une boulangerie et un café.",
-          "explanation": "不定冠词 un/une/des 引入尚未确定的事物；定冠词 le/la/les 指已知或泛指的事物。元音或哑音 h 前 le/la 省音为 l’。复数名词常加 s，但很多词有例外。不能只凭中文含义判断阴阳性。",
-          "knowledgeId": "grammar-02"
-        },
-        {
-          "fr": "La boulangerie ouvre tôt.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-02"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公买了什么？",
-          "answer": "Un sandwich. 一个三明治。"
-        },
-        {
-          "question": "文中咖啡馆的顾客如何说话？",
-          "answer": "Ils parlent doucement. 他们轻声交谈。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -549,7 +481,7 @@
   },
   {
     "id": "grammar-03",
-    "title": "现在时：规则动词与常用不规则动词",
+    "title": "现在时",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -590,7 +522,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-04"
     ],
@@ -603,56 +535,22 @@
     },
     "article": {
       "id": "article-03",
-      "title": "社区咖啡馆的一天",
+      "title": "现在时",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察现在时：规则动词与常用不规则动词",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Les quatre saisons en France Quand l'hiver finit le 20 mars, le printemps arrive le 21 mars avec la verdure et les fleurs. Les arbres verdissent et fleurissent pour accueillir l'été qui va venir le 22 juin. Au printemps et en été, avec la pluie et le soleil, les cultures et les fruits poussent et grandissent. Quand ces deux saisons viennent de partir, l'automne vient le 23 septembre avec son tapis jaune et sa robe rousse : les herbes et les feuilles rougissent, jaunissent ; les cultures et les fruits mûrissent avec le beau soleil d'automne. Et enfin, quand les feuilles tombent et l'automne part, l'hiver va revenir avec la bise le 21 décembre. L'année a quatre saisons, c'est pareil dans toutes les zones tempérées. Et en Chine comme en France, on attend toujours la fin de l'hiver et le retour du printemps.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 6/Les quatre saisons 四季(3).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Les quatre saisons en France",
       "knowledgeIds": [
         "grammar-03"
       ],
-      "text": "Chaque mardi, je travaille dans un café associatif. J’arrive à neuf heures et je prépare les tables. Ma collègue choisit la musique pendant que je parle avec les visiteurs. Nous finissons le service à midi. Certains clients ont des questions sur le quartier. Je leur donne un plan, puis ils vont découvrir le marché. J’aime ce travail parce que je rencontre des gens différents.",
-      "translation": "每周二，我在一家社区咖啡馆工作。我九点到达，准备桌子。我与来访者交谈时，同事挑选音乐。我们中午结束服务。有些顾客对这个街区有疑问。我给他们一张地图，然后他们去逛市场。我喜欢这份工作，因为我能遇见不同的人。",
-      "vocabulary": [
-        {
-          "fr": "associatif",
-          "zh": "社团的、社区组织的"
-        },
-        {
-          "fr": "un visiteur",
-          "zh": "来访者"
-        },
-        {
-          "fr": "le quartier",
-          "zh": "街区"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Chaque mardi, je travaille dans un café associatif.",
-          "explanation": "-er 动词以去掉 -er 的词干加 -e, -es, -e, -ons, -ez, -ent。第二组 -ir 动词如 finir 使用 -is, -is, -it, -issons, -issez, -issent；并非所有 -ir 动词都是第二组。avoir：ai, as, a, avons, avez, ont。aller：vais, vas, va, allons, allez, vont。",
-          "knowledgeId": "grammar-03"
-        },
-        {
-          "fr": "J’arrive à neuf heures et je prépare les tables.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-03"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "服务几点结束？",
-          "answer": "À midi. 中午。"
-        },
-        {
-          "question": "同事负责什么？",
-          "answer": "Elle choisit la musique. 她挑选音乐。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -821,7 +719,7 @@
   },
   {
     "id": "grammar-04",
-    "title": "介词、地点与缩合冠词",
+    "title": "介词",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -862,7 +760,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-05"
     ],
@@ -875,56 +773,22 @@
     },
     "article": {
       "id": "article-04",
-      "title": "和邻居逛市场",
+      "title": "介词",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察介词、地点与缩合冠词",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Cécile est contente et heureuse aujourd’hui, car elle va à Paris. Où va-t-elle ? Elle va rendre visite à sa tante. Elle est en train de préparer sa valise dans sa chambre. Son frère l’aide, et ils sont en train de ranger les vêtements dans la valise. L’après-midi, elle quitte la maison. Comment va-t-elle à Paris ? Elle prend le train. Avant de partir, elle vérifie tout : sa valise, son billet, et son passeport. Pourquoi vérifie-t-elle tout ? Parce qu’elle ne veut rien oublier ! À la gare, elle retrouve son ami Marc. Il va aussi à Paris pour un voyage scolaire. Ils parlent en attendant le train. Marc est libre cet après-midi, il veut visiter des musées à Paris. Le soir, Cécile arrive enfin à Paris. Elle est fatiguée, mais heureuse. Sa tante l’attend chez elle. Je suis chez ma tante maintenant, pense-t-elle. Quelle belle journée !",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 7/Leçon sept.pdf",
+      "sourcePage": 1,
+      "sourceNode": "Cécile est contente",
       "knowledgeIds": [
         "grammar-04"
       ],
-      "text": "Samedi, je vais au marché avec ma voisine. Nous partons de la maison à dix heures. Au marché, nous achetons des légumes, puis nous allons à la pharmacie. Ma voisine veut ensuite passer chez le boulanger. Elle vient du Canada et elle connaît bien ce quartier. Pour rentrer, nous marchons jusqu’à la station de métro. C’est une promenade agréable.",
-      "translation": "周六，我和邻居去市场。我们十点从家出发。在市场，我们买了蔬菜，然后去药店。邻居接着想去面包师的店。她来自加拿大，非常熟悉这个街区。回家时，我们步行到地铁站。这是一次愉快的散步。",
-      "vocabulary": [
-        {
-          "fr": "une voisine",
-          "zh": "女邻居"
-        },
-        {
-          "fr": "la pharmacie",
-          "zh": "药店"
-        },
-        {
-          "fr": "jusqu’à",
-          "zh": "直到、一直到"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Samedi, je vais au marché avec ma voisine.",
-          "explanation": "à + le = au；à + les = aux；de + le = du；de + les = des。à la/à l’ 不缩合。城市通常用 à，阴性国家用 en、阳性辅音开头国家用 au、复数国家用 aux。chez 用于某人的住处或某类从业者处。",
-          "knowledgeId": "grammar-04"
-        },
-        {
-          "fr": "Nous partons de la maison à dix heures.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-04"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "逛市场后，两人先去了哪里？",
-          "answer": "À la pharmacie. 药店。"
-        },
-        {
-          "question": "他们走到哪里去坐地铁回家？",
-          "answer": "Jusqu’à la station de métro. 走到地铁站。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -1094,7 +958,7 @@
   },
   {
     "id": "grammar-05",
-    "title": "部分冠词、数量与否定",
+    "title": "数量表达",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -1135,7 +999,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-06"
     ],
@@ -1148,56 +1012,22 @@
     },
     "article": {
       "id": "article-05",
-      "title": "周日的一锅汤",
+      "title": "数量表达",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察部分冠词、数量与否定",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Cécile est contente et heureuse aujourd’hui, car elle va à Paris. Où va-t-elle ? Elle va rendre visite à sa tante. Elle est en train de préparer sa valise dans sa chambre. Son frère l’aide, et ils sont en train de ranger les vêtements dans la valise. L’après-midi, elle quitte la maison. Comment va-t-elle à Paris ? Elle prend le train. Avant de partir, elle vérifie tout : sa valise, son billet, et son passeport. Pourquoi vérifie-t-elle tout ? Parce qu’elle ne veut rien oublier ! À la gare, elle retrouve son ami Marc. Il va aussi à Paris pour un voyage scolaire. Ils parlent en attendant le train. Marc est libre cet après-midi, il veut visiter des musées à Paris. Le soir, Cécile arrive enfin à Paris. Elle est fatiguée, mais heureuse. Sa tante l’attend chez elle. Je suis chez ma tante maintenant, pense-t-elle. Quelle belle journée !",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 7/Leçon sept.pdf",
+      "sourcePage": 1,
+      "sourceNode": "Cécile est contente",
       "knowledgeIds": [
         "grammar-05"
       ],
-      "text": "Le dimanche, je prépare une soupe pour mes amis. Il faut de l’eau, des carottes et un peu de sel. Je prends aussi du pain et du fromage. Une amie ne mange pas de viande, alors je fais un repas végétarien. Nous n’avons pas beaucoup de temps, mais tout est prêt à midi. Après le repas, nous buvons du thé et nous discutons.",
-      "translation": "周日，我为朋友们做汤。需要水、胡萝卜和一点盐。我还拿了面包和奶酪。一位朋友不吃肉，所以我做了素食餐。我们时间不多，但中午一切都准备好了。饭后，我们喝茶聊天。",
-      "vocabulary": [
-        {
-          "fr": "le sel",
-          "zh": "盐"
-        },
-        {
-          "fr": "végétarien",
-          "zh": "素食的"
-        },
-        {
-          "fr": "être prêt",
-          "zh": "准备好"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Le dimanche, je prépare une soupe pour mes amis.",
-          "explanation": "du/de la/de l’ 用于未定量的不可数事物，des 用于未定量的可数复数。数量短语 beaucoup de/un peu de 后通常不用冠词。一般否定中不定冠词及部分冠词通常变为 de/d’，但 être 后通常保留原冠词，表达对比时也可能保留。",
-          "knowledgeId": "grammar-05"
-        },
-        {
-          "fr": "Il faut de l’eau, des carottes et un peu de sel.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-05"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "为什么主人公准备素食餐？",
-          "answer": "Parce qu’une amie ne mange pas de viande. 因为一位朋友不吃肉。"
-        },
-        {
-          "question": "餐后他们做什么？",
-          "answer": "Ils boivent du thé et discutent. 他们喝茶聊天。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -1370,7 +1200,7 @@
   },
   {
     "id": "grammar-06",
-    "title": "疑问句与否定句",
+    "title": "疑问与否定",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -1411,7 +1241,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-07"
     ],
@@ -1424,56 +1254,22 @@
     },
     "article": {
       "id": "article-06",
-      "title": "寻找绘画课",
+      "title": "疑问与否定",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察疑问句与否定句",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "En hiver, il fait froid. Je finis toujours mes devoirs rapidement pour rester au chaud. Le matin, je choisis mes vêtements chauds. Je mets un manteau, mais je réagis vite quand il neige, et je sors avec une écharpe et des gants. Quand je suis à la maison, je réfléchis à mes projets pour la journée. Je grandis un peu chaque jour, alors je dois bien organiser mon temps. Parfois, je réussis à tout faire. Parfois, c’est difficile.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 8/代动词(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "En hiver, il fait froid.",
       "knowledgeIds": [
         "grammar-06"
       ],
-      "text": "Je cherche un cours de dessin près de chez moi. J’appelle une association et je demande : « Quand est-ce que le cours commence ? » La secrétaire explique que le groupe se réunit le mercredi. Je ne travaille pas ce jour-là. Je demande aussi combien coûte l’inscription. Le matériel n’est pas cher et je ne connais personne dans le groupe. C’est l’occasion de rencontrer de nouveaux voisins.",
-      "translation": "我在家附近寻找绘画课。我打电话给一家协会，问：“课程什么时候开始？”秘书解释说小组周三上课。那天我不工作。我还问报名费是多少。材料不贵，我在组里一个人也不认识。这是认识新邻居的机会。",
-      "vocabulary": [
-        {
-          "fr": "une inscription",
-          "zh": "报名"
-        },
-        {
-          "fr": "le matériel",
-          "zh": "材料、器材"
-        },
-        {
-          "fr": "l’occasion de",
-          "zh": "做……的机会"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Je cherche un cours de dessin près de chez moi.",
-          "explanation": "中性提问常用 est-ce que + 陈述句语序；口语可用升调，正式表达可倒装。疑问词 où/quand/comment/pourquoi 分别询问地点、时间、方式、原因。书面否定 ne…pas 包围变位动词，ne…rien 表示什么也不，ne…personne 表示没有人。",
-          "knowledgeId": "grammar-06"
-        },
-        {
-          "fr": "J’appelle une association et je demande : « Quand est-ce que le cours commence ? » La secrétaire explique que le groupe se réunit le mercredi.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-06"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "绘画小组星期几上课？",
-          "answer": "Le mercredi. 星期三。"
-        },
-        {
-          "question": "主人公为什么周三方便上课？",
-          "answer": "Il ne travaille pas ce jour-là. 那天不工作。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -1642,7 +1438,7 @@
   },
   {
     "id": "grammar-07",
-    "title": "形容词的性数与位置",
+    "title": "形容词",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -1683,7 +1479,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-08"
     ],
@@ -1696,56 +1492,22 @@
     },
     "article": {
       "id": "article-07",
-      "title": "参观一套公寓",
+      "title": "形容词",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察形容词的性数与位置",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Je vis avec mes parents. Mon père est grand et très gentil. Il travaille beaucoup. Ma mère est calme, patiente et toujours heureuse. Elle aime lire et cuisiner. Ma sœur est encore jeune. Elle est parfois timide, mais souvent drôle. Moi, je suis curieux et plein d’énergie le matin ! Notre maison est petite, mais elle est propre et confortable. Le soir, nous dînons ensemble et parlons de notre journée. C’est simple, mais j’aime ma vie.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 13/Adj 形容词(2).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Je vis avec mes parents.",
       "knowledgeIds": [
         "grammar-07"
       ],
-      "text": "Nous visitons un petit appartement lumineux. La cuisine est moderne et les fenêtres sont grandes. Dans le salon, il y a une table ronde et deux chaises bleues. Ma sœur trouve la chambre agréable, mais elle préfère les murs blancs. Le propriétaire est gentil et répond à nos questions. Le loyer reste élevé. Nous décidons de comparer quelques logements avant de signer un contrat.",
-      "translation": "我们参观一套明亮的小公寓。厨房很现代，窗户很大。客厅里有一张圆桌和两把蓝色椅子。我的姐妹觉得卧室舒适，但她更喜欢白色的墙。房东很友善，回答了我们的问题。租金仍然很高。我们决定签合同前再比较几处住房。",
-      "vocabulary": [
-        {
-          "fr": "lumineux",
-          "zh": "明亮的"
-        },
-        {
-          "fr": "le propriétaire",
-          "zh": "房东；业主"
-        },
-        {
-          "fr": "un loyer",
-          "zh": "租金"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Nous visitons un petit appartement lumineux.",
-          "explanation": "多数形容词随名词性数变化：petit/petite/petits/petites。有些阴阳同形，如 calme；beau/belle 等不规则须记忆。多数形容词放名词后，常见短形容词 grand/petit/beau 等常在名前。颜色形容词有特殊不变情形，本单元先练简单颜色。",
-          "knowledgeId": "grammar-07"
-        },
-        {
-          "fr": "La cuisine est moderne et les fenêtres sont grandes.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-07"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "他们为什么没有立即签合同？",
-          "answer": "Ils veulent comparer quelques logements ; le loyer reste élevé. 他们想比较其他住房，租金仍很高。"
-        },
-        {
-          "question": "主人公的姐妹喜欢什么颜色的墙？",
-          "answer": "Des murs blancs. 白色的墙。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -1914,7 +1676,7 @@
   },
   {
     "id": "grammar-08",
-    "title": "比较级、最高级与副词",
+    "title": "比较级",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -1955,7 +1717,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-09"
     ],
@@ -1968,56 +1730,22 @@
     },
     "article": {
       "id": "article-08",
-      "title": "选择上班方式",
+      "title": "比较级",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察比较级、最高级与副词",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Je suis allé à Paris et à Lyon l'année dernière. Ces deux villes sont magnifiques, mais elles sont très différentes. Paris est plus grande que Lyon (巴黎比里昂大), avec plus de monuments célèbres (更多的著 名景点) comme la Tour Eiffel ou le Louvre. C'est la ville la plus visitée au monde (世界上游客 最多的城市) ! Les rues y sont aussi animées que celles de New York (和纽约一样热闹), mais les prix sont plus chers qu'à Lyon (物价比里昂更高). Lyon, en revanche, est moins touristique que Paris (没有巴黎那么游客泛滥), mais son centre historique est aussi beau que celui de la capitale (它的老城和巴黎一样美). Beaucoup de gens pensent que la cuisine lyonnaise est la meilleure de France (里昂菜是法国最好吃的) ! Et surtout, la vie y est moins stressante qu'à Paris (生活压力比巴黎小). Mon avis ? Paris est la plus impressionnante (最令人震撼的), mais Lyon est la plus agréable à vivre (最 宜居的). Et vous, quelle ville préférez-vous ?",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 14/比较级&最高级(3).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Je suis allé à Paris",
       "knowledgeIds": [
         "grammar-08"
       ],
-      "text": "Pour aller au travail, j’hésite entre le vélo et le bus. Le vélo est moins cher que le bus, mais le trajet est plus fatigant en hiver. Ma collègue habite aussi loin que moi et elle prend toujours le métro. Elle dit que c’est le moyen le plus pratique. Je préfère varier : quand il fait beau, je roule. Les jours de pluie, je voyage plus confortablement en bus.",
-      "translation": "上班时，我在骑车和坐公交之间犹豫。骑车比公交便宜，但冬天更累。同事住得和我一样远，她总坐地铁。她说这是最方便的方式。我更喜欢灵活选择：天气好时骑车，下雨时坐公交更舒适。",
-      "vocabulary": [
-        {
-          "fr": "hésiter entre",
-          "zh": "在……之间犹豫"
-        },
-        {
-          "fr": "fatigant",
-          "zh": "令人疲劳的"
-        },
-        {
-          "fr": "varier",
-          "zh": "变换、使多样化"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Pour aller au travail, j’hésite entre le vélo et le bus.",
-          "explanation": "形容词或副词比较用 plus/aussi/moins…que；名词数量比较用 plus de/autant de/moins de…que。bon 的比较级是 meilleur，bien 的比较级是 mieux。形容词最高级使用 le/la/les plus 或 moins，并与名词配合。",
-          "knowledgeId": "grammar-08"
-        },
-        {
-          "fr": "Le vélo est moins cher que le bus, mais le trajet est plus fatigant en hiver.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-08"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公下雨天选择什么交通方式？",
-          "answer": "Le bus. 公交车。"
-        },
-        {
-          "question": "同事通常乘什么交通工具？",
-          "answer": "Le métro. 地铁。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -2187,7 +1915,7 @@
   },
   {
     "id": "grammar-09",
-    "title": "数字、日期与时间",
+    "title": "数字与时间",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -2228,7 +1956,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-10"
     ],
@@ -2241,56 +1969,22 @@
     },
     "article": {
       "id": "article-09",
-      "title": "工作坊的安排",
+      "title": "数字与时间",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察数字、日期与时间",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Quel jour sommes-nous\naujourd'hui ?\nnous sommes\nlundi (周一）， mardi(周二)， mercredi (周三)，\njeudi (周四），vendredi (周五）， le weekend (\nsamedi 周六， dimanche 周天）\nQuelle date sommes-nous\naujourd'hui ?\nnous sommes le Le premier avril 十月一号\njanvier —— 一月\nfévrier —— 二月\nmars —— 三月\navril —— 四月\nmai —— 五月\njuin —— 六月\njuillet —— 七月\naoût —— 八月\nseptembre —— 九月\noctobre —— 十月\nnovembre —— 十一月\ndécembre —— 十二月",
+      "kind": "课件例句",
+      "source": "用户课件",
+      "sourceFile": "leçon 5/Central Topic(4).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Quel jour sommes-nous",
       "knowledgeIds": [
         "grammar-09"
       ],
-      "text": "L’atelier commence le premier avril à neuf heures et demie. Il dure deux heures. Chaque participant paie quinze euros et apporte un carnet. J’arrive à neuf heures vingt pour aider à préparer la salle. Il y a vingt et une personnes inscrites. À midi, nous partageons un déjeuner dans le jardin. Je note la date de la prochaine rencontre : le quinze mai.",
-      "translation": "工作坊四月一日上午九点半开始，持续两小时。每位参加者支付十五欧元并带一本笔记本。我九点二十分到场帮忙布置。共有二十一人报名。中午，我们在花园共进午餐。我记下下次见面的日期：五月十五日。",
-      "vocabulary": [
-        {
-          "fr": "un atelier",
-          "zh": "工作坊"
-        },
-        {
-          "fr": "un carnet",
-          "zh": "笔记本"
-        },
-        {
-          "fr": "un participant",
-          "zh": "参加者"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "L’atelier commence le premier avril à neuf heures et demie.",
-          "explanation": "日期用 le + 数字 + 月份，月首用 premier；月份和星期通常小写。heure 随数量变化，钟点可用 et quart/et demie。cent 在倍数且后无其他数词时加 s；mille 不变。金额中的小数读 virgule 或按欧元与分读法。",
-          "knowledgeId": "grammar-09"
-        },
-        {
-          "fr": "Il dure deux heures.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-09"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "工作坊持续多久？",
-          "answer": "Deux heures. 两小时。"
-        },
-        {
-          "question": "每位参与者要带什么？",
-          "answer": "Un carnet. 一册笔记本。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -2459,7 +2153,7 @@
   },
   {
     "id": "grammar-10",
-    "title": "情态表达与最近将来时",
+    "title": "最近将来时",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -2500,7 +2194,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-11"
     ],
@@ -2513,56 +2207,22 @@
     },
     "article": {
       "id": "article-10",
-      "title": "明天的展览",
+      "title": "最近将来时",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察情态表达与最近将来时",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Annie : Excusez-moi, Madame.\nLa dame: Oui, Mademoiselle.\nAnnie: Quelle heure est-il?\nDame : Il est dix heures.\nAnnie: Déjà?!\nDame: Oui, Mademoiselle, il est dix heures\njuste.\nAnnie: Merci, Madame.",
+      "kind": "课件对话",
+      "source": "用户课件",
+      "sourceFile": "leçon 4/Leçon quatre(4).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Annie : Excusez-moi",
       "knowledgeIds": [
         "grammar-10"
       ],
-      "text": "Demain, je vais visiter une exposition avec un ami. Nous voulons partir tôt, mais il doit travailler jusqu’à midi. Je peux acheter les billets en ligne pendant la matinée. Ensuite, nous allons déjeuner près du musée. Je voudrais voir les photographies de voyage. Mon ami préfère les peintures. Nous allons prendre notre temps et discuter de ce que nous aimons.",
-      "translation": "明天，我要和朋友参观展览。我们想早点出发，但他必须工作到中午。我可以上午在网上买票。随后我们会在博物馆附近吃午饭。我想看旅行摄影，朋友更喜欢绘画。我们会慢慢看，讨论各自喜欢的内容。",
-      "vocabulary": [
-        {
-          "fr": "une exposition",
-          "zh": "展览"
-        },
-        {
-          "fr": "un billet",
-          "zh": "票"
-        },
-        {
-          "fr": "prendre son temps",
-          "zh": "慢慢来、从容行事"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Demain, je vais visiter une exposition avec un ami.",
-          "explanation": "pouvoir/vouloir/devoir 后接不定式，不要将两个动词都变位。最近将来时用 aller 的现在时 + 不定式，表达计划或即将发生的事。礼貌请求常用 je voudrais/pourriez-vous，这是条件式，不能当作现在时变位。",
-          "knowledgeId": "grammar-10"
-        },
-        {
-          "fr": "Nous voulons partir tôt, mais il doit travailler jusqu’à midi.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-10"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公和朋友偏好的展品有什么不同？",
-          "answer": "Le narrateur préfère les photographies ; son ami préfère les peintures. 主人公偏好摄影，朋友更喜欢绘画。"
-        },
-        {
-          "question": "他们为什么不能很早出发？",
-          "answer": "L’ami doit travailler jusqu’à midi. 朋友必须工作到中午。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -2732,7 +2392,7 @@
   },
   {
     "id": "grammar-11",
-    "title": "代动词与日常生活",
+    "title": "代动词",
     "level": "A1",
     "difficulty": "A1",
     "objectives": [
@@ -2773,7 +2433,7 @@
       }
     ],
     "examUse": "口语任务1：在介绍个人生活时选择合适的时态与结构。写作任务1：用准确的短句传达具体信息。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-12"
     ],
@@ -2786,56 +2446,22 @@
     },
     "article": {
       "id": "article-11",
-      "title": "平常的一天",
+      "title": "代动词",
       "level": "A1",
-      "goals": [
-        "在自然语境中观察代动词与日常生活",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Le matin, je me réveille à 7 heures.\nJe me lève tout de suite.\nJe me lave le visage et les mains.\nPuis, je m’habille.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 8/代动词(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Le matin, je me réveille",
       "knowledgeIds": [
         "grammar-11"
       ],
-      "text": "En semaine, je me réveille à sept heures. Je me lève doucement pour ne pas réveiller mon colocataire. Je me lave, puis je m’habille avant de préparer le petit déjeuner. Mon colocataire se dépêche souvent parce qu’il commence tôt. Le soir, nous nous reposons dans le salon. Je me couche vers onze heures, sauf le vendredi, quand je retrouve mes amis.",
-      "translation": "工作日，我七点醒来。我轻轻起床，免得吵醒室友。我洗漱，穿好衣服，再做早餐。室友经常很赶，因为他上班早。晚上，我们在客厅休息。我十一点左右睡觉，周五除外，那天我会和朋友见面。",
-      "vocabulary": [
-        {
-          "fr": "un colocataire",
-          "zh": "室友"
-        },
-        {
-          "fr": "sauf",
-          "zh": "除……之外"
-        },
-        {
-          "fr": "se dépêcher",
-          "zh": "赶快"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "En semaine, je me réveille à sept heures.",
-          "explanation": "代动词带随主语变化的代词：me, te, se, nous, vous, se。现在时：je me lève / nous nous levons，注意词干重音。否定 ne 放在反身代词前：je ne me lève pas。并非所有代动词都可字面译为“自己”。",
-          "knowledgeId": "grammar-11"
-        },
-        {
-          "fr": "Je me lève doucement pour ne pas réveiller mon colocataire.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-11"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公为什么轻轻起床？",
-          "answer": "Pour ne pas réveiller son colocataire. 为了不吵醒室友。"
-        },
-        {
-          "question": "主人公周五为什么可能不按平常时间睡觉？",
-          "answer": "Il retrouve ses amis. 他会去见朋友。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -3005,7 +2631,7 @@
   },
   {
     "id": "grammar-12",
-    "title": "复合过去时：avoir 与 être",
+    "title": "复合过去时",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -3046,7 +2672,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-13"
     ],
@@ -3059,56 +2685,22 @@
     },
     "article": {
       "id": "article-12",
-      "title": "公园里的周末",
+      "title": "复合过去时",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察复合过去时：avoir 与 être",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "À midi, nous avons mangé dans un petit restaurant.\nVous avez regardé un film ensemble, n’est-ce pas ?\nL’après-midi, les enfants ont joué dans le jardin.\nIls ont sauté partout et ils ont crié de joie.\nLe soir, vous avez écouté de la musique tranquille.\nNous avons parlé un peu de nos projets.\nPuis, chacun a terminé ses devoirs calmement.\nEnfin, tu as fermé la porte et elle a allumé une bougie.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 9/Passé composé(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "À midi, nous avons mangé",
       "knowledgeIds": [
         "grammar-12"
       ],
-      "text": "Hier, nous avons organisé une sortie au parc. J’ai préparé des sandwichs et mon frère a acheté des fruits. Nous sommes partis à dix heures. Au parc, nous avons rencontré une amie qui est arrivée à vélo. Elle a apporté une couverture. Nous avons mangé près du lac, puis nous avons joué aux cartes. À la fin de la journée, nous sommes rentrés contents.",
-      "translation": "昨天，我们组织了一次公园出游。我准备了三明治，我的兄弟买了水果。我们十点出发。在公园，我们遇到了一位骑车到达的女性朋友。她带了一条毯子。我们在湖边吃饭，然后玩纸牌。一天结束时，我们开心地回家了。",
-      "vocabulary": [
-        {
-          "fr": "une couverture",
-          "zh": "毯子"
-        },
-        {
-          "fr": "le lac",
-          "zh": "湖"
-        },
-        {
-          "fr": "rentrer",
-          "zh": "回家、返回"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Hier, nous avons organisé une sortie au parc.",
-          "explanation": "复合过去时表达过去已完成的事件：助动词现在时 + 过去分词。大多数动词用 avoir；一部分移动或状态变化动词等用 être。être 后过去分词通常与主语配合；avoir 通常不与主语配合。-er 的过去分词常为 -é，finir 为 fini，faire 为 fait。 avoir 的过去分词若有前置直接宾语须检查配合，例如 les lettres que j’ai écrites；某些动词随及物/不及物用法改变助动词，例如 elle est sortie / elle a sorti les clés。",
-          "knowledgeId": "grammar-12"
-        },
-        {
-          "fr": "J’ai préparé des sandwichs et mon frère a acheté des fruits.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-12"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "朋友给野餐带了什么？",
-          "answer": "Une couverture. 一条毯子。"
-        },
-        {
-          "question": "他们在湖边吃饭后做了什么？",
-          "answer": "Ils ont joué aux cartes. 他们玩了纸牌。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -3279,7 +2871,7 @@
   },
   {
     "id": "grammar-13",
-    "title": "代动词的复合过去时与配合",
+    "title": "代动词过去时",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -3320,7 +2912,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-14"
     ],
@@ -3333,56 +2925,22 @@
     },
     "article": {
       "id": "article-13",
-      "title": "出发旅行的早晨",
+      "title": "代动词过去时",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察代动词的复合过去时与配合",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Hier, je me suis réveillé à 7 heures. Je me suis levé tout de suite. Ensuite, je suis allé dans la salle de bain. Là, je me suis lavé le visage et je me suis brossé les dents. Puis, je me suis habillé et j’ai mangé avec ma famille. Mon frère s’est réveillé à 7h30. Il s’est préparé pour l’école. Nous nous sommes coiffés devant le miroir. Après l’école, je me suis reposé, puis douché et mis en pyjama. À 9 heures, je me suis couché. Je me suis endormi très vite.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 12/带动词passé composé.pdf",
+      "sourcePage": 1,
+      "sourceNode": "Hier, je me suis réveillé",
       "knowledgeIds": [
         "grammar-13"
       ],
-      "text": "Dimanche, Léa s’est levée tôt pour préparer un voyage. Elle s’est lavé les mains, puis elle s’est habillée. Ses amies se sont retrouvées à la gare. Elles se sont parlé pendant quelques minutes avant le départ. Dans le train, Léa s’est reposée. À l’arrivée, toutes se sont dirigées vers le centre-ville. Elles ont laissé leurs bagages à l’hôtel et sont sorties se promener.",
-      "translation": "周日，莱娅早起准备旅行。她洗了手，然后穿好衣服。她的女性朋友们在火车站会合。出发前，她们聊了几分钟。在火车上，莱娅休息了一会儿。到达后，大家前往市中心。她们把行李放在酒店，然后出门散步。",
-      "vocabulary": [
-        {
-          "fr": "un bagage",
-          "zh": "行李"
-        },
-        {
-          "fr": "se diriger vers",
-          "zh": "朝……走去"
-        },
-        {
-          "fr": "à l’arrivée",
-          "zh": "到达时"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Dimanche, Léa s’est levée tôt pour préparer un voyage.",
-          "explanation": "代动词的复合过去时使用 être，但过去分词不能一概按主语加 e/s。反身代词作直接宾语且在前时通常配合：elle s’est lavée；若直接宾语在后则不配合：elle s’est lavé les mains。se parler 中 se 是间接宾语，所以 elles se sont parlé。 这里采用传统配合规则，重点讨论反身或相互意义的常见动词；本质代动词如 se souvenir 通常与主语配合：elles se sont souvenues。",
-          "knowledgeId": "grammar-13"
-        },
-        {
-          "fr": "Elle s’est lavé les mains, puis elle s’est habillée.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-13"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "莱娅在火车上做了什么？",
-          "answer": "Elle s’est reposée. 她休息了。"
-        },
-        {
-          "question": "她们把行李放在哪里？",
-          "answer": "À l’hôtel. 酒店。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -3553,7 +3111,7 @@
   },
   {
     "id": "grammar-14",
-    "title": "未完成过去时与过去叙事",
+    "title": "未完成过去时",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -3594,7 +3152,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-15"
     ],
@@ -3607,56 +3165,28 @@
     },
     "article": {
       "id": "article-14",
-      "title": "童年的周六",
+      "title": "未完成过去时",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察未完成过去时与过去叙事",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Quand j’étais petit, j’habitais dans un petit village. Il y avait une grande forêt derrière ma maison. Chaque matin, je me levais tôt et je regardais les oiseaux par la fenêtre. Le ciel était souvent bleu, et le soleil brillait doucement. Le week-end, mes amis et moi allions jouer dans la forêt. Nous courions, nous crions, et nous ramassions des feuilles. Parfois, ma sœur venait avec nous, mais elle restait souvent à la maison avec notre mère. Le soir, nous étions fatigués, mais contents. Papa nous racontait une histoire avant de dormir. C’était une vie simple, mais très heureuse.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 15/imparfait (1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Quand j’étais petit, j’habitais",
       "knowledgeIds": [
         "grammar-14"
       ],
-      "text": "Quand j’étais enfant, j’habitais dans une petite ville. Tous les samedis, mon père préparait des crêpes et nous allions au marché. Un matin, il pleuvait beaucoup. Nous avons décidé de rester à la maison. Pendant que mon père cuisinait, j’ai trouvé un vieux cahier de recettes. Nous avons essayé une nouvelle recette. Depuis ce jour, elle fait partie de nos habitudes familiales.",
-      "translation": "小时候，我住在一个小城。每周六，父亲做可丽饼，我们一起去市场。有一天早上，雨下得很大。我们决定待在家里。父亲做饭时，我找到一本旧食谱。我们尝试了一个新做法。从那天起，它成了我们家的习惯之一。",
-      "vocabulary": [
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": [
         {
-          "fr": "une crêpe",
-          "zh": "可丽饼"
-        },
-        {
-          "fr": "une recette",
-          "zh": "食谱、做法"
-        },
-        {
-          "fr": "une habitude",
-          "zh": "习惯"
+          "original": "nous crions",
+          "suggestion": "nous criions",
+          "reason": "这里描述过去的习惯，使用未完成过去时。"
         }
-      ],
-      "sentences": [
-        {
-          "fr": "Quand j’étais enfant, j’habitais dans une petite ville.",
-          "explanation": "未完成过去时常描述过去背景、习惯或正在进行的状态。取现在时 nous 形式去掉 -ons，加 -ais,-ais,-ait,-ions,-iez,-aient；être 词干是 ét-。复合过去时突出事件边界，未完成过去时展开背景，不可简单等同“长动作/短动作”。",
-          "knowledgeId": "grammar-14"
-        },
-        {
-          "fr": "Tous les samedis, mon père préparait des crêpes et nous allions au marché.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-14"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "为什么那天他们待在家里？",
-          "answer": "Parce qu’il pleuvait beaucoup. 因为雨很大。"
-        },
-        {
-          "question": "主人公在父亲做饭时找到了什么？",
-          "answer": "Un vieux cahier de recettes. 一本旧食谱。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      ]
     },
     "exercises": [
       {
@@ -3828,7 +3358,7 @@
   },
   {
     "id": "grammar-15",
-    "title": "愈过去时与事件先后",
+    "title": "愈过去时",
     "level": "B1",
     "difficulty": "B1",
     "objectives": [
@@ -3869,7 +3399,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-16"
     ],
@@ -3882,56 +3412,22 @@
     },
     "article": {
       "id": "article-15",
-      "title": "错过火车以后",
+      "title": "愈过去时",
       "level": "B1",
-      "goals": [
-        "在自然语境中观察愈过去时与事件先后",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Hier matin, quand je suis arrivé à la gare, le train était déjà parti. J’avais oublié de préparer mon sac la veille, alors j’ai quitté la maison en retard. Sur le chemin, j’ai croisé un ami d’enfance et nous avons parlé un peu de nos familles. Comme j’avais pris mon ordinateur portable, j’ai décidé d’attendre dans un café au coin de la rue. En entrant, je me suis rappelé que j’avais peur d’oublier un document important pour ma réunion. J’ai vérifié rapidement mon sac et, rassuré, j’ai commandé un café. J’ai profité de ce moment pour répondre à mes e-mails. Quand le train suivant est arrivé, je me suis assis près de la fenêtre en pensant à mes prochains projets, et je me suis rappelé qu’il fallait toujours préparer mes affaires la veille pour éviter ce genre de problème.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 17/Plus-que-imparfait(3).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Hier matin, quand je suis arrivé",
       "knowledgeIds": [
         "grammar-15"
       ],
-      "text": "Quand je suis arrivé à la gare, le train était déjà parti. J’avais mal noté l’heure sur mon agenda. Heureusement, ma sœur avait gardé le numéro du service client. Nous avons appelé pour changer le billet. L’employée a trouvé une place dans le train suivant. J’étais déçu, mais j’avais apporté un livre. J’ai donc attendu tranquillement dans le café de la gare.",
-      "translation": "我到火车站时，火车已经开走了。我把时刻错记在日程本上。幸好，我的姐妹保存了客服号码。我们打电话改签。工作人员在下一班车上找到了座位。我有些失望，但带了一本书。因此，我在车站咖啡馆平静地等候。",
-      "vocabulary": [
-        {
-          "fr": "un agenda",
-          "zh": "日程本"
-        },
-        {
-          "fr": "le service client",
-          "zh": "客服"
-        },
-        {
-          "fr": "le train suivant",
-          "zh": "下一班列车"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Quand je suis arrivé à la gare, le train était déjà parti.",
-          "explanation": "愈过去时表示某个过去参照点之前已发生的事：avoir 或 être 的未完成过去时 + 过去分词。助动词选择与复合过去时相同，配合规则也相同。不是所有有“之前”的句子都机械使用愈过去时，要看叙事参照点。",
-          "knowledgeId": "grammar-15"
-        },
-        {
-          "fr": "J’avais mal noté l’heure sur mon agenda.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-15"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公为什么错过火车？",
-          "answer": "Il avait mal noté l’heure. 他把时刻记错了。"
-        },
-        {
-          "question": "为什么他后来能安静地等车？",
-          "answer": "Il avait apporté un livre. 他带了一本书。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -4103,7 +3599,7 @@
   },
   {
     "id": "grammar-16",
-    "title": "直接与间接宾语代词",
+    "title": "宾语代词",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -4144,7 +3640,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-17"
     ],
@@ -4157,56 +3653,22 @@
     },
     "article": {
       "id": "article-16",
-      "title": "帮助邻居办聚会",
+      "title": "宾语代词",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察直接与间接宾语代词",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Hier soir, Julien est rentré tard à la maison. Dans le bus, il avait rencontré son ami Paul et il lui avait raconté sa journée fatigante. Sur le chemin, il a aussi donné un coup de fil à sa mère pour la prévenir qu’il arriverait plus tard. En arrivant, il a trouvé sa sœur dans la cuisine. Elle préparait un gâteau au chocolat et elle le lui a offert avec un grand sourire. Julien était ému, car il adore les gâteaux faits maison. Un peu plus tard, leur mère est rentrée aussi. Elle avait acheté un nouveau livre et elle le leur a montré immédiatement. Les enfants étaient contents et ils l’ont feuilleté ensemble au salon. Pendant ce temps, le père de Julien a reçu un coup d’appel de son frère à l’étranger : il lui parlait souvent, surtout quand il voulait lui demander des nouvelles de la famille. Finalement, toute la famille s’est réunie autour de la table. La sœur de Julien a posé le gâteau devant lui, et sa mère le lui a coupé en petites parts. Tout le monde a partagé ce moment, en parlant de leurs projets pour le week-end et en riant de bon cœur.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 18/代词（1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Hier soir, Julien est rentré",
       "knowledgeIds": [
         "grammar-16"
       ],
-      "text": "Ma voisine organise une fête et elle m’envoie une invitation. Je la remercie, puis je lui demande si elle a besoin d’aide. Elle cherche des chaises : je peux les apporter samedi. Ses parents viennent aussi. Je les connais déjà et je leur ai parlé au téléphone. Nous préparons ensemble une petite liste. Avec une bonne organisation, chacun peut profiter de la soirée.",
-      "translation": "邻居举办聚会，给我发来邀请。我向她道谢，然后问她是否需要帮助。她需要椅子：我可以周六带来。她的父母也会来。我已经认识他们，也和他们通过电话。我们一起准备一张小清单。组织得当，每个人都能享受晚会。",
-      "vocabulary": [
-        {
-          "fr": "une invitation",
-          "zh": "邀请"
-        },
-        {
-          "fr": "remercier",
-          "zh": "感谢"
-        },
-        {
-          "fr": "profiter de",
-          "zh": "享受、充分利用"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Ma voisine organise une fête et elle m’envoie une invitation.",
-          "explanation": "直接宾语代词 me/te/le/la/nous/vous/les 替代无介词宾语；lui/leur 常替代 à + 人（如 parler à）。代词通常放在所属的变位动词前；若补足不定式，则在不定式前。不能把所有 à + 人都替换为 lui，例如 penser à lui。",
-          "knowledgeId": "grammar-16"
-        },
-        {
-          "fr": "Je la remercie, puis je lui demande si elle a besoin d’aide.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-16"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公能为聚会带来什么？",
-          "answer": "Des chaises. 椅子。"
-        },
-        {
-          "question": "主人公是否已经认识邻居的父母？",
-          "answer": "Oui, il les connaît déjà et leur a parlé au téléphone. 是的，已认识并通过电话。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -4376,7 +3838,7 @@
   },
   {
     "id": "grammar-17",
-    "title": "代词 y 与 en",
+    "title": "y 与 en",
     "level": "A2",
     "difficulty": "A2",
     "objectives": [
@@ -4417,7 +3879,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-18"
     ],
@@ -4430,56 +3892,22 @@
     },
     "article": {
       "id": "article-17",
-      "title": "图书馆的发现",
+      "title": "y 与 en",
       "level": "A2",
-      "goals": [
-        "在自然语境中观察代词 y 与 en",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Hier après-midi, Paul attendait son train. Il était près de la gare, mais il n’aimait pas trop en être proche à cause du bruit. Il avait apporté un livre et il s’en est servi pour passer le temps. En attendant, il a commencé à réfléchir à son voyage : il y a réfléchi longtemps, sans trouver de réponse claire. Pour se distraire, il a pris son téléphone et il a joué à un petit jeu. Il y a joué quelques minutes seulement, car son train allait bientôt arriver.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 19/代词 & 现在分词(2).pdf",
+      "sourcePage": 1,
+      "sourceNode": "Hier après-midi, Paul attendait",
       "knowledgeIds": [
         "grammar-17"
       ],
-      "text": "Je vais souvent à la médiathèque : j’y trouve des livres et un endroit calme. Aujourd’hui, j’ai besoin de documents sur l’environnement. La bibliothécaire m’en propose trois. J’en choisis deux et je les emprunte pour un mois. Elle me parle aussi d’un atelier. Je vais y participer samedi. Avant de partir, je vérifie les horaires pour pouvoir y retourner la semaine prochaine.",
-      "translation": "我经常去多媒体图书馆：在那里能找到书和安静的地方。今天，我需要环保资料。图书管理员向我推荐了三份。我选了两份，借一个月。她还告诉我有一个工作坊。我周六要参加。离开前，我查看开放时间，以便下周再来。",
-      "vocabulary": [
-        {
-          "fr": "emprunter",
-          "zh": "借入"
-        },
-        {
-          "fr": "une médiathèque",
-          "zh": "多媒体图书馆"
-        },
-        {
-          "fr": "les horaires",
-          "zh": "时间表、开放时间"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Je vais souvent à la médiathèque : j’y trouve des livres et un endroit calme.",
-          "explanation": "y 常替代地点补语或 à + 事物；en 常替代 de + 名词、部分冠词或数量对象。数量必须保留：j’en ai deux。指人时应检查动词结构，初学者不要机械用 y 代替 à + 人。代词在不定式前时仍保留数量与否定结构。",
-          "knowledgeId": "grammar-17"
-        },
-        {
-          "fr": "Aujourd’hui, j’ai besoin de documents sur l’environnement.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-17"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公最终借了几份资料？",
-          "answer": "Deux. 两份。"
-        },
-        {
-          "question": "这些资料能借多久？",
-          "answer": "Un mois. 一个月。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -4652,7 +4080,7 @@
   },
   {
     "id": "grammar-18",
-    "title": "关系代词与复合句",
+    "title": "关系代词",
     "level": "B1",
     "difficulty": "B1",
     "objectives": [
@@ -4693,7 +4121,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-19"
     ],
@@ -4706,56 +4134,22 @@
     },
     "article": {
       "id": "article-18",
-      "title": "寻找合适的街区",
+      "title": "关系代词",
       "level": "B1",
-      "goals": [
-        "在自然语境中观察关系代词与复合句",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "L’année dernière, j’ai rencontré un professeur qui m’a beaucoup encouragé à développer mes talents. Les conseils qu’il m’a donnés m’ont aidé à gagner confiance en moi. Un jour, il m’a parlé d’un concours national, auquel ses anciens élèves participaient souvent. La ville où le concours se déroulait était Lyon, une ville dont j’avais toujours rêvé de découvrir les rues et la gastronomie. Quand je suis arrivé là-bas, j’ai rencontré plusieurs candidats parmi lesquels se trouvait une étudiante très brillante. Elle m’a présenté une méthode originale, grâce à laquelle j’ai pu améliorer mon projet au dernier moment. Finalement, je n’ai pas gagné le premier prix, mais j’ai reçu une distinction honorable, ce qui a rendu mon professeur très fier. C’est l’expérience pour laquelle je continue aujourd’hui à travailler dur, convaincu que chaque échec peut devenir une source de motivation.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 20/定语从句(1).pdf",
+      "sourcePage": 1,
+      "sourceNode": "L’année dernière, j’ai rencontré",
       "knowledgeIds": [
         "grammar-18"
       ],
-      "text": "Je cherche un quartier qui possède une bibliothèque et des espaces verts. L’appartement que j’ai visité hier est près d’un parc où les enfants peuvent jouer. Le prix dont le propriétaire m’a parlé reste assez élevé. Ce qui me plaît surtout, c’est le calme. Je dois réfléchir à ce que je peux payer chaque mois. Avant de choisir, je vais revoir mon budget.",
-      "translation": "我在寻找有图书馆和绿地的街区。昨天参观的公寓靠近一个儿童可以玩耍的公园。房东提到的价格仍然相当高。我最喜欢的是安静。我必须考虑自己每月能支付多少。做决定前，我会重新查看预算。",
-      "vocabulary": [
-        {
-          "fr": "un espace vert",
-          "zh": "绿地"
-        },
-        {
-          "fr": "un budget",
-          "zh": "预算"
-        },
-        {
-          "fr": "ce qui me plaît",
-          "zh": "我喜欢的事物"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Je cherche un quartier qui possède une bibliothèque et des espaces verts.",
-          "explanation": "qui 在关系从句中作主语；que 作直接宾语；où 指地点或时间；dont 对应含 de 的补语。无明确名词先行词时用 ce qui/ce que/ce dont。判断依据是从句内部功能，不是简单看先行词是否为人。 dont 本身已包含 de，不再重复 de 或 en：le projet dont je parle，不能写 dont j’en parle。复杂介词短语还需考虑 duquel/de laquelle，不把所有 de 都机械替成 dont。",
-          "knowledgeId": "grammar-18"
-        },
-        {
-          "fr": "L’appartement que j’ai visité hier est près d’un parc où les enfants peuvent jouer.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-18"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公最喜欢公寓周围的什么特点？",
-          "answer": "Le calme. 安静。"
-        },
-        {
-          "question": "做出选择前，主人公准备做什么？",
-          "answer": "Revoir son budget. 重新查看预算。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -4927,7 +4321,7 @@
   },
   {
     "id": "grammar-19",
-    "title": "条件式与 si 条件句",
+    "title": "条件式",
     "level": "B1",
     "difficulty": "B1",
     "objectives": [
@@ -4968,7 +4362,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-20"
     ],
@@ -4981,56 +4375,22 @@
     },
     "article": {
       "id": "article-19",
-      "title": "给志愿服务留时间",
+      "title": "条件式",
       "level": "B1",
-      "goals": [
-        "在自然语境中观察条件式与 si 条件句",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Demain, nous organiserons un pique-nique à la campagne, à condition que le temps soit agréable et que chacun apporte quelque chose à partager. Nous profiterons du plein air toute la journée, à moins que la pluie ne vienne gâcher nos plans. J’ai préparé plusieurs activités pour que les enfants restent occupés et que les adultes puissent discuter tranquillement. J’emporterai aussi des couvertures au cas où il ferait plus froid que prévu. Tout est prêt et tout le monde est enthousiaste, pourvu que la bonne humeur règne et que le soleil nous accompagne jusqu’au soir.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 23/条件句.pdf",
+      "sourcePage": 1,
+      "sourceNode": "Demain, nous organiserons",
       "knowledgeIds": [
         "grammar-19"
       ],
-      "text": "Si j’avais plus de temps, je ferais du bénévolat chaque semaine. Pour le moment, je peux aider une fois par mois. Si l’association a besoin de moi samedi, j’irai préparer les repas. Mon ami viendrait aussi s’il ne travaillait pas. Nous avons décidé de nous organiser à l’avance. Si nous avions connu cette association plus tôt, nous aurions déjà participé à ses activités.",
-      "translation": "如果我有更多时间，就会每周做志愿服务。目前，我每月可以帮一次忙。如果协会周六需要我，我会去准备餐食。如果朋友那天不工作，他也会来。我们决定提前安排。如果更早知道这个协会，我们早就参加过它的活动了。",
-      "vocabulary": [
-        {
-          "fr": "le bénévolat",
-          "zh": "志愿服务"
-        },
-        {
-          "fr": "à l’avance",
-          "zh": "提前"
-        },
-        {
-          "fr": "pour le moment",
-          "zh": "目前"
-        }
-      ],
-      "sentences": [
-        {
-          "fr": "Si j’avais plus de temps, je ferais du bénévolat chaque semaine.",
-          "explanation": "si + 现在时，可接现在时、简单将来时或命令式；si + 未完成过去时，主句用现在条件式；si + 愈过去时，主句用过去条件式。条件式通常由将来时词干 + 未完成过去时词尾组成。条件 si 后不用将来时或条件式，但表示“是否”的间接疑问 si 是不同结构。 以上为基础配对；实际表达也有混合时间的条件句，应根据条件和结果各自指向的时间分析。",
-          "knowledgeId": "grammar-19"
-        },
-        {
-          "fr": "Pour le moment, je peux aider une fois par mois.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-19"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "主人公目前多久能做一次志愿服务？",
-          "answer": "Une fois par mois. 每月一次。"
-        },
-        {
-          "question": "为什么朋友可能不能一起来？",
-          "answer": "Parce qu’il travaille. 因为他有工作。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": []
     },
     "exercises": [
       {
@@ -5202,7 +4562,7 @@
   },
   {
     "id": "grammar-20",
-    "title": "虚拟式与观点衔接",
+    "title": "虚拟式",
     "level": "B1",
     "difficulty": "B1",
     "objectives": [
@@ -5243,7 +4603,7 @@
       }
     ],
     "examUse": "口语任务2：在询问中使用准确的句式。口语任务3及写作任务2/3：说明经历、比较选择并组织观点。",
-    "completion": "阅读规则与文章，完成本单元10题；客观题至少80%正确，并完成开放表达自评。",
+    "completion": "读完课件，完成本单元练习。",
     "related": [
       "grammar-19"
     ],
@@ -5256,56 +4616,28 @@
     },
     "article": {
       "id": "article-20",
-      "title": "一座共享花园",
+      "title": "虚拟式",
       "level": "B1",
-      "goals": [
-        "在自然语境中观察虚拟式与观点衔接",
-        "复述文章并替换为自己的经历"
-      ],
+      "text": "Pour réussir un projet important, il faut que chacun participe activement. Le directeur souhaite que nous parvenions à un accord avant la fin du mois. Il est nécessaire que tout le monde comprenne les objectifs communs, sinon nous risquons d’échouer. Marie espère que son équipe réussisse à trouver une nouvelle stratégie. Quant à Paul, il craint que certains collègues n’écoutent pas assez les idées des autres. De mon côté, je voudrais que nous fassions preuve de plus de solidarité. À la fin de la réunion, tout le monde a compris qu’il fallait que nous travaillions ensemble. Nous savons bien que, si chacun fait des efforts, nous pourrons parvenir à un résultat satisfaisant et réussir dans nos objectifs, au lieu d’échouer à cause du manque de coopération.",
+      "kind": "课件原文",
+      "source": "用户课件",
+      "sourceFile": "leçon 24/虚拟语态.pdf",
+      "sourcePage": 1,
+      "sourceNode": "Pour réussir un projet important",
       "knowledgeIds": [
         "grammar-20"
       ],
-      "text": "Notre quartier veut ouvrir un jardin partagé. Je pense que ce projet est utile, car il permet de rencontrer ses voisins. Il faut que chacun respecte les règles. Bien que le terrain soit petit, nous pouvons y cultiver quelques légumes. L’association propose des horaires pour que tous les habitants puissent participer. À mon avis, la réussite dépend surtout du dialogue. Nous devons donc écouter les besoins de chacun.",
-      "translation": "我们街区想开辟一个共享花园。我认为这个项目有用，因为它能让邻居互相认识。每个人都必须遵守规则。虽然场地很小，我们仍可以种一些蔬菜。协会安排时间，以便所有居民都能参加。在我看来，成功主要取决于交流。因此，我们必须倾听每个人的需求。",
-      "vocabulary": [
+      "translation": "",
+      "vocabulary": [],
+      "sentences": [],
+      "comprehension": [],
+      "corrections": [
         {
-          "fr": "un jardin partagé",
-          "zh": "共享花园"
-        },
-        {
-          "fr": "cultiver",
-          "zh": "种植"
-        },
-        {
-          "fr": "dépendre de",
-          "zh": "取决于"
+          "original": "Marie espère que son équipe réussisse",
+          "suggestion": "Marie espère que son équipe réussira",
+          "reason": "肯定句 espérer que 通常接直陈式；这里表示未来。"
         }
-      ],
-      "sentences": [
-        {
-          "fr": "Notre quartier veut ouvrir un jardin partagé.",
-          "explanation": "il faut que、bien que、pour que 等通常引出虚拟式。规则单词干常由 ils 现在时去 -ent 加 -e,-es,-e,-ions,-iez,-ent；某些动词有双词干及不规则形式。肯定 je pense que 一般用直陈式。连接词必须依意义选择，不能堆砌。 il faut que 后的动词要按从句主语变位；同一主语可常用 pour + 不定式，两个不同主语时用 pour que + 虚拟式。",
-          "knowledgeId": "grammar-20"
-        },
-        {
-          "fr": "Je pense que ce projet est utile, car il permet de rencontrer ses voisins.",
-          "explanation": "观察本句的主语、动词和补语；将其替换为自己的情况。",
-          "knowledgeId": "grammar-20"
-        }
-      ],
-      "comprehension": [
-        {
-          "question": "作者认为项目成功主要取决于什么？",
-          "answer": "Le dialogue. 对话与交流。"
-        },
-        {
-          "question": "协会为什么安排时间表？",
-          "answer": "Pour que tous les habitants puissent participer. 为了让所有居民都能参加。"
-        }
-      ],
-      "transfer": "以文章为参考，用法语写3句自己的经历或计划；口语可使用短句，正式写作应保留完整否定并检查主谓配合。",
-      "source": "原创配套文章",
-      "reviewStatus": "待人工复核"
+      ]
     },
     "exercises": [
       {
