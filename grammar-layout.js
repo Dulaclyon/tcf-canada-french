@@ -25,8 +25,12 @@ function transform(text, title) {
   return `<div class="grammar-transform">${steps.map((p,i)=>`${i?'<span class="transform-arrow" aria-hidden="true">→</span>':''}<span lang="fr">${inline(p,title)}</span>`).join('')}</div>`;
 }
 export function renderGrammar(text, title = '') {
-  const lines = String(text ?? '').split('\n').map(s=>s.trim()).filter(Boolean);
+  const lines = String(text ?? '').split('\n').map(s=>s.trim().replace(/^[•·]\s*/u,'')).filter(Boolean);
   if (lines[0] === title.trim()) lines.shift();
+  // Rejoin PDF wraps inside a transformation so an infinitive is not detached from its phrase.
+  for(let n=0;n<lines.length-1;n++) {
+    if(/→|-{3,}/u.test(lines[n])&&!/[.;!?]$/u.test(lines[n])&&/^[a-zà-ÿ]/u.test(lines[n+1])&&!/^(?:je |j[’']|tu |il |elle |nous |vous |ils |elles )/iu.test(lines[n+1])) {lines[n]+=' '+lines[n+1];lines.splice(n+1,1);n--;}
+  }
   const output = [];
   const prose = /短文|对话|课文|应用/u.test(title) && !/变位|规则/u.test(title);
   for (let i=0; i<lines.length; i++) {
