@@ -53,10 +53,10 @@ export function renderGrammar(text, title = '') {
     }
     if (/^(?:Si\s*\+|(?:avoir|être|passé composé)\s*\+)|→.*(?:conditionnel|futur|impératif)/iu.test(line)) {output.push(formula(line));continue;}
     // Lexical lists and word families become aligned rows, rather than miniature paragraphs.
-    if(/^(?:[•·]\s*)?.+\s(?:→|–|—)\s.+/u.test(line)&&!/[.!?]\s*→/u.test(line)&&line.length<130) {
+    if(/^(?:[•·]\s*)?.+\s(?:→|←|–|—)\s.+/u.test(line)&&!/[.!?]\s*→/u.test(line)&&line.length<130) {
       const rows=[];let j=i;
       while(j<lines.length) {
-        const m=lines[j].match(/^(?:[•·]\s*)?(.+?)\s(?:→|–|—)\s(.+)$/u);
+        const m=lines[j].match(/^(?:[•·]\s*)?(.+?)\s(?:→|←|–|—)\s(.+)$/u);
         if(!m||lines[j].length>=130)break;
         rows.push(`<div class="lexical-row"><span lang="fr">${inline(m[1],title)}</span><span>${inline(m[2],title)}</span></div>`);j++;
       }
@@ -82,12 +82,15 @@ export function renderGrammar(text, title = '') {
 // Reading passages use paragraph flow, not the source PDF's physical line lengths.
 export function renderArticle(text) {
   const lines=String(text??'').split('\n').map(x=>x.trim());
-  const output=[];let paragraph='',dialogue=false;
+  const output=[],notes=[];let paragraph='',dialogue=false,notesStarted=false;
   const flush=()=>{if(paragraph){output.push(`<p class="article-paragraph${dialogue?' article-dialogue':''}" lang="fr">${inline(paragraph,'')}</p>`);paragraph='';}dialogue=false;};
   const speaker=/^(?:[—–-]\s|[A-ZÀ-Ÿ][\p{L}’' -]{0,28}\s*[:：])/u;
   const transition=/^(?:Le lendemain|Le soir|L’après-midi|L'après-midi|En arrivant|Un peu plus tard|Finalement|À la gare|Quand |L’année|L'année)/u;
   for(let i=0;i<lines.length;i++) {
-    const line=lines[i];if(!line){flush();continue;}
+    const line=lines[i];if(!line){if(notesStarted)notes.push('');else flush();continue;}
+    const noteHeading=/^(?:动词短语[：:]?|名词[：:]?|动词[：:]?|形容词[：:]?|副词[：:]?|介词短语[：:]?|表达[：:]?|搭配[：:]?|Adjectives:|Nouns:|Verbs:|others:|[1-5]\.\s*(?:à condition|à moins|pour que|au cas|pourvu))/u.test(line);
+    const phraseHeading=paragraph.length>100&&line.length<65&&!/[.!?;]$/u.test(line)&&/^(?:avoir |être |faire |se |s[’'])/u.test(line);
+    if(notesStarted||noteHeading||/[→←]|\s[–—]\s/u.test(line)||phraseHeading){flush();notesStarted=true;notes.push(line);continue;}
     const heading=(i===0&&/^(?:Les quatre saisons en France|Un Voyage à Paris|Paris et Lyon[^.]*[?？])$/u.test(line))||/^(?:短文(?:\d+)?[：:]?|对话(?:部分)?|短文&对话|[\u3400-\u9fff]{2,12}[：:]|\d+[.、]\s*[\u3400-\u9fff]{1,12})$/u.test(line);
     if(heading){flush();output.push(`<h3 class="article-subtitle">${escape(line)}</h3>`);continue;}
     if(speaker.test(line)){flush();dialogue=true;paragraph=line;continue;}
@@ -95,5 +98,5 @@ export function renderArticle(text) {
     if(paragraph&&!dialogue&&/[.!?…]$/u.test(paragraph)&&(paragraph.length>550||transition.test(line)))flush();
     paragraph+=(paragraph?' ':'')+line;
   }
-  flush();return `<div class="article-typeset">${output.join('')}</div>`;
+  flush();return `<div class="article-typeset">${output.join('')}${notes.length?`<section class="article-notes"><h3>词汇与句型</h3>${renderGrammar(notes.join('\n'))}</section>`:''}</div>`;
 }

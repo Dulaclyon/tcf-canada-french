@@ -29,3 +29,6 @@
 @media(max-width:600px){.article-typeset{font-size:17px;line-height:1.95}.article-paragraph{margin-bottom:1.15em}.article-subtitle{font-size:18px;margin-bottom:18px}}
 
 .article-paragraph{text-wrap:pretty}.article-typeset .grammar-line{text-align:left;font-size:15px;line-height:1.8}
+
+.article-notes{margin-top:30px;padding-top:26px;border-top:1px solid #e2e8da;text-align:left;text-align-last:auto;font-size:16px}.article-notes>h3{font-size:18px;line-height:1.6;font-weight:600;margin:0 0 22px;color:#355b40}.article-notes .grammar-content{margin:0;max-width:none}.article-notes .grammar-lexicon{margin-top:0}.article-notes .lexical-row{grid-template-columns:minmax(130px,.85fr) minmax(0,1.15fr);border-bottom:1px solid #e8edde;padding-block:13px}.article-notes .lexical-row>span:first-child{font-size:16px;font-weight:500}.article-notes .lexical-row>span:last-child{font-size:14px}.article-notes .grammar-rule,.article-notes .grammar-line{font-size:14px;line-height:1.85}.article-notes .grammar-subhead{font-size:16px!important;margin-top:24px}
+@media(max-width:600px){.article-notes{margin-top:26px;padding-top:22px}.article-notes>h3{font-size:17px}.article-notes .lexical-row{grid-template-columns:minmax(100px,.9fr) minmax(0,1.1fr);gap:14px}.article-notes .lexical-row>span:first-child{font-size:15px}.article-notes .lexical-row>span:last-child{font-size:13px}}

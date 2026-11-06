@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {renderGrammar,renderArticle} from '../grammar-layout.js';
 const plain=html=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'");
-const canonical=s=>s.replace(/[\s→–—\-•·]/gu,'');
+const canonical=s=>s.replace(/[\s→←–—\-•·]/gu,'');
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
 let checked=0;
 for(const m of materials)for(const p of m.pages)for(const b of p.sections){
@@ -27,3 +27,9 @@ assert(plain(reflow).includes('Je lis un livre près de la fenêtre. Il raconte 
 assert.equal((renderArticle('— Bonjour.\n— Bonjour !').match(/article-dialogue/g)||[]).length,2,'Dialogue turns stay separate');
 for(const m of materials)for(const p of m.pages)for(const b of p.sections){const html=canonical(plain(renderArticle(b.text)));for(const line of b.text.split('\n').filter(x=>x.trim()))assert(html.includes(canonical(line)),`${m.id}: article reflow must preserve source text`);}
 console.log('Article soft-wrap reflow, dialogue boundaries and source preservation passed.');
+
+const withNotes=renderArticle("Hier, je suis arrivé à la gare.\nLe train était déjà parti.\nêtre en retard – 迟到\nj’étais ← être（我是）");
+assert(withNotes.includes('class="article-notes"'));
+assert(!withNotes.split('class="article-notes"')[0].includes('être en retard'),'Glossary must not be inside the prose paragraph');
+assert(withNotes.includes('词汇与句型')&&withNotes.includes('lexical-row'));
+console.log('Post-reading vocabulary and sentence notes are distinct from article prose.');
