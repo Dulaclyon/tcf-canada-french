@@ -1,5 +1,5 @@
 import {buildLessonFlow} from './lesson-flow.js';
-import {renderGrammar} from './grammar-layout.js';
+import {renderGrammar,renderArticle} from './grammar-layout.js';
 const KEY='french-learning-v1';
 const fresh=()=>({version:1,completed:[],favorites:[],attempts:[],oralRecords:[],drafts:{},history:[]});
 let recoveryRaw=null,recoveryExported=false;let state=fresh(),courses=[],materials=[],exam={},timer=null,timerRemaining=0,timerDeadline=0,timerStartedAt=0,elapsedBeforeStart=0,selectedOral=null,selectedWriting=null;
@@ -40,7 +40,7 @@ function catalogue(){main.innerHTML='<h1>基础课</h1>'+`<div class="grid cours
 const typesetOriginal=(text,title='')=>renderGrammar(text,title);
 function renderSupplement(b){return `<p class="supplement-rule">${esc(b.rule)}</p>${b.table?`<div class="table-wrap supplement-table"><table><thead><tr>${b.table.headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows.map(row=>`<tr>${row.map(cell=>`<td lang="fr">${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}<div class="supplement-examples">${b.examples.map(e=>`<div><p lang="fr">${esc(e.fr)}</p><p lang="zh-CN">${esc(e.zh)}</p></div>`).join('')}</div><p class="supplement-pitfall"><strong>注意</strong> ${esc(b.pitfall)}</p>`;}
 function topicHeading(title,index,total){return `<header class="topic-heading"><span class="topic-number">${String(index).padStart(2,'0')}</span><div><h2>${esc(title)}</h2></div></header>`;}
-function lessonReadingHTML(readings){if(!readings.length)return '';return `<section class="lesson-stage" id="lesson-reading"><h2>课文</h2>${readings.map((r,i)=>`<article class="lesson-passage"><div class="courseware-text" lang="fr">${typesetOriginal(r.text,'课文')}</div></article>`).join('')}</section>`;}
+function lessonReadingHTML(readings){if(!readings.length)return '';return `<section class="lesson-stage" id="lesson-reading"><h2>课文</h2>${readings.map((r,i)=>`<article class="lesson-passage"><div class="courseware-text" lang="fr">${renderArticle(r.text)}</div></article>`).join('')}</section>`;}
 function lessonExercisePool(cs){const ids=new Set(cs.map(c=>c.id));return allExercises().filter(e=>ids.has(e.course.id));}
 function lessonPracticeHTML(cs){const count=lessonExercisePool(cs).length;return count?`<section class="lesson-stage" id="lesson-practice"><h2>练习</h2><div id="lesson-exercise-body"></div></section>`:'';}
 function setupLessonPractice(cs){const box=document.querySelector('#lesson-exercise-body');if(!box)return;const exercises=lessonExercisePool(cs);let position=0;const draw=()=>{box.innerHTML=exerciseCard(exercises[position])+`<div class="practice-navigation"><button type="button" class="secondary" data-lesson-step="-1" ${position===0?'disabled':''}>上一题</button><span class="muted">${position+1} / ${exercises.length}</span><button type="button" class="secondary" data-lesson-step="1" ${position===exercises.length-1?'disabled':''}>下一题</button></div>`;};box.addEventListener('click',event=>{const button=event.target.closest('[data-lesson-step]');if(!button)return;position=Math.max(0,Math.min(exercises.length-1,position+Number(button.dataset.lessonStep)));draw();});draw();}

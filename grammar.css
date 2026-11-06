@@ -23,3 +23,9 @@
 @media(max-width:600px){.lesson-stage{margin-top:32px;padding-top:26px}.lesson-stage>h2{font-size:21px;margin-bottom:22px}.lesson-passage .grammar-prose{font-size:17px;line-height:1.95}.lesson-stage .exercise{padding:20px 16px}.lesson-stage .exercise .question{font-size:18px}}
 
 .lesson-passage+.lesson-passage{padding-top:26px;border-top:1px solid #e4eadf}
+
+/* Reflow article paragraphs independently of the PDF line breaks. */
+.lesson-passage{width:100%;max-width:70ch;margin-inline:auto}.article-typeset{font-size:18px;line-height:1.95;font-weight:400;color:#2c4837;text-align:justify;text-align-last:start;hyphens:auto;overflow-wrap:break-word;word-break:normal;white-space:normal}.article-paragraph{font:inherit;color:inherit;line-height:inherit;margin:0 0 1.25em;max-width:none;white-space:normal}.article-dialogue{text-align:left;hyphens:none;margin-bottom:.75em}.article-subtitle{font-size:19px;font-weight:600;line-height:1.6;margin:0 0 22px;color:#35553d;text-align:left}.article-typeset .grammar-zh{font-size:.86em}.lesson-passage .courseware-text{width:100%;max-width:none}.article-typeset .grammar-content{text-align:left;margin:18px 0}
+@media(max-width:600px){.article-typeset{font-size:17px;line-height:1.95}.article-paragraph{margin-bottom:1.15em}.article-subtitle{font-size:18px;margin-bottom:18px}}
+
+.article-paragraph{text-wrap:pretty}.article-typeset .grammar-line{text-align:left;font-size:15px;line-height:1.8}

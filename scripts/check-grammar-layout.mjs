@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {renderGrammar} from '../grammar-layout.js';
+import {renderGrammar,renderArticle} from '../grammar-layout.js';
 const plain=html=>html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'");
 const canonical=s=>s.replace(/[\s→–—\-•·]/gu,'');
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
@@ -20,3 +20,10 @@ assert(renderGrammar(find(2,'一般疑问句').text,'一般疑问句').includes(
 console.log(`Grammar layouts retain ${checked} original source lines; pronoun charts, formulas, transformations and HTML escaping passed.`);
 
 assert(!renderGrammar(find(2,'être').text,'être').includes('grammar-table'), 'Eight full-sentence examples must not be misclassified as a six-person conjugation chart');
+
+const reflow=renderArticle("Je lis un livre\nprès de la fenêtre.\nIl raconte une histoire\ntrès intéressante.");
+assert.equal((reflow.match(/class="article-paragraph/g)||[]).length,1,'PDF wraps and sentence endings must not become separate paragraphs');
+assert(plain(reflow).includes('Je lis un livre près de la fenêtre. Il raconte une histoire très intéressante.'));
+assert.equal((renderArticle('— Bonjour.\n— Bonjour !').match(/article-dialogue/g)||[]).length,2,'Dialogue turns stay separate');
+for(const m of materials)for(const p of m.pages)for(const b of p.sections){const html=canonical(plain(renderArticle(b.text)));for(const line of b.text.split('\n').filter(x=>x.trim()))assert(html.includes(canonical(line)),`${m.id}: article reflow must preserve source text`);}
+console.log('Article soft-wrap reflow, dialogue boundaries and source preservation passed.');
