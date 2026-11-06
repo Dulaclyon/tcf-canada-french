@@ -40,6 +40,104 @@
         "textSha256": "c9d8133aa4651ff20a39f6623aea60723cbaa1c70bb90dcaaaf83c6316adb3be",
         "characters": 1891
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-02-supp-01",
+        "title": "être 与 avoir",
+        "rule": "être 表示身份或状态；年龄、饥饿等常用表达使用 avoir。",
+        "examples": [
+          {
+            "fr": "Elle est étudiante.",
+            "zh": "她是学生。"
+          },
+          {
+            "fr": "Elle a vingt ans et elle a faim.",
+            "zh": "她20岁，现在饿了。"
+          }
+        ],
+        "pitfall": "不要把中文“是20岁”直译成 être vingt ans。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pro3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "table": {
+          "headers": [
+            "主语",
+            "être",
+            "avoir"
+          ],
+          "rows": [
+            [
+              "je / j’",
+              "suis",
+              "ai"
+            ],
+            [
+              "tu",
+              "es",
+              "as"
+            ],
+            [
+              "il / elle / on",
+              "est",
+              "a"
+            ],
+            [
+              "nous",
+              "sommes",
+              "avons"
+            ],
+            [
+              "vous",
+              "êtes",
+              "avez"
+            ],
+            [
+              "ils / elles",
+              "sont",
+              "ont"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "lesson-02-supp-02",
+        "title": "c’est 与 il est",
+        "rule": "介绍“一个人／一件事”常用 c’est + 限定词 + 名词；职业直接作表语时常用 il/elle est + 职业。",
+        "examples": [
+          {
+            "fr": "C’est une médecin très patiente.",
+            "zh": "她是一位很有耐心的医生。"
+          },
+          {
+            "fr": "Elle est médecin.",
+            "zh": "她是医生。"
+          }
+        ],
+        "pitfall": "c’est 的复数通常为 ce sont：Ce sont mes amis。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pro3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-02-supp-03",
+        "title": "物主词的选择",
+        "rule": "mon、ma、mes 等跟随后面的名词变化，不按拥有者的性别选。阴性名词在元音或哑音 h 前用 mon、ton、son。",
+        "examples": [
+          {
+            "fr": "Paul cherche sa voiture.",
+            "zh": "保罗在找他的车。"
+          },
+          {
+            "fr": "C’est mon amie.",
+            "zh": "这是我的女性朋友。"
+          }
+        ],
+        "pitfall": "sa voiture 不能用来判断车主是男性还是女性。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -74,6 +172,65 @@
         ],
         "textSha256": "5e723894f0e747d18c3aea6ada2e0988831fb8af57d63bfbd6804e68c54940ea",
         "characters": 2080
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-03-supp-01",
+        "title": "地点介词",
+        "rule": "城市用 à；阴性国家和元音开头的阳性国家通常用 en，辅音开头的阳性国家用 au，复数国家用 aux。",
+        "examples": [
+          {
+            "fr": "Elle habite à Lyon, en France.",
+            "zh": "她住在法国里昂。"
+          },
+          {
+            "fr": "Nous allons au Canada et aux États-Unis.",
+            "zh": "我们去加拿大和美国。"
+          }
+        ],
+        "pitfall": "à Toronto，但 au Canada；不要只按中文“在”选择介词。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-03-supp-02",
+        "title": "chez 与 à",
+        "rule": "chez 指某人的住处或以人为中心的机构；à 与具体地点搭配，并按冠词缩合。",
+        "examples": [
+          {
+            "fr": "Je vais chez le médecin.",
+            "zh": "我去看医生。"
+          },
+          {
+            "fr": "Je vais à la pharmacie.",
+            "zh": "我去药店。"
+          }
+        ],
+        "pitfall": "à + le → au，à + les → aux；à la 和 à l’ 不缩合。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-03-supp-03",
+        "title": "省音与连读",
+        "rule": "le、la 在元音或哑音 h 前写作 l’；省音属于拼写，连读属于发音，两者不同。",
+        "examples": [
+          {
+            "fr": "L’école est près d’ici.",
+            "zh": "学校在这附近。"
+          },
+          {
+            "fr": "Les amis arrivent.",
+            "zh": "朋友们来了。"
+          }
+        ],
+        "pitfall": "h aspiré 阻止省音和连读，例如 le héros；需查词典，不能只看字母 h。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -110,6 +267,65 @@
         "textSha256": "bd722cb60b18d367c70f29178e8eedf04edc4f386b74d92f276ebf24f76831b7",
         "characters": 1645
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-04-supp-01",
+        "title": "情态动词后用原形",
+        "rule": "pouvoir、vouloir、devoir 后直接接不定式；只变位第一个动词。",
+        "examples": [
+          {
+            "fr": "Nous pouvons partir maintenant.",
+            "zh": "我们现在可以出发。"
+          },
+          {
+            "fr": "Tu dois finir ce travail.",
+            "zh": "你必须完成这项工作。"
+          }
+        ],
+        "pitfall": "不能写 nous pouvons partons；vouloir 是想要，devoir 是义务或推测。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-04-supp-02",
+        "title": "最近将来时",
+        "rule": "aller 的现在时 + 不定式表示将要发生的事；否定包围变位的 aller。",
+        "examples": [
+          {
+            "fr": "Je vais appeler Paul.",
+            "zh": "我马上要给保罗打电话。"
+          },
+          {
+            "fr": "Nous n’allons pas sortir ce soir.",
+            "zh": "我们今晚不打算出去。"
+          }
+        ],
+        "pitfall": "Je vais à Paris 是去某地；Je vais travailler 才是 aller + 不定式。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-04-supp-03",
+        "title": "问时间",
+        "rule": "Quelle heure est-il ? 和 Vous avez l’heure ? 都可问时间；整点用 il est，时间大于一小时通常 heures 用复数。",
+        "examples": [
+          {
+            "fr": "Il est une heure et quart.",
+            "zh": "现在一点一刻。"
+          },
+          {
+            "fr": "Il est quatorze heures trente.",
+            "zh": "现在14点30分。"
+          }
+        ],
+        "pitfall": "Il est midi / minuit；不要说 il a deux heures 来报时。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -136,6 +352,65 @@
         ],
         "textSha256": "f5f0df8d7a8a8daebd6d5449c80cdfbb76236fdb37556708021caadbf1b8d8de",
         "characters": 1589
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-05-supp-01",
+        "title": "数字的拼写",
+        "rule": "传统拼写中，整百的 cents、80的 vingts 在被乘且后面无其他数词时加 s；后面还有数词时不加。",
+        "examples": [
+          {
+            "fr": "quatre-vingts ; quatre-vingt-deux",
+            "zh": "80；82。"
+          },
+          {
+            "fr": "deux cents ; deux cent trois",
+            "zh": "200；203。"
+          }
+        ],
+        "pitfall": "mille 作为数词不变：deux mille。1990年拼写建议允许复合数词全面用连字符。",
+        "sourceUrl": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21532/la-grammaire/les-determinants/determinants-numeraux/pluriel-de-vingt-de-cent-et-de-mille",
+        "sourceName": "OQLF · Vingt, cent et mille",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-05-supp-02",
+        "title": "日期与星期",
+        "rule": "日期用 le + 数字 + 月份；每月1日用 premier，其余通常用基数词。表示每周习惯时用 le + 星期。",
+        "examples": [
+          {
+            "fr": "Nous sommes le premier mai.",
+            "zh": "今天是5月1日。"
+          },
+          {
+            "fr": "Je travaille le lundi.",
+            "zh": "我每周一工作。"
+          }
+        ],
+        "pitfall": "Je pars lundi 可表示本次周一出发；月份和星期通常小写。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-05-supp-03",
+        "title": "持续多久",
+        "rule": "depuis 表示从过去开始、现在仍持续；pendant 表示一段时长；dans 表示从现在起多久之后。",
+        "examples": [
+          {
+            "fr": "J’habite ici depuis deux ans.",
+            "zh": "我在这里住了两年，现在仍住这里。"
+          },
+          {
+            "fr": "Je pars dans deux jours pour trois semaines.",
+            "zh": "我两天后出发，计划去三周。"
+          }
+        ],
+        "pitfall": "不要用 pendant deux ans 来表达“已经持续两年而且仍在继续”。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -188,6 +463,65 @@
         "textSha256": "a80b5e1b614153163756af0d2bf0ccdf966ccb472db7d0f3a20d271f3b429224",
         "characters": 3382
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-06-supp-01",
+        "title": "规则与不规则动词",
+        "rule": "-er 动词通常按第一组变位，但 aller 不属于第一组；第二组 -ir 动词在 nous 形式有 -issons。",
+        "examples": [
+          {
+            "fr": "Nous parlons et nous finissons.",
+            "zh": "我们说话并完成事情。"
+          },
+          {
+            "fr": "Nous partons demain.",
+            "zh": "我们明天出发。"
+          }
+        ],
+        "pitfall": "finir → finissons；partir → partons，不能把所有 -ir 动词按同一规则变化。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-06-supp-02",
+        "title": "天气与感受",
+        "rule": "天气常用无人称 il fait、il pleut、il neige；人的冷热感受用 avoir chaud / froid。",
+        "examples": [
+          {
+            "fr": "Il fait froid et il neige.",
+            "zh": "天气冷，正在下雪。"
+          },
+          {
+            "fr": "J’ai froid, mais ma sœur a chaud.",
+            "zh": "我觉得冷，但姐姐觉得热。"
+          }
+        ],
+        "pitfall": "“我觉得冷”通常是 j’ai froid，不是 je suis froid（可能表示性格冷淡）。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-06-supp-03",
+        "title": "四季与频率",
+        "rule": "季节介词用 au printemps、en été、en automne、en hiver；频率副词通常放在简单时态的变位动词后。",
+        "examples": [
+          {
+            "fr": "Il pleut souvent en automne.",
+            "zh": "秋天经常下雨。"
+          },
+          {
+            "fr": "Nous sortons parfois au printemps.",
+            "zh": "春天我们有时出去。"
+          }
+        ],
+        "pitfall": "neiger、pleuvoir 表示天气时通常用第三人称单数。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -238,6 +572,65 @@
         ],
         "textSha256": "249682864a29e8d1df1e472792527e9e6114be4e0a48cfcabe6f9cbe7a338f6f",
         "characters": 3035
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-07-supp-01",
+        "title": "三类冠词",
+        "rule": "un/une/des 引入未确定的人或物；le/la/les 指已知对象或泛指；du/de la/de l’ 表示未定量。",
+        "examples": [
+          {
+            "fr": "J’aime le café, mais je bois du thé.",
+            "zh": "我喜欢咖啡，但我喝的是茶。"
+          },
+          {
+            "fr": "J’achète une pomme et des poires.",
+            "zh": "我买一个苹果和一些梨。"
+          }
+        ],
+        "pitfall": "表达喜好常用定冠词，不能把“喜欢咖啡”写成 j’aime du café。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-07-supp-02",
+        "title": "否定中的 de",
+        "rule": "直接宾语前的不定冠词、部分冠词通常在 ne…pas 后变成 de/d’；être 后或明确对比时可保留原冠词。",
+        "examples": [
+          {
+            "fr": "Je n’ai pas de voiture.",
+            "zh": "我没有车。"
+          },
+          {
+            "fr": "Ce n’est pas une voiture.",
+            "zh": "这不是汽车。"
+          }
+        ],
+        "pitfall": "Je n’aime pas le café 中定冠词 le 不变。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-07-supp-03",
+        "title": "数量词后用 de",
+        "rule": "beaucoup de、un peu de、trop de、un kilo de 后接名词；元音或哑音 h 前用 d’。",
+        "examples": [
+          {
+            "fr": "Il achète un kilo de pommes.",
+            "zh": "他买一公斤苹果。"
+          },
+          {
+            "fr": "Nous avons beaucoup d’amis.",
+            "zh": "我们有很多朋友。"
+          }
+        ],
+        "pitfall": "beaucoup de livres，不是 beaucoup des livres；特指“这些书中的许多”另当别论。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -294,6 +687,65 @@
         "textSha256": "44e3abf20d543f2fd5ed1137c05bb9125d61a546d42da68ba4b031a43731ec8b",
         "characters": 2795
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-08-supp-01",
+        "title": "反身代词位置",
+        "rule": "me、te、se、nous、vous、se 放在所属动词前；后接不定式时，放在该不定式前。",
+        "examples": [
+          {
+            "fr": "Je me lève tôt.",
+            "zh": "我很早起床。"
+          },
+          {
+            "fr": "Je vais me coucher.",
+            "zh": "我准备上床睡觉。"
+          }
+        ],
+        "pitfall": "Je vais me coucher，不是 je me vais coucher。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-08-supp-02",
+        "title": "否定与身体部位",
+        "rule": "否定包围变位动词；代动词表达清洗身体部位时常用定冠词，而非物主词。",
+        "examples": [
+          {
+            "fr": "Je ne me lève pas tôt.",
+            "zh": "我不早起。"
+          },
+          {
+            "fr": "Elle se lave les mains.",
+            "zh": "她洗手。"
+          }
+        ],
+        "pitfall": "通常说 se brosser les dents，不必重复说 ses dents。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-08-supp-03",
+        "title": "肯定与否定命令",
+        "rule": "肯定命令中代词跟在动词后并加连字符，te 变为 toi；否定命令恢复代词在动词前。",
+        "examples": [
+          {
+            "fr": "Lève-toi !",
+            "zh": "起来！"
+          },
+          {
+            "fr": "Ne te lève pas !",
+            "zh": "不要起来！"
+          }
+        ],
+        "pitfall": "命令句不写主语 tu；肯定与否定的代词位置不同。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -337,6 +789,65 @@
         "textSha256": "0ffe70879655b657e74bcc0fcc432af3d157dc673bfa6c6f5581e222020d68ca",
         "characters": 2157
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-09-supp-01",
+        "title": "avoir 的复合过去时",
+        "rule": "现在时 avoir + 过去分词。规则词尾常见 -er → -é、finir → fini、vendre → vendu。",
+        "examples": [
+          {
+            "fr": "J’ai parlé avec Paul.",
+            "zh": "我跟保罗说过话。"
+          },
+          {
+            "fr": "Nous avons fini le travail.",
+            "zh": "我们完成了工作。"
+          }
+        ],
+        "pitfall": "不能只写 j’ai parler；不规则过去分词要单独记忆。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-09-supp-02",
+        "title": "être 的复合过去时",
+        "rule": "aller、venir、arriver、partir 等不及物用法选 être；过去分词通常随主语性数配合。",
+        "examples": [
+          {
+            "fr": "Elle est arrivée hier.",
+            "zh": "她昨天到了。"
+          },
+          {
+            "fr": "Ils sont partis tôt.",
+            "zh": "他们很早就离开了。"
+          }
+        ],
+        "pitfall": "不是所有表示移动的动词都用 être：j’ai marché。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-09-supp-03",
+        "title": "双助动词动词",
+        "rule": "sortir、monter、descendre 等在带直接宾语时可用 avoir；不带直接宾语、表示主体移动时常用 être。",
+        "examples": [
+          {
+            "fr": "Elle est sortie.",
+            "zh": "她出去了。"
+          },
+          {
+            "fr": "Elle a sorti son téléphone.",
+            "zh": "她拿出了手机。"
+          }
+        ],
+        "pitfall": "先看动词在句子中的用法，不能只按单词名单机械选择助动词。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -363,6 +874,65 @@
         ],
         "textSha256": "467e6e21917680b539202a649e48b936fe57aa62b3937515aa0b1e9a1e79dd21",
         "characters": 1266
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-10-supp-01",
+        "title": "常用不规则过去分词",
+        "rule": "avoir → eu，être → été，faire → fait，prendre → pris，voir → vu，lire → lu，écrire → écrit。",
+        "examples": [
+          {
+            "fr": "Elle a pris le train.",
+            "zh": "她乘了火车。"
+          },
+          {
+            "fr": "Nous avons lu ce livre.",
+            "zh": "我们读过这本书。"
+          }
+        ],
+        "pitfall": "été 是 être 的过去分词，但 j’ai été 的助动词仍是 avoir。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-10-supp-02",
+        "title": "否定与副词位置",
+        "rule": "复合过去时中 ne…pas 通常包围助动词；déjà、bien、beaucoup 等短副词常在助动词与过去分词之间。",
+        "examples": [
+          {
+            "fr": "Je n’ai pas compris.",
+            "zh": "我没听懂。"
+          },
+          {
+            "fr": "Elle a déjà terminé.",
+            "zh": "她已经完成了。"
+          }
+        ],
+        "pitfall": "不要把否定写成 je n’ai compris pas。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-10-supp-03",
+        "title": "avoir 的配合",
+        "rule": "使用 avoir 时，过去分词通常不随主语变化；直接宾语在过去分词前时，通常与它配合。",
+        "examples": [
+          {
+            "fr": "Elle a acheté des fleurs.",
+            "zh": "她买了花。"
+          },
+          {
+            "fr": "Les fleurs qu’elle a achetées sont belles.",
+            "zh": "她买的花很漂亮。"
+          }
+        ],
+        "pitfall": "不是看到女性主语就加 e；要判断直接宾语及其位置。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -402,6 +972,65 @@
         ],
         "textSha256": "c0eec08398e6c4c2e64a00296474d7a1b92dde614cfbbafc34bde0537a8dcbe0",
         "characters": 1372
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-12-supp-01",
+        "title": "代动词的构成",
+        "rule": "反身代词 + 现在时 être + 过去分词；反身代词在助动词前，否定包围反身代词与助动词。",
+        "examples": [
+          {
+            "fr": "Elle s’est levée tôt.",
+            "zh": "她很早起床了。"
+          },
+          {
+            "fr": "Elle ne s’est pas levée tôt.",
+            "zh": "她没有早起。"
+          }
+        ],
+        "pitfall": "不是 elle a se levé；原形 se lever 到句中要选择正确反身代词。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-12-supp-02",
+        "title": "直接宾语决定配合",
+        "rule": "偶然代动词要分析 se 的功能：直接宾语在前通常配合；若另有后置直接宾语，过去分词不随主语变化。",
+        "examples": [
+          {
+            "fr": "Elles se sont lavées.",
+            "zh": "她们洗了身体。"
+          },
+          {
+            "fr": "Elles se sont lavé les mains.",
+            "zh": "她们洗了手。"
+          }
+        ],
+        "pitfall": "第二句的直接宾语是后面的 les mains，lavé 不加 es。",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/QDL069",
+        "sourceName": "Dictionnaire de l’Académie française",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-12-supp-03",
+        "title": "间接宾语不触发配合",
+        "rule": "se 相当于 à quelqu’un、作间接宾语时，不因为主语阴性或复数而配合。",
+        "examples": [
+          {
+            "fr": "Elles se sont parlé.",
+            "zh": "她们互相交谈了。"
+          },
+          {
+            "fr": "Ils se sont téléphoné.",
+            "zh": "他们互相打了电话。"
+          }
+        ],
+        "pitfall": "parler à、téléphoner à：不是 se sont parlées / téléphonés。",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/QDL069",
+        "sourceName": "Dictionnaire de l’Académie française",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -462,6 +1091,65 @@
         "textSha256": "3336a7c4ea6db0696bbb8299376c6da3b62557f6384dbbe830bc90fd78e1b780",
         "characters": 2298
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-13-supp-01",
+        "title": "形容词性数",
+        "rule": "形容词通常随名词性数变化；很多词已以 e 结尾，阴性形式不再加 e。",
+        "examples": [
+          {
+            "fr": "Une petite maison et des petits jardins.",
+            "zh": "一座小房子和几个小花园。"
+          },
+          {
+            "fr": "Elle est calme ; elles sont calmes.",
+            "zh": "她很安静；她们很安静。"
+          }
+        ],
+        "pitfall": "长短、性别和复数要分别判断，不是所有阴性都能机械加 e。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-13-supp-02",
+        "title": "形容词位置",
+        "rule": "多数描述性形容词在名词后；petit、grand、beau、jeune 等常在名词前，位置有时改变意义。",
+        "examples": [
+          {
+            "fr": "Un petit appartement moderne.",
+            "zh": "一套小而现代的公寓。"
+          },
+          {
+            "fr": "Un ancien professeur ; un meuble ancien.",
+            "zh": "一位以前的老师；一件古老的家具。"
+          }
+        ],
+        "pitfall": "不要认为所有形容词都固定放在名词前或后。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-13-supp-03",
+        "title": "特殊形式与颜色",
+        "rule": "beau、nouveau、vieux 在元音或哑音 h 开头的阳性单数名词前变成 bel、nouvel、vieil。名词作颜色词的 orange、marron 通常不变。",
+        "examples": [
+          {
+            "fr": "Un bel hôtel et un vieil ami.",
+            "zh": "一家漂亮酒店和一位老朋友。"
+          },
+          {
+            "fr": "Des chaussures marron.",
+            "zh": "棕色鞋子。"
+          }
+        ],
+        "pitfall": "une belle maison，但 un bel appartement；不要写 un belle appartement。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -496,6 +1184,65 @@
         ],
         "textSha256": "5c723ef985225d2f8207e5acec9454fadf5e62b4a320541f94e65ae7f7250907",
         "characters": 2243
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-14-supp-01",
+        "title": "比较形容词与数量",
+        "rule": "比较性质用 plus/aussi/moins + 形容词 + que；比较数量用 plus de/autant de/moins de + 名词 + que。",
+        "examples": [
+          {
+            "fr": "Paul est aussi grand que Luc.",
+            "zh": "保罗和吕克一样高。"
+          },
+          {
+            "fr": "Paul a autant de livres que Luc.",
+            "zh": "保罗和吕克有一样多的书。"
+          }
+        ],
+        "pitfall": "aussi livres 不正确；名词数量要用 autant de。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-14-supp-02",
+        "title": "bon 与 bien",
+        "rule": "bon 是形容词，比较级 meilleur 随名词变化；bien 是副词，比较级 mieux 不变。",
+        "examples": [
+          {
+            "fr": "Cette soupe est meilleure.",
+            "zh": "这碗汤更好喝。"
+          },
+          {
+            "fr": "Elle parle mieux français.",
+            "zh": "她法语说得更好了。"
+          }
+        ],
+        "pitfall": "通常不说 plus bon 或 plus bien；meilleure 修饰阴性名词。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/adj8.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-14-supp-03",
+        "title": "最高级的冠词",
+        "rule": "形容词最高级用 le/la/les plus 或 moins；副词最高级通常用 le plus/moins，le 不随主语性别变化。",
+        "examples": [
+          {
+            "fr": "C’est la plus grande salle.",
+            "zh": "这是最大的房间。"
+          },
+          {
+            "fr": "Elle court le plus vite.",
+            "zh": "她跑得最快。"
+          }
+        ],
+        "pitfall": "elle 跑得最快仍用 le plus vite，不用 la plus vite。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -548,6 +1295,65 @@
         "textSha256": "a9988df8d00884d03e4ee4f784f53426d33260273e39b48004fa1f23f9d0f6c8",
         "characters": 1935
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-15-supp-01",
+        "title": "未完成过去时的构成",
+        "rule": "取 nous 现在时去掉 -ons，加 -ais、-ais、-ait、-ions、-iez、-aient；être 的词干为 ét-。",
+        "examples": [
+          {
+            "fr": "Nous finissions nos devoirs.",
+            "zh": "我们当时在做作业。"
+          },
+          {
+            "fr": "Elles étaient fatiguées.",
+            "zh": "她们当时很累。"
+          }
+        ],
+        "pitfall": "elles 的词尾是 -aient；不是 -aitent。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-15-supp-02",
+        "title": "背景与事件",
+        "rule": "imparfait 描述背景、习惯、当时正在进行的情形；passé composé 推进已完成事件。",
+        "examples": [
+          {
+            "fr": "Il pleuvait quand Paul est arrivé.",
+            "zh": "保罗到达时正在下雨。"
+          },
+          {
+            "fr": "Quand j’étais petit, je jouais ici.",
+            "zh": "小时候我常在这里玩。"
+          }
+        ],
+        "pitfall": "不按“动作长短”机械判断；应看叙述中它是背景还是事件。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap8.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-15-supp-03",
+        "title": "同一动词的不同视角",
+        "rule": "同一动词可以因叙述视角而选不同过去时：背景状态与某次明确事件并不相同。",
+        "examples": [
+          {
+            "fr": "Je connaissais déjà cette ville.",
+            "zh": "我当时已经熟悉这座城市。"
+          },
+          {
+            "fr": "J’ai rencontré Marie hier.",
+            "zh": "我昨天见到了玛丽。"
+          }
+        ],
+        "pitfall": "知道、想要、能够等动词也不能永远只用一个过去时。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap8.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -595,6 +1401,65 @@
         "textSha256": "c95b4aad977ea795fc0eba794561abf609fff79f76f66796ff09aea14a3191fe",
         "characters": 2871
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-16-supp-01",
+        "title": "分数与小数",
+        "rule": "分数常用基数词作分子、序数词作分母；二分之一 un demi、三分之一 un tiers、四分之一 un quart 有特殊形式。小数点读 virgule。",
+        "examples": [
+          {
+            "fr": "trois quarts ; deux tiers",
+            "zh": "四分之三；三分之二。"
+          },
+          {
+            "fr": "zéro virgule cinq",
+            "zh": "0.5。"
+          }
+        ],
+        "pitfall": "demi 在名词后只作性别变化：une heure et demie；名词前用连字符且不变：une demi-heure。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-16-supp-02",
+        "title": "百分比与一致",
+        "rule": "百分数读 pour cent，后接 de + 名词。主语为百分比时，谓语配合要考虑百分比后的名词及句意。",
+        "examples": [
+          {
+            "fr": "Vingt pour cent des élèves sont absents.",
+            "zh": "20%的学生缺席。"
+          },
+          {
+            "fr": "La moitié de la classe est absente.",
+            "zh": "班上一半的人缺席。"
+          }
+        ],
+        "pitfall": "百分比不能简单一律用单数或复数；注意限定词与所指对象。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-16-supp-03",
+        "title": "序数词",
+        "rule": "多数序数词在基数词后加 -ième，词尾 e 通常先去掉；premier/première 特殊，cinq → cinquième，neuf → neuvième。",
+        "examples": [
+          {
+            "fr": "C’est la première leçon.",
+            "zh": "这是第一课。"
+          },
+          {
+            "fr": "Il habite au cinquième étage.",
+            "zh": "他住在五楼。"
+          }
+        ],
+        "pitfall": "表示楼层等顺序时，premier 以外的 -ième 通常不随名词性别变化。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -621,6 +1486,65 @@
         ],
         "textSha256": "fa1bee34e2ae622605377c544bb6834ed60bb0032ab8124b31bc98752c1b7a36",
         "characters": 1847
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-17-supp-01",
+        "title": "过去的过去",
+        "rule": "愈过去时用 avoir 或 être 的 imparfait + 过去分词，表示早于另一个过去参照点发生的事。",
+        "examples": [
+          {
+            "fr": "Le train était déjà parti quand je suis arrivé.",
+            "zh": "我到时，火车已经开走。"
+          },
+          {
+            "fr": "J’avais préparé mon sac la veille.",
+            "zh": "我前一天已经收拾好包。"
+          }
+        ],
+        "pitfall": "过去参照点可以来自上下文，不要求每句都出现另一个过去时。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-17-supp-02",
+        "title": "助动词与配合",
+        "rule": "助动词的选择与复合过去时相同；être 和 avoir 各自的过去分词配合原则也保留。",
+        "examples": [
+          {
+            "fr": "Elles étaient arrivées avant nous.",
+            "zh": "她们在我们之前已经到了。"
+          },
+          {
+            "fr": "Les lettres que j’avais écrites étaient ici.",
+            "zh": "我之前写的信就在这里。"
+          }
+        ],
+        "pitfall": "不是把所有愈过去时都写成 avait + 过去分词。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-17-supp-03",
+        "title": "时间关系",
+        "rule": "déjà、la veille 等帮助定位；après que 陈述已经发生的事实，规范用法接直陈式。avant que 接虚拟式。",
+        "examples": [
+          {
+            "fr": "Après qu’il avait terminé, il est sorti.",
+            "zh": "他完成后就出去了。"
+          },
+          {
+            "fr": "Je suis parti avant qu’il arrive.",
+            "zh": "我在他到达前离开了。"
+          }
+        ],
+        "pitfall": "不要把 après que 和 avant que 的语气要求混为一谈。",
+        "sourceUrl": "https://nos-langues.canada.ca/fr/juridictionnaire/apres-que",
+        "sourceName": "加拿大语言门户 · après que",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -656,6 +1580,65 @@
         ],
         "textSha256": "70a31a9132f848b2568c7c47ab1c8550710c163bf225bfe576cdd4b2c2eee45d",
         "characters": 1749
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-18-supp-01",
+        "title": "直接与间接宾语",
+        "rule": "看动词结构：voir quelqu’un 是直接宾语；parler à quelqu’un 是间接宾语。第三人称直接宾语用 le/la/les，间接宾语常用 lui/leur。",
+        "examples": [
+          {
+            "fr": "Je vois Marie. Je la vois.",
+            "zh": "我看见玛丽。我看见她。"
+          },
+          {
+            "fr": "Je parle à Marie. Je lui parle.",
+            "zh": "我跟玛丽说话。我跟她说话。"
+          }
+        ],
+        "pitfall": "不能因中文都有“他／她”就把 le、la 和 lui 混用。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-18-supp-02",
+        "title": "代词放在哪里",
+        "rule": "代词放在其所属变位动词或不定式前；复合时态放在助动词前。",
+        "examples": [
+          {
+            "fr": "Je vais lui téléphoner.",
+            "zh": "我准备给他／她打电话。"
+          },
+          {
+            "fr": "Je ne l’ai pas vu.",
+            "zh": "我没有看见他。"
+          }
+        ],
+        "pitfall": "Je vais lui parler，不是 je lui vais parler。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-18-supp-03",
+        "title": "双代词顺序",
+        "rule": "陈述句常用顺序为 me/te/se/nous/vous → le/la/les → lui/leur → y → en。肯定命令的顺序不同。",
+        "examples": [
+          {
+            "fr": "Je le lui donne.",
+            "zh": "我把它给他／她。"
+          },
+          {
+            "fr": "Donne-le-moi !",
+            "zh": "把它给我！"
+          }
+        ],
+        "pitfall": "否定命令恢复动词前顺序：Ne me le donne pas。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -699,6 +1682,65 @@
         ],
         "textSha256": "4a29acd9def98ae1af7b238647db3b51b5a12be45e1aee4711a194b2942d12ef",
         "characters": 1458
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-19-supp-01",
+        "title": "y 的范围",
+        "rule": "y 常代替地点，或 à + 事物；penser à 后指人时通常使用重读代词。",
+        "examples": [
+          {
+            "fr": "Je vais à Lyon. J’y vais.",
+            "zh": "我去里昂。我去那里。"
+          },
+          {
+            "fr": "Je pense à Marie. Je pense à elle.",
+            "zh": "我想到玛丽。我想到她。"
+          }
+        ],
+        "pitfall": "不能把 à + 人在所有动词后都改成 y；要记动词结构。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro6.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-19-supp-02",
+        "title": "en 与数量",
+        "rule": "en 常代替 de + 名词、部分冠词名词或不定数量名词。明确的数量通常保留。",
+        "examples": [
+          {
+            "fr": "Tu veux du pain ? Oui, j’en veux.",
+            "zh": "你想要面包吗？是的，我想要。"
+          },
+          {
+            "fr": "J’ai trois livres. J’en ai trois.",
+            "zh": "我有三本书。我有三本。"
+          }
+        ],
+        "pitfall": "“有三个”中的 trois 不能因 en 已代替名词而删除。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro7.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-19-supp-03",
+        "title": "副动词的主语",
+        "rule": "en + 现在分词可表示同时、方式等；通常与主句共享主语。现在分词由 nous 现在时去 -ons 加 -ant，常见例外 ayant、étant、sachant。",
+        "examples": [
+          {
+            "fr": "Elle écoute de la musique en travaillant.",
+            "zh": "她一边工作一边听音乐。"
+          },
+          {
+            "fr": "J’apprends en lisant.",
+            "zh": "我通过阅读学习。"
+          }
+        ],
+        "pitfall": "不要让 en marchant 的人和主句真正执行动作的人不一致。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -747,6 +1789,65 @@
         "textSha256": "a062a4de1c5078c7970747819c73f881cce919e6f0574fdf53eaeda62d42b36b",
         "characters": 3053
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-20-supp-01",
+        "title": "qui 与 que",
+        "rule": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。",
+        "examples": [
+          {
+            "fr": "Le livre qui est ici est à Paul.",
+            "zh": "这里的书是保罗的。"
+          },
+          {
+            "fr": "Le livre que tu lis est intéressant.",
+            "zh": "你读的那本书很有趣。"
+          }
+        ],
+        "pitfall": "看从句中缺的是主语还是宾语，而不是只按先行词是人还是物判断。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-20-supp-02",
+        "title": "où 与 dont",
+        "rule": "où 引出地点或时间；dont 对应从句里需要 de 的成分。",
+        "examples": [
+          {
+            "fr": "C’est la ville où je suis né.",
+            "zh": "这是我出生的城市。"
+          },
+          {
+            "fr": "Voici le livre dont je t’ai parlé.",
+            "zh": "这是我跟你提过的书。"
+          }
+        ],
+        "pitfall": "dont 已包含 de 的关系，不再在从句重复 de ce livre。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-20-supp-03",
+        "title": "介词与 lequel",
+        "rule": "介词后指事物常用 lequel 系列；à、de 与 le/les 缩合为 auquel/auxquels、duquel/desquels 等。",
+        "examples": [
+          {
+            "fr": "La chaise sur laquelle je suis assis est neuve.",
+            "zh": "我坐的椅子是新的。"
+          },
+          {
+            "fr": "Le projet auquel je pense est utile.",
+            "zh": "我想到的项目很有用。"
+          }
+        ],
+        "pitfall": "复合介词 près de、à côté de 后常用 duquel 系列，不能一律替换为 dont。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -769,6 +1870,65 @@
         ],
         "textSha256": "b3418dca5231cc5552f0a6152444d899463c8832f05ce8f6cf1b9432f1e90f66",
         "characters": 1283
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-21-supp-01",
+        "title": "没有具体先行词",
+        "rule": "ce qui、ce que、ce dont 表示“……的事／东西”，不接一个已明确给出的名词先行词。选择取决于它在从句里的功能。",
+        "examples": [
+          {
+            "fr": "Je comprends ce que tu veux.",
+            "zh": "我明白你想要什么。"
+          },
+          {
+            "fr": "Ce qui me plaît, c’est le calme.",
+            "zh": "我喜欢的是宁静。"
+          }
+        ],
+        "pitfall": "que 后已有主语 tu；qui 自己就是从句主语。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-21-supp-02",
+        "title": "ce dont 对应 de",
+        "rule": "从句动词或形容词要求 de 时，用 ce dont，而不是 ce que。",
+        "examples": [
+          {
+            "fr": "Voici ce dont j’ai besoin.",
+            "zh": "这就是我需要的。"
+          },
+          {
+            "fr": "Je sais ce dont elle est fière.",
+            "zh": "我知道她为哪些事感到骄傲。"
+          }
+        ],
+        "pitfall": "avoir besoin de、être fier de 的 de 关系不能丢。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-21-supp-03",
+        "title": "整件事作先行内容",
+        "rule": "ce qui、ce que 也可承接前面整个事实；逗号能帮助区分它与普通名词关系从句。",
+        "examples": [
+          {
+            "fr": "Il a réussi, ce qui me réjouit.",
+            "zh": "他成功了，这让我高兴。"
+          },
+          {
+            "fr": "Il est parti, ce que je regrette.",
+            "zh": "他离开了，我对此遗憾。"
+          }
+        ],
+        "pitfall": "仍需判断 réjouir 的主语与 regretter 的宾语，不是两个短语随意互换。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -805,6 +1965,97 @@
         "textSha256": "fc86ccc66416671ed1bf9317581dcdf49826ffdf24027e9dbaa3887cf5461c1e",
         "characters": 1517
       }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-22-supp-01",
+        "title": "条件式的构成",
+        "rule": "条件式现在时用将来时词干 + imparfait 词尾；-re 动词去掉最后的 e。常见词干有 ser-、aur-、ir-、fer-。",
+        "examples": [
+          {
+            "fr": "Je voudrais un café.",
+            "zh": "我想要一杯咖啡。"
+          },
+          {
+            "fr": "Nous serions disponibles lundi.",
+            "zh": "我们周一可能有空。"
+          }
+        ],
+        "pitfall": "je serais 是条件式；je serai 是简单将来时。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "table": {
+          "headers": [
+            "主语",
+            "parler"
+          ],
+          "rows": [
+            [
+              "je",
+              "parlerais"
+            ],
+            [
+              "tu",
+              "parlerais"
+            ],
+            [
+              "il / elle / on",
+              "parlerait"
+            ],
+            [
+              "nous",
+              "parlerions"
+            ],
+            [
+              "vous",
+              "parleriez"
+            ],
+            [
+              "ils / elles",
+              "parleraient"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "lesson-22-supp-02",
+        "title": "过去视角中的将来",
+        "rule": "主句处于过去，表达当时认为之后会发生的事，可用条件式现在时。直接引语的将来时因参照点变化而调整。",
+        "examples": [
+          {
+            "fr": "Il a dit : « Je viendrai. »",
+            "zh": "他说：“我会来的。”"
+          },
+          {
+            "fr": "Il a dit qu’il viendrait.",
+            "zh": "他说他会来。"
+          }
+        ],
+        "pitfall": "条件式不只表示假设；这里表达相对于过去的未来。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-22-supp-03",
+        "title": "礼貌与建议",
+        "rule": "voudrais、pourriez、devrais 等可减弱直接要求的语气；需保留动词各自的搭配。",
+        "examples": [
+          {
+            "fr": "Pourriez-vous m’aider ?",
+            "zh": "您能帮我吗？"
+          },
+          {
+            "fr": "Tu devrais te reposer.",
+            "zh": "你应该休息一下。"
+          }
+        ],
+        "pitfall": "je voudrais + 名词或不定式；不要把后面的动词也随意变成条件式。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      }
     ]
   },
   {
@@ -839,6 +2090,65 @@
         ],
         "textSha256": "fe82d2dde32c77ecbf12044e28df993c1ba4048728345fa54ff9208db4e37694",
         "characters": 2460
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-23-supp-01",
+        "title": "可能实现的条件",
+        "rule": "si + 现在时，主句可用现在时、将来时或命令式；表示条件的 si 从句不用将来时。",
+        "examples": [
+          {
+            "fr": "Si tu viens, nous sortirons.",
+            "zh": "如果你来，我们就出去。"
+          },
+          {
+            "fr": "Si tu as le temps, appelle-moi.",
+            "zh": "如果你有时间，给我打电话。"
+          }
+        ],
+        "pitfall": "不是 si tu viendras；间接疑问中表示“是否”的 si 是另一种用法。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-23-supp-02",
+        "title": "现在或未来的假设",
+        "rule": "si + imparfait，主句用条件式现在时，表示假设或较低可能性；不等于绝对不可能。",
+        "examples": [
+          {
+            "fr": "Si j’avais le temps, je voyagerais.",
+            "zh": "如果有时间，我就会旅行。"
+          },
+          {
+            "fr": "Si tu venais demain, nous dînerions ensemble.",
+            "zh": "如果你明天能来，我们就一起吃晚饭。"
+          }
+        ],
+        "pitfall": "条件式放主句，不写 si j’aurais。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-23-supp-03",
+        "title": "过去的未实现条件",
+        "rule": "si + 愈过去时，主句用条件式过去时；条件式过去时为 aurais/serais 等 + 过去分词。",
+        "examples": [
+          {
+            "fr": "Si j’avais su, je serais venu.",
+            "zh": "如果我早知道，我就来了。"
+          },
+          {
+            "fr": "Si elle avait étudié, elle aurait réussi.",
+            "zh": "如果她当时学习了，她就成功了。"
+          }
+        ],
+        "pitfall": "venir 这里选 être，因此 je serais venu(e) 要考虑说话者性别。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   },
@@ -882,6 +2192,104 @@
         ],
         "textSha256": "a434a6dedfb73c26fb10df467342e54116ad38a3337986a460e41c43546fde83",
         "characters": 2374
+      }
+    ],
+    "supplements": [
+      {
+        "id": "lesson-24-supp-01",
+        "title": "常见触发条件",
+        "rule": "要求、愿望、情绪、怀疑等常触发 que + 虚拟式；同一主语时常能改用不定式。",
+        "examples": [
+          {
+            "fr": "Je veux que tu viennes.",
+            "zh": "我希望你来。"
+          },
+          {
+            "fr": "Je veux venir.",
+            "zh": "我想来。"
+          }
+        ],
+        "pitfall": "虚拟式不是“凡是 que 后都用”；je pense qu’il vient 是直陈式。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tas4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
+      },
+      {
+        "id": "lesson-24-supp-02",
+        "title": "构成与特殊动词",
+        "rule": "常规以 ils 现在时去 -ent 加 -e/-es/-e/-ions/-iez/-ent；有双词干与特殊变位，être、avoir 必须另记。",
+        "examples": [
+          {
+            "fr": "Il faut que nous prenions le train.",
+            "zh": "我们必须乘火车。"
+          },
+          {
+            "fr": "Je suis content qu’elle soit ici.",
+            "zh": "我很高兴她在这里。"
+          }
+        ],
+        "pitfall": "prendre：que je prenne，但 que nous prenions；不要机械把一个词干套给六个人称。",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/tas1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "table": {
+          "headers": [
+            "主语",
+            "être",
+            "avoir"
+          ],
+          "rows": [
+            [
+              "que je / j’",
+              "sois",
+              "aie"
+            ],
+            [
+              "que tu",
+              "sois",
+              "aies"
+            ],
+            [
+              "qu’il / elle / on",
+              "soit",
+              "ait"
+            ],
+            [
+              "que nous",
+              "soyons",
+              "ayons"
+            ],
+            [
+              "que vous",
+              "soyez",
+              "ayez"
+            ],
+            [
+              "qu’ils / elles",
+              "soient",
+              "aient"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "lesson-24-supp-03",
+        "title": "连接词的边界",
+        "rule": "pour que、bien que、avant que、à condition que 通常接虚拟式；après que 接直陈式，au cas où 接条件式。",
+        "examples": [
+          {
+            "fr": "Je parle lentement pour que tu comprennes.",
+            "zh": "我说慢一点，好让你听懂。"
+          },
+          {
+            "fr": "Prends un manteau au cas où il ferait froid.",
+            "zh": "带件外套，以防天冷。"
+          }
+        ],
+        "pitfall": "不是所有表示“条件”的连接词都接同一种语气。",
+        "sourceUrl": "https://utexas.pressbooks.pub/texfrenchgrammar/chapter/tas5-2/",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ]
   }
