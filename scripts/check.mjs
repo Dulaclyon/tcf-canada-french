@@ -1,3 +1,4 @@
+import {createHash} from 'node:crypto';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
@@ -29,3 +30,9 @@ const words=s=>s.trim().split(/\s+/u).filter(t=>/[\p{L}\p{N}]/u.test(t)).length;
 for(const task of e.writingTasks)for(const example of task.examples){assert.equal(words(example.text),example.wordCount,example.title);assert(example.wordCount>=task.minWords&&example.wordCount<=task.maxWords,example.title);assert(e.writing.some(q=>q.id===example.questionId));}
 for(const course of c){assert(["课件原文","课件例句","课件对话"].includes(course.article.kind));assert.notEqual(course.comparison,course.rules[0].explanation);for(const id of [...course.prerequisites,...course.related])assert(c.some(x=>x.id===id),id);}
 console.log('Courseware attribution, reading types, prerequisite links and writing sample ranges validated.');
+
+const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
+assert.equal(materials.length,22);assert.equal(new Set(materials.map(x=>x.file)).size,22);
+assert.deepEqual(materials.map(x=>x.lesson),[2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24]);
+for(const m of materials){assert(m.pages.length&&m.id&&m.file);for(const p of m.pages){const text=p.sections.map(x=>x.text).join('').replace(/\s+/g,'');assert.equal(text.length,p.characters);assert.equal(createHash('sha256').update(text).digest('hex'),p.textSha256,`${m.id}: text integrity`);}}
+console.log('All 22 original PDF text records and page integrity hashes validated.');
