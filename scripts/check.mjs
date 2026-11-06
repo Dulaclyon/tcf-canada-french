@@ -47,3 +47,5 @@ for(const m of materials){const sections=m.pages.flatMap(p=>p.sections);for(cons
 assert(!fs.readFileSync('app.js','utf8').includes('非课件原文'),'Reader-facing editorial labels removed');
 
 assert(!fs.readFileSync('app.js','utf8').includes('<summary>完整内容</summary>'),'Duplicate full-content panel removed');
+
+execFileSync(process.execPath,['scripts/check-lesson-flow.mjs'],{stdio:'inherit'});
