@@ -98,7 +98,8 @@
               "ont"
             ]
           ]
-        }
+        },
+        "anchor": "être"
       },
       {
         "id": "lesson-02-supp-02",
@@ -117,7 +118,8 @@
         "pitfall": "c’est 的复数通常为 ce sont：Ce sont mes amis。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pro3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "être"
       },
       {
         "id": "lesson-02-supp-03",
@@ -136,7 +138,8 @@
         "pitfall": "sa voiture 不能用来判断车主是男性还是女性。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "物主"
       }
     ]
   },
@@ -192,7 +195,8 @@
         "pitfall": "à Toronto，但 au Canada；不要只按中文“在”选择介词。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "介词"
       },
       {
         "id": "lesson-03-supp-02",
@@ -211,7 +215,8 @@
         "pitfall": "à + le → au，à + les → aux；à la 和 à l’ 不缩合。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "介词"
       },
       {
         "id": "lesson-03-supp-03",
@@ -230,7 +235,8 @@
         "pitfall": "h aspiré 阻止省音和连读，例如 le héros；需查词典，不能只看字母 h。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "冠词"
       }
     ]
   },
@@ -286,7 +292,8 @@
         "pitfall": "不能写 nous pouvons partons；vouloir 是想要，devoir 是义务或推测。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Pouvoir 能，能够"
       },
       {
         "id": "lesson-04-supp-02",
@@ -305,7 +312,8 @@
         "pitfall": "Je vais à Paris 是去某地；Je vais travailler 才是 aller + 不定式。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
       },
       {
         "id": "lesson-04-supp-03",
@@ -324,7 +332,8 @@
         "pitfall": "Il est midi / minuit；不要说 il a deux heures 来报时。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "对话"
       }
     ]
   },
@@ -372,7 +381,8 @@
         "pitfall": "mille 作为数词不变：deux mille。1990年拼写建议允许复合数词全面用连字符。",
         "sourceUrl": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21532/la-grammaire/les-determinants/determinants-numeraux/pluriel-de-vingt-de-cent-et-de-mille",
         "sourceName": "OQLF · Vingt, cent et mille",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "数字"
       },
       {
         "id": "lesson-05-supp-02",
@@ -391,7 +401,8 @@
         "pitfall": "Je pars lundi 可表示本次周一出发；月份和星期通常小写。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "数字"
       },
       {
         "id": "lesson-05-supp-03",
@@ -410,7 +421,8 @@
         "pitfall": "不要用 pendant deux ans 来表达“已经持续两年而且仍在继续”。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
       }
     ]
   },
@@ -482,7 +494,8 @@
         "pitfall": "finir → finissons；partir → partons，不能把所有 -ir 动词按同一规则变化。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "第一类规则动词变位"
       },
       {
         "id": "lesson-06-supp-02",
@@ -501,7 +514,8 @@
         "pitfall": "“我觉得冷”通常是 j’ai froid，不是 je suis froid（可能表示性格冷淡）。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "短文&对话"
       },
       {
         "id": "lesson-06-supp-03",
@@ -520,7 +534,8 @@
         "pitfall": "neiger、pleuvoir 表示天气时通常用第三人称单数。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "动词"
       }
     ]
   },
@@ -592,7 +607,8 @@
         "pitfall": "表达喜好常用定冠词，不能把“喜欢咖啡”写成 j’aime du café。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "冠词"
       },
       {
         "id": "lesson-07-supp-02",
@@ -611,7 +627,8 @@
         "pitfall": "Je n’aime pas le café 中定冠词 le 不变。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "冠词"
       },
       {
         "id": "lesson-07-supp-03",
@@ -630,7 +647,8 @@
         "pitfall": "beaucoup de livres，不是 beaucoup des livres；特指“这些书中的许多”另当别论。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "冠词"
       }
     ]
   },
@@ -706,7 +724,8 @@
         "pitfall": "Je vais me coucher，不是 je me vais coucher。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Se + Verbe (代动词)"
       },
       {
         "id": "lesson-08-supp-02",
@@ -725,7 +744,8 @@
         "pitfall": "通常说 se brosser les dents，不必重复说 ses dents。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Se + Verbe (代动词)"
       },
       {
         "id": "lesson-08-supp-03",
@@ -744,7 +764,8 @@
         "pitfall": "命令句不写主语 tu；肯定与否定的代词位置不同。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
       }
     ]
   },
@@ -808,7 +829,8 @@
         "pitfall": "不能只写 j’ai parler；不规则过去分词要单独记忆。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "复合过去时"
       },
       {
         "id": "lesson-09-supp-02",
@@ -827,7 +849,8 @@
         "pitfall": "不是所有表示移动的动词都用 être：j’ai marché。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "复合过去时"
       },
       {
         "id": "lesson-09-supp-03",
@@ -846,7 +869,8 @@
         "pitfall": "先看动词在句子中的用法，不能只按单词名单机械选择助动词。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "复合过去时"
       }
     ]
   },
@@ -894,7 +918,8 @@
         "pitfall": "été 是 être 的过去分词，但 j’ai été 的助动词仍是 avoir。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "课件内容"
       },
       {
         "id": "lesson-10-supp-02",
@@ -913,7 +938,8 @@
         "pitfall": "不要把否定写成 je n’ai compris pas。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "短文"
       },
       {
         "id": "lesson-10-supp-03",
@@ -932,7 +958,8 @@
         "pitfall": "不是看到女性主语就加 e；要判断直接宾语及其位置。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "课件内容"
       }
     ]
   },
@@ -992,7 +1019,8 @@
         "pitfall": "不是 elle a se levé；原形 se lever 到句中要选择正确反身代词。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "代动词的passé composé"
       },
       {
         "id": "lesson-12-supp-02",
@@ -1011,7 +1039,8 @@
         "pitfall": "第二句的直接宾语是后面的 les mains，lavé 不加 es。",
         "sourceUrl": "https://www.dictionnaire-academie.fr/article/QDL069",
         "sourceName": "Dictionnaire de l’Académie française",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "代动词的passé composé"
       },
       {
         "id": "lesson-12-supp-03",
@@ -1030,7 +1059,8 @@
         "pitfall": "parler à、téléphoner à：不是 se sont parlées / téléphonés。",
         "sourceUrl": "https://www.dictionnaire-academie.fr/article/QDL069",
         "sourceName": "Dictionnaire de l’Académie française",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "代动词的passé composé"
       }
     ]
   },
@@ -1110,7 +1140,8 @@
         "pitfall": "长短、性别和复数要分别判断，不是所有阴性都能机械加 e。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "常用形容词"
       },
       {
         "id": "lesson-13-supp-02",
@@ -1129,7 +1160,8 @@
         "pitfall": "不要认为所有形容词都固定放在名词前或后。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "常用形容词"
       },
       {
         "id": "lesson-13-supp-03",
@@ -1148,7 +1180,8 @@
         "pitfall": "une belle maison，但 un bel appartement；不要写 un belle appartement。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "美丑类"
       }
     ]
   },
@@ -1204,7 +1237,8 @@
         "pitfall": "aussi livres 不正确；名词数量要用 autant de。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "比较级"
       },
       {
         "id": "lesson-14-supp-02",
@@ -1223,7 +1257,8 @@
         "pitfall": "通常不说 plus bon 或 plus bien；meilleure 修饰阴性名词。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/adj8.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "不规则最高级"
       },
       {
         "id": "lesson-14-supp-03",
@@ -1242,7 +1277,8 @@
         "pitfall": "elle 跑得最快仍用 le plus vite，不用 la plus vite。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "最高级"
       }
     ]
   },
@@ -1314,7 +1350,8 @@
         "pitfall": "elles 的词尾是 -aient；不是 -aitent。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "0. 变形"
       },
       {
         "id": "lesson-15-supp-02",
@@ -1333,7 +1370,8 @@
         "pitfall": "不按“动作长短”机械判断；应看叙述中它是背景还是事件。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap8.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "用法"
       },
       {
         "id": "lesson-15-supp-03",
@@ -1352,7 +1390,8 @@
         "pitfall": "知道、想要、能够等动词也不能永远只用一个过去时。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap8.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "用法"
       }
     ]
   },
@@ -1420,7 +1459,8 @@
         "pitfall": "demi 在名词后只作性别变化：une heure et demie；名词前用连字符且不变：une demi-heure。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "法语中的分数"
       },
       {
         "id": "lesson-16-supp-02",
@@ -1439,7 +1479,8 @@
         "pitfall": "百分比不能简单一律用单数或复数；注意限定词与所指对象。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "法语中的百分比"
       },
       {
         "id": "lesson-16-supp-03",
@@ -1458,7 +1499,8 @@
         "pitfall": "表示楼层等顺序时，premier 以外的 -ième 通常不随名词性别变化。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "法语中的序数词"
       }
     ]
   },
@@ -1506,7 +1548,8 @@
         "pitfall": "过去参照点可以来自上下文，不要求每句都出现另一个过去时。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Plus-que-imparfait 时态"
       },
       {
         "id": "lesson-17-supp-02",
@@ -1525,7 +1568,8 @@
         "pitfall": "不是把所有愈过去时都写成 avait + 过去分词。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Plus-que-imparfait 时态"
       },
       {
         "id": "lesson-17-supp-03",
@@ -1544,7 +1588,8 @@
         "pitfall": "不要把 après que 和 avant que 的语气要求混为一谈。",
         "sourceUrl": "https://nos-langues.canada.ca/fr/juridictionnaire/apres-que",
         "sourceName": "加拿大语言门户 · après que",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Plus-que-imparfait 时态"
       }
     ]
   },
@@ -1600,7 +1645,8 @@
         "pitfall": "不能因中文都有“他／她”就把 le、la 和 lui 混用。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "直接宾语代词"
       },
       {
         "id": "lesson-18-supp-02",
@@ -1619,7 +1665,8 @@
         "pitfall": "Je vais lui parler，不是 je lui vais parler。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "间接宾语代词"
       },
       {
         "id": "lesson-18-supp-03",
@@ -1638,7 +1685,8 @@
         "pitfall": "否定命令恢复动词前顺序：Ne me le donne pas。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
       }
     ]
   },
@@ -1702,7 +1750,8 @@
         "pitfall": "不能把 à + 人在所有动词后都改成 y；要记动词结构。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro6.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "代词 \"Y\""
       },
       {
         "id": "lesson-19-supp-02",
@@ -1721,7 +1770,8 @@
         "pitfall": "“有三个”中的 trois 不能因 en 已代替名词而删除。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro7.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "代词 \"En\""
       },
       {
         "id": "lesson-19-supp-03",
@@ -1740,7 +1790,8 @@
         "pitfall": "不要让 en marchant 的人和主句真正执行动作的人不一致。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "现在分词"
       }
     ]
   },
@@ -1808,7 +1859,8 @@
         "pitfall": "看从句中缺的是主语还是宾语，而不是只按先行词是人还是物判断。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "qui 作主语，指人或物"
       },
       {
         "id": "lesson-20-supp-02",
@@ -1827,7 +1879,8 @@
         "pitfall": "dont 已包含 de 的关系，不再在从句重复 de ce livre。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "dont 替代 “de + 名词”"
       },
       {
         "id": "lesson-20-supp-03",
@@ -1846,7 +1899,8 @@
         "pitfall": "复合介词 près de、à côté de 后常用 duquel 系列，不能一律替换为 dont。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "lequel / laquelle / lesquels / lesquelles"
       }
     ]
   },
@@ -1890,7 +1944,8 @@
         "pitfall": "que 后已有主语 tu；qui 自己就是从句主语。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "课件内容"
       },
       {
         "id": "lesson-21-supp-02",
@@ -1909,7 +1964,8 @@
         "pitfall": "avoir besoin de、être fier de 的 de 关系不能丢。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "课件内容"
       },
       {
         "id": "lesson-21-supp-03",
@@ -1928,7 +1984,8 @@
         "pitfall": "仍需判断 réjouir 的主语与 regretter 的宾语，不是两个短语随意互换。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "课件内容"
       }
     ]
   },
@@ -2016,7 +2073,8 @@
               "parleraient"
             ]
           ]
-        }
+        },
+        "anchor": "0. 结构"
       },
       {
         "id": "lesson-22-supp-02",
@@ -2035,7 +2093,8 @@
         "pitfall": "条件式不只表示假设；这里表达相对于过去的未来。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "过去视角"
       },
       {
         "id": "lesson-22-supp-03",
@@ -2054,7 +2113,8 @@
         "pitfall": "je voudrais + 名词或不定式；不要把后面的动词也随意变成条件式。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "礼貌表达"
       }
     ]
   },
@@ -2110,7 +2170,8 @@
         "pitfall": "不是 si tu viendras；间接疑问中表示“是否”的 si 是另一种用法。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "si + 现在时"
       },
       {
         "id": "lesson-23-supp-02",
@@ -2129,7 +2190,8 @@
         "pitfall": "条件式放主句，不写 si j’aurais。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "si + 未完成过去时"
       },
       {
         "id": "lesson-23-supp-03",
@@ -2148,7 +2210,8 @@
         "pitfall": "venir 这里选 être，因此 je serais venu(e) 要考虑说话者性别。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "si + 愈过去时"
       }
     ]
   },
@@ -2212,7 +2275,8 @@
         "pitfall": "虚拟式不是“凡是 que 后都用”；je pense qu’il vient 是直陈式。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tas4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "1. 用途"
       },
       {
         "id": "lesson-24-supp-02",
@@ -2270,7 +2334,8 @@
               "aient"
             ]
           ]
-        }
+        },
+        "anchor": "特殊虚拟形态"
       },
       {
         "id": "lesson-24-supp-03",
@@ -2289,7 +2354,8 @@
         "pitfall": "不是所有表示“条件”的连接词都接同一种语气。",
         "sourceUrl": "https://utexas.pressbooks.pub/texfrenchgrammar/chapter/tas5-2/",
         "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核"
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "1. 用途"
       }
     ]
   }

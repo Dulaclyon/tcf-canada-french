@@ -18,3 +18,5 @@ assert(renderGrammar(find(18,'直接宾语代词').text,'直接宾语代词').in
 assert(renderGrammar(find(23,'si + 现在时').text,'si + 现在时').includes('grammar-formula'));
 assert(renderGrammar(find(2,'一般疑问句').text,'一般疑问句').includes('grammar-transform'));
 console.log(`Grammar layouts retain ${checked} original source lines; pronoun charts, formulas, transformations and HTML escaping passed.`);
+
+assert(!renderGrammar(find(2,'être').text,'être').includes('grammar-table'), 'Eight full-sentence examples must not be misclassified as a six-person conjugation chart');

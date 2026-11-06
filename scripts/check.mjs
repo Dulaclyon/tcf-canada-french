@@ -42,3 +42,6 @@ for(const m of materials){assert(m.supplements?.length>=3,`${m.id}: supplement c
 console.log(`${supplements} supplemental topics and ${supplements*2} bilingual examples validated separately from original PDF text.`);
 
 execFileSync(process.execPath,['scripts/check-grammar-layout.mjs'],{stdio:'inherit'});
+
+for(const m of materials){const sections=m.pages.flatMap(p=>p.sections);for(const b of m.supplements){assert(b.anchor===null||sections.some(s=>s.title===b.anchor),`${b.id}: integrated topic anchor`);}}
+assert(!fs.readFileSync('app.js','utf8').includes('非课件原文'),'Reader-facing editorial labels removed');

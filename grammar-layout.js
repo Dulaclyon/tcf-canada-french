@@ -43,7 +43,7 @@ export function renderGrammar(text, title = '') {
     }
     // Six-person conjugations are read down two columns: singular, then plural.
     const six=lines.slice(i,i+6);
-    if(six.length===6&&six.every(s=>subject.test(s))&&/^nous /iu.test(six[3])&&/^vous /iu.test(six[4])) {
+    if(six.length===6&&six.every(s=>subject.test(s))&&/^(?:je |j[’'])/iu.test(six[0])&&/^tu /iu.test(six[1])&&/^nous /iu.test(six[3])&&/^vous /iu.test(six[4])) {
       const parsed=six.map(s=>s.match(/^((?:il\/elle\/on|ils\/elles|il\/elle|je|tu|il|elle|nous|vous|ils|elles)\s+|j[’'])(.+)$/iu));
       if(parsed.every(Boolean)){output.push(table(['Singulier','Pluriel'],[0,1,2].map(n=>[six[n],six[n+3]])));i+=5;continue;}
     }
