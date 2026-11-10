@@ -2,7 +2,7 @@
   {
     "id": "lesson-02",
     "lesson": 2,
-    "title": "être",
+    "title": "基础动词&名词",
     "file": "leçon 2/Leçon 2(1).pdf",
     "pages": [
       {
@@ -57,6 +57,7 @@
           }
         ],
         "pitfall": "不要把中文“是20岁”直译成 être vingt ans。",
+        "application": "可以成对记：Je suis fatigué（我累了），J’ai faim（我饿了）。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pro3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -124,7 +125,7 @@
       {
         "id": "lesson-02-supp-03",
         "title": "物主词的选择",
-        "rule": "mon、ma、mes 等跟随后面的名词变化，不按拥有者的性别选。阴性名词在元音或哑音 h 前用 mon、ton、son。",
+        "rule": "先根据所属关系选择词组，如“我的”用 mon / ma / mes，再根据后面名词的性和数选择形式。mon 用于阳性单数，ma 用于阴性单数，mes 用于复数。阴性单数名词以元音或哑音 h 开头时，用 mon / ton / son 代替 ma / ta / sa，如 mon amie（我的女性朋友）。",
         "examples": [
           {
             "fr": "Paul cherche sa voiture.",
@@ -140,6 +141,295 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "物主"
+      },
+      {
+        "id": "lesson-02-extra-4",
+        "title": "指示限定词",
+        "rule": "ce、cet、cette、ces 放在名词前，按名词的性和数选择，表示“这／那、这些／那些”。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "ce + 阳性单数",
+              "ce quartier"
+            ],
+            [
+              "cet + 元音或哑音 h 开头的阳性单数",
+              "cet hôtel"
+            ],
+            [
+              "cette + 阴性单数",
+              "cette adresse"
+            ],
+            [
+              "ces + 复数",
+              "ces quartiers / ces adresses"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Cette adresse est correcte.",
+            "zh": "这个地址是正确的。"
+          },
+          {
+            "fr": "Ces hôtels sont près de la gare.",
+            "zh": "这些酒店在车站附近。"
+          }
+        ],
+        "pitfall": "阴性名词以元音开头仍用 cette，如 cette école。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det7.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "名词"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-02-extra-practice-1",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Cet ___ est près de la gare.",
+        "options": [
+          "hôtel",
+          "école",
+          "maisons"
+        ],
+        "answers": [
+          "hôtel"
+        ],
+        "explanation": "cet 用于元音或哑音 h 开头的阳性单数名词。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      }
+    ],
+    "relocatedSections": [
+      {
+        "title": "phonics",
+        "start": null,
+        "target": "grammar-sounds-basic"
+      }
+    ],
+    "relatedMaterials": [
+      "grammar-sounds-basic"
+    ]
+  },
+  {
+    "id": "grammar-sounds-basic",
+    "lesson": 29,
+    "title": "基础发音",
+    "file": "新增课件/基础发音",
+    "contentOrigin": "authored",
+    "sourceSections": [
+      {
+        "materialId": "lesson-02",
+        "title": "phonics",
+        "start": null
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-sounds-basic-s1",
+        "title": "目标音对照",
+        "rule": "本课分两组练习。[e] 组包括 é 和例词中的词尾 es、ez、er；ou 在本组例词中读 [u]。",
+        "examples": [
+          {
+            "fr": "Mes amis prennent le thé.",
+            "zh": "我的朋友们在喝茶。"
+          },
+          {
+            "fr": "Nous jouons avec vous.",
+            "zh": "我们和您一起玩。"
+          }
+        ],
+        "pitfall": "mes 的词尾 es 读 [e]，不代表所有单词的词尾 es 都发音。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "[e]",
+              "thé / mes / assez / aller"
+            ],
+            [
+              "[u]",
+              "nous / doux / jouer"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "grammar-sounds-basic-s2",
+        "title": "元音区别",
+        "rule": "ou 常读 [u]，字母 u 通常读 [y]。两者都需要圆唇，但舌位不同，需成对听辨。",
+        "examples": [
+          {
+            "fr": "La roue est petite.",
+            "zh": "这个轮子很小。"
+          },
+          {
+            "fr": "Cette rue est calme.",
+            "zh": "这条街很安静。"
+          }
+        ],
+        "pitfall": "不要把法语 u 一律读成 ou 的 [u]。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "ou → [u]",
+              "roue [ʁu]（轮子）"
+            ],
+            [
+              "u → [y]",
+              "rue [ʁy]（街道）"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "grammar-sounds-basic-s3",
+        "title": "词尾读音",
+        "rule": "例词中的词尾 -ez、-er 可读 [e]。不少词尾辅音不单独发音，应按整个单词学习。",
+        "examples": [
+          {
+            "fr": "Vous venez avec nous.",
+            "zh": "您和我们一起来。"
+          },
+          {
+            "fr": "Je vais aller chez elle.",
+            "zh": "我打算去她家。"
+          }
+        ],
+        "pitfall": "词尾 -er 有例外，如 mer [mɛʁ]，不能把全部单词机械地按同一规则读。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "-ez",
+              "venez [vəne]"
+            ],
+            [
+              "-er",
+              "aller [ale]"
+            ],
+            [
+              "-s 不单独发音",
+              "nous [nu]"
+            ]
+          ]
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-sounds-basic-q1",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "Les mots « mes » et « thé » contiennent le son ___.",
+        "options": [
+          "[e]",
+          "[u]",
+          "[wa]"
+        ],
+        "answers": [
+          "[e]"
+        ],
+        "explanation": "本组 mes 的 es 与 thé 的 é 均读 [e]。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-sounds-basic-q2",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "Dans « nous », le groupe « ou » se prononce ___.",
+        "options": [
+          "[y]",
+          "[u]",
+          "[o]"
+        ],
+        "answers": [
+          "[u]"
+        ],
+        "explanation": "nous 中 ou 读 [u]。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-sounds-basic-q3",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "Quel mot contient le même son « ou » que « nous » ?",
+        "options": [
+          "thé",
+          "mes",
+          "doux"
+        ],
+        "answers": [
+          "doux"
+        ],
+        "explanation": "doux 和 nous 都含 [u]。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 561,
+        "textSha256": "2227ee4172d51a5ecf9c36dadf14b4910b08a45bd8a211b0f84f538fa245fe57",
+        "sections": [
+          {
+            "title": "phonics",
+            "text": "phonics\né; 单词末尾的 es; ez; er\n1. mes（我的）\n2. fée（仙女）\n3. été（夏天） cet été\n4. assez（足够的） c’est assez\n5. thé（茶）\n6. tes（你的）\n7. dé（骰子）\n8. épée（剑）\n9. étaler（摊开）.\n10. venez（来）\n11. ses（他的/她的/它的）\n12. chez（在……家）\n13. aller（去）\n14. limiter（限制）\n15. clé（钥匙）\n16. les（他们/她们/它们）\n17. nez（鼻子）\n18. quitter（离开） qu que t p\n19. répéter（重复）\nou\n• pou（虱子） - bout（末端）\n• nous（我们） - loup（狼）\n• tout（全部） - doux（温柔的）\n• fou（疯子） - vous（您/你们）\n• chou（卷心菜） - joue（脸颊）\n• sous（在……下面） - zou（走吧！）\n• cou（脖子） - goût（味道）\n• jouer（玩） - zoulou（祖鲁人，非洲民族之一）"
+          },
+          {
+            "title": "短文",
+            "text": "短文\nCet été, mes amis vont chez une amie. Nous prenons le thé, puis nous jouons dans le jardin. Vous pouvez venir avec nous. Le soleil est doux et chacun profite de la journée.",
+            "glossary": [
+              {
+                "fr": "cet été",
+                "zh": "今年夏天"
+              },
+              {
+                "fr": "chez une amie",
+                "zh": "在一位女性朋友家"
+              },
+              {
+                "fr": "profiter de",
+                "zh": "享受、充分利用"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -193,6 +483,7 @@
           }
         ],
         "pitfall": "à Toronto，但 au Canada；不要只按中文“在”选择介词。",
+        "application": "问“去哪儿”和“在哪里”时都可用同一搭配：aller à Montréal、habiter à Montréal。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -237,6 +528,128 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "冠词"
+      },
+      {
+        "id": "lesson-03-extra-4",
+        "title": "重读人称词",
+        "rule": "介词后、强调身份以及简短回答常用重读人称代词。形式随所指的人变化。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "je / tu / il / elle",
+              "moi / toi / lui / elle"
+            ],
+            [
+              "nous / vous / ils / elles",
+              "nous / vous / eux / elles"
+            ],
+            [
+              "介词 + 重读代词",
+              "avec moi / chez eux / pour elle"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Tu viens avec nous ?",
+            "zh": "你和我们一起去吗？"
+          },
+          {
+            "fr": "C’est elle qui organise la réunion.",
+            "zh": "是她组织会议。"
+          }
+        ],
+        "pitfall": "lui 在重读代词中指男性，在间接宾语代词中可以指男性或女性。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "介词"
+      },
+      {
+        "id": "lesson-03-extra-5",
+        "title": "疑问词选择",
+        "rule": "先判断询问人还是物，再判断疑问词在句中作主语还是宾语。quel 修饰名词，lequel 代替已知名词。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "Qui est-ce qui / Qu’est-ce qui",
+              "询问人／物作主语"
+            ],
+            [
+              "Qui est-ce que / Qu’est-ce que",
+              "询问人／物作宾语"
+            ],
+            [
+              "quel / quelle / quels / quelles + 名词",
+              "Quel trajet choisissez-vous ?"
+            ],
+            [
+              "lequel / laquelle / lesquels / lesquelles",
+              "Parmi ces trajets, lequel choisissez-vous ?"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Qu’est-ce qui vous inquiète ?",
+            "zh": "什么让您担心？"
+          },
+          {
+            "fr": "Qu’est-ce que vous cherchez ?",
+            "zh": "您在找什么？"
+          }
+        ],
+        "pitfall": "主语疑问词后直接接谓语，勿额外补一个重复的主语。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-03-extra-practice-2",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Vous venez avec ___ ?",
+        "options": [
+          "je",
+          "moi",
+          "me"
+        ],
+        "answers": [
+          "moi"
+        ],
+        "explanation": "介词 avec 后用重读代词 moi。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-03-extra-practice-3",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "___ vous inquiète ?",
+        "options": [
+          "Qu’est-ce qui",
+          "Qu’est-ce que",
+          "Quel"
+        ],
+        "answers": [
+          "Qu’est-ce qui"
+        ],
+        "explanation": "询问“什么”在句中作主语，使用 qu’est-ce qui。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
@@ -290,6 +703,7 @@
           }
         ],
         "pitfall": "不能写 nous pouvons partons；vouloir 是想要，devoir 是义务或推测。",
+        "application": "否定时把 ne…pas 放在情态动词两边：Je ne peux pas venir.",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -334,6 +748,128 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "对话"
+      },
+      {
+        "id": "lesson-04-extra-4",
+        "title": "不定式搭配",
+        "rule": "两个动词连用时，后一个常用不定式。是否加 à 或 de 由前面的动词搭配决定。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "直接 + 不定式",
+              "vouloir / pouvoir / devoir + partir"
+            ],
+            [
+              "à + 不定式",
+              "commencer à / réussir à / apprendre à"
+            ],
+            [
+              "de + 不定式",
+              "décider de / essayer de / oublier de"
+            ],
+            [
+              "否定不定式",
+              "ne pas + 不定式"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Elle apprend à conduire.",
+            "zh": "她正在学开车。"
+          },
+          {
+            "fr": "Nous avons décidé de rester.",
+            "zh": "我们决定留下。"
+          }
+        ],
+        "pitfall": "不同动词的介词搭配需一起记，不能把所有不定式前都加 à。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pre4.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Pouvoir 能，能够"
+      },
+      {
+        "id": "lesson-04-extra-5",
+        "title": "最近过去时",
+        "rule": "venir 的现在时变位 + de / d’ + 不定式表示刚刚完成的动作，可与最近将来时对照。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "je viens de / nous venons de",
+              "刚刚做完"
+            ],
+            [
+              "venir de + 不定式",
+              "Je viens de rentrer."
+            ],
+            [
+              "aller + 不定式",
+              "Je vais rentrer."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Je viens de terminer mon exercice.",
+            "zh": "我刚做完练习。"
+          },
+          {
+            "fr": "Ils viennent d’arriver à la gare.",
+            "zh": "他们刚到车站。"
+          }
+        ],
+        "pitfall": "de 后的动作动词用不定式，如 vient de partir，不能用过去分词。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-04-extra-practice-4",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Elle a décidé ___ rester.",
+        "options": [
+          "à",
+          "de",
+          "pour"
+        ],
+        "answers": [
+          "de"
+        ],
+        "explanation": "décider de + 不定式是固定搭配。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-extra-practice-5",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Ils viennent d’___.",
+        "options": [
+          "arrivé",
+          "arrivent",
+          "arriver"
+        ],
+        "answers": [
+          "arriver"
+        ],
+        "explanation": "venir de + 不定式表示刚刚做完。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
@@ -379,6 +915,7 @@
           }
         ],
         "pitfall": "mille 作为数词不变：deux mille。1990年拼写建议允许复合数词全面用连字符。",
+        "application": "对照记：deux cents、deux cent trois；quatre-vingts、quatre-vingt-deux。",
         "sourceUrl": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21532/la-grammaire/les-determinants/determinants-numeraux/pluriel-de-vingt-de-cent-et-de-mille",
         "sourceName": "OQLF · Vingt, cent et mille",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -423,13 +960,81 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": null
+      },
+      {
+        "id": "lesson-05-extra-4",
+        "title": "时间表达对照",
+        "rule": "区分动作的持续时间、发生在多久以前，以及距离现在多久以后。depuis 常搭配仍在持续的状态。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "depuis + 时长／起点",
+              "持续至今：depuis deux ans"
+            ],
+            [
+              "pendant + 时长",
+              "持续多久：pendant une heure"
+            ],
+            [
+              "il y a + 时长",
+              "多久以前：il y a trois jours"
+            ],
+            [
+              "dans + 时长",
+              "多久以后：dans une semaine"
+            ],
+            [
+              "en + 时长",
+              "完成所花时间：en dix minutes"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "J’habite ici depuis six mois.",
+            "zh": "我住在这里已经六个月了。"
+          },
+          {
+            "fr": "Elle est partie il y a une heure et reviendra dans deux jours.",
+            "zh": "她一小时前离开，两天后回来。"
+          }
+        ],
+        "pitfall": "表达持续至今的“已经住了”通常用现在时，而不是按中文直接选过去时。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "数字"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-05-extra-practice-6",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "J’habite ici ___ 2024.",
+        "options": [
+          "depuis",
+          "pendant",
+          "dans"
+        ],
+        "answers": [
+          "depuis"
+        ],
+        "explanation": "从过去起点持续至今用 depuis。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
   {
     "id": "lesson-06",
     "lesson": 6,
-    "title": "四季",
+    "title": "四季与天气",
     "file": "leçon 6/Les quatre saisons 四季(3).pdf",
     "pages": [
       {
@@ -492,6 +1097,7 @@
           }
         ],
         "pitfall": "finir → finissons；partir → partons，不能把所有 -ir 动词按同一规则变化。",
+        "application": "遇到陌生的 -ir 动词，先核对 nous 形式，再判断它是否按 finir 变位。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -536,13 +1142,77 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "动词"
+      },
+      {
+        "id": "lesson-06-extra-4",
+        "title": "常用现在时",
+        "rule": "常用不规则动词要结合完整人称记忆。同一类动词可类比，但需留意词干变化。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "venir",
+              "viens / viens / vient / venons / venez / viennent"
+            ],
+            [
+              "prendre",
+              "prends / prends / prend / prenons / prenez / prennent"
+            ],
+            [
+              "faire",
+              "fais / fais / fait / faisons / faites / font"
+            ],
+            [
+              "dire",
+              "dis / dis / dit / disons / dites / disent"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Vous faites les courses aujourd’hui ?",
+            "zh": "你们今天购物吗？"
+          },
+          {
+            "fr": "Nous prenons le métro chaque matin.",
+            "zh": "我们每天早晨乘地铁。"
+          }
+        ],
+        "pitfall": "表中形式依次对应 je、tu、il/elle/on、nous、vous、ils/elles。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "动词"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-06-extra-practice-7",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Vous ___ les courses aujourd’hui.",
+        "options": [
+          "faisez",
+          "faites",
+          "font"
+        ],
+        "answers": [
+          "faites"
+        ],
+        "explanation": "faire 对应 vous 的现在时为 faites。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
   {
     "id": "lesson-07",
     "lesson": 7,
-    "title": "冠词",
+    "title": "冠词的用法",
     "file": "leçon 7/Leçon sept.pdf",
     "pages": [
       {
@@ -605,6 +1275,7 @@
           }
         ],
         "pitfall": "表达喜好常用定冠词，不能把“喜欢咖啡”写成 j’aime du café。",
+        "application": "对照记：Je prends un café（点一杯），Je bois du café（喝一些）。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/det4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -655,7 +1326,7 @@
   {
     "id": "lesson-08",
     "lesson": 8,
-    "title": "代动词",
+    "title": "代动词用法",
     "file": "leçon 8/代动词(1).pdf",
     "pages": [
       {
@@ -761,11 +1432,219 @@
             "zh": "不要起来！"
           }
         ],
-        "pitfall": "命令句不写主语 tu；肯定与否定的代词位置不同。",
+        "pitfall": "命令句省略主语。",
+        "examplePairLabel": "se lever · tu",
+        "table": {
+          "headers": [
+            "人称",
+            "肯定命令",
+            "否定命令"
+          ],
+          "rows": [
+            [
+              "tu",
+              "Dépêche-toi !",
+              "Ne te dépêche pas !"
+            ],
+            [
+              "vous",
+              "Dépêchez-vous !",
+              "Ne vous dépêchez pas !"
+            ]
+          ]
+        },
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": null
+      },
+      {
+        "id": "lesson-08-extra-4",
+        "title": "否定表达补全",
+        "rule": "ne…jamais 表示从不，ne…plus 表示不再，ne…pas encore 表示尚未。复合时态中通常包围变位助动词。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "ne…jamais",
+              "Je ne conduis jamais."
+            ],
+            [
+              "ne…plus",
+              "Il ne travaille plus ici."
+            ],
+            [
+              "ne…pas encore",
+              "Elle n’a pas encore répondu."
+            ],
+            [
+              "ne…aucun(e) + 单数名词",
+              "Je n’ai aucune question."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Nous n’avons jamais visité ce musée.",
+            "zh": "我们从未参观过这家博物馆。"
+          },
+          {
+            "fr": "Elle n’habite plus dans ce quartier.",
+            "zh": "她不再住在这个街区。"
+          }
+        ],
+        "pitfall": "plus 的“不再”义需要结合句子结构辨别，不能一律理解为“更多”。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Négation (否定表达)"
+      },
+      {
+        "id": "lesson-08-extra-5",
+        "title": "限定表达用法",
+        "rule": "ne…que 表示“只、仅仅”，que 放在被限制的成分前。它表达范围限制，意义接近 seulement。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "ne…que + 被限制成分",
+              "Je ne travaille que le samedi."
+            ],
+            [
+              "ne…que + 数量",
+              "Nous n’avons que deux billets."
+            ],
+            [
+              "ne…pas que",
+              "不只：Il n’y a pas que ce problème."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Je ne bois que de l’eau.",
+            "zh": "我只喝水。"
+          },
+          {
+            "fr": "Elle n’a que dix minutes.",
+            "zh": "她只有十分钟。"
+          }
+        ],
+        "pitfall": "不要把 ne…que 按 ne…pas 理解成否定动作。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Négation (否定表达)"
+      },
+      {
+        "id": "lesson-08-extra-6",
+        "title": "命令式构成",
+        "rule": "命令式只有 tu、nous、vous 三个人称，省略主语。常以现在时形式为基础，用于指令、建议或邀请。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "tu",
+              "Parle ! / Finis ! / Prends !"
+            ],
+            [
+              "nous",
+              "Parlons ! / Finissons ! / Prenons !"
+            ],
+            [
+              "vous",
+              "Parlez ! / Finissez ! / Prenez !"
+            ],
+            [
+              "être / avoir",
+              "sois, soyons, soyez / aie, ayons, ayez"
+            ],
+            [
+              "否定",
+              "Ne parle pas ! / Ne te lève pas !"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Prenez votre temps.",
+            "zh": "请慢慢来。"
+          },
+          {
+            "fr": "Allons au marché ensemble !",
+            "zh": "我们一起去市场吧！"
+          }
+        ],
+        "pitfall": "多数 -er 动词和 aller 的 tu 命令式去 s，如 parle、va。紧接 y、en 时有 vas-y、parles-en 等形式。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tai1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "Se + Verbe (代动词)"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-08-extra-practice-8",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Elle n’a ___ répondu : nous attendons encore.",
+        "options": [
+          "pas encore",
+          "plus",
+          "que"
+        ],
+        "answers": [
+          "pas encore"
+        ],
+        "explanation": "仍在等待答复，表示“尚未”用 ne…pas encore。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-extra-practice-9",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Je ne bois ___ de l’eau.",
+        "options": [
+          "pas",
+          "que",
+          "personne"
+        ],
+        "answers": [
+          "que"
+        ],
+        "explanation": "ne…que 表示只喝水。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-extra-practice-10",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "命令式：___ votre temps !",
+        "options": [
+          "Prenez",
+          "Vous prenez",
+          "Prendre"
+        ],
+        "answers": [
+          "Prenez"
+        ],
+        "explanation": "vous 对应命令式 prenez，省略主语。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
@@ -827,6 +1706,7 @@
           }
         ],
         "pitfall": "不能只写 j’ai parler；不规则过去分词要单独记忆。",
+        "application": "换主语时先换助动词：j’ai parlé → nous avons parlé。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -916,6 +1796,7 @@
           }
         ],
         "pitfall": "été 是 être 的过去分词，但 j’ai été 的助动词仍是 avoir。",
+        "application": "记词形时带上助动词：j’ai pris、j’ai vu、j’ai lu。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap2.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1017,6 +1898,7 @@
           }
         ],
         "pitfall": "不是 elle a se levé；原形 se lever 到句中要选择正确反身代词。",
+        "application": "用肯定句做底稿：Elle s’est levée → Elle ne s’est pas levée。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tap4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1067,7 +1949,7 @@
   {
     "id": "lesson-13",
     "lesson": 13,
-    "title": "形容词",
+    "title": "形容词用法",
     "file": "leçon 13/Adj 形容词(2).pdf",
     "pages": [
       {
@@ -1138,6 +2020,7 @@
           }
         ],
         "pitfall": "长短、性别和复数要分别判断，不是所有阴性都能机械加 e。",
+        "application": "同一个词对照记：un garçon calme、une fille calme、des filles calmes。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/adj3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1183,12 +2066,237 @@
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "美丑类"
       }
+    ],
+    "relocatedSections": [
+      {
+        "title": "课件内容",
+        "start": "[j]",
+        "target": "grammar-sounds-glides"
+      }
+    ],
+    "relatedMaterials": [
+      "grammar-sounds-glides"
+    ]
+  },
+  {
+    "id": "grammar-sounds-glides",
+    "lesson": 30,
+    "title": "半元音发音",
+    "file": "新增课件/半元音发音",
+    "contentOrigin": "authored",
+    "sourceSections": [
+      {
+        "materialId": "lesson-13",
+        "title": "课件内容",
+        "start": "[j]"
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-sounds-glides-s1",
+        "title": "元音前的音变",
+        "rule": "本课目标音 [j] 是半元音，接近英语 yes 的开头。i 或 y 在部分元音前环境中可形成 [j]。",
+        "examples": [
+          {
+            "fr": "Mon pied me fait mal.",
+            "zh": "我的脚疼。"
+          },
+          {
+            "fr": "Nous préparons un voyage.",
+            "zh": "我们在准备一次旅行。"
+          }
+        ],
+        "pitfall": "这是本组例词的读法，并非所有相邻元音前的 i 都自动省成 [j]。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "pied",
+              "[pje]"
+            ],
+            [
+              "voyage",
+              "[vwajaʒ]"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "grammar-sounds-glides-s2",
+        "title": "词尾拼写对照",
+        "rule": "-ail、-aille 等组合可包含 [j]。应把前面的元音与 [j] 连起来，听辨整个韵尾。",
+        "examples": [
+          {
+            "fr": "Ce détail est important.",
+            "zh": "这个细节很重要。"
+          },
+          {
+            "fr": "La bouteille est sur la table.",
+            "zh": "瓶子在桌上。"
+          }
+        ],
+        "pitfall": "不要只读末尾 [j] 而漏掉前面的元音，如 travail 的 [aj]。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "travail",
+              "[tʁavaj]"
+            ],
+            [
+              "détail",
+              "[detaj]"
+            ],
+            [
+              "bouteille",
+              "[butɛj]"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "grammar-sounds-glides-s3",
+        "title": "常见例外",
+        "rule": "部分 ill 组合读 [j]，但 ville、mille、tranquille 等词保留 [l]，需要按单词辨认。",
+        "examples": [
+          {
+            "fr": "Ma fille habite en ville.",
+            "zh": "我的女儿住在城里。"
+          },
+          {
+            "fr": "La famille est tranquille.",
+            "zh": "一家人很安静。"
+          }
+        ],
+        "pitfall": "把 fille 和 ville 放在一起对照，不要看到 ill 就一律读 [j]。",
+        "application": "",
+        "anchor": null,
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增配套练习说明",
+        "table": {
+          "headers": [
+            "拼写 / 词语",
+            "读音 / 示例"
+          ],
+          "rows": [
+            [
+              "[j]",
+              "fille [fij] / famille [famij]"
+            ],
+            [
+              "[l]",
+              "ville [vil] / mille [mil]"
+            ]
+          ]
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-sounds-glides-q1",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "Dans « famille », le groupe « ill » contient le son ___.",
+        "options": [
+          "[j]",
+          "[l]",
+          "[u]"
+        ],
+        "answers": [
+          "[j]"
+        ],
+        "explanation": "famille 含半元音 [j]。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-sounds-glides-q2",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "Quel mot contient [j] dans sa prononciation ?",
+        "options": [
+          "ville",
+          "fille",
+          "fil"
+        ],
+        "answers": [
+          "fille"
+        ],
+        "explanation": "fille 中 ill 读 [j]，ville 是 -ill 读音的常见例外。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-sounds-glides-q3",
+        "type": "choice",
+        "level": "A1–A2",
+        "prompt": "La terminaison « -ail » de « travail » contient ___.",
+        "options": [
+          "[j]",
+          "[z]",
+          "[ʃ]"
+        ],
+        "answers": [
+          "[j]"
+        ],
+        "explanation": "travail 以 [aj] 结尾，含半元音 [j]。",
+        "pitfall": "对照本课的拼写和发音说明。",
+        "accentSensitive": true
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 309,
+        "textSha256": "cf1891e31488359f963c8bbc926dea3b00cdf8ebf945825ec08d5d60ad22d117",
+        "sections": [
+          {
+            "title": "发音",
+            "text": "[j]\ni 或 y 在元音前\no 示例：bien（好），pied（脚），voyage（旅行）\no 发音类似于英语单词 yes 中的 y 音\n-il 在元音后、位于词尾时，发音为 [j]\ntravail（工作），détail（细节）\n-ill 在辅音后时，也读作 [j]\nfille（女孩），famille（家庭），bouteille（瓶子）"
+          },
+          {
+            "title": "短文",
+            "text": "短文\nMa famille prépare un voyage. Ma fille regarde les détails du trajet sur une feuille. Nous achèterons des billets demain. Après le travail, nous parlerons des activités à faire ensemble.",
+            "glossary": [
+              {
+                "fr": "ma famille",
+                "zh": "我的家庭"
+              },
+              {
+                "fr": "un voyage",
+                "zh": "一次旅行"
+              },
+              {
+                "fr": "une feuille",
+                "zh": "一张纸、树叶"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "id": "lesson-14",
     "lesson": 14,
-    "title": "比较级",
+    "title": "比较与最高级",
     "file": "leçon 14/比较级&最高级(3).pdf",
     "pages": [
       {
@@ -1235,6 +2343,7 @@
           }
         ],
         "pitfall": "aussi livres 不正确；名词数量要用 autant de。",
+        "application": "看被比较的成分：aussi grand（比高矮），autant de livres（比数量）。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1348,6 +2457,7 @@
           }
         ],
         "pitfall": "elles 的词尾是 -aient；不是 -aitent。",
+        "application": "用一个词练完整过程：nous finissons → finiss- → je finissais。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1457,6 +2567,7 @@
           }
         ],
         "pitfall": "demi 在名词后只作性别变化：une heure et demie；名词前用连字符且不变：une demi-heure。",
+        "application": "例：0,5 读 zéro virgule cinq，1/2 读 un demi。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1501,6 +2612,70 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "法语中的序数词"
+      },
+      {
+        "id": "lesson-16-extra-4",
+        "title": "不定词与范围",
+        "rule": "限定词放在名词前，代词可以独立使用。选择时需同时考虑单复数以及表示整体还是个体。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "chaque + 单数名词",
+              "chaque participant"
+            ],
+            [
+              "chacun / chacune",
+              "独立指每个人，动词用单数"
+            ],
+            [
+              "quelques / plusieurs + 复数名词",
+              "quelques questions / plusieurs solutions"
+            ],
+            [
+              "tout / toute / tous / toutes",
+              "tout le groupe / toutes les réponses"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Chaque candidat reçoit une feuille.",
+            "zh": "每位考生都会收到一张纸。"
+          },
+          {
+            "fr": "Toutes les réponses sont importantes, et chacun peut participer.",
+            "zh": "所有回答都重要，每个人都可以参与。"
+          }
+        ],
+        "pitfall": "chaque 不能单独代替名词，独立表达“每个人”用 chacun。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-16-extra-practice-11",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "___ participant reçoit une feuille.",
+        "options": [
+          "Chaque",
+          "Chacun",
+          "Plusieurs"
+        ],
+        "answers": [
+          "Chaque"
+        ],
+        "explanation": "chaque 后接单数名词，chacun 独立使用。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
@@ -1546,6 +2721,7 @@
           }
         ],
         "pitfall": "过去参照点可以来自上下文，不要求每句都出现另一个过去时。",
+        "application": "先画两个时间点：Quand je suis arrivé, le train était déjà parti. 先发车，后到达。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1643,6 +2819,7 @@
           }
         ],
         "pitfall": "不能因中文都有“他／她”就把 le、la 和 lui 混用。",
+        "application": "先恢复完整宾语再换代词：Je vois Léa → Je la vois；Je parle à Léa → Je lui parle。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro9.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1687,13 +2864,139 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": null
+      },
+      {
+        "id": "lesson-18-extra-4",
+        "title": "指示代词用法",
+        "rule": "celui、celle、ceux、celles 代替前面提到的名词，性数与所代名词一致，通常后接补充限定成分。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "celui / celle",
+              "阳性单数／阴性单数"
+            ],
+            [
+              "ceux / celles",
+              "阳性复数／阴性复数"
+            ],
+            [
+              "+ de / 关系从句",
+              "celui de Paul / celle qui est ouverte"
+            ],
+            [
+              "-ci / -là",
+              "celui-ci / celle-là"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Mon sac est plus léger que celui de Paul.",
+            "zh": "我的包比保罗的轻。"
+          },
+          {
+            "fr": "Je préfère celles qui sont près de la fenêtre.",
+            "zh": "我更喜欢靠窗的那些。"
+          }
+        ],
+        "pitfall": "ce livre 中的 ce 修饰名词，celui 则代替名词，二者不能互换。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "lesson-18-extra-5",
+        "title": "物主代词用法",
+        "rule": "le mien、la mienne 等代替“物主限定词 + 名词”，同时体现所属关系和被代替名词的性数。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "我的",
+              "le mien / la mienne / les miens / les miennes"
+            ],
+            [
+              "你的",
+              "le tien / la tienne / les tiens / les tiennes"
+            ],
+            [
+              "他／她的",
+              "le sien / la sienne / les siens / les siennes"
+            ],
+            [
+              "我们的／你们的／他们的",
+              "le nôtre / le vôtre / le leur；按性数更换冠词与词形"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "J’ai oublié mon stylo. Tu peux me prêter le tien ?",
+            "zh": "我忘带笔了，你能借我你的笔吗？"
+          },
+          {
+            "fr": "Ces clés sont les miennes.",
+            "zh": "这些钥匙是我的。"
+          }
+        ],
+        "pitfall": "notre、votre 修饰名词时不加长音符，nôtre、vôtre 作物主代词时加长音符。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-18-extra-practice-12",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Mon sac est plus léger que ___ de Paul.",
+        "options": [
+          "ce",
+          "celui",
+          "cet"
+        ],
+        "answers": [
+          "celui"
+        ],
+        "explanation": "celui 代替阳性单数 sac，后接 de 限定。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-18-extra-practice-13",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Ces clés sont ___.",
+        "options": [
+          "mes",
+          "ma",
+          "les miennes"
+        ],
+        "answers": [
+          "les miennes"
+        ],
+        "explanation": "替代“我的钥匙”用阴性复数物主代词 les miennes。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
   {
     "id": "lesson-19",
     "lesson": 19,
-    "title": "y、en 与分词",
+    "title": "代词与分词",
     "file": "leçon 19/代词 & 现在分词(2).pdf",
     "pages": [
       {
@@ -1748,6 +3051,7 @@
           }
         ],
         "pitfall": "不能把 à + 人在所有动词后都改成 y；要记动词结构。",
+        "application": "对照动词后面的搭配：Je pense à ce projet → J’y pense；Je pense à Léa → Je pense à elle。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/pr/pro6.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1792,6 +3096,218 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "现在分词"
+      }
+    ]
+  },
+  {
+    "id": "grammar-extra-27",
+    "lesson": 27,
+    "title": "被动语态",
+    "file": "新增课件/被动语态",
+    "contentOrigin": "authored",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 295,
+        "textSha256": "a8dceda2047c37c261bc29c66563829fce54cec37946a0f3d327a4fbdb6b0403",
+        "sections": [
+          {
+            "title": "短文",
+            "text": "短文\nUne nouvelle salle a été ouverte dans notre quartier. Les travaux ont été financés par la ville. Chaque semaine, des ateliers y sont proposés aux habitants. Les inscriptions sont prises en ligne et les places sont attribuées dans l’ordre des demandes. Le programme du mois prochain sera publié vendredi. On annoncera aussi les horaires à l’accueil.",
+            "glossary": [
+              {
+                "fr": "financer",
+                "zh": "资助"
+              },
+              {
+                "fr": "attribuer",
+                "zh": "分配"
+              },
+              {
+                "fr": "dans l’ordre",
+                "zh": "按顺序"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-extra-27-extra-1",
+        "title": "主动与被动",
+        "rule": "被动句把动作承受者作为主语，使用 être + 过去分词，过去分词与被动句主语配合。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "主动",
+              "La mairie organise la rencontre."
+            ],
+            [
+              "被动",
+              "La rencontre est organisée par la mairie."
+            ],
+            [
+              "性数配合",
+              "Le message est envoyé. / Les lettres sont envoyées."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Les inscriptions sont vérifiées par l’équipe.",
+            "zh": "报名信息由团队审核。"
+          },
+          {
+            "fr": "Cette salle est utilisée chaque matin.",
+            "zh": "这个房间每天早上都在使用。"
+          }
+        ],
+        "pitfall": "被动式中的过去分词配合看被动句主语。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tav1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-27-extra-2",
+        "title": "时态与施事",
+        "rule": "被动句通过 être 的变位表达时态。施事者常用 par 引出，不需要说明时可以省略。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "现在",
+              "Le dossier est vérifié."
+            ],
+            [
+              "过去",
+              "Le dossier a été vérifié."
+            ],
+            [
+              "将来",
+              "Le dossier sera vérifié."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Les travaux ont été terminés hier.",
+            "zh": "工程昨天完成了。"
+          },
+          {
+            "fr": "La réponse sera envoyée demain.",
+            "zh": "答复明天将被发送。"
+          }
+        ],
+        "pitfall": "a été envoyé 中 été 是 être 的过去分词，envoyé 才表达具体动作。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-27-extra-3",
+        "title": "自然表达选择",
+        "rule": "日常法语常用 on + 主动句表达不明确的施事者，被动句则常见于公告、新闻和正式说明。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "on + 主动",
+              "On vérifie les billets à l’entrée."
+            ],
+            [
+              "被动",
+              "Les billets sont vérifiés à l’entrée."
+            ],
+            [
+              "选择依据",
+              "强调谁做，还是强调被处理的对象"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "On réparera la porte demain.",
+            "zh": "明天会有人修门。"
+          },
+          {
+            "fr": "La porte sera réparée demain.",
+            "zh": "门明天会修好。"
+          }
+        ],
+        "pitfall": "并非每个句子都适合转被动，应选择意义自然且有直接宾语的结构。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-extra-27-q1",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Les lettres sont ___.",
+        "options": [
+          "envoyé",
+          "envoyées",
+          "envoyer"
+        ],
+        "answers": [
+          "envoyées"
+        ],
+        "explanation": "lettres 为阴性复数，过去分词随被动主语配合。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-27-q2",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Hier, le dossier ___.",
+        "options": [
+          "a été vérifié",
+          "a vérifié",
+          "est vérifier"
+        ],
+        "answers": [
+          "a été vérifié"
+        ],
+        "explanation": "被动式的复合过去时为 a été + 过去分词。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-27-q3",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "On annoncera les horaires. → Les horaires ___ annoncés.",
+        "options": [
+          "seront",
+          "auront",
+          "seraient"
+        ],
+        "answers": [
+          "seront"
+        ],
+        "explanation": "主动将来时转被动，être 也用将来时。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
       }
     ]
   },
@@ -1857,6 +3373,7 @@
           }
         ],
         "pitfall": "看从句中缺的是主语还是宾语，而不是只按先行词是人还是物判断。",
+        "application": "用同一个名词对照：le livre qui est sur la table；le livre que je lis。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1905,9 +3422,221 @@
     ]
   },
   {
+    "id": "grammar-extra-28",
+    "lesson": 28,
+    "title": "逻辑连接词",
+    "file": "新增课件/逻辑连接词",
+    "contentOrigin": "authored",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 370,
+        "textSha256": "2a3a9566529c3f5c670e7d014647ee10c0f2da37f8b68b86c4f3a02bc57c8e41",
+        "sections": [
+          {
+            "title": "短文",
+            "text": "短文\nNotre association souhaite ouvrir un atelier de cuisine parce que plusieurs habitants veulent partager leurs recettes. Pourtant, la salle actuelle est trop petite. Nous avons donc demandé une autre salle. La mairie acceptera à condition que nous respections les horaires. Nous publierons un programme simple pour que chacun puisse choisir une activité. Même si le projet demande du temps, nous pensons qu’il créera de nouveaux liens.",
+            "glossary": [
+              {
+                "fr": "une recette",
+                "zh": "食谱"
+              },
+              {
+                "fr": "respecter les horaires",
+                "zh": "遵守时间安排"
+              },
+              {
+                "fr": "créer des liens",
+                "zh": "建立联系"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-extra-28-extra-1",
+        "title": "原因与结果",
+        "rule": "原因说明为什么，结果说明因此发生什么。先确定逻辑关系，再选择连接词。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "原因 + 句子",
+              "parce que / puisque + 主谓结构"
+            ],
+            [
+              "原因 + 名词",
+              "à cause de / grâce à + 名词"
+            ],
+            [
+              "结果",
+              "donc / c’est pourquoi / par conséquent"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Le cours est reporté parce que la salle est fermée.",
+            "zh": "因为教室关闭，课程延期了。"
+          },
+          {
+            "fr": "Grâce à cette aide, nous avons terminé à temps.",
+            "zh": "多亏这项帮助，我们及时完成了。"
+          }
+        ],
+        "pitfall": "parce que 后接句子，à cause de 后接名词或代词，不能直接互换。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-28-extra-2",
+        "title": "转折与让步",
+        "rule": "mais、pourtant 表示转折，même si、bien que 表示让步，但它们后面的语式不同。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "mais / pourtant",
+              "连接相反或出乎预期的信息"
+            ],
+            [
+              "même si + 直陈式",
+              "Même s’il pleut, je viendrai."
+            ],
+            [
+              "bien que + 虚拟式",
+              "Bien qu’il pleuve, nous sortons."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Le trajet est long, mais il est agréable.",
+            "zh": "路途虽长，但很愉快。"
+          },
+          {
+            "fr": "Bien qu’elle soit fatiguée, elle participe à la réunion.",
+            "zh": "尽管她很累，仍参加会议。"
+          }
+        ],
+        "pitfall": "不要把 bien que 与 même si 后的语式混用。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-28-extra-3",
+        "title": "目的与条件",
+        "rule": "同一主语表达目的常用 pour + 不定式，不同主语常用 pour que + 虚拟式。条件可用 si 或 à condition que。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "pour + 不定式",
+              "Je révise pour progresser."
+            ],
+            [
+              "pour que + 虚拟式",
+              "Je répète pour que vous compreniez."
+            ],
+            [
+              "à condition que + 虚拟式",
+              "à condition que chacun participe"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Je parle lentement pour que tout le monde comprenne.",
+            "zh": "我慢慢说，以便每个人都听懂。"
+          },
+          {
+            "fr": "Nous accepterons à condition que le prix soit fixé.",
+            "zh": "只要价格确定，我们就会接受。"
+          }
+        ],
+        "pitfall": "按主语和逻辑选择结构，连接词数量多并不等于表达清楚。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-extra-28-q1",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Je révise ___ réussir.",
+        "options": [
+          "pour",
+          "pour que",
+          "parce que"
+        ],
+        "answers": [
+          "pour"
+        ],
+        "explanation": "同一主语表达目的，用 pour + 不定式。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-28-q2",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Bien qu’elle ___ fatiguée, elle vient.",
+        "options": [
+          "est",
+          "soit",
+          "sera"
+        ],
+        "answers": [
+          "soit"
+        ],
+        "explanation": "bien que 后通常用虚拟式。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-28-q3",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "La salle est fermée, ___ le cours est reporté.",
+        "options": [
+          "pour que",
+          "parce que",
+          "donc"
+        ],
+        "answers": [
+          "donc"
+        ],
+        "explanation": "教室关闭导致课程延期，此处表达结果。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      }
+    ]
+  },
+  {
     "id": "lesson-21",
     "lesson": 21,
-    "title": "ce qui / ce que",
+    "title": "复合关系代词",
     "file": "leçon 21/ce qui, ce que, ce dont.pdf",
     "pages": [
       {
@@ -1942,6 +3671,7 @@
           }
         ],
         "pitfall": "que 后已有主语 tu；qui 自己就是从句主语。",
+        "application": "把从句补完整再判断：tu parles de quelque chose → ce dont tu parles。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -1986,6 +3716,230 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "课件内容"
+      }
+    ]
+  },
+  {
+    "id": "grammar-extra-25",
+    "lesson": 25,
+    "title": "简单将来时",
+    "file": "新增课件/简单将来时",
+    "contentOrigin": "authored",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 302,
+        "textSha256": "047ef17b41f4c82bca511f1b00b1a681c97e9e7809e390cd1f3b00253e68dc3d",
+        "sections": [
+          {
+            "title": "短文",
+            "text": "短文\nSamedi, notre association organisera une visite du quartier. Nous nous retrouverons devant la gare à neuf heures. Léa apportera les plans et Karim présentera les bâtiments historiques. S’il pleut, nous prendrons le bus. Après la visite, chacun pourra poser des questions. Quand nous reviendrons, nous préparerons ensemble le programme du mois suivant.",
+            "glossary": [
+              {
+                "fr": "se retrouver",
+                "zh": "会合"
+              },
+              {
+                "fr": "un bâtiment",
+                "zh": "建筑物"
+              },
+              {
+                "fr": "le mois suivant",
+                "zh": "下个月"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-extra-25-extra-1",
+        "title": "规则与词尾",
+        "rule": "简单将来时表示未来事件、计划或预测。规则词干后加 -ai、-as、-a、-ons、-ez、-ont。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "-er / -ir",
+              "不定式作词干：parler- / finir-"
+            ],
+            [
+              "-re",
+              "去掉词尾 e：prendre → prendr-"
+            ],
+            [
+              "je / tu / il",
+              "parlerai / parleras / parlera"
+            ],
+            [
+              "nous / vous / ils",
+              "parlerons / parlerez / parleront"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Demain, nous préparerons la réunion.",
+            "zh": "明天我们将准备会议。"
+          },
+          {
+            "fr": "Elle finira son dossier vendredi.",
+            "zh": "她将于周五完成材料。"
+          }
+        ],
+        "pitfall": "注意将来时词尾与条件式词尾不同，如 je parlerai 与 je parlerais。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/taf2.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-25-extra-2",
+        "title": "常用特殊词干",
+        "rule": "常用不规则动词使用特殊将来时词干，但仍加同一组将来时词尾。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "être / avoir",
+              "ser- / aur-"
+            ],
+            [
+              "aller / faire",
+              "ir- / fer-"
+            ],
+            [
+              "venir / voir",
+              "viendr- / verr-"
+            ],
+            [
+              "pouvoir / vouloir / devoir",
+              "pourr- / voudr- / devr-"
+            ],
+            [
+              "savoir / falloir",
+              "saur- / il faudra"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Nous serons disponibles demain.",
+            "zh": "我们明天有空。"
+          },
+          {
+            "fr": "Vous pourrez poser vos questions après la présentation.",
+            "zh": "您可以在演示后提问。"
+          }
+        ],
+        "pitfall": "特殊词干要与不定式一起记，不要从现在时直接拼出将来时。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-25-extra-3",
+        "title": "将来表达对照",
+        "rule": "最近将来时强调从现在出发的打算或即将发生的事，简单将来时也可表达未来计划、承诺与预测。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "aller + 不定式",
+              "Je vais appeler maintenant."
+            ],
+            [
+              "简单将来时",
+              "Je vous appellerai demain."
+            ],
+            [
+              "quand + 将来时",
+              "Quand il arrivera, nous commencerons."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Je vais réserver les billets ce soir.",
+            "zh": "我打算今晚订票。"
+          },
+          {
+            "fr": "Quand vous arriverez, je vous montrerai le quartier.",
+            "zh": "您到达后，我会带您看看这个街区。"
+          }
+        ],
+        "pitfall": "表达未来时间的 quand 从句可以用将来时，条件 si 的规则不同。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-extra-25-q1",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Demain, nous ___ disponibles.",
+        "options": [
+          "sommes",
+          "serons",
+          "serions"
+        ],
+        "answers": [
+          "serons"
+        ],
+        "explanation": "demain 引出未来，être 的将来时词干为 ser-。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-25-q2",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Quand elle ___, nous commencerons.",
+        "options": [
+          "arrivera",
+          "arriverait",
+          "arrivée"
+        ],
+        "answers": [
+          "arrivera"
+        ],
+        "explanation": "未来时间的 quand 从句可用简单将来时。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-25-q3",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Si demain il pleut, nous ___ le bus.",
+        "options": [
+          "prendrons",
+          "prenions",
+          "prendre"
+        ],
+        "answers": [
+          "prendrons"
+        ],
+        "explanation": "si + 现在时可接简单将来时。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
       }
     ]
   },
@@ -2039,6 +3993,7 @@
           }
         ],
         "pitfall": "je serais 是条件式；je serai 是简单将来时。",
+        "application": "同一个动词对照：je ferai（我将做），je ferais（在某个条件下我会做）。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -2119,9 +4074,221 @@
     ]
   },
   {
+    "id": "grammar-extra-26",
+    "lesson": 26,
+    "title": "间接引语",
+    "file": "新增课件/间接引语",
+    "contentOrigin": "authored",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 304,
+        "textSha256": "f40b85746b4b280a54000f1a5f2f41cd8f8e40b4f4c8305a69e7095d73114c64",
+        "sections": [
+          {
+            "title": "短文",
+            "text": "短文\nLundi, Nora a appelé le centre de formation. Elle a expliqué qu’elle souhaitait suivre un cours du soir. L’employé lui a demandé si elle avait déjà étudié le français. Nora a répondu qu’elle avait suivi des cours l’année précédente. L’employé a précisé qu’un entretien serait organisé le lendemain. Il lui a aussi demandé à quelle heure elle serait disponible.",
+            "glossary": [
+              {
+                "fr": "préciser",
+                "zh": "明确说明"
+              },
+              {
+                "fr": "l’année précédente",
+                "zh": "前一年"
+              },
+              {
+                "fr": "être disponible",
+                "zh": "有空"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "id": "grammar-extra-26-extra-1",
+        "title": "陈述与疑问转述",
+        "rule": "转述他人的话时，陈述句常用 que，一般疑问用 si，特殊疑问保留对应疑问词并恢复陈述语序。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "陈述",
+              "Elle dit qu’elle est prête."
+            ],
+            [
+              "是否",
+              "Il demande si nous venons."
+            ],
+            [
+              "地点／时间",
+              "Il demande où elle habite / quand elle arrive."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Elle dit qu’elle travaille ici.",
+            "zh": "她说她在这里工作。"
+          },
+          {
+            "fr": "Il demande si la bibliothèque est ouverte.",
+            "zh": "他问图书馆是否开门。"
+          }
+        ],
+        "pitfall": "间接疑问一般不用 est-ce que，也不用直接疑问的主谓倒装。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tad1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-26-extra-2",
+        "title": "过去视角转述",
+        "rule": "转述动词在过去时，常把原话中的现在、过去和将来调整为过去视角，同时注意实际时间关系。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "现在 → 未完成过去时",
+              "Il a dit qu’il était occupé."
+            ],
+            [
+              "复合过去时 → 愈过去时",
+              "Elle a dit qu’elle avait fini."
+            ],
+            [
+              "将来 → 现在条件式",
+              "Il a dit qu’il viendrait."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Léa a expliqué qu’elle avait perdu sa carte.",
+            "zh": "莱娅解释说她丢了卡。"
+          },
+          {
+            "fr": "Elle a annoncé qu’elle reviendrait le lendemain.",
+            "zh": "她宣布第二天会回来。"
+          }
+        ],
+        "pitfall": "时态调整取决于时间视角，仍然有效的一般事实不一定机械地改时态。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      },
+      {
+        "id": "grammar-extra-26-extra-3",
+        "title": "人称与时间调整",
+        "rule": "转述时根据说话者、地点和时间重新确定人称、物主词及时间表达，保持实际指代不变。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "je / mon",
+              "按原说话者改为 il、elle、son 等"
+            ],
+            [
+              "aujourd’hui / demain",
+              "ce jour-là / le lendemain（视语境）"
+            ],
+            [
+              "hier / ici",
+              "la veille / là（视语境）"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Paul a dit qu’il apporterait son ordinateur.",
+            "zh": "保罗说他会带上自己的电脑。"
+          },
+          {
+            "fr": "Elle a demandé où nous avions rendez-vous.",
+            "zh": "她问我们约在哪里见面。"
+          }
+        ],
+        "pitfall": "不要只换时态而漏改人称，也不要在时间地点未变时强行替换所有表达。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": null
+      }
+    ],
+    "exercises": [
+      {
+        "id": "grammar-extra-26-q1",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Il demande ___ vous venez.",
+        "options": [
+          "si",
+          "que",
+          "est-ce que"
+        ],
+        "answers": [
+          "si"
+        ],
+        "explanation": "转述一般疑问“是否”使用 si。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-26-q2",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Elle a dit : « Je viendrai. » → Elle a dit qu’elle ___.",
+        "options": [
+          "viendra",
+          "viendrait",
+          "vient"
+        ],
+        "answers": [
+          "viendrait"
+        ],
+        "explanation": "从过去视角转述未来常用现在条件式。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      },
+      {
+        "id": "grammar-extra-26-q3",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Il demande où ___.",
+        "options": [
+          "habite-t-elle",
+          "est-ce qu’elle habite",
+          "elle habite"
+        ],
+        "answers": [
+          "elle habite"
+        ],
+        "explanation": "间接疑问恢复陈述语序。",
+        "pitfall": "结合句子语境与本课规则判断。",
+        "accentSensitive": true
+      }
+    ]
+  },
+  {
     "id": "lesson-23",
     "lesson": 23,
-    "title": "条件句",
+    "title": "条件句用法",
     "file": "leçon 23/条件句.pdf",
     "pages": [
       {
@@ -2168,6 +4335,7 @@
           }
         ],
         "pitfall": "不是 si tu viendras；间接疑问中表示“是否”的 si 是另一种用法。",
+        "application": "用同一个条件练两种结果：Si tu as le temps, appelle-moi / tu pourras m’appeler。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -2212,13 +4380,77 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "si + 愈过去时"
+      },
+      {
+        "id": "lesson-23-extra-4",
+        "title": "过去条件式",
+        "rule": "avoir 或 être 的现在条件式 + 过去分词构成过去条件式，用于过去未实现的结果、遗憾或事后建议。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "avoir",
+              "j’aurais terminé / nous aurions compris"
+            ],
+            [
+              "être",
+              "elle serait partie / ils seraient venus"
+            ],
+            [
+              "si + 愈过去时",
+              "Si j’avais su, je serais venu."
+            ],
+            [
+              "事后建议",
+              "Tu aurais dû vérifier."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Avec plus de temps, nous aurions relu le texte.",
+            "zh": "如果时间更多，我们本来会再读一遍文章。"
+          },
+          {
+            "fr": "Elle serait arrivée plus tôt si le train avait été à l’heure.",
+            "zh": "如果火车准点，她本来会更早到。"
+          }
+        ],
+        "pitfall": "être 作助动词时仍需留意过去分词配合，条件 si 从句通常不用条件式。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "si + 愈过去时"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-23-extra-practice-14",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Elle ___ arrivée plus tôt sans ce retard.",
+        "options": [
+          "aurait",
+          "serait",
+          "sera"
+        ],
+        "answers": [
+          "serait"
+        ],
+        "explanation": "arriver 的过去条件式用 être 的现在条件式 + 过去分词。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   },
   {
     "id": "lesson-24",
     "lesson": 24,
-    "title": "虚拟式",
+    "title": "虚拟式用法",
     "file": "leçon 24/虚拟语态.pdf",
     "pages": [
       {
@@ -2273,6 +4505,7 @@
           }
         ],
         "pitfall": "虚拟式不是“凡是 que 后都用”；je pense qu’il vient 是直陈式。",
+        "application": "先看主语是否相同：Je veux partir / Je veux que tu partes。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tas4.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
@@ -2356,6 +4589,70 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "1. 用途"
+      },
+      {
+        "id": "lesson-24-extra-4",
+        "title": "语式选择对照",
+        "rule": "直陈式常用于陈述和判断事实，虚拟式常用于愿望、必要、情绪或不确定的评价。应结合整个结构判断。",
+        "table": {
+          "headers": [
+            "形式 / 结构",
+            "用法 / 示例"
+          ],
+          "rows": [
+            [
+              "Je pense que…",
+              "肯定判断通常用直陈式"
+            ],
+            [
+              "Je veux que… / Il faut que…",
+              "通常用虚拟式"
+            ],
+            [
+              "bien que / pour que",
+              "后接虚拟式"
+            ],
+            [
+              "après que",
+              "规范用法后接直陈式"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Je pense qu’elle est prête.",
+            "zh": "我认为她准备好了。"
+          },
+          {
+            "fr": "Je souhaite qu’elle soit prête demain.",
+            "zh": "我希望她明天准备好。"
+          }
+        ],
+        "pitfall": "不要看到 que 就使用虚拟式。否定或疑问形式的 penser、croire 等还需结合语义判断。",
+        "application": "",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "anchor": "1. 用途"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-24-extra-practice-15",
+        "type": "choice",
+        "level": "A2–B1",
+        "prompt": "Je souhaite qu’elle ___ prête.",
+        "options": [
+          "est",
+          "sera",
+          "soit"
+        ],
+        "answers": [
+          "soit"
+        ],
+        "explanation": "souhaiter que 表达愿望，后接虚拟式。",
+        "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
       }
     ]
   }

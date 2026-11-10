@@ -20,7 +20,9 @@ for(const x of c){
   if(q.options) assert(q.answers.some(a=>q.options.includes(a)),`choice answer ${q.id}`);
  }
 }
-assert.equal(n,200); assert.equal(e.oral.length,90);assert.equal(e.writing.length,60);
+assert.equal(n,200); assert.equal(e.oral.filter(q=>q.source==='original').length,90);assert.equal(e.writing.filter(q=>q.source==='original').length,60);
+assert.equal(e.oral.filter(q=>q.source==='official').length,11);assert.equal(e.writing.filter(q=>q.source==='official').length,3);
+for(const q of [...e.oral,...e.writing].filter(q=>!['original','user-recalled'].includes(q.source)))assert(q.sourceUrl?.startsWith('https://')&&q.verifiedAt&&['zh-CN','fr'].includes(q.promptLanguage));
 for(const group of [e.oral,e.writing]) for(const q of group){assert(q.id&&q.prompt&&q.guide&&q.source);assert([1,2,3].includes(q.task));assert(!ids.has(q.id));ids.add(q.id);assert(!prompts.has(q.prompt));prompts.add(q.prompt);}
 for(const group of [e.oral,e.writing])for(const t of [1,2,3])assert(group.some(x=>x.task===t));
 for(const f of ['index.html','styles.css','manifest.webmanifest','icon.svg'])assert(fs.existsSync(f));
@@ -32,8 +34,9 @@ for(const course of c){assert(["课件原文","课件例句","课件对话"].inc
 console.log('Courseware attribution, reading types, prerequisite links and writing sample ranges validated.');
 
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
-assert.equal(materials.length,22);assert.equal(new Set(materials.map(x=>x.file)).size,22);
-assert.deepEqual(materials.map(x=>x.lesson),[2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24]);
+const originals=materials.filter(m=>m.contentOrigin!=='authored');
+assert.equal(originals.length,22);assert.equal(new Set(materials.map(x=>x.file)).size,materials.length);
+assert.deepEqual(originals.map(x=>x.lesson),[2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24]);
 for(const m of materials){assert(m.pages.length&&m.id&&m.file);for(const p of m.pages){const text=p.sections.map(x=>x.text).join('').replace(/\s+/g,'');assert.equal(text.length,p.characters);assert.equal(createHash('sha256').update(text).digest('hex'),p.textSha256,`${m.id}: text integrity`);}}
 console.log('All 22 original PDF text records and page integrity hashes validated.');
 
@@ -49,3 +52,28 @@ assert(!fs.readFileSync('app.js','utf8').includes('非课件原文'),'Reader-fac
 assert(!fs.readFileSync('app.js','utf8').includes('<summary>完整内容</summary>'),'Duplicate full-content panel removed');
 
 execFileSync(process.execPath,['scripts/check-lesson-flow.mjs'],{stdio:'inherit'});
+
+for (const kind of ['listening','reading']) {
+ assert(e[kind].length >= 3);
+ for (const passage of e[kind]) {
+  assert(passage.id && passage.text && ['本站原创训练','回忆主题拓展'].includes(passage.source));
+  assert(!ids.has(passage.id)); ids.add(passage.id);
+  assert(passage.questions.length >= 3);
+  for (const q of passage.questions) {
+   assert(q.prompt && q.explanation && q.options.length >= 3);
+   assert(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length);
+  }
+ }
+}
+console.log('Listening and reading passages, choices and answer keys validated.');
+
+for(const m of materials.filter(m=>m.contentOrigin==='authored')){
+ assert(m.supplements.length>=3 && m.pages.some(page=>page.sections.some(section=>section.glossary?.length>=3)));
+ assert(m.exercises.length>=3);
+ for(const e of m.exercises){assert(!ids.has(e.id));ids.add(e.id);assert(e.answers.length&&e.options.includes(e.answers[0])&&e.explanation);}
+}
+console.log('New grammar lessons contain topics, readings, vocabulary lists and answerable exercises.');
+
+for(const m of materials)for(const e of m.exercises||[]){
+ assert(e.options.includes(e.answers[0])&&e.explanation);
+}

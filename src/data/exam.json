@@ -257,6 +257,707 @@
   ],
   "oral": [
     {
+      "id": "user-recall-oral-introduction",
+      "task": 1,
+      "topic": "用户提供 · 回忆题",
+      "title": "旅行经历与未来规划",
+      "prompt": "Présentez-vous, puis répondez aux questions de l’examinateur concernant votre dernier voyage à l’étranger et vos projets d’avenir.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "用两三句回答问题，再用一件具体小事展开。",
+        "按现在情况—过去经历—未来打算组织，接受考官追问。",
+        "只介绍自己愿意分享的信息；本练习可使用虚构身份。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120,
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "documents": []
+    },
+    {
+      "id": "user-recall-oral-building",
+      "task": 2,
+      "topic": "用户提供 · 回忆题",
+      "title": "向邻居了解大楼",
+      "prompt": "Je suis votre voisin dans l’immeuble où vous venez d’emménager. Vous souhaitez mieux connaître votre nouveau lieu de vie. Posez-moi des questions sur les habitants, les espaces communs et les règles de l’immeuble.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "documents": []
+    },
+    {
+      "id": "user-recall-oral-stress",
+      "task": 3,
+      "topic": "用户提供 · 回忆题",
+      "title": "压力能激励人吗",
+      "prompt": "Le stress peut-il être un bon stimulant ? Donnez votre avis et développez vos arguments à l’aide d’exemples.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。",
+        "赞成或反对均可，选择自己能充分展开的一面。可讨论短期压力与长期压力的区别。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "documents": []
+    },
+    {
+      "id": "recall-202608-o2-childcare",
+      "task": 2,
+      "topic": "2026年8月 · 回忆话题改写",
+      "title": "周末照顾孩子",
+      "prompt": "Je suis le parent d’une enfant de trois ans. Vous allez vous occuper d’elle ce week-end. Pour organiser ces deux jours, demandez-moi les informations nécessaires sur ses horaires, son alimentation, ses activités et les précautions à prendre.",
+      "guide": [
+        "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
+        "确认双方角色与称呼，先说明自己的需求。",
+        "准备费用、时间、条件等问题；听到回答后追问，不连续朗读问题清单。",
+        "末尾复述关键条件并礼貌结束。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "source": "recalled",
+      "status": "来源已核对，题干为本站改写",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "sourceName": "Formation TCF Canada · 2026年8月重建题",
+      "sourceUrl": "https://formationtcfcanada.com/sujets-tcf-canada/aout-2026/eo-aout-2026-c1-t2",
+      "sourcePage": null,
+      "promptLanguage": "fr",
+      "verifiedAt": "2026-11-07",
+      "sourceMonth": "2026-08",
+      "adapted": true,
+      "documents": []
+    },
+    {
+      "id": "recall-202608-o3-school",
+      "task": 3,
+      "topic": "2026年8月 · 回忆话题改写",
+      "title": "学校的教育职责",
+      "prompt": "Selon vous, quelles missions une école devrait-elle assurer au-delà de l’enseignement des matières ? Développez votre réponse avec des raisons et des exemples.",
+      "guide": [
+        "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
+        "直接表明立场，说明适用范围。",
+        "给出两个不同理由，每个配具体例子。",
+        "承认一个合理反面观点，再说明限制，最后回应题目。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "source": "recalled",
+      "status": "来源已核对，题干为本站改写",
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "sourceName": "Formation TCF Canada · 2026年8月重建题",
+      "sourceUrl": "https://formationtcfcanada.com/sujets-tcf-canada/aout-2026/eo-aout-2026-c1-t3",
+      "sourcePage": null,
+      "promptLanguage": "fr",
+      "verifiedAt": "2026-11-07",
+      "sourceMonth": "2026-08",
+      "adapted": true,
+      "documents": []
+    },
+    {
+      "task": 1,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120,
+      "id": "fei-o1-introduction",
+      "title": "自我介绍",
+      "topic": "官方样题",
+      "prompt": "介绍个人情况，并回答考官围绕家庭、学习、工作、兴趣和生活等方面的追问。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 2,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "fei-o2-01",
+      "title": "了解公益协会",
+      "topic": "官方样题",
+      "prompt": "向协会负责人了解帮助困难人群的活动、成员和经费。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 3,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "fei-o2-02",
+      "title": "招募作业辅导志愿者",
+      "topic": "官方样题",
+      "prompt": "你为课业辅导协会招募志愿者，向应聘者了解经验、培训背景和动机。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 3,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "fei-o2-03",
+      "title": "寻找照顾猫的人",
+      "topic": "官方样题",
+      "prompt": "你度假期间需要有人照顾猫，向应聘者了解动机、喜好和性格，以判断是否合适。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 3,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "fei-o2-04",
+      "title": "咨询文化活动",
+      "topic": "官方样题",
+      "prompt": "你想参加文化活动，向对方咨询活动类型、特色、地点和费用。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 3,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "fei-o2-05",
+      "title": "咨询公共交通",
+      "topic": "官方样题",
+      "prompt": "向对方了解法国公共交通的班次、时间和票价。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 3,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "fei-o3-01",
+      "title": "宜居的国家",
+      "topic": "官方样题",
+      "prompt": "谈谈你心目中宜居国家的特点。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "fei-o3-02",
+      "title": "保留本国价值观",
+      "topic": "官方样题",
+      "prompt": "你认为原籍国有哪些重要价值观值得保留？",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "fei-o3-03",
+      "title": "选择人道援助活动",
+      "topic": "官方样题",
+      "prompt": "如果参与人道援助，你会选择什么活动？解释原因。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "fei-o3-04",
+      "title": "旅行与个人成长",
+      "topic": "官方样题",
+      "prompt": "你是否赞同旅行能让人变得更好？说明理由。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "fei-o3-05",
+      "title": "没有石油的生活",
+      "topic": "官方样题",
+      "prompt": "谈谈人类能否在没有石油的情况下生活。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 1,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 120,
+      "id": "recall-o1-moncton",
+      "title": "移民与专业选择",
+      "topic": "考生回忆",
+      "prompt": "Expliquez ce qui vous a conduit à envisager une installation au Canada et comment vous avez choisi votre domaine d’études. Préparez-vous à répondre aux questions complémentaires.",
+      "source": "recalled",
+      "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
+      "sourceName": "Reddit · u/Happy-Ad3317",
+      "sourcePage": null,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "fr",
+      "guide": [
+        "本页法语题干根据考生帖子中的话题改写，完整措辞未经官方确认。",
+        "先明确立场或沟通目的，再用法语回应任务。"
+      ],
+      "expressions": [
+        "En ce moment, je…",
+        "J’ai commencé à… parce que…",
+        "À l’avenir, j’aimerais…"
+      ],
+      "mistakes": [
+        "回答只有单词，没有完整句。",
+        "过去经历与现在情况时态混淆。"
+      ],
+      "checklist": [
+        "是否回应问题？",
+        "是否给出具体细节？",
+        "是否能听懂并回答追问？"
+      ],
+      "status": "来源已核对，导读为本站整理",
+      "adapted": true
+    },
+    {
+      "task": 2,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 120,
+      "answerSeconds": 210,
+      "id": "recall-o2-moncton",
+      "title": "咨询山地度假",
+      "topic": "考生回忆",
+      "prompt": "Un ami revient d’un séjour à la montagne. Vous souhaitez préparer un voyage comparable. Interrogez-le sur les possibilités de loisirs, le budget et l’organisation.",
+      "source": "recalled",
+      "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
+      "sourceName": "Reddit · u/Happy-Ad3317",
+      "sourcePage": null,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "fr",
+      "guide": [
+        "本页法语题干根据考生帖子中的话题改写，完整措辞未经官方确认。",
+        "先明确立场或沟通目的，再用法语回应任务。"
+      ],
+      "expressions": [
+        "Pourriez-vous me préciser… ?",
+        "Est-ce que le prix comprend… ?",
+        "Si j’ai bien compris,…"
+      ],
+      "mistakes": [
+        "自己介绍太久，没有主动提问。",
+        "忽略对方回答，无法追问。",
+        "tu与vous混用。"
+      ],
+      "checklist": [
+        "是否由我主动开场？",
+        "是否问清必要信息并追问？",
+        "称呼及礼貌表达是否适合角色？"
+      ],
+      "status": "来源已核对，导读为本站整理",
+      "adapted": true
+    },
+    {
+      "task": 3,
+      "level": "A2–B2（教学建议）",
+      "preparationSeconds": 0,
+      "answerSeconds": 270,
+      "id": "recall-o3-moncton",
+      "title": "学校与机会平等",
+      "topic": "考生回忆",
+      "prompt": "À votre avis, tous les élèves bénéficient-ils des mêmes chances dans le système scolaire ? Présentez votre position et appuyez-la sur des situations concrètes.",
+      "source": "recalled",
+      "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
+      "sourceName": "Reddit · u/Happy-Ad3317",
+      "sourcePage": null,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "fr",
+      "guide": [
+        "本页法语题干根据考生帖子中的话题改写，完整措辞未经官方确认。",
+        "先明确立场或沟通目的，再用法语回应任务。"
+      ],
+      "expressions": [
+        "À mon avis,…",
+        "Prenons un exemple concret :…",
+        "Certes,… cependant,…"
+      ],
+      "mistakes": [
+        "只有立场，没有理由或例子。",
+        "把所有情况绝对化。",
+        "背诵与题目无关的段落。"
+      ],
+      "checklist": [
+        "是否有清晰立场？",
+        "理由、例子和让步是否连贯？",
+        "结论是否回应原问题？"
+      ],
+      "status": "来源已核对，导读为本站整理",
+      "adapted": true
+    },
+    {
       "id": "o1-01",
       "task": 1,
       "topic": "个人经历",
@@ -3109,6 +3810,360 @@
   ],
   "writing": [
     {
+      "id": "user-recall-writing-voyage",
+      "task": 1,
+      "topic": "用户提供 · 回忆题",
+      "title": "推荐本国景点",
+      "prompt": "Un ami prévoit de visiter votre pays et vous demande des conseils. Écrivez-lui pour lui recommander des lieux à découvrir et expliquer ce qui les rend intéressants. Votre message doit compter entre 60 et 120 mots.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）",
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "documents": []
+    },
+    {
+      "id": "user-recall-writing-television",
+      "task": 2,
+      "topic": "用户提供 · 回忆题",
+      "title": "参与电视节目录制",
+      "prompt": "Vous avez assisté à l’enregistrement d’une émission de télévision. Sur un site Internet, racontez cette expérience et partagez vos impressions avec les lecteurs. Rédigez entre 120 et 150 mots.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。",
+        "先完成三个任务，再用余下时间检查。第二题可练习在约 20 分钟内完成。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）",
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "documents": []
+    },
+    {
+      "id": "user-recall-writing-women-leadership",
+      "task": 3,
+      "topic": "用户提供 · 回忆题",
+      "title": "女性与重要职位",
+      "prompt": "Pour un site de débat, présentez les deux positions ci-dessous, puis donnez votre avis : faut-il réserver une part des postes importants aux femmes ou sélectionner uniquement selon les compétences ? Écrivez entre 120 et 180 mots : 40 à 60 mots pour comparer les opinions et 80 à 120 mots pour défendre la vôtre.",
+      "guide": [
+        "法语题干根据用户提供的中文回忆整理。",
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "user-recalled",
+      "status": "按用户回忆整理",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Les femmes restent parfois peu présentes dans les fonctions de direction. Fixer un nombre minimal de postes peut aider à corriger les obstacles qu’elles rencontrent et rendre les décisions de l’entreprise plus représentatives. Cette mesure devrait s’accompagner de formations et de possibilités d’évolution.",
+        "Pour attribuer un poste à responsabilités, il faudrait comparer les compétences et l’expérience de chaque personne. Un recrutement transparent, fondé sur les mêmes critères pour tous, permettrait de favoriser l’égalité sans faire du sexe un élément de sélection."
+      ],
+      "sourceName": "用户提供的考试回忆",
+      "promptLanguage": "fr",
+      "adapted": true,
+      "verifiedAt": "2026-11-07",
+      "materialsNote": "两份观点材料由本站按用户回忆的主题补充编写。"
+    },
+    {
+      "id": "recall-202608-w1-stargazing",
+      "task": 1,
+      "topic": "2026年8月 · 回忆话题改写",
+      "title": "邀请朋友观星",
+      "prompt": "Préparez un message pour proposer à vos amis une observation des étoiles dans une réserve hors de la ville. Donnez le point de rendez-vous, l’heure du départ et les affaires à emporter. Écrivez entre 60 et 120 mots.",
+      "guide": [
+        "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
+        "确认收件人、目的和必需信息，用合适称呼开头。",
+        "正文覆盖全部要求，按实际语域使用tu或vous。",
+        "检查60–120词；字数统计只是本应用的辅助工具。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "source": "recalled",
+      "status": "来源已核对，题干为本站改写",
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）",
+      "sourceName": "Formation TCF Canada · 2026年8月重建题",
+      "sourceUrl": "https://formationtcfcanada.com/sujets-tcf-canada/aout-2026/ee-aout-2026-c1-t1",
+      "sourcePage": null,
+      "promptLanguage": "fr",
+      "verifiedAt": "2026-11-07",
+      "sourceMonth": "2026-08",
+      "adapted": true,
+      "documents": []
+    },
+    {
+      "id": "recall-202608-w2-ottawa",
+      "task": 2,
+      "topic": "2026年8月 · 回忆话题改写",
+      "title": "临时安排的旅行",
+      "prompt": "Vous décidez de passer quatre jours à Ottawa sans avoir tout réservé à l’avance. Rédigez une page de carnet de voyage : présentez les moments marquants et dites en quoi cette organisation spontanée vous a aidé ou compliqué le séjour. Écrivez entre 120 et 150 mots.",
+      "guide": [
+        "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
+        "先交代经历的时间、地点和背景。",
+        "有顺序地叙述事件，并加入具体感受、评价或建议。",
+        "检查120–150词，不能只叙事而没有题目要求的评论。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "source": "recalled",
+      "status": "来源已核对，题干为本站改写",
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）",
+      "sourceName": "Formation TCF Canada · 2026年8月重建题",
+      "sourceUrl": "https://formationtcfcanada.com/sujets-tcf-canada/aout-2026/ee-aout-2026-c1-t2",
+      "sourcePage": null,
+      "promptLanguage": "fr",
+      "verifiedAt": "2026-11-07",
+      "sourceMonth": "2026-08",
+      "adapted": true,
+      "documents": []
+    },
+    {
+      "id": "recall-202608-w3-flights",
+      "task": 3,
+      "topic": "2026年8月 · 回忆话题改写",
+      "title": "航空旅行与环保",
+      "prompt": "Pour une publication francophone, comparez les idées des deux documents, puis prenez position sur la réduction des voyages aériens. Écrivez entre 120 et 180 mots : consacrez 40 à 60 mots aux deux points de vue et 80 à 120 mots à votre opinion.",
+      "guide": [
+        "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
+        "用自己的话概括两个文档的观点，比较分歧。",
+        "明确自己的立场，用理由与具体例子支持，并回应另一观点。",
+        "检查120–180词；两个文档均需使用，不要照抄。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "source": "recalled",
+      "status": "来源已核对，题干为本站改写",
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "documents": [
+        "Prendre moins souvent l’avion peut alléger notre impact sur le climat. Quand une liaison ferroviaire existe, elle peut remplacer certains vols. Choisir des séjours plus longs et des destinations proches permet aussi de voyager autrement.",
+        "L’avion reste indispensable pour rejoindre une famille éloignée ou une région difficile d’accès. Des restrictions pourraient accentuer les inégalités et fragiliser le tourisme. Il faudrait privilégier les progrès techniques et des solutions adaptées aux besoins de chacun."
+      ],
+      "sourceName": "Formation TCF Canada · 2026年8月重建题",
+      "sourceUrl": "https://formationtcfcanada.com/sujets-tcf-canada/aout-2026/ee-aout-2026-c1-t3",
+      "sourcePage": null,
+      "promptLanguage": "fr",
+      "verifiedAt": "2026-11-07",
+      "sourceMonth": "2026-08",
+      "adapted": true,
+      "materialsNote": "两份法语材料由本站根据来源中的相反观点重新编写。"
+    },
+    {
+      "task": 1,
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedSeconds": 900,
+      "level": "A2–B2（教学建议）",
+      "id": "fei-w1-baggage",
+      "title": "机场行李遗失",
+      "topic": "官方样题",
+      "prompt": "刚抵达法国却未收到行李，填写行李信息表，描述箱子的特征并说明遗失经过。60–120 词。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
+      "sourceName": "France Éducation international",
+      "sourcePage": 4,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Je t’écris pour…",
+        "Pourriez-vous… ?",
+        "Merci d’avance pour votre réponse."
+      ],
+      "mistakes": [
+        "遗漏任务指定信息。",
+        "正式邮件使用Salut或tu。"
+      ],
+      "checklist": [
+        "收件人和语域是否正确？",
+        "时间地点原因等要求是否齐全？",
+        "是否60–120词？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 2,
+      "minWords": 120,
+      "maxWords": 150,
+      "suggestedSeconds": 1200,
+      "level": "A2–B2（教学建议）",
+      "id": "fei-w2-charlotte",
+      "title": "给朋友旅行建议",
+      "topic": "官方样题",
+      "prompt": "Charlotte 赢得一次旅行，打算到你的国家停留一周。回复邮件，推荐活动和景点，介绍当地生活，并解释建议的理由。120–150 词。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
+      "sourceName": "France Éducation international",
+      "sourcePage": 5,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "La semaine dernière, j’ai eu l’occasion de…",
+        "Ce qui m’a particulièrement plu,…",
+        "Je recommande cette expérience à…"
+      ],
+      "mistakes": [
+        "只列活动，没有评价。",
+        "过去时态前后不一致。"
+      ],
+      "checklist": [
+        "是否叙述具体经历？",
+        "是否有评论、观点或建议？",
+        "是否120–150词且衔接清楚？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
+      "task": 3,
+      "minWords": 120,
+      "maxWords": 180,
+      "suggestedSeconds": 1500,
+      "level": "A2–B2（教学建议）",
+      "id": "fei-w3-food",
+      "title": "饮食与健康",
+      "topic": "官方样题",
+      "prompt": "为法语协会报刊撰写饮食主题文章。先用 40–60 词概述两份材料，再用 80–120 词表达个人观点。材料一讨论本地蔬果篮的健康与社会价值，材料二讨论儿童饮食教育。请先阅读原文中的两份完整材料。",
+      "source": "official",
+      "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
+      "sourceName": "France Éducation international",
+      "sourcePage": 6,
+      "verifiedAt": "2026-11-07",
+      "promptLanguage": "zh-CN",
+      "guide": [
+        "先打开来源阅读法语原题，再按任务要求练习。",
+        "围绕题目给出具体信息或例子。"
+      ],
+      "expressions": [
+        "Le premier document met en avant…",
+        "En revanche, le second souligne…",
+        "Pour ma part,…"
+      ],
+      "mistakes": [
+        "只写个人观点，未比较文档。",
+        "复制文档长句。"
+      ],
+      "checklist": [
+        "是否概括并比较两个观点？",
+        "是否有个人立场及理由？",
+        "是否120–180词？"
+      ],
+      "status": "来源已核对，导读为本站整理"
+    },
+    {
       "id": "w1-01",
       "task": 1,
       "topic": "邀请",
@@ -5122,5 +6177,595 @@
       "题干去重",
       "写作范文字数范围"
     ]
-  }
+  },
+  "listening": [
+    {
+      "id": "listening-recall-theme-appointment-repair",
+      "title": "上门服务预约",
+      "level": "B1",
+      "text": "Bonjour, votre technicien passera jeudi entre huit heures et midi pour vérifier votre connexion Internet. Vous recevrez un message trente minutes avant son arrivée. Une personne majeure doit être présente pendant toute l’intervention. Si ce créneau ne vous convient pas, vous pouvez le modifier gratuitement jusqu’à mercredi midi, depuis votre espace client.",
+      "questions": [
+        {
+          "prompt": "À quel moment la visite est-elle prévue ?",
+          "options": [
+            "Mercredi soir.",
+            "Jeudi matin.",
+            "Jeudi après-midi.",
+            "Vendredi matin."
+          ],
+          "answer": 1,
+          "explanation": "预约时段为周四上午八点至十二点。"
+        },
+        {
+          "prompt": "Qui doit être présent ?",
+          "options": [
+            "Un voisin obligatoirement.",
+            "Le propriétaire uniquement.",
+            "Un enfant.",
+            "Une personne majeure."
+          ],
+          "answer": 3,
+          "explanation": "需要有成年人在场。"
+        },
+        {
+          "prompt": "Jusqu’à quand peut-on changer le créneau gratuitement ?",
+          "options": [
+            "Mercredi à midi.",
+            "Jeudi à midi.",
+            "Vendredi matin.",
+            "À tout moment après la visite."
+          ],
+          "answer": 0,
+          "explanation": "免费改约截止到周三中午。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "listening-recall-theme-job",
+      "title": "招聘说明",
+      "level": "B1",
+      "text": "Notre magasin recherche une personne pour les fins de semaine. Le travail consiste à accueillir les clients et à préparer les commandes passées sur Internet. Une expérience en vente est appréciée, mais nous proposons une formation aux débutants. Il faut surtout être disponible le samedi et le dimanche. Envoyez votre candidature avant vendredi ; les entretiens auront lieu la semaine suivante.",
+      "questions": [
+        {
+          "prompt": "Quelle disponibilité est indispensable ?",
+          "options": [
+            "Chaque matin.",
+            "Les nuits de semaine.",
+            "Le samedi et le dimanche.",
+            "Uniquement le vendredi."
+          ],
+          "answer": 2,
+          "explanation": "周六周日能到岗是明确的要求。"
+        },
+        {
+          "prompt": "Une expérience en vente est-elle obligatoire ?",
+          "options": [
+            "Oui, au moins cinq ans.",
+            "Oui, à temps plein.",
+            "Seulement pour les commandes.",
+            "Non, les débutants peuvent être formés."
+          ],
+          "answer": 3,
+          "explanation": "销售经验是加分项，初学者可以接受培训。"
+        },
+        {
+          "prompt": "Quelle tâche fait partie du poste ?",
+          "options": [
+            "Préparer les commandes en ligne.",
+            "Réparer les ordinateurs.",
+            "Conduire un autobus.",
+            "Rédiger des articles."
+          ],
+          "answer": 0,
+          "explanation": "工作包括准备网上订单。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "listening-recall-theme-course",
+      "title": "课程报名通知",
+      "level": "A2–B1",
+      "text": "Vous souhaitez vous inscrire au cours de français du soir ? Les cours commencent le six septembre et ont lieu les mardis et jeudis de dix-huit heures à vingt heures. Avant votre inscription, un court entretien permettra de choisir le groupe adapté à votre niveau. Prenez rendez-vous en ligne. Les manuels sont compris dans les frais, mais le transport reste à votre charge.",
+      "questions": [
+        {
+          "prompt": "Pourquoi un entretien est-il prévu ?",
+          "options": [
+            "Pour choisir le groupe approprié.",
+            "Pour recruter un professeur.",
+            "Pour payer le transport.",
+            "Pour recevoir un diplôme."
+          ],
+          "answer": 0,
+          "explanation": "面谈用于确定适合学员水平的班级。"
+        },
+        {
+          "prompt": "Quand ont lieu les cours ?",
+          "options": [
+            "Tous les soirs.",
+            "Le samedi matin.",
+            "Le lundi et le vendredi.",
+            "Le mardi et le jeudi soir."
+          ],
+          "answer": 3,
+          "explanation": "课程在周二、周四晚六点至八点。"
+        },
+        {
+          "prompt": "Qu’est-ce qui est inclus dans les frais ?",
+          "options": [
+            "Les repas.",
+            "Les manuels.",
+            "Le transport.",
+            "Le logement."
+          ],
+          "answer": 1,
+          "explanation": "manuels 教材包含在费用里。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "listening-recall-theme-invoice",
+      "title": "核对账单",
+      "level": "A2–B1",
+      "text": "Bonjour, ici le service clientèle. Vous nous avez signalé deux paiements sur votre dernière facture. Après vérification, le deuxième montant correspond à une erreur. Il sera remboursé sur votre compte dans un délai de cinq jours ouvrables. Vous n’avez aucune démarche à effectuer. Pour suivre le remboursement, consultez votre espace client.",
+      "questions": [
+        {
+          "prompt": "Quel problème a été constaté ?",
+          "options": [
+            "Une adresse incorrecte.",
+            "Un double paiement.",
+            "Une livraison manquante.",
+            "Un compte fermé."
+          ],
+          "answer": 1,
+          "explanation": "客服确认账单上出现重复付款。"
+        },
+        {
+          "prompt": "Que doit faire le client ?",
+          "options": [
+            "Envoyer un formulaire.",
+            "Rappeler demain.",
+            "Aucune démarche supplémentaire.",
+            "Payer des frais."
+          ],
+          "answer": 2,
+          "explanation": "Vous n’avez aucune démarche à effectuer 表示无需额外操作。"
+        },
+        {
+          "prompt": "Quand le remboursement est-il prévu ?",
+          "options": [
+            "Dans cinq jours ouvrables au maximum.",
+            "Le mois prochain.",
+            "Avant ce soir.",
+            "Après un nouveau paiement."
+          ],
+          "answer": 0,
+          "explanation": "五个工作日内退款。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "l-library",
+      "title": "图书馆通知",
+      "level": "A2",
+      "text": "Bonjour à tous. La bibliothèque fermera à seize heures vendredi pour des travaux. Elle ouvrira de nouveau lundi à neuf heures. Vous pouvez rendre vos livres dans la boîte située à côté de l’entrée. Les réservations en ligne restent possibles pendant le week-end.",
+      "questions": [
+        {
+          "prompt": "Pourquoi la bibliothèque fermera-t-elle plus tôt ?",
+          "options": [
+            "Pour une fête.",
+            "Pour des travaux.",
+            "Pour une réunion."
+          ],
+          "answer": 1,
+          "explanation": "通知明确说 pour des travaux，因施工提前关闭。"
+        },
+        {
+          "prompt": "Quand pourra-t-on entrer de nouveau dans la bibliothèque ?",
+          "options": [
+            "Samedi à neuf heures.",
+            "Lundi à seize heures.",
+            "Lundi à neuf heures."
+          ],
+          "answer": 2,
+          "explanation": "重新开放时间是 lundi à neuf heures。"
+        },
+        {
+          "prompt": "Comment rendre un livre pendant la fermeture ?",
+          "options": [
+            "En utilisant la boîte près de l’entrée.",
+            "En l’envoyant par courrier.",
+            "En attendant obligatoirement lundi."
+          ],
+          "answer": 0,
+          "explanation": "入口旁的还书箱仍可使用。"
+        }
+      ],
+      "source": "本站原创训练"
+    },
+    {
+      "id": "l-appointment",
+      "title": "更改预约",
+      "level": "A2–B1",
+      "text": "Bonjour madame, je vous appelle au sujet de votre rendez-vous de mercredi à quatorze heures. Le médecin sera absent. Nous pouvons vous recevoir jeudi à dix heures ou vendredi à quinze heures. Merci de nous rappeler avant mardi soir pour confirmer votre choix. Si vous avez une urgence, contactez le service de garde.",
+      "questions": [
+        {
+          "prompt": "Pourquoi le cabinet appelle-t-il ?",
+          "options": [
+            "Pour rappeler un paiement.",
+            "Pour modifier un rendez-vous.",
+            "Pour annoncer une nouvelle adresse."
+          ],
+          "answer": 1,
+          "explanation": "医生无法出席，需要改约。"
+        },
+        {
+          "prompt": "Quelle proposition est disponible ?",
+          "options": [
+            "Jeudi à dix heures.",
+            "Mercredi à quinze heures.",
+            "Vendredi à dix heures."
+          ],
+          "answer": 0,
+          "explanation": "提供周四十点或周五十五点。"
+        },
+        {
+          "prompt": "Que doit faire la personne avant mardi soir ?",
+          "options": [
+            "Se rendre au cabinet.",
+            "Envoyer son dossier.",
+            "Téléphoner pour confirmer un horaire."
+          ],
+          "answer": 2,
+          "explanation": "Merci de nous rappeler 要求回电确认。"
+        }
+      ],
+      "source": "本站原创训练"
+    },
+    {
+      "id": "l-transport",
+      "title": "交通广播",
+      "level": "B1",
+      "text": "En raison d’un incident technique, les trains ne circulent plus entre les stations Centre et Université. Des autobus de remplacement partent toutes les quinze minutes devant la station Centre. Votre billet de train est valable dans ces autobus. Prévoyez environ vingt minutes de trajet supplémentaires. La reprise du service est annoncée pour dix-huit heures.",
+      "questions": [
+        {
+          "prompt": "Quel est le problème annoncé ?",
+          "options": [
+            "Une grève des conducteurs.",
+            "Une panne technique.",
+            "Une route fermée."
+          ],
+          "answer": 1,
+          "explanation": "incident technique 指技术故障。"
+        },
+        {
+          "prompt": "Faut-il acheter un autre billet pour l’autobus ?",
+          "options": [
+            "Non, le billet de train est accepté.",
+            "Oui, un billet spécial est obligatoire.",
+            "Seulement après dix-huit heures."
+          ],
+          "answer": 0,
+          "explanation": "原火车票可用于接驳公交。"
+        },
+        {
+          "prompt": "Quelle conséquence faut-il prévoir ?",
+          "options": [
+            "Un trajet plus long.",
+            "Un départ toutes les cinq minutes.",
+            "Un changement de gare obligatoire."
+          ],
+          "answer": 0,
+          "explanation": "广播提示额外预留约二十分钟。"
+        }
+      ],
+      "source": "本站原创训练"
+    }
+  ],
+  "reading": [
+    {
+      "id": "reading-recall-theme-opinion",
+      "title": "培训中的灵活与陪伴",
+      "level": "B1–B2",
+      "text": "Les cours enregistrés permettent aux adultes en formation d’étudier à leur rythme. Cette souplesse attire notamment ceux qui travaillent en horaires décalés. Toutefois, rendre les vidéos disponibles ne suffit pas à garantir la réussite. Sans échanges réguliers, certains participants abandonnent lorsqu’ils rencontrent une difficulté. Un centre de formation a donc ajouté une permanence hebdomadaire avec un enseignant. L’accès aux vidéos reste libre, mais chacun peut demander une explication ou discuter de ses progrès. La direction souhaite ainsi associer autonomie et accompagnement.",
+      "questions": [
+        {
+          "prompt": "Qui bénéficie particulièrement de la souplesse des vidéos ?",
+          "options": [
+            "Les personnes qui travaillent en horaires décalés.",
+            "Uniquement les enseignants.",
+            "Les enfants de maternelle.",
+            "Les personnes sans accès à Internet."
+          ],
+          "answer": 0,
+          "explanation": "文中指出轮班或非固定时间工作的成年人尤其受益。"
+        },
+        {
+          "prompt": "Quelle limite est soulignée ?",
+          "options": [
+            "Les vidéos sont toujours trop chères.",
+            "Les enseignants refusent les questions.",
+            "La formation est réservée aux salariés.",
+            "La disponibilité des vidéos ne garantit pas la réussite."
+          ],
+          "answer": 3,
+          "explanation": "视频可访问并不意味着学员一定能成功完成学习。"
+        },
+        {
+          "prompt": "Pourquoi une permanence a-t-elle été ajoutée ?",
+          "options": [
+            "Pour supprimer les vidéos.",
+            "Pour compléter l’autonomie par un soutien.",
+            "Pour imposer des horaires fixes à tous.",
+            "Pour remplacer les enseignants."
+          ],
+          "answer": 1,
+          "explanation": "目的是在自主学习之外提供陪伴和指导。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "reading-recall-theme-culture",
+      "title": "文化活动安排",
+      "level": "B1",
+      "text": "Le festival des histoires propose des lectures publiques, des rencontres avec des auteurs et un atelier pour les enfants. Les lectures sont gratuites et accessibles sans réservation. L’atelier, limité à douze participants, nécessite une inscription. Une rencontre prévue en plein air sera déplacée dans la salle municipale si la météo est mauvaise. Le programme actualisé sera affiché à l’entrée et publié sur le site de la ville.",
+      "questions": [
+        {
+          "prompt": "Quelle activité nécessite une inscription ?",
+          "options": [
+            "Toutes les lectures.",
+            "L’atelier pour enfants.",
+            "L’accès à la salle municipale.",
+            "La consultation du programme."
+          ],
+          "answer": 1,
+          "explanation": "儿童工作坊有人数限制，需要报名。"
+        },
+        {
+          "prompt": "Que prévoit-on en cas de mauvais temps ?",
+          "options": [
+            "Annuler tout le festival.",
+            "Rendre les lectures payantes.",
+            "Déplacer la rencontre à l’intérieur.",
+            "Reporter toutes les activités au mois suivant."
+          ],
+          "answer": 2,
+          "explanation": "原定户外的见面会将转移到市政活动室。"
+        },
+        {
+          "prompt": "Où trouver les changements du programme ?",
+          "options": [
+            "À l’entrée et sur le site de la ville.",
+            "Uniquement chez les auteurs.",
+            "Dans une librairie étrangère.",
+            "Dans le billet d’inscription seulement."
+          ],
+          "answer": 0,
+          "explanation": "最新安排会在入口和市政府网站公布。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "reading-recall-theme-notice",
+      "title": "工作场所通知",
+      "level": "B1",
+      "text": "Pour réduire le gaspillage, la cantine change son fonctionnement. Dès lundi, chacun devra réserver son déjeuner la veille avant 16 h. Les personnes qui oublient pourront acheter un repas dans la limite des portions restantes. Le prix ne change pas. L’équipe évaluera cette mesure après six semaines en comparant la quantité de nourriture jetée avec celle des semaines précédentes.",
+      "questions": [
+        {
+          "prompt": "Quel est l’objectif de cette mesure ?",
+          "options": [
+            "Augmenter les prix.",
+            "Fermer la cantine.",
+            "Réduire le gaspillage alimentaire.",
+            "Raccourcir la pause déjeuner."
+          ],
+          "answer": 2,
+          "explanation": "这项措施旨在减少食物浪费。"
+        },
+        {
+          "prompt": "Que se passe-t-il sans réservation ?",
+          "options": [
+            "Un repas reste possible s’il en reste.",
+            "L’entrée est toujours interdite.",
+            "Le repas est gratuit.",
+            "Il faut payer le double."
+          ],
+          "answer": 0,
+          "explanation": "未预约者在有剩余餐份时仍可购买。"
+        },
+        {
+          "prompt": "Comment la mesure sera-t-elle évaluée ?",
+          "options": [
+            "En comptant les salariés.",
+            "En changeant le menu.",
+            "En supprimant les réservations.",
+            "En comparant les quantités de nourriture jetée."
+          ],
+          "answer": 3,
+          "explanation": "六周后比较实施前后的食物丢弃量。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "reading-recall-theme-housing",
+      "title": "住房广告",
+      "level": "A2–B1",
+      "text": "À louer : appartement de deux pièces près du tramway, disponible le premier octobre. Le loyer comprend le chauffage, mais pas l’électricité. L’appartement est non meublé et convient à une personne seule ou à un couple. Les visites se font uniquement sur rendez-vous le samedi. Pour réserver une visite, envoyez un courriel avec vos disponibilités. Aucun dossier n’est demandé avant la première visite.",
+      "questions": [
+        {
+          "prompt": "Quelle dépense est comprise dans le loyer ?",
+          "options": [
+            "Le chauffage.",
+            "L’électricité.",
+            "Les meubles.",
+            "Le transport."
+          ],
+          "answer": 0,
+          "explanation": "租金包含供暖，但不含电费。"
+        },
+        {
+          "prompt": "Comment visiter l’appartement ?",
+          "options": [
+            "En se présentant n’importe quand.",
+            "En appelant le tramway.",
+            "En prenant rendez-vous pour un samedi.",
+            "En envoyant d’abord un dossier complet."
+          ],
+          "answer": 2,
+          "explanation": "看房需要预约，安排在周六。"
+        },
+        {
+          "prompt": "À qui ce logement convient-il ?",
+          "options": [
+            "À une famille nombreuse uniquement.",
+            "À une personne seule ou un couple.",
+            "Aux touristes pour une nuit.",
+            "À des groupes de six personnes."
+          ],
+          "answer": 1,
+          "explanation": "广告明确写出适合独居者或伴侣。"
+        }
+      ],
+      "source": "回忆主题拓展",
+      "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+    },
+    {
+      "id": "r-market",
+      "title": "社区市集公告",
+      "level": "A2",
+      "text": "Le marché du quartier aura lieu samedi de 9 h à 13 h dans la cour de l’école. Les habitants pourront acheter des légumes locaux et échanger des livres. Pour tenir un stand, il faut s’inscrire avant jeudi auprès de l’association du quartier. L’entrée est gratuite. En cas de pluie, le marché se déroulera dans le gymnase. Pensez à apporter un sac réutilisable.",
+      "questions": [
+        {
+          "prompt": "Qui doit s’inscrire ?",
+          "options": [
+            "Tous les visiteurs.",
+            "Les personnes qui veulent tenir un stand.",
+            "Les enfants du quartier."
+          ],
+          "answer": 1,
+          "explanation": "只有摆摊者需要在周四前报名。"
+        },
+        {
+          "prompt": "Où se tiendra le marché s’il pleut ?",
+          "options": [
+            "Dans le gymnase.",
+            "Devant la mairie.",
+            "Dans la bibliothèque."
+          ],
+          "answer": 0,
+          "explanation": "雨天转移到体育馆。"
+        },
+        {
+          "prompt": "Quelle activité est proposée ?",
+          "options": [
+            "Un cours de cuisine.",
+            "Un échange de livres.",
+            "Une visite guidée de l’école."
+          ],
+          "answer": 1,
+          "explanation": "公告明确列出 échanger des livres。"
+        }
+      ],
+      "source": "本站原创训练"
+    },
+    {
+      "id": "r-work",
+      "title": "远程办公安排",
+      "level": "B1",
+      "text": "À partir du mois prochain, notre entreprise permettra deux journées de télétravail par semaine. Chaque équipe choisira ses journées avec son responsable. Le mercredi restera une journée commune au bureau pour faciliter les réunions. Les salariés devront rester joignables de 10 h à 12 h et de 14 h à 16 h. Cette organisation sera testée pendant trois mois, puis évaluée à partir d’un questionnaire et des résultats des équipes.",
+      "questions": [
+        {
+          "prompt": "Comment les journées de télétravail seront-elles fixées ?",
+          "options": [
+            "Chaque salarié décide sans consulter personne.",
+            "L’entreprise impose le lundi et le vendredi.",
+            "Chaque équipe en discute avec son responsable."
+          ],
+          "answer": 2,
+          "explanation": "由各团队与负责人共同选择。"
+        },
+        {
+          "prompt": "Pourquoi faut-il venir au bureau le mercredi ?",
+          "options": [
+            "Pour faciliter les réunions.",
+            "Pour recevoir les clients.",
+            "Pour réparer le matériel."
+          ],
+          "answer": 0,
+          "explanation": "文中说明共同到岗是为了方便会议。"
+        },
+        {
+          "prompt": "Quel est le statut de cette organisation ?",
+          "options": [
+            "Elle est définitive.",
+            "Il s’agit d’un essai de trois mois.",
+            "Elle ne concerne que les nouveaux salariés."
+          ],
+          "answer": 1,
+          "explanation": "先试行三个月，再评估。"
+        }
+      ],
+      "source": "本站原创训练"
+    },
+    {
+      "id": "r-repair",
+      "title": "维修还是更换",
+      "level": "B1–B2",
+      "text": "Un atelier de réparation a ouvert dans notre commune. Des bénévoles y aident les habitants à réparer de petits appareils. L’objectif dépasse les économies réalisées : les organisateurs souhaitent transmettre des savoir-faire et limiter les déchets. Pourtant, certains visiteurs repartent déçus, car toutes les pannes ne peuvent pas être réparées et les pièces sont parfois difficiles à trouver. L’association insiste donc sur un point : elle propose une aide au diagnostic et à la réparation, mais ne garantit pas le résultat. Elle prépare aussi des séances pour apprendre à entretenir les appareils avant qu’ils ne tombent en panne.",
+      "questions": [
+        {
+          "prompt": "Quel objectif l’atelier poursuit-il en plus des économies ?",
+          "options": [
+            "Vendre des appareils neufs.",
+            "Former uniquement des professionnels.",
+            "Partager des compétences et réduire les déchets."
+          ],
+          "answer": 2,
+          "explanation": "组织者同时希望传授技能、减少废弃物。"
+        },
+        {
+          "prompt": "Pourquoi certains visiteurs sont-ils déçus ?",
+          "options": [
+            "Toute réparation n’est pas possible.",
+            "L’entrée est trop chère.",
+            "Ils doivent acheter un appareil."
+          ],
+          "answer": 0,
+          "explanation": "不是所有故障都能修好，也可能缺少配件。"
+        },
+        {
+          "prompt": "Que proposeront les prochaines séances ?",
+          "options": [
+            "Une garantie sur tous les appareils.",
+            "Des conseils d’entretien préventif.",
+            "Une collecte obligatoire des appareils."
+          ],
+          "answer": 1,
+          "explanation": "计划教维护保养，在故障发生前延长使用寿命。"
+        }
+      ],
+      "source": "本站原创训练"
+    }
+  ]
 }
