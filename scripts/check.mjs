@@ -77,3 +77,5 @@ console.log('New grammar lessons contain topics, readings, vocabulary lists and 
 for(const m of materials)for(const e of m.exercises||[]){
  assert(e.options.includes(e.answers[0])&&e.explanation);
 }
+
+execFileSync(process.execPath,['scripts/check-lesson-practice.mjs'],{stdio:'inherit'});
