@@ -8089,33 +8089,57 @@
       },
       {
         "id": "grammar-extra-25-extra-2",
-        "title": "常用特殊词干",
-        "rule": "常用不规则动词使用特殊将来时词干，但仍加同一组将来时词尾。",
+        "title": "不规则词干",
+        "rule": "这 11 个动词的将来时词干不规则，词尾仍用 -ai、-as、-a、-ons、-ez、-ont。",
         "table": {
           "headers": [
-            "形式 / 结构",
-            "用法 / 示例"
+            "动词原形",
+            "将来时词干"
           ],
           "rows": [
             [
-              "être / avoir",
-              "ser- / aur-"
+              "être",
+              "ser-"
             ],
             [
-              "aller / faire",
-              "ir- / fer-"
+              "avoir",
+              "aur-"
             ],
             [
-              "venir / voir",
-              "viendr- / verr-"
+              "aller",
+              "ir-"
             ],
             [
-              "pouvoir / vouloir / devoir",
-              "pourr- / voudr- / devr-"
+              "faire",
+              "fer-"
             ],
             [
-              "savoir / falloir",
-              "saur- / il faudra"
+              "venir",
+              "viendr-"
+            ],
+            [
+              "voir",
+              "verr-"
+            ],
+            [
+              "pouvoir",
+              "pourr-"
+            ],
+            [
+              "vouloir",
+              "voudr-"
+            ],
+            [
+              "devoir",
+              "devr-"
+            ],
+            [
+              "savoir",
+              "saur-"
+            ],
+            [
+              "falloir",
+              "faudr-"
             ]
           ]
         },
@@ -8129,9 +8153,9 @@
             "zh": "您可以在演示后提问。"
           }
         ],
-        "pitfall": "特殊词干要与不定式一起记，不要从现在时直接拼出将来时。",
+        "pitfall": "falloir 是无人称动词，只用 il：faudr- + a → il faudra。",
         "application": "",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/pr/taf3.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": null
