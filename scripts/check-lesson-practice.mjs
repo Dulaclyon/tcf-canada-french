@@ -24,3 +24,8 @@ for(const m of materials){
 }
 assert.equal(added,323);
 console.log(`${materials.length} lessons have at least 22 exercises; ${added} new questions have unique IDs, prompts and valid answer choices.`);
+
+const ui=fs.readFileSync('app.js','utf8');
+assert(ui.includes('link(lessonRoute(e.course.id)'));
+assert(ui.includes('link(lessonRoute(ex.course.id)'));
+assert(ui.includes("materials.some(m=>m.id===id)?'material/':'course/'"));
