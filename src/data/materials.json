@@ -178,6 +178,18 @@
           {
             "fr": "Ces hôtels sont près de la gare.",
             "zh": "这些酒店在车站附近。"
+          },
+          {
+            "fr": "Ce quartier est calme.",
+            "zh": "这个街区很安静。"
+          },
+          {
+            "fr": "Cet hôtel est près de la gare.",
+            "zh": "这家酒店在车站附近。"
+          },
+          {
+            "fr": "Ces magasins ferment à dix-huit heures.",
+            "zh": "这些商店十八点关门。"
           }
         ],
         "pitfall": "阴性名词以元音开头仍用 cette，如 cette école。",
@@ -884,6 +896,38 @@
           {
             "fr": "C’est elle qui organise la réunion.",
             "zh": "是她组织会议。"
+          },
+          {
+            "fr": "Tu viens avec moi ?",
+            "zh": "你和我一起来吗？"
+          },
+          {
+            "fr": "Je reste chez toi ce soir.",
+            "zh": "我今晚住你家。"
+          },
+          {
+            "fr": "Ce cadeau est pour lui.",
+            "zh": "这份礼物是给他的。"
+          },
+          {
+            "fr": "Je travaille avec elle.",
+            "zh": "我和她一起工作。"
+          },
+          {
+            "fr": "Ils viennent chez nous demain.",
+            "zh": "他们明天来我们家。"
+          },
+          {
+            "fr": "Cette place est pour vous.",
+            "zh": "这个座位是给您的。"
+          },
+          {
+            "fr": "Nous allons au cinéma avec eux.",
+            "zh": "我们和他们一起去看电影。"
+          },
+          {
+            "fr": "Je pars avec elles.",
+            "zh": "我和她们一起走。"
           }
         ],
         "pitfall": "lui 在重读代词中指男性，在间接宾语代词中可以指男性或女性。",
@@ -1278,6 +1322,46 @@
           {
             "fr": "Nous avons décidé de rester.",
             "zh": "我们决定留下。"
+          },
+          {
+            "fr": "Je veux apprendre le français.",
+            "zh": "我想学法语。"
+          },
+          {
+            "fr": "Tu peux entrer.",
+            "zh": "你可以进来。"
+          },
+          {
+            "fr": "Nous devons partir maintenant.",
+            "zh": "我们现在必须出发。"
+          },
+          {
+            "fr": "Elle commence à travailler à neuf heures.",
+            "zh": "她九点开始工作。"
+          },
+          {
+            "fr": "Il réussit à ouvrir la porte.",
+            "zh": "他成功把门打开了。"
+          },
+          {
+            "fr": "J’apprends à conduire.",
+            "zh": "我正在学开车。"
+          },
+          {
+            "fr": "Nous décidons de rester ici.",
+            "zh": "我们决定留在这里。"
+          },
+          {
+            "fr": "Elle essaie de comprendre.",
+            "zh": "她试着理解。"
+          },
+          {
+            "fr": "Il oublie de fermer la fenêtre.",
+            "zh": "他忘了关窗。"
+          },
+          {
+            "fr": "Je préfère ne pas sortir ce soir.",
+            "zh": "我今晚宁愿不出门。"
           }
         ],
         "pitfall": "不同动词的介词搭配需一起记，不能把所有不定式前都加 à。",
@@ -1494,6 +1578,26 @@
           {
             "fr": "Elle est partie il y a une heure et reviendra dans deux jours.",
             "zh": "她一小时前离开，两天后回来。"
+          },
+          {
+            "fr": "J’habite ici depuis deux ans.",
+            "zh": "我住在这里已经两年了，现在仍住在这里。"
+          },
+          {
+            "fr": "J’ai travaillé pendant trois heures hier.",
+            "zh": "我昨天工作了三个小时。"
+          },
+          {
+            "fr": "Elle est arrivée il y a dix minutes.",
+            "zh": "她十分钟前到了。"
+          },
+          {
+            "fr": "Le train partira dans vingt minutes.",
+            "zh": "火车将在二十分钟后出发。"
+          },
+          {
+            "fr": "J’ai terminé cet exercice en cinq minutes.",
+            "zh": "我用五分钟完成了这道练习。"
           }
         ],
         "pitfall": "表达持续至今的“已经住了”通常用现在时，而不是按中文直接选过去时。",
@@ -1859,6 +1963,30 @@
           {
             "fr": "Nous prenons le métro chaque matin.",
             "zh": "我们每天早晨乘地铁。"
+          },
+          {
+            "fr": "Je viens de Montréal.",
+            "zh": "我来自蒙特利尔。"
+          },
+          {
+            "fr": "Elles viennent demain.",
+            "zh": "她们明天来。"
+          },
+          {
+            "fr": "Tu prends le bus ?",
+            "zh": "你坐公交车吗？"
+          },
+          {
+            "fr": "Il fait beau aujourd’hui.",
+            "zh": "今天天气晴朗。"
+          },
+          {
+            "fr": "Vous dites la vérité.",
+            "zh": "你们说的是实话。"
+          },
+          {
+            "fr": "Ils disent bonjour à leur voisine.",
+            "zh": "他们向女邻居问好。"
           }
         ],
         "pitfall": "表中形式依次对应 je、tu、il/elle/on、nous、vous、ils/elles。",
@@ -5111,6 +5239,38 @@
           {
             "fr": "Toutes les réponses sont importantes, et chacun peut participer.",
             "zh": "所有回答都重要，每个人都可以参与。"
+          },
+          {
+            "fr": "Chaque participant reçoit un document.",
+            "zh": "每位参与者都会收到一份资料。"
+          },
+          {
+            "fr": "Chacun choisit sa place.",
+            "zh": "每个人选择自己的座位。"
+          },
+          {
+            "fr": "J’ai quelques questions.",
+            "zh": "我有几个问题。"
+          },
+          {
+            "fr": "Plusieurs solutions sont possibles.",
+            "zh": "有几种可行的解决办法。"
+          },
+          {
+            "fr": "Tout le groupe est prêt.",
+            "zh": "全组都准备好了。"
+          },
+          {
+            "fr": "Toute la classe participe.",
+            "zh": "全班都参与。"
+          },
+          {
+            "fr": "Tous les élèves sont là.",
+            "zh": "所有学生都到了。"
+          },
+          {
+            "fr": "Toutes les fenêtres sont ouvertes.",
+            "zh": "所有窗户都开着。"
           }
         ],
         "pitfall": "chaque 不能单独代替名词，独立表达“每个人”用 chacun。",
@@ -5756,6 +5916,30 @@
           {
             "fr": "Je préfère celles qui sont près de la fenêtre.",
             "zh": "我更喜欢靠窗的那些。"
+          },
+          {
+            "fr": "Mon vélo est rouge ; celui de Paul est bleu.",
+            "zh": "我的自行车是红色的，保罗的是蓝色的。"
+          },
+          {
+            "fr": "Cette chaise est prise ; celle qui est près de la porte est libre.",
+            "zh": "这把椅子有人了，门边那把空着。"
+          },
+          {
+            "fr": "Ces livres sont à moi ; ceux de Léa sont sur la table.",
+            "zh": "这些书是我的，蕾娅的在桌上。"
+          },
+          {
+            "fr": "Ces fleurs sont belles, mais celles du jardin sont plus grandes.",
+            "zh": "这些花很美，但花园里的花更大。"
+          },
+          {
+            "fr": "Je prends celui-ci.",
+            "zh": "我要这个（阳性）。"
+          },
+          {
+            "fr": "Je préfère celle-là.",
+            "zh": "我更喜欢那个（阴性）。"
           }
         ],
         "pitfall": "ce livre 中的 ce 修饰名词，celui 则代替名词，二者不能互换。",
@@ -5801,6 +5985,30 @@
           {
             "fr": "Ces clés sont les miennes.",
             "zh": "这些钥匙是我的。"
+          },
+          {
+            "fr": "Ton sac est noir ; le mien est bleu.",
+            "zh": "你的包是黑色的，我的是蓝色的。"
+          },
+          {
+            "fr": "Ma voiture est ancienne ; la tienne est neuve.",
+            "zh": "我的车旧了，你的是新的。"
+          },
+          {
+            "fr": "Mon frère est ici ; le sien arrive demain.",
+            "zh": "我的哥哥在这里，他／她的哥哥明天到。"
+          },
+          {
+            "fr": "Vos enfants sont grands ; les nôtres sont petits.",
+            "zh": "你们的孩子大了，我们的还小。"
+          },
+          {
+            "fr": "Nos places sont ici ; les vôtres sont là-bas.",
+            "zh": "我们的座位在这里，你们的在那边。"
+          },
+          {
+            "fr": "Notre maison est petite ; la leur est grande.",
+            "zh": "我们的房子小，他们的房子大。"
           }
         ],
         "pitfall": "notre、votre 修饰名词时不加长音符，nôtre、vôtre 作物主代词时加长音符。",
@@ -7247,6 +7455,34 @@
           {
             "fr": "Grâce à cette aide, nous avons terminé à temps.",
             "zh": "多亏这项帮助，我们及时完成了。"
+          },
+          {
+            "fr": "Je reste chez moi parce que je suis malade.",
+            "zh": "因为生病，我待在家里。"
+          },
+          {
+            "fr": "Puisque tu es là, aide-moi.",
+            "zh": "既然你在这里，就帮我一下吧。"
+          },
+          {
+            "fr": "Le match est annulé à cause de la pluie.",
+            "zh": "比赛因为下雨取消了。"
+          },
+          {
+            "fr": "J’ai réussi grâce à ton aide.",
+            "zh": "多亏你的帮助，我成功了。"
+          },
+          {
+            "fr": "Il pleut, donc nous restons ici.",
+            "zh": "下雨了，所以我们留在这里。"
+          },
+          {
+            "fr": "Le bus est en retard, c’est pourquoi je marche.",
+            "zh": "公交车晚点了，所以我步行。"
+          },
+          {
+            "fr": "La salle est fermée ; par conséquent, le cours est reporté.",
+            "zh": "教室关了，因此课程延期。"
           }
         ],
         "pitfall": "parce que 后接句子，à cause de 后接名词或代词，不能直接互换。",
@@ -7288,6 +7524,22 @@
           {
             "fr": "Bien qu’elle soit fatiguée, elle participe à la réunion.",
             "zh": "尽管她很累，仍参加会议。"
+          },
+          {
+            "fr": "Il est fatigué, mais il continue.",
+            "zh": "他累了，但仍继续。"
+          },
+          {
+            "fr": "Il pleut ; pourtant, elle sort sans parapluie.",
+            "zh": "下雨了，可她仍没带伞就出门了。"
+          },
+          {
+            "fr": "Même s’il pleut, nous sortirons.",
+            "zh": "即使下雨，我们也会出门。"
+          },
+          {
+            "fr": "Bien qu’il soit fatigué, il travaille.",
+            "zh": "尽管累了，他仍在工作。"
           }
         ],
         "pitfall": "不要把 bien que 与 même si 后的语式混用。",
@@ -7329,6 +7581,18 @@
           {
             "fr": "Nous accepterons à condition que le prix soit fixé.",
             "zh": "只要价格确定，我们就会接受。"
+          },
+          {
+            "fr": "Je révise pour réussir l’examen.",
+            "zh": "我复习是为了通过考试。"
+          },
+          {
+            "fr": "Je parle lentement pour que vous compreniez.",
+            "zh": "我说慢一点，好让您听懂。"
+          },
+          {
+            "fr": "Tu peux venir à condition que tu sois à l’heure.",
+            "zh": "你可以来，条件是你要准时。"
           }
         ],
         "pitfall": "按主语和逻辑选择结构，连接词数量多并不等于表达清楚。",
@@ -8151,6 +8415,50 @@
           {
             "fr": "Vous pourrez poser vos questions après la présentation.",
             "zh": "您可以在演示后提问。"
+          },
+          {
+            "fr": "Je serai à la maison demain.",
+            "zh": "我明天会在家。"
+          },
+          {
+            "fr": "Tu auras le temps de finir.",
+            "zh": "你会有时间完成。"
+          },
+          {
+            "fr": "Nous irons au marché samedi.",
+            "zh": "我们周六会去市场。"
+          },
+          {
+            "fr": "Elle fera les courses demain.",
+            "zh": "她明天会去采购。"
+          },
+          {
+            "fr": "Ils viendront après le travail.",
+            "zh": "他们下班后会来。"
+          },
+          {
+            "fr": "Vous verrez le résultat demain.",
+            "zh": "您明天就会看到结果。"
+          },
+          {
+            "fr": "Je pourrai vous aider lundi.",
+            "zh": "我周一能帮您。"
+          },
+          {
+            "fr": "Elle voudra connaître le prix.",
+            "zh": "她会想知道价格。"
+          },
+          {
+            "fr": "Nous devrons partir tôt.",
+            "zh": "我们将不得不早点出发。"
+          },
+          {
+            "fr": "Tu sauras la réponse demain.",
+            "zh": "你明天就会知道答案。"
+          },
+          {
+            "fr": "Il faudra réserver à l’avance.",
+            "zh": "需要提前预订。"
           }
         ],
         "pitfall": "falloir 是无人称动词，只用 il：faudr- + a → il faudra。",
@@ -8690,7 +8998,7 @@
       {
         "id": "lesson-22-supp-03",
         "title": "礼貌与建议",
-        "rule": "voudrais、pourriez、devrais 等可减弱直接要求的语气；需保留动词各自的搭配。",
+        "rule": "voudrais 表达委婉愿望；pourriez-vous 用于礼貌请求；devrais / devriez 用于提出建议。",
         "examples": [
           {
             "fr": "Pourriez-vous m’aider ?",
@@ -8699,9 +9007,33 @@
           {
             "fr": "Tu devrais te reposer.",
             "zh": "你应该休息一下。"
+          },
+          {
+            "fr": "Je voudrais un café, s’il vous plaît.",
+            "zh": "请给我一杯咖啡。"
+          },
+          {
+            "fr": "Je voudrais réserver une table.",
+            "zh": "我想预订一张餐桌。"
+          },
+          {
+            "fr": "Pourriez-vous répéter, s’il vous plaît ?",
+            "zh": "请您再说一遍，好吗？"
+          },
+          {
+            "fr": "Pourriez-vous fermer la fenêtre ?",
+            "zh": "您能把窗户关上吗？"
+          },
+          {
+            "fr": "Tu devrais prendre rendez-vous.",
+            "zh": "你应该预约一下。"
+          },
+          {
+            "fr": "Vous devriez vérifier l’adresse.",
+            "zh": "您最好核对一下地址。"
           }
         ],
-        "pitfall": "je voudrais + 名词或不定式；不要把后面的动词也随意变成条件式。",
+        "pitfall": "vouloir 可接名词或不定式；pouvoir、devoir 后直接接不定式。devrais 表示“应该”，不是请求别人帮忙。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/tac1.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",

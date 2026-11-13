@@ -42,7 +42,7 @@ console.log('All 22 original PDF text records and page integrity hashes validate
 
 const supplementIds=new Set();let supplements=0;
 for(const m of materials){assert(m.supplements?.length>=3,`${m.id}: supplement coverage`);for(const b of m.supplements){assert(!supplementIds.has(b.id));supplementIds.add(b.id);assert(b.title&&b.rule&&b.pitfall&&b.status);assert(b.examples.length>=2&&b.examples.every(x=>x.fr&&x.zh));assert(/^https:\/\//.test(b.sourceUrl));if(b.table)assert(b.table.rows.every(r=>r.length===b.table.headers.length));supplements++;}}
-console.log(`${supplements} supplemental topics and ${supplements*2} bilingual examples validated separately from original PDF text.`);
+console.log(`${supplements} supplemental topics and ${materials.reduce((n,m)=>n+m.supplements.reduce((s,b)=>s+b.examples.length,0),0)} bilingual examples validated separately from original PDF text.`);
 
 execFileSync(process.execPath,['scripts/check-grammar-layout.mjs'],{stdio:'inherit'});
 
