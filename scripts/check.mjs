@@ -79,3 +79,5 @@ for(const m of materials)for(const e of m.exercises||[]){
 }
 
 execFileSync(process.execPath,['scripts/check-lesson-practice.mjs'],{stdio:'inherit'});
+
+execFileSync(process.execPath,['scripts/check-bank-progress.mjs'],{stdio:'inherit'});
