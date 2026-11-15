@@ -1,6 +1,7 @@
 services:
   - type: web
     name: tcf-student-portal
+    branch: student-accounts
     runtime: node
     plan: starter
     buildCommand: npm run build && python3 scripts/unpack-bank.py
