@@ -87,10 +87,10 @@ function vowelGroups(text) {
   return '<div class="grammar-content article-reference">' +
     '<section class="article-rule-card"><h3 class="grammar-subhead">01 · eau / au / aux → [o]</h3>' +
     '<p class="grammar-rule">这三种拼写在本组例词中均读 [o]。</p>' +
-    table(['单词', '音标', '释义'], exampleRows(lines.slice(first+1, second))) +
+    table(['例词', '读音', '释义'], exampleRows(lines.slice(first+1, second))) +
     '</section><section class="article-rule-card"><h3 class="grammar-subhead">02 · eu → [ø]</h3>' +
     '<p class="grammar-rule">以下例词中的 eu 均读 [ø]。eu、œu 在其他词中也可读 [œ]，如 sœur [sœʁ]（姐妹）。单独的 u 通常读 [y]。</p>' +
-    table(['单词', '音标', '释义'], exampleRows(lines.slice(second+1))) +
+    table(['例词', '读音', '释义'], exampleRows(lines.slice(second+1))) +
     '<details class="quiet-details"><summary>原课件记法</summary><p>' +
     escape(lines.slice(0,first+1).join(' ')) + '</p><p>' + escape(lines[second]) +
     '</p></details></section></div>';
@@ -144,7 +144,7 @@ function reflowSourceLines(text) {
   for (let i = 0; i < lines.length - 1; i++) {
     const current = lines[i], next = lines[i + 1];
     if (!current || !next) continue;
-    if (/^phonics$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
+    if (/^(?:phonics|ou|oi|\[j\]|tion 的发音|发音部分 in, im)$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
     const translation = /^[（(][^A-Za-zÀ-ÿ]*[\u3400-\u9fff][^A-Za-zÀ-ÿ]*[）)]$/u.test(next);
     const chineseTail = /[\u3400-\u9fff]$/u.test(current) &&
       /^[\u3400-\u9fff]/u.test(next) && !boundary.test(current) &&
@@ -234,20 +234,21 @@ export function renderGrammar(text, title = '') {
       continue;
     }
     const soundRules = [
-      ['et 在单字末尾', '词尾 -et、ai、è、ê、ei', '[ɛ]', '本组例词读 [ɛ]，ai 的读音随单词变化。'],
-      ['i, î, y', 'i、î、y', '[i]', '本组例词读 [i]。'],
-      ['oi', 'oi', '[wa]', '本组 moi、toi、loi 等词中的 oi 均读 [wa]。'],
-      ['tion 的发音', '-tion', '[sjɔ̃]', '本组例词的词尾均读 [sjɔ̃]。'],
-      ['发音部分 in, im', 'in、im、ain、aim、ein、yn、ym', '[ɛ̃]', '本组例词中均表示鼻元音 [ɛ̃]，n、m 不单独发音。'],
-      ['eau / au / aux', 'eau、au、aux', '[o]', '本组例词中均读 [o]。'],
-      ['u / eux', 'eu、œu', '[ø] / [œ]', 'feu、peu、eux、heureux 中读 [ø]，sœur 中读 [œ]。单独的 u 通常读 [y]。'],
-      ['[j]', 'i / y + 元音、部分 -il / -ill', '[j]', '本组例词含半元音 [j]，接近英语 yes 的开头。-ill 有例外，如 ville。'],
-      ['ou', 'ou', '[u]', '本组例词中的 ou 均读 [u]。']
+      ['et 在单字末尾', '词尾 -et、ai、è、ê、ei', '[ɛ]', '这些例词读 [ɛ]；ai 的读音随单词变化。', 'faire（做）、père（父亲）、fête（节日）、jouet（玩具）'],
+      ['i, î, y', 'i、î、y', '[i]', '本组例词读 [i]。', 'île（岛）、si（如果）、Fanny（人名）'],
+      ['oi', 'oi', '[wa]', '本组例词中的 oi 读 [wa]。', 'moi（我）、toi（你）、loi（法律）'],
+      ['tion 的发音', '-tion', '[sjɔ̃]', 'situation、nation、solution 等词的词尾读 [sjɔ̃]；décision 中读 [zjɔ̃]，不可一概而论。', 'nation（国家）、solution（解决办法）；décision（决定）为 [zjɔ̃]'],
+      ['发音部分 in, im', 'in、im、ain、aim、ein、yn、ym', '[ɛ̃]', '这些拼写在相应例词中可表示鼻元音 [ɛ̃]；注意后接元音或双写辅音时不能机械套用。', 'pain（面包）、train（火车）、impossible（不可能的）'],
+      ['eau / au / aux', 'eau、au、aux', '[o]', '本组例词中读 [o]。', 'eau（水）、chaud（热的）、aux（à + les）'],
+      ['u / eux', 'eu、œu', '[ø] / [œ]', 'eu、œu 的读音按具体单词学习；单独的 u 通常读 [y]。', 'feu（火）[ø]、peu（少）[ø]；sœur（姐妹）[œ]'],
+      ['[j]', 'i / y + 元音、部分 -il / -ill', '[j]', '接近英语 yes 的开头。-ill 有例外，如 ville；不要把所有 i、y 或 -ill 都读成 [j]。', 'pied（脚）、voyage（旅行）、travail（工作）、fille（女孩）'],
+      ['ou', 'ou', '[u]', '本组例词中的 ou 读 [u]，注意与 u [y] 区分。', 'nous（我们）、vous（您／你们）、doux（温柔的）']
     ];
     const soundRule = soundRules.find(([start]) => line === start || (start.length > 2 && line.startsWith(start)));
     if (soundRule) {
-      output.push('<section class="sound-rule"><h3 class="grammar-subhead">拼写与发音</h3>' +
-        table(['拼写组合', '音标', '适用说明'], [soundRule.slice(1)]) + '</section>');
+      output.push('<section class="sound-rule"><h3 class="grammar-subhead">'+escape(line)+'</h3>' +
+        table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
+      if (!/^[^（(]+[（(][^）)]+[）)]\s*[-–—]\s*[^（(]+[（(][^）)]+[）)]$/u.test(lines[i+1]??'')) continue;
     }
     if (/^(?:phonics|发音)$/iu.test(title) && /^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)) {
       output.push('<section class="sound-rule"><h3 class="grammar-subhead">发音 [e]</h3>' +

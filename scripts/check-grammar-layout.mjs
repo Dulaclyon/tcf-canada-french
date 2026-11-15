@@ -76,3 +76,10 @@ assert(phonics.includes('发音 [e]'));
 assert(!plain(phonics).includes('phonics é;'));
 assert(!phonics.includes('原课件记法'));
 console.log('Phonics heading and spelling table replace the misleading split source label.');
+
+for(const [heading,sample] of [['et 在单字末尾，ai, è, ê; ei','faire'],['i, î, y','île'],['oi','moi'],['tion 的发音','nation'],['发音部分 in, im','pain'],['eau / au / aux','eau'],['u / eux','feu'],['[j]','pied'],['ou','nous']]){
+ const layout=renderGrammar(heading+'\n'+sample,'发音');
+ assert(layout.includes('<th scope="col">拼写</th>')&&layout.includes('<th scope="col">读音</th>')&&layout.includes('<th scope="col">例词</th>'),heading+' must use the common pronunciation table');
+}
+assert(renderGrammar('tion 的发音\nla décision（决定）','发音').includes('[zjɔ̃]'));
+console.log('Nine pronunciation groups use the shared spelling, sound and example structure.');
