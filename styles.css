@@ -85,3 +85,5 @@ footer .ownership-note{margin:8px 0 0;line-height:1.7}
 .bank-set-heading{display:flex;align-items:center;gap:12px;margin:1.5rem 0 1rem}.bank-set-heading h2{margin:0;font-size:1.4rem}.bank-source-tag{display:inline-block;align-self:flex-start;font-size:.72rem;font-weight:500;color:#68718a;background:#edf0f6;border-radius:5px;padding:3px 8px;line-height:1.5}
 
 [hidden]{display:none!important}.account-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;margin-left:auto}.account-tools button{padding:5px 8px;font-size:12px}
+
+.basic-verb-block{border-top:1px solid #e1e4ee;margin-top:28px;padding-top:24px}.basic-verb-block h3{font-size:1.2rem;margin:0 0 12px}.basic-verb-block h3 small{display:block;font-size:.88rem;font-weight:400;color:#68718a;margin-top:5px}.basic-verb-block h4{font-size:.9rem;margin:18px 0 10px}.basic-verb-examples .grammar-example{padding:10px 0;margin:0}.basic-verb-pattern{color:#56617b}.basic-verbs .grammar-translation{margin-top:4px}
