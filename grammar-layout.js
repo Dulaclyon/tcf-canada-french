@@ -145,6 +145,7 @@ function reflowSourceLines(text) {
   for (let i = 0; i < lines.length - 1; i++) {
     const current = lines[i], next = lines[i + 1];
     if (!current || !next) continue;
+    if (/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(current)||/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(next)) continue;
     if (/^(?:phonics|ou|oi|\[j\]|tion 的发音|发音部分 in, im)$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
     const translation = /^[（(][^A-Za-zÀ-ÿ]*[\u3400-\u9fff][^A-Za-zÀ-ÿ]*[）)]$/u.test(next);
     const chineseTail = /[\u3400-\u9fff]$/u.test(current) &&
@@ -234,7 +235,14 @@ export function renderGrammar(text, title = '') {
       i--;
       continue;
     }
+    const dictionaryEntry=value=>value?.match(/^(.+?\s*\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\))\s*-\s*(.+)$/u);
+    if(dictionaryEntry(line)){
+      const meanings={'le temps':'天气','le ciel':'天空','la neige':'雪','le vent':'风',"l'hiver":'冬天','le Nord':'北方','la région':'地区','les saisons':'四季','le Sud':'南方','décembre':'十二月','la France':'法国','le printemps':'春天','le mois de mars':'三月','la verdure':'绿意；草木','les fleurs':'花','les arbres':'树木',"l'été":'夏天','la pluie':'雨','le soleil':'太阳；阳光','les cultures':'农作物','les fruits':'水果',"l'automne":'秋天','le tapis':'地毯','la robe rousse':'红褐色的裙子','les herbes':'草','les feuilles':'叶子','la bise':'寒风',"l'année":'一年','les zones tempérées':'温带地区','la fin':'结束','le retour':'归来','neiger':'下雪','geler':'结冰','souffler':'吹','détester':'讨厌','plaire':'使人喜欢','pleuvoir':'下雨','finir':'完成；结束','arriver':'到达','verdir':'变绿','fleurir':'开花','accueillir':'欢迎；迎接','venir':'来','pousser':'生长','grandir':'长大；增长','partir':'离开','rougir':'变红','jaunir':'变黄','mûrir':'成熟','tomber':'落下','revenir':'回来','attendre':'等待','roux/rousse':'红褐色的','beau/belle':'美丽的','tempérées':'温带的','jaune':'黄色的','Quand':'什么时候'};
+      const rows=[];while(dictionaryEntry(lines[i])){const [,word,meaning]=dictionaryEntry(lines[i++]);const key=word.replace(/\s*\([^()]+\)$/u,'').trim();if(!rows.some(row=>row[0]===word))rows.push([word,meaning,meanings[key]||'']);}i--;
+      output.push(rows.every(row=>row[2])?table(['法语词语','英文释义','中文释义'],rows):table(['法语词语','英文释义'],rows.map(row=>row.slice(0,2))));continue;
+    }
     const soundRules = [
+      ['an / en / am / em', 'an、en、am、em', '[ɑ̃]', '本组例词含鼻元音 [ɑ̃]；不要把 n、m 单独读出来。单词的实际读音仍需逐词确认。', 'enfant（孩子）、manger（吃）、chambre（房间）、emballer（打包）'],
       ['et 在单字末尾', '词尾 -et、ai、è、ê、ei', '[ɛ]', '这些例词读 [ɛ]；ai 的读音随单词变化。', 'faire（做）、père（父亲）、fête（节日）、jouet（玩具）'],
       ['i, î, y', 'i、î、y', '[i]', '本组例词读 [i]。', 'île（岛）、si（如果）、Fanny（人名）'],
       ['oi', 'oi', '[wa]', '本组例词中的 oi 读 [wa]。', 'moi（我）、toi（你）、loi（法律）'],
@@ -248,7 +256,7 @@ export function renderGrammar(text, title = '') {
     const soundRule = soundRules.find(([start]) => line === start || (start.length > 2 && line.startsWith(start)));
     if (soundRule) {
       output.push('<section class="sound-rule"><h3 class="grammar-subhead">'+escape(line)+'</h3>' +
-        pronunciationAudio(({'et 在单字末尾':'open-e','i, î, y':'i','oi':'wa','tion 的发音':'tion','发音部分 in, im':'nasal-in','eau / au / aux':'o','u / eux':'eu','[j]':'j','ou':'ou'})[soundRule[0]]) + table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
+        pronunciationAudio(({'an / en / am / em':'nasal-an','et 在单字末尾':'open-e','i, î, y':'i','oi':'wa','tion 的发音':'tion','发音部分 in, im':'nasal-in','eau / au / aux':'o','u / eux':'eu','[j]':'j','ou':'ou'})[soundRule[0]]) + table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
       if (!/^[^（(]+[（(][^）)]+[）)]\s*[-–—]\s*[^（(]+[（(][^）)]+[）)]$/u.test(lines[i+1]??'')) continue;
     }
     if (/^(?:phonics|发音)$/iu.test(title) && /^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)) {

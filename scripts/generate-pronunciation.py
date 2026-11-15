@@ -3,6 +3,7 @@ import asyncio,json
 from pathlib import Path
 import edge_tts
 CLIPS={
+ 'nasal-an':'Enfant. Manger. Temps. Penser. Chambre. Ambulance. Emballer. Un enfant entre dans la chambre.',
  'e':'Thé. Été. Mes amis. Assez. Venez. Aller. Cet été, mes amis prennent le thé.',
  'open-e':'Faire. Lait. Père. Très. Fête. Tête. Seize. Jouet. Mon père fait la fête.',
  'i':'Île. Si. Fanny. Ici. Une petite île. Fanny habite ici.',

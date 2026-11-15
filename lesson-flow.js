@@ -61,5 +61,22 @@ export function buildLessonFlow(material,candidates=[]){
   const pronunciation={...section,title:'发音',text:section.text.slice(start,finish).trim()};
   return [...(remainder?[{...section,text:remainder}]:[]),pronunciation];
  });
- return {grammar:[...separated,...phonicsTopics],readings};
+ let result=[...separated,...phonicsTopics];
+ if(material.id==='lesson-06'){
+  result=result.flatMap(section=>{
+   if(section.title==='名词'){
+    const at=section.text.indexOf('在东边：');
+    return at<0?[section]:[{...section,text:section.text.slice(0,at).trim()},{...section,title:'方位',text:section.text.slice(at).trim()}];
+   }
+   if(section.title==='形容词'){
+    const points=[['形容词',0],...['疑问词','副词','拼读'].map(title=>[title,section.text.indexOf(title)]).filter(([,at])=>at>=0)];
+    return points.map(([title,at],i)=>({...section,title:title==='拼读'?'发音':title,text:(title==='拼读'?'an / en / am / em\n':'')+section.text.slice(at,points[i+1]?.[1]??section.text.length).trim()}));
+   }
+   return [section];
+  });
+  const merged=[];
+  for(const section of result){const existing=['名词','动词'].includes(section.title)&&merged.find(s=>s.title===section.title);if(existing)existing.text+='\n'+section.text.replace(new RegExp('^'+section.title+'\\s*\\n'),'');else merged.push({...section});}
+  result=merged;
+ }
+ return {grammar:result,readings};
 }
