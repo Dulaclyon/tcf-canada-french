@@ -10,7 +10,7 @@ const request=(route,{method='GET',cookie,body,origin=base}={})=>fetch(base+rout
 const login=async(email,password)=>{const r=await request('/api/login',{method:'POST',body:{email,password}});assert.equal(r.status,200);return r.headers.get('set-cookie').split(';')[0];};
 try{
  assert.equal((await request('/')).status,200);
- for(const route of ['/app.html','/src/data/courses.json','/bank/index.json','/bank/audio/example.m4a','/admin.html'])assert.equal((await request(route)).status,303);
+ for(const route of ['/app.html','/src/data/courses.json','/bank/index.json','/bank/audio/example.m4a','/pronunciation-audio/e.mp3','/admin.html'])assert.equal((await request(route)).status,303);
  assert.equal((await request('/api/admin/users')).status,401);
  assert.equal((await request('/api/login',{method:'POST',body:{email:'teacher@example.test',password:'wrong'}})).status,401);
  const admin=await login('teacher@example.test','teacher-password-test');
@@ -23,6 +23,7 @@ try{
  const sb=await login(b.email,b.password);await request('/api/password',{cookie:sb,method:'POST',body:{current:b.password,password:'student-password-b'}});
  assert.equal((await request('/api/admin/users',{cookie:sa})).status,403);
  assert.equal((await request('/app.html',{cookie:sa})).status,200);
+ const clip=await fetch(base+'/pronunciation-audio/e.mp3',{headers:{cookie:sa,range:'bytes=0-99'}});assert.equal(clip.status,206);assert.equal(clip.headers.get('content-type'),'audio/mpeg');assert.equal((await clip.arrayBuffer()).byteLength,100);
  await request('/api/progress',{cookie:sa,method:'PUT',body:{key:'tcf-bank-completed-v1',value:{sample:'done'}}});
  assert.deepEqual(await (await request('/api/progress',{cookie:sb})).json(),{});
  const second=await login(a.email,'student-password-a');assert.deepEqual(await (await request('/api/progress',{cookie:second})).json(),{'tcf-bank-completed-v1':{sample:'done'}});

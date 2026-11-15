@@ -2,6 +2,7 @@ import { mkdir, copyFile, cp, rm } from 'node:fs/promises';
 await rm('dist',{recursive:true,force:true});
 await mkdir('dist',{recursive:true});
 for(const f of ['login.html','admin.html','login.js','admin.js','account.css','possessive-recap.js','basic-verbs.js','student-storage.js','index.html','app.js','bank.js','bank-progress.js','grammar-layout.js','lesson-flow.js','grammar.css','styles.css','manifest.webmanifest','sw.js','icon.svg','privacy.html']) await copyFile(f,`dist/${f}`);
+await cp('pronunciation-audio','dist/pronunciation-audio',{recursive:true});
 await cp('src/data','dist/src/data',{recursive:true});
 await copyFile('index.html','dist/app.html');
 await copyFile('landing.html','dist/index.html');

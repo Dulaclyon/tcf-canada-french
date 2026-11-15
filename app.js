@@ -78,6 +78,7 @@ function ruleSummary(rules) {
 function topicHeading(title,index,total){return `<header class="topic-heading"><span class="topic-number">${String(index).padStart(2,'0')}</span><div><p class="topic-position">知识点 ${index} / ${total}</p><h2>${esc(title)}</h2></div></header>`;}
 let activeReadingButton;
 function stopReading() {
+  document.querySelectorAll('audio[data-phonics-audio]').forEach(audio=>audio.pause());
   if (!activeReadingButton) return;
   activeReadingButton.textContent = '合成朗读';
   activeReadingButton = undefined;
@@ -105,6 +106,7 @@ function addReadingAudio(root) {
   });
 
   const pronunciation = [...root.querySelectorAll('.article-rule-card')].flatMap(block => {
+    if(block.querySelector('audio[data-phonics-audio]'))return [];
     if (!block.querySelector('h3')?.textContent.match(/→\s*\[/u)) return [];
     const rows = [...block.querySelectorAll('tbody tr')];
     return [{
@@ -293,3 +295,5 @@ function recordAnswer(ex,correct,answer){state.attempts.push({id:ex.id,courseId:
 window.addEventListener('hashchange',route);
 try{const result=await Promise.all([fetch('./src/data/courses.json'),fetch('./src/data/exam.json?v=7'),fetch('./src/data/materials.json?v=34')]);if(result.some(r=>!r.ok))throw Error('内容文件加载失败');[courses,exam,materials]=await Promise.all(result.map(r=>r.json()));if(!Array.isArray(courses))throw Error('课程格式错误');route();if(false&&'serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(reg=>{reg.addEventListener('updatefound',()=>{const w=reg.installing;w?.addEventListener('statechange',()=>{if(w.state==='installed'&&navigator.serviceWorker.controller)toast('发现新版本，关闭所有本应用窗口后重新打开即可更新。')})})}).catch(err=>console.warn('离线功能不可用',err));}catch(err){console.error(err);empty('学习内容未能载入','请检查网络并刷新。离线使用需先在线打开一次。');}
 export {normalize,wordCount,valid};
+
+document.addEventListener('play',event=>{if(event.target.matches?.('audio[data-phonics-audio]')){if(activeReadingButton){window.speechSynthesis.cancel();activeReadingButton.textContent='合成朗读';activeReadingButton=undefined;}document.querySelectorAll('audio').forEach(audio=>{if(audio!==event.target)audio.pause();});}},true);

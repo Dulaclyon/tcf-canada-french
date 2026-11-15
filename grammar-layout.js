@@ -16,6 +16,7 @@ function example(text, title) {
 function table(headers, rows, caption = '') {
   return `<div class="grammar-table-wrap"><table class="grammar-table">${caption ? `<caption>${escape(caption)}</caption>` : ''}<thead><tr>${headers.map(h=>`<th scope="col">${escape(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((cell,i)=>i===0?`<th scope="row">${escape(cell)}</th>`:`<td>${escape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
+function pronunciationAudio(key){return `<figure class="phonics-playback"><figcaption>示范发音 <small>合成语音 · 听后跟读</small></figcaption><audio controls preload="none" data-phonics-audio src="./pronunciation-audio/${key}.mp3" aria-label="${key} 发音示范"></audio></figure>`;}
 function formula(text) {
   const pieces = text.split(/(→|\+)/u);
   return `<div class="grammar-formula" aria-label="句型结构">${pieces.map(p=>/^(→|\+)$/u.test(p)?`<span class="formula-operator">${escape(p)}</span>`:`<span class="formula-term">${escape(p)}</span>`).join('')}</div>`;
@@ -86,11 +87,11 @@ function vowelGroups(text) {
   });
   return '<div class="grammar-content article-reference">' +
     '<section class="article-rule-card"><h3 class="grammar-subhead">01 · eau / au / aux → [o]</h3>' +
-    '<p class="grammar-rule">这三种拼写在本组例词中均读 [o]。</p>' +
+    '<p class="grammar-rule">这三种拼写在本组例词中均读 [o]。</p>' + pronunciationAudio('o') +
     table(['例词', '读音', '释义'], exampleRows(lines.slice(first+1, second))) +
     '</section><section class="article-rule-card"><h3 class="grammar-subhead">02 · eu → [ø]</h3>' +
     '<p class="grammar-rule">以下例词中的 eu 均读 [ø]。eu、œu 在其他词中也可读 [œ]，如 sœur [sœʁ]（姐妹）。单独的 u 通常读 [y]。</p>' +
-    table(['例词', '读音', '释义'], exampleRows(lines.slice(second+1))) +
+    pronunciationAudio('eu') + table(['例词', '读音', '释义'], exampleRows(lines.slice(second+1))) +
     '<details class="quiet-details"><summary>原课件记法</summary><p>' +
     escape(lines.slice(0,first+1).join(' ')) + '</p><p>' + escape(lines[second]) +
     '</p></details></section></div>';
@@ -247,12 +248,12 @@ export function renderGrammar(text, title = '') {
     const soundRule = soundRules.find(([start]) => line === start || (start.length > 2 && line.startsWith(start)));
     if (soundRule) {
       output.push('<section class="sound-rule"><h3 class="grammar-subhead">'+escape(line)+'</h3>' +
-        table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
+        pronunciationAudio(({'et 在单字末尾':'open-e','i, î, y':'i','oi':'wa','tion 的发音':'tion','发音部分 in, im':'nasal-in','eau / au / aux':'o','u / eux':'eu','[j]':'j','ou':'ou'})[soundRule[0]]) + table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
       if (!/^[^（(]+[（(][^）)]+[）)]\s*[-–—]\s*[^（(]+[（(][^）)]+[）)]$/u.test(lines[i+1]??'')) continue;
     }
     if (/^(?:phonics|发音)$/iu.test(title) && /^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)) {
       output.push('<section class="sound-rule"><h3 class="grammar-subhead">发音 [e]</h3>' +
-        '<p class="grammar-rule">下面几组拼写在所列例词中都读 [e]。按“拼写 → 读音 → 例词”一起记。</p>' +
+        '<p class="grammar-rule">下面几组拼写在所列例词中都读 [e]。按“拼写 → 读音 → 例词”一起记。</p>' + pronunciationAudio('e') +
         table(['拼写', '读音', '例词'], [['é', '[e]', 'thé（茶）、été（夏天）'], ['-es（部分单音节词）', '[e]', 'mes（我的）、tes（你的）、ses（他／她的）、les（定冠词复数）'], ['-ez（本组词尾）', '[e]', 'assez（足够）、venez（来）'], ['-er（本组动词原形词尾）', '[e]', 'aller（去）、quitter（离开）']]) +
         '<p class="grammar-rule">注意：并非所有 -es 都读 [e]；很多词尾 -es 不发音。-er 也有例外，如 mer [mɛʁ]（海）。</p></section>');
       continue;

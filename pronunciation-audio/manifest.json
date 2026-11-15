@@ -1,0 +1,17 @@
+{
+  "voice": "fr-FR-DeniseNeural",
+  "rate": "-8%",
+  "origin": "generated-speech",
+  "clips": {
+    "e": "Thé. Été. Mes amis. Assez. Venez. Aller. Cet été, mes amis prennent le thé.",
+    "open-e": "Faire. Lait. Père. Très. Fête. Tête. Seize. Jouet. Mon père fait la fête.",
+    "i": "Île. Si. Fanny. Ici. Une petite île. Fanny habite ici.",
+    "wa": "Moi. Toi. Loi. Foie. Soi. Viens avec moi. Toi et moi.",
+    "tion": "La situation. La nation. La conversation. La solution. La décision. Nous cherchons une solution.",
+    "nasal-in": "Pain. Train. Matin. Impossible. Demain. Je prends le train demain matin.",
+    "o": "Eau. Chaud. Beau. Aux. Un beau cadeau. Il fait chaud. Je bois de l’eau.",
+    "eu": "Feu. Peu. Eux. Heureux. Sœur. Heure. Un peu. Deux heures. Ma sœur est heureuse.",
+    "j": "Bien. Pied. Voyage. Travail. Détail. Fille. Famille. Bouteille. Ma famille prépare un voyage.",
+    "ou": "Nous. Vous. Tout. Doux. Loup. Joue. Goût. Jouer. Nous jouons avec vous."
+  }
+}
