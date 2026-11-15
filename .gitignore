@@ -9,3 +9,6 @@ qa-local/
 
 imports/
 bank-pack/
+
+.student-data/
+*.sqlite*

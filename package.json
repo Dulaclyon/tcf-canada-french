@@ -8,7 +8,9 @@
     "check": "node scripts/check.mjs",
     "build": "node scripts/build.mjs",
     "test": "node scripts/check.mjs && node scripts/check-auth.mjs && node scripts/check-google-auth.mjs",
-    "build:hosted": "node scripts/build-hosted.mjs"
+    "build:hosted": "node scripts/build-hosted.mjs",
+    "start": "node server/server.mjs",
+    "test:students": "node scripts/check-student-auth.mjs"
   },
   "engines": {
     "node": ">=20"

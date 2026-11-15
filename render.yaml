@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: tcf-student-portal
+    runtime: node
+    plan: starter
+    buildCommand: npm run build && python3 scripts/unpack-bank.py
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 24.22.1
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATA_DIR
+        value: /var/data/tcf
+      - key: PUBLIC_ORIGIN
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+    disk:
+      name: student-database
+      mountPath: /var/data
+      sizeGB: 1
