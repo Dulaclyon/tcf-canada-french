@@ -43,5 +43,11 @@ export function buildLessonFlow(material,candidates=[]){
   for(const a of articles){const where=span(text,a.text);if(where){add({title:a.title,text:text.slice(...where),page:b.page,kind:'reading'});text=(text.slice(0,where[0])+'\n'+text.slice(where[1])).trim();}}
   if(text)grammar.push({...b,text});
  }
- return {grammar:[...grammar,...phonicsTopics],readings};
+ const organized=grammar.flatMap(section=>{
+  if(material.id!=='lesson-05'||section.title!=='天气')return [section];
+  const marker=/^tion 的发音\s*$/mu.exec(section.text);
+  if(!marker)return [section];
+  return [{...section,text:section.text.slice(0,marker.index).trim(),weather:true},{...section,title:'发音',text:section.text.slice(marker.index).trim()}];
+ });
+ return {grammar:[...organized,...phonicsTopics],readings};
 }
