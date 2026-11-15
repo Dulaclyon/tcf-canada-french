@@ -13,7 +13,7 @@ for(const m of materials)for(const p of m.pages)for(const b of p.sections){
  const rendered=canonical(plain(html));
  const lines=b.text.split('\n').map(x=>x.trim()).filter(Boolean);
  if(lines[0]===b.title.trim())lines.shift();
- for(const line of lines){assert(rendered.includes(canonical(line)) || (html.includes('class="conjugation-card"') && conjugationText(rendered).includes(conjugationText(canonical(line)))),`${m.id} / ${b.title}: lost text ${line}`);checked++;}
+ for(const line of lines){if(b.title==='phonics'&&/^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)){assert(html.includes('发音 [e]')&&html.includes('mes（我的）')&&html.includes('并非所有 -es'));checked++;continue;}assert(rendered.includes(canonical(line)) || (html.includes('class="conjugation-card"') && conjugationText(rendered).includes(conjugationText(canonical(line)))),`${m.id} / ${b.title}: lost text ${line}`);checked++;}
 }
 assert(renderGrammar('<img src=x onerror=alert(1)>').includes('&lt;img'));
 assert(!renderGrammar('<script>alert(1)</script>').includes('<script>'));
@@ -70,3 +70,9 @@ const separatePrepositions=renderGrammar("à Paris 在巴黎\nà la maison 没�
 assert.equal((separatePrepositions.match(/class="grammar-bilingual/g)||[]).length,2,'Independent bilingual entries must remain separate');
 const wrappedGloss=plain(renderGrammar("Il est arrivé en retard. 他迟到了，这件事让大家很惊\n讶。",'例句'));
 assert(wrappedGloss.includes('他迟到了，这件事让大家很惊讶。'),'A wrapped Chinese tail belongs to its original translation');
+
+const phonics=renderGrammar(find(2,'phonics').text,'phonics');
+assert(phonics.includes('发音 [e]'));
+assert(!plain(phonics).includes('phonics é;'));
+assert(!phonics.includes('原课件记法'));
+console.log('Phonics heading and spelling table replace the misleading split source label.');

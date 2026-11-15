@@ -144,6 +144,7 @@ function reflowSourceLines(text) {
   for (let i = 0; i < lines.length - 1; i++) {
     const current = lines[i], next = lines[i + 1];
     if (!current || !next) continue;
+    if (/^phonics$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
     const translation = /^[（(][^A-Za-zÀ-ÿ]*[\u3400-\u9fff][^A-Za-zÀ-ÿ]*[）)]$/u.test(next);
     const chineseTail = /[\u3400-\u9fff]$/u.test(current) &&
       /^[\u3400-\u9fff]/u.test(next) && !boundary.test(current) &&
@@ -179,7 +180,7 @@ export function renderGrammar(text, title = '') {
     if (organized) return organized;
   }
   const lines = reflowSourceLines(String(text ?? '')).map(s=>s.replace(/^[•·]\s*/u,'')).flatMap(s=>s.replace(/([\u3400-\u9fff])\s+(?=(?:Je|J[’']|Tu|Il|Elle|Nous|Vous|Ils|Elles)\b)/gu,'$1\n').split('\n')).filter(Boolean);
-  if (lines[0] === title.trim()) lines.shift();
+  if (lines[0] === title.trim() || (/^(?:phonics|发音)$/iu.test(title) && /^phonics$/iu.test(lines[0]??''))) lines.shift();
   if (title === '发音' && /^Phonics?\s+发音/iu.test(lines[0] ?? '')) lines.shift();
   // Rejoin adjacent PDF lines when the second line closes a parenthetical.
   for (let i = 0; i < lines.length - 1; i++) {
@@ -249,10 +250,10 @@ export function renderGrammar(text, title = '') {
         table(['拼写组合', '音标', '适用说明'], [soundRule.slice(1)]) + '</section>');
     }
     if (/^(?:phonics|发音)$/iu.test(title) && /^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)) {
-      output.push('<section class="sound-rule"><h3 class="grammar-subhead">相同发音 [e]</h3>' +
-        '<p class="grammar-rule">本组例词中的 é，以及词尾 es、ez、er，均读作 [e]。</p>' +
-        '<p class="grammar-rule">词尾 es 读 [e] 的例子有 mes、tes、ses、les。其他单词的词尾 es 常不发音，词尾 er 也有例外。</p>' +
-        '<details class="quiet-details"><summary>原课件记法</summary><p>' + inline(line, title) + '</p></details></section>');
+      output.push('<section class="sound-rule"><h3 class="grammar-subhead">发音 [e]</h3>' +
+        '<p class="grammar-rule">下面几组拼写在所列例词中都读 [e]。按“拼写 → 读音 → 例词”一起记。</p>' +
+        table(['拼写', '读音', '例词'], [['é', '[e]', 'thé（茶）、été（夏天）'], ['-es（部分单音节词）', '[e]', 'mes（我的）、tes（你的）、ses（他／她的）、les（定冠词复数）'], ['-ez（本组词尾）', '[e]', 'assez（足够）、venez（来）'], ['-er（本组动词原形词尾）', '[e]', 'aller（去）、quitter（离开）']]) +
+        '<p class="grammar-rule">注意：并非所有 -es 都读 [e]；很多词尾 -es 不发音。-er 也有例外，如 mer [mɛʁ]（海）。</p></section>');
       continue;
     }
     const soundPair = value => value?.match(/^([^（(]+)([（(][^）)]+[）)])\s*[-–—]\s*([^（(]+)([（(][^）)]+[）)])$/u);
