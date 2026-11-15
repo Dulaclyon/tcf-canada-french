@@ -17,3 +17,5 @@ The bank archive is split into 20 MB parts for GitHub's web uploader. The build 
 Listening and reading each use one shared page with series, set and question dropdowns. Existing thematic exercises are normalized into the same four-choice renderer without changing their answers or explanations. Older bank and thematic URLs remain supported.
 
 The progress board summarizes the selected series as not started, in progress and completed, with clickable previews and an overall completion count. Completion is explicitly chosen using “本组已完成” and saved in `tcf-bank-completed-v1`; answering all questions does not silently mark a set complete. The next-set button becomes available after marking the current set complete. Unchecking restores the appropriate started/unstarted state without deleting answers.
+
+Synthetic thematic listening exercises were removed at the owner’s request. Listening now offers only the 95 uploaded sets with original recordings. Thematic reading exercises remain available. Existing saved records are not deleted.

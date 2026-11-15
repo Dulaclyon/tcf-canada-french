@@ -54,7 +54,7 @@ assert(!fs.readFileSync('app.js','utf8').includes('<summary>完整内容</summar
 execFileSync(process.execPath,['scripts/check-lesson-flow.mjs'],{stdio:'inherit'});
 
 for (const kind of ['listening','reading']) {
- assert(e[kind].length >= 3);
+ assert(kind==='listening'?e[kind].length===0:e[kind].length>=3,kind+': retain reading exercises; imported recordings replace synthetic listening');
  for (const passage of e[kind]) {
   assert(passage.id && passage.text && ['本站原创训练','回忆主题拓展'].includes(passage.source));
   assert(!ids.has(passage.id)); ids.add(passage.id);
