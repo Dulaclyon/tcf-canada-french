@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {combineBasicVerbs,visibleLessonTopics,renderTimeExpressions} from '../basic-verbs.js';
+import {buildLessonFlow} from '../lesson-flow.js';
+const material=JSON.parse(fs.readFileSync('src/data/materials.json')).find(m=>m.id==='lesson-02');
+const sections=combineBasicVerbs(material,buildLessonFlow(material).grammar);
+const linked=new Set();const all=sections.map(b=>{const topics=material.supplements.filter(x=>(b.sourceTitles||[b.title]).includes(x.anchor)&&!linked.has(x.id));topics.forEach(x=>linked.add(x.id));return {...b,topics};});
+all.push(...material.supplements.filter(x=>!linked.has(x.id)).map(b=>({...b,origin:'supplement',text:b.rule})));
+const nodes=visibleLessonTopics(all),time=nodes.find(n=>n.title==='动作与时间');
+assert.ok(time,'Action and time must appear in the lesson navigation despite its short introduction');
+assert.equal(nodes.findIndex(n=>n===time),nodes.findIndex(n=>n.verbSections)+1);
+assert.equal(all[time.index].timeExpressions,true,'Navigation index must select the time-expression renderer');
+for(const pattern of ['être en train de','aller +','venir de +'])assert.ok(renderTimeExpressions().includes(pattern));
+assert.ok(fs.readFileSync('app.js','utf8').includes('const nodes=visibleLessonTopics(all);'));
+console.log('Unit 1 navigation regression passed: short authored topic is visible and selects all three time patterns.');
