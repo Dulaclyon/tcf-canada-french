@@ -1,4 +1,4 @@
-import {renderBank} from './bank.js?v=2';
+import {renderBank} from './bank.js?v=3';
 import {buildLessonFlow} from './lesson-flow.js?v=22';
 import {renderGrammar,renderArticle} from './grammar-layout.js?v=44';
 const KEY='french-learning-v1';
