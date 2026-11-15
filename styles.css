@@ -76,3 +76,5 @@ button,input,select,textarea{font-family:var(--font-ui)}main{max-width:1240px;pa
   color: #fff;
   font-weight: 650;
 }
+/* Imported reading/listening sets */
+.bank-entry{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:1.5rem 0;padding:1.25rem 1.5rem;border:1px solid var(--line,#ddd);border-radius:14px;background:#f3f4fa}.bank-entry p{margin:.3rem 0 0}.bank-set-grid h2{font-size:1.15rem}.bank-question-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,1fr);gap:24px;align-items:start}.bank-stimulus audio{width:100%;margin:12px 0 24px}.bank-question-image{display:block;max-width:100%;height:auto;margin:16px auto}.bank-source-text,.bank-transcript{font-size:1.08rem;line-height:1.85;overflow-wrap:anywhere}.bank-source-text p,.bank-transcript p{margin:.7em 0}.bank-options{border:0;padding:0;margin:0 0 20px;min-width:0}.bank-options legend{font-size:.9rem;color:#626878;margin-bottom:12px}.bank-set-grid [hidden]{display:none}@media(max-width:900px){.bank-question-layout{grid-template-columns:1fr}.bank-entry{align-items:flex-start;flex-direction:column}}

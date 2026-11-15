@@ -1,0 +1,105 @@
+{
+  "sha256": "1c173f3d4d1668cf52df830ea57bdc3f2e24f10a7148f23f642d86f0aa75258c",
+  "parts": [
+    {
+      "name": "bank-000.part",
+      "sha256": "d81a88ec5d9d152853b71d57a5c2d4bd5f70db4dfb4c1c9fde50acc521d40c5a",
+      "size": 20000000
+    },
+    {
+      "name": "bank-001.part",
+      "sha256": "7c16d062d23d78dd44a9079a0b38b89834e2a464f35bf2adc7d074f0e641e620",
+      "size": 20000000
+    },
+    {
+      "name": "bank-002.part",
+      "sha256": "5eee3df43c3c1a5f866f46d9720dd49bae4bb0d2ec92a1cbecafa7c9cd326ee7",
+      "size": 20000000
+    },
+    {
+      "name": "bank-003.part",
+      "sha256": "8ed78d2484e84f3fce58f924d1a77e019f37033d1115e85c24c252784d289415",
+      "size": 20000000
+    },
+    {
+      "name": "bank-004.part",
+      "sha256": "008a4da6a4822bac966a8b57f5f09d69d63de6116ceb611523d62f176f27f430",
+      "size": 20000000
+    },
+    {
+      "name": "bank-005.part",
+      "sha256": "5f61e791cab273430f121dd2318bd50956476520772ccfc3223404f4b6291160",
+      "size": 20000000
+    },
+    {
+      "name": "bank-006.part",
+      "sha256": "0aa7e3b9de81dc01af1fdc5b33ffa71f89d2fd0977cd86fd799c4ad477ce785f",
+      "size": 20000000
+    },
+    {
+      "name": "bank-007.part",
+      "sha256": "1f769e9ebc1f0c33929771d79133ebc12adbd0f82a5898c658cd6acb8f5cbafc",
+      "size": 20000000
+    },
+    {
+      "name": "bank-008.part",
+      "sha256": "0c6dfe01347bcf0942aead1436eebd1f469e29c16f9f6e9829d9ba3e5a711ecf",
+      "size": 20000000
+    },
+    {
+      "name": "bank-009.part",
+      "sha256": "0e3d320fef22ff5951fcc9f62d0bb6b48675b8453aa5ec5b9b2b4abc4c2405e5",
+      "size": 20000000
+    },
+    {
+      "name": "bank-010.part",
+      "sha256": "be42c34130a76e8bc520b3a3b83825fdfe4e0019ce04f3cd6fafb0b855381c68",
+      "size": 20000000
+    },
+    {
+      "name": "bank-011.part",
+      "sha256": "e7f1541f750c297363b7a299bb5c75858d4f1ec2af12c683a932e3a1e798aa1d",
+      "size": 20000000
+    },
+    {
+      "name": "bank-012.part",
+      "sha256": "914070e0340776a91003415df7d7cf3db035dbeb2d459dffb2bb81071be6a52b",
+      "size": 20000000
+    },
+    {
+      "name": "bank-013.part",
+      "sha256": "78148466df1ded0985cbdb2c0f614689f6fa739da445d23337685eebe66687dc",
+      "size": 20000000
+    },
+    {
+      "name": "bank-014.part",
+      "sha256": "1f136a5c20f9c6b00d6c6b6ee494ba710a656eddcdde5e9b49bec5ffdf4ec72d",
+      "size": 20000000
+    },
+    {
+      "name": "bank-015.part",
+      "sha256": "cdca104faffee71182e26fa6f66ad6a7fce704e0f9248ea17922dc0aa9b23d34",
+      "size": 20000000
+    },
+    {
+      "name": "bank-016.part",
+      "sha256": "2c255d1723efa44e59ffb7d2f459c82895ec6a388ad095accbd29b4741f936f5",
+      "size": 20000000
+    },
+    {
+      "name": "bank-017.part",
+      "sha256": "4bc2c33734c537f9805e575d2949f1a1957b2cd73bf08205e5a4b6c4d5a2b96e",
+      "size": 20000000
+    },
+    {
+      "name": "bank-018.part",
+      "sha256": "5c36180333e671510085a04e913f3c4f72d62f7c38c3d870b4126075e098ff78",
+      "size": 20000000
+    },
+    {
+      "name": "bank-019.part",
+      "sha256": "f0e82bdabd0be480b6aa2e42018fda141fd7d80f840ea548522a84ffbd18e91a",
+      "size": 2578295
+    }
+  ]
+}

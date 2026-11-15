@@ -6,3 +6,6 @@ node_modules/
 !.env.example
 qa-local/
 .openai/deploy-state/
+
+imports/
+bank-pack/

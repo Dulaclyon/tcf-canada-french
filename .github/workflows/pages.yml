@@ -24,6 +24,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: npm test
       - run: npm run build
+      - run: python3 scripts/unpack-bank.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
