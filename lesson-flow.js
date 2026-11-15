@@ -49,5 +49,17 @@ export function buildLessonFlow(material,candidates=[]){
   if(!marker)return [section];
   return [{...section,text:section.text.slice(0,marker.index).trim(),weather:true},{...section,title:'发音',text:section.text.slice(marker.index).trim()}];
  });
- return {grammar:[...organized,...phonicsTopics],readings};
+ const separated=organized.flatMap(section=>{
+  if(section.title==='发音'||section.title==='phonics')return [section];
+  const marker=/^(?:发音部分(?:[^\n]*)?|Phonics?\s+发音(?:[^\n]*)?|\[j\])\s*$/imu.exec(section.text);
+  if(!marker)return [section];
+  const start=marker.index;
+  const tail=section.text.slice(start);
+  const end=/^主格&宾格\s*$/mu.exec(tail);
+  const finish=end?start+end.index:section.text.length;
+  const remainder=(section.text.slice(0,start)+'\n'+section.text.slice(finish)).trim();
+  const pronunciation={...section,title:'发音',text:section.text.slice(start,finish).trim()};
+  return [...(remainder?[{...section,text:remainder}]:[]),pronunciation];
+ });
+ return {grammar:[...separated,...phonicsTopics],readings};
 }
