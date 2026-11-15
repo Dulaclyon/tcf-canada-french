@@ -198,6 +198,102 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": "名词"
+      },
+      {
+        "anchor": "一般疑问句",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/int2.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "id": "lesson-02-questions-answers",
+        "title": "一般疑问句与回答",
+        "rule": "一般疑问句用来确认一件事，通常用 oui（是）或 non（不是）回答。初学时可用 est-ce que + 陈述句；后面的主语和动词保持正常顺序。",
+        "table": {
+          "headers": [
+            "表达方式",
+            "例句",
+            "中文"
+          ],
+          "rows": [
+            [
+              "语调提问",
+              "Tu es Crystal ?",
+              "你是 Crystal 吗？（口语中升调）"
+            ],
+            [
+              "est-ce que 提问",
+              "Est-ce que tu es Crystal ?",
+              "你是 Crystal 吗？"
+            ],
+            [
+              "主谓倒装",
+              "Es-tu Crystal ?",
+              "你是 Crystal 吗？（较正式）"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Est-ce que tu es Crystal ? — Oui, je suis Crystal.",
+            "zh": "你是 Crystal 吗？——是的，我是 Crystal。"
+          },
+          {
+            "fr": "Est-ce que vous êtes amis ? — Oui, nous sommes amis.",
+            "zh": "你们是朋友吗？——是的，我们是朋友。"
+          },
+          {
+            "fr": "Est-ce qu’il est étudiant ? — Non, il n’est pas étudiant.",
+            "zh": "他是学生吗？——不是，他不是学生。"
+          }
+        ],
+        "pitfall": "est-ce que 在 il、elle、on 等元音开头的词前变为 est-ce qu’：Est-ce qu’elle est ici ? 回答时按说话者调整主语：tu → je，vous（你们）→ nous。"
+      },
+      {
+        "anchor": "一般疑问句",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/neg1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "id": "lesson-02-negative-basics",
+        "title": "否定句 ne…pas",
+        "rule": "基本结构：主语 + ne / n’ + 变位动词 + pas + 其余成分。ne 在元音或哑音 h 前缩合为 n’；pas 的位置不变。",
+        "table": {
+          "headers": [
+            "肯定句",
+            "否定句"
+          ],
+          "rows": [
+            [
+              "Je suis Crystal.",
+              "Je ne suis pas Crystal."
+            ],
+            [
+              "Il est étudiant.",
+              "Il n’est pas étudiant."
+            ],
+            [
+              "C’est un lit.",
+              "Ce n’est pas un lit."
+            ],
+            [
+              "Ce sont deux maisons.",
+              "Ce ne sont pas deux maisons."
+            ],
+            [
+              "Nous faisons la valise.",
+              "Nous ne faisons pas la valise."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "Est-ce que c’est un lit ? — Non, ce n’est pas un lit. C’est un canapé.",
+            "zh": "这是一张床吗？——不是，这不是床。这是一张沙发。"
+          },
+          {
+            "fr": "Est-ce qu’elle fait le lit ? — Non, elle ne fait pas le lit.",
+            "zh": "她在铺床吗？——没有，她没有在铺床。"
+          }
+        ],
+        "pitfall": "C’est 的否定写作 Ce n’est pas，不写 C’ne est pas。être 后的 un / une 通常保留：Ce n’est pas un lit。初学书写时保留 ne / n’，不要照口语省略。"
       }
     ],
     "exercises": [
