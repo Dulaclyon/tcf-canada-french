@@ -1,4 +1,6 @@
 export const messages = {
+  "让法语": {"en":"Make French","zh-TW":"讓法語"},
+  "融入你的生活": {"en":"part of your life","zh-TW":"融入你的生活"},
   "文章与练习": {"en":"readings and practice","zh-TW":"文章與練習"},
   "你的下一章。": {"en":"Your next chapter.","zh-TW":"你的下一章。"},
   "基础法语与 TCF Canada 备考。": {"en":"French foundations and TCF Canada preparation.","zh-TW":"基礎法語與 TCF Canada 備考。"},
