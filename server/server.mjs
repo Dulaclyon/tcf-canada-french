@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {writingSubmissions} from './writing-submissions.mjs';
 import {sections,allSections,basicOnly,validPermissions} from './section-permissions.mjs';
 import {DatabaseSync} from 'node:sqlite';
 import {randomBytes,scryptSync,timingSafeEqual,createHash} from 'node:crypto';
@@ -32,6 +33,7 @@ if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
  if(!email(e)||!p||p.length<12)throw Error('First start requires ADMIN_EMAIL and ADMIN_PASSWORD (12+ characters).');
  db.prepare('INSERT INTO users VALUES(?,?,?,?,0,1)').run(randomBytes(16).toString('hex'),e,hash(p),'admin');
 }
+const handleWriting=writingSubmissions(db,root,permissionsFor);
 const keys=new Set(['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1']);
 const publicFiles=new Set(['index.html','landing.css','icon.svg','privacy.html','login.html','account.css','login.js']);
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.m4a':'audio/mp4','.mp3':'audio/mpeg','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
@@ -59,6 +61,7 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/logout'&&req.method==='POST'){db.prepare('DELETE FROM sessions WHERE token=?').run(user.token);return send(200,{ok:true},{'Set-Cookie':'tcf_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0'});}
  if(route==='/api/password'&&req.method==='POST'){const b=await body();if(typeof b.password!=='string'||b.password.length<12||b.password.length>256||b.password===b.current||!verify(String(b.current||''),user.password))return send(400,{error:'当前密码错误，或新密码不足 12 位'});db.prepare('UPDATE users SET password=?,must_change=0 WHERE id=?').run(hash(b.password),user.id);db.prepare('DELETE FROM sessions WHERE user_id=? AND token<>?').run(user.id,user.token);return send(200,{ok:true});}
  if(user.must_change)return send(403,{error:'请先修改临时密码'});
+ if(route.startsWith('/api/writing/')||route.startsWith('/api/admin/writing'))return await handleWriting({route,req,url,user,body,send});
  if(route==='/api/progress'&&req.method==='GET')return send(200,Object.fromEntries(db.prepare('SELECT key,value FROM progress WHERE user_id=?').all(user.id).map(r=>[r.key,JSON.parse(r.value)])));
  if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));return send(200,{ok:true});}
  if(route.startsWith('/api/admin/')){
@@ -75,7 +78,7 @@ const server=http.createServer(async(req,res)=>{
  }
  let name=path.posix.normalize(decodeURIComponent(route)).replace(/^\//,'')||'index.html';if(name==='login')name='login.html';if(name==='admin')name='admin.html';
  if(!publicFiles.has(name)&&(!user||user.must_change)){res.writeHead(303,{Location:'/login.html','Cache-Control':'no-store'});return res.end();}
- if(name==='admin.html'&&user?.role!=='admin')return send(403,{error:'仅管理员可操作'});
+ if(['admin.html','submissions.html','submissions.js'].includes(name)&&user?.role!=='admin')return send(403,{error:'仅管理员可操作'});
  if(name==='sw.js')return send(404,'');
  const access=user?permissionsFor(user):null;
  if(user&&user.role!=='admin'){
