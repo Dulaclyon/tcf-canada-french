@@ -52,7 +52,7 @@ export function setLanguage(value){if(!languages.has(value))return;language=valu
 function init(){
  const container=document.createElement('label');container.className='language-control';container.setAttribute('aria-label','Interface language');
  const select=document.createElement('select');select.id='interface-language';select.setAttribute('aria-label','Interface language');
- for(const [value,label] of [['en','English'],['zh-CN','简体中文'],['zh-TW','繁體中文（台灣）']]){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
+ for(const [value,label] of [['en','English'],['zh-CN','简体中文'],['zh-TW','繁體中文']]){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
  container.append(select);(document.querySelector('header')||document.body).append(container);select.onchange=()=>setLanguage(select.value);
  observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;render();});});render();
 }
