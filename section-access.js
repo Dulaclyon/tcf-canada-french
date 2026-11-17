@@ -1,0 +1,1 @@
+export function routeSection(page){return ({courses:'basics',course:'basics',material:'basics',articles:'basics',article:'basics',practice:'basics',review:'basics',listening:'listening',reading:'reading',oral:'oral',writing:'writing'})[page];}

@@ -89,3 +89,5 @@ footer .ownership-note{margin:8px 0 0;line-height:1.7}
 .basic-verb-block{border-top:1px solid #e1e4ee;margin-top:28px;padding-top:24px}.basic-verb-block h3{font-size:1.2rem;margin:0 0 12px}.basic-verb-block h3 small{display:block;font-size:.88rem;font-weight:400;color:#68718a;margin-top:5px}.basic-verb-block h4{font-size:.9rem;margin:18px 0 10px}.basic-verb-examples .grammar-example{padding:10px 0;margin:0}.basic-verb-pattern{color:#56617b}.basic-verbs .grammar-translation{margin-top:4px}
 
 .phonics-playback{margin:16px 0 20px}.phonics-playback figcaption{font-size:.85rem;margin-bottom:8px;color:#414c68}.phonics-playback small{font-weight:400;color:#7a8294;margin-left:8px}.phonics-playback audio{display:block;width:100%;max-width:380px;height:40px}
+
+.section-locked::after{content:"未开放";font-size:11px;opacity:.7;margin-left:auto}.section-locked{opacity:.65}
