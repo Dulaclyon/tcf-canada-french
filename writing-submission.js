@@ -15,7 +15,7 @@ export function mountWritingSubmission(editor,question,account,onSubmit){
   rows.forEach((row,i)=>{const option=document.createElement('option');option.value=String(i);option.textContent=date(row.submitted_at)+(row.reviewed_at?' · 已批改':' · 待批改');select.append(option);});
   const detail=document.createElement('div');const show=()=>{
    const row=rows[Number(select.value)];detail.replaceChildren();
-   const feedbackTitle=document.createElement('h3');feedbackTitle.textContent='教师评语';const feedback=document.createElement('p');feedback.className='submission-text';feedback.textContent=row.reviewed_at?row.feedback:'老师尚未批改。';
+   const feedbackTitle=document.createElement('h3');feedbackTitle.textContent='教师评语';const feedback=document.createElement('p');feedback.className=row.reviewed_at?'submission-text':'muted';feedback.textContent=row.reviewed_at?row.feedback:'老师尚未批改。';
    const saved=document.createElement('details');saved.open=true;const summary=document.createElement('summary');summary.textContent='已提交作文 · '+date(row.submitted_at);const text=document.createElement('p');text.className='submission-text';text.lang='fr';text.textContent=row.text;saved.append(summary,text);detail.append(feedbackTitle,feedback,saved);
   };select.onchange=show;history.append(label,select,detail);show();
  };

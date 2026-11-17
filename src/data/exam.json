@@ -259,8 +259,8 @@
     {
       "id": "user-recall-oral-introduction",
       "task": 1,
-      "topic": "用户提供 · 回忆题",
-      "title": "旅行经历与未来规划",
+      "topic": "Sujet remémoré",
+      "title": "Voyages et projets",
       "prompt": "Présentez-vous, puis répondez aux questions de l’examinateur concernant votre dernier voyage à l’étranger et vos projets d’avenir.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -296,8 +296,8 @@
     {
       "id": "user-recall-oral-building",
       "task": 2,
-      "topic": "用户提供 · 回忆题",
-      "title": "向邻居了解大楼",
+      "topic": "Sujet remémoré",
+      "title": "Découvrir son immeuble",
       "prompt": "Je suis votre voisin dans l’immeuble où vous venez d’emménager. Vous souhaitez mieux connaître votre nouveau lieu de vie. Posez-moi des questions sur les habitants, les espaces communs et les règles de l’immeuble.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -334,8 +334,8 @@
     {
       "id": "user-recall-oral-stress",
       "task": 3,
-      "topic": "用户提供 · 回忆题",
-      "title": "压力能激励人吗",
+      "topic": "Sujet remémoré",
+      "title": "Le stress comme motivation",
       "prompt": "Le stress peut-il être un bon stimulant ? Donnez votre avis et développez vos arguments à l’aide d’exemples.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -373,8 +373,8 @@
     {
       "id": "recall-202608-o2-childcare",
       "task": 2,
-      "topic": "2026年8月 · 回忆话题改写",
-      "title": "周末照顾孩子",
+      "topic": "Sujet remémoré · août 2026",
+      "title": "Garder un enfant le week-end",
       "prompt": "Je suis le parent d’une enfant de trois ans. Vous allez vous occuper d’elle ce week-end. Pour organiser ces deux jours, demandez-moi les informations nécessaires sur ses horaires, son alimentation, ses activités et les précautions à prendre.",
       "guide": [
         "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
@@ -414,8 +414,8 @@
     {
       "id": "recall-202608-o3-school",
       "task": 3,
-      "topic": "2026年8月 · 回忆话题改写",
-      "title": "学校的教育职责",
+      "topic": "Sujet remémoré · août 2026",
+      "title": "Les missions de l’école",
       "prompt": "Selon vous, quelles missions une école devrait-elle assurer au-delà de l’enseignement des matières ? Développez votre réponse avec des raisons et des exemples.",
       "guide": [
         "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
@@ -458,15 +458,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 120,
       "id": "fei-o1-introduction",
-      "title": "自我介绍",
-      "topic": "官方样题",
-      "prompt": "介绍个人情况，并回答考官围绕家庭、学习、工作、兴趣和生活等方面的追问。",
+      "title": "Se présenter",
+      "topic": "Exemple officiel",
+      "prompt": "Présentez votre situation personnelle. Répondez aux questions de l’examinateur sur votre famille, vos études, votre travail, vos loisirs et votre vie quotidienne.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 2,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -485,7 +485,8 @@
         "是否给出具体细节？",
         "是否能听懂并回答追问？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -493,15 +494,15 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "fei-o2-01",
-      "title": "了解公益协会",
-      "topic": "官方样题",
-      "prompt": "向协会负责人了解帮助困难人群的活动、成员和经费。",
+      "title": "Découvrir une association",
+      "topic": "Exemple officiel",
+      "prompt": "Je dirige une association qui accompagne des personnes en difficulté. Vous souhaitez découvrir notre action. Interrogez-moi sur nos activités, les personnes qui y participent et nos moyens de financement.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 3,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -521,7 +522,8 @@
         "是否问清必要信息并追问？",
         "称呼及礼貌表达是否适合角色？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -529,15 +531,15 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "fei-o2-02",
-      "title": "招募作业辅导志愿者",
-      "topic": "官方样题",
-      "prompt": "你为课业辅导协会招募志愿者，向应聘者了解经验、培训背景和动机。",
+      "title": "Recruter des bénévoles",
+      "topic": "Exemple officiel",
+      "prompt": "Vous recrutez des bénévoles pour une association de soutien scolaire. Je souhaite devenir bénévole. Posez-moi des questions sur mon expérience, ma formation et mes motivations.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 3,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -557,7 +559,8 @@
         "是否问清必要信息并追问？",
         "称呼及礼貌表达是否适合角色？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -565,15 +568,15 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "fei-o2-03",
-      "title": "寻找照顾猫的人",
-      "topic": "官方样题",
-      "prompt": "你度假期间需要有人照顾猫，向应聘者了解动机、喜好和性格，以判断是否合适。",
+      "title": "Faire garder son chat",
+      "topic": "Exemple officiel",
+      "prompt": "Vous cherchez une personne pour garder votre chat pendant vos vacances. Je vous propose mon aide. Posez-moi des questions sur mes motivations, mes habitudes et mon caractère afin de savoir si je conviens.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 3,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -593,7 +596,8 @@
         "是否问清必要信息并追问？",
         "称呼及礼貌表达是否适合角色？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -601,15 +605,15 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "fei-o2-04",
-      "title": "咨询文化活动",
-      "topic": "官方样题",
-      "prompt": "你想参加文化活动，向对方咨询活动类型、特色、地点和费用。",
+      "title": "Les activités culturelles",
+      "topic": "Exemple officiel",
+      "prompt": "Je peux vous renseigner sur les activités culturelles proposées dans la ville. Vous souhaitez y participer. Demandez-moi des précisions sur les activités, leurs particularités, les lieux et les tarifs.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 3,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -629,7 +633,8 @@
         "是否问清必要信息并追问？",
         "称呼及礼貌表达是否适合角色？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -637,15 +642,15 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "fei-o2-05",
-      "title": "咨询公共交通",
-      "topic": "官方样题",
-      "prompt": "向对方了解法国公共交通的班次、时间和票价。",
+      "title": "Les transports en commun",
+      "topic": "Exemple officiel",
+      "prompt": "Je vous renseigne sur les transports en commun en France. Posez-moi des questions pour connaître les lignes, les horaires, la fréquence des passages et les prix.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 3,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -665,7 +670,8 @@
         "是否问清必要信息并追问？",
         "称呼及礼貌表达是否适合角色？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -673,15 +679,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "fei-o3-01",
-      "title": "宜居的国家",
-      "topic": "官方样题",
-      "prompt": "谈谈你心目中宜居国家的特点。",
+      "title": "Un pays où il fait bon vivre",
+      "topic": "Exemple officiel",
+      "prompt": "Quelles caractéristiques un pays devrait-il avoir pour que l’on y vive bien ? Expliquez votre point de vue avec des exemples.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -701,7 +707,8 @@
         "理由、例子和让步是否连贯？",
         "结论是否回应原问题？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -709,15 +716,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "fei-o3-02",
-      "title": "保留本国价值观",
-      "topic": "官方样题",
-      "prompt": "你认为原籍国有哪些重要价值观值得保留？",
+      "title": "Les valeurs de son pays",
+      "topic": "Exemple officiel",
+      "prompt": "Quelles valeurs importantes de votre pays d’origine souhaitez-vous conserver ? Expliquez vos choix.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -737,7 +744,8 @@
         "理由、例子和让步是否连贯？",
         "结论是否回应原问题？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -745,15 +753,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "fei-o3-03",
-      "title": "选择人道援助活动",
-      "topic": "官方样题",
-      "prompt": "如果参与人道援助，你会选择什么活动？解释原因。",
+      "title": "Une action humanitaire",
+      "topic": "Exemple officiel",
+      "prompt": "Si vous participiez à une action humanitaire, quelle activité choisiriez-vous ? Justifiez votre réponse.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -773,7 +781,8 @@
         "理由、例子和让步是否连贯？",
         "结论是否回应原问题？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -781,15 +790,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "fei-o3-04",
-      "title": "旅行与个人成长",
-      "topic": "官方样题",
-      "prompt": "你是否赞同旅行能让人变得更好？说明理由。",
+      "title": "Voyager et grandir",
+      "topic": "Exemple officiel",
+      "prompt": "Selon vous, voyager nous aide-t-il à devenir meilleurs ? Présentez votre opinion et développez vos arguments.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -809,7 +818,8 @@
         "理由、例子和让步是否连贯？",
         "结论是否回应原问题？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -817,15 +827,15 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "fei-o3-05",
-      "title": "没有石油的生活",
-      "topic": "官方样题",
-      "prompt": "谈谈人类能否在没有石油的情况下生活。",
+      "title": "Vivre sans pétrole",
+      "topic": "Exemple officiel",
+      "prompt": "Pensez-vous que l’humanité puisse vivre sans pétrole ? Expliquez votre position.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-eo",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -845,7 +855,8 @@
         "理由、例子和让步是否连贯？",
         "结论是否回应原问题？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 1,
@@ -853,8 +864,8 @@
       "preparationSeconds": 0,
       "answerSeconds": 120,
       "id": "recall-o1-moncton",
-      "title": "移民与专业选择",
-      "topic": "考生回忆",
+      "title": "S’installer au Canada et choisir ses études",
+      "topic": "Sujet remémoré",
       "prompt": "Expliquez ce qui vous a conduit à envisager une installation au Canada et comment vous avez choisi votre domaine d’études. Préparez-vous à répondre aux questions complémentaires.",
       "source": "recalled",
       "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
@@ -889,8 +900,8 @@
       "preparationSeconds": 120,
       "answerSeconds": 210,
       "id": "recall-o2-moncton",
-      "title": "咨询山地度假",
-      "topic": "考生回忆",
+      "title": "Un séjour à la montagne",
+      "topic": "Sujet remémoré",
       "prompt": "Un ami revient d’un séjour à la montagne. Vous souhaitez préparer un voyage comparable. Interrogez-le sur les possibilités de loisirs, le budget et l’organisation.",
       "source": "recalled",
       "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
@@ -926,8 +937,8 @@
       "preparationSeconds": 0,
       "answerSeconds": 270,
       "id": "recall-o3-moncton",
-      "title": "学校与机会平等",
-      "topic": "考生回忆",
+      "title": "L’école et l’égalité des chances",
+      "topic": "Sujet remémoré",
       "prompt": "À votre avis, tous les élèves bénéficient-ils des mêmes chances dans le système scolaire ? Présentez votre position et appuyez-la sur des situations concrètes.",
       "source": "recalled",
       "sourceUrl": "https://www.reddit.com/r/learningfrench/comments/1wckhlj/tcf_canada_exam_yesterday/",
@@ -960,8 +971,8 @@
     {
       "id": "o1-01",
       "task": 1,
-      "topic": "个人经历",
-      "title": "个人经历 · 1",
+      "topic": "Expériences personnelles",
+      "title": "Expériences personnelles · 1",
       "prompt": "Présentez-vous et expliquez pourquoi vous apprenez le français.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -986,13 +997,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-02",
       "task": 1,
-      "topic": "家庭",
-      "title": "家庭 · 2",
+      "topic": "Famille",
+      "title": "Famille · 2",
       "prompt": "Parlez des personnes avec qui vous aimez passer du temps.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1017,13 +1029,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-03",
       "task": 1,
-      "topic": "工作",
-      "title": "工作 · 3",
+      "topic": "Travail",
+      "title": "Travail · 3",
       "prompt": "Décrivez votre travail et une responsabilité importante.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1048,13 +1061,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-04",
       "task": 1,
-      "topic": "学习",
-      "title": "学习 · 4",
+      "topic": "Études",
+      "title": "Études · 4",
       "prompt": "Présentez une matière que vous avez aimé étudier.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1079,13 +1093,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-05",
       "task": 1,
-      "topic": "住房",
-      "title": "住房 · 5",
+      "topic": "Logement",
+      "title": "Logement · 5",
       "prompt": "Décrivez votre logement actuel et ce que vous appréciez.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1110,13 +1125,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-06",
       "task": 1,
-      "topic": "交通",
-      "title": "交通 · 6",
+      "topic": "Transports",
+      "title": "Transports · 6",
       "prompt": "Comment vous déplacez-vous au quotidien ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1141,13 +1157,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-07",
       "task": 1,
-      "topic": "旅行",
-      "title": "旅行 · 7",
+      "topic": "Voyages",
+      "title": "Voyages · 7",
       "prompt": "Racontez brièvement un voyage qui vous a marqué.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1172,13 +1189,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-08",
       "task": 1,
-      "topic": "消费",
-      "title": "消费 · 8",
+      "topic": "Consommation",
+      "title": "Consommation · 8",
       "prompt": "Comment choisissez-vous les produits que vous achetez ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1203,13 +1221,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-09",
       "task": 1,
-      "topic": "公共服务",
-      "title": "公共服务 · 9",
+      "topic": "Services publics",
+      "title": "Services publics · 9",
       "prompt": "Quelle bibliothèque ou quel service utilisez-vous régulièrement ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1234,13 +1253,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-10",
       "task": 1,
-      "topic": "科技",
-      "title": "科技 · 10",
+      "topic": "Technologie",
+      "title": "Technologie · 10",
       "prompt": "Quel outil numérique vous aide dans votre vie quotidienne ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1265,13 +1285,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-11",
       "task": 1,
-      "topic": "环境",
-      "title": "环境 · 11",
+      "topic": "Environnement",
+      "title": "Environnement · 11",
       "prompt": "Que faites-vous pour réduire vos déchets ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1296,13 +1317,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-12",
       "task": 1,
-      "topic": "社会",
-      "title": "社会 · 12",
+      "topic": "Société",
+      "title": "Société · 12",
       "prompt": "Aimez-vous participer à la vie de votre quartier ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1327,13 +1349,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-13",
       "task": 1,
-      "topic": "兴趣",
-      "title": "兴趣 · 13",
+      "topic": "Loisirs",
+      "title": "Loisirs · 13",
       "prompt": "Parlez d’une activité que vous pratiquez pendant votre temps libre.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1358,13 +1381,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-14",
       "task": 1,
-      "topic": "健康",
-      "title": "健康 · 14",
+      "topic": "Santé",
+      "title": "Santé · 14",
       "prompt": "Comment prenez-vous soin de votre santé ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1389,13 +1413,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-15",
       "task": 1,
-      "topic": "饮食",
-      "title": "饮食 · 15",
+      "topic": "Alimentation",
+      "title": "Alimentation · 15",
       "prompt": "Décrivez un plat que vous aimez préparer.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1420,13 +1445,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-16",
       "task": 1,
-      "topic": "友谊",
-      "title": "友谊 · 16",
+      "topic": "Amitié",
+      "title": "Amitié · 16",
       "prompt": "Comment avez-vous rencontré un ami proche ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1451,13 +1477,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-17",
       "task": 1,
-      "topic": "城市",
-      "title": "城市 · 17",
+      "topic": "Ville",
+      "title": "Ville · 17",
       "prompt": "Présentez la ville où vous avez grandi.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1482,13 +1509,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-18",
       "task": 1,
-      "topic": "语言",
-      "title": "语言 · 18",
+      "topic": "Langues",
+      "title": "Langues · 18",
       "prompt": "Qu’est-ce qui vous semble difficile en français ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1513,13 +1541,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-19",
       "task": 1,
-      "topic": "未来",
-      "title": "未来 · 19",
+      "topic": "Avenir",
+      "title": "Avenir · 19",
       "prompt": "Quels sont vos projets pour les prochaines années ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1544,13 +1573,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-20",
       "task": 1,
-      "topic": "作息",
-      "title": "作息 · 20",
+      "topic": "Vie quotidienne",
+      "title": "Vie quotidienne · 20",
       "prompt": "Décrivez une journée habituelle.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1575,13 +1605,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-21",
       "task": 1,
-      "topic": "运动",
-      "title": "运动 · 21",
+      "topic": "Sport",
+      "title": "Sport · 21",
       "prompt": "Quelle place le sport occupe-t-il dans votre vie ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1606,13 +1637,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-22",
       "task": 1,
-      "topic": "阅读",
-      "title": "阅读 · 22",
+      "topic": "Lecture",
+      "title": "Lecture · 22",
       "prompt": "Parlez d’un livre ou d’un article intéressant.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1637,13 +1669,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-23",
       "task": 1,
-      "topic": "文化",
-      "title": "文化 · 23",
+      "topic": "Culture",
+      "title": "Culture · 23",
       "prompt": "Présentez une fête que vous aimez célébrer.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1668,13 +1701,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-24",
       "task": 1,
-      "topic": "工作",
-      "title": "工作 · 24",
+      "topic": "Travail",
+      "title": "Travail · 24",
       "prompt": "Préférez-vous travailler seul ou en équipe ? Expliquez avec un exemple.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1699,13 +1733,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-25",
       "task": 1,
-      "topic": "学习",
-      "title": "学习 · 25",
+      "topic": "Études",
+      "title": "Études · 25",
       "prompt": "Comment organisez-vous votre apprentissage ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1730,13 +1765,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-26",
       "task": 1,
-      "topic": "住房",
-      "title": "住房 · 26",
+      "topic": "Logement",
+      "title": "Logement · 26",
       "prompt": "Quel serait votre quartier idéal ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1761,13 +1797,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-27",
       "task": 1,
-      "topic": "旅行",
-      "title": "旅行 · 27",
+      "topic": "Voyages",
+      "title": "Voyages · 27",
       "prompt": "Comment préparez-vous vos vacances ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1792,13 +1829,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-28",
       "task": 1,
-      "topic": "消费",
-      "title": "消费 · 28",
+      "topic": "Consommation",
+      "title": "Consommation · 28",
       "prompt": "Parlez d’un achat dont vous êtes satisfait.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1823,13 +1861,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-29",
       "task": 1,
-      "topic": "家庭",
-      "title": "家庭 · 29",
+      "topic": "Famille",
+      "title": "Famille · 29",
       "prompt": "Quelle activité aimez-vous partager en famille ?",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1854,13 +1893,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o1-30",
       "task": 1,
-      "topic": "适应",
-      "title": "适应 · 30",
+      "topic": "Adaptation",
+      "title": "Adaptation · 30",
       "prompt": "Racontez votre première journée dans un lieu nouveau.",
       "guide": [
         "用两三句回答问题，再用一件具体小事展开。",
@@ -1885,13 +1925,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 120
+      "answerSeconds": 120,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-01",
       "task": 2,
-      "topic": "住房",
-      "title": "住房 · 1",
+      "topic": "Logement",
+      "title": "Logement · 1",
       "prompt": "Je suis propriétaire d’un appartement à louer. Vous cherchez un logement. Interrogez-moi sur le loyer, les charges, les équipements et les conditions de location.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -1917,13 +1958,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-02",
       "task": 2,
-      "topic": "交通",
-      "title": "交通 · 2",
+      "topic": "Transports",
+      "title": "Transports · 2",
       "prompt": "Je travaille au service des transports. Vous souhaitez acheter un abonnement. Posez-moi des questions sur les tarifs, les zones et les horaires.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -1949,13 +1991,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-03",
       "task": 2,
-      "topic": "学习",
-      "title": "学习 · 3",
+      "topic": "Études",
+      "title": "Études · 3",
       "prompt": "Je suis responsable d’une école de langues. Vous voulez suivre un cours du soir. Demandez des précisions sur les niveaux, les horaires et l’inscription.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -1981,13 +2024,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-04",
       "task": 2,
-      "topic": "工作",
-      "title": "工作 · 4",
+      "topic": "Travail",
+      "title": "Travail · 4",
       "prompt": "Je recrute un assistant pour une association. Vous êtes intéressé. Renseignez-vous sur les missions, les horaires et les compétences attendues.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2013,13 +2057,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-05",
       "task": 2,
-      "topic": "旅行",
-      "title": "旅行 · 5",
+      "topic": "Voyages",
+      "title": "Voyages · 5",
       "prompt": "Je suis agent de voyage. Vous préparez un week-end sans voiture. Renseignez-vous sur les destinations, le transport et le budget.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2045,13 +2090,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-06",
       "task": 2,
-      "topic": "消费",
-      "title": "消费 · 6",
+      "topic": "Consommation",
+      "title": "Consommation · 6",
       "prompt": "Je vends un ordinateur d’occasion. Vous envisagez de l’acheter. Interrogez-moi sur son état, ses caractéristiques et les modalités de vente.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2077,13 +2123,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-07",
       "task": 2,
-      "topic": "公共服务",
-      "title": "公共服务 · 7",
+      "topic": "Services publics",
+      "title": "Services publics · 7",
       "prompt": "Je suis bibliothécaire. Vous venez d’arriver dans la ville. Demandez comment vous inscrire, emprunter des livres et participer aux activités.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2109,13 +2156,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-08",
       "task": 2,
-      "topic": "科技",
-      "title": "科技 · 8",
+      "topic": "Technologie",
+      "title": "Technologie · 8",
       "prompt": "Je travaille dans un atelier de réparation. Votre téléphone ne fonctionne plus. Renseignez-vous sur le diagnostic, le délai et le prix.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2141,13 +2189,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-09",
       "task": 2,
-      "topic": "环境",
-      "title": "环境 · 9",
+      "topic": "Environnement",
+      "title": "Environnement · 9",
       "prompt": "J’organise une collecte de déchets dans le quartier. Vous voulez participer. Posez-moi des questions sur le lieu, le matériel et les consignes.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2173,13 +2222,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-10",
       "task": 2,
-      "topic": "家庭",
-      "title": "家庭 · 10",
+      "topic": "Famille",
+      "title": "Famille · 10",
       "prompt": "Je propose des activités pour enfants dans un centre communautaire. Vous cherchez une activité pour votre enfant. Renseignez-vous.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2205,13 +2255,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-11",
       "task": 2,
-      "topic": "健康",
-      "title": "健康 · 11",
+      "topic": "Santé",
+      "title": "Santé · 11",
       "prompt": "Je suis à l’accueil d’une salle de sport. Vous voulez essayer un cours. Informez-vous sur les abonnements et les conditions d’essai.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2237,13 +2288,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-12",
       "task": 2,
-      "topic": "饮食",
-      "title": "饮食 · 12",
+      "topic": "Alimentation",
+      "title": "Alimentation · 12",
       "prompt": "Je travaille dans un restaurant. Vous organisez un repas de groupe. Demandez des précisions sur les menus, les allergies et la réservation.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2269,13 +2321,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-13",
       "task": 2,
-      "topic": "文化",
-      "title": "文化 · 13",
+      "topic": "Culture",
+      "title": "Culture · 13",
       "prompt": "Je suis bénévole dans un festival. Vous souhaitez y aller. Interrogez-moi sur le programme, les billets et l’accessibilité.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2301,13 +2354,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-14",
       "task": 2,
-      "topic": "社会",
-      "title": "社会 · 14",
+      "topic": "Société",
+      "title": "Société · 14",
       "prompt": "Je coordonne une association d’aide aux nouveaux arrivants. Vous souhaitez devenir bénévole. Posez-moi des questions.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2333,13 +2387,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-15",
       "task": 2,
-      "topic": "工作",
-      "title": "工作 · 15",
+      "topic": "Travail",
+      "title": "Travail · 15",
       "prompt": "Je suis votre nouveau collègue. Vous commencez lundi. Demandez-moi comment se déroule la première journée de travail.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2365,13 +2420,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-16",
       "task": 2,
-      "topic": "住房",
-      "title": "住房 · 16",
+      "topic": "Logement",
+      "title": "Logement · 16",
       "prompt": "Je cherche un colocataire. Vous êtes intéressé. Renseignez-vous sur les espaces partagés, les habitudes et le partage des dépenses.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2397,13 +2453,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-17",
       "task": 2,
-      "topic": "旅行",
-      "title": "旅行 · 17",
+      "topic": "Voyages",
+      "title": "Voyages · 17",
       "prompt": "Je tiens une maison d’hôtes. Vous souhaitez y séjourner avec un ami. Posez-moi des questions sur les chambres et les services.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2429,13 +2486,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-18",
       "task": 2,
-      "topic": "消费",
-      "title": "消费 · 18",
+      "topic": "Consommation",
+      "title": "Consommation · 18",
       "prompt": "Je suis vendeur dans un magasin de vélos. Vous cherchez un vélo pour aller au travail. Demandez-moi conseil.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2461,13 +2519,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-19",
       "task": 2,
-      "topic": "公共服务",
-      "title": "公共服务 · 19",
+      "topic": "Services publics",
+      "title": "Services publics · 19",
       "prompt": "Je suis à l’accueil d’une mairie. Vous souhaitez réserver une salle pour un événement. Renseignez-vous sur la procédure.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2493,13 +2552,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-20",
       "task": 2,
-      "topic": "学习",
-      "title": "学习 · 20",
+      "topic": "Études",
+      "title": "Études · 20",
       "prompt": "J’anime un atelier de photographie pour débutants. Vous voulez vous inscrire. Demandez des détails sur le contenu et le matériel.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2525,13 +2585,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-21",
       "task": 2,
-      "topic": "交通",
-      "title": "交通 · 21",
+      "topic": "Transports",
+      "title": "Transports · 21",
       "prompt": "Je propose un trajet en covoiturage. Vous souhaitez voyager avec moi. Interrogez-moi sur le départ, les bagages et le partage des frais.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2557,13 +2618,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-22",
       "task": 2,
-      "topic": "环境",
-      "title": "环境 · 22",
+      "topic": "Environnement",
+      "title": "Environnement · 22",
       "prompt": "Je travaille dans un jardin partagé. Vous aimeriez avoir une parcelle. Demandez des précisions sur les règles et les disponibilités.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2589,13 +2651,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-23",
       "task": 2,
-      "topic": "科技",
-      "title": "科技 · 23",
+      "topic": "Technologie",
+      "title": "Technologie · 23",
       "prompt": "Je gère un espace de travail partagé. Vous voulez y travailler deux jours par semaine. Renseignez-vous sur les équipements et les tarifs.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2621,13 +2684,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-24",
       "task": 2,
-      "topic": "健康",
-      "title": "健康 · 24",
+      "topic": "Santé",
+      "title": "Santé · 24",
       "prompt": "Je travaille dans un centre de loisirs. Vous souhaitez apprendre à nager. Interrogez-moi sur les cours pour adultes.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2653,13 +2717,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-25",
       "task": 2,
-      "topic": "文化",
-      "title": "文化 · 25",
+      "topic": "Culture",
+      "title": "Culture · 25",
       "prompt": "Je suis responsable d’un musée. Vous préparez une visite de groupe. Renseignez-vous sur les visites guidées et les réservations.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2685,13 +2750,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-26",
       "task": 2,
-      "topic": "家庭",
-      "title": "家庭 · 26",
+      "topic": "Famille",
+      "title": "Famille · 26",
       "prompt": "Je garde des animaux à domicile. Vous partez trois jours avec votre famille. Demandez des renseignements sur mes services et mon expérience.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2717,13 +2783,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-27",
       "task": 2,
-      "topic": "消费",
-      "title": "消费 · 27",
+      "topic": "Consommation",
+      "title": "Consommation · 27",
       "prompt": "Je suis au service après-vente. Votre appareil neuf est défectueux. Demandez les conditions d’échange ou de réparation.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2749,13 +2816,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-28",
       "task": 2,
-      "topic": "工作",
-      "title": "工作 · 28",
+      "topic": "Travail",
+      "title": "Travail · 28",
       "prompt": "J’organise un salon de l’emploi. Vous souhaitez y assister. Demandez quels employeurs seront présents et comment vous préparer.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2781,13 +2849,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-29",
       "task": 2,
-      "topic": "社会",
-      "title": "社会 · 29",
+      "topic": "Société",
+      "title": "Société · 29",
       "prompt": "Je suis votre voisin. Une fête de quartier est prévue. Posez-moi des questions pour savoir comment aider à l’organisation.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2813,13 +2882,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o2-30",
       "task": 2,
-      "topic": "旅行",
-      "title": "旅行 · 30",
+      "topic": "Voyages",
+      "title": "Voyages · 30",
       "prompt": "Je suis guide local. Vous recherchez une promenade accessible pour un parent âgé. Informez-vous sur le parcours et les pauses.",
       "guide": [
         "确认双方角色与称呼，先说明自己的需求。",
@@ -2845,13 +2915,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 120,
-      "answerSeconds": 210
+      "answerSeconds": 210,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-01",
       "task": 3,
-      "topic": "工作",
-      "title": "工作 · 1",
+      "topic": "Travail",
+      "title": "Travail · 1",
       "prompt": "Le télétravail devrait-il être proposé à tous les salariés dont le métier le permet ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -2877,13 +2948,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-02",
       "task": 3,
-      "topic": "科技",
-      "title": "科技 · 2",
+      "topic": "Technologie",
+      "title": "Technologie · 2",
       "prompt": "Les réseaux sociaux rapprochent-ils vraiment les personnes ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -2909,13 +2981,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-03",
       "task": 3,
-      "topic": "环境",
-      "title": "环境 · 3",
+      "topic": "Environnement",
+      "title": "Environnement · 3",
       "prompt": "Faut-il limiter la place de la voiture dans les centres-villes ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -2941,13 +3014,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-04",
       "task": 3,
-      "topic": "学习",
-      "title": "学习 · 4",
+      "topic": "Études",
+      "title": "Études · 4",
       "prompt": "Est-il préférable d’apprendre une langue seul ou dans un groupe ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -2973,13 +3047,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-05",
       "task": 3,
-      "topic": "住房",
-      "title": "住房 · 5",
+      "topic": "Logement",
+      "title": "Logement · 5",
       "prompt": "Vaut-il mieux louer ou acheter son logement ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3005,13 +3080,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-06",
       "task": 3,
-      "topic": "交通",
-      "title": "交通 · 6",
+      "topic": "Transports",
+      "title": "Transports · 6",
       "prompt": "Les transports en commun devraient-ils être gratuits ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3037,13 +3113,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-07",
       "task": 3,
-      "topic": "旅行",
-      "title": "旅行 · 7",
+      "topic": "Voyages",
+      "title": "Voyages · 7",
       "prompt": "Voyager loin est-il nécessaire pour découvrir d’autres cultures ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3069,13 +3146,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-08",
       "task": 3,
-      "topic": "消费",
-      "title": "消费 · 8",
+      "topic": "Consommation",
+      "title": "Consommation · 8",
       "prompt": "Acheter moins permet-il de mieux vivre ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3101,13 +3179,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-09",
       "task": 3,
-      "topic": "公共服务",
-      "title": "公共服务 · 9",
+      "topic": "Services publics",
+      "title": "Services publics · 9",
       "prompt": "Les services publics doivent-ils rester accessibles sans Internet ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3133,13 +3212,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-10",
       "task": 3,
-      "topic": "家庭",
-      "title": "家庭 · 10",
+      "topic": "Famille",
+      "title": "Famille · 10",
       "prompt": "Les grands-parents jouent-ils encore un rôle essentiel dans l’éducation ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3165,13 +3245,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-11",
       "task": 3,
-      "topic": "健康",
-      "title": "健康 · 11",
+      "topic": "Santé",
+      "title": "Santé · 11",
       "prompt": "Les employeurs devraient-ils encourager l’activité physique au travail ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3197,13 +3278,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-12",
       "task": 3,
-      "topic": "社会",
-      "title": "社会 · 12",
+      "topic": "Société",
+      "title": "Société · 12",
       "prompt": "Le bénévolat devrait-il être intégré aux études ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3229,13 +3311,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-13",
       "task": 3,
-      "topic": "科技",
-      "title": "科技 · 13",
+      "topic": "Technologie",
+      "title": "Technologie · 13",
       "prompt": "Faut-il interdire les téléphones pendant les cours ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3261,13 +3344,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-14",
       "task": 3,
-      "topic": "环境",
-      "title": "环境 · 14",
+      "topic": "Environnement",
+      "title": "Environnement · 14",
       "prompt": "Les gestes individuels suffisent-ils pour protéger l’environnement ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3293,13 +3377,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-15",
       "task": 3,
-      "topic": "工作",
-      "title": "工作 · 15",
+      "topic": "Travail",
+      "title": "Travail · 15",
       "prompt": "Le salaire est-il le principal critère pour choisir un emploi ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3325,13 +3410,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-16",
       "task": 3,
-      "topic": "学习",
-      "title": "学习 · 16",
+      "topic": "Études",
+      "title": "Études · 16",
       "prompt": "Peut-on apprendre efficacement uniquement grâce à des cours en ligne ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3357,13 +3443,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-17",
       "task": 3,
-      "topic": "文化",
-      "title": "文化 · 17",
+      "topic": "Culture",
+      "title": "Culture · 17",
       "prompt": "Les musées devraient-ils être gratuits pour tous ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3389,13 +3476,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-18",
       "task": 3,
-      "topic": "消费",
-      "title": "消费 · 18",
+      "topic": "Consommation",
+      "title": "Consommation · 18",
       "prompt": "Les avis en ligne sont-ils fiables pour choisir un produit ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3421,13 +3509,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-19",
       "task": 3,
-      "topic": "住房",
-      "title": "住房 · 19",
+      "topic": "Logement",
+      "title": "Logement · 19",
       "prompt": "Vivre dans une petite ville offre-t-il une meilleure qualité de vie ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3453,13 +3542,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-20",
       "task": 3,
-      "topic": "旅行",
-      "title": "旅行 · 20",
+      "topic": "Voyages",
+      "title": "Voyages · 20",
       "prompt": "Faut-il privilégier le train à l’avion pour les trajets courts ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3485,13 +3575,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-21",
       "task": 3,
-      "topic": "社会",
-      "title": "社会 · 21",
+      "topic": "Société",
+      "title": "Société · 21",
       "prompt": "Est-il plus facile de se faire des amis aujourd’hui qu’autrefois ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3517,13 +3608,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-22",
       "task": 3,
-      "topic": "家庭",
-      "title": "家庭 · 22",
+      "topic": "Famille",
+      "title": "Famille · 22",
       "prompt": "Faut-il partager toutes les tâches ménagères de manière égale ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3549,13 +3641,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-23",
       "task": 3,
-      "topic": "公共服务",
-      "title": "公共服务 · 23",
+      "topic": "Services publics",
+      "title": "Services publics · 23",
       "prompt": "Les bibliothèques ont-elles toujours leur place à l’ère numérique ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3581,13 +3674,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-24",
       "task": 3,
-      "topic": "环境",
-      "title": "环境 · 24",
+      "topic": "Environnement",
+      "title": "Environnement · 24",
       "prompt": "Faut-il réduire la consommation de viande pour des raisons écologiques ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3613,13 +3707,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-25",
       "task": 3,
-      "topic": "科技",
-      "title": "科技 · 25",
+      "topic": "Technologie",
+      "title": "Technologie · 25",
       "prompt": "L’intelligence artificielle peut-elle remplacer les enseignants ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3645,13 +3740,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-26",
       "task": 3,
-      "topic": "工作",
-      "title": "工作 · 26",
+      "topic": "Travail",
+      "title": "Travail · 26",
       "prompt": "Changer régulièrement de métier est-il un avantage ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3677,13 +3773,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-27",
       "task": 3,
-      "topic": "学习",
-      "title": "学习 · 27",
+      "topic": "Études",
+      "title": "Études · 27",
       "prompt": "Les notes scolaires reflètent-elles les capacités d’un élève ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3709,13 +3806,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-28",
       "task": 3,
-      "topic": "交通",
-      "title": "交通 · 28",
+      "topic": "Transports",
+      "title": "Transports · 28",
       "prompt": "Le vélo peut-il devenir le principal moyen de transport urbain ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3741,13 +3839,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-29",
       "task": 3,
-      "topic": "消费",
-      "title": "消费 · 29",
+      "topic": "Consommation",
+      "title": "Consommation · 29",
       "prompt": "Réparer les objets devrait-il coûter moins cher que les remplacer ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3773,13 +3872,14 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     },
     {
       "id": "o3-30",
       "task": 3,
-      "topic": "社会",
-      "title": "社会 · 30",
+      "topic": "Société",
+      "title": "Société · 30",
       "prompt": "Les villes devraient-elles développer davantage les espaces de rencontre gratuits ?",
       "guide": [
         "直接表明立场，说明适用范围。",
@@ -3805,15 +3905,16 @@
       "status": "待人工复核",
       "level": "A2–B2（教学建议）",
       "preparationSeconds": 0,
-      "answerSeconds": 270
+      "answerSeconds": 270,
+      "promptLanguage": "fr"
     }
   ],
   "writing": [
     {
       "id": "user-recall-writing-voyage",
       "task": 1,
-      "topic": "用户提供 · 回忆题",
-      "title": "推荐本国景点",
+      "topic": "Sujet remémoré",
+      "title": "Conseiller des visites dans son pays",
       "prompt": "Un ami prévoit de visiter votre pays et vous demande des conseils. Écrivez-lui pour lui recommander des lieux à découvrir et expliquer ce qui les rend intéressants. Votre message doit compter entre 60 et 120 mots.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -3850,8 +3951,8 @@
     {
       "id": "user-recall-writing-television",
       "task": 2,
-      "topic": "用户提供 · 回忆题",
-      "title": "参与电视节目录制",
+      "topic": "Sujet remémoré",
+      "title": "Participer à une émission de télévision",
       "prompt": "Vous avez assisté à l’enregistrement d’une émission de télévision. Sur un site Internet, racontez cette expérience et partagez vos impressions avec les lecteurs. Rédigez entre 120 et 150 mots.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -3889,8 +3990,8 @@
     {
       "id": "user-recall-writing-women-leadership",
       "task": 3,
-      "topic": "用户提供 · 回忆题",
-      "title": "女性与重要职位",
+      "topic": "Sujet remémoré",
+      "title": "Les femmes aux postes de responsabilité",
       "prompt": "Pour un site de débat, présentez les deux positions ci-dessous, puis donnez votre avis : faut-il réserver une part des postes importants aux femmes ou sélectionner uniquement selon les compétences ? Écrivez entre 120 et 180 mots : 40 à 60 mots pour comparer les opinions et 80 à 120 mots pour défendre la vôtre.",
       "guide": [
         "法语题干根据用户提供的中文回忆整理。",
@@ -3931,8 +4032,8 @@
     {
       "id": "recall-202608-w1-stargazing",
       "task": 1,
-      "topic": "2026年8月 · 回忆话题改写",
-      "title": "邀请朋友观星",
+      "topic": "Sujet remémoré · août 2026",
+      "title": "Une invitation à observer les étoiles",
       "prompt": "Préparez un message pour proposer à vos amis une observation des étoiles dans une réserve hors de la ville. Donnez le point de rendez-vous, l’heure du départ et les affaires à emporter. Écrivez entre 60 et 120 mots.",
       "guide": [
         "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
@@ -3972,8 +4073,8 @@
     {
       "id": "recall-202608-w2-ottawa",
       "task": 2,
-      "topic": "2026年8月 · 回忆话题改写",
-      "title": "临时安排的旅行",
+      "topic": "Sujet remémoré · août 2026",
+      "title": "Un voyage improvisé",
       "prompt": "Vous décidez de passer quatre jours à Ottawa sans avoir tout réservé à l’avance. Rédigez une page de carnet de voyage : présentez les moments marquants et dites en quoi cette organisation spontanée vous a aidé ou compliqué le séjour. Écrivez entre 120 et 150 mots.",
       "guide": [
         "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
@@ -4013,8 +4114,8 @@
     {
       "id": "recall-202608-w3-flights",
       "task": 3,
-      "topic": "2026年8月 · 回忆话题改写",
-      "title": "航空旅行与环保",
+      "topic": "Sujet remémoré · août 2026",
+      "title": "L’avion et l’environnement",
       "prompt": "Pour une publication francophone, comparez les idées des deux documents, puis prenez position sur la réduction des voyages aériens. Écrivez entre 120 et 180 mots : consacrez 40 à 60 mots aux deux points de vue et 80 à 120 mots à votre opinion.",
       "guide": [
         "来源网站将此题标为近期考试话题重建，本页法语题干按其主题重新表述。",
@@ -4062,15 +4163,15 @@
       "suggestedSeconds": 900,
       "level": "A2–B2（教学建议）",
       "id": "fei-w1-baggage",
-      "title": "机场行李遗失",
-      "topic": "官方样题",
-      "prompt": "刚抵达法国却未收到行李，填写行李信息表，描述箱子的特征并说明遗失经过。60–120 词。",
+      "title": "Un bagage perdu à l’aéroport",
+      "topic": "Exemple officiel",
+      "prompt": "Vous venez d’arriver en France et votre bagage n’a pas été livré. Remplissez une fiche de réclamation : décrivez votre valise et racontez les circonstances de sa disparition. Rédigez entre 60 et 120 mots.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
       "sourceName": "France Éducation international",
       "sourcePage": 4,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -4089,7 +4190,8 @@
         "时间地点原因等要求是否齐全？",
         "是否60–120词？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 2,
@@ -4098,15 +4200,15 @@
       "suggestedSeconds": 1200,
       "level": "A2–B2（教学建议）",
       "id": "fei-w2-charlotte",
-      "title": "给朋友旅行建议",
-      "topic": "官方样题",
-      "prompt": "Charlotte 赢得一次旅行，打算到你的国家停留一周。回复邮件，推荐活动和景点，介绍当地生活，并解释建议的理由。120–150 词。",
+      "title": "Conseiller une amie pour son voyage",
+      "topic": "Exemple officiel",
+      "prompt": "Votre amie Charlotte a gagné un voyage et souhaite passer une semaine dans votre pays. Répondez à son courriel. Conseillez-lui des visites et des activités, présentez la vie sur place et expliquez vos recommandations. Rédigez entre 120 et 150 mots.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
       "sourceName": "France Éducation international",
       "sourcePage": 5,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -4125,7 +4227,8 @@
         "是否有评论、观点或建议？",
         "是否120–150词且衔接清楚？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "task": 3,
@@ -4134,15 +4237,15 @@
       "suggestedSeconds": 1500,
       "level": "A2–B2（教学建议）",
       "id": "fei-w3-food",
-      "title": "饮食与健康",
-      "topic": "官方样题",
-      "prompt": "为法语协会报刊撰写饮食主题文章。先用 40–60 词概述两份材料，再用 80–120 词表达个人观点。材料一讨论本地蔬果篮的健康与社会价值，材料二讨论儿童饮食教育。请先阅读原文中的两份完整材料。",
+      "title": "L’alimentation et la santé",
+      "topic": "Exemple officiel",
+      "prompt": "Vous préparez un article sur l’alimentation pour le journal d’une association francophone. Lisez les deux documents du sujet officiel : le premier traite des paniers de fruits et légumes locaux et le second de l’éducation alimentaire des enfants. Présentez et comparez leurs idées dans une première partie de 40 à 60 mots. Dans une seconde partie de 80 à 120 mots, exprimez votre avis argumenté. Consultez les deux documents complets dans le sujet officiel avant de rédiger.",
       "source": "official",
       "sourceUrl": "https://www.france-education-international.fr/document/tcf-tp-qc-ca-exemple-epreuve-ee",
       "sourceName": "France Éducation international",
       "sourcePage": 6,
       "verifiedAt": "2026-11-07",
-      "promptLanguage": "zh-CN",
+      "promptLanguage": "fr",
       "guide": [
         "先打开来源阅读法语原题，再按任务要求练习。",
         "围绕题目给出具体信息或例子。"
@@ -4161,13 +4264,14 @@
         "是否有个人立场及理由？",
         "是否120–180词？"
       ],
-      "status": "来源已核对，导读为本站整理"
+      "status": "来源已核对，导读为本站整理",
+      "promptIsTranslation": true
     },
     {
       "id": "w1-01",
       "task": 1,
-      "topic": "邀请",
-      "title": "邀请 · 1",
+      "topic": "Invitation",
+      "title": "Invitation · 1",
       "prompt": "Écrivez à votre ami pour l’inviter à un pique-nique. Précisez le lieu, l’heure et ce qu’il peut apporter.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4193,13 +4297,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-02",
       "task": 1,
-      "topic": "住房",
-      "title": "住房 · 2",
+      "topic": "Logement",
+      "title": "Logement · 2",
       "prompt": "Vous venez de déménager. Écrivez à un ami pour décrire votre logement et lui expliquer comment venir.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4225,13 +4330,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-03",
       "task": 1,
-      "topic": "工作",
-      "title": "工作 · 3",
+      "topic": "Travail",
+      "title": "Travail · 3",
       "prompt": "Écrivez à votre collègue pour proposer un échange d’horaires. Expliquez la raison et proposez une solution.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4257,13 +4363,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-04",
       "task": 1,
-      "topic": "学习",
-      "title": "学习 · 4",
+      "topic": "Études",
+      "title": "Études · 4",
       "prompt": "Écrivez à votre professeur pour demander des renseignements sur un atelier de conversation : horaires, niveau et inscription.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4289,13 +4396,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-05",
       "task": 1,
-      "topic": "旅行",
-      "title": "旅行 · 5",
+      "topic": "Voyages",
+      "title": "Voyages · 5",
       "prompt": "Écrivez à votre hôte pour annoncer votre heure d’arrivée et demander comment rejoindre le logement.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4321,13 +4429,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-06",
       "task": 1,
-      "topic": "消费",
-      "title": "消费 · 6",
+      "topic": "Consommation",
+      "title": "Consommation · 6",
       "prompt": "Écrivez à un vendeur pour demander des informations sur un meuble d’occasion : dimensions, état et livraison.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4353,13 +4462,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-07",
       "task": 1,
-      "topic": "公共服务",
-      "title": "公共服务 · 7",
+      "topic": "Services publics",
+      "title": "Services publics · 7",
       "prompt": "Écrivez à la bibliothèque pour demander comment obtenir une carte et réserver une salle de travail.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4385,13 +4495,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-08",
       "task": 1,
-      "topic": "科技",
-      "title": "科技 · 8",
+      "topic": "Technologie",
+      "title": "Technologie · 8",
       "prompt": "Expliquez à votre ami comment participer à votre réunion vidéo : date, lien et matériel nécessaire.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4417,13 +4528,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-09",
       "task": 1,
-      "topic": "环境",
-      "title": "环境 · 9",
+      "topic": "Environnement",
+      "title": "Environnement · 9",
       "prompt": "Invitez vos voisins à participer à une journée de nettoyage du quartier. Indiquez le programme et le matériel.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4449,13 +4561,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-10",
       "task": 1,
-      "topic": "家庭",
-      "title": "家庭 · 10",
+      "topic": "Famille",
+      "title": "Famille · 10",
       "prompt": "Écrivez à un membre de votre famille pour organiser une visite : dates, logement et activités proposées.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4481,13 +4594,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-11",
       "task": 1,
-      "topic": "健康",
-      "title": "健康 · 11",
+      "topic": "Santé",
+      "title": "Santé · 11",
       "prompt": "Écrivez à un centre sportif pour demander un cours d’essai. Précisez vos disponibilités et votre objectif.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4513,13 +4627,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-12",
       "task": 1,
-      "topic": "饮食",
-      "title": "饮食 · 12",
+      "topic": "Alimentation",
+      "title": "Alimentation · 12",
       "prompt": "Répondez à un ami qui cherche un restaurant pour un groupe. Recommandez un lieu et expliquez votre choix.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4545,13 +4660,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-13",
       "task": 1,
-      "topic": "文化",
-      "title": "文化 · 13",
+      "topic": "Culture",
+      "title": "Culture · 13",
       "prompt": "Invitez un ami à une exposition. Présentez le thème, le lieu et les horaires.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4577,13 +4693,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-14",
       "task": 1,
-      "topic": "社会",
-      "title": "社会 · 14",
+      "topic": "Société",
+      "title": "Société · 14",
       "prompt": "Écrivez à une association pour proposer votre aide. Présentez vos disponibilités et vos compétences.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4609,13 +4726,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-15",
       "task": 1,
-      "topic": "交通",
-      "title": "交通 · 15",
+      "topic": "Transports",
+      "title": "Transports · 15",
       "prompt": "Écrivez à un ami pour expliquer un changement dans votre trajet et proposer un nouveau lieu de rendez-vous.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4641,13 +4759,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-16",
       "task": 1,
-      "topic": "服务",
-      "title": "服务 · 16",
+      "topic": "Services",
+      "title": "Services · 16",
       "prompt": "Écrivez à un hôtel pour demander la modification de votre réservation. Indiquez les nouvelles dates et vos besoins.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4673,13 +4792,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-17",
       "task": 1,
-      "topic": "兴趣",
-      "title": "兴趣 · 17",
+      "topic": "Loisirs",
+      "title": "Loisirs · 17",
       "prompt": "Écrivez à votre voisin pour lui proposer de pratiquer une activité ensemble. Expliquez où et quand.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4705,13 +4825,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-18",
       "task": 1,
-      "topic": "感谢",
-      "title": "感谢 · 18",
+      "topic": "Remerciements",
+      "title": "Remerciements · 18",
       "prompt": "Remerciez un ami qui vous a aidé à déménager et proposez-lui un repas.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4737,13 +4858,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-19",
       "task": 1,
-      "topic": "道歉",
-      "title": "道歉 · 19",
+      "topic": "Excuses",
+      "title": "Excuses · 19",
       "prompt": "Excusez-vous auprès d’un ami pour avoir manqué un rendez-vous. Expliquez ce qui s’est passé et proposez une autre date.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4769,13 +4891,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w1-20",
       "task": 1,
-      "topic": "通知",
-      "title": "通知 · 20",
+      "topic": "Information",
+      "title": "Information · 20",
       "prompt": "Prévenez les membres de votre club que la prochaine rencontre change de lieu. Donnez les nouvelles informations.",
       "guide": [
         "确认收件人、目的和必需信息，用合适称呼开头。",
@@ -4801,13 +4924,14 @@
       "minWords": 60,
       "maxWords": 120,
       "suggestedSeconds": 900,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-01",
       "task": 2,
-      "topic": "旅行",
-      "title": "旅行 · 1",
+      "topic": "Voyages",
+      "title": "Voyages · 1",
       "prompt": "Sur le blog de votre école, racontez un voyage en train qui vous a marqué et donnez votre avis sur ce mode de transport.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4833,13 +4957,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-02",
       "task": 2,
-      "topic": "工作",
-      "title": "工作 · 2",
+      "topic": "Travail",
+      "title": "Travail · 2",
       "prompt": "Pour le journal de votre entreprise, racontez votre première semaine dans une nouvelle équipe et proposez une amélioration pour accueillir les nouveaux collègues.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4865,13 +4990,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-03",
       "task": 2,
-      "topic": "学习",
-      "title": "学习 · 3",
+      "topic": "Études",
+      "title": "Études · 3",
       "prompt": "Sur un forum d’apprenants, racontez votre expérience d’un cours de langue en ligne et expliquez à qui vous le recommandez.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4897,13 +5023,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-04",
       "task": 2,
-      "topic": "住房",
-      "title": "住房 · 4",
+      "topic": "Logement",
+      "title": "Logement · 4",
       "prompt": "Pour le site d’une association, racontez votre expérience de colocation et donnez des conseils aux futurs colocataires.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4929,13 +5056,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-05",
       "task": 2,
-      "topic": "交通",
-      "title": "交通 · 5",
+      "topic": "Transports",
+      "title": "Transports · 5",
       "prompt": "Racontez sur un blog votre semaine sans voiture et expliquez ce que vous aimeriez conserver de cette expérience.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4961,13 +5089,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-06",
       "task": 2,
-      "topic": "消费",
-      "title": "消费 · 6",
+      "topic": "Consommation",
+      "title": "Consommation · 6",
       "prompt": "Sur un forum, racontez une réparation que vous avez fait réaliser au lieu de remplacer un objet et évaluez le service reçu.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -4993,13 +5122,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-07",
       "task": 2,
-      "topic": "公共服务",
-      "title": "公共服务 · 7",
+      "topic": "Services publics",
+      "title": "Services publics · 7",
       "prompt": "Pour le journal du quartier, racontez une activité à la bibliothèque et expliquez son intérêt pour les habitants.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5025,13 +5155,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-08",
       "task": 2,
-      "topic": "科技",
-      "title": "科技 · 8",
+      "topic": "Technologie",
+      "title": "Technologie · 8",
       "prompt": "Racontez une journée passée sans téléphone et donnez votre avis sur cette expérience pour le blog de votre club.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5057,13 +5188,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-09",
       "task": 2,
-      "topic": "环境",
-      "title": "环境 · 9",
+      "topic": "Environnement",
+      "title": "Environnement · 9",
       "prompt": "Pour le site de votre ville, racontez votre participation à une collecte de déchets et proposez des mesures pour améliorer la prochaine édition.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5089,13 +5221,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-10",
       "task": 2,
-      "topic": "家庭",
-      "title": "家庭 · 10",
+      "topic": "Famille",
+      "title": "Famille · 10",
       "prompt": "Sur un blog familial, racontez une sortie intergénérationnelle et expliquez ce qui l’a rendue réussie.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5121,13 +5254,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-11",
       "task": 2,
-      "topic": "健康",
-      "title": "健康 · 11",
+      "topic": "Santé",
+      "title": "Santé · 11",
       "prompt": "Pour le journal d’un centre sportif, racontez vos débuts dans un nouveau sport et encouragez les débutants avec des conseils concrets.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5153,13 +5287,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-12",
       "task": 2,
-      "topic": "饮食",
-      "title": "饮食 · 12",
+      "topic": "Alimentation",
+      "title": "Alimentation · 12",
       "prompt": "Sur un forum, racontez votre participation à un atelier de cuisine et expliquez ce que cette expérience vous a apporté.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5185,13 +5320,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-13",
       "task": 2,
-      "topic": "文化",
-      "title": "文化 · 13",
+      "topic": "Culture",
+      "title": "Culture · 13",
       "prompt": "Pour le site de votre école, racontez une visite de musée et justifiez votre recommandation.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5217,13 +5353,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-14",
       "task": 2,
-      "topic": "社会",
-      "title": "社会 · 14",
+      "topic": "Société",
+      "title": "Société · 14",
       "prompt": "Racontez une journée de bénévolat pour le journal d’une association et proposez une idée pour attirer de nouveaux bénévoles.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5249,13 +5386,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-15",
       "task": 2,
-      "topic": "工作",
-      "title": "工作 · 15",
+      "topic": "Travail",
+      "title": "Travail · 15",
       "prompt": "Pour un forum professionnel, racontez une formation suivie récemment et expliquez comment vous utilisez les acquis au travail.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5281,13 +5419,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-16",
       "task": 2,
-      "topic": "学习",
-      "title": "学习 · 16",
+      "topic": "Études",
+      "title": "Études · 16",
       "prompt": "Racontez votre participation à un échange linguistique et donnez votre avis sur cette façon d’apprendre, pour le blog de votre école.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5313,13 +5452,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-17",
       "task": 2,
-      "topic": "旅行",
-      "title": "旅行 · 17",
+      "topic": "Voyages",
+      "title": "Voyages · 17",
       "prompt": "Pour un blog de voyages, racontez un séjour dans une petite ville et expliquez pourquoi vous la conseillez ou non.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5345,13 +5485,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-18",
       "task": 2,
-      "topic": "消费",
-      "title": "消费 · 18",
+      "topic": "Consommation",
+      "title": "Consommation · 18",
       "prompt": "Sur le site d’un club, racontez l’organisation d’un marché d’occasion et proposez des améliorations.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5377,13 +5518,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-19",
       "task": 2,
-      "topic": "环境",
-      "title": "环境 · 19",
+      "topic": "Environnement",
+      "title": "Environnement · 19",
       "prompt": "Racontez votre première saison dans un jardin partagé et expliquez les avantages et les difficultés de cette activité.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5409,13 +5551,14 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w2-20",
       "task": 2,
-      "topic": "文化",
-      "title": "文化 · 20",
+      "topic": "Culture",
+      "title": "Culture · 20",
       "prompt": "Pour le journal de votre quartier, racontez un festival local et expliquez comment il pourrait devenir plus accessible.",
       "guide": [
         "先交代经历的时间、地点和背景。",
@@ -5441,12 +5584,13 @@
       "minWords": 120,
       "maxWords": 150,
       "suggestedSeconds": 1200,
-      "level": "A2–B2（教学建议）"
+      "level": "A2–B2（教学建议）",
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-01",
       "task": 3,
-      "topic": "工作",
+      "topic": "Travail",
       "title": "Le télétravail",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le télétravail » et donnez votre avis argumenté.",
       "guide": [
@@ -5477,12 +5621,13 @@
       "documents": [
         "Le travail à distance évite de longs trajets et permet de mieux organiser sa journée. Il peut aussi faciliter la concentration.",
         "Au bureau, les échanges spontanés renforcent l’équipe. À distance, certaines personnes se sentent isolées."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-02",
       "task": 3,
-      "topic": "科技",
+      "topic": "Technologie",
       "title": "Les téléphones à l’école",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les téléphones à l’école » et donnez votre avis argumenté.",
       "guide": [
@@ -5513,12 +5658,13 @@
       "documents": [
         "Le téléphone permet de rechercher rapidement des informations et de travailler avec des outils éducatifs.",
         "Les notifications détournent l’attention. Les élèves risquent de moins participer aux échanges en classe."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-03",
       "task": 3,
-      "topic": "环境",
+      "topic": "Environnement",
       "title": "La voiture en centre-ville",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La voiture en centre-ville » et donnez votre avis argumenté.",
       "guide": [
@@ -5549,12 +5695,13 @@
       "documents": [
         "Limiter les voitures réduit le bruit et libère de la place pour les piétons.",
         "Certaines personnes dépendent de leur voiture, notamment lorsque les transports publics sont rares."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-04",
       "task": 3,
-      "topic": "学习",
+      "topic": "Études",
       "title": "Les cours en ligne",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les cours en ligne » et donnez votre avis argumenté.",
       "guide": [
@@ -5585,12 +5732,13 @@
       "documents": [
         "Les cours en ligne permettent d’étudier à son rythme, même loin d’un centre de formation.",
         "Sans rencontres régulières, il est difficile de garder sa motivation et de poser des questions spontanément."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-05",
       "task": 3,
-      "topic": "住房",
+      "topic": "Logement",
       "title": "La vie en colocation",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La vie en colocation » et donnez votre avis argumenté.",
       "guide": [
@@ -5621,12 +5769,13 @@
       "documents": [
         "Partager un logement réduit les dépenses et permet de rencontrer des personnes.",
         "Les différences de rythme et le partage des tâches peuvent provoquer des tensions."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-06",
       "task": 3,
-      "topic": "交通",
+      "topic": "Transports",
       "title": "La gratuité des transports",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La gratuité des transports » et donnez votre avis argumenté.",
       "guide": [
@@ -5657,12 +5806,13 @@
       "documents": [
         "Des transports gratuits faciliteraient les déplacements des habitants ayant de faibles revenus.",
         "La priorité devrait être la fréquence et la fiabilité du service, qui demandent déjà beaucoup de moyens."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-07",
       "task": 3,
-      "topic": "旅行",
+      "topic": "Voyages",
       "title": "Le tourisme local",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le tourisme local » et donnez votre avis argumenté.",
       "guide": [
@@ -5693,12 +5843,13 @@
       "documents": [
         "Voyager près de chez soi coûte moins cher et permet de mieux connaître sa région.",
         "Partir loin favorise la découverte d’autres langues et de modes de vie différents."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-08",
       "task": 3,
-      "topic": "消费",
+      "topic": "Consommation",
       "title": "Les achats sur Internet",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les achats sur Internet » et donnez votre avis argumenté.",
       "guide": [
@@ -5729,12 +5880,13 @@
       "documents": [
         "Les boutiques en ligne offrent un grand choix et évitent des déplacements.",
         "Acheter dans les commerces locaux permet de recevoir des conseils et de faire vivre le quartier."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-09",
       "task": 3,
-      "topic": "公共服务",
+      "topic": "Services publics",
       "title": "Les démarches numériques",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les démarches numériques » et donnez votre avis argumenté.",
       "guide": [
@@ -5765,12 +5917,13 @@
       "documents": [
         "Les démarches en ligne sont pratiques et peuvent se faire à toute heure.",
         "Certaines personnes n’ont pas les outils ou les compétences nécessaires ; un accueil humain reste indispensable."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-10",
       "task": 3,
-      "topic": "家庭",
+      "topic": "Famille",
       "title": "Les écrans pour les enfants",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les écrans pour les enfants » et donnez votre avis argumenté.",
       "guide": [
@@ -5801,12 +5954,13 @@
       "documents": [
         "Certains contenus numériques stimulent la curiosité et peuvent soutenir les apprentissages.",
         "Un usage excessif des écrans réduit le temps consacré au sommeil, aux jeux et aux échanges."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-11",
       "task": 3,
-      "topic": "健康",
+      "topic": "Santé",
       "title": "Le sport au travail",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le sport au travail » et donnez votre avis argumenté.",
       "guide": [
@@ -5837,12 +5991,13 @@
       "documents": [
         "Des activités sportives proposées par l’employeur améliorent le bien-être et les relations entre collègues.",
         "L’activité physique relève du choix personnel ; les entreprises devraient surtout réduire la charge de travail."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-12",
       "task": 3,
-      "topic": "社会",
+      "topic": "Société",
       "title": "Le bénévolat étudiant",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Le bénévolat étudiant » et donnez votre avis argumenté.",
       "guide": [
@@ -5873,12 +6028,13 @@
       "documents": [
         "Le bénévolat permet aux étudiants de découvrir la société et d’acquérir des compétences utiles.",
         "Une obligation de bénévolat pénaliserait les étudiants qui doivent déjà travailler pour financer leurs études."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-13",
       "task": 3,
-      "topic": "文化",
+      "topic": "Culture",
       "title": "Les musées gratuits",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les musées gratuits » et donnez votre avis argumenté.",
       "guide": [
@@ -5909,12 +6065,13 @@
       "documents": [
         "La gratuité permet à davantage de personnes d’accéder au patrimoine culturel.",
         "Les musées ont besoin de recettes pour entretenir les collections et organiser des expositions."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-14",
       "task": 3,
-      "topic": "消费",
+      "topic": "Consommation",
       "title": "Les produits d’occasion",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les produits d’occasion » et donnez votre avis argumenté.",
       "guide": [
@@ -5945,12 +6102,13 @@
       "documents": [
         "Acheter d’occasion réduit les déchets et permet de faire des économies.",
         "Il est parfois difficile de vérifier l’état des produits et d’obtenir une garantie."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-15",
       "task": 3,
-      "topic": "住房",
+      "topic": "Logement",
       "title": "La ville ou la campagne",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La ville ou la campagne » et donnez votre avis argumenté.",
       "guide": [
@@ -5981,12 +6139,13 @@
       "documents": [
         "La campagne offre du calme, de l’espace et un accès plus direct à la nature.",
         "La ville facilite l’accès aux emplois, aux soins et aux activités culturelles."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-16",
       "task": 3,
-      "topic": "环境",
+      "topic": "Environnement",
       "title": "La réduction des emballages",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La réduction des emballages » et donnez votre avis argumenté.",
       "guide": [
@@ -6017,12 +6176,13 @@
       "documents": [
         "Les magasins devraient proposer davantage de produits sans emballage pour limiter les déchets.",
         "Les emballages protègent certains aliments et facilitent leur transport ; leur suppression doit rester adaptée aux produits."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-17",
       "task": 3,
-      "topic": "科技",
+      "topic": "Technologie",
       "title": "Les outils d’intelligence artificielle pour apprendre",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les outils d’intelligence artificielle pour apprendre » et donnez votre avis argumenté.",
       "guide": [
@@ -6053,12 +6213,13 @@
       "documents": [
         "Ces outils peuvent fournir rapidement des exemples et permettre de s’exercer à tout moment.",
         "Leurs réponses peuvent contenir des erreurs ; un accompagnement humain reste nécessaire pour progresser."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-18",
       "task": 3,
-      "topic": "工作",
+      "topic": "Travail",
       "title": "La semaine de quatre jours",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « La semaine de quatre jours » et donnez votre avis argumenté.",
       "guide": [
@@ -6089,12 +6250,13 @@
       "documents": [
         "Une semaine plus courte peut améliorer le repos et la motivation des salariés.",
         "Répartir la même charge sur moins de jours risque d’augmenter le stress et de compliquer le service aux clients."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-19",
       "task": 3,
-      "topic": "学习",
+      "topic": "Études",
       "title": "Les notes scolaires",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les notes scolaires » et donnez votre avis argumenté.",
       "guide": [
@@ -6125,12 +6287,13 @@
       "documents": [
         "Les notes donnent des repères clairs pour suivre les progrès et identifier les difficultés.",
         "Une note ne montre pas toujours les efforts, la créativité ou les progrès individuels."
-      ]
+      ],
+      "promptLanguage": "fr"
     },
     {
       "id": "w3-20",
       "task": 3,
-      "topic": "社会",
+      "topic": "Société",
       "title": "Les espaces publics de rencontre",
       "prompt": "Pour le journal de votre quartier, comparez les deux points de vue sur le thème « Les espaces publics de rencontre » et donnez votre avis argumenté.",
       "guide": [
@@ -6161,7 +6324,8 @@
       "documents": [
         "Des lieux gratuits favorisent les rencontres et réduisent l’isolement des habitants.",
         "Créer de nouveaux lieux ne suffit pas ; il faut aussi financer leur entretien et des activités adaptées."
-      ]
+      ],
+      "promptLanguage": "fr"
     }
   ],
   "review": {
@@ -6182,7 +6346,7 @@
   "reading": [
     {
       "id": "reading-recall-theme-opinion",
-      "title": "培训中的灵活与陪伴",
+      "title": "La souplesse et l’accompagnement en formation",
       "level": "B1–B2",
       "text": "Les cours enregistrés permettent aux adultes en formation d’étudier à leur rythme. Cette souplesse attire notamment ceux qui travaillent en horaires décalés. Toutefois, rendre les vidéos disponibles ne suffit pas à garantir la réussite. Sans échanges réguliers, certains participants abandonnent lorsqu’ils rencontrent une difficulté. Un centre de formation a donc ajouté une permanence hebdomadaire avec un enseignant. L’accès aux vidéos reste libre, mais chacun peut demander une explication ou discuter de ses progrès. La direction souhaite ainsi associer autonomie et accompagnement.",
       "questions": [
@@ -6195,7 +6359,7 @@
             "Les personnes sans accès à Internet."
           ],
           "answer": 0,
-          "explanation": "文中指出轮班或非固定时间工作的成年人尤其受益。"
+          "explanation": "Les adultes qui travaillent en horaires décalés sont particulièrement concernés."
         },
         {
           "prompt": "Quelle limite est soulignée ?",
@@ -6206,7 +6370,7 @@
             "La disponibilité des vidéos ne garantit pas la réussite."
           ],
           "answer": 3,
-          "explanation": "视频可访问并不意味着学员一定能成功完成学习。"
+          "explanation": "L’accès aux vidéos ne garantit pas la réussite de la formation."
         },
         {
           "prompt": "Pourquoi une permanence a-t-elle été ajoutée ?",
@@ -6217,16 +6381,17 @@
             "Pour remplacer les enseignants."
           ],
           "answer": 1,
-          "explanation": "目的是在自主学习之外提供陪伴和指导。"
+          "explanation": "La permanence apporte un accompagnement en complément du travail autonome."
         }
       ],
       "source": "回忆主题拓展",
       "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
-      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。",
+      "promptLanguage": "fr"
     },
     {
       "id": "reading-recall-theme-culture",
-      "title": "文化活动安排",
+      "title": "Un programme culturel",
       "level": "B1",
       "text": "Le festival des histoires propose des lectures publiques, des rencontres avec des auteurs et un atelier pour les enfants. Les lectures sont gratuites et accessibles sans réservation. L’atelier, limité à douze participants, nécessite une inscription. Une rencontre prévue en plein air sera déplacée dans la salle municipale si la météo est mauvaise. Le programme actualisé sera affiché à l’entrée et publié sur le site de la ville.",
       "questions": [
@@ -6239,7 +6404,7 @@
             "La consultation du programme."
           ],
           "answer": 1,
-          "explanation": "儿童工作坊有人数限制，需要报名。"
+          "explanation": "Le nombre de places à l’atelier pour enfants est limité ; il faut s’inscrire."
         },
         {
           "prompt": "Que prévoit-on en cas de mauvais temps ?",
@@ -6250,7 +6415,7 @@
             "Reporter toutes les activités au mois suivant."
           ],
           "answer": 2,
-          "explanation": "原定户外的见面会将转移到市政活动室。"
+          "explanation": "La rencontre sera déplacée dans une salle municipale en cas de mauvais temps."
         },
         {
           "prompt": "Où trouver les changements du programme ?",
@@ -6261,16 +6426,17 @@
             "Dans le billet d’inscription seulement."
           ],
           "answer": 0,
-          "explanation": "最新安排会在入口和市政府网站公布。"
+          "explanation": "Les changements seront annoncés à l’entrée et sur le site de la mairie."
         }
       ],
       "source": "回忆主题拓展",
       "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
-      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。",
+      "promptLanguage": "fr"
     },
     {
       "id": "reading-recall-theme-notice",
-      "title": "工作场所通知",
+      "title": "Une annonce au travail",
       "level": "B1",
       "text": "Pour réduire le gaspillage, la cantine change son fonctionnement. Dès lundi, chacun devra réserver son déjeuner la veille avant 16 h. Les personnes qui oublient pourront acheter un repas dans la limite des portions restantes. Le prix ne change pas. L’équipe évaluera cette mesure après six semaines en comparant la quantité de nourriture jetée avec celle des semaines précédentes.",
       "questions": [
@@ -6283,7 +6449,7 @@
             "Raccourcir la pause déjeuner."
           ],
           "answer": 2,
-          "explanation": "这项措施旨在减少食物浪费。"
+          "explanation": "Cette mesure vise à réduire le gaspillage alimentaire."
         },
         {
           "prompt": "Que se passe-t-il sans réservation ?",
@@ -6294,7 +6460,7 @@
             "Il faut payer le double."
           ],
           "answer": 0,
-          "explanation": "未预约者在有剩余餐份时仍可购买。"
+          "explanation": "Les personnes sans réservation pourront acheter un repas s’il en reste."
         },
         {
           "prompt": "Comment la mesure sera-t-elle évaluée ?",
@@ -6305,16 +6471,17 @@
             "En comparant les quantités de nourriture jetée."
           ],
           "answer": 3,
-          "explanation": "六周后比较实施前后的食物丢弃量。"
+          "explanation": "Les quantités jetées seront comparées après six semaines d’essai."
         }
       ],
       "source": "回忆主题拓展",
       "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
-      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。",
+      "promptLanguage": "fr"
     },
     {
       "id": "reading-recall-theme-housing",
-      "title": "住房广告",
+      "title": "Une annonce de logement",
       "level": "A2–B1",
       "text": "À louer : appartement de deux pièces près du tramway, disponible le premier octobre. Le loyer comprend le chauffage, mais pas l’électricité. L’appartement est non meublé et convient à une personne seule ou à un couple. Les visites se font uniquement sur rendez-vous le samedi. Pour réserver une visite, envoyez un courriel avec vos disponibilités. Aucun dossier n’est demandé avant la première visite.",
       "questions": [
@@ -6327,7 +6494,7 @@
             "Le transport."
           ],
           "answer": 0,
-          "explanation": "租金包含供暖，但不含电费。"
+          "explanation": "Le chauffage est compris dans le loyer, mais pas l’électricité."
         },
         {
           "prompt": "Comment visiter l’appartement ?",
@@ -6338,7 +6505,7 @@
             "En envoyant d’abord un dossier complet."
           ],
           "answer": 2,
-          "explanation": "看房需要预约，安排在周六。"
+          "explanation": "Les visites ont lieu le samedi, sur rendez-vous."
         },
         {
           "prompt": "À qui ce logement convient-il ?",
@@ -6349,16 +6516,17 @@
             "À des groupes de six personnes."
           ],
           "answer": 1,
-          "explanation": "广告明确写出适合独居者或伴侣。"
+          "explanation": "L’annonce précise que le logement convient à une personne seule ou à un couple."
         }
       ],
       "source": "回忆主题拓展",
       "sourceUrl": "https://frenchinpocket.com/en/tcf-canada/recent-session-topics",
-      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。"
+      "sourceNote": "来源汇总考生报告的主题。本篇文本、问题和答案由本站编写，听力使用合成语音。",
+      "promptLanguage": "fr"
     },
     {
       "id": "r-market",
-      "title": "社区市集公告",
+      "title": "Un marché de quartier",
       "level": "A2",
       "text": "Le marché du quartier aura lieu samedi de 9 h à 13 h dans la cour de l’école. Les habitants pourront acheter des légumes locaux et échanger des livres. Pour tenir un stand, il faut s’inscrire avant jeudi auprès de l’association du quartier. L’entrée est gratuite. En cas de pluie, le marché se déroulera dans le gymnase. Pensez à apporter un sac réutilisable.",
       "questions": [
@@ -6370,7 +6538,7 @@
             "Les enfants du quartier."
           ],
           "answer": 1,
-          "explanation": "只有摆摊者需要在周四前报名。"
+          "explanation": "Seules les personnes qui souhaitent tenir un stand doivent s’inscrire avant jeudi."
         },
         {
           "prompt": "Où se tiendra le marché s’il pleut ?",
@@ -6380,7 +6548,7 @@
             "Dans la bibliothèque."
           ],
           "answer": 0,
-          "explanation": "雨天转移到体育馆。"
+          "explanation": "En cas de pluie, le marché aura lieu dans le gymnase."
         },
         {
           "prompt": "Quelle activité est proposée ?",
@@ -6390,14 +6558,15 @@
             "Une visite guidée de l’école."
           ],
           "answer": 1,
-          "explanation": "公告明确列出 échanger des livres。"
+          "explanation": "L’annonce propose explicitement un échange de livres."
         }
       ],
-      "source": "本站原创训练"
+      "source": "本站原创训练",
+      "promptLanguage": "fr"
     },
     {
       "id": "r-work",
-      "title": "远程办公安排",
+      "title": "L’organisation du télétravail",
       "level": "B1",
       "text": "À partir du mois prochain, notre entreprise permettra deux journées de télétravail par semaine. Chaque équipe choisira ses journées avec son responsable. Le mercredi restera une journée commune au bureau pour faciliter les réunions. Les salariés devront rester joignables de 10 h à 12 h et de 14 h à 16 h. Cette organisation sera testée pendant trois mois, puis évaluée à partir d’un questionnaire et des résultats des équipes.",
       "questions": [
@@ -6409,7 +6578,7 @@
             "Chaque équipe en discute avec son responsable."
           ],
           "answer": 2,
-          "explanation": "由各团队与负责人共同选择。"
+          "explanation": "Chaque équipe choisit ces journées avec son responsable."
         },
         {
           "prompt": "Pourquoi faut-il venir au bureau le mercredi ?",
@@ -6419,7 +6588,7 @@
             "Pour réparer le matériel."
           ],
           "answer": 0,
-          "explanation": "文中说明共同到岗是为了方便会议。"
+          "explanation": "La présence de tous le mercredi facilite les réunions."
         },
         {
           "prompt": "Quel est le statut de cette organisation ?",
@@ -6429,14 +6598,15 @@
             "Elle ne concerne que les nouveaux salariés."
           ],
           "answer": 1,
-          "explanation": "先试行三个月，再评估。"
+          "explanation": "Il s’agit d’un essai de trois mois, suivi d’une évaluation."
         }
       ],
-      "source": "本站原创训练"
+      "source": "本站原创训练",
+      "promptLanguage": "fr"
     },
     {
       "id": "r-repair",
-      "title": "维修还是更换",
+      "title": "Réparer ou remplacer",
       "level": "B1–B2",
       "text": "Un atelier de réparation a ouvert dans notre commune. Des bénévoles y aident les habitants à réparer de petits appareils. L’objectif dépasse les économies réalisées : les organisateurs souhaitent transmettre des savoir-faire et limiter les déchets. Pourtant, certains visiteurs repartent déçus, car toutes les pannes ne peuvent pas être réparées et les pièces sont parfois difficiles à trouver. L’association insiste donc sur un point : elle propose une aide au diagnostic et à la réparation, mais ne garantit pas le résultat. Elle prépare aussi des séances pour apprendre à entretenir les appareils avant qu’ils ne tombent en panne.",
       "questions": [
@@ -6448,7 +6618,7 @@
             "Partager des compétences et réduire les déchets."
           ],
           "answer": 2,
-          "explanation": "组织者同时希望传授技能、减少废弃物。"
+          "explanation": "Les organisateurs souhaitent partager des savoir-faire et réduire les déchets."
         },
         {
           "prompt": "Pourquoi certains visiteurs sont-ils déçus ?",
@@ -6458,7 +6628,7 @@
             "Ils doivent acheter un appareil."
           ],
           "answer": 0,
-          "explanation": "不是所有故障都能修好，也可能缺少配件。"
+          "explanation": "Certaines réparations sont impossibles, notamment lorsqu’il manque des pièces."
         },
         {
           "prompt": "Que proposeront les prochaines séances ?",
@@ -6468,10 +6638,11 @@
             "Une collecte obligatoire des appareils."
           ],
           "answer": 1,
-          "explanation": "计划教维护保养，在故障发生前延长使用寿命。"
+          "explanation": "Les prochaines séances proposeront des conseils d’entretien préventif."
         }
       ],
-      "source": "本站原创训练"
+      "source": "本站原创训练",
+      "promptLanguage": "fr"
     }
   ]
 }

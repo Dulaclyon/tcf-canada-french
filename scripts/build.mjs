@@ -1,7 +1,7 @@
 import { mkdir, copyFile, cp, rm } from 'node:fs/promises';
 await rm('dist',{recursive:true,force:true});
 await mkdir('dist',{recursive:true});
-for(const f of ['writing-submission.js','submissions.html','submissions.js','writing-progress.js','section-access.js','human-audio.js','login.html','admin.html','login.js','admin.js','account.css','lesson-recaps.js','weather-lesson.js','possessive-recap.js','basic-verbs.js','student-storage.js','index.html','app.js','bank.js','bank-progress.js','grammar-layout.js','lesson-flow.js','grammar.css','styles.css','manifest.webmanifest','sw.js','icon.svg','privacy.html']) await copyFile(f,`dist/${f}`);
+for(const f of ['i18n.js','ui-locales.js','writing-submission.js','submissions.html','submissions.js','writing-progress.js','section-access.js','human-audio.js','login.html','admin.html','login.js','admin.js','account.css','lesson-recaps.js','weather-lesson.js','possessive-recap.js','basic-verbs.js','student-storage.js','index.html','app.js','bank.js','bank-progress.js','grammar-layout.js','lesson-flow.js','grammar.css','styles.css','manifest.webmanifest','sw.js','icon.svg','privacy.html']) await copyFile(f,`dist/${f}`);
 await cp('human-audio','dist/human-audio',{recursive:true});
 await cp('pronunciation-audio','dist/pronunciation-audio',{recursive:true});
 await cp('src/data','dist/src/data',{recursive:true});
