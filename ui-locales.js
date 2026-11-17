@@ -1,7 +1,10 @@
 export const messages = {
+  "文章与练习": {"en":"readings and practice","zh-TW":"文章與練習"},
+  "你的下一章。": {"en":"Your next chapter.","zh-TW":"你的下一章。"},
+  "基础法语与 TCF Canada 备考。": {"en":"French foundations and TCF Canada preparation.","zh-TW":"基礎法語與 TCF Canada 備考。"},
   "法语通关": {
-    "en": "French Path",
-    "zh-TW": "法語通關"
+    "en": "French with Ryan",
+    "zh-TW": "French with Ryan"
   },
   "把法语用起来。": {
     "en": "Put your French into practice.",
@@ -660,28 +663,28 @@ export const messages = {
     "zh-TW": "隱私說明"
   },
   "法语通关首页": {
-    "en": "French Path home",
-    "zh-TW": "法語通關首頁"
+    "en": "French with Ryan home",
+    "zh-TW": "French with Ryan首頁"
   },
   "法语通关 · 把法语用起来": {
-    "en": "French Path · Put your French into practice",
-    "zh-TW": "法語通關 · 把法語用起來"
+    "en": "French with Ryan · Put your French into practice",
+    "zh-TW": "French with Ryan · 把法語用起來"
   },
   "法语通关 · TCF Canada": {
-    "en": "French Path · TCF Canada",
-    "zh-TW": "法語通關 · TCF Canada"
+    "en": "French with Ryan · TCF Canada",
+    "zh-TW": "French with Ryan · TCF Canada"
   },
   "学生登录 · 法语通关": {
-    "en": "Student login · French Path",
-    "zh-TW": "學生登入 · 法語通關"
+    "en": "Student login · French with Ryan",
+    "zh-TW": "學生登入 · French with Ryan"
   },
   "学生管理 · 法语通关": {
-    "en": "Manage students · French Path",
-    "zh-TW": "學生管理 · 法語通關"
+    "en": "Manage students · French with Ryan",
+    "zh-TW": "學生管理 · French with Ryan"
   },
   "作文批改 · 法语通关": {
-    "en": "Essay review · French Path",
-    "zh-TW": "作文批改 · 法語通關"
+    "en": "Essay review · French with Ryan",
+    "zh-TW": "作文批改 · French with Ryan"
   },
   "学生管理": {
     "en": "Manage students",
