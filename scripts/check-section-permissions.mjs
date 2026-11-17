@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
 import {spawn} from 'node:child_process';
 import {mkdtemp,rm,mkdir,writeFile,cp} from 'node:fs/promises';
 import os from 'node:os';import path from 'node:path';import {once} from 'node:events';
@@ -45,5 +46,8 @@ try{
  student=await login(created.email,'student-password-test');assert.equal((await request('/api/me',{cookie:student})).status,200);
  assert.equal((await request('/bank/sets/reading-test.json',{cookie:student})).status,403);
  admin=await login('teacher@example.test','teacher-password-test');assert.equal((await request('/bank/sets/reading-test.json',{cookie:admin})).status,200);
+ child.kill();await once(child,'exit');
+ const legacy=new DatabaseSync(path.join(dir,'db/students.sqlite'));legacy.prepare('DELETE FROM permissions WHERE user_id=?').run(id);legacy.close();await start();
+ student=await login(created.email,'student-password-test');assert.deepEqual((await (await request('/api/me',{cookie:student})).json()).permissions,all);
  console.log('Section permissions passed: defaults, validation, admin-only edits, private content and audio, filtered question banks, immediate revocation, persistence, administrator bypass.');
 }finally{if(child.exitCode===null){child.kill();await once(child,'exit');}await rm(dir,{recursive:true,force:true});}

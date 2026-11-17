@@ -91,3 +91,5 @@ footer .ownership-note{margin:8px 0 0;line-height:1.7}
 .phonics-playback{margin:16px 0 20px}.phonics-playback figcaption{font-size:.85rem;margin-bottom:8px;color:#414c68}.phonics-playback small{font-weight:400;color:#7a8294;margin-left:8px}.phonics-playback audio{display:block;width:100%;max-width:380px;height:40px}
 
 .section-locked::after{content:"未开放";font-size:11px;opacity:.7;margin-left:auto}.section-locked{opacity:.65}
+
+.writing-progress{margin:20px 0}.writing-progress .section-head{margin:0 0 12px}.writing-progress h2{margin:0}.writing-progress progress{display:block;width:100%;height:12px;accent-color:#53659b}.writing-progress p{margin:8px 0}.writing-states{display:flex;gap:12px;flex-wrap:wrap}.writing-states span{font-size:13px;padding:4px 10px;background:#f0f2f8;border-radius:6px}.writing-complete{display:flex;align-items:center;gap:8px;font-size:14px}.writing-complete input{width:18px;height:18px;accent-color:#53659b}

@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {writingStatus,writingSummary,renderWritingProgress} from '../writing-progress.js';
+const questions=[{id:'a',task:1},{id:'b',task:1},{id:'c',task:2}];
+const drafts={a:{text:'Bonjour',completed:true},b:{text:'Salut'},removed:{completed:true}};
+assert.equal(writingStatus({text:'  '}),'not-started');
+assert.deepEqual(writingSummary(questions,drafts),{completed:1,'in-progress':1,'not-started':1,total:3,percent:33});
+assert.equal(writingSummary([],{}).percent,0);
+assert.equal(writingSummary(questions,JSON.parse(JSON.stringify(drafts))).completed,1);
+assert.match(renderWritingProgress(questions,drafts,1),/任务 1 · 已完成 1 \/ 2 题/);
+drafts.a.completed=false;assert.equal(writingSummary(questions,drafts).completed,0);
+const source=await (await import('node:fs/promises')).readFile('app.js','utf8');
+assert(source.includes('state.drafts[q.id]={...state.drafts[q.id],text:editor.value'));
+assert(source.includes('id="writing-complete"'));assert(source.includes('id="writing-progress-summary"'));
+console.log('Writing progress: accurate totals, draft states, manual completion, undo, persisted flags, current-task counts and empty banks passed.');
