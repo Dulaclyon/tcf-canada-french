@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';import {DatabaseSync} from 'node:sqlite';import {migrateCompletedWriting,submitCompletedDraft} from '../server/completed-writing.mjs';
+const db=new DatabaseSync(':memory:');db.exec(`CREATE TABLE users(id TEXT PRIMARY KEY,role TEXT);CREATE TABLE progress(user_id TEXT,key TEXT,value TEXT);CREATE TABLE writing_submissions(id TEXT PRIMARY KEY,user_id TEXT,question_id TEXT,title TEXT,task INTEGER,prompt TEXT,text TEXT,submitted_at INTEGER,feedback TEXT DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);`);
+const questions=[{id:'q1',title:'Question',task:1,prompt:'Write a message.'}];
+db.prepare('INSERT INTO users VALUES(?,?)').run('student','student');db.prepare('INSERT INTO users VALUES(?,?)').run('teacher','admin');
+const completed={drafts:{q1:{text:'Bonjour, voici ma réponse.',completed:true}}};
+db.prepare('INSERT INTO progress VALUES(?,?,?)').run('student','french-learning-v1',JSON.stringify(completed));db.prepare('INSERT INTO progress VALUES(?,?,?)').run('teacher','french-learning-v1',JSON.stringify(completed));
+migrateCompletedWriting(db,questions);assert.equal(db.prepare('SELECT count(*) n FROM writing_submissions').get().n,1);assert.equal(db.prepare('SELECT user_id FROM writing_submissions').get().user_id,'student');
+migrateCompletedWriting(db,questions);assert.equal(db.prepare('SELECT count(*) n FROM writing_submissions').get().n,1);
+assert.equal(submitCompletedDraft(db,questions,'student','q1',completed.drafts.q1),false);
+assert.equal(submitCompletedDraft(db,questions,'student','q1',{text:'Draft only',completed:false}),false);
+assert.equal(submitCompletedDraft(db,questions,'student','q1',null),false);
+assert.equal(submitCompletedDraft(db,questions,'student','q1',{text:' ',completed:true}),false);
+assert.equal(submitCompletedDraft(db,questions,'student','q1',{text:'Revised response',completed:true}),true);
+assert.equal(db.prepare('SELECT count(*) n FROM writing_submissions').get().n,2);db.close();
+console.log('Completed writing migration: only completed student essays, preserved draft text, idempotence, no empty essays, and retained versions passed.');

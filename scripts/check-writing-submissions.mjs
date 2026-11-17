@@ -31,6 +31,10 @@ try{
  history=await json(await req('/api/writing/submissions?questionId='+q.id,a));assert.equal(history.length,2);assert.equal(history.find(x=>x.id===one.id).text,body.text);assert.equal(history.find(x=>x.id===two.id).reviewed_at,null);
  const pending=await json(await req('/api/admin/writing?pending=1&student='+id,admin));assert.deepEqual(pending.items.map(x=>x.id),[two.id]);
  assert.equal((await json(await req('/api/admin/writing?student='+users.find(x=>x.email==='b@example.test').id,admin))).items.length,0);
+ const q2=questions[1],value={drafts:{[q2.id]:{text:'Completed through progress',completed:true}}};
+ const completion=await fetch(base+'/api/progress',{method:'PUT',headers:{cookie:a,origin:base,'content-type':'application/json'},body:JSON.stringify({key:'french-learning-v1',value})});assert.equal(completion.status,200);
+ let auto=await json(await req('/api/writing/submissions?questionId='+q2.id,a));assert.equal(auto.length,1);assert.equal(auto[0].text,'Completed through progress');
+ value.drafts[q2.id].text='Still editing the same completed draft';await fetch(base+'/api/progress',{method:'PUT',headers:{cookie:a,origin:base,'content-type':'application/json'},body:JSON.stringify({key:'french-learning-v1',value})});auto=await json(await req('/api/writing/submissions?questionId='+q2.id,a));assert.equal(auto.length,1);
  child.kill();await once(child,'exit');await start();const again=await login('a@example.test','student-password-test');history=await json(await req('/api/writing/submissions?questionId='+q.id,again));assert.equal(history.length,2);assert.equal(history.find(x=>x.id===one.id).feedback,feedback);
  console.log('Writing submissions passed: access permissions, CSRF, account isolation, immutable versions, server-owned question metadata, feedback, filters, validation and restart persistence.');
 }finally{if(child.exitCode===null){child.kill();await once(child,'exit');}await rm(dir,{recursive:true,force:true});}

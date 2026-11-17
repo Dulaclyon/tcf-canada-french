@@ -1,9 +1,13 @@
+import {readFileSync} from 'node:fs';
+import {migrateCompletedWriting,submitCompletedDraft} from './completed-writing.mjs';
 import {randomBytes} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 export function writingSubmissions(db,root,permissionsFor){
  db.exec(`CREATE TABLE IF NOT EXISTS writing_submissions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,question_id TEXT NOT NULL,title TEXT NOT NULL,task INTEGER NOT NULL,prompt TEXT NOT NULL,text TEXT NOT NULL,submitted_at INTEGER NOT NULL,feedback TEXT NOT NULL DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);CREATE INDEX IF NOT EXISTS writing_by_user ON writing_submissions(user_id,submitted_at);`);
- return async({route,req,url,user,body,send})=>{
+ const questions=JSON.parse(readFileSync(path.join(root,'src/data/exam.json'),'utf8')).writing;
+ migrateCompletedWriting(db,questions);
+ const handler=async({route,req,url,user,body,send})=>{
   if(route==='/api/writing/submissions'&&req.method==='GET'){
    const question=url.searchParams.get('questionId');
    if(!question)return send(400,{error:'请选择写作题目'});
@@ -44,4 +48,6 @@ export function writingSubmissions(db,root,permissionsFor){
   }
   return send(404,{error:'接口不存在'});
  };
+ handler.syncCompleted=(user,value,previous)=>{if(user.role!=='student'||!permissionsFor(user).writing)return;for(const [id,draft] of Object.entries(value.drafts||{})){if(previous?.drafts?.[id]?.completed!==true)submitCompletedDraft(db,questions,user.id,id,draft);}};
+ return handler;
 }
