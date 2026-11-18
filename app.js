@@ -34,7 +34,8 @@ const navGroups = [
   ['TCF CA 考试准备', [['listening', '听力训练'], ['reading', '阅读训练'], ['oral', '口语训练'], ['writing', '写作训练']]],
   ['说明', [['sources', '内容与来源']]],
 ];
-const navLink = (id, label) => `<a href="#${id}" data-nav="${id}">${label}</a>`;
+const navigationIcons={home:'layout-dashboard',courses:'book-2',review:'rotate-clockwise',listening:'headphones',reading:'book',oral:'microphone',writing:'pencil',sources:'info-circle'};
+const navLink = (id, label) => `<a href="#${id}" data-nav="${id}"><span class="nav-icon" data-icon="${navigationIcons[id]}" aria-hidden="true"></span>${label}</a>`;
 document.querySelector('#nav').innerHTML = navLink('home', '学习总览') + navGroups.map(([title, links]) =>
   `<div class="nav-section" role="group" aria-label="${title}">
     <p class="nav-group">${title}</p>
@@ -51,14 +52,13 @@ const typeName=t=>({choice:'单项选择',fill:'填空',conjugation:'动词变�
 const heading=(eyebrow,title,sub='')=>`${eyebrow?`<div class="eyebrow">${eyebrow}</div>`:''}<h1>${title}</h1>${sub?`<p class="page-intro">${sub}</p>`:''}`;
 const lessonRoute=id=>(materials.some(m=>m.id===id)?'material/':'course/')+id;
 const courseOf=id=>courses.find(c=>c.id===id)||courses[0];
-function courseCard(c,i){const done=state.completed.includes(c.id);return `<article class="card"><div class="card-meta"><span class="tag">${esc(c.level)}</span><span class="count-label">${String(i+1).padStart(2,'0')}</span>${done?'<span class="tag">已完成</span>':''}</div><h3>${esc(c.title)}</h3><div class="card-footer"><span>${c.exercises?.length||0} 题 · 课文</span>${link(`course/${c.id}`,'开始学习 →','text-link')}</div></article>`}
 function home(){
  const completed=state.completed.filter(id=>courses.some(c=>c.id===id)).length;
  const next=courses.find(c=>!state.completed.includes(c.id))||courses[0];
  const pct=courses.length?Math.round(completed/courses.length*100):0;
  main.innerHTML=heading('','今天，从这里继续。','一次专注一个知识点。')+`<section class="hero next-lesson"><div><span class="count-label">下一步 · 基础法语</span><h2>${esc(next?.title||'开始学习')}</h2><p>${esc(arr(next?.objectives)[0]||'理解规则，再试着用出来。')}</p>${link('course/'+next?.id,'继续学习','button')}<div class="lesson-progress"><div class="progress"><i style="width:${pct}%"></i></div><small>已完成 ${completed} / ${courses.length} 个单元</small></div></div></section><section class="home-paths" aria-labelledby="paths-heading"><h2 id="paths-heading">选择学习内容</h2><div class="path-links"><a href="#courses"><span><strong>基础法语</strong><small>${courses.length} 个单元 · 文章与练习</small></span><span aria-hidden="true">→</span></a><a href="#oral"><span><strong>口语训练</strong><small>${arr(exam.oral).length} 道练习题</small></span><span aria-hidden="true">→</span></a><a href="#writing"><span><strong>写作训练</strong><small>${arr(exam.writing).length} 道练习题</small></span><span aria-hidden="true">→</span></a></div></section><details open class="quiet-details home-records"><summary>查看学习记录</summary><div class="stats"><div class="stat"><strong>${completed}</strong><span>已完成单元</span></div><div class="stat"><strong>${state.attempts.length}</strong><span>累计作答</span></div><div class="stat"><strong>${state.oralRecords.length}</strong><span>口语记录</span></div><div class="stat"><strong>${Object.keys(state.drafts).length}</strong><span>写作草稿</span></div></div><p class="muted">记录保存至你的个人账号。</p></details>`;
 }
-function catalogue(){main.innerHTML='<h1>基础课</h1>'+`<div class="grid course-catalog">${materials.map(m=>`<article class="card"><div class="card-meta"><span class="count-label">第 ${materials.indexOf(m)+1} 课</span></div><h3>${esc(m.title)}</h3><div class="card-footer">${link(`material/${m.id}`,'学习 →','text-link')}</div></article>`).join('')}</div><details open class="quiet-details"><summary>按知识点复习</summary><div class="grid course-catalog">${courses.map(courseCard).join('')}</div></details>`}
+function catalogue(){main.innerHTML='<h1>基础课</h1>'+`<div class="grid course-catalog">${materials.map(m=>`<article class="card"><div class="card-meta"><span class="count-label">第 ${materials.indexOf(m)+1} 课</span></div><h3>${esc(m.title)}</h3><div class="card-footer">${link(`material/${m.id}`,'学习 →','text-link')}</div></article>`).join('')}</div>`}
 const typesetOriginal=(text,title='')=>renderGrammar(text,title);
 function renderSupplement(b) {
   const pair = b.table && b.examplePairLabel && b.examples.length === 2;
