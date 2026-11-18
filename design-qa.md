@@ -33,3 +33,7 @@ P3 only: minor browser/font rasterization and generated foliage differences from
 ## Interface polish · 17 November 2026
 Final result remains passed. Current audit and implementation notes: `docs/interface-review.md`.
 Fresh before/after screenshots: `/tmp/tcf-polish-audit/`. Retained first-concept palette, typography, photographic asset and copy. Adjusted utility alignment and treatment, account disclosure, teacher form/list hierarchy, locale dates and mobile reflow. Fixed initial 320px overflow, then verified scrollWidth equals viewport width. Native disclosure keyboard behavior and unsaved feedback preservation passed. No remaining actionable P0/P1/P2 finding in the reviewed surfaces.
+
+## Learning-platform visual styling · 17 November 2026
+final result: passed
+Reference study: `docs/visual-style-reference.md`. User constraint: visual styles only; existing structure retained. Same-state before/after screenshots `/tmp/tcf-platform-benchmark/07-ryan-before.jpg` and `08-ryan-after.jpg`; lesson, fields and mobile captures also inspected. Fonts, size hierarchy, neutral fills, borders, brand/state colors and French readability checked. Source Sans 3 loads from compact self-hosted files; no missing assets, console errors or horizontal overflow in tested views. No actionable P0/P1/P2 findings. No third-party learning content or proprietary typefaces copied.

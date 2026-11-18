@@ -35,8 +35,8 @@ if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
 }
 const handleWriting=writingSubmissions(db,root,permissionsFor);
 const keys=new Set(['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1']);
-const publicFiles=new Set(['brand.css','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','account.css','login.js']);
-const types={'.ttf':'font/ttf','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.m4a':'audio/mp4','.mp3':'audio/mpeg','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
+const publicFiles=new Set(['brand.css','assets/fonts/source-sans-3-latin.woff2','assets/fonts/source-sans-3-ext.woff2','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','account.css','login.js']);
+const types={'.woff2':'font/woff2','.ttf':'font/ttf','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.m4a':'audio/mp4','.mp3':'audio/mpeg','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
 const server=http.createServer(async(req,res)=>{
  const send=(status,value,extra={})=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin',...extra});res.end(typeof value==='string'?value:JSON.stringify(value));};
  try{
