@@ -1,3 +1,4 @@
+import {headerActions} from './i18n.js';
 const keys=['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1'];
 const response=await fetch('/api/me',{cache:'no-store'});
 if(!response.ok){location.replace('/login.html');throw Error('Login required');}
@@ -5,9 +6,17 @@ export const account=await response.json();
 if(account.mustChange){location.replace('/login.html');throw Error('Password change required');}
 const r=await fetch('/api/progress',{cache:'no-store'});if(!r.ok)throw Error('无法读取云端档案，请刷新重试');
 const values=await r.json();let queue=Promise.resolve();
-export const storage={getItem:key=>values[key]===undefined?null:JSON.stringify(values[key]),setItem(key,value){if(!keys.includes(key))throw Error('Unknown progress key');const parsed=JSON.parse(value);values[key]=parsed;queue=queue.then(async()=>{const r=await fetch('/api/progress',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,value:parsed})});if(!r.ok)throw Error('保存失败');document.querySelector('#cloud-status').textContent='云端已保存';}).catch(()=>{document.querySelector('#cloud-status').textContent='云端保存失败，请保持此页打开并重试';const retry=document.querySelector('#cloud-retry');retry.hidden=false;});}};
-addEventListener('DOMContentLoaded',()=>{}, {once:true});
-const panel=document.createElement('div');panel.className='account-tools';panel.innerHTML='<span id="cloud-status">个人云端档案</span> <button id="cloud-retry" hidden>重试保存</button> <a href="/login.html">修改密码</a> <a href="/app.html#backup">备份</a> '+(account.role==='admin'?'<a href="/admin.html">管理学生</a> <a href="/submissions.html">作文批改</a> ':'')+'<button id="student-logout">退出登录</button>';document.querySelector('header').append(panel);
+export const storage={getItem:key=>values[key]===undefined?null:JSON.stringify(values[key]),setItem(key,value){if(!keys.includes(key))throw Error('Unknown progress key');const parsed=JSON.parse(value);values[key]=parsed;queue=queue.then(async()=>{const r=await fetch('/api/progress',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,value:parsed})});if(!r.ok)throw Error('保存失败');document.querySelector('#cloud-status').textContent='云端已保存';document.querySelector('#cloud-retry').hidden=true;panel.classList.remove('save-error');}).catch(()=>{document.querySelector('#cloud-status').textContent='云端保存失败，请保持此页打开并重试';const retry=document.querySelector('#cloud-retry');retry.hidden=false;panel.classList.add('save-error');accountMenu.open=true;});}};
+const panel=document.createElement('div');panel.className='account-tools';
+panel.innerHTML=(account.role==='admin'?'<a class="teacher-shortcut" href="/admin.html">管理学生</a>':'')+
+ '<details class="account-menu"><summary>账号</summary><div class="account-menu-panel"><span id="cloud-status" role="status">个人云端档案</span><button id="cloud-retry" hidden>重试保存</button>'+
+ (account.role==='admin'?'<a href="/submissions.html">作文批改</a>':'')+
+ '<a href="/login.html">修改密码</a><a href="/app.html#backup">备份</a><a href="/">产品介绍</a><button id="student-logout">退出登录</button></div></details>';
+headerActions().prepend(panel);
+const accountMenu=panel.querySelector('details');
+document.addEventListener('click',event=>{if(!accountMenu.contains(event.target))accountMenu.open=false;});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&accountMenu.open){accountMenu.open=false;accountMenu.querySelector('summary').focus();}});
+accountMenu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{accountMenu.open=false;}));
 document.querySelector('#cloud-retry').onclick=()=>{for(const k of keys)if(values[k])storage.setItem(k,JSON.stringify(values[k]));};
 document.querySelector('#student-logout').onclick=async()=>{await queue;await fetch('/api/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});location.replace('/');};
 for(const node of document.querySelectorAll('.sidebar-bottom small'))node.textContent='学习进度保存至个人账号';

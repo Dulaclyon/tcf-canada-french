@@ -35,7 +35,7 @@ export function translate(source,locale=language){
 }
 const originals=new WeakMap(),attributes=new WeakMap();
 const protectedContent='.courseware-text,.map-reading,.lesson-passage,.lesson-examples,.lesson-vocabulary,.article-notes,.article-body,.article-paragraph,.example,.translation,.submission-text,.bank-source-text,.bank-transcript,.bank-prompt,[data-i18n-skip],[lang="fr"]';
-function skip(element){if(element?.closest('.course-catalog h3,.map-node,.next-lesson h2,.next-lesson p,.lesson h1'))return true;if(!element||element.closest('script,style,textarea,.language-control'))return true;if(element.closest(protectedContent)&&!element.closest('button,a,select,option'))return true;return false;}
+function skip(element){if(element?.closest('.submission-title,.course-catalog h3,.map-node,.next-lesson h2,.next-lesson p,.lesson h1'))return true;if(!element||element.closest('script,style,textarea,.language-control'))return true;if(element.closest(protectedContent)&&!element.closest('button,a,select,option'))return true;return false;}
 function translateText(node){if(skip(node.parentElement)||!node.nodeValue.trim())return;const value=node.nodeValue;let saved=originals.get(node);if(!saved||saved.last!==value)saved={source:value};saved.last=translate(saved.source);originals.set(node,saved);if(value!==saved.last)node.nodeValue=saved.last;}
 function translateAttributes(element){if(element.closest('script,style,.language-control'))return;if(element.closest(protectedContent)&&!element.matches('textarea,input,button,a,select,option'))return;let records=attributes.get(element);if(!records){records={};attributes.set(element,records);}for(const name of ['aria-label','placeholder','title','alt']){if(!element.hasAttribute(name))continue;const value=element.getAttribute(name);let saved=records[name];if(!saved||saved.last!==value)saved={source:value};saved.last=translate(saved.source);records[name]=saved;if(saved.last!==value)element.setAttribute(name,saved.last);}}
 let observer,scheduled=false;
@@ -49,11 +49,15 @@ function render(){
  observer?.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','placeholder','title','alt']});
 }
 export function setLanguage(value){if(!languages.has(value))return;language=value;try{localStorage.setItem(LANGUAGE_KEY,value);}catch{}render();document.dispatchEvent(new CustomEvent('interface-language-change',{detail:language}));}
+export function headerActions(){
+ const header=document.querySelector('header');if(!header)return document.body;
+ let actions=header.querySelector('.header-actions');if(!actions){actions=document.createElement('div');actions.className='header-actions';header.append(actions);}return actions;
+}
 function init(){
  const container=document.createElement('label');container.className='language-control';container.setAttribute('aria-label','Interface language');
  const select=document.createElement('select');select.id='interface-language';select.setAttribute('aria-label','Interface language');
  for(const [value,label] of [['en','English'],['zh-CN','简体中文'],['zh-TW','繁體中文']]){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
- container.append(select);(document.querySelector('header')||document.body).append(container);select.onchange=()=>setLanguage(select.value);
+ container.append(select);headerActions().append(container);select.onchange=()=>setLanguage(select.value);
  observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;render();});});render();
 }
 if(typeof document!=='undefined'){if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();}

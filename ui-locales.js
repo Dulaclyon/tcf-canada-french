@@ -1,4 +1,6 @@
 export const messages = {
+ "账号": {"en":"Account","zh-TW":"帳號"},
+ "设置新的登录密码。": {"en":"Set a new password for your account.","zh-TW":"設定新的登入密碼。"},
   "让法语": {"en":"Make French","zh-TW":"讓法語"},
   "融入你的生活": {"en":"part of your life","zh-TW":"融入你的生活"},
   "文章与练习": {"en":"readings and practice","zh-TW":"文章與練習"},

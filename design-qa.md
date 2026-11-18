@@ -29,3 +29,7 @@ Verified language switching, homepage-to-login, continue to workspace, readable 
 
 ## Follow-up polish
 P3 only: minor browser/font rasterization and generated foliage differences from the concept. No blocking gaps.
+
+## Interface polish · 17 November 2026
+Final result remains passed. Current audit and implementation notes: `docs/interface-review.md`.
+Fresh before/after screenshots: `/tmp/tcf-polish-audit/`. Retained first-concept palette, typography, photographic asset and copy. Adjusted utility alignment and treatment, account disclosure, teacher form/list hierarchy, locale dates and mobile reflow. Fixed initial 320px overflow, then verified scrollWidth equals viewport width. Native disclosure keyboard behavior and unsaved feedback preservation passed. No remaining actionable P0/P1/P2 finding in the reviewed surfaces.
