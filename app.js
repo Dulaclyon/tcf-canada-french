@@ -9,7 +9,7 @@ const {renderWeatherLesson}=account.permissions.basics?await import('./weather-l
 const {renderPossessiveRecap}=account.permissions.basics?await import('./possessive-recap.js?v=1'):{renderPossessiveRecap:()=>''};
 const {combineBasicVerbs,renderBasicVerbs,renderTimeExpressions,visibleLessonTopics}=account.permissions.basics?await import('./basic-verbs.js?v=3'):{combineBasicVerbs:()=>[],renderBasicVerbs:()=>'',renderTimeExpressions:()=>'',visibleLessonTopics:()=>[]};
 import {renderBank} from './bank.js?v=3';
-import {buildLessonFlow,consolidatePronunciationTopics} from './lesson-flow.js?v=23';
+import {buildLessonFlow,consolidatePronunciationTopics} from './lesson-flow.js?v=24';
 import {renderGrammar,renderArticle} from './grammar-layout.js?v=44';
 const KEY='french-learning-v1';
 const fresh=()=>({version:1,completed:[],favorites:[],attempts:[],oralRecords:[],drafts:{},history:[]});
