@@ -2373,3 +2373,553 @@ Object.assign(messages, {
 });
 
 messages["知识点导航"]={en:"Topic navigation","zh-TW":"知識點導覽"};
+
+// Structural labels audited across the learning interface.
+Object.assign(messages, {
+  "规则要点": {
+    "en": "Key points",
+    "zh-TW": "規則要點"
+  },
+  "例句": {
+    "en": "Examples",
+    "zh-TW": "例句"
+  },
+  "例句 · example": {
+    "en": "Examples",
+    "zh-TW": "例句"
+  },
+  "动词变位 · conjugation": {
+    "en": "Conjugation",
+    "zh-TW": "動詞變位"
+  },
+  "单数": {
+    "en": "Singular",
+    "zh-TW": "單數"
+  },
+  "复数": {
+    "en": "Plural",
+    "zh-TW": "複數"
+  },
+  "现在时": {
+    "en": "Present tense",
+    "zh-TW": "現在式"
+  },
+  "未完成过去时": {
+    "en": "Imperfect",
+    "zh-TW": "未完成過去式"
+  },
+  "愈过去时": {
+    "en": "Pluperfect",
+    "zh-TW": "愈過去式"
+  },
+  "简单将来时": {
+    "en": "Simple future",
+    "zh-TW": "簡單將來式"
+  },
+  "条件式": {
+    "en": "Conditional",
+    "zh-TW": "條件式"
+  },
+  "主语": {
+    "en": "Subject",
+    "zh-TW": "主詞"
+  },
+  "法语例句": {
+    "en": "French examples",
+    "zh-TW": "法語例句"
+  },
+  "中文释义": {
+    "en": "Chinese meaning",
+    "zh-TW": "中文釋義"
+  },
+  "（中文释义）": {
+    "en": "Chinese meaning",
+    "zh-TW": "中文釋義"
+  },
+  "形式 / 结构": {
+    "en": "Form / structure",
+    "zh-TW": "形式／結構"
+  },
+  "用法 / 示例": {
+    "en": "Usage / examples",
+    "zh-TW": "用法／例句"
+  },
+  "拼写 / 词语": {
+    "en": "Spelling / word",
+    "zh-TW": "拼寫／詞語"
+  },
+  "读音 / 示例": {
+    "en": "Sound / examples",
+    "zh-TW": "讀音／例句"
+  },
+  "法语 / 原结构": {
+    "en": "French / original form",
+    "zh-TW": "法語／原結構"
+  },
+  "释义 / 对应形式": {
+    "en": "Meaning / equivalent",
+    "zh-TW": "釋義／對應形式"
+  },
+  "（法语 / 原结构）": {
+    "en": "French / original form",
+    "zh-TW": "法語／原結構"
+  },
+  "（释义 / 对应形式）": {
+    "en": "Meaning / equivalent",
+    "zh-TW": "釋義／對應形式"
+  },
+  "（词语 / 原结构）": {
+    "en": "Word / original form",
+    "zh-TW": "詞語／原結構"
+  },
+  "（词语）": {
+    "en": "Word",
+    "zh-TW": "詞語"
+  },
+  "法语": {
+    "en": "French",
+    "zh-TW": "法語"
+  },
+  "组合": {
+    "en": "Combination",
+    "zh-TW": "組合"
+  },
+  "缩合形式": {
+    "en": "Contracted form",
+    "zh-TW": "縮合形式"
+  },
+  "释义": {
+    "en": "Meaning",
+    "zh-TW": "釋義"
+  },
+  "例词": {
+    "en": "Example words",
+    "zh-TW": "例詞"
+  },
+  "拼写": {
+    "en": "Spelling",
+    "zh-TW": "拼寫"
+  },
+  "读音": {
+    "en": "Sound",
+    "zh-TW": "讀音"
+  },
+  "音标": {
+    "en": "IPA",
+    "zh-TW": "音標"
+  },
+  "拼写组合": {
+    "en": "Spelling pattern",
+    "zh-TW": "拼寫組合"
+  },
+  "适用说明": {
+    "en": "Usage note",
+    "zh-TW": "適用說明"
+  },
+  "单词": {
+    "en": "Word",
+    "zh-TW": "單字"
+  },
+  "单词一": {
+    "en": "Word 1",
+    "zh-TW": "單字一"
+  },
+  "单词二": {
+    "en": "Word 2",
+    "zh-TW": "單字二"
+  },
+  "短语 / 备注": {
+    "en": "Phrase / note",
+    "zh-TW": "片語／備註"
+  },
+  "易错提醒": {
+    "en": "Common pitfalls",
+    "zh-TW": "易錯提醒"
+  },
+  "返回课程": {
+    "en": "Back to lessons",
+    "zh-TW": "返回課程"
+  },
+  "用法对照": {
+    "en": "Usage comparison",
+    "zh-TW": "用法對照"
+  },
+  "注意": {
+    "en": "Note",
+    "zh-TW": "注意"
+  },
+  "词汇与句型备注": {
+    "en": "Vocabulary and sentence notes",
+    "zh-TW": "詞彙與句型註解"
+  },
+  "词汇解释": {
+    "en": "Vocabulary notes",
+    "zh-TW": "詞彙解釋"
+  },
+  "真人录音": {
+    "en": "Human recording",
+    "zh-TW": "真人錄音"
+  },
+  "基础动词朗读": {
+    "en": "Basic verbs",
+    "zh-TW": "基礎動詞朗讀"
+  },
+  "发音示范": {
+    "en": "Pronunciation demonstration",
+    "zh-TW": "發音示範"
+  },
+  "对话录音": {
+    "en": "Dialogue",
+    "zh-TW": "對話錄音"
+  },
+  "课文录音": {
+    "en": "Reading passage",
+    "zh-TW": "課文錄音"
+  },
+  "形容词例句朗读": {
+    "en": "Adjective examples",
+    "zh-TW": "形容詞例句朗讀"
+  },
+  "pouvoir 变位与例句": {
+    "en": "pouvoir: conjugation and examples",
+    "zh-TW": "pouvoir 變位與例句"
+  },
+  "vouloir 变位与例句": {
+    "en": "vouloir: conjugation and examples",
+    "zh-TW": "vouloir 變位與例句"
+  },
+  "介词朗读": {
+    "en": "Prepositions",
+    "zh-TW": "介詞朗讀"
+  },
+  "天气对话": {
+    "en": "Weather dialogue",
+    "zh-TW": "天氣對話"
+  },
+  "法国的四季": {
+    "en": "The four seasons in France",
+    "zh-TW": "法國的四季"
+  },
+  "示范发音": {
+    "en": "Pronunciation model",
+    "zh-TW": "示範發音"
+  },
+  "合成语音 · 听后跟读": {
+    "en": "Synthetic audio · listen and repeat",
+    "zh-TW": "合成語音・聽後跟讀"
+  },
+  "课件内容": {
+    "en": "Lesson content",
+    "zh-TW": "課程內容"
+  },
+  "配套课件": {
+    "en": "Related lesson",
+    "zh-TW": "配套課程"
+  },
+  "数字与时间": {
+    "en": "Numbers and time",
+    "zh-TW": "數字與時間"
+  },
+  "代动词过去时": {
+    "en": "Pronominal verbs in the past",
+    "zh-TW": "代名動詞的過去式"
+  },
+  "半元音发音": {
+    "en": "Semivowel pronunciation",
+    "zh-TW": "半母音發音"
+  },
+  "宾语代词": {
+    "en": "Object pronouns",
+    "zh-TW": "受詞代名詞"
+  },
+  "y 与 en": {
+    "en": "y and en",
+    "zh-TW": "y 與 en"
+  },
+  "被动语态": {
+    "en": "Passive voice",
+    "zh-TW": "被動語態"
+  },
+  "关系代词": {
+    "en": "Relative pronouns",
+    "zh-TW": "關係代名詞"
+  },
+  "逻辑连接词": {
+    "en": "Logical connectors",
+    "zh-TW": "邏輯連接詞"
+  },
+  "间接引语": {
+    "en": "Reported speech",
+    "zh-TW": "間接引語"
+  },
+  "虚拟式": {
+    "en": "Subjunctive",
+    "zh-TW": "虛擬式"
+  },
+  "基础动词、名词与发音": {
+    "en": "Basic verbs, nouns and pronunciation",
+    "zh-TW": "基礎動詞、名詞與發音"
+  },
+  "基础动词&名词": {
+    "en": "Basic verbs and nouns",
+    "zh-TW": "基礎動詞與名詞"
+  },
+  "基础发音": {
+    "en": "Basic pronunciation",
+    "zh-TW": "基礎發音"
+  },
+  "情态动词": {
+    "en": "Modal verbs",
+    "zh-TW": "情態動詞"
+  },
+  "数字与日期": {
+    "en": "Numbers and dates",
+    "zh-TW": "數字與日期"
+  },
+  "四季与天气": {
+    "en": "Seasons and weather",
+    "zh-TW": "四季與天氣"
+  },
+  "冠词的用法": {
+    "en": "Using articles",
+    "zh-TW": "冠詞的用法"
+  },
+  "代动词用法": {
+    "en": "Using pronominal verbs",
+    "zh-TW": "代名動詞的用法"
+  },
+  "过去时练习": {
+    "en": "Past tense practice",
+    "zh-TW": "過去式練習"
+  },
+  "形容词用法": {
+    "en": "Using adjectives",
+    "zh-TW": "形容詞的用法"
+  },
+  "比较与最高级": {
+    "en": "Comparatives and superlatives",
+    "zh-TW": "比較級與最高級"
+  },
+  "复合过去时": {
+    "en": "Passé composé",
+    "zh-TW": "複合過去式"
+  },
+  "物主与指示": {
+    "en": "Possessives and demonstratives",
+    "zh-TW": "所有格與指示詞"
+  },
+  "否定与疑问": {
+    "en": "Negation and questions",
+    "zh-TW": "否定與疑問"
+  },
+  "原创范文": {
+    "en": "Sample response",
+    "zh-TW": "原創範文"
+  },
+  "原创结构片段；不是完整考试时长示范": {
+    "en": "Sample excerpt, not a full-length timed response",
+    "zh-TW": "原創結構片段；非完整限時示範"
+  },
+  "加拿大语言门户": {
+    "en": "Language Portal of Canada",
+    "zh-TW": "加拿大語言入口網站"
+  },
+  "语言：词汇、语法，口语的发音与流畅度，写作的拼写与句式。": {
+    "en": "Language: vocabulary and grammar; pronunciation and fluency in speaking; spelling and sentence patterns in writing.",
+    "zh-TW": "語言：詞彙、文法、口說發音與流暢度，以及寫作拼字與句型。"
+  },
+  "语用：互动或主题展开、结构、连贯与衔接。": {
+    "en": "Pragmatics: interaction or topic development, structure, coherence and cohesion.",
+    "zh-TW": "語用：互動或主題發展、結構、連貫與銜接。"
+  },
+  "社会语言：用语是否适合交流对象和情境。": {
+    "en": "Sociolinguistics: language appropriate to the audience and situation.",
+    "zh-TW": "社會語言：用語是否適合對象與情境。"
+  },
+  "请选择写作题目": {
+    "en": "Choose a writing question.",
+    "zh-TW": "請選擇寫作題目"
+  },
+  "请使用学生账号提交作文": {
+    "en": "Use a student account to submit writing.",
+    "zh-TW": "請使用學生帳號提交作文"
+  },
+  "写作板块尚未开放": {
+    "en": "Writing access has not been enabled.",
+    "zh-TW": "寫作區尚未開放"
+  },
+  "请输入作文，最多 20,000 个字符": {
+    "en": "Enter your essay, up to 20,000 characters.",
+    "zh-TW": "請輸入作文，最多 20,000 個字元"
+  },
+  "写作题目不存在": {
+    "en": "Writing question not found.",
+    "zh-TW": "找不到寫作題目"
+  },
+  "这份作文已经提交；修改后可再次提交": {
+    "en": "This version has already been submitted. Edit it before submitting again.",
+    "zh-TW": "這個版本已提交；修改後可再次提交"
+  },
+  "无效页码": {
+    "en": "Invalid page number.",
+    "zh-TW": "無效頁碼"
+  },
+  "作文不存在": {
+    "en": "Essay not found.",
+    "zh-TW": "找不到作文"
+  },
+  "请输入评语，最多 12,000 个字符": {
+    "en": "Enter feedback, up to 12,000 characters.",
+    "zh-TW": "請輸入評語，最多 12,000 個字元"
+  },
+  "接口不存在": {
+    "en": "Endpoint not found.",
+    "zh-TW": "找不到端點"
+  },
+  "需要 JSON 请求": {
+    "en": "A JSON request is required.",
+    "zh-TW": "需要 JSON 請求"
+  },
+  "当前密码错误，或新密码不足 12 位": {
+    "en": "The current password is incorrect, or the new password is shorter than 12 characters.",
+    "zh-TW": "目前密碼錯誤，或新密碼不足 12 個字元"
+  },
+  "无效学习记录": {
+    "en": "Invalid learning record.",
+    "zh-TW": "無效學習紀錄"
+  },
+  "学生不存在": {
+    "en": "Student not found.",
+    "zh-TW": "找不到學生"
+  },
+  "无效权限设置": {
+    "en": "Invalid access settings.",
+    "zh-TW": "無效權限設定"
+  }
+});
+
+Object.assign(messages, {"日期与星期朗读": {"en": "Dates and days", "zh-TW": "日期與星期朗讀"}, "数字朗读": {"en": "Numbers", "zh-TW": "數字朗讀"}, "天气表达朗读": {"en": "Weather expressions", "zh-TW": "天氣表達朗讀"}, "鼻化元音示范": {"en": "Nasal vowel demonstration", "zh-TW": "鼻母音示範"}, "课文朗读与讲解": {"en": "Passage reading and explanation", "zh-TW": "課文朗讀與講解"}, "冠词例句朗读": {"en": "Article examples", "zh-TW": "冠詞例句朗讀"}});
+
+Object.assign(messages, {
+  "代词与分词": {
+    "en": "Pronouns and participles",
+    "zh-TW": "代名詞與分詞"
+  },
+  "复合关系代词": {
+    "en": "Compound relative pronouns",
+    "zh-TW": "複合關係代名詞"
+  },
+  "过去将来时": {
+    "en": "Future in the past",
+    "zh-TW": "過去將來式"
+  },
+  "条件句用法": {
+    "en": "Using conditional clauses",
+    "zh-TW": "條件句用法"
+  },
+  "虚拟式用法": {
+    "en": "Using the subjunctive",
+    "zh-TW": "虛擬式用法"
+  },
+  "单项选择": {
+    "en": "Multiple choice",
+    "zh-TW": "單選題"
+  },
+  "填空": {
+    "en": "Fill in the blank",
+    "zh-TW": "填空"
+  },
+  "动词变位": {
+    "en": "Conjugation",
+    "zh-TW": "動詞變位"
+  },
+  "改错": {
+    "en": "Error correction",
+    "zh-TW": "改錯"
+  },
+  "中法表达转换": {
+    "en": "Chinese–French translation",
+    "zh-TW": "中法表達轉換"
+  },
+  "句子排序": {
+    "en": "Sentence ordering",
+    "zh-TW": "句子排序"
+  },
+  "情境表达": {
+    "en": "Situational expression",
+    "zh-TW": "情境表達"
+  },
+  "主题练习": {
+    "en": "Topic practice",
+    "zh-TW": "主題練習"
+  },
+  "下一组 →": {
+    "en": "Next set →",
+    "zh-TW": "下一組 →"
+  },
+  "上一组": {
+    "en": "Previous set",
+    "zh-TW": "上一組"
+  },
+  "数字（numbers）": {
+    "en": "Numbers",
+    "zh-TW": "數字"
+  },
+  "numbers （数字）": {
+    "en": "Numbers",
+    "zh-TW": "數字"
+  },
+  "官方考试要求": {
+    "en": "Official exam requirements",
+    "zh-TW": "官方考試要求"
+  },
+  "官方搜索索引核实；直接访问403": {
+    "en": "Checked through the official search index; direct access returned 403.",
+    "zh-TW": "已由官方搜尋索引核實；直接存取回傳 403"
+  },
+  "官方评价维度": {
+    "en": "Official assessment criteria",
+    "zh-TW": "官方評量面向"
+  },
+  "官方搜索索引核实": {
+    "en": "Checked through the official search index.",
+    "zh-TW": "已由官方搜尋索引核實"
+  },
+  "第三方产品研究，不是官方真题来源": {
+    "en": "Third-party product research, not a source of official exam questions.",
+    "zh-TW": "第三方產品研究，非官方試題來源"
+  },
+  "公开主页与条款可访问；动态练习页文本为空；未抓取题库": {
+    "en": "The public homepage and terms were accessible. Dynamic practice pages had no extractable text; the question bank was not collected.",
+    "zh-TW": "公開首頁與條款可存取；動態練習頁無可擷取文字，未擷取題庫"
+  },
+  "官方NCLC对应": {
+    "en": "Official NCLC correspondence",
+    "zh-TW": "官方 NCLC 對照"
+  },
+  "官方页面核实": {
+    "en": "Checked on the official page.",
+    "zh-TW": "已由官方頁面核實"
+  },
+  "法语通关原创模拟": {
+    "en": "French with Ryan practice material",
+    "zh-TW": "French with Ryan 原創練習"
+  },
+  "原创模拟题": {
+    "en": "Original practice questions",
+    "zh-TW": "原創模擬題"
+  },
+  "结构与字数自动检查，待人工教学复核": {
+    "en": "Structure and word count checked automatically; teaching review pending.",
+    "zh-TW": "結構與字數已自動檢查，待教學人員複核"
+  },
+  "CEFR 用于教学难度，NCLC 用于加拿大语言能力等级，两者不会直接混作分数。本应用不预测官方成绩，不提供未核实的等级映射。": {
+    "en": "CEFR describes teaching difficulty; NCLC describes Canadian language benchmarks. They are not interchangeable scores. This app does not predict official results or provide unverified level mappings.",
+    "zh-TW": "CEFR 用於教學難度，NCLC 用於加拿大語言能力等級；兩者並非可互換的分數。本應用不預測官方成績，也不提供未核實的等級對照。"
+  }
+});
+messages['疑问与否定']={en:'Questions and negation','zh-TW':'疑問與否定'};
+messages['导图缩放']={en:'Topic map zoom','zh-TW':'導圖縮放'};
+messages['缩小导图']={en:'Zoom out','zh-TW':'縮小導圖'};
+messages['还原导图大小']={en:'Reset zoom','zh-TW':'還原導圖大小'};
+messages['放大导图']={en:'Zoom in','zh-TW':'放大導圖'};

@@ -11,6 +11,11 @@ export function translate(source,locale=language){
  const old=language;language=locale;
  let text=source;
  const rules=[
+ [/本题不区分重音。/gu,()=>choose('Accents are not checked for this question.','本題不區分重音。')],
+ [/(\d+)\s*道待复习错题/gu,(_,n)=>choose(`${n} mistakes to review`,`${n} 道待複習錯題`)],
+ [/(\d+)\s*项收藏/gu,(_,n)=>choose(`${n} bookmarks`,`${n} 項收藏`)],
+ [/答对\s*(\d+)\s*题/gu,(_,n)=>choose(`${n} correct`,`${n} 題答對`)],
+ [/评语保存于\s*/gu,()=>choose('Feedback saved on ','評語儲存於 ')],
  [/第\s*(\d+)\s*课/gu,(_,n)=>choose(`Lesson ${n}`,`第 ${n} 課`)],
  [/第\s*(\d+)\s*组/gu,(_,n)=>choose(`Set ${n}`,`第 ${n} 組`)],
  [/第\s*(\d+)\s*题/gu,(_,n)=>choose(`Question ${n}`,`第 ${n} 題`)],
@@ -30,12 +35,18 @@ export function translate(source,locale=language){
  [/确认(重置密码|停用|启用)：/gu,(_,action)=>choose(`Confirm ${messages[action]?.en||action}: `,`確認${messages[action]?.['zh-TW']||action}：`)],
  ];
  for(const [pattern,replacement] of rules)text=text.replace(pattern,replacement);
- text=text.replace(terms,key=>messages[key]?.[locale]||key);
+ text=text.replace(terms,(key,offset,whole)=>{
+  // Never replace a dictionary fragment inside an untranslated Chinese phrase.
+  const han=/[\u3400-\u9fff]/u;
+  if((han.test(key[0])&&han.test(whole[offset-1]||''))||(han.test(key.at(-1))&&han.test(whole[offset+key.length]||'')))return key;
+  return messages[key]?.[locale]||key;
+ });
  language=old;return text;
 }
 const originals=new WeakMap(),attributes=new WeakMap();
 const protectedContent='.courseware-text,.map-reading,.lesson-passage,.lesson-examples,.lesson-vocabulary,.article-notes,.article-body,.article-paragraph,.example,.translation,.submission-text,.bank-source-text,.bank-transcript,.bank-prompt,[data-i18n-skip],[lang="fr"]';
-function skip(element){if(element?.closest('[data-topic-label]'))return false;if(element?.closest('.submission-title,.course-catalog h3,.map-node,.next-lesson h2,.next-lesson p,.lesson h1'))return true;if(!element||element.closest('script,style,textarea,.language-control'))return true;if(element.closest(protectedContent)&&!element.closest('button,a,select,option'))return true;return false;}
+const interfaceLabels='[data-ui-label],[data-topic-label],.course-catalog h3,.next-lesson h2,.lesson h1,.lesson h2,.lesson h3,.lesson h4,.lesson th[scope=col],.lesson thead th,.lesson caption,.lesson figcaption,.lesson summary,.supplement-pitfall strong';
+function skip(element){if(element?.closest(interfaceLabels))return false;if(element?.closest('.submission-title,.map-node,.next-lesson p'))return true;if(!element||element.closest('script,style,textarea,.language-control'))return true;if(element.closest(protectedContent)&&!element.closest('button,a,select,option'))return true;return false;}
 function translateText(node){if(skip(node.parentElement)||!node.nodeValue.trim())return;const value=node.nodeValue;let saved=originals.get(node);if(!saved||saved.last!==value)saved={source:value};saved.last=translate(saved.source);originals.set(node,saved);if(value!==saved.last)node.nodeValue=saved.last;}
 function translateAttributes(element){if(element.closest('script,style,.language-control'))return;if(element.closest(protectedContent)&&!element.matches('textarea,input,button,a,select,option'))return;let records=attributes.get(element);if(!records){records={};attributes.set(element,records);}for(const name of ['aria-label','placeholder','title','alt']){if(!element.hasAttribute(name))continue;const value=element.getAttribute(name);let saved=records[name];if(!saved||saved.last!==value)saved={source:value};saved.last=translate(saved.source);records[name]=saved;if(saved.last!==value)element.setAttribute(name,saved.last);}}
 let observer,scheduled=false;
