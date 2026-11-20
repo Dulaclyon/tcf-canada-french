@@ -1575,3 +1575,801 @@ export const messages = {
     "zh-TW": "歷史版本"
   }
 };
+
+// Interface labels for lesson topic navigation; courseware remains unchanged.
+Object.assign(messages, {
+  "基础动词与变位": {
+    "en": "Basic verbs and conjugation",
+    "zh-TW": "基礎動詞與變位"
+  },
+  "动作与时间": {
+    "en": "Actions and time",
+    "zh-TW": "動作與時間"
+  },
+  "名词": {
+    "en": "Nouns",
+    "zh-TW": "名詞"
+  },
+  "一般疑问句": {
+    "en": "Yes/no questions",
+    "zh-TW": "一般疑問句"
+  },
+  "物主": {
+    "en": "Possessives",
+    "zh-TW": "所有格"
+  },
+  "être 与 avoir": {
+    "en": "être and avoir",
+    "zh-TW": "être 與 avoir"
+  },
+  "c’est 与 il est": {
+    "en": "c’est and il est",
+    "zh-TW": "c’est 與 il est"
+  },
+  "物主词的选择": {
+    "en": "Choosing possessives",
+    "zh-TW": "所有格的選擇"
+  },
+  "指示限定词": {
+    "en": "Demonstrative determiners",
+    "zh-TW": "指示限定詞"
+  },
+  "一般疑问句与回答": {
+    "en": "Yes/no questions and answers",
+    "zh-TW": "一般疑問句與回答"
+  },
+  "否定句 ne…pas": {
+    "en": "Negation with ne…pas",
+    "zh-TW": "否定句 ne…pas"
+  },
+  "目标音对照": {
+    "en": "Sound comparison",
+    "zh-TW": "目標音對照"
+  },
+  "元音区别": {
+    "en": "Vowel contrasts",
+    "zh-TW": "母音區別"
+  },
+  "词尾读音": {
+    "en": "Word endings",
+    "zh-TW": "詞尾讀音"
+  },
+  "发音": {
+    "en": "Pronunciation",
+    "zh-TW": "發音"
+  },
+  "冠词": {
+    "en": "Articles",
+    "zh-TW": "冠詞"
+  },
+  "介词": {
+    "en": "Prepositions",
+    "zh-TW": "介詞"
+  },
+  "变位复习": {
+    "en": "Conjugation review",
+    "zh-TW": "變位複習"
+  },
+  "地点介词": {
+    "en": "Prepositions of place",
+    "zh-TW": "地點介詞"
+  },
+  "chez 与 à": {
+    "en": "chez and à",
+    "zh-TW": "chez 與 à"
+  },
+  "省音与连读": {
+    "en": "Elision and liaison",
+    "zh-TW": "省音與連音"
+  },
+  "重读人称词": {
+    "en": "Stressed pronouns",
+    "zh-TW": "重讀人稱代名詞"
+  },
+  "疑问词选择": {
+    "en": "Choosing question words",
+    "zh-TW": "疑問詞選擇"
+  },
+  "pouvoir（能够）": {
+    "en": "pouvoir · ability",
+    "zh-TW": "pouvoir（能夠）"
+  },
+  "vouloir（想要）": {
+    "en": "vouloir · wishes",
+    "zh-TW": "vouloir（想要）"
+  },
+  "情态动词后用原形": {
+    "en": "Infinitives after modal verbs",
+    "zh-TW": "情態動詞後用原形"
+  },
+  "最近将来时": {
+    "en": "Near future",
+    "zh-TW": "最近將來式"
+  },
+  "问时间": {
+    "en": "Asking the time",
+    "zh-TW": "詢問時間"
+  },
+  "不定式搭配": {
+    "en": "Infinitive patterns",
+    "zh-TW": "不定式搭配"
+  },
+  "最近过去时": {
+    "en": "Recent past",
+    "zh-TW": "最近過去式"
+  },
+  "数字": {
+    "en": "Numbers",
+    "zh-TW": "數字"
+  },
+  "天气": {
+    "en": "Weather",
+    "zh-TW": "天氣"
+  },
+  "数字的拼写": {
+    "en": "Spelling numbers",
+    "zh-TW": "數字的拼寫"
+  },
+  "日期与星期": {
+    "en": "Dates and days",
+    "zh-TW": "日期與星期"
+  },
+  "持续多久": {
+    "en": "Duration",
+    "zh-TW": "持續多久"
+  },
+  "时间表达对照": {
+    "en": "Time expressions",
+    "zh-TW": "時間表達對照"
+  },
+  "第一类规则动词变位": {
+    "en": "Regular -er verbs",
+    "zh-TW": "第一類規則動詞變位"
+  },
+  "第二类动词变位（规则）": {
+    "en": "Regular -ir verbs",
+    "zh-TW": "第二類規則動詞變位"
+  },
+  "动词": {
+    "en": "Verbs",
+    "zh-TW": "動詞"
+  },
+  "方位": {
+    "en": "Directions",
+    "zh-TW": "方位"
+  },
+  "形容词": {
+    "en": "Adjectives",
+    "zh-TW": "形容詞"
+  },
+  "疑问词": {
+    "en": "Question words",
+    "zh-TW": "疑問詞"
+  },
+  "副词": {
+    "en": "Adverbs",
+    "zh-TW": "副詞"
+  },
+  "规则与不规则动词": {
+    "en": "Regular and irregular verbs",
+    "zh-TW": "規則與不規則動詞"
+  },
+  "天气与感受": {
+    "en": "Weather and feelings",
+    "zh-TW": "天氣與感受"
+  },
+  "四季与频率": {
+    "en": "Seasons and frequency",
+    "zh-TW": "四季與頻率"
+  },
+  "常用现在时": {
+    "en": "Everyday present tense",
+    "zh-TW": "常用現在式"
+  },
+  "表达": {
+    "en": "Expressions",
+    "zh-TW": "表達"
+  },
+  "搭配": {
+    "en": "Word combinations",
+    "zh-TW": "搭配"
+  },
+  "否定": {
+    "en": "Negation",
+    "zh-TW": "否定"
+  },
+  "三类冠词": {
+    "en": "Three types of articles",
+    "zh-TW": "三類冠詞"
+  },
+  "否定中的 de": {
+    "en": "de in negative sentences",
+    "zh-TW": "否定句中的 de"
+  },
+  "数量词后用 de": {
+    "en": "de after quantities",
+    "zh-TW": "數量詞後用 de"
+  },
+  "数量表达": {
+    "en": "Quantity expressions",
+    "zh-TW": "數量表達"
+  },
+  "否定表达": {
+    "en": "Negative expressions",
+    "zh-TW": "否定表達"
+  },
+  "动词及变位": {
+    "en": "Verbs and conjugation",
+    "zh-TW": "動詞與變位"
+  },
+  "代动词": {
+    "en": "Pronominal verbs",
+    "zh-TW": "代名動詞"
+  },
+  "形容词与副词": {
+    "en": "Adjectives and adverbs",
+    "zh-TW": "形容詞與副詞"
+  },
+  "作业": {
+    "en": "Practice",
+    "zh-TW": "練習"
+  },
+  "反身代词位置": {
+    "en": "Reflexive pronoun position",
+    "zh-TW": "反身代名詞的位置"
+  },
+  "否定与身体部位": {
+    "en": "Negation and body parts",
+    "zh-TW": "否定與身體部位"
+  },
+  "肯定与否定命令": {
+    "en": "Positive and negative commands",
+    "zh-TW": "肯定與否定命令"
+  },
+  "否定表达补全": {
+    "en": "Negative patterns",
+    "zh-TW": "否定表達"
+  },
+  "限定表达用法": {
+    "en": "Restrictive expressions",
+    "zh-TW": "限定表達用法"
+  },
+  "命令式构成": {
+    "en": "Forming the imperative",
+    "zh-TW": "命令式的構成"
+  },
+  "复合过去时": {
+    "en": "Passé composé",
+    "zh-TW": "複合過去式"
+  },
+  "passé composé 应用": {
+    "en": "Using the passé composé",
+    "zh-TW": "複合過去式的應用"
+  },
+  "介词短语总结": {
+    "en": "Prepositional phrases",
+    "zh-TW": "介詞片語整理"
+  },
+  "avoir 的复合过去时": {
+    "en": "Passé composé with avoir",
+    "zh-TW": "avoir 的複合過去式"
+  },
+  "être 的复合过去时": {
+    "en": "Passé composé with être",
+    "zh-TW": "être 的複合過去式"
+  },
+  "双助动词动词": {
+    "en": "Verbs with two auxiliaries",
+    "zh-TW": "可用兩種助動詞的動詞"
+  },
+  "常用不规则过去分词": {
+    "en": "Common irregular past participles",
+    "zh-TW": "常用不規則過去分詞"
+  },
+  "否定与副词位置": {
+    "en": "Negation and adverb position",
+    "zh-TW": "否定與副詞的位置"
+  },
+  "avoir 的配合": {
+    "en": "Agreement with avoir",
+    "zh-TW": "avoir 的配合"
+  },
+  "动词短语": {
+    "en": "Verb phrases",
+    "zh-TW": "動詞片語"
+  },
+  "复习passe compose": {
+    "en": "Passé composé review",
+    "zh-TW": "複合過去式複習"
+  },
+  "Jouer + préposition": {
+    "en": "Prepositions with jouer",
+    "zh-TW": "jouer 的介詞搭配"
+  },
+  "代动词的passé composé": {
+    "en": "Pronominal verbs in the passé composé",
+    "zh-TW": "代名動詞的複合過去式"
+  },
+  "代动词的构成": {
+    "en": "Forming pronominal verbs",
+    "zh-TW": "代名動詞的構成"
+  },
+  "直接宾语决定配合": {
+    "en": "Agreement with direct objects",
+    "zh-TW": "直接受詞與配合"
+  },
+  "间接宾语不触发配合": {
+    "en": "Indirect objects and agreement",
+    "zh-TW": "間接受詞與配合"
+  },
+  "常用形容词": {
+    "en": "Common adjectives",
+    "zh-TW": "常用形容詞"
+  },
+  "性格类形容词": {
+    "en": "Personality adjectives",
+    "zh-TW": "性格形容詞"
+  },
+  "情绪类形容词": {
+    "en": "Emotions",
+    "zh-TW": "情緒形容詞"
+  },
+  "冷热和环境": {
+    "en": "Temperature and surroundings",
+    "zh-TW": "冷熱與環境"
+  },
+  "财富状况类": {
+    "en": "Wealth and finances",
+    "zh-TW": "財富狀況"
+  },
+  "大小类": {
+    "en": "Size",
+    "zh-TW": "大小"
+  },
+  "美丑类": {
+    "en": "Appearance",
+    "zh-TW": "外貌"
+  },
+  "形容词的应用": {
+    "en": "Using adjectives",
+    "zh-TW": "形容詞的應用"
+  },
+  "形容词性数": {
+    "en": "Adjective agreement",
+    "zh-TW": "形容詞的性與數"
+  },
+  "形容词位置": {
+    "en": "Adjective position",
+    "zh-TW": "形容詞的位置"
+  },
+  "特殊形式与颜色": {
+    "en": "Special forms and colours",
+    "zh-TW": "特殊形式與顏色"
+  },
+  "元音前的音变": {
+    "en": "Sound changes before vowels",
+    "zh-TW": "母音前的音變"
+  },
+  "词尾拼写对照": {
+    "en": "Spelling endings",
+    "zh-TW": "詞尾拼寫對照"
+  },
+  "常见例外": {
+    "en": "Common exceptions",
+    "zh-TW": "常見例外"
+  },
+  "比较级": {
+    "en": "Comparatives",
+    "zh-TW": "比較級"
+  },
+  "最高级": {
+    "en": "Superlatives",
+    "zh-TW": "最高級"
+  },
+  "不规则最高级": {
+    "en": "Irregular superlatives",
+    "zh-TW": "不規則最高級"
+  },
+  "比较形容词与数量": {
+    "en": "Comparing adjectives and quantities",
+    "zh-TW": "形容詞與數量的比較"
+  },
+  "bon 与 bien": {
+    "en": "bon and bien",
+    "zh-TW": "bon 與 bien"
+  },
+  "最高级的冠词": {
+    "en": "Articles with superlatives",
+    "zh-TW": "最高級的冠詞"
+  },
+  "变形": {
+    "en": "Conjugation",
+    "zh-TW": "變位"
+  },
+  "Habiter（Nous habitons）": {
+    "en": "habiter · nous habitons",
+    "zh-TW": "habiter（nous habitons）"
+  },
+  "Finir（Nous finissons）": {
+    "en": "finir · nous finissons",
+    "zh-TW": "finir（nous finissons）"
+  },
+  "Faire（Nous faisons）": {
+    "en": "faire · nous faisons",
+    "zh-TW": "faire（nous faisons）"
+  },
+  "用法": {
+    "en": "Usage",
+    "zh-TW": "用法"
+  },
+  "不规则过去分词": {
+    "en": "Irregular past participles",
+    "zh-TW": "不規則過去分詞"
+  },
+  "未完成过去时的构成": {
+    "en": "Forming the imperfect",
+    "zh-TW": "未完成過去式的構成"
+  },
+  "背景与事件": {
+    "en": "Background and events",
+    "zh-TW": "背景與事件"
+  },
+  "同一动词的不同视角": {
+    "en": "Different views of an action",
+    "zh-TW": "同一動詞的不同視角"
+  },
+  "法语中的序数词": {
+    "en": "Ordinal numbers",
+    "zh-TW": "法語序數詞"
+  },
+  "法语中的分数": {
+    "en": "Fractions",
+    "zh-TW": "法語分數"
+  },
+  "法语中的小数点": {
+    "en": "Decimals",
+    "zh-TW": "法語小數"
+  },
+  "法语中的百分比": {
+    "en": "Percentages",
+    "zh-TW": "法語百分比"
+  },
+  "法语标点符号": {
+    "en": "French punctuation",
+    "zh-TW": "法語標點符號"
+  },
+  "avoir besoin de": {
+    "en": "avoir besoin de",
+    "zh-TW": "avoir besoin de"
+  },
+  "分数与小数": {
+    "en": "Fractions and decimals",
+    "zh-TW": "分數與小數"
+  },
+  "百分比与一致": {
+    "en": "Percentages and agreement",
+    "zh-TW": "百分比與一致"
+  },
+  "序数词": {
+    "en": "Ordinal numbers",
+    "zh-TW": "序數詞"
+  },
+  "不定词与范围": {
+    "en": "Indefinites and scope",
+    "zh-TW": "不定詞與範圍"
+  },
+  "Plus-que-imparfait 时态": {
+    "en": "Pluperfect",
+    "zh-TW": "愈過去式"
+  },
+  "过去的过去": {
+    "en": "Before a past event",
+    "zh-TW": "過去的過去"
+  },
+  "助动词与配合": {
+    "en": "Auxiliaries and agreement",
+    "zh-TW": "助動詞與配合"
+  },
+  "时间关系": {
+    "en": "Time relationships",
+    "zh-TW": "時間關係"
+  },
+  "代词": {
+    "en": "Pronouns",
+    "zh-TW": "代名詞"
+  },
+  "直接宾语代词": {
+    "en": "Direct object pronouns",
+    "zh-TW": "直接受詞代名詞"
+  },
+  "间接宾语代词": {
+    "en": "Indirect object pronouns",
+    "zh-TW": "間接受詞代名詞"
+  },
+  "直接与间接宾语": {
+    "en": "Direct and indirect objects",
+    "zh-TW": "直接與間接受詞"
+  },
+  "代词放在哪里": {
+    "en": "Pronoun position",
+    "zh-TW": "代名詞的位置"
+  },
+  "双代词顺序": {
+    "en": "Two-pronoun order",
+    "zh-TW": "雙代名詞順序"
+  },
+  "指示代词用法": {
+    "en": "Demonstrative pronouns",
+    "zh-TW": "指示代名詞用法"
+  },
+  "物主代词用法": {
+    "en": "Possessive pronouns",
+    "zh-TW": "所有格代名詞用法"
+  },
+  "代词 \"En\"": {
+    "en": "Pronoun en",
+    "zh-TW": "代名詞 en"
+  },
+  "代词 \"Y\"": {
+    "en": "Pronoun y",
+    "zh-TW": "代名詞 y"
+  },
+  "代词顺序": {
+    "en": "Pronoun order",
+    "zh-TW": "代名詞順序"
+  },
+  "现在分词": {
+    "en": "Present participle",
+    "zh-TW": "現在分詞"
+  },
+  "y 的范围": {
+    "en": "Uses of y",
+    "zh-TW": "y 的適用範圍"
+  },
+  "en 与数量": {
+    "en": "en and quantities",
+    "zh-TW": "en 與數量"
+  },
+  "副动词的主语": {
+    "en": "Subject of the gerund",
+    "zh-TW": "副動詞的主詞"
+  },
+  "主动与被动": {
+    "en": "Active and passive",
+    "zh-TW": "主動與被動"
+  },
+  "时态与施事": {
+    "en": "Tense and agent",
+    "zh-TW": "時態與施事者"
+  },
+  "自然表达选择": {
+    "en": "Natural phrasing",
+    "zh-TW": "自然表達的選擇"
+  },
+  "定语从句": {
+    "en": "Relative clauses",
+    "zh-TW": "關係子句"
+  },
+  "qui 作主语，指人或物": {
+    "en": "qui as subject",
+    "zh-TW": "qui 作主詞，指人或物"
+  },
+  "que 作直接宾语，指人或物": {
+    "en": "que as direct object",
+    "zh-TW": "que 作直接受詞，指人或物"
+  },
+  "où 表示地点或时间": {
+    "en": "où for place or time",
+    "zh-TW": "où 表示地點或時間"
+  },
+  "dont 替代 “de + 名词”": {
+    "en": "dont for de + noun",
+    "zh-TW": "dont 替代 de + 名詞"
+  },
+  "lequel / laquelle / lesquels / lesquelles": {
+    "en": "Forms of lequel",
+    "zh-TW": "lequel 的各種形式"
+  },
+  "qui 与 que": {
+    "en": "qui and que",
+    "zh-TW": "qui 與 que"
+  },
+  "où 与 dont": {
+    "en": "où and dont",
+    "zh-TW": "où 與 dont"
+  },
+  "介词与 lequel": {
+    "en": "Prepositions with lequel",
+    "zh-TW": "介詞與 lequel"
+  },
+  "原因与结果": {
+    "en": "Cause and result",
+    "zh-TW": "原因與結果"
+  },
+  "转折与让步": {
+    "en": "Contrast and concession",
+    "zh-TW": "轉折與讓步"
+  },
+  "目的与条件": {
+    "en": "Purpose and conditions",
+    "zh-TW": "目的與條件"
+  },
+  "没有具体先行词": {
+    "en": "Without a specific antecedent",
+    "zh-TW": "沒有具體先行詞"
+  },
+  "ce dont 对应 de": {
+    "en": "ce dont and de",
+    "zh-TW": "ce dont 與 de"
+  },
+  "整件事作先行内容": {
+    "en": "Referring to a whole idea",
+    "zh-TW": "指涉整件事"
+  },
+  "规则与词尾": {
+    "en": "Rules and endings",
+    "zh-TW": "規則與詞尾"
+  },
+  "不规则词干": {
+    "en": "Irregular stems",
+    "zh-TW": "不規則詞幹"
+  },
+  "将来表达对照": {
+    "en": "Future expressions",
+    "zh-TW": "將來表達對照"
+  },
+  "结构": {
+    "en": "Structure",
+    "zh-TW": "結構"
+  },
+  "过去视角": {
+    "en": "Past perspective",
+    "zh-TW": "過去視角"
+  },
+  "礼貌表达": {
+    "en": "Polite expressions",
+    "zh-TW": "禮貌表達"
+  },
+  "条件式的构成": {
+    "en": "Forming the conditional",
+    "zh-TW": "條件式的構成"
+  },
+  "过去视角中的将来": {
+    "en": "Future in the past",
+    "zh-TW": "過去視角中的將來"
+  },
+  "礼貌与建议": {
+    "en": "Politeness and suggestions",
+    "zh-TW": "禮貌與建議"
+  },
+  "陈述与疑问转述": {
+    "en": "Reporting statements and questions",
+    "zh-TW": "陳述與疑問的轉述"
+  },
+  "过去视角转述": {
+    "en": "Reporting from the past",
+    "zh-TW": "過去視角的轉述"
+  },
+  "人称与时间调整": {
+    "en": "Person and time shifts",
+    "zh-TW": "人稱與時間的調整"
+  },
+  "si + 现在时": {
+    "en": "si + present",
+    "zh-TW": "si + 現在式"
+  },
+  "si + 未完成过去时": {
+    "en": "si + imperfect",
+    "zh-TW": "si + 未完成過去式"
+  },
+  "si + 愈过去时": {
+    "en": "si + pluperfect",
+    "zh-TW": "si + 愈過去式"
+  },
+  "可能实现的条件": {
+    "en": "Possible conditions",
+    "zh-TW": "可能實現的條件"
+  },
+  "现在或未来的假设": {
+    "en": "Present or future hypotheses",
+    "zh-TW": "現在或未來的假設"
+  },
+  "过去的未实现条件": {
+    "en": "Unreal past conditions",
+    "zh-TW": "過去未實現的條件"
+  },
+  "过去条件式": {
+    "en": "Past conditional",
+    "zh-TW": "過去條件式"
+  },
+  "构成": {
+    "en": "Formation",
+    "zh-TW": "構成"
+  },
+  "规则变位动词 （单干动词）": {
+    "en": "Regular verbs · one stem",
+    "zh-TW": "規則變位動詞（單一詞幹）"
+  },
+  "不规则变位动词 （双干动词）": {
+    "en": "Irregular verbs · two stems",
+    "zh-TW": "不規則變位動詞（雙詞幹）"
+  },
+  "特殊虚拟形态": {
+    "en": "Special subjunctive forms",
+    "zh-TW": "特殊虛擬式"
+  },
+  "用途": {
+    "en": "Usage",
+    "zh-TW": "用途"
+  },
+  "常见触发条件": {
+    "en": "Common subjunctive triggers",
+    "zh-TW": "常見虛擬式觸發條件"
+  },
+  "构成与特殊动词": {
+    "en": "Formation and special verbs",
+    "zh-TW": "構成與特殊動詞"
+  },
+  "连接词的边界": {
+    "en": "Conjunction usage",
+    "zh-TW": "連接詞的適用範圍"
+  },
+  "语式选择对照": {
+    "en": "Choosing a mood",
+    "zh-TW": "語式選擇對照"
+  },
+  "地点与对话": {
+    "en": "Places and conversations",
+    "zh-TW": "地點與對話"
+  },
+  "être、aller 与名词": {
+    "en": "être, aller and nouns",
+    "zh-TW": "être、aller 與名詞"
+  },
+  "pouvoir 与 vouloir": {
+    "en": "pouvoir and vouloir",
+    "zh-TW": "pouvoir 與 vouloir"
+  },
+  "数量与否定": {
+    "en": "Quantities and negation",
+    "zh-TW": "數量與否定"
+  },
+  "颜色与描述": {
+    "en": "Colours and descriptions",
+    "zh-TW": "顏色與描述"
+  },
+  "过去分词": {
+    "en": "Past participles",
+    "zh-TW": "過去分詞"
+  },
+  "复习与表达": {
+    "en": "Review and expressions",
+    "zh-TW": "複習與表達"
+  },
+  "变位与用法": {
+    "en": "Conjugation and usage",
+    "zh-TW": "變位與用法"
+  },
+  "数字与数量": {
+    "en": "Numbers and quantities",
+    "zh-TW": "數字與數量"
+  },
+  "构成与用法": {
+    "en": "Formation and usage",
+    "zh-TW": "構成與用法"
+  },
+  "ce qui、ce que、ce dont": {
+    "en": "ce qui, ce que and ce dont",
+    "zh-TW": "ce qui、ce que、ce dont"
+  },
+  "条件式": {
+    "en": "Conditional",
+    "zh-TW": "條件式"
+  },
+  "si 条件句": {
+    "en": "si clauses",
+    "zh-TW": "si 條件句"
+  }
+});
+
+messages["知识点导航"]={en:"Topic navigation","zh-TW":"知識點導覽"};
