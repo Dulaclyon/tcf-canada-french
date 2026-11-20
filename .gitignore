@@ -12,3 +12,6 @@ bank-pack/
 
 .student-data/
 *.sqlite*
+
+# Generated from translations/course-content.json during build.
+course-translations.js

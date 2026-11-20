@@ -15,7 +15,7 @@ const request=(route,{method='GET',cookie,body}={})=>fetch(base+route,{method,re
 const login=async(email,password)=>{const r=await request('/api/login',{method:'POST',body:{email,password}});assert.equal(r.status,200);return r.headers.get('set-cookie').split(';')[0];};
 const all={basics:true,listening:true,reading:true,oral:true,writing:true};
 try{
- await start();let admin=await login('teacher@example.test','teacher-password-test');
+ await start();assert.equal((await request('/course-translations.js')).status,303);let admin=await login('teacher@example.test','teacher-password-test');
  const add=await request('/api/admin/users',{cookie:admin,method:'POST',body:{email:'student@example.test'}}),created=await add.json();
  let student=await login(created.email,created.password);await request('/api/password',{cookie:student,method:'POST',body:{current:created.password,password:'student-password-test'}});
  let users=await (await request('/api/admin/users',{cookie:admin})).json();const id=users[0].id;
@@ -33,7 +33,7 @@ try{
  assert.deepEqual(await (await request('/src/data/materials.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src//data/courses.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src%2fdata%2fmaterials.json',{cookie:student})).json(),[]);
- for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/basic-verbs.js','/weather-lesson.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
+ for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
  assert.equal((await request('/bank/sets/reading-test.json',{cookie:student})).status,200);
  assert.equal((await request('/bank/images/reading.jpg',{cookie:student})).status,200);
  index=await (await request('/bank/index.json',{cookie:student})).json();assert.deepEqual(index.sets.map(s=>s.kind),['reading']);
