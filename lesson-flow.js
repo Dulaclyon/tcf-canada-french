@@ -80,3 +80,12 @@ export function buildLessonFlow(material,candidates=[]){
  }
  return {grammar:result,readings};
 }
+
+// Keep one pronunciation entry per unit while retaining each sound's own content.
+export function consolidatePronunciationTopics(sections){
+ const isPronunciation=section=>/^(?:phonics?|发音|拼写与发音|拼读|目标音对照|元音区别|词尾读音|元音前的音变|省音与连读)$/iu.test(section.title.trim());
+ const sounds=sections.filter(isPronunciation);
+ if(!sounds.length)return sections;
+ const first=sections.indexOf(sounds[0]);
+ return sections.flatMap((section,index)=>index===first?[{title:'发音',text:sounds.map(item=>item.text||item.rule||'').join('\n'),pronunciationSections:sounds}]:isPronunciation(section)?[]:[section]);
+}
