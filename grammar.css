@@ -207,6 +207,12 @@
 }
 .lesson-rule-overview .lesson-rule-summary {
   margin: 0;
+  max-width: none;
+  text-align: start;
+  text-wrap: pretty;
+  word-break: normal;
+  overflow-wrap: break-word;
+  line-break: strict;
 }
 .lesson-rule-overview .lesson-rule-summary + .lesson-rule-summary {
   margin-top: 6px;
