@@ -1,4 +1,8 @@
 export const messages = {
+ "复习作答不会改变原练习记录。":{"en":"Review answers do not change your practice records.","zh-TW":"複習作答不會改變原練習紀錄。"},
+ "随机复习":{"en":"Random review","zh-TW":"隨機複習"},
+ "从已完成组别抽取 10 题":{"en":"Up to 10 questions from completed groups","zh-TW":"從已完成組別抽取最多 10 題"},
+ "返回练习组":{"en":"Back to practice sets","zh-TW":"返回練習組"},
  "账号": {"en":"Account","zh-TW":"帳號"},
  "设置新的登录密码。": {"en":"Set a new password for your account.","zh-TW":"設定新的登入密碼。"},
   "让法语": {"en":"Make French","zh-TW":"讓法語"},

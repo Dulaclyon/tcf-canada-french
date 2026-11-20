@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {correctTeachingText} from '../course-editorial.js';
+import {renderGrammar,renderArticle} from '../grammar-layout.js';
+assert.equal(correctTeachingText('Je souhaite que tu vienne à Paris.'),'Je souhaite que tu viennes à Paris.');
+assert.equal(correctTeachingText('Marie espère que son équipe réussisse.'),'Marie espère que son équipe réussira.');
+assert.equal(correctTeachingText('Nous courions, nous crions.'),'Nous courions, nous criions.');
+assert(correctTeachingText('Content → contentement → 满意 ↔ 满意地').includes('contentement 是名词'));
+assert(correctTeachingText('Step 3：如果主语是阴性，过去分词词尾加 e；').includes('直接宾语'));
+assert(!renderGrammar('Il veux boire de l’eau.').includes('Il veux'));
+assert(renderArticle('Puis, je dormis paisiblement.').includes('je dors'));
+const app=fs.readFileSync('app.js','utf8');
+assert(app.includes("!m.id.startsWith('grammar-sounds-')"));
+assert(app.includes("location.replace('#material/lesson-13')"));
+const data=JSON.parse(fs.readFileSync('src/data/materials.json'));
+assert(data.find(m=>m.id==='grammar-sounds-glides').exercises.every(e=>e.id.startsWith('grammar-sounds-glides')),'Existing exercise IDs remain stable');
+console.log('Editorial tense, agreement, adverb and merged-pronunciation regressions passed.');

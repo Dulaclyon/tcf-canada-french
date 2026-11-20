@@ -1,3 +1,4 @@
+import {correctTeachingText} from './course-editorial.js';
 // Present original teaching text by grammatical role. The source dataset stays intact.
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const chinese = /[\u3400-\u9fff]/u;
@@ -170,6 +171,7 @@ function reflowSourceLines(text) {
 }
 
 export function renderGrammar(text, title = '') {
+  text=correctTeachingText(text);
   if (/^ce qui, ce que, ce dont\s*\n/u.test(String(text))) {
     const organized = relativePronounGroups(text);
     if (organized) return organized;
@@ -451,7 +453,7 @@ export function polishReadingChinese(text) {
 }
 
 export function renderArticle(text) {
-  const lines=reflowSourceLines(polishReadingChinese(String(text??'')).replace(/（下次）/gu,'').replace(/（下次[：:]\s*/gu,'（'));
+  const lines=reflowSourceLines(polishReadingChinese(correctTeachingText(text)).replace(/（下次）/gu,'').replace(/（下次[：:]\s*/gu,'（'));
   const output=[],notes=[];
   const noteLabel=/^(?:第[一二三]类动词|代动词|动词短语|名词|动词|形容词|副词(?:短语)?|介词短语|表达|搭配|问时间|充满)[：:]?$/u;let paragraph='',dialogue=false,hasDialogue=false;
   const flushNotes=()=>{

@@ -13,3 +13,10 @@ export function summarizeSets(sets,progress,completed){
  for(const set of sets){const state=getSetStatus(set,progress,completed);result[state.status].push({...set,...state});}
  return result;
 }
+
+// Sample questions, not groups, without repetition. Never include unfinished groups.
+export function sampleCompletedQuestions(sets,completed,limit=10,random=Math.random){
+ const pool=sets.filter(set=>completed[set.id]).flatMap(set=>Array.from({length:set.questionCount},(_,index)=>({setId:set.id,index})));
+ for(let i=pool.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
+ return pool.slice(0,Math.max(0,limit));
+}

@@ -4244,13 +4244,15 @@
   },
   {
     "source": "heureusement → 开心 ↔ 开心地",
-    "en": "heureusement → happy / happily",
-    "zh-TW": "heureusement → 開心 ↔ 開心地"
+    "en": "heureusement → fortunately",
+    "zh-TW": "heureusement → 幸好／幸運地",
+    "zh-CN": "heureusement → 幸好／幸运地"
   },
   {
     "source": "contentement → 满意 ↔ 满意地",
-    "en": "contentement → satisfaction",
-    "zh-TW": "contentement → 滿意 ↔ 滿意地"
+    "en": "contentement → satisfaction (noun)",
+    "zh-TW": "contentement → 滿意（名詞）",
+    "zh-CN": "contentement → 满意（名词）"
   },
   {
     "source": "知识点 8 / 9",
@@ -19678,5 +19680,120 @@
     "source": "正在进行",
     "en": "in progress",
     "zh-TW": "正在進行"
+  },
+  {
+    "source": "Nous sommes le premier avril.（四月一日）",
+    "en": "It is April 1.",
+    "zh-TW": "Nous sommes le premier avril.（四月一日）"
+  },
+  {
+    "source": "四月一日",
+    "en": "April 1",
+    "zh-TW": "四月一日"
+  },
+  {
+    "source": "Heureux → heureusement → 幸运的／幸福的 ↔ 幸运地；常表示“幸好”",
+    "en": "heureux means happy or fortunate; heureusement often means “fortunately”.",
+    "zh-TW": "Heureux → heureusement → 幸運的／幸福的 ↔ 幸運地；常表示“幸好”"
+  },
+  {
+    "source": "heureusement → 幸运的／幸福的 ↔ 幸运地；常表示“幸好”",
+    "en": "heureux: happy or fortunate; heureusement: fortunately.",
+    "zh-TW": "heureusement → 幸運的／幸福的 ↔ 幸運地；常表示“幸好”"
+  },
+  {
+    "source": "Content → avec satisfaction → 满意的 ↔ 满意地；contentement 是名词“满意”",
+    "en": "content: satisfied; avec satisfaction: with satisfaction. Contentement is a noun meaning satisfaction.",
+    "zh-TW": "Content → avec satisfaction → 滿意的 ↔ 滿意地；contentement 是名詞“滿意”"
+  },
+  {
+    "source": "avec satisfaction → 满意的 ↔ 满意地；contentement 是名词“满意”",
+    "en": "avec satisfaction: with satisfaction. Contentement is the noun “satisfaction”.",
+    "zh-TW": "avec satisfaction → 滿意的 ↔ 滿意地；contentement 是名詞“滿意”"
+  },
+  {
+    "source": "先判断反身代词的功能；前置直接宾语决定配合。",
+    "en": "Identify the reflexive pronoun’s function. A preceding direct object determines agreement.",
+    "zh-TW": "先判斷反身代詞的功能；前置直接賓語決定配合。"
+  },
+  {
+    "source": "有后置直接宾语时不配合：elle s’est lavé les mains；se 是间接宾语时也不配合：elles se sont parlé。",
+    "en": "No agreement with a following direct object: elle s’est lavé les mains. No agreement when se is indirect: elles se sont parlé.",
+    "zh-TW": "有後置直接賓語時不配合：elle s’est lavé les mains；se 是間接賓語時也不配合：elles se sont parlé。"
+  },
+  {
+    "source": "Step 3：先判断反身代词的功能；前置直接宾语决定配合。",
+    "en": "Step 3: Identify the reflexive pronoun’s function. A preceding direct object determines agreement.",
+    "zh-TW": "Step 3：先判斷反身代詞的功能；前置直接賓語決定配合。"
+  },
+  {
+    "source": "Step 4：有后置直接宾语时不配合：elle s’est lavé les mains；se 是间接宾语时也不配合：elles se sont parlé。",
+    "en": "Step 4: No agreement with a following direct object (elle s’est lavé les mains) or an indirect se (elles se sont parlé).",
+    "zh-TW": "Step 4：有後置直接賓語時不配合：elle s’est lavé les mains；se 是間接賓語時也不配合：elles se sont parlé。"
+  },
+  {
+    "source": "在 travail、détail 等词中，词尾 -il 读 [j]；并非所有 -il 都如此。",
+    "en": "Final -il is pronounced [j] in words such as travail and détail, but not in every word ending in -il.",
+    "zh-TW": "在 travail、détail 等詞中，詞尾 -il 讀 [j]；並非所有 -il 都如此。"
+  },
+  {
+    "source": "在 fille、famille、bouteille 中可听到 [j]；ville、mille、tranquille 则保留 [l]。",
+    "en": "You hear [j] in fille, famille and bouteille; ville, mille and tranquille retain [l].",
+    "zh-TW": "在 fille、famille、bouteille 中可聽到 [j]；ville、mille、tranquille 則保留 [l]。"
+  },
+  {
+    "source": "1. 形容词 fatigante 与现在分词 fatiguant 不同：une journée fatigante；un travail fatiguant les élèves。",
+    "en": "1. Distinguish the adjective fatigante (une journée fatigante) from the participle fatiguant (un travail fatiguant les élèves).",
+    "zh-TW": "1. 形容詞 fatigante 與現在分詞 fatiguant 不同：une journée fatigante；un travail fatiguant les élèves。"
+  },
+  {
+    "source": "形容词 fatigante 与现在分词 fatiguant 不同：une journée fatigante；un travail fatiguant les élèves。",
+    "en": "Distinguish the adjective fatigante (une journée fatigante) from the participle fatiguant (un travail fatiguant les élèves).",
+    "zh-TW": "形容詞 fatigante 與現在分詞 fatiguant 不同：une journée fatigante；un travail fatiguant les élèves。"
+  },
+  {
+    "source": "lequel 系列可用于介词后，按先行词的性数变化，并非 qui / que 的加强形式。",
+    "en": "Lequel forms can follow a preposition and agree with their antecedent. They are not emphatic versions of qui or que.",
+    "zh-TW": "lequel 系列可用於介詞後，按先行詞的性數變化，並非 qui / que 的加強形式。"
+  },
+  {
+    "source": "Si + imparfait → conditionnel présent：假设，不一定绝对不可能",
+    "en": "Si + imparfait → conditionnel présent: a hypothesis, not necessarily an impossibility.",
+    "zh-TW": "Si + imparfait → conditionnel présent：假設，不一定絕對不可能"
+  },
+  {
+    "source": "conditionnel présent：假设，不一定绝对不可能",
+    "en": "conditionnel présent: a hypothesis, not necessarily an impossibility.",
+    "zh-TW": "conditionnel présent：假設，不一定絕對不可能"
+  },
+  {
+    "source": "现在虚拟式",
+    "en": "Present subjunctive",
+    "zh-TW": "現在虛擬式"
+  },
+  {
+    "source": "4. 部分连接词后面",
+    "en": "4. After certain conjunctions",
+    "zh-TW": "4. 部分連線詞後面"
+  },
+  {
+    "source": "部分连接词后面",
+    "en": "After certain conjunctions",
+    "zh-TW": "部分連線詞後面"
+  },
+  {
+    "source": "（四月一日）",
+    "en": "(April 1)",
+    "zh-TW": "（四月一日）"
+  },
+  {
+    "source": "发音类似于英语单词 yes 中的 y 音在 travail、détail 等词中，词尾 -il 读 [j]；并非所有 -il 都如此。",
+    "en": "The sound resembles the y in English yes. Final -il is [j] in travail and détail, but not in every word ending in -il.",
+    "zh-TW": "發音類似於英語單詞 yes 中的 y 音在 travail、détail 等詞中，詞尾 -il 讀 [j]；並非所有 -il 都如此。"
+  },
+  {
+    "source": "系列可用于介词后，按先行词的性数变化，并非 qui / que 的加强形式。",
+    "en": "These forms can follow a preposition and agree with their antecedent. They are not emphatic versions of qui or que.",
+    "zh-TW": "系列可用於介詞後，按先行詞的性數變化，並非 qui / que 的加強形式。"
   }
 ]

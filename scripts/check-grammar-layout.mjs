@@ -1,3 +1,4 @@
+import {correctTeachingText} from '../course-editorial.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {renderGrammar,renderArticle,isReadingLabel,polishReadingChinese} from '../grammar-layout.js';
@@ -11,7 +12,7 @@ let checked=0;
 for(const m of materials)for(const p of m.pages)for(const b of p.sections){
  const html=renderGrammar(b.text,b.title);
  const rendered=canonical(plain(html));
- const lines=b.text.split('\n').map(x=>x.trim()).filter(Boolean);
+ const lines=correctTeachingText(b.text).split('\n').map(x=>x.trim()).filter(Boolean);
  if(lines[0]===b.title.trim())lines.shift();
  for(const line of lines){if(b.title==='phonics'&&/^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)){assert(html.includes('发音 [e]')&&html.includes('mes（我的）')&&html.includes('并非所有 -es'));checked++;continue;}assert(rendered.includes(canonical(line)) || (html.includes('class="conjugation-card"') && conjugationText(rendered).includes(conjugationText(canonical(line)))),`${m.id} / ${b.title}: lost text ${line}`);checked++;}
 }
@@ -21,7 +22,7 @@ const find=(n,t)=>materials.find(m=>m.lesson===n).pages.flatMap(p=>p.sections).f
 assert(renderGrammar(find(18,'直接宾语代词').text,'直接宾语代词').includes('grammar-table'));
 assert(renderGrammar(find(23,'si + 现在时').text,'si + 现在时').includes('grammar-formula'));
 assert(renderGrammar(find(2,'一般疑问句').text,'一般疑问句').includes('grammar-transform'));
-console.log(`Grammar layouts retain ${checked} original source lines; pronoun charts, formulas, transformations and HTML escaping passed.`);
+console.log(`Grammar layouts retain ${checked} source lines with explicit editorial corrections; pronoun charts, formulas, transformations and HTML escaping passed.`);
 
 assert(!renderGrammar(find(2,'être').text,'être').includes('grammar-table'), 'Eight full-sentence examples must not be misclassified as a six-person conjugation chart');
 
@@ -30,7 +31,7 @@ assert.equal((reflow.match(/class="article-paragraph/g)||[]).length,1,'PDF wraps
 assert(plain(reflow).includes('Je lis un livre près de la fenêtre. Il raconte une histoire très intéressante.'));
 assert.equal((renderArticle('— Bonjour.\n— Bonjour !').match(/article-dialogue/g)||[]).length,2,'Dialogue turns stay separate');
 const readingText=s=>canonical(s.replace(/（下次）|（下次[：:]\s*/gu,'')).replace(/[()（）]/gu,'');
-for(const m of materials)for(const p of m.pages)for(const b of p.sections){const html=readingText(plain(renderArticle(b.text)));for(const line of polishReadingChinese(b.text).split('\n').filter(x=>x.trim()&&!isReadingLabel(x)))assert(conjugationText(html).includes(conjugationText(readingText(line))),`${m.id}: article reflow must preserve source text: ${line}`);}
+for(const m of materials)for(const p of m.pages)for(const b of p.sections){const html=readingText(plain(renderArticle(b.text)));for(const line of polishReadingChinese(correctTeachingText(b.text)).split('\n').filter(x=>x.trim()&&!isReadingLabel(x)))assert(conjugationText(html).includes(conjugationText(readingText(line))),`${m.id}: article reflow must preserve source text: ${line}`);}
 console.log('Article soft-wrap reflow, dialogue boundaries and source preservation passed.');
 
 const withNotes=renderArticle("Hier, je suis arrivé à la gare.\nLe train était déjà parti.\nêtre en retard – 迟到\nj’étais ← être（我是）");

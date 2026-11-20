@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {normalizeExisting,getSetStatus,summarizeSets,firstUnfinished} from '../bank-progress.js';
+import {normalizeExisting,getSetStatus,summarizeSets,firstUnfinished,sampleCompletedQuestions} from '../bank-progress.js';
 const exam=JSON.parse(fs.readFileSync('src/data/exam.json','utf8'));
 for(const kind of ['listening','reading'])for(const original of exam[kind]){
  const converted=normalizeExisting(kind,original);
@@ -17,3 +17,11 @@ delete complete.a;assert.equal(getSetStatus(sets[0],progress,complete).status,'i
 const persisted=JSON.parse(JSON.stringify({progress,complete}));assert.deepEqual(summarizeSets(sets,persisted.progress,persisted.complete),summarizeSets(sets,progress,complete));
 assert.equal(firstUnfinished(sets,{a:true,b:true,c:true}).id,'a');
 console.log('Unified existing question conversion, answer keys, progress states, manual completion and resume selection passed.');
+
+const sample=sampleCompletedQuestions(sets,{a:true,c:true},10,()=>0.5);
+assert.equal(sample.length,10);assert(sample.every(q=>q.setId==='a'||q.setId==='c'));
+assert.equal(new Set(sample.map(q=>q.setId+':'+q.index)).size,10);
+assert.deepEqual(sampleCompletedQuestions(sets,{},10),[]);
+assert.equal(sampleCompletedQuestions([sets[0]],{a:true},10).length,3);
+assert(sample.every(q=>q.index>=0&&q.index<sets.find(s=>s.id===q.setId).questionCount));
+console.log('Random review samples only completed groups, without duplicates, and handles small/empty pools.');
