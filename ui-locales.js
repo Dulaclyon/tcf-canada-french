@@ -1,4 +1,5 @@
 export const messages = {
+  "基础动词": {"en":"Basic verbs","zh-TW":"基礎動詞"},
 "创建账号":{"en": "Create account", "zh-TW": "建立帳號"},
 "填写姓名和邮箱，申请老师批准。批准前无法访问课程。":{"en": "Enter your name and email to request teacher approval. Course access starts after approval.", "zh-TW": "填寫姓名和電子郵件，申請老師批准。批准前無法存取課程。"},
 "姓名":{"en": "Name", "zh-TW": "姓名"},

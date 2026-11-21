@@ -142,3 +142,6 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .editorial-hero .editorial-actions .button.primary:hover{background:var(--brand-hover)}
 .editorial-hero .editorial-actions .button.secondary:hover{background:#f4e9e7}
 @media(max-width:650px){.editorial-hero .editorial-actions{gap:12px;width:100%}.editorial-hero .editorial-actions .button{min-width:0;flex:1 1 140px;font-size:16px;min-height:52px;padding:12px 18px}}
+/* Teaching notes use the same full-width column as their tables. */
+.map-reading .grammar-rule,.map-reading .lesson-rule-summary,.map-reading .supplement-rule,.map-reading .lesson-rule-overview{box-sizing:border-box;width:100%;max-width:none;min-width:0;word-break:normal;overflow-wrap:normal;hyphens:none}
+.map-reading .grammar-rule p,.map-reading .lesson-rule-summary p,.map-reading .lesson-rule-overview .lesson-rule-summary{max-width:none;width:100%}
