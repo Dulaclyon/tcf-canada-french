@@ -16,7 +16,8 @@
     "test:dashboard": "node scripts/check-learning-dashboard.mjs",
     "test:pronunciation": "node scripts/check-pronunciation.mjs && node scripts/check-human-audio.mjs && node scripts/check-phonics-separation.mjs",
     "test:student-names": "node scripts/check-student-names.mjs",
-    "test:registration": "node scripts/check-registration-requests.mjs"
+    "test:registration": "node scripts/check-registration-requests.mjs",
+    "test:section-notes": "node scripts/check-section-notes.mjs"
   },
   "engines": {
     "node": ">=20"

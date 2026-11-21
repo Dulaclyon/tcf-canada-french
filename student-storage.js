@@ -1,12 +1,13 @@
+import {SECTION_NOTE_KEYS} from './section-notes-model.js';
 import {headerActions} from './i18n.js';
-const keys=['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1'];
+const keys=['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1',...Object.values(SECTION_NOTE_KEYS)];
 const response=await fetch('/api/me',{cache:'no-store'});
 if(!response.ok){location.replace('/login.html');throw Error('Login required');}
 export const account=await response.json();
 if(account.mustChange){location.replace('/login.html');throw Error('Password change required');}
 const r=await fetch('/api/progress',{cache:'no-store'});if(!r.ok)throw Error('无法读取云端档案，请刷新重试');
 const values=await r.json();let queue=Promise.resolve();
-export const storage={flush:()=>queue,getItem:key=>values[key]===undefined?null:JSON.stringify(values[key]),setItem(key,value){if(!keys.includes(key))throw Error('Unknown progress key');const parsed=JSON.parse(value);values[key]=parsed;queue=queue.then(async()=>{const r=await fetch('/api/progress',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,value:parsed})});if(!r.ok)throw Error('保存失败');document.querySelector('#cloud-status').textContent='云端已保存';document.querySelector('#cloud-retry').hidden=true;panel.classList.remove('save-error');}).catch(()=>{document.querySelector('#cloud-status').textContent='云端保存失败，请保持此页打开并重试';const retry=document.querySelector('#cloud-retry');retry.hidden=false;panel.classList.add('save-error');accountMenu.open=true;});}};
+export const storage={flush:()=>queue,getItem:key=>values[key]===undefined?null:JSON.stringify(values[key]),setItem(key,value){if(!keys.includes(key))throw Error('Unknown progress key');const parsed=JSON.parse(value);values[key]=parsed;return queue=queue.then(async()=>{const r=await fetch('/api/progress',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,value:parsed})});if(!r.ok)throw Error('保存失败');document.querySelector('#cloud-status').textContent='云端已保存';document.querySelector('#cloud-retry').hidden=true;panel.classList.remove('save-error');return true;}).catch(()=>{document.querySelector('#cloud-status').textContent='云端保存失败，请保持此页打开并重试';const retry=document.querySelector('#cloud-retry');retry.hidden=false;panel.classList.add('save-error');accountMenu.open=true;return false;});}};
 const panel=document.createElement('div');panel.className='account-tools';
 panel.innerHTML=(account.role==='admin'?'<a class="teacher-shortcut" href="/admin.html">管理学生</a>':'')+
  '<details class="account-menu"><summary>账号</summary><div class="account-menu-panel"><span id="cloud-status" role="status">个人云端档案</span><button id="cloud-retry" hidden>重试保存</button>'+
