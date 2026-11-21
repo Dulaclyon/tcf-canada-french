@@ -134,3 +134,11 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .brand .wordmark{font-size:34px;white-space:normal;line-height:1.1}
 .brand .wordmark em{display:block;font-size:inherit;margin-top:0}
 @media(max-width:760px){.editorial-header .wordmark,body>header .wordmark{font-size:36px}.brand .wordmark{font-size:34px}}
+/* Matching hero actions: shared typography, dimensions and alignment. */
+.editorial-hero .editorial-actions{display:flex;align-items:stretch;gap:16px;flex-wrap:wrap}
+.editorial-hero .editorial-actions .button{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;min-width:196px;min-height:56px;padding:14px 28px;border:1px solid var(--brand);border-radius:7px;font-family:var(--font-ui);font-size:18px;font-weight:600;line-height:1.4;text-align:center;white-space:nowrap}
+.editorial-hero .editorial-actions .button.primary{background:var(--brand);color:#fff}
+.editorial-hero .editorial-actions .button.secondary{background:#fffdf9;color:var(--brand)}
+.editorial-hero .editorial-actions .button.primary:hover{background:var(--brand-hover)}
+.editorial-hero .editorial-actions .button.secondary:hover{background:#f4e9e7}
+@media(max-width:650px){.editorial-hero .editorial-actions{gap:12px;width:100%}.editorial-hero .editorial-actions .button{min-width:0;flex:1 1 140px;font-size:16px;min-height:52px;padding:12px 18px}}
