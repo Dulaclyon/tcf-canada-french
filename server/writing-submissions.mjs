@@ -1,3 +1,4 @@
+import {essayAssessment} from './essay-assessment.mjs';
 import {readFileSync} from 'node:fs';
 import {migrateCompletedWriting,submitCompletedDraft} from './completed-writing.mjs';
 import {randomBytes} from 'node:crypto';
@@ -7,6 +8,7 @@ export function writingSubmissions(db,root,permissionsFor){
  db.exec(`CREATE TABLE IF NOT EXISTS writing_submissions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,question_id TEXT NOT NULL,title TEXT NOT NULL,task INTEGER NOT NULL,prompt TEXT NOT NULL,text TEXT NOT NULL,submitted_at INTEGER NOT NULL,feedback TEXT NOT NULL DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);CREATE INDEX IF NOT EXISTS writing_by_user ON writing_submissions(user_id,submitted_at);`);
  const questions=JSON.parse(readFileSync(path.join(root,'src/data/exam.json'),'utf8')).writing;
  migrateCompletedWriting(db,questions);
+ const ai=essayAssessment(db);
  const handler=async({route,req,url,user,body,send})=>{
   if(route==='/api/writing/submissions'&&req.method==='GET'){
    const question=url.searchParams.get('questionId');
@@ -28,6 +30,19 @@ export function writingSubmissions(db,root,permissionsFor){
   }
   if(route.startsWith('/api/admin/writing')){
    if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
+   if(route==='/api/admin/writing/ai/config'&&req.method==='GET')return send(200,ai.config());
+   if(route==='/api/admin/writing/ai'&&req.method==='GET'){
+    const id=url.searchParams.get('id'),language=url.searchParams.get('language')||'en';
+    if(!ai.languages.has(language))return send(400,{error:'请选择有效的反馈语言。'});
+    if(!db.prepare('SELECT id FROM writing_submissions WHERE id=?').get(id))return send(404,{error:'作文不存在'});
+    return send(200,{review:ai.get(id,language),config:ai.config()});
+   }
+   if(route==='/api/admin/writing/ai'&&req.method==='POST'){
+    const b=await body();if(!b||typeof b.id!=='string'||!b.id||b.id.length>128)return send(400,{error:'作文不存在'});const essay=db.prepare('SELECT id,question_id,task,prompt,text FROM writing_submissions WHERE id=?').get(b.id);
+    if(!essay)return send(404,{error:'作文不存在'});
+    const original=questions.find(q=>q.id===essay.question_id&&q.prompt===essay.prompt);essay.documents=original?.documents||[];
+    try{return send(200,await ai.run(essay,b.language??'en',user.id));}catch(error){return send(error.status||500,{error:error.message});}
+   }
    if(route==='/api/admin/writing'&&req.method==='GET'){
     const student=url.searchParams.get('student')||'',pending=url.searchParams.get('pending')==='1',offset=Number(url.searchParams.get('offset')||0);
     if(!Number.isSafeInteger(offset)||offset<0)return send(400,{error:'无效页码'});

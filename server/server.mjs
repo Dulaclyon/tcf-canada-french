@@ -78,7 +78,7 @@ const server=http.createServer(async(req,res)=>{
  }
  let name=path.posix.normalize(decodeURIComponent(route)).replace(/^\//,'')||'index.html';if(name==='login')name='login.html';if(name==='admin')name='admin.html';
  if(!publicFiles.has(name)&&(!user||user.must_change)){res.writeHead(303,{Location:'/login.html','Cache-Control':'no-store'});return res.end();}
- if(['admin.html','submissions.html','submissions.js'].includes(name)&&user?.role!=='admin')return send(403,{error:'仅管理员可操作'});
+ if(['admin.html','submissions.html','submissions.js','essay-assessment.js'].includes(name)&&user?.role!=='admin')return send(403,{error:'仅管理员可操作'});
  if(name==='sw.js')return send(404,'');
  const access=user?permissionsFor(user):null;
  if(user&&user.role!=='admin'){
