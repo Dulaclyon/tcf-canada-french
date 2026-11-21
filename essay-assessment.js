@@ -16,6 +16,7 @@ export function mountEssayAssessment(){
  const language=$('ai-feedback-language');language.value=document.documentElement.lang.startsWith('zh-Hant')?'zh-TW':document.documentElement.lang.startsWith('zh')?'zh-CN':'en';
  function controls(){
   $('ai-generate').disabled=!id||busy||!config?.enabled||!config.remaining||review?.status==='completed'||['queued','pending'].includes(review?.status);
+  $('ai-rewrite').disabled=!id||busy||!config?.enabled||['queued','pending'].includes(review?.status);
   $('ai-setup').hidden=!!config?.enabled;$('ai-count').textContent=config?.enabled?'Mac 已连接':'Mac 未连接';
   $('ai-generate').textContent=busy?'正在评估…':review?.status==='completed'?'已保存 AI 评估':'使用 Codex 评估';
  }
@@ -28,18 +29,19 @@ export function mountEssayAssessment(){
   if(a.corrections.length){for(const correction of a.corrections){const item=node('div',undefined,'ai-correction');const pair=node('p');pair.lang='fr';pair.append(node('span',correction.original),document.createTextNode(' → '),node('strong',correction.corrected));item.append(pair,node('p',correction.explanation));corrections.append(item);}}else corrections.append(node('p',t('无需修改。',locale)));
   target.append(corrections);
   const revision=node('section'),text=node('p',a.revised_text||t('暂无建议修改稿。',locale),'submission-text');if(a.revised_text)text.lang='fr';revision.append(node('h4',t('建议修改稿',locale)),text);target.append(revision);
-  $('ai-use-draft').hidden=false;
+  $('ai-use-draft').textContent=result.rewrite?'替换教师评语草稿':'加入教师评语草稿';$('ai-use-draft').hidden=false;
  }
- async function open(nextId){id=nextId;review=null;const current=++version;$('ai-review-result').replaceChildren();$('ai-review-status').textContent='';$('ai-use-draft').hidden=true;controls();try{const data=await api('/api/admin/writing/codex?id='+encodeURIComponent(id)+'&language='+encodeURIComponent(language.value));if(current!==version)return;review=data.review;config=data.config;show(review);controls();}catch(error){if(current===version){$('ai-review-status').textContent=error.message;controls();}}}
+ async function open(nextId){if(nextId!==id)$('ai-rewrite-instructions').value='';id=nextId;review=null;const current=++version;$('ai-review-result').replaceChildren();$('ai-review-status').textContent='';$('ai-use-draft').hidden=true;controls();try{const data=await api('/api/admin/writing/codex?id='+encodeURIComponent(id)+'&language='+encodeURIComponent(language.value));if(current!==version)return;review=data.review;config=data.config;show(review);controls();}catch(error){if(current===version){$('ai-review-status').textContent=error.message;controls();}}}
  language.onchange=()=>{if(id)open(id);};$('ai-refresh').onclick=()=>{if(id)open(id);};
- $('ai-generate').onclick=async()=>{
+ const generate=async(rewrite=false)=>{
   if(!id||busy)return;const current=version,submissionId=id,locale=language.value;busy=true;$('ai-review-status').textContent='正在评估…';controls();
-  try{const data=await api('/api/admin/writing/codex',{id:submissionId,language:locale});config=data.config;if(current!==version)return;review=data;show(review);$('ai-review-status').textContent=review.status==='completed'?'评估草稿已保存，仅老师可见。':'已排队，Mac 上的 Codex 将进行评估。';}
+  try{const data=await api('/api/admin/writing/codex',{id:submissionId,language:locale,...(rewrite?{rewrite:true,instructions:$('ai-rewrite-instructions').value,feedback:$('teacher-feedback').value}:{})});config=data.config;if(current!==version)return;review=data;show(review);$('ai-review-status').textContent=review.status==='completed'?'评估草稿已保存，仅老师可见。':'已排队，Mac 上的 Codex 将进行评估。';}
   catch(error){if(current===version)$('ai-review-status').textContent=error.message;}
   finally{busy=false;controls();}
  };
+ $('ai-generate').onclick=()=>generate(false);$('ai-rewrite').onclick=()=>generate(true);
  $('ai-use-draft').onclick=()=>{
-  if(review?.status!=='completed')return;const draft=feedbackText(review,review.language||language.value),area=$('teacher-feedback');if(!area.value.includes(draft)){const combined=[area.value.trim(),draft].filter(Boolean).join('\n\n');if(combined.length>area.maxLength){$('ai-review-status').textContent='评语过长，请手动选取需要的内容。';return;}area.value=combined;area.dispatchEvent(new Event('input',{bubbles:true}));}area.focus();$('ai-review-status').textContent='已加入教师评语草稿。检查后点击“发布评语”。';
+  if(review?.status!=='completed')return;const draft=feedbackText(review,review.language||language.value),area=$('teacher-feedback');if(review.rewrite||!area.value.includes(draft)){const combined=review.rewrite?draft:[area.value.trim(),draft].filter(Boolean).join('\n\n');if(combined.length>area.maxLength){$('ai-review-status').textContent='评语过长，请手动选取需要的内容。';return;}area.value=combined;area.dispatchEvent(new Event('input',{bubbles:true}));}area.focus();$('ai-review-status').textContent='已加入教师评语草稿。检查后点击“发布评语”。';
  };
  setInterval(()=>{if(id&&!busy&&!document.hidden&&(!config?.enabled||['queued','pending'].includes(review?.status)))open(id);},5000);
  controls();return {open};

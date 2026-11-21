@@ -41,7 +41,7 @@ export function writingSubmissions(db,root,permissionsFor){
    }
    if(route==='/api/admin/writing/codex'&&req.method==='POST'){
     const b=await body();if(typeof b.id!=='string'||!db.prepare('SELECT id FROM writing_submissions WHERE id=?').get(b.id))return send(404,{error:'作文不存在'});
-    try{return send(200,codex.enqueue(b.id,b.language??'en',user.id));}catch(e){return send(e.status||400,{error:e.message});}
+    try{return send(200,codex.enqueue(b.id,b.language??'en',user.id,{rewrite:b.rewrite??false,instructions:b.instructions??'',feedback:b.feedback??''}));}catch(e){return send(e.status||400,{error:e.message});}
    }
    if(route==='/api/admin/writing/ai/config'&&req.method==='GET')return send(200,{...ai.config(),enabled:false});
    if(route==='/api/admin/writing/ai'&&req.method==='GET'){

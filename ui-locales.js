@@ -1,4 +1,11 @@
 export const messages = {
+"替换教师评语草稿":{"en":"Replace feedback draft","zh-TW":"替換教師評語草稿"},
+"改写要求（可选）":{"en": "Rewrite instructions (optional)", "zh-TW": "改寫要求（選填）"},
+"例如：更简洁，清楚解释修改原因。":{"en": "For example: be more concise and explain the corrections clearly.", "zh-TW": "例如：更精簡，清楚解釋修改原因。"},
+"使用 Codex 改写":{"en": "Rewrite with Codex", "zh-TW": "使用 Codex 改寫"},
+"改写会将当前评语发送给 Codex，生成新的私有草稿。":{"en": "Sends the current feedback to Codex to create a new private draft.", "zh-TW": "將目前評語傳送給 Codex，產生新的私有草稿。"},
+"改写要求或评语过长。":{"en": "The rewrite instructions or feedback are too long.", "zh-TW": "改寫要求或評語過長。"},
+
 "估计水平":{"en": "Estimated level", "zh-TW": "估計程度"},
 "内容不足，无法估计水平。":{"en": "Not enough evidence to estimate a level.", "zh-TW": "內容不足，無法估計程度。"},
 "无需修改。":{"en": "No corrections needed.", "zh-TW": "無需修改。"},
@@ -28,7 +35,7 @@ export const messages = {
 "Codex 评估未完成，请查看 Mac 连接器。":{"en": "Codex assessment failed. Check the Mac connector.", "zh-TW": "Codex 評估未完成，請檢查 Mac 連接器。"},
 
 "AI 辅助评估":{"en":"AI-assisted assessment","zh-TW":"AI 輔助評估"},
-"老师可选择将题目、相关材料和单篇作文发送至 OpenAI，生成辅助评语。AI 草稿仅老师可见，检查发布后学生才能查看教师评语。账号邮箱不会作为评估字段发送；作文正文中的个人信息仍可能包含在发送内容中。":{"en":"The teacher may send a selected essay, its question and source materials to OpenAI for suggested feedback. AI drafts are private to the teacher; students see teacher feedback only after publication. Account email addresses are not sent as assessment fields, but personal information written in an essay may be included.","zh-TW":"老師可選擇將題目、相關材料和單篇作文傳送至 OpenAI，產生輔助評語。AI 草稿僅老師可見，檢查發布後學生才能檢視教師評語。帳號電子郵件不會作為評估欄位傳送；作文正文中的個人資訊仍可能包含在傳送內容中。"},
+"老师可选择将题目、相关材料和单篇作文发送至 OpenAI，生成辅助评语。老师请求改写时，当前评语和改写要求也会发送。AI 草稿仅老师可见，检查发布后学生才能查看教师评语。账号邮箱不会作为评估字段发送；作文正文中的个人信息仍可能包含在发送内容中。":{"en":"The teacher may send a selected essay, its question and source materials to OpenAI for suggested feedback. When the teacher requests a rewrite, the current feedback and rewrite instructions are also sent. AI drafts are private to the teacher; students see teacher feedback only after publication. Account email addresses are not sent as assessment fields, but personal information written in an essay may be included.","zh-TW":"老師可選擇將題目、相關材料和單篇作文傳送至 OpenAI，產生輔助評語。老師請求改寫時，目前評語和改寫要求也會傳送。AI 草稿僅老師可見，檢查發布後學生才能檢視教師評語。帳號電子郵件不會作為評估欄位傳送；作文正文中的個人資訊仍可能包含在傳送內容中。"},
 "AI 评估":{"en": "AI assessment", "zh-TW": "AI 評估"},
 "仅老师可见":{"en": "Teacher only", "zh-TW": "僅老師可見"},
 "题目和作文将发送至 OpenAI。检查后再发布给学生。":{"en": "The question and essay are sent to OpenAI. Review before publishing to the student.", "zh-TW": "題目和作文將傳送至 OpenAI。檢查後再發布給學生。"},
