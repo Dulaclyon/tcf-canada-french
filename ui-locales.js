@@ -1626,9 +1626,9 @@ export const messages = {
     "en": "Hosting and backups",
     "zh-TW": "託管與備份"
   },
-  "本网站供老师登记的学生使用。姓名用于老师识别学生；邮箱用于登录，密码以单向哈希保存；登录需要会话 Cookie。学习进度、草稿和提交记录保存在服务器，并与个人账号关联。": {
-    "en": "This website is for students registered by their teacher. Names help the teacher identify students. Email addresses are used to log in; passwords are stored as one-way hashes. A session cookie keeps you signed in. Progress, drafts and submissions are stored on the server under your account.",
-    "zh-TW": "本網站供老師登記的學生使用。姓名用於老師識別學生；郵箱用於登入，密碼以單向雜湊儲存；登入需要會話 Cookie。學習進度、草稿和提交記錄儲存在伺服器，並與個人帳號關聯。"
+  "学生可提交姓名和邮箱申请账号；申请由老师审核，批准前无法访问课程。老师也可直接登记学生。姓名用于老师识别学生；邮箱用于登录，密码以单向哈希保存；登录需要会话 Cookie。学习进度、草稿和提交记录保存在服务器，并与个人账号关联。": {
+    "en": "Students can request an account with their name and email. Teachers review requests before granting course access and can also register students directly. Names help the teacher identify students. Email addresses are used to log in; passwords are stored as one-way hashes. A session cookie keeps you signed in. Progress, drafts and submissions are stored on the server under your account.",
+    "zh-TW": "學生可提交姓名和電子郵件申請帳號；申請由老師審核，批准前無法存取課程。老師也可直接登記學生。姓名用於老師識別學生；郵箱用於登入，密碼以單向雜湊儲存；登入需要會話 Cookie。學習進度、草稿和提交記錄儲存在伺服器，並與個人帳號關聯。"
   },
   "点击「提交作文」或「完成并提交」后，老师可以查看作文并填写评语。修改后再次提交会保留不同版本。未完成的草稿不显示在老师的批改列表中。": {
     "en": "Your teacher can read and comment on an essay after you submit it or mark it complete. Revised submissions are kept as separate versions. Unfinished drafts do not appear in the teacher’s review list.",
