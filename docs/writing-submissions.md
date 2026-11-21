@@ -7,3 +7,7 @@ Administrators open 作文批改 from student management or the learning header.
 Records are stored in writing_submissions in the existing persistent students.sqlite database. New submissions require writing permission and a student role. Session, password-change and origin checks apply. Maximum essay text is 20,000 characters; feedback is 12,000. There is no automatic score or email notification. Existing non-empty student essays already marked completed are copied into teacher submissions by a one-time idempotent migration. Unfinished drafts are not submitted. Newly completed drafts from older clients are also submitted server-side on the progress update; subsequent autosaves do not create more versions.
 
 Validation: scripts/check-writing-submissions.mjs checks permissions, CSRF, student isolation, immutable versions, metadata validation, filters, feedback and restart persistence. Disposable-browser preview checked teacher review and the student's resulting feedback display.
+
+## Latest published assessment
+
+Students see one latest published teacher assessment per writing question. `/api/writing/feedback?questionId=…` returns that assessment for the signed-in account only. Submission history retains original essay versions but redacts feedback belonging to earlier publications. A monotonic feedback publication version defines latest publication, rather than the submission date. Re-publishing an older essay supersedes feedback previously published on a newer essay version. Unpublished Codex drafts never replace the student-visible assessment.

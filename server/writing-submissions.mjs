@@ -7,6 +7,8 @@ import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 export function writingSubmissions(db,root,permissionsFor){
  db.exec(`CREATE TABLE IF NOT EXISTS writing_submissions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,question_id TEXT NOT NULL,title TEXT NOT NULL,task INTEGER NOT NULL,prompt TEXT NOT NULL,text TEXT NOT NULL,submitted_at INTEGER NOT NULL,feedback TEXT NOT NULL DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);CREATE INDEX IF NOT EXISTS writing_by_user ON writing_submissions(user_id,submitted_at);`);
+ if(!db.prepare('PRAGMA table_info(writing_submissions)').all().some(c=>c.name==='feedback_version'))db.exec('ALTER TABLE writing_submissions ADD COLUMN feedback_version INTEGER NOT NULL DEFAULT 0');
+ const latestFeedback=(userId,questionId)=>db.prepare("SELECT id,title,task,feedback,reviewed_at FROM writing_submissions WHERE user_id=? AND question_id=? AND reviewed_at IS NOT NULL AND feedback<>'' ORDER BY feedback_version DESC,reviewed_at DESC,rowid DESC LIMIT 1").get(userId,questionId)||null;
  const questions=JSON.parse(readFileSync(path.join(root,'src/data/exam.json'),'utf8')).writing;
  migrateCompletedWriting(db,questions);
  const ai=essayAssessment(db),codex=codexReview(db);
@@ -14,7 +16,13 @@ export function writingSubmissions(db,root,permissionsFor){
   if(route==='/api/writing/submissions'&&req.method==='GET'){
    const question=url.searchParams.get('questionId');
    if(!question)return send(400,{error:'请选择写作题目'});
-   return send(200,db.prepare('SELECT id,title,task,text,submitted_at,feedback,reviewed_at FROM writing_submissions WHERE user_id=? AND question_id=? ORDER BY submitted_at DESC,rowid DESC LIMIT 20').all(user.id,question));
+   const latest=latestFeedback(user.id,question);
+   const rows=db.prepare('SELECT id,title,task,text,submitted_at,feedback,reviewed_at FROM writing_submissions WHERE user_id=? AND question_id=? ORDER BY submitted_at DESC,rowid DESC LIMIT 20').all(user.id,question);
+   return send(200,rows.map(row=>({...row,feedback:row.id===latest?.id?row.feedback:''})));
+  }
+  if(route==='/api/writing/feedback'&&req.method==='GET'){
+   const question=url.searchParams.get('questionId');if(!question)return send(400,{error:'请选择写作题目'});
+   return send(200,latestFeedback(user.id,question));
   }
   if(route==='/api/writing/submissions'&&req.method==='POST'){
    if(user.role!=='student')return send(403,{error:'请使用学生账号提交作文'});
@@ -65,7 +73,7 @@ export function writingSubmissions(db,root,permissionsFor){
    if(route==='/api/admin/writing/feedback'&&req.method==='POST'){
     const b=await body();if(typeof b.feedback!=='string'||!b.feedback.trim()||b.feedback.length>12000)return send(400,{error:'请输入评语，最多 12,000 个字符'});
     if(!db.prepare('SELECT id FROM writing_submissions WHERE id=?').get(b.id))return send(404,{error:'作文不存在'});
-    const at=Date.now();db.prepare('UPDATE writing_submissions SET feedback=?,reviewed_at=?,reviewer_id=? WHERE id=?').run(b.feedback.trim(),at,user.id,b.id);
+    const at=Date.now();db.prepare('UPDATE writing_submissions SET feedback=?,reviewed_at=?,reviewer_id=?,feedback_version=(SELECT COALESCE(MAX(feedback_version),0)+1 FROM writing_submissions) WHERE id=?').run(b.feedback.trim(),at,user.id,b.id);
     return send(200,{ok:true,reviewed_at:at});
    }
   }

@@ -56,10 +56,23 @@ try{
  history=await json(await req('/api/writing/submissions?questionId='+q.id,a));assert.equal(history.length,2);assert.equal(history.find(x=>x.id===one.id).text,body.text);assert.equal(history.find(x=>x.id===two.id).reviewed_at,null);
  const pending=await json(await req('/api/admin/writing?pending=1&student='+id,admin));assert.deepEqual(pending.items.map(x=>x.id),[two.id]);
  assert.equal((await json(await req('/api/admin/writing?student='+users.find(x=>x.email==='b@example.test').id,admin))).items.length,0);
+ const secondFeedback='Only the latest published assessment is visible.';
+ await json(await req('/api/admin/writing/feedback',admin,{id:two.id,feedback:secondFeedback}));
+ history=await json(await req('/api/writing/submissions?questionId='+q.id,a));assert.equal(history.find(x=>x.id===one.id).feedback,'');assert.equal(history.find(x=>x.id===two.id).feedback,secondFeedback);
+ assert.equal((await json(await req('/api/writing/feedback?questionId='+q.id,a))).id,two.id);
+ assert.equal(await json(await req('/api/writing/feedback?questionId='+q.id,b)),null);
+ const lastFeedback='Final teacher-approved assessment, including suggested revision.';
+ await json(await req('/api/admin/writing/feedback',admin,{id:one.id,feedback:lastFeedback}));
+ history=await json(await req('/api/writing/submissions?questionId='+q.id,a));assert.equal(history.find(x=>x.id===one.id).feedback,lastFeedback);assert.equal(history.find(x=>x.id===two.id).feedback,'');
+ assert.equal((await json(await req('/api/writing/feedback?questionId='+q.id,a))).feedback,lastFeedback);
+ assert((await json(await req('/api/admin/writing/detail?id='+one.id,admin))).feedback_version>(await json(await req('/api/admin/writing/detail?id='+two.id,admin))).feedback_version);
  const q2=questions[1],value={drafts:{[q2.id]:{text:'Completed through progress',completed:true}}};
  const completion=await fetch(base+'/api/progress',{method:'PUT',headers:{cookie:a,origin:base,'content-type':'application/json'},body:JSON.stringify({key:'french-learning-v1',value})});assert.equal(completion.status,200);
  let auto=await json(await req('/api/writing/submissions?questionId='+q2.id,a));assert.equal(auto.length,1);assert.equal(auto[0].text,'Completed through progress');
  value.drafts[q2.id].text='Still editing the same completed draft';await fetch(base+'/api/progress',{method:'PUT',headers:{cookie:a,origin:base,'content-type':'application/json'},body:JSON.stringify({key:'french-learning-v1',value})});auto=await json(await req('/api/writing/submissions?questionId='+q2.id,a));assert.equal(auto.length,1);
- child.kill();await once(child,'exit');await start();const again=await login('a@example.test','student-password-test');history=await json(await req('/api/writing/submissions?questionId='+q.id,again));assert.equal(history.length,2);assert.equal(history.find(x=>x.id===one.id).feedback,feedback);
+ await json(await req('/api/admin/writing/feedback',admin,{id:auto[0].id,feedback:'Second task feedback.'}));
+ assert.equal((await json(await req('/api/writing/feedback?questionId='+q.id,a))).feedback,lastFeedback);
+ assert.equal((await json(await req('/api/writing/feedback?questionId='+q2.id,a))).feedback,'Second task feedback.');
+ child.kill();await once(child,'exit');await start();const again=await login('a@example.test','student-password-test');history=await json(await req('/api/writing/submissions?questionId='+q.id,again));assert.equal(history.length,2);assert.equal(history.find(x=>x.id===one.id).feedback,lastFeedback);assert.equal(history.find(x=>x.id===two.id).feedback,'');assert.equal((await json(await req('/api/writing/feedback?questionId='+q.id,again))).feedback,lastFeedback);
  console.log('Writing submissions passed: access permissions, CSRF, account isolation, immutable versions, server-owned question metadata, feedback, filters, validation and restart persistence.');
 }finally{if(child.exitCode===null){child.kill();await once(child,'exit');}await rm(dir,{recursive:true,force:true});}

@@ -9,14 +9,14 @@ export function mountWritingSubmission(editor,question,account,onSubmit){
  const status=document.createElement('p');status.setAttribute('role','status');
  const reload=document.createElement('button');reload.className='secondary';reload.textContent='刷新反馈';reload.type='button';const history=document.createElement('div');section.append(heading,note,reload,status,history);editor.closest('section').querySelectorAll('.editor-bar')[1].append(button);editor.closest('section').after(section);
  const refresh=async()=>{
-  const rows=await api('/api/writing/submissions?questionId='+encodeURIComponent(question.id));if(!section.isConnected)return;
+  const [rows,latest]=await Promise.all([api('/api/writing/submissions?questionId='+encodeURIComponent(question.id)),api('/api/writing/feedback?questionId='+encodeURIComponent(question.id))]);if(!section.isConnected)return;
   history.replaceChildren();if(!rows.length){history.textContent='尚未提交。';return;}
+  const feedbackTitle=document.createElement('h3');feedbackTitle.textContent='最新教师评语';const feedback=document.createElement('p');feedback.className=latest?'submission-text':'muted';feedback.textContent=latest?latest.feedback:'老师尚未批改。';history.append(feedbackTitle,feedback);
   const label=document.createElement('label');label.textContent='已提交版本（最近 20 份）';const select=document.createElement('select');select.setAttribute('aria-label','选择已提交作文版本');
   rows.forEach((row,i)=>{const option=document.createElement('option');option.value=String(i);option.textContent=date(row.submitted_at)+(row.reviewed_at?' · 已批改':' · 待批改');select.append(option);});
   const detail=document.createElement('div');const show=()=>{
    const row=rows[Number(select.value)];detail.replaceChildren();
-   const feedbackTitle=document.createElement('h3');feedbackTitle.textContent='教师评语';const feedback=document.createElement('p');feedback.className=row.reviewed_at?'submission-text':'muted';feedback.textContent=row.reviewed_at?row.feedback:'老师尚未批改。';
-   const saved=document.createElement('details');saved.open=true;const summary=document.createElement('summary');summary.textContent='已提交作文 · '+date(row.submitted_at);const text=document.createElement('p');text.className='submission-text';text.lang='fr';text.textContent=row.text;saved.append(summary,text);detail.append(feedbackTitle,feedback,saved);
+   const saved=document.createElement('details');saved.open=true;const summary=document.createElement('summary');summary.textContent='已提交作文 · '+date(row.submitted_at);const text=document.createElement('p');text.className='submission-text';text.lang='fr';text.textContent=row.text;saved.append(summary,text);detail.append(saved);
   };select.onchange=show;history.append(label,select,detail);show();
  };
  reload.onclick=()=>refresh().catch(e=>{status.textContent=e.message;});

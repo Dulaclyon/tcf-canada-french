@@ -1,4 +1,8 @@
 export const messages = {
+"最新教师评语":{"en":"Latest teacher feedback","zh-TW":"最新教師評語"},
+"完整草稿已放入评语框，包含建议修改稿。检查后再发布。":{"en": "Complete draft added to the feedback box, including the suggested revision. Review before publishing.", "zh-TW": "完整草稿已放入評語框，包含建議修改稿。檢查後再發布。"},
+"完整草稿包含估计水平、修改建议和建议修改稿。点击“替换教师评语草稿”载入。":{"en": "The complete draft includes the estimated level, suggested corrections and suggested revision. Choose Replace feedback draft to load it.", "zh-TW": "完整草稿包含估計程度、修改建議和建議修改稿。點選「替換教師評語草稿」載入。"},
+
 "正在改写…":{"en":"Rewriting…","zh-TW":"正在改寫…"},
 "改写草稿已放入评语框。检查后再发布。":{"en": "Rewritten draft added to the feedback box. Review before publishing.", "zh-TW": "改寫草稿已放入評語框。檢查後再發布。"},
 "新草稿已保存。点击“替换教师评语草稿”后检查并发布。":{"en": "New draft saved. Choose Replace feedback draft, then review and publish.", "zh-TW": "新草稿已儲存。點選「替換教師評語草稿」後檢查並發布。"},
