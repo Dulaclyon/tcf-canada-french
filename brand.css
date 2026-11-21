@@ -125,3 +125,12 @@ button:disabled{opacity:.5;cursor:not-allowed}
 
 /* Numbered topic labels remain consistent regardless of label length or language. */
 .grammar-content .grammar-numbered-subhead{font-size:17px!important;font-weight:600;line-height:1.65;color:inherit;margin:28px 0 14px;padding:0;border:0;border-radius:0;background:none;max-width:none;text-align:left;text-align-last:auto}.grammar-content .grammar-step.grammar-numbered-subhead{margin:14px 0}.grammar-content .grammar-numbered-subhead .grammar-zh{font:inherit;color:inherit}
+
+/* Classical signature, shared by every public and learning page. */
+@font-face{font-family:'Allura';src:url('./assets/fonts/allura-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.wordmark,.wordmark strong,.wordmark em{font-family:'Allura','Cormorant Garamond',cursive;font-style:normal;font-weight:400;letter-spacing:0;color:var(--brand)}
+.wordmark{display:inline-block;font-size:44px;line-height:1.2;white-space:nowrap;padding-block:3px;text-decoration:none;font-synthesis:none}
+.wordmark strong,.wordmark em{font-size:inherit;line-height:inherit}
+.brand .wordmark{font-size:34px;white-space:normal;line-height:1.1}
+.brand .wordmark em{display:block;font-size:inherit;margin-top:0}
+@media(max-width:760px){.editorial-header .wordmark,body>header .wordmark{font-size:36px}.brand .wordmark{font-size:34px}}

@@ -1,3 +1,4 @@
+import {registrationRequests} from './registration-requests.mjs';
 import {learningDashboard} from './learning-dashboard.mjs';
 import http from 'node:http';
 import {writingSubmissions} from './writing-submissions.mjs';
@@ -31,6 +32,7 @@ const verify=(p,h)=>{const [s,v]=h.split(':');return timingSafeEqual(scryptSync(
 const email=v=>typeof v==='string'&&v.length<=254&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 const validName=value=>typeof value==='string'&&value.length<=100&&!/[\u0000-\u001f\u007f]/u.test(value);
 const digest=s=>createHash('sha256').update(s).digest('hex');
+const registrations=registrationRequests(db,{validName,validEmail:email,hash,digest});
 if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
  const e=process.env.ADMIN_EMAIL?.trim().toLowerCase(),p=process.env.ADMIN_PASSWORD;
  if(!email(e)||!p||p.length<12)throw Error('First start requires ADMIN_EMAIL and ADMIN_PASSWORD (12+ characters).');
@@ -39,7 +41,7 @@ if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
 const handleWriting=writingSubmissions(db,root,permissionsFor);
 const dashboard=learningDashboard(db,root,permissionsFor);
 const keys=new Set(['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1']);
-const publicFiles=new Set(['brand.css','assets/fonts/source-sans-3-latin.woff2','assets/fonts/source-sans-3-ext.woff2','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','account.css','login.js']);
+const publicFiles=new Set(['brand.css','assets/fonts/allura-regular.ttf','assets/fonts/source-sans-3-latin.woff2','assets/fonts/source-sans-3-ext.woff2','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','register.html','register.js','account.css','login.js']);
 const types={'.woff2':'font/woff2','.ttf':'font/ttf','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.m4a':'audio/mp4','.mp3':'audio/mpeg','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
 const server=http.createServer(async(req,res)=>{
  const send=(status,value,extra={})=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin',...extra});res.end(typeof value==='string'?value:JSON.stringify(value));};
@@ -55,6 +57,7 @@ const server=http.createServer(async(req,res)=>{
  const mutation=!['GET','HEAD'].includes(req.method);
  if(mutation){const origin=req.headers.origin;const expected=process.env.PUBLIC_ORIGIN||`http://${req.headers.host}`;if(origin!==expected)return send(403,{error:'请求来源无法验证'});if(!req.headers['content-type']?.startsWith('application/json'))return send(415,{error:'需要 JSON 请求'});}
  const body=async()=>{let s='';for await(const c of req){s+=c;if(Buffer.byteLength(s)>2*1024*1024)throw Error('请求过大');}return JSON.parse(s||'{}')};
+ if(route==='/api/registration-requests'&&req.method==='POST'){try{return send(202,registrations.request(await body(),req.socket.remoteAddress));}catch(e){return send(e.status||400,{error:e.status?e.message:'请求无法处理'});}}
  if(route==='/api/login'&&req.method==='POST'){
  const b=await body(),ip=req.socket.remoteAddress,now=Date.now();let a=db.prepare('SELECT * FROM attempts WHERE ip=?').get(ip);if(a?.expires>now&&a.count>=10)return send(429,{error:'尝试次数过多，请 15 分钟后重试'});
  if(!a||a.expires<=now)db.prepare('INSERT OR REPLACE INTO attempts VALUES(?,0,?)').run(ip,now+900000);
@@ -78,8 +81,11 @@ const server=http.createServer(async(req,res)=>{
  if(route.startsWith('/api/admin/')){
  if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
  if(route==='/api/admin/users'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,active,must_change FROM users WHERE role='student' ORDER BY email").all().map(u=>({...u,permissions:permissionsFor({...u,role:'student'})})));
+ if(route==='/api/admin/registration-requests'&&req.method==='GET')return send(200,registrations.list());
  const b=await body();
- if(route==='/api/admin/users'&&req.method==='POST'){const name=b.name??'';if(!validName(name))return send(400,{error:'姓名须为不超过 100 个字符的单行文字。'});const e=String(b.email||'').trim().toLowerCase();if(!email(e))return send(400,{error:'请输入有效邮箱'});if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'此邮箱已注册'});if(db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});const p=randomBytes(15).toString('base64url');const id=randomBytes(16).toString('hex');db.prepare('INSERT INTO users(id,email,password,role,must_change,active,name) VALUES(?,?,?,?,1,1,?)').run(id,e,hash(p),'student',name.trim().normalize('NFC'));db.prepare('INSERT INTO permissions VALUES(?,?)').run(id,JSON.stringify(basicOnly));return send(201,{email:e,name:name.trim().normalize('NFC'),password:p});}
+ if(route==='/api/admin/registration-requests/approve'&&req.method==='POST'){try{return send(201,registrations.approve(b.id,b.permissions));}catch(e){return send(e.status||400,{error:e.status?e.message:'请求无法处理'});}}
+ if(route==='/api/admin/registration-requests/decline'&&req.method==='POST'){try{return send(200,registrations.decline(b.id));}catch(e){return send(e.status||400,{error:e.status?e.message:'请求无法处理'});}}
+ if(route==='/api/admin/users'&&req.method==='POST'){const name=b.name??'';if(!validName(name))return send(400,{error:'姓名须为不超过 100 个字符的单行文字。'});const e=String(b.email||'').trim().toLowerCase();if(!email(e))return send(400,{error:'请输入有效邮箱'});if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'此邮箱已注册'});if(db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});const p=randomBytes(15).toString('base64url');const id=randomBytes(16).toString('hex');db.prepare('INSERT INTO users(id,email,password,role,must_change,active,name) VALUES(?,?,?,?,1,1,?)').run(id,e,hash(p),'student',name.trim().normalize('NFC'));db.prepare('INSERT INTO permissions VALUES(?,?)').run(id,JSON.stringify(basicOnly));registrations.reconcile(e,id);return send(201,{email:e,name:name.trim().normalize('NFC'),password:p});}
  const target=db.prepare("SELECT * FROM users WHERE id=? AND role='student'").get(b.id);if(!target)return send(404,{error:'学生不存在'});
  if(route==='/api/admin/profile'&&req.method==='POST'){if(!validName(b.name))return send(400,{error:'姓名须为不超过 100 个字符的单行文字。'});const name=b.name.trim().normalize('NFC');db.prepare('UPDATE users SET name=? WHERE id=?').run(name,target.id);return send(200,{id:target.id,name,email:target.email});}
  if(route==='/api/admin/permissions'&&req.method==='POST'){if(!validPermissions(b.permissions))return send(400,{error:'无效权限设置'});db.prepare('INSERT INTO permissions VALUES(?,?) ON CONFLICT(user_id) DO UPDATE SET value=excluded.value').run(target.id,JSON.stringify(b.permissions));return send(200,{ok:true,permissions:b.permissions});}
