@@ -270,7 +270,7 @@ export const messages = {
     "zh-TW": "複習"
   },
   "TCF CA 考试准备": {
-    "en": "TCF Canada preparation",
+    "en": "TCF CA PREP",
     "zh-TW": "TCF CA 考試準備"
   },
   "考试准备": {
