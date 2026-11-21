@@ -12,7 +12,7 @@ const {renderSeparatedLessonRecap}=account.permissions.basics?await import('./le
 const {renderWeatherLesson}=account.permissions.basics?await import('./weather-lesson.js?v=1'):{renderWeatherLesson:()=>''};
 const {renderPossessiveRecap}=account.permissions.basics?await import('./possessive-recap.js?v=1'):{renderPossessiveRecap:()=>''};
 const {combineBasicVerbs,renderBasicVerbs,renderTimeExpressions,visibleLessonTopics}=account.permissions.basics?await import('./basic-verbs.js?v=3'):{combineBasicVerbs:()=>[],renderBasicVerbs:()=>'',renderTimeExpressions:()=>'',visibleLessonTopics:()=>[]};
-import {renderBank} from './bank.js?v=3';
+import {renderBank} from './bank.js?v=4';
 import {buildLessonFlow,consolidatePronunciationTopics} from './lesson-flow.js?v=24';
 const {renderGrammar,renderArticle,renderPronunciation,pronunciationExamplesAudio}=account.permissions.basics?await import('./grammar-layout.js?v=48'):{renderGrammar:()=>'',renderArticle:()=>'',renderPronunciation:()=>'',pronunciationExamplesAudio:()=>''};
 const KEY='french-learning-v1';

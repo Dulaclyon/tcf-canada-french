@@ -1,4 +1,6 @@
 export const messages = {
+"查看组别":{"en":"View sets","zh-TW":"查看組別"},
+"收起组别":{"en":"Hide sets","zh-TW":"收起組別"},
 "我的笔记":{"en": "My notes", "zh-TW": "我的筆記"},
 "本板块共用，自动保存至个人账号。":{"en": "One notebook for this section. Automatically saved to your account.", "zh-TW": "本板塊共用，自動儲存至個人帳號。"},
 "本板块笔记":{"en": "Notes for this section", "zh-TW": "本板塊筆記"},
