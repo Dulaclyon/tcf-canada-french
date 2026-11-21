@@ -13,7 +13,7 @@ const {renderPossessiveRecap}=account.permissions.basics?await import('./possess
 const {combineBasicVerbs,renderBasicVerbs,renderTimeExpressions,visibleLessonTopics}=account.permissions.basics?await import('./basic-verbs.js?v=3'):{combineBasicVerbs:()=>[],renderBasicVerbs:()=>'',renderTimeExpressions:()=>'',visibleLessonTopics:()=>[]};
 import {renderBank} from './bank.js?v=3';
 import {buildLessonFlow,consolidatePronunciationTopics} from './lesson-flow.js?v=24';
-const {renderGrammar,renderArticle,renderPronunciation,pronunciationExamplesAudio}=account.permissions.basics?await import('./grammar-layout.js?v=47'):{renderGrammar:()=>'',renderArticle:()=>'',renderPronunciation:()=>'',pronunciationExamplesAudio:()=>''};
+const {renderGrammar,renderArticle,renderPronunciation,pronunciationExamplesAudio}=account.permissions.basics?await import('./grammar-layout.js?v=48'):{renderGrammar:()=>'',renderArticle:()=>'',renderPronunciation:()=>'',pronunciationExamplesAudio:()=>''};
 const KEY='french-learning-v1';
 const fresh=()=>({version:1,completed:[],favorites:[],attempts:[],oralRecords:[],drafts:{},history:[]});
 let recoveryRaw=null,recoveryExported=false;let state=fresh(),courses=[],materials=[],exam={},timer=null,timerRemaining=0,timerDeadline=0,timerStartedAt=0,elapsedBeforeStart=0,selectedOral=null,selectedWriting=null;

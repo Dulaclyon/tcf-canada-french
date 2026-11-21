@@ -86,3 +86,22 @@ for(const [heading,sample] of [['et 在单字末尾，ai, è, ê; ei','faire'],[
 }
 assert(renderGrammar('tion 的发音\nla décision（决定）','发音').includes('[zjɔ̃]'));
 console.log('Nine pronunciation groups use the shared spelling, sound and example structure.');
+
+// Corrected note wording must still end a dialogue turn before conjugations begin.
+const clockDialogue=renderArticle(find(4,'对话').text);
+const dialogueTurns=html=>[...html.matchAll(/<p class="article-paragraph article-dialogue"[^>]*>([\s\S]*?)<\/p>/gu)].map(match=>plain(match[1]));
+const turns=dialogueTurns(clockDialogue),lastBernard=turns.filter(t=>t.startsWith('Bernard')).at(-1);
+assert.equal(lastBernard,'Bernard : À tout à l’heure.');
+assert(!turns.some(t=>/赶紧|je me dépêche|问时间/u.test(t)),'Vocabulary, conjugation and headings stay outside speech');
+assert(clockDialogue.includes('class="article-notes"')&&clockDialogue.includes('class="conjugation-card"'),'Conjugation has its own layout');
+assert(plain(annotatedDialogue).includes("C&#39;est Annie DUFOUR")||plain(annotatedDialogue).includes("C'est Annie DUFOUR"),'Space before Annie');
+assert(!annotatedDialogue.includes('estAnnie'),'No joined name');
+assert(!dialogueTurns(annotatedDialogue).some(t=>/vous 可以|游泳池|prep\./u.test(t)),'Corrected vous note and vocabulary stay outside speech');
+assert(!dialogueTurns(renderArticle('Paris et Lyon : laquelle est la plus attrayante ?')).length,'Article titles are not speakers');
+assert(!dialogueTurns(renderArticle('Il m’a dit : « Bonjour. »')).length,'Reported speech is prose, not a named speaker');
+const honte=renderArticle('Il m’a dit : « Je suis désolé. »\navoir honte (de qch / de qn / de + infinitif) = 为……感到羞耻');
+assert(!plain(honte.split('class="article-notes"')[0]).includes('avoir honte'),'Short prose also separates a dictionary expression');
+console.log('Annie spacing, corrected glossary boundaries, dialogue continuations and quoted-prose boundaries passed.');
+
+const timeNotes=renderArticle("Annie : Merci.\nDéjà ---- Already\nheure----- time, hour");
+assert(/Déjà<\/th><td>Already<\/td>/u.test(timeNotes)||/Déjà<\/td><td>Already<\/td>/u.test(timeNotes),'Separate glossary entries cannot merge after an English gloss');

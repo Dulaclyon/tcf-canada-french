@@ -148,6 +148,8 @@ function reflowSourceLines(text) {
   for (let i = 0; i < lines.length - 1; i++) {
     const current = lines[i], next = lines[i + 1];
     if (!current || !next) continue;
+    // A dictionary construction starts a new note, even after quoted prose.
+    if (/^[^=]+\([^)]*\)\s*=/u.test(next) || /-{2,}/u.test(next)) continue;
     if (/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(current)||/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(next)) continue;
     if (/^(?:phonics|ou|oi|\[j\]|tion 的发音|发音部分 in, im)$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
     if(/^第[一二三]人称/u.test(current)||/^第[一二三]人称/u.test(next))continue;
@@ -472,7 +474,7 @@ const readingCorrections = [
 ];
 
 export function polishReadingChinese(text) {
-  return readingCorrections.reduce((result, [original, revised]) => result.replaceAll(original, revised), text);
+  return readingCorrections.reduce((result, [original, revised]) => result.replaceAll(original, revised), text).replace(/\b([Cc][’']est)(?=[A-ZÀ-Ÿ])/gu,'$1 ');
 }
 
 export function renderArticle(text) {
@@ -492,7 +494,7 @@ export function renderArticle(text) {
     paragraph='';
     dialogue=false;
   };
-  const speaker=/^(?:[—–-]\s|[A-ZÀ-Ÿ][\p{L}’' -]{0,28}\s*[:：])/u;
+  const speaker=/^(?:[—–-]\s|(?:[A-ZÀ-Ÿ][\p{L}’'-]*(?:[ -][A-ZÀ-Ÿ][\p{L}’'-]*){0,3}|La dame)\s*[:：])/u;
   const transition=/^(?:Le lendemain|Le soir|L’après-midi|L'après-midi|En arrivant|Un peu plus tard|Finalement|À la gare|Quand |L’année|L'année)/u;
   for(let i=0;i<lines.length;i++) {
     const line=lines[i];if(!line){if(!notes.length)flush();continue;}
@@ -507,8 +509,8 @@ export function renderArticle(text) {
       paragraph=line.replace(/(là-bas \?) là-bas$/u,'$1 （là-bas）');
       continue;
     }
-    const phraseHeading=paragraph.length>100&&line.length<65&&!/[.!?;]$/u.test(line)&&/^(?:avoir |être |faire |se |s[’'])/u.test(line);
-    const gloss=hasDialogue&&/^(?:\S+\s+(?:n\.[fm]|prep\.)|vous 除了|se dépêcher 赶快)/u.test(line);
+    const phraseHeading=/^(?:avoir |être |faire |se |s[’'])/u.test(line)&&((paragraph.length>100&&line.length<65&&!/[.!?;]$/u.test(line))||/\([^)]*\)\s*=/u.test(line));
+    const gloss=hasDialogue&&/^(?:\S+\s+(?:n\.[fm]|prep\.)|vous (?:除了|可以)|se dépêcher(?:\s|$))/u.test(line);
     if(notes.length||noteHeading||gloss||/[→←]|\s[–—]\s|-{2,}/u.test(line)||phraseHeading){flush();notes.push(line);continue;}
     if(paragraph&&!dialogue&&/[.!?…]$/u.test(paragraph)&&(paragraph.length>550||transition.test(line)))flush();
     paragraph+=(paragraph?' ':'')+line;
