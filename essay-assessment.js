@@ -4,7 +4,9 @@ async function api(url,body){const response=await fetch(url,{method:body?'POST':
 const node=(tag,text,cls)=>{const element=document.createElement(tag);if(text!==undefined)element.textContent=text;if(cls)element.className=cls;return element;};
 const feedbackText=(review,locale)=>{
  const a=review.assessment;const title=s=>t(s,locale);
- return [a.summary,title('任务完成度')+'\n'+a.task_fulfilment,title('组织与连贯')+'\n'+a.organization,title('语言表达')+'\n'+a.language,a.strengths.length?title('优点')+'\n'+a.strengths.map(s=>'• '+s).join('\n'):'',a.priorities.length?title('优先改进')+'\n'+a.priorities.map(s=>'• '+s).join('\n'):'',a.corrections.length?title('修改建议')+'\n'+a.corrections.map(c=>`${c.original} → ${c.corrected}\n${c.explanation}`).join('\n\n'):'',a.estimated_level!=='insufficient_evidence'?title('AI 估计水平（非官方评分）')+': '+a.estimated_level:''].filter(Boolean).join('\n\n');
+ const level=a.estimated_level==='insufficient_evidence'?title('内容不足，无法估计水平。'):a.estimated_level;
+ const corrections=a.corrections.length?a.corrections.map(c=>`${c.original} → ${c.corrected}\n${c.explanation}`).join('\n\n'):title('无需修改。');
+ return [title('估计水平')+'\n'+level,title('修改建议')+'\n'+corrections,title('建议修改稿')+'\n'+(a.revised_text||title('暂无建议修改稿。'))].join('\n\n');
 };
 export function mountEssayAssessment(){
  let id=null,version=0,busy=false,review=null,config=null;
@@ -21,12 +23,11 @@ export function mountEssayAssessment(){
   const target=$('ai-review-result');target.replaceChildren();$('ai-use-draft').hidden=true;
   if(result?.status!=='completed'){if(['queued','pending'].includes(result?.status))$('ai-review-status').textContent='这份作文正在评估，请稍后刷新。';else if(result?.status==='failed')$('ai-review-status').textContent=result.error||'上次评估未完成，可以重试。';return;}
   const locale=result.language||language.value;target.lang=locale==='zh-TW'?'zh-Hant-TW':locale;const a=result.assessment;
-  const meta=node('p',`${result.model} · ${new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeStyle:'short'}).format(new Date(result.completed_at))}`,'muted');target.append(meta,node('p',a.summary,'ai-summary'));
-  if(a.estimated_level!=='insufficient_evidence')target.append(node('p',t('AI 估计水平（非官方评分）',locale)+': '+a.estimated_level,'ai-level'));
-  for(const [label,value] of [['任务完成度',a.task_fulfilment],['组织与连贯',a.organization],['语言表达',a.language]]){const section=node('section');section.append(node('h4',t(label,locale)),node('p',value));target.append(section);}
-  for(const [label,values] of [['优点',a.strengths],['优先改进',a.priorities]])if(values.length){const section=node('section');const list=node('ul');values.forEach(value=>list.append(node('li',value)));section.append(node('h4',t(label,locale)),list);target.append(section);}
-  if(a.corrections.length){const section=node('section');section.append(node('h4',t('修改建议',locale)));for(const correction of a.corrections){const item=node('div',undefined,'ai-correction');const pair=node('p');pair.lang='fr';pair.append(node('span',correction.original),document.createTextNode(' → '),node('strong',correction.corrected));item.append(pair,node('p',correction.explanation));section.append(item);}target.append(section);}
-  if(a.revised_text){const details=node('details');details.open=true;const revision=node('p',a.revised_text,'submission-text');revision.lang='fr';details.append(node('summary',t('建议修改稿',locale)),revision);target.append(details);}
+  const level=node('section');level.append(node('h4',t('估计水平',locale)),node('p',a.estimated_level==='insufficient_evidence'?t('内容不足，无法估计水平。',locale):a.estimated_level,'ai-level'));target.append(level);
+  const corrections=node('section');corrections.append(node('h4',t('修改建议',locale)));
+  if(a.corrections.length){for(const correction of a.corrections){const item=node('div',undefined,'ai-correction');const pair=node('p');pair.lang='fr';pair.append(node('span',correction.original),document.createTextNode(' → '),node('strong',correction.corrected));item.append(pair,node('p',correction.explanation));corrections.append(item);}}else corrections.append(node('p',t('无需修改。',locale)));
+  target.append(corrections);
+  const revision=node('section'),text=node('p',a.revised_text||t('暂无建议修改稿。',locale),'submission-text');if(a.revised_text)text.lang='fr';revision.append(node('h4',t('建议修改稿',locale)),text);target.append(revision);
   $('ai-use-draft').hidden=false;
  }
  async function open(nextId){id=nextId;review=null;const current=++version;$('ai-review-result').replaceChildren();$('ai-review-status').textContent='';$('ai-use-draft').hidden=true;controls();try{const data=await api('/api/admin/writing/codex?id='+encodeURIComponent(id)+'&language='+encodeURIComponent(language.value));if(current!==version)return;review=data.review;config=data.config;show(review);controls();}catch(error){if(current===version){$('ai-review-status').textContent=error.message;controls();}}}

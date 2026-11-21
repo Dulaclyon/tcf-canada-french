@@ -8,7 +8,7 @@ The teacher page now uses a Mac connector instead of the paid OpenAI API. No cop
 2. Double-click `Start Codex Reviews.command` in the project folder.
 3. The launcher opens the teacher Essay review page. Sign into the teacher account if necessary, then click **Connect this Mac**. Pairing is needed once, or again after disconnection/replacement.
 4. Keep the connector window open and your Mac awake and online.
-5. Open a submitted essay and click **Assess with Codex**. The private draft appears automatically. Review/edit it and use the existing **Publish feedback** action.
+5. Open a submitted essay and click **Assess with Codex**. The private draft appears automatically with three parts: Estimated level, Suggested corrections and Suggested revision. “Use as feedback draft” includes all three parts, including the revised essay. Review/edit it and use the existing **Publish feedback** action.
 
 Control+C in the connector window stops it. Launch it again to resume. **Disconnect Mac** on the teacher page revokes its pairing credential. Pairing another Mac replaces the previous one.
 

@@ -1,4 +1,9 @@
 export const messages = {
+"估计水平":{"en": "Estimated level", "zh-TW": "估計程度"},
+"内容不足，无法估计水平。":{"en": "Not enough evidence to estimate a level.", "zh-TW": "內容不足，無法估計程度。"},
+"无需修改。":{"en": "No corrections needed.", "zh-TW": "無需修改。"},
+"暂无建议修改稿。":{"en": "No suggested revision available.", "zh-TW": "暫無建議修改稿。"},
+
 "请使用 Mac 上的 Codex 连接器。":{"en":"Use the Codex connector on your Mac.","zh-TW":"請使用 Mac 上的 Codex 連接器。"},
 "连接这台 Mac":{"en": "Connect this Mac", "zh-TW": "連接這台 Mac"},
 "允许这台 Mac 使用你的 Codex 订阅处理所选作文，并返回仅老师可见的草稿。":{"en": "Allow this Mac to assess selected essays using your Codex subscription and return private teacher drafts.", "zh-TW": "允許這台 Mac 使用你的 Codex 訂閱評估所選作文，並傳回僅老師可見的草稿。"},
