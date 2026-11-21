@@ -84,3 +84,5 @@ execFileSync(process.execPath,['scripts/check-bank-progress.mjs'],{stdio:'inheri
 
 execFileSync(process.execPath,['scripts/check-editorial.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/check-course-language.mjs'],{stdio:'inherit'});
+
+execFileSync(process.execPath,['scripts/check-content-structure.mjs'],{stdio:'inherit'});

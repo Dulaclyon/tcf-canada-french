@@ -1,3 +1,5 @@
+import {renderPronunciation,pronunciationKeys} from './pronunciation-layout.js';
+export {renderPronunciation} from './pronunciation-layout.js';
 import {correctTeachingText} from './course-editorial.js';
 // Present original teaching text by grammatical role. The source dataset stays intact.
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -26,7 +28,7 @@ function transform(text, title) {
   const steps = text.split(/(?:\s*→\s*|\s*-{3,}\s*)/u).filter(Boolean);
   return `<div class="grammar-transform">${steps.map((p,i)=>`${i?'<span class="transform-arrow" aria-hidden="true">→</span>':''}<span lang="fr">${inline(p,title)}</span>`).join('')}</div>`;
 }
-const conjugationStart = /^(?:([\p{L}]+)\s*(?::|→)\s*)?((?:que\s+)?(?:je\s|j[’']).*)$/iu;
+const conjugationStart = /^(?:([\p{L}]+)\s*(?::|→|[-–—])\s*)?((?:que\s+)?(?:je\s|j[’']).*)$/iu;
 const conjugationForm = /^(?:que\s+|qu[’'])?(?:je\s|j[’']|tu\s|ils?\b|elles?\b|nous\s|vous\s)/iu;
 
 function inlineConjugation(lines, start) {
@@ -148,6 +150,8 @@ function reflowSourceLines(text) {
     if (!current || !next) continue;
     if (/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(current)||/\((?:n\.|vi\.|vt\.|adj\.|interrogatif)\)\s*-/u.test(next)) continue;
     if (/^(?:phonics|ou|oi|\[j\]|tion 的发音|发音部分 in, im)$/iu.test(current) || /^é;\s*单词末尾的/iu.test(next)) continue;
+    if(/^第[一二三]人称/u.test(current)||/^第[一二三]人称/u.test(next))continue;
+    if(/(?:→|←|->)/u.test(current)&&/(?:→|←|->)/u.test(next))continue;
     const translation = /^[（(][^A-Za-zÀ-ÿ]*[\u3400-\u9fff][^A-Za-zÀ-ÿ]*[）)]$/u.test(next);
     const chineseTail = /[\u3400-\u9fff]$/u.test(current) &&
       /^[\u3400-\u9fff]/u.test(next) && !boundary.test(current) &&
@@ -172,6 +176,7 @@ function reflowSourceLines(text) {
 
 export function renderGrammar(text, title = '') {
   text=correctTeachingText(text);
+  if(/^(?:phonics|发音)$/iu.test(title)&&pronunciationKeys(text).length)return renderPronunciation(text);
   if (/^ce qui, ce que, ce dont\s*\n/u.test(String(text))) {
     const organized = relativePronounGroups(text);
     if (organized) return organized;
@@ -183,7 +188,7 @@ export function renderGrammar(text, title = '') {
     const organized = articleTables(text);
     if (organized) return organized;
   }
-  const lines = reflowSourceLines(String(text ?? '')).map(s=>s.replace(/^[•·]\s*/u,'')).flatMap(s=>s.replace(/([\u3400-\u9fff])\s+(?=(?:Je|J[’']|Tu|Il|Elle|Nous|Vous|Ils|Elles)\b)/gu,'$1\n').split('\n')).filter(Boolean);
+  const lines = reflowSourceLines(String(text ?? '').replace(/\s*-+>\s*/gu,' → ')).map(s=>s.replace(/^[•·]\s*/u,'')).flatMap(s=>s.replace(/([\u3400-\u9fff])\s+(?=(?:Je|J[’']|Tu|Il|Elle|Nous|Vous|Ils|Elles)\b)/gu,'$1\n').split('\n')).filter(Boolean);
   if (lines[0] === title.trim() || (/^(?:phonics|发音)$/iu.test(title) && /^phonics$/iu.test(lines[0]??''))) lines.shift();
   if (title === '发音' && /^Phonics?\s+发音/iu.test(lines[0] ?? '')) lines.shift();
   // Rejoin adjacent PDF lines when the second line closes a parenthetical.
@@ -200,7 +205,7 @@ export function renderGrammar(text, title = '') {
   const glossaryEntry = /^(.+?)\s*-{2,}\s*(.+)$/u;
   // Rejoin PDF wraps inside a transformation so an infinitive is not detached from its phrase.
   for(let n=0;n<lines.length-1;n++) {
-    if(!glossaryEntry.test(lines[n+1])&&!/→/u.test(lines[n+1])&&!conjugationStart.test(lines[n+1])&&/→|-{3,}/u.test(lines[n])&&!/[.;!?]$/u.test(lines[n])&&/^[a-zà-ÿ]/u.test(lines[n+1])&&!/^(?:je |j[’']|tu |il |elle |nous |vous |ils |elles )/iu.test(lines[n+1])) {lines[n]+=' '+lines[n+1];lines.splice(n+1,1);n--;}
+    if(!glossaryEntry.test(lines[n+1])&&!/(?:→|←|->)/u.test(lines[n+1])&&!conjugationStart.test(lines[n+1])&&/→|-{3,}/u.test(lines[n])&&!/[.;!?]$/u.test(lines[n])&&/^[a-zà-ÿ]/u.test(lines[n+1])&&!/^(?:je |j[’']|tu |il |elle |nous |vous |ils |elles )/iu.test(lines[n+1])) {lines[n]+=' '+lines[n+1];lines.splice(n+1,1);n--;}
   }
   const output = [];
   let groupOpen = false;
@@ -215,6 +220,21 @@ export function renderGrammar(text, title = '') {
       groupOpen = true;
       continue;
     }
+    if(/^Je\s*-+ais/iu.test(line)){
+      const endingText=lines.slice(i,i+3).join(' ');
+      const endings=[...endingText.matchAll(/(Je|tu|il|elle|nous|vous|ils|elles)\s*-+(ais|ait|ions|iez|aient)\b/gu)];
+      if(endings.length===8){const forms=new Map(endings.map(([,person,ending])=>[person.toLowerCase(),person+' –'+ending]));output.push(table(['单数','复数'],[['je','nous'],['tu','vous'],['il','ils'],['elle','elles']].map(pair=>pair.map(person=>forms.get(person)))));i+=2;continue;}
+    }
+    const earlyConjugation=inlineConjugation(lines,i);
+    if(earlyConjugation){output.push(earlyConjugation.html);i+=earlyConjugation.length-1;continue;}
+    const participle=value=>value?.match(/^([\p{L}]+)\s*→\s*([\p{L}]+)\s*([（(][^）)]+[）)])?$/u);
+    if(participle(line)&&participle(lines[i+1])){
+      const rows=[];while(participle(lines[i])){const [,verb,form,meaning]=participle(lines[i++]);rows.push([verb,form,meaning||'']);}i--;output.push(table(['动词原形','过去分词','释义'],rows));continue;
+    }
+    const nounArticle=value=>value?.match(/^((?:un|une)\s+.+?)\s*-{2,}\s*((?:le|la|l[’'])\s*[^-]+?)(?:\s*-{2,}\s*(.*))?$/iu);
+    if(nounArticle(line)&&nounArticle(lines[i+1])){const rows=[];while(nounArticle(lines[i])){const [,indefinite,definite,meaning]=nounArticle(lines[i++]);const meanings={'le lit':'床','la voiture':'汽车','la photo':'照片','le travail':'工作','la maison':'房子','le restaurant':'餐厅','la valise':'行李箱'};rows.push([indefinite.trim(),definite.trim(),meanings[definite.trim().toLowerCase()]||meaning||'']);}i--;output.push(table(['不定冠词','定冠词','释义'],rows));continue;}
+    if((line.includes('→')||/-{3,}/u.test(line))&&(subject.test(line)||/^(?:C[’']est|Ce sont|Est-ce)/u.test(line))){output.push(transform(line,title));continue;}
+    if(/^passé composé：avoir /u.test(line)){output.push(`<p class="grammar-rule">${escape(line)}</p>`);continue;}
     const labelledWord = value => value?.match(/^([\u3400-\u9fff][^：:]{0,16})([：:])\s*([A-Za-zÀ-ÿ].*)$/u);
     const glossedWord = value => value?.match(/^([^（(。！？!?]+?)([（(][^()（）]*[\u3400-\u9fff][^()（）]*[）)])\s*$/u);
     if (labelledWord(line) && labelledWord(lines[i + 1])) {
@@ -241,7 +261,7 @@ export function renderGrammar(text, title = '') {
     if(dictionaryEntry(line)){
       const meanings={'le temps':'天气','le ciel':'天空','la neige':'雪','le vent':'风',"l'hiver":'冬天','le Nord':'北方','la région':'地区','les saisons':'四季','le Sud':'南方','décembre':'十二月','la France':'法国','le printemps':'春天','le mois de mars':'三月','la verdure':'绿意；草木','les fleurs':'花','les arbres':'树木',"l'été":'夏天','la pluie':'雨','le soleil':'太阳；阳光','les cultures':'农作物','les fruits':'水果',"l'automne":'秋天','le tapis':'地毯','la robe rousse':'红褐色的裙子','les herbes':'草','les feuilles':'叶子','la bise':'寒风',"l'année":'一年','les zones tempérées':'温带地区','la fin':'结束','le retour':'归来','neiger':'下雪','geler':'结冰','souffler':'吹','détester':'讨厌','plaire':'使人喜欢','pleuvoir':'下雨','finir':'完成；结束','arriver':'到达','verdir':'变绿','fleurir':'开花','accueillir':'欢迎；迎接','venir':'来','pousser':'生长','grandir':'长大；增长','partir':'离开','rougir':'变红','jaunir':'变黄','mûrir':'成熟','tomber':'落下','revenir':'回来','attendre':'等待','roux/rousse':'红褐色的','beau/belle':'美丽的','tempérées':'温带的','jaune':'黄色的','Quand':'什么时候'};
       const rows=[];while(dictionaryEntry(lines[i])){const [,word,meaning]=dictionaryEntry(lines[i++]);const key=word.replace(/\s*\([^()]+\)$/u,'').trim();if(!rows.some(row=>row[0]===word))rows.push([word,meaning,meanings[key]||'']);}i--;
-      output.push(rows.every(row=>row[2])?table(['法语词语','英文释义','中文释义'],rows):table(['法语词语','英文释义'],rows.map(row=>row.slice(0,2))));continue;
+      output.push(table(['法语词语','释义'],rows.map(row=>[row[0],row[2]||row[1]])));continue;
     }
     const soundRules = [
       ['an / en / am / em', 'an、en、am、em', '[ɑ̃]', '本组例词含鼻元音 [ɑ̃]；不要把 n、m 单独读出来。单词的实际读音仍需逐词确认。', 'enfant（孩子）、manger（吃）、chambre（房间）、emballer（打包）'],
@@ -369,7 +389,7 @@ export function renderGrammar(text, title = '') {
         if(!m||lines[j].length>=130)break;
         rows.push([m[1],m[2]]);j++;
       }
-      if(rows.length){output.push(table(['（词语 / 原结构）','（释义 / 对应形式）'], rows));i=j-1;continue;}
+      if(rows.length){output.push(rows.length===1?`<dl class="grammar-definition"><div><dt>${escape(rows[0][0])}</dt><dd>${escape(rows[0][1])}</dd></div></dl>`:table(['法语','释义'], rows));i=j-1;continue;}
     }
     if ((line.includes('→')||/-{3,}/u.test(line))&&/[A-Za-zÀ-ÿ]/u.test(line)) {output.push(transform(line,title));continue;}
     // Join only PDF soft-wrapped prose; stop at source headings, arrows, or complete sentences.

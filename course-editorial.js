@@ -1,5 +1,7 @@
 // Display corrections only: retain the imported PDFs and source text verbatim.
 export const editorialCorrections = [
+ ['passé composé 结构 avoir + .....é （er --> é）','passé composé：avoir 的现在时 + 过去分词；规则 -er 动词的过去分词以 -é 结尾。'],
+ ['voir → 看见see regarder -> watch','voir → 看见；regarder 表示有意识地看。'],
  ['Crystal est moi','C’est moi'],['Jasper est toi','C’est toi'],['Julien est lui','C’est lui'],['Lucy est elle','C’est elle'],['Julien et Crystal sont nous','C’est nous'],['Julien et Crystal sont vous','C’est vous'],['Julien et Crystal sont eux','Ce sont eux'],['Crystal et Lucy sont elles','Ce sont elles'],
  ['Ce est un lit','C’est un lit'],
  ['Qui est-tu','Qui es-tu'],
