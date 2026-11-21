@@ -63,11 +63,11 @@ export function writingSubmissions(db,root,permissionsFor){
     const student=url.searchParams.get('student')||'',pending=url.searchParams.get('pending')==='1',offset=Number(url.searchParams.get('offset')||0);
     if(!Number.isSafeInteger(offset)||offset<0)return send(400,{error:'无效页码'});
     const where=" WHERE (?='' OR s.user_id=?) AND (?=0 OR s.reviewed_at IS NULL)";
-    const rows=db.prepare('SELECT s.id,s.user_id,u.email,s.title,s.task,s.submitted_at,s.reviewed_at FROM writing_submissions s JOIN users u ON u.id=s.user_id'+where+' ORDER BY s.submitted_at DESC,s.rowid DESC LIMIT 51 OFFSET ?').all(student,student,pending?1:0,offset);
+    const rows=db.prepare('SELECT s.id,s.user_id,u.email,u.name,s.title,s.task,s.submitted_at,s.reviewed_at FROM writing_submissions s JOIN users u ON u.id=s.user_id'+where+' ORDER BY s.submitted_at DESC,s.rowid DESC LIMIT 51 OFFSET ?').all(student,student,pending?1:0,offset);
     return send(200,{items:rows.slice(0,50),nextOffset:rows.length>50?offset+50:null});
    }
    if(route==='/api/admin/writing/detail'&&req.method==='GET'){
-    const row=db.prepare('SELECT s.*,u.email FROM writing_submissions s JOIN users u ON u.id=s.user_id WHERE s.id=?').get(url.searchParams.get('id'));
+    const row=db.prepare('SELECT s.*,u.email,u.name FROM writing_submissions s JOIN users u ON u.id=s.user_id WHERE s.id=?').get(url.searchParams.get('id'));
     return row?send(200,row):send(404,{error:'作文不存在'});
    }
    if(route==='/api/admin/writing/feedback'&&req.method==='POST'){

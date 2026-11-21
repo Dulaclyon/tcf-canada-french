@@ -8,6 +8,7 @@ import {readFile,mkdir,stat} from 'node:fs/promises';
 import path from 'node:path';
 const root=path.resolve(process.env.STATIC_DIR||'dist'),data=path.resolve(process.env.DATA_DIR||'.student-data');await mkdir(data,{recursive:true});
 const db=new DatabaseSync(path.join(data,'students.sqlite'));db.exec(`PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,email TEXT UNIQUE NOT NULL,password TEXT NOT NULL,role TEXT NOT NULL,must_change INTEGER NOT NULL DEFAULT 1,active INTEGER NOT NULL DEFAULT 1); CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user_id TEXT NOT NULL,expires INTEGER NOT NULL); CREATE TABLE IF NOT EXISTS progress(user_id TEXT NOT NULL,key TEXT NOT NULL,value TEXT NOT NULL,PRIMARY KEY(user_id,key)); CREATE TABLE IF NOT EXISTS attempts(ip TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);`);
+if(!db.prepare('PRAGMA table_info(users)').all().some(c=>c.name==='name'))db.exec("ALTER TABLE users ADD COLUMN name TEXT NOT NULL DEFAULT ''");
 db.exec("CREATE TABLE IF NOT EXISTS permissions(user_id TEXT PRIMARY KEY,value TEXT NOT NULL)");
 const permissionsFor=u=>u.role==='admin'?allSections:JSON.parse(db.prepare('SELECT value FROM permissions WHERE user_id=?').get(u.id)?.value||JSON.stringify(allSections));
 let bankAssetsPromise;
@@ -28,11 +29,12 @@ async function bankAssets(){
 const hash=p=>{const salt=randomBytes(16).toString('hex');return salt+':'+scryptSync(p,salt,64).toString('hex')};
 const verify=(p,h)=>{const [s,v]=h.split(':');return timingSafeEqual(scryptSync(p,s,64),Buffer.from(v,'hex'))};
 const email=v=>typeof v==='string'&&v.length<=254&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+const validName=value=>typeof value==='string'&&value.length<=100&&!/[\u0000-\u001f\u007f]/u.test(value);
 const digest=s=>createHash('sha256').update(s).digest('hex');
 if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
  const e=process.env.ADMIN_EMAIL?.trim().toLowerCase(),p=process.env.ADMIN_PASSWORD;
  if(!email(e)||!p||p.length<12)throw Error('First start requires ADMIN_EMAIL and ADMIN_PASSWORD (12+ characters).');
- db.prepare('INSERT INTO users VALUES(?,?,?,?,0,1)').run(randomBytes(16).toString('hex'),e,hash(p),'admin');
+ db.prepare('INSERT INTO users(id,email,password,role,must_change,active) VALUES(?,?,?,?,0,1)').run(randomBytes(16).toString('hex'),e,hash(p),'admin');
 }
 const handleWriting=writingSubmissions(db,root,permissionsFor);
 const dashboard=learningDashboard(db,root,permissionsFor);
@@ -62,7 +64,7 @@ const server=http.createServer(async(req,res)=>{
  db.prepare('DELETE FROM attempts WHERE ip=?').run(ip);const t=randomBytes(32).toString('hex');db.prepare('DELETE FROM sessions WHERE expires<?').run(now);db.prepare('INSERT INTO sessions VALUES(?,?,?)').run(digest(t),u.id,now+7*86400000);
  return send(200,{ok:true,mustChange:!!u.must_change},{'Set-Cookie':`tcf_session=${t}; HttpOnly; SameSite=Strict; Path=/; Max-Age=604800${process.env.PUBLIC_ORIGIN?.startsWith('https:')?'; Secure':''}`});
  }
- if(route==='/api/me')return send(user?200:401,user?{id:user.id,email:user.email,role:user.role,mustChange:!!user.must_change,permissions:permissionsFor(user)}:{error:'请先登录'});
+ if(route==='/api/me')return send(user?200:401,user?{id:user.id,email:user.email,name:user.name,role:user.role,mustChange:!!user.must_change,permissions:permissionsFor(user)}:{error:'请先登录'});
  if(route.startsWith('/api/')){
  if(!user)return send(401,{error:'请先登录'});
  if(route==='/api/logout'&&req.method==='POST'){db.prepare('DELETE FROM sessions WHERE token=?').run(user.token);return send(200,{ok:true},{'Set-Cookie':'tcf_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0'});}
@@ -75,10 +77,11 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);handleWriting.syncCompleted(user,b.value,stored?JSON.parse(stored.value):{});}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
  if(route.startsWith('/api/admin/')){
  if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
- if(route==='/api/admin/users'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,active,must_change FROM users WHERE role='student' ORDER BY email").all().map(u=>({...u,permissions:permissionsFor({...u,role:'student'})})));
+ if(route==='/api/admin/users'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,active,must_change FROM users WHERE role='student' ORDER BY email").all().map(u=>({...u,permissions:permissionsFor({...u,role:'student'})})));
  const b=await body();
- if(route==='/api/admin/users'&&req.method==='POST'){const e=String(b.email||'').trim().toLowerCase();if(!email(e))return send(400,{error:'请输入有效邮箱'});if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'此邮箱已注册'});if(db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});const p=randomBytes(15).toString('base64url');const id=randomBytes(16).toString('hex');db.prepare('INSERT INTO users VALUES(?,?,?,?,1,1)').run(id,e,hash(p),'student');db.prepare('INSERT INTO permissions VALUES(?,?)').run(id,JSON.stringify(basicOnly));return send(201,{email:e,password:p});}
+ if(route==='/api/admin/users'&&req.method==='POST'){const name=b.name??'';if(!validName(name))return send(400,{error:'姓名须为不超过 100 个字符的单行文字。'});const e=String(b.email||'').trim().toLowerCase();if(!email(e))return send(400,{error:'请输入有效邮箱'});if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'此邮箱已注册'});if(db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});const p=randomBytes(15).toString('base64url');const id=randomBytes(16).toString('hex');db.prepare('INSERT INTO users(id,email,password,role,must_change,active,name) VALUES(?,?,?,?,1,1,?)').run(id,e,hash(p),'student',name.trim().normalize('NFC'));db.prepare('INSERT INTO permissions VALUES(?,?)').run(id,JSON.stringify(basicOnly));return send(201,{email:e,name:name.trim().normalize('NFC'),password:p});}
  const target=db.prepare("SELECT * FROM users WHERE id=? AND role='student'").get(b.id);if(!target)return send(404,{error:'学生不存在'});
+ if(route==='/api/admin/profile'&&req.method==='POST'){if(!validName(b.name))return send(400,{error:'姓名须为不超过 100 个字符的单行文字。'});const name=b.name.trim().normalize('NFC');db.prepare('UPDATE users SET name=? WHERE id=?').run(name,target.id);return send(200,{id:target.id,name,email:target.email});}
  if(route==='/api/admin/permissions'&&req.method==='POST'){if(!validPermissions(b.permissions))return send(400,{error:'无效权限设置'});db.prepare('INSERT INTO permissions VALUES(?,?) ON CONFLICT(user_id) DO UPDATE SET value=excluded.value').run(target.id,JSON.stringify(b.permissions));return send(200,{ok:true,permissions:b.permissions});}
  if(route==='/api/admin/reset'&&req.method==='POST'){const p=randomBytes(15).toString('base64url');db.prepare('UPDATE users SET password=?,must_change=1 WHERE id=?').run(hash(p),target.id);db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{email:target.email,password:p});}
  if(route==='/api/admin/access'&&req.method==='POST'){db.prepare('UPDATE users SET active=? WHERE id=?').run(b.active===true?1:0,target.id);db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{ok:true});}

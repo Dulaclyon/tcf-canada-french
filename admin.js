@@ -18,10 +18,19 @@ function permissionsForm(u){
  }catch(e){status.textContent=e.message;}finally{save.disabled=false;}};
  return form;
 }
+function identityCell(u){
+ const td=document.createElement('td'),email=document.createElement('small');email.textContent=u.email;email.dataset.i18nSkip='';
+ const form=document.createElement('form');form.className='student-name-form';
+ const input=document.createElement('input');input.type='text';input.maxLength=100;input.value=u.name||'';input.setAttribute('aria-label','学生姓名');input.placeholder='学生姓名（可选）';
+ const save=document.createElement('button');save.type='submit';save.textContent='保存姓名';
+ const status=document.createElement('span');status.setAttribute('role','status');
+ form.append(input,save,status);form.onsubmit=async e=>{e.preventDefault();save.disabled=true;try{const result=await api('/api/admin/profile',{id:u.id,name:input.value});u.name=result.name;input.value=result.name;status.textContent='已保存';}catch(e){status.textContent=e.message;}finally{save.disabled=false;}};
+ td.append(form,email);return td;
+}
 async function load(){const rows=await api('/api/admin/users'),container=document.querySelector('#students');container.replaceChildren();for(const u of rows){
- const tr=document.createElement('tr');for(const text of [u.email,u.active?(u.must_change?'待修改密码':'已启用'):'已停用']){const td=document.createElement('td');td.textContent=text;tr.append(td);}
+ const tr=document.createElement('tr');tr.dataset.studentId=u.id;tr.append(identityCell(u));for(const text of [u.active?(u.must_change?'待修改密码':'已启用'):'已停用']){const td=document.createElement('td');td.textContent=text;tr.append(td);}
  const td=document.createElement('td');for(const [label,route,extra] of [['重置密码','reset',{}],[u.active?'停用':'启用','access',{active:!u.active}]]){const b=document.createElement('button');b.textContent=label;b.onclick=async()=>{if(!confirm(t(`确认${label}：${u.email}？`)))return;try{const result=await api('/api/admin/'+route,{id:u.id,...extra});if(result.password)credentials(result);await load();}catch(e){message.textContent=e.message;}};td.append(b);}tr.append(td);container.append(tr);
  const permissionsRow=document.createElement('tr'),permissionsCell=document.createElement('td');permissionsCell.colSpan=3;permissionsCell.append(permissionsForm(u));permissionsRow.className='permissions-row';permissionsRow.append(permissionsCell);container.append(permissionsRow);
 }if(!rows.length){const row=document.createElement('tr'),cell=document.createElement('td');cell.colSpan=3;cell.textContent='尚未添加学生。';row.append(cell);container.append(row);}}
-document.querySelector('#add').onsubmit=async e=>{e.preventDefault();try{credentials(await api('/api/admin/users',{email:document.querySelector('#email').value}));e.target.reset();await load();}catch(e){message.textContent=e.message;}};
+document.querySelector('#add').onsubmit=async e=>{e.preventDefault();try{credentials(await api('/api/admin/users',{email:document.querySelector('#email').value,name:document.querySelector('#name').value}));e.target.reset();await load();}catch(e){message.textContent=e.message;}};
 try{await load();}catch(e){message.textContent=e.message;}

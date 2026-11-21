@@ -8,8 +8,8 @@ export function learningDashboard(db,root,permissionsFor){
   const stored=Object.fromEntries(db.prepare('SELECT key,value FROM progress WHERE user_id=?').all(user.id).map(row=>{try{return [row.key,JSON.parse(row.value)];}catch{return [row.key,null];}}));
   const submitted=db.prepare('SELECT DISTINCT question_id FROM writing_submissions WHERE user_id=?').all(user.id).map(row=>row.question_id);
   const sections=summarizeLearning({...await content(),state:stored['french-learning-v1']||{},bankProgress:stored['tcf-bank-progress-v1']||{},bankCompleted:stored['tcf-bank-completed-v1']||{},submitted,permissions:permissionsFor(user)});
-  return {id:user.id,email:user.email,active:!!user.active,sections};
+  return {id:user.id,email:user.email,name:user.name||'',active:!!user.active,sections};
  }
- async function teacher(){const users=db.prepare("SELECT id,email,role,active FROM users WHERE role='student' ORDER BY email").all();return {students:await Promise.all(users.map(student))};}
+ async function teacher(){const users=db.prepare("SELECT id,email,name,role,active FROM users WHERE role='student' ORDER BY email").all();return {students:await Promise.all(users.map(student))};}
  return {student,teacher};
 }

@@ -1,4 +1,10 @@
 export const messages = {
+"学生姓名（可选）":{"en": "Student name (optional)", "zh-TW": "學生姓名（選填）"},
+"学生姓名":{"en": "Student name", "zh-TW": "學生姓名"},
+"保存姓名":{"en": "Save name", "zh-TW": "儲存姓名"},
+"按姓名或邮箱搜索":{"en": "Search by name or email", "zh-TW": "按姓名或電子郵件搜尋"},
+"姓名须为不超过 100 个字符的单行文字。":{"en": "Enter a name on one line, up to 100 characters.", "zh-TW": "姓名須為不超過 100 個字元的單行文字。"},
+
 "查看各板块的个人学习进度。":{"en": "Your learning progress across all sections.", "zh-TW": "查看各板塊的個人學習進度。"},
 "学生学习进度":{"en": "Student progress", "zh-TW": "學生學習進度"},
 "查看每位学生各板块的学习进度。":{"en": "Progress across all sections for each student.", "zh-TW": "查看每位學生各板塊的學習進度。"},
@@ -1598,9 +1604,9 @@ export const messages = {
     "en": "Hosting and backups",
     "zh-TW": "託管與備份"
   },
-  "本网站供老师登记的学生使用。邮箱用于登录，密码以单向哈希保存；登录需要会话 Cookie。学习进度、草稿和提交记录保存在服务器，并与个人账号关联。": {
-    "en": "This website is for students registered by their teacher. Email addresses are used to log in; passwords are stored as one-way hashes. A session cookie keeps you signed in. Progress, drafts and submissions are stored on the server under your account.",
-    "zh-TW": "本網站供老師登記的學生使用。郵箱用於登入，密碼以單向雜湊儲存；登入需要會話 Cookie。學習進度、草稿和提交記錄儲存在伺服器，並與個人帳號關聯。"
+  "本网站供老师登记的学生使用。姓名用于老师识别学生；邮箱用于登录，密码以单向哈希保存；登录需要会话 Cookie。学习进度、草稿和提交记录保存在服务器，并与个人账号关联。": {
+    "en": "This website is for students registered by their teacher. Names help the teacher identify students. Email addresses are used to log in; passwords are stored as one-way hashes. A session cookie keeps you signed in. Progress, drafts and submissions are stored on the server under your account.",
+    "zh-TW": "本網站供老師登記的學生使用。姓名用於老師識別學生；郵箱用於登入，密碼以單向雜湊儲存；登入需要會話 Cookie。學習進度、草稿和提交記錄儲存在伺服器，並與個人帳號關聯。"
   },
   "点击「提交作文」或「完成并提交」后，老师可以查看作文并填写评语。修改后再次提交会保留不同版本。未完成的草稿不显示在老师的批改列表中。": {
     "en": "Your teacher can read and comment on an essay after you submit it or mark it complete. Revised submissions are kept as separate versions. Unfinished drafts do not appear in the teacher’s review list.",

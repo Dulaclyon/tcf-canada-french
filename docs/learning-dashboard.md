@@ -15,3 +15,5 @@ Restricted sections remain visible as locked cards without exposing content tota
 The dashboard reads existing account records without modifying them. Speaking records created without the older optional checklist are accepted by the existing backup/progress validator.
 
 Validation: `node scripts/check-learning-dashboard.mjs` covers aggregation, duplicate/stale IDs, submitted writing, permissions, student isolation and teacher/student agreement. Browser checks cover sign-in routing, five-section coverage, search, locale switching and mobile sizing.
+
+Student names are optional teacher-managed account labels. Add a name during registration or use Save name in the existing student row. Dashboards show names above emails, support name/email search, and essay-review lists, filters and details use the current account name. Missing or cleared names fall back to email. Names are not login identifiers and are not added to the Codex assessment payload.
