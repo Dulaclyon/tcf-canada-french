@@ -1,31 +1,35 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {buildPracticeCatalogue,pronunciationHomes} from '../lesson-practice.js';
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
 const courses=JSON.parse(fs.readFileSync('src/data/courses.json','utf8'));
-const fallback={3:'grammar-04',10:'grammar-12',16:'grammar-09',21:'grammar-18',22:'grammar-19'};
-const ids=new Set(courses.flatMap(c=>c.exercises.map(e=>e.id)));
-let added=0;
-for(const m of materials){
- const related=courses.filter(c=>c.courseware?.some(b=>b.file===m.file)||c.article?.sourceFile===m.file||c.id===fallback[m.lesson]);
- const exercises=[...related.flatMap(c=>c.exercises),...(m.exercises||[])];
- assert(exercises.length>=22,`${m.id}: at least 22 exercises`);
- const prompts=new Set();
- for(const q of exercises){assert(!prompts.has(q.prompt),`${m.id}: repeated prompt`);prompts.add(q.prompt);}
- for(const q of m.exercises||[]){
-  assert(!ids.has(q.id),`${q.id}: duplicate ID`);ids.add(q.id);
-  assert(q.answers.length&&q.explanation&&q.prompt,`${q.id}: complete question`);
-  if(q.id.includes('-practice-expanded-')){
-   added++;
-   assert(q.options.length===3&&new Set(q.options).size===3,`${q.id}: three distinct choices`);
-   assert(q.answers.length===1&&q.options.filter(o=>q.answers.includes(o)).length===1,`${q.id}: one answer`);
-   assert(!/：Je ___/.test(q.prompt)||! /^[aeiouéèêâîôûh]/.test(q.answers[0]),`${q.id}: elision`);
-  }
- }
+const units=materials.filter(m=>!m.id.startsWith('grammar-sounds-'));
+const pool=buildPracticeCatalogue(courses,materials),ids=new Set(),prompts=new Map();
+const normalize=prompt=>prompt.normalize('NFKC').replace(/[’‘]/gu,"'").replace(/\s+/gu,' ').trim().toLowerCase();
+for(const course of courses)assert(units.some(m=>m.id===course.practiceUnit),`${course.id}: explicit visible practice home`);
+for(const q of pool){
+ assert(!ids.has(q.id),`${q.id}: duplicate ID`);ids.add(q.id);
+ assert(units.some(m=>m.id===q.course.id),`${q.id}: visible lesson home`);
+ const prompt=normalize(q.prompt);assert(!prompts.has(prompt),`${q.id}: repeated prompt from ${prompts.get(prompt)}`);prompts.set(prompt,q.id);
+ assert(q.answers?.length&&q.explanation&&q.pitfall&&q.prompt,`${q.id}: complete question`);
+ if(q.options){assert.equal(new Set(q.options).size,q.options.length,`${q.id}: distinct choices`);assert(q.answers.some(a=>q.options.includes(a)),`${q.id}: answer in choices`);}
+ if(q.id.includes('-practice-context-'))assert.equal(q.options.filter(o=>q.answers.includes(o)).length,1,`${q.id}: one correct choice`);
 }
-assert.equal(added,323);
-console.log(`${materials.length} lessons have at least 22 exercises; ${added} new questions have unique IDs, prompts and valid answer choices.`);
-
+for(const unit of units){
+ const exercises=pool.filter(q=>q.course.id===unit.id);
+ assert(exercises.length>=22,`${unit.id}: at least 22 distinct exercises, got ${exercises.length}`);
+ // Match the actual related-course selector used by the UI, including shared source files.
+ const fallback={3:'grammar-04',10:'grammar-12',16:'grammar-09',21:'grammar-18',22:'grammar-19'};
+ const related=courses.filter(c=>c.courseware?.some(b=>b.file===unit.file)||c.article?.sourceFile===unit.file||c.id===fallback[unit.lesson]);
+ const selected=new Set([...related,unit,...materials.filter(m=>pronunciationHomes[m.id]===unit.id)].map(c=>c.id));
+ assert.deepEqual(pool.filter(q=>selected.has(q.course.id)).map(q=>q.id),exercises.map(q=>q.id),`${unit.id}: no shared-source leakage`);
+}
+const allOriginal=[...courses,...materials].flatMap(c=>c.exercises||[]);
+assert.equal(pool.length,allOriginal.length,'Every question remains available exactly once');
+const six=pool.filter(q=>q.course.id===units[5].id),seven=pool.filter(q=>q.course.id===units[6].id);
+assert(!six.some(a=>seven.some(b=>a.id===b.id||normalize(a.prompt)===normalize(b.prompt))),'Visible Units 6 and 7 share no questions');
 const ui=fs.readFileSync('app.js','utf8');
-assert(ui.includes('link(lessonRoute(e.course.id)'));
-assert(ui.includes('link(lessonRoute(ex.course.id)'));
-assert(ui.includes("materials.some(m=>m.id===id)?'material/':'course/'"));
+assert(ui.includes('return buildPracticeCatalogue(courses,materials)'));
+assert(ui.includes("if(c.practiceUnit)return material(c.practiceUnit)"),'Legacy course links lead to the question home');
+assert(ui.includes('${foundationUnits().map(c=>`<option value='),'Practice filters use visible units');
+console.log(`${units.length} units audited; ${pool.length} questions each have one home, zero repeated prompts, no shared-source leakage, at least 22 questions per unit; IDs preserved.`);

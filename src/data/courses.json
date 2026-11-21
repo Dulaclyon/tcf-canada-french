@@ -244,7 +244,8 @@
         "node": "Être 变位的应用"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-02"
   },
   {
     "id": "grammar-02",
@@ -504,7 +505,8 @@
         "node": "物主"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-02"
   },
   {
     "id": "grammar-03",
@@ -752,7 +754,8 @@
         "node": "第一类规则动词变位"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-06"
   },
   {
     "id": "grammar-04",
@@ -1008,7 +1011,8 @@
         "node": "Préposition"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-03"
   },
   {
     "id": "grammar-05",
@@ -1269,7 +1273,8 @@
     ],
     "coursewareNotes": [
       "原文“Il veux boire de l’eau”中的 veux 应为 veut。"
-    ]
+    ],
+    "practiceUnit": "lesson-07"
   },
   {
     "id": "grammar-06",
@@ -1533,7 +1538,8 @@
     ],
     "coursewareNotes": [
       "原文“Ce est un lit”应写作“C’est un lit”。"
-    ]
+    ],
+    "practiceUnit": "lesson-02"
   },
   {
     "id": "grammar-07",
@@ -1781,7 +1787,8 @@
         "node": "常用形容词"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-13"
   },
   {
     "id": "grammar-08",
@@ -2030,7 +2037,8 @@
         "node": "比较级\nsuperiority:"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-14"
   },
   {
     "id": "grammar-09",
@@ -2285,7 +2293,8 @@
         "node": "Quel jour"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-05"
   },
   {
     "id": "grammar-10",
@@ -2541,7 +2550,8 @@
         "node": "Pouvoir 能，能够"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-04"
   },
   {
     "id": "grammar-11",
@@ -2790,7 +2800,8 @@
         "node": "Se + Verbe (代动词)"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-08"
   },
   {
     "id": "grammar-12",
@@ -3047,7 +3058,8 @@
         "node": "passé composé 应用"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-09"
   },
   {
     "id": "grammar-13",
@@ -3299,7 +3311,8 @@
     ],
     "coursewareNotes": [
       "过去分词不总是与主语配合：je me suis lavé les mains 中，直接宾语 les mains 在动词后，lavé 不随女性主语加 e。"
-    ]
+    ],
+    "practiceUnit": "lesson-12"
   },
   {
     "id": "grammar-14",
@@ -3558,7 +3571,8 @@
     ],
     "coursewareNotes": [
       "原文 elles 的词尾“aitent”应为“aient”。"
-    ]
+    ],
+    "practiceUnit": "lesson-15"
   },
   {
     "id": "grammar-15",
@@ -3811,7 +3825,8 @@
     ],
     "coursewareNotes": [
       "原文“Nous avions déjà nettoyé la class avant qu’ils sont montés dans la class.”可改为“Nous avions déjà nettoyé la classe avant qu’ils ne montent dans la classe.”；avant que 后用虚拟式，ne 可省略。"
-    ]
+    ],
+    "practiceUnit": "lesson-17"
   },
   {
     "id": "grammar-16",
@@ -4060,7 +4075,8 @@
         "node": "代词\n直接宾语代词"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-18"
   },
   {
     "id": "grammar-17",
@@ -4312,7 +4328,8 @@
         "node": "代词\n代词 \"En\""
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-19"
   },
   {
     "id": "grammar-18",
@@ -4563,7 +4580,8 @@
         "node": "qui 作主语"
       }
     ],
-    "coursewareNotes": []
+    "coursewareNotes": [],
+    "practiceUnit": "lesson-20"
   },
   {
     "id": "grammar-19",
@@ -4817,7 +4835,8 @@
     "coursewareNotes": [
       "“Je ne sais pas si tu viendrais demain”在此处应为“Je ne sais pas si tu viendras demain”。",
       "si + imparfait 表示假设，不一定完全无法实现。"
-    ]
+    ],
+    "practiceUnit": "lesson-23"
   },
   {
     "id": "grammar-20",
@@ -5075,6 +5094,7 @@
     ],
     "coursewareNotes": [
       "原文“Je souhaite que tu vienne”应为“Je souhaite que tu viennes”。"
-    ]
+    ],
+    "practiceUnit": "lesson-24"
   }
 ]

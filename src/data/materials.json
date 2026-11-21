@@ -1543,6 +1543,176 @@
         "explanation": "venir de + 不定式表示刚刚做完。",
         "pitfall": "注意本课新增规则的适用条件。",
         "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-01",
+        "prompt": "Nous ___ vous accompagner. (pouvoir)",
+        "answers": [
+          "pouvons"
+        ],
+        "options": [
+          "pouvez",
+          "peuvent",
+          "pouvons"
+        ],
+        "explanation": "pouvoir 的 nous 形式是 pouvons。",
+        "pitfall": "pouvoir 的 nous 形式是 pouvons。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-02",
+        "prompt": "Vous ___ réserver une table. (vouloir)",
+        "answers": [
+          "voulez"
+        ],
+        "options": [
+          "veulent",
+          "voulez",
+          "voulons"
+        ],
+        "explanation": "vouloir 的 vous 形式是 voulez。",
+        "pitfall": "vouloir 的 vous 形式是 voulez。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-03",
+        "prompt": "Je ___ rester à la bibliothèque. (vouloir)",
+        "answers": [
+          "veux"
+        ],
+        "options": [
+          "veux",
+          "veut",
+          "voulons"
+        ],
+        "explanation": "vouloir 的 je 形式是 veux。",
+        "pitfall": "vouloir 的 je 形式是 veux。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-04",
+        "prompt": "Elles ___ entrer maintenant. (pouvoir)",
+        "answers": [
+          "peuvent"
+        ],
+        "options": [
+          "pouvons",
+          "pouvez",
+          "peuvent"
+        ],
+        "explanation": "pouvoir 的 elles 形式是 peuvent。",
+        "pitfall": "pouvoir 的 elles 形式是 peuvent。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-05",
+        "prompt": "Tu peux ___ ce document.",
+        "answers": [
+          "lire"
+        ],
+        "options": [
+          "lit",
+          "lire",
+          "lis"
+        ],
+        "explanation": "pouvoir 后的动词用不定式。",
+        "pitfall": "pouvoir 后的动词用不定式。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-06",
+        "prompt": "Elle veut ___ le français avec nous.",
+        "answers": [
+          "apprendre"
+        ],
+        "options": [
+          "apprendre",
+          "apprend",
+          "apprenons"
+        ],
+        "explanation": "vouloir 后的动词用不定式。",
+        "pitfall": "vouloir 后的动词用不定式。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-07",
+        "prompt": "Nous ne ___ pas ouvrir cette porte. (pouvoir)",
+        "answers": [
+          "pouvons"
+        ],
+        "options": [
+          "peuvent",
+          "pouvez",
+          "pouvons"
+        ],
+        "explanation": "否定结构 ne…pas 放在变位动词两侧。",
+        "pitfall": "否定结构 ne…pas 放在变位动词两侧。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-08",
+        "prompt": "Ils veulent ___ au parc cet après-midi.",
+        "answers": [
+          "aller"
+        ],
+        "options": [
+          "allez",
+          "aller",
+          "vont"
+        ],
+        "explanation": "两个动词连用时，只变位第一个。",
+        "pitfall": "两个动词连用时，只变位第一个。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-09",
+        "prompt": "___-vous répéter cette phrase ? (pouvoir, présent)",
+        "answers": [
+          "Pouvez"
+        ],
+        "options": [
+          "Pouvez",
+          "Pouvons",
+          "Peuvent"
+        ],
+        "explanation": "疑问句中 vous 对应 pouvez。",
+        "pitfall": "疑问句中 vous 对应 pouvez。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-04-practice-context-10",
+        "prompt": "Tu ___ prendre le bus ou marcher. (pouvoir)",
+        "answers": [
+          "peux"
+        ],
+        "options": [
+          "peut",
+          "pouvez",
+          "peux"
+        ],
+        "explanation": "pouvoir 的 tu 形式是 peux。",
+        "pitfall": "pouvoir 的 tu 形式是 peux。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
       }
     ]
   },
@@ -2447,6 +2617,176 @@
         "level": "A2",
         "pitfall": "普通否定中部分冠词 du 变为 de。",
         "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-01",
+        "prompt": "Au petit déjeuner, nous mangeons ___ confiture.",
+        "answers": [
+          "de la"
+        ],
+        "options": [
+          "du",
+          "des",
+          "de la"
+        ],
+        "explanation": "confiture 是阴性单数名词，部分冠词用 de la。",
+        "pitfall": "confiture 是阴性单数名词，部分冠词用 de la。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-02",
+        "prompt": "Pour cette recette, il faut ___ huile.",
+        "answers": [
+          "de l’"
+        ],
+        "options": [
+          "de la",
+          "de l’",
+          "du"
+        ],
+        "explanation": "huile 以哑音 h 开头，部分冠词省音为 de l’。",
+        "pitfall": "huile 以哑音 h 开头，部分冠词省音为 de l’。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-03",
+        "prompt": "Je ne mets pas ___ sucre dans mon thé.",
+        "answers": [
+          "de"
+        ],
+        "options": [
+          "de",
+          "du",
+          "des"
+        ],
+        "explanation": "一般否定中，部分冠词变为 de。",
+        "pitfall": "一般否定中，部分冠词变为 de。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-04",
+        "prompt": "Ce n’est pas ___ beurre, c’est de la margarine.",
+        "answers": [
+          "du"
+        ],
+        "options": [
+          "de",
+          "des",
+          "du"
+        ],
+        "explanation": "être 的否定后，部分冠词通常保留。",
+        "pitfall": "être 的否定后，部分冠词通常保留。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-05",
+        "prompt": "___ soleil se lève à l’est.",
+        "answers": [
+          "Le"
+        ],
+        "options": [
+          "Les",
+          "Le",
+          "La"
+        ],
+        "explanation": "soleil 是阳性单数名词，此处用定冠词 le。",
+        "pitfall": "soleil 是阳性单数名词，此处用定冠词 le。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-06",
+        "prompt": "C’est ___ histoire très intéressante.",
+        "answers": [
+          "une"
+        ],
+        "options": [
+          "une",
+          "un",
+          "des"
+        ],
+        "explanation": "histoire 是阴性单数名词，不定冠词用 une。",
+        "pitfall": "histoire 是阴性单数名词，不定冠词用 une。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-07",
+        "prompt": "Voici ___ clés de mon appartement.",
+        "answers": [
+          "les"
+        ],
+        "options": [
+          "le",
+          "la",
+          "les"
+        ],
+        "explanation": "这些特定的钥匙是复数，用定冠词 les。",
+        "pitfall": "这些特定的钥匙是复数，用定冠词 les。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-08",
+        "prompt": "J’adore ___ musique classique.",
+        "answers": [
+          "la"
+        ],
+        "options": [
+          "un",
+          "la",
+          "de la"
+        ],
+        "explanation": "表示一般喜好时，用定冠词。",
+        "pitfall": "表示一般喜好时，用定冠词。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-09",
+        "prompt": "Nous achetons ___ légumes pour la soupe.",
+        "answers": [
+          "des"
+        ],
+        "options": [
+          "des",
+          "du",
+          "de la"
+        ],
+        "explanation": "légumes 是复数，此处表示不特定的蔬菜。",
+        "pitfall": "légumes 是复数，此处表示不特定的蔬菜。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-07-practice-context-10",
+        "prompt": "Elle ne commande pas ___ dessert.",
+        "answers": [
+          "de"
+        ],
+        "options": [
+          "du",
+          "des",
+          "de"
+        ],
+        "explanation": "一般否定中，不定冠词变为 de。",
+        "pitfall": "一般否定中，不定冠词变为 de。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
       }
     ]
   },
@@ -2771,6 +3111,159 @@
         ],
         "explanation": "vous 对应命令式 prenez，省略主语。",
         "pitfall": "注意本课新增规则的适用条件。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-01",
+        "prompt": "Il reste beaucoup ___ places dans la salle.",
+        "answers": [
+          "de"
+        ],
+        "options": [
+          "des",
+          "du",
+          "de"
+        ],
+        "explanation": "beaucoup 后接 de，再接名词。",
+        "pitfall": "beaucoup 后接 de，再接名词。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-02",
+        "prompt": "Ajoute un peu ___ poivre à la sauce.",
+        "answers": [
+          "de"
+        ],
+        "options": [
+          "des",
+          "de",
+          "du"
+        ],
+        "explanation": "un peu 后接 de。",
+        "pitfall": "un peu 后接 de。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-03",
+        "prompt": "Nous achetons deux bouteilles ___ jus.",
+        "answers": [
+          "de"
+        ],
+        "options": [
+          "de",
+          "du",
+          "des"
+        ],
+        "explanation": "容器或计量表达后用 de。",
+        "pitfall": "容器或计量表达后用 de。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-04",
+        "prompt": "Il ne reste ___ dans le réfrigérateur. (nothing)",
+        "answers": [
+          "rien"
+        ],
+        "options": [
+          "personne",
+          "jamais",
+          "rien"
+        ],
+        "explanation": "ne…rien 表示“什么也没有”。",
+        "pitfall": "ne…rien 表示“什么也没有”。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-05",
+        "prompt": "Je ne prends ___ le train : je voyage toujours en bus. (never)",
+        "answers": [
+          "jamais"
+        ],
+        "options": [
+          "personne",
+          "jamais",
+          "rien"
+        ],
+        "explanation": "ne…jamais 表示“从不”。",
+        "pitfall": "ne…jamais 表示“从不”。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-06",
+        "prompt": "Les enfants ___ couchent à vingt heures.",
+        "answers": [
+          "se"
+        ],
+        "options": [
+          "se",
+          "nous",
+          "vous"
+        ],
+        "explanation": "ils 的代动词反身代词是 se。",
+        "pitfall": "ils 的代动词反身代词是 se。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-07",
+        "prompt": "Nous ___ levons tôt le lundi.",
+        "answers": [
+          "nous"
+        ],
+        "options": [
+          "se",
+          "vous",
+          "nous"
+        ],
+        "explanation": "nous 对应的反身代词也是 nous。",
+        "pitfall": "nous 对应的反身代词也是 nous。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-08",
+        "prompt": "Tu ___ habilles avant le petit déjeuner.",
+        "answers": [
+          "t’"
+        ],
+        "options": [
+          "m’",
+          "t’",
+          "se"
+        ],
+        "explanation": "te 在元音或哑音 h 前省音为 t’。",
+        "pitfall": "te 在元音或哑音 h 前省音为 t’。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-08-practice-context-09",
+        "prompt": "Elle ne veut ___ acheter : elle a déjà tout. (nothing)",
+        "answers": [
+          "rien"
+        ],
+        "options": [
+          "rien",
+          "pas rien",
+          "personne"
+        ],
+        "explanation": "vouloir + 不定式中，rien 放在变位动词后，不加 pas。",
+        "pitfall": "vouloir + 不定式中，rien 放在变位动词后，不加 pas。",
+        "type": "choice",
+        "level": "A2",
         "accentSensitive": true
       }
     ]
@@ -3379,6 +3872,176 @@
         "id": "lesson-10-practice-expanded-12",
         "level": "A2",
         "pitfall": "savoir 的过去分词为 su。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-01",
+        "prompt": "Hier soir, nous avons ___ un documentaire. (regarder)",
+        "answers": [
+          "regardé"
+        ],
+        "options": [
+          "regarder",
+          "regardons",
+          "regardé"
+        ],
+        "explanation": "规则 -er 动词的过去分词以 -é 结尾。",
+        "pitfall": "规则 -er 动词的过去分词以 -é 结尾。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-02",
+        "prompt": "Elle a ___ une lettre à sa sœur. (écrire)",
+        "answers": [
+          "écrit"
+        ],
+        "options": [
+          "écrire",
+          "écrit",
+          "écrite"
+        ],
+        "explanation": "écrire 的过去分词是 écrit；此处不配合主语。",
+        "pitfall": "écrire 的过去分词是 écrit；此处不配合主语。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-03",
+        "prompt": "Nous avons ___ le dernier bus. (prendre)",
+        "answers": [
+          "pris"
+        ],
+        "options": [
+          "pris",
+          "prendu",
+          "prendre"
+        ],
+        "explanation": "prendre 的过去分词是 pris。",
+        "pitfall": "prendre 的过去分词是 pris。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-04",
+        "prompt": "Tu as ___ la fenêtre. (ouvrir)",
+        "answers": [
+          "ouvert"
+        ],
+        "options": [
+          "ouvri",
+          "ouvrir",
+          "ouvert"
+        ],
+        "explanation": "ouvrir 的过去分词是 ouvert。",
+        "pitfall": "ouvrir 的过去分词是 ouvert。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-05",
+        "prompt": "Les enfants ont ___ toute la limonade. (boire)",
+        "answers": [
+          "bu"
+        ],
+        "options": [
+          "boire",
+          "bu",
+          "boivent"
+        ],
+        "explanation": "boire 的过去分词是 bu。",
+        "pitfall": "boire 的过去分词是 bu。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-06",
+        "prompt": "Paul a ___ ses clés sur la table. (mettre)",
+        "answers": [
+          "mis"
+        ],
+        "options": [
+          "mis",
+          "metté",
+          "mettre"
+        ],
+        "explanation": "mettre 的过去分词是 mis。",
+        "pitfall": "mettre 的过去分词是 mis。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-07",
+        "prompt": "J’ai ___ un cadeau de ma tante. (recevoir)",
+        "answers": [
+          "reçu"
+        ],
+        "options": [
+          "recevu",
+          "recevoir",
+          "reçu"
+        ],
+        "explanation": "recevoir 的过去分词是 reçu。",
+        "pitfall": "recevoir 的过去分词是 reçu。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-08",
+        "prompt": "Vous avez ___ terminer avant midi. (pouvoir)",
+        "answers": [
+          "pu"
+        ],
+        "options": [
+          "pouvoir",
+          "pu",
+          "pouvez"
+        ],
+        "explanation": "pouvoir 的过去分词是 pu。",
+        "pitfall": "pouvoir 的过去分词是 pu。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-09",
+        "prompt": "Ils ont ___ attendre vingt minutes. (devoir)",
+        "answers": [
+          "dû"
+        ],
+        "options": [
+          "dû",
+          "du",
+          "devoir"
+        ],
+        "explanation": "devoir 的过去分词是 dû，注意重音。",
+        "pitfall": "devoir 的过去分词是 dû，注意重音。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-10-practice-context-10",
+        "prompt": "J’ai ___ la réponse pendant le cours. (savoir)",
+        "answers": [
+          "su"
+        ],
+        "options": [
+          "savu",
+          "savoir",
+          "su"
+        ],
+        "explanation": "savoir 的过去分词是 su。",
+        "pitfall": "savoir 的过去分词是 su。",
+        "type": "choice",
+        "level": "A2",
         "accentSensitive": true
       }
     ]
@@ -5580,6 +6243,176 @@
         "id": "lesson-16-practice-expanded-11",
         "level": "A2",
         "pitfall": "assez de 后接名词。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-01",
+        "prompt": "Écrivez en lettres : la 3e place.",
+        "answers": [
+          "la troisième place"
+        ],
+        "options": [
+          "la trois place",
+          "la treizième place",
+          "la troisième place"
+        ],
+        "explanation": "3e 对应 troisième。",
+        "pitfall": "3e 对应 troisième。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-02",
+        "prompt": "Écrivez en lettres : le 5e étage.",
+        "answers": [
+          "le cinquième étage"
+        ],
+        "options": [
+          "le cinquante étage",
+          "le cinquième étage",
+          "le cinqième étage"
+        ],
+        "explanation": "cinq 的序数词是 cinquième。",
+        "pitfall": "cinq 的序数词是 cinquième。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-03",
+        "prompt": "Écrivez en lettres : la 1re fois.",
+        "answers": [
+          "la première fois"
+        ],
+        "options": [
+          "la première fois",
+          "la premier fois",
+          "la unième fois"
+        ],
+        "explanation": "阴性名词 fois 前用 première。",
+        "pitfall": "阴性名词 fois 前用 première。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-04",
+        "prompt": "Écrivez en lettres : le 9e jour.",
+        "answers": [
+          "le neuvième jour"
+        ],
+        "options": [
+          "le neufième jour",
+          "le neuve jour",
+          "le neuvième jour"
+        ],
+        "explanation": "neuf 的序数词是 neuvième。",
+        "pitfall": "neuf 的序数词是 neuvième。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-05",
+        "prompt": "Une pizza divisée en quatre : une part représente ___.",
+        "answers": [
+          "un quart"
+        ],
+        "options": [
+          "la moitié",
+          "un quart",
+          "un tiers"
+        ],
+        "explanation": "四等份中的一份是 un quart。",
+        "pitfall": "四等份中的一份是 un quart。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-06",
+        "prompt": "Écrivez en lettres : 2/3.",
+        "answers": [
+          "deux tiers"
+        ],
+        "options": [
+          "deux tiers",
+          "deux troisième",
+          "deux quarts"
+        ],
+        "explanation": "2/3 读作 deux tiers。",
+        "pitfall": "2/3 读作 deux tiers。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-07",
+        "prompt": "Écrivez en lettres : 25 %.",
+        "answers": [
+          "vingt-cinq pour cent"
+        ],
+        "options": [
+          "vingt-cinq par cent",
+          "vingt-cinq virgule cent",
+          "vingt-cinq pour cent"
+        ],
+        "explanation": "百分比用 pour cent 表达。",
+        "pitfall": "百分比用 pour cent 表达。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-08",
+        "prompt": "Écrivez en lettres : 3,7.",
+        "answers": [
+          "trois virgule sept"
+        ],
+        "options": [
+          "trente-sept",
+          "trois virgule sept",
+          "trois point sept"
+        ],
+        "explanation": "法语小数用 virgule 连接整数和小数部分。",
+        "pitfall": "法语小数用 virgule 连接整数和小数部分。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-09",
+        "prompt": "Une moitié plus un quart font ___.",
+        "answers": [
+          "trois quarts"
+        ],
+        "options": [
+          "trois quarts",
+          "un tiers",
+          "deux tiers"
+        ],
+        "explanation": "二分之一加四分之一等于四分之三。",
+        "pitfall": "二分之一加四分之一等于四分之三。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-16-practice-context-10",
+        "prompt": "Pour écrire une adresse électronique, @ se lit ___.",
+        "answers": [
+          "arobase"
+        ],
+        "options": [
+          "virgule",
+          "point",
+          "arobase"
+        ],
+        "explanation": "电子邮箱中的 @ 读作 arobase。",
+        "pitfall": "电子邮箱中的 @ 读作 arobase。",
+        "type": "choice",
+        "level": "A2",
         "accentSensitive": true
       }
     ]
@@ -8365,6 +9198,176 @@
         "level": "A2",
         "pitfall": "à + lesquels 缩合为 auxquels。",
         "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-01",
+        "prompt": "Je sais ce ___ vous cherchez.",
+        "answers": [
+          "que"
+        ],
+        "options": [
+          "qui",
+          "dont",
+          "que"
+        ],
+        "explanation": "ce que 在从句中作直接宾语。",
+        "pitfall": "ce que 在从句中作直接宾语。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-02",
+        "prompt": "Ce ___ compte, c’est votre santé.",
+        "answers": [
+          "qui"
+        ],
+        "options": [
+          "dont",
+          "qui",
+          "que"
+        ],
+        "explanation": "ce qui 在从句中作主语。",
+        "pitfall": "ce qui 在从句中作主语。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-03",
+        "prompt": "Voici ce ___ nous avons envie.",
+        "answers": [
+          "dont"
+        ],
+        "options": [
+          "dont",
+          "que",
+          "qui"
+        ],
+        "explanation": "avoir envie de 引出 ce dont。",
+        "pitfall": "avoir envie de 引出 ce dont。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-04",
+        "prompt": "La collègue avec ___ je déjeune est belge.",
+        "answers": [
+          "laquelle"
+        ],
+        "options": [
+          "lequel",
+          "lesquelles",
+          "laquelle"
+        ],
+        "explanation": "avec 后的关系代词与阴性单数 collègue 配合。",
+        "pitfall": "avec 后的关系代词与阴性单数 collègue 配合。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-05",
+        "prompt": "Les dossiers sur ___ je travaille sont urgents.",
+        "answers": [
+          "lesquels"
+        ],
+        "options": [
+          "lesquelles",
+          "lesquels",
+          "lequel"
+        ],
+        "explanation": "dossiers 是阳性复数，介词后用 lesquels。",
+        "pitfall": "dossiers 是阳性复数，介词后用 lesquels。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-06",
+        "prompt": "La réunion à ___ elle assiste commence à neuf heures.",
+        "answers": [
+          "laquelle"
+        ],
+        "options": [
+          "laquelle",
+          "lequel",
+          "auxquelles"
+        ],
+        "explanation": "assister à 后用 à laquelle，对应阴性单数 réunion。",
+        "pitfall": "assister à 后用 à laquelle，对应阴性单数 réunion。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-07",
+        "prompt": "Les activités ___ nous participons sont gratuites.",
+        "answers": [
+          "auxquelles"
+        ],
+        "options": [
+          "auquel",
+          "auxquels",
+          "auxquelles"
+        ],
+        "explanation": "à + lesquelles 缩合为 auxquelles。",
+        "pitfall": "à + lesquelles 缩合为 auxquelles。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-08",
+        "prompt": "Le problème ___ vous pensez est sérieux.",
+        "answers": [
+          "auquel"
+        ],
+        "options": [
+          "duquel",
+          "auquel",
+          "à lequel"
+        ],
+        "explanation": "à + lequel 缩合为 auquel。",
+        "pitfall": "à + lequel 缩合为 auquel。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-09",
+        "prompt": "La maison près de ___ il habite est ancienne.",
+        "answers": [
+          "laquelle"
+        ],
+        "options": [
+          "laquelle",
+          "lequel",
+          "lesquels"
+        ],
+        "explanation": "près de 后保留 de laquelle，指阴性单数 maison。",
+        "pitfall": "près de 后保留 de laquelle，指阴性单数 maison。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-21-practice-context-10",
+        "prompt": "Les arbres à côté ___ nous attendons sont très hauts.",
+        "answers": [
+          "desquels"
+        ],
+        "options": [
+          "duquel",
+          "lesquels",
+          "desquels"
+        ],
+        "explanation": "de + lesquels 缩合为 desquels。",
+        "pitfall": "de + lesquels 缩合为 desquels。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
       }
     ]
   },
@@ -9339,6 +10342,176 @@
         "id": "lesson-22-practice-expanded-12",
         "level": "A2",
         "pitfall": "être 的过去将来（现在条件式）中，elles 对应 seraient。",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-01",
+        "prompt": "Il a annoncé qu’il ___ le lendemain. (venir, futur dans le passé)",
+        "answers": [
+          "viendrait"
+        ],
+        "options": [
+          "viendra",
+          "vient",
+          "viendrait"
+        ],
+        "explanation": "过去视角中的将来，用现在条件式。",
+        "pitfall": "过去视角中的将来，用现在条件式。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-02",
+        "prompt": "Nous pensions que vous ___ à Lyon. (habiter, futur dans le passé)",
+        "answers": [
+          "habiteriez"
+        ],
+        "options": [
+          "habitez",
+          "habiteriez",
+          "habiterez"
+        ],
+        "explanation": "vous 的现在条件式词尾是 -iez。",
+        "pitfall": "vous 的现在条件式词尾是 -iez。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-03",
+        "prompt": "Elle a promis qu’elle nous ___ le soir même. (appeler, futur dans le passé)",
+        "answers": [
+          "appellerait"
+        ],
+        "options": [
+          "appellerait",
+          "appellera",
+          "appelle"
+        ],
+        "explanation": "appeler 的条件式词干是 appeller-。",
+        "pitfall": "appeler 的条件式词干是 appeller-。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-04",
+        "prompt": "Je croyais que nous ___ avant huit heures. (arriver, futur dans le passé)",
+        "answers": [
+          "arriverions"
+        ],
+        "options": [
+          "arriverons",
+          "arrivons",
+          "arriverions"
+        ],
+        "explanation": "nous 的现在条件式词尾是 -ions。",
+        "pitfall": "nous 的现在条件式词尾是 -ions。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-05",
+        "prompt": "Il disait que ses amis ___ le repas. (préparer, futur dans le passé)",
+        "answers": [
+          "prépareraient"
+        ],
+        "options": [
+          "préparent",
+          "prépareraient",
+          "prépareront"
+        ],
+        "explanation": "ils 的现在条件式词尾是 -aient。",
+        "pitfall": "ils 的现在条件式词尾是 -aient。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-06",
+        "prompt": "___-vous m’indiquer la sortie, s’il vous plaît ? (pouvoir, conditionnel)",
+        "answers": [
+          "Pourriez"
+        ],
+        "options": [
+          "Pourriez",
+          "Pouvez",
+          "Pouviez"
+        ],
+        "explanation": "pourriez-vous 可用于礼貌请求。",
+        "pitfall": "pourriez-vous 可用于礼貌请求。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-07",
+        "prompt": "Je ___ réserver une chambre pour samedi. (souhaiter, conditionnel)",
+        "answers": [
+          "souhaiterais"
+        ],
+        "options": [
+          "souhaiterai",
+          "souhaite",
+          "souhaiterais"
+        ],
+        "explanation": "souhaiterais 用条件式表达礼貌愿望。",
+        "pitfall": "souhaiterais 用条件式表达礼貌愿望。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-08",
+        "prompt": "Nous ___ deux billets, s’il vous plaît. (vouloir, conditionnel)",
+        "answers": [
+          "voudrions"
+        ],
+        "options": [
+          "voulons",
+          "voudrions",
+          "voudrons"
+        ],
+        "explanation": "vouloir 的条件式词干是 voudr-。",
+        "pitfall": "vouloir 的条件式词干是 voudr-。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-09",
+        "prompt": "Le guide avait expliqué que la visite ___ une heure. (durer, futur dans le passé)",
+        "answers": [
+          "durerait"
+        ],
+        "options": [
+          "durerait",
+          "durera",
+          "dure"
+        ],
+        "explanation": "过去的解释中，尚未发生的事用条件式。",
+        "pitfall": "过去的解释中，尚未发生的事用条件式。",
+        "type": "choice",
+        "level": "A2",
+        "accentSensitive": true
+      },
+      {
+        "id": "lesson-22-practice-context-10",
+        "prompt": "Tu pensais que je ___ libre dimanche. (être, futur dans le passé)",
+        "answers": [
+          "serais"
+        ],
+        "options": [
+          "serai",
+          "suis",
+          "serais"
+        ],
+        "explanation": "être 的条件式词干是 ser-。",
+        "pitfall": "être 的条件式词干是 ser-。",
+        "type": "choice",
+        "level": "A2",
         "accentSensitive": true
       }
     ]

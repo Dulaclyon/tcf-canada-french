@@ -20485,5 +20485,345 @@
     "source": "行李箱",
     "en": "suitcase",
     "zh-TW": "行李箱"
+  },
+  {
+    "source": "pouvoir 的 nous 形式是 pouvons。",
+    "en": "The nous form of pouvoir is pouvons.",
+    "zh-TW": "pouvoir 的 nous 形式是 pouvons。"
+  },
+  {
+    "source": "vouloir 的 vous 形式是 voulez。",
+    "en": "The vous form of vouloir is voulez.",
+    "zh-TW": "vouloir 的 vous 形式是 voulez。"
+  },
+  {
+    "source": "vouloir 的 je 形式是 veux。",
+    "en": "The je form of vouloir is veux.",
+    "zh-TW": "vouloir 的 je 形式是 veux。"
+  },
+  {
+    "source": "pouvoir 的 elles 形式是 peuvent。",
+    "en": "The elles form of pouvoir is peuvent.",
+    "zh-TW": "pouvoir 的 elles 形式是 peuvent。"
+  },
+  {
+    "source": "pouvoir 后的动词用不定式。",
+    "en": "Use the infinitive after pouvoir.",
+    "zh-TW": "pouvoir 後的動詞用不定式。"
+  },
+  {
+    "source": "vouloir 后的动词用不定式。",
+    "en": "Use the infinitive after vouloir.",
+    "zh-TW": "vouloir 後的動詞用不定式。"
+  },
+  {
+    "source": "否定结构 ne…pas 放在变位动词两侧。",
+    "en": "Place ne…pas around the conjugated verb.",
+    "zh-TW": "否定結構 ne…pas 放在變位動詞兩側。"
+  },
+  {
+    "source": "两个动词连用时，只变位第一个。",
+    "en": "Conjugate only the first verb in this construction.",
+    "zh-TW": "兩個動詞連用時，只變位第一個。"
+  },
+  {
+    "source": "疑问句中 vous 对应 pouvez。",
+    "en": "Use pouvez with vous in this question.",
+    "zh-TW": "疑問句中 vous 對應 pouvez。"
+  },
+  {
+    "source": "pouvoir 的 tu 形式是 peux。",
+    "en": "The tu form of pouvoir is peux.",
+    "zh-TW": "pouvoir 的 tu 形式是 peux。"
+  },
+  {
+    "source": "confiture 是阴性单数名词，部分冠词用 de la。",
+    "en": "Confiture is feminine singular: use de la for an unspecified amount.",
+    "zh-TW": "confiture 是陰性單數名詞，部分冠詞用 de la。"
+  },
+  {
+    "source": "huile 以哑音 h 开头，部分冠词省音为 de l’。",
+    "en": "Huile starts with a silent h, so the partitive is de l’.",
+    "zh-TW": "huile 以啞音 h 開頭，部分冠詞省音為 de l’。"
+  },
+  {
+    "source": "一般否定中，部分冠词变为 de。",
+    "en": "In an ordinary negative, the partitive becomes de.",
+    "zh-TW": "一般否定中，部分冠詞變為 de。"
+  },
+  {
+    "source": "être 的否定后，部分冠词通常保留。",
+    "en": "The partitive normally stays unchanged after a negated être.",
+    "zh-TW": "être 的否定後，部分冠詞通常保留。"
+  },
+  {
+    "source": "soleil 是阳性单数名词，此处用定冠词 le。",
+    "en": "Soleil is masculine singular; use the definite article le here.",
+    "zh-TW": "soleil 是陽性單數名詞，此處用定冠詞 le。"
+  },
+  {
+    "source": "histoire 是阴性单数名词，不定冠词用 une。",
+    "en": "Histoire is feminine singular: use une.",
+    "zh-TW": "histoire 是陰性單數名詞，不定冠詞用 une。"
+  },
+  {
+    "source": "这些特定的钥匙是复数，用定冠词 les。",
+    "en": "Use les for these specific keys in the plural.",
+    "zh-TW": "這些特定的鑰匙是複數，用定冠詞 les。"
+  },
+  {
+    "source": "表示一般喜好时，用定冠词。",
+    "en": "Use the definite article when expressing a general liking.",
+    "zh-TW": "表示一般喜好時，用定冠詞。"
+  },
+  {
+    "source": "légumes 是复数，此处表示不特定的蔬菜。",
+    "en": "Use des for unspecified vegetables in the plural.",
+    "zh-TW": "légumes 是複數，此處表示不特定的蔬菜。"
+  },
+  {
+    "source": "一般否定中，不定冠词变为 de。",
+    "en": "In an ordinary negative, the indefinite article becomes de.",
+    "zh-TW": "一般否定中，不定冠詞變為 de。"
+  },
+  {
+    "source": "beaucoup 后接 de，再接名词。",
+    "en": "Use de before a noun after beaucoup.",
+    "zh-TW": "beaucoup 後接 de，再接名詞。"
+  },
+  {
+    "source": "un peu 后接 de。",
+    "en": "Use de after un peu.",
+    "zh-TW": "un peu 後接 de。"
+  },
+  {
+    "source": "容器或计量表达后用 de。",
+    "en": "Use de after a container or measure expression.",
+    "zh-TW": "容器或計量表達後用 de。"
+  },
+  {
+    "source": "ne…rien 表示“什么也没有”。",
+    "en": "Ne…rien means nothing.",
+    "zh-TW": "ne…rien 表示「什麼也沒有」。"
+  },
+  {
+    "source": "ne…jamais 表示“从不”。",
+    "en": "Ne…jamais means never.",
+    "zh-TW": "ne…jamais 表示「從不」。"
+  },
+  {
+    "source": "ils 的代动词反身代词是 se。",
+    "en": "The reflexive pronoun with ils is se.",
+    "zh-TW": "ils 的代動詞反身代詞是 se。"
+  },
+  {
+    "source": "nous 对应的反身代词也是 nous。",
+    "en": "The reflexive pronoun with nous is also nous.",
+    "zh-TW": "nous 對應的反身代詞也是 nous。"
+  },
+  {
+    "source": "te 在元音或哑音 h 前省音为 t’。",
+    "en": "Te becomes t’ before a vowel or silent h.",
+    "zh-TW": "te 在母音或啞音 h 前省音為 t’。"
+  },
+  {
+    "source": "vouloir + 不定式中，rien 放在变位动词后，不加 pas。",
+    "en": "With vouloir + infinitive, put rien after the conjugated verb without pas.",
+    "zh-TW": "vouloir + 不定式中，rien 放在變位動詞後，不加 pas。"
+  },
+  {
+    "source": "规则 -er 动词的过去分词以 -é 结尾。",
+    "en": "The past participle of a regular -er verb ends in -é.",
+    "zh-TW": "規則 -er 動詞的過去分詞以 -é 結尾。"
+  },
+  {
+    "source": "écrire 的过去分词是 écrit；此处不配合主语。",
+    "en": "Écrire has the past participle écrit; it does not agree with the subject here.",
+    "zh-TW": "écrire 的過去分詞是 écrit；此處不配合主語。"
+  },
+  {
+    "source": "prendre 的过去分词是 pris。",
+    "en": "The past participle of prendre is pris.",
+    "zh-TW": "prendre 的過去分詞是 pris。"
+  },
+  {
+    "source": "ouvrir 的过去分词是 ouvert。",
+    "en": "The past participle of ouvrir is ouvert.",
+    "zh-TW": "ouvrir 的過去分詞是 ouvert。"
+  },
+  {
+    "source": "boire 的过去分词是 bu。",
+    "en": "The past participle of boire is bu.",
+    "zh-TW": "boire 的過去分詞是 bu。"
+  },
+  {
+    "source": "mettre 的过去分词是 mis。",
+    "en": "The past participle of mettre is mis.",
+    "zh-TW": "mettre 的過去分詞是 mis。"
+  },
+  {
+    "source": "recevoir 的过去分词是 reçu。",
+    "en": "The past participle of recevoir is reçu.",
+    "zh-TW": "recevoir 的過去分詞是 reçu。"
+  },
+  {
+    "source": "pouvoir 的过去分词是 pu。",
+    "en": "The past participle of pouvoir is pu.",
+    "zh-TW": "pouvoir 的過去分詞是 pu。"
+  },
+  {
+    "source": "devoir 的过去分词是 dû，注意重音。",
+    "en": "The past participle of devoir is dû, including the circumflex.",
+    "zh-TW": "devoir 的過去分詞是 dû，注意重音。"
+  },
+  {
+    "source": "savoir 的过去分词是 su。",
+    "en": "The past participle of savoir is su.",
+    "zh-TW": "savoir 的過去分詞是 su。"
+  },
+  {
+    "source": "3e 对应 troisième。",
+    "en": "The ordinal 3e is troisième.",
+    "zh-TW": "3e 對應 troisième。"
+  },
+  {
+    "source": "cinq 的序数词是 cinquième。",
+    "en": "The ordinal form of cinq is cinquième.",
+    "zh-TW": "cinq 的序數詞是 cinquième。"
+  },
+  {
+    "source": "阴性名词 fois 前用 première。",
+    "en": "Use the feminine première before fois.",
+    "zh-TW": "陰性名詞 fois 前用 première。"
+  },
+  {
+    "source": "neuf 的序数词是 neuvième。",
+    "en": "The ordinal form of neuf is neuvième.",
+    "zh-TW": "neuf 的序數詞是 neuvième。"
+  },
+  {
+    "source": "四等份中的一份是 un quart。",
+    "en": "One of four equal parts is un quart.",
+    "zh-TW": "四等份中的一份是 un quart。"
+  },
+  {
+    "source": "2/3 读作 deux tiers。",
+    "en": "Read 2/3 as deux tiers.",
+    "zh-TW": "2/3 讀作 deux tiers。"
+  },
+  {
+    "source": "百分比用 pour cent 表达。",
+    "en": "Use pour cent to express a percentage.",
+    "zh-TW": "百分比用 pour cent 表達。"
+  },
+  {
+    "source": "法语小数用 virgule 连接整数和小数部分。",
+    "en": "In French, use virgule between the whole and decimal parts.",
+    "zh-TW": "法語小數用 virgule 連接整數和小數部分。"
+  },
+  {
+    "source": "二分之一加四分之一等于四分之三。",
+    "en": "One half plus one quarter equals three quarters.",
+    "zh-TW": "二分之一加四分之一等於四分之三。"
+  },
+  {
+    "source": "电子邮箱中的 @ 读作 arobase。",
+    "en": "In an email address, @ is read arobase.",
+    "zh-TW": "電子郵件中的 @ 讀作 arobase。"
+  },
+  {
+    "source": "ce que 在从句中作直接宾语。",
+    "en": "Ce que acts as the direct object of the subordinate clause.",
+    "zh-TW": "ce que 在子句中作直接受詞。"
+  },
+  {
+    "source": "avoir envie de 引出 ce dont。",
+    "en": "Avoir envie de requires ce dont here.",
+    "zh-TW": "avoir envie de 引出 ce dont。"
+  },
+  {
+    "source": "avec 后的关系代词与阴性单数 collègue 配合。",
+    "en": "After avec, the relative pronoun agrees with feminine singular collègue.",
+    "zh-TW": "avec 後的關係代名詞與陰性單數 collègue 配合。"
+  },
+  {
+    "source": "dossiers 是阳性复数，介词后用 lesquels。",
+    "en": "Dossiers is masculine plural: use lesquels after the preposition.",
+    "zh-TW": "dossiers 是陽性複數，介詞後用 lesquels。"
+  },
+  {
+    "source": "assister à 后用 à laquelle，对应阴性单数 réunion。",
+    "en": "Use à laquelle after assister à for feminine singular réunion.",
+    "zh-TW": "assister à 後用 à laquelle，對應陰性單數 réunion。"
+  },
+  {
+    "source": "à + lesquelles 缩合为 auxquelles。",
+    "en": "À + lesquelles contracts to auxquelles.",
+    "zh-TW": "à + lesquelles 縮合為 auxquelles。"
+  },
+  {
+    "source": "à + lequel 缩合为 auquel。",
+    "en": "À + lequel contracts to auquel.",
+    "zh-TW": "à + lequel 縮合為 auquel。"
+  },
+  {
+    "source": "près de 后保留 de laquelle，指阴性单数 maison。",
+    "en": "Use près de laquelle for feminine singular maison.",
+    "zh-TW": "près de 後保留 de laquelle，指陰性單數 maison。"
+  },
+  {
+    "source": "de + lesquels 缩合为 desquels。",
+    "en": "De + lesquels contracts to desquels.",
+    "zh-TW": "de + lesquels 縮合為 desquels。"
+  },
+  {
+    "source": "过去视角中的将来，用现在条件式。",
+    "en": "Use the present conditional for a future event viewed from the past.",
+    "zh-TW": "過去視角中的將來，用現在條件式。"
+  },
+  {
+    "source": "vous 的现在条件式词尾是 -iez。",
+    "en": "The present conditional ending for vous is -iez.",
+    "zh-TW": "vous 的現在條件式詞尾是 -iez。"
+  },
+  {
+    "source": "appeler 的条件式词干是 appeller-。",
+    "en": "The conditional stem of appeler is appeller-.",
+    "zh-TW": "appeler 的條件式詞幹是 appeller-。"
+  },
+  {
+    "source": "nous 的现在条件式词尾是 -ions。",
+    "en": "The present conditional ending for nous is -ions.",
+    "zh-TW": "nous 的現在條件式詞尾是 -ions。"
+  },
+  {
+    "source": "ils 的现在条件式词尾是 -aient。",
+    "en": "The present conditional ending for ils is -aient.",
+    "zh-TW": "ils 的現在條件式詞尾是 -aient。"
+  },
+  {
+    "source": "pourriez-vous 可用于礼貌请求。",
+    "en": "Pourriez-vous can introduce a polite request.",
+    "zh-TW": "pourriez-vous 可用於禮貌請求。"
+  },
+  {
+    "source": "souhaiterais 用条件式表达礼貌愿望。",
+    "en": "Souhaiterais expresses a polite wish in the conditional.",
+    "zh-TW": "souhaiterais 用條件式表達禮貌願望。"
+  },
+  {
+    "source": "vouloir 的条件式词干是 voudr-。",
+    "en": "The conditional stem of vouloir is voudr-.",
+    "zh-TW": "vouloir 的條件式詞幹是 voudr-。"
+  },
+  {
+    "source": "过去的解释中，尚未发生的事用条件式。",
+    "en": "Use the conditional for an event that was still in the future at a past reference point.",
+    "zh-TW": "過去的解釋中，尚未發生的事用條件式。"
+  },
+  {
+    "source": "être 的条件式词干是 ser-。",
+    "en": "The conditional stem of être is ser-.",
+    "zh-TW": "être 的條件式詞幹是 ser-。"
   }
 ]
