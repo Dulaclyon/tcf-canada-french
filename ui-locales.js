@@ -1,4 +1,8 @@
 export const messages = {
+"正在改写…":{"en":"Rewriting…","zh-TW":"正在改寫…"},
+"改写草稿已放入评语框。检查后再发布。":{"en": "Rewritten draft added to the feedback box. Review before publishing.", "zh-TW": "改寫草稿已放入評語框。檢查後再發布。"},
+"新草稿已保存。点击“替换教师评语草稿”后检查并发布。":{"en": "New draft saved. Choose Replace feedback draft, then review and publish.", "zh-TW": "新草稿已儲存。點選「替換教師評語草稿」後檢查並發布。"},
+
 "替换教师评语草稿":{"en":"Replace feedback draft","zh-TW":"替換教師評語草稿"},
 "改写要求（可选）":{"en": "Rewrite instructions (optional)", "zh-TW": "改寫要求（選填）"},
 "例如：更简洁，清楚解释修改原因。":{"en": "For example: be more concise and explain the corrections clearly.", "zh-TW": "例如：更精簡，清楚解釋修改原因。"},

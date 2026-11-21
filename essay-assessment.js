@@ -9,7 +9,7 @@ const feedbackText=(review,locale)=>{
  return [title('估计水平')+'\n'+level,title('修改建议')+'\n'+corrections,title('建议修改稿')+'\n'+(a.revised_text||title('暂无建议修改稿。'))].join('\n\n');
 };
 export function mountEssayAssessment(){
- let id=null,version=0,busy=false,review=null,config=null;
+ let id=null,version=0,busy=false,review=null,config=null,pendingRewrite=null;
  const pairing=/^#codex-connect=([a-f0-9]{64})$/.exec(location.hash)?.[1];
  if(pairing){history.replaceState(null,'',location.pathname);$('codex-pair').hidden=false;$('codex-confirm').onclick=async()=>{try{await api('/api/admin/writing/codex/pair',{token:pairing});$('codex-pair').hidden=true;$('connector-status').textContent='Mac 已连接。请保持连接器运行。';}catch(e){$('connector-status').textContent=e.message;}};}
  $('codex-disconnect').onclick=async()=>{try{await api('/api/admin/writing/codex/disconnect',{});if(id)open(id);$('connector-status').textContent='Codex 连接已断开。';}catch(e){$('connector-status').textContent=e.message;}};
@@ -22,7 +22,17 @@ export function mountEssayAssessment(){
  }
  function show(result){
   const target=$('ai-review-result');target.replaceChildren();$('ai-use-draft').hidden=true;
-  if(result?.status!=='completed'){if(['queued','pending'].includes(result?.status))$('ai-review-status').textContent='这份作文正在评估，请稍后刷新。';else if(result?.status==='failed')$('ai-review-status').textContent=result.error||'上次评估未完成，可以重试。';return;}
+  if(result?.status!=='completed'){if(['queued','pending'].includes(result?.status))$('ai-review-status').textContent='这份作文正在评估，请稍后刷新。';else if(result?.status==='failed')$('ai-review-status').textContent=result.error||'上次评估未完成，可以重试。';if(result?.rewrite)$('rewrite-status').textContent=$('ai-review-status').textContent;return;}
+  if(result.rewrite){
+   const locale=result.language||language.value;
+   if(pendingRewrite?.id===result.id&&pendingRewrite.submissionId===id&&pendingRewrite.language===language.value){
+    const area=$('teacher-feedback'),draft=feedbackText(result,locale);
+    if(area.value===pendingRewrite.feedback&&draft.length<=area.maxLength){area.value=draft;area.dispatchEvent(new Event('input',{bubbles:true}));$('rewrite-status').textContent='改写草稿已放入评语框。检查后再发布。';}
+    else {$('ai-use-draft').textContent='替换教师评语草稿';$('ai-use-draft').hidden=false;$('rewrite-status').textContent='新草稿已保存。点击“替换教师评语草稿”后检查并发布。';}
+    pendingRewrite=null;
+   }else {$('ai-use-draft').textContent='替换教师评语草稿';$('ai-use-draft').hidden=false;$('rewrite-status').textContent='新草稿已保存。点击“替换教师评语草稿”后检查并发布。';}
+   return;
+  }
   const locale=result.language||language.value;target.lang=locale==='zh-TW'?'zh-Hant-TW':locale;const a=result.assessment;
   const level=node('section');level.append(node('h4',t('估计水平',locale)),node('p',a.estimated_level==='insufficient_evidence'?t('内容不足，无法估计水平。',locale):a.estimated_level,'ai-level'));target.append(level);
   const corrections=node('section');corrections.append(node('h4',t('修改建议',locale)));
@@ -31,17 +41,18 @@ export function mountEssayAssessment(){
   const revision=node('section'),text=node('p',a.revised_text||t('暂无建议修改稿。',locale),'submission-text');if(a.revised_text)text.lang='fr';revision.append(node('h4',t('建议修改稿',locale)),text);target.append(revision);
   $('ai-use-draft').textContent=result.rewrite?'替换教师评语草稿':'加入教师评语草稿';$('ai-use-draft').hidden=false;
  }
- async function open(nextId){if(nextId!==id)$('ai-rewrite-instructions').value='';id=nextId;review=null;const current=++version;$('ai-review-result').replaceChildren();$('ai-review-status').textContent='';$('ai-use-draft').hidden=true;controls();try{const data=await api('/api/admin/writing/codex?id='+encodeURIComponent(id)+'&language='+encodeURIComponent(language.value));if(current!==version)return;review=data.review;config=data.config;show(review);controls();}catch(error){if(current===version){$('ai-review-status').textContent=error.message;controls();}}}
+ async function open(nextId){if(nextId!==id){$('ai-rewrite-instructions').value='';$('rewrite-status').textContent='';pendingRewrite=null;}id=nextId;review=null;const current=++version;$('ai-review-result').replaceChildren();$('ai-review-status').textContent='';$('ai-use-draft').hidden=true;controls();try{const data=await api('/api/admin/writing/codex?id='+encodeURIComponent(id)+'&language='+encodeURIComponent(language.value));if(current!==version)return;review=data.review;config=data.config;show(review);controls();}catch(error){if(current===version){$('ai-review-status').textContent=error.message;controls();}}}
  language.onchange=()=>{if(id)open(id);};$('ai-refresh').onclick=()=>{if(id)open(id);};
  const generate=async(rewrite=false)=>{
-  if(!id||busy)return;const current=version,submissionId=id,locale=language.value;busy=true;$('ai-review-status').textContent='正在评估…';controls();
-  try{const data=await api('/api/admin/writing/codex',{id:submissionId,language:locale,...(rewrite?{rewrite:true,instructions:$('ai-rewrite-instructions').value,feedback:$('teacher-feedback').value}:{})});config=data.config;if(current!==version)return;review=data;show(review);$('ai-review-status').textContent=review.status==='completed'?'评估草稿已保存，仅老师可见。':'已排队，Mac 上的 Codex 将进行评估。';}
-  catch(error){if(current===version)$('ai-review-status').textContent=error.message;}
+  if(!id||busy)return;const current=version,submissionId=id,locale=language.value,feedback=$('teacher-feedback').value;busy=true;$('ai-review-status').textContent='正在评估…';if(rewrite)$('rewrite-status').textContent='正在改写…';controls();
+  try{const data=await api('/api/admin/writing/codex',{id:submissionId,language:locale,...(rewrite?{rewrite:true,instructions:$('ai-rewrite-instructions').value,feedback}:{})});config=data.config;if(current!==version)return;if(rewrite)pendingRewrite={id:data.id,submissionId,language:locale,feedback};review=data;show(review);$('ai-review-status').textContent=review.status==='completed'?'评估草稿已保存，仅老师可见。':'已排队，Mac 上的 Codex 将进行评估。';}
+  catch(error){if(current===version){$('ai-review-status').textContent=error.message;if(rewrite)$('rewrite-status').textContent=error.message;}}
   finally{busy=false;controls();}
  };
  $('ai-generate').onclick=()=>generate(false);$('ai-rewrite').onclick=()=>generate(true);
+ $('ai-rewrite-instructions').addEventListener('keydown',event=>{if(event.key==='Enter')event.preventDefault();});
  $('ai-use-draft').onclick=()=>{
-  if(review?.status!=='completed')return;const draft=feedbackText(review,review.language||language.value),area=$('teacher-feedback');if(review.rewrite||!area.value.includes(draft)){const combined=review.rewrite?draft:[area.value.trim(),draft].filter(Boolean).join('\n\n');if(combined.length>area.maxLength){$('ai-review-status').textContent='评语过长，请手动选取需要的内容。';return;}area.value=combined;area.dispatchEvent(new Event('input',{bubbles:true}));}area.focus();$('ai-review-status').textContent='已加入教师评语草稿。检查后点击“发布评语”。';
+  if(review?.status!=='completed')return;const draft=feedbackText(review,review.language||language.value),area=$('teacher-feedback');if(review.rewrite||!area.value.includes(draft)){const combined=review.rewrite?draft:[area.value.trim(),draft].filter(Boolean).join('\n\n');if(combined.length>area.maxLength){$('ai-review-status').textContent='评语过长，请手动选取需要的内容。';return;}area.value=combined;area.dispatchEvent(new Event('input',{bubbles:true}));}area.focus();$('rewrite-status').textContent='已加入教师评语草稿。检查后点击“发布评语”。';
  };
  setInterval(()=>{if(id&&!busy&&!document.hidden&&(!config?.enabled||['queued','pending'].includes(review?.status)))open(id);},5000);
  controls();return {open};
