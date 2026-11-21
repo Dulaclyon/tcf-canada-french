@@ -311,10 +311,16 @@ export function renderGrammar(text, title = '') {
       i--;
       continue;
     }
-    if (/^\d+[.、]\s*[\u3400-\u9fff]/u.test(line) &&
-        [lines[i - 1], lines[i + 1]].some(neighbor => /^\d+[.、]\s*[\u3400-\u9fff]/u.test(neighbor ?? ''))) {
-      output.push(`<p class="grammar-step">${inline(line, title)}</p>`);
-      continue;
+    // Numbered topic labels share one style; do not classify short Chinese labels as prose.
+    const numberedLabel=value=>{
+      const match=value?.match(/^\d+[.、．)]\s*(.+)$/u);if(!match||/^\d/u.test(match[1].trim()))return false;
+      const label=match[1].replace(/[（(][^()（）]*[）)]/gu,'');
+      return chinese.test(label)||/^(?:Est-ce que|à condition que|à moins que|pour que|au cas où|pourvu que)\b/iu.test(label);
+    };
+    if(numberedLabel(line)){
+      const step=/作业/u.test(title)||[lines[i-1],lines[i+1]].some(numberedLabel);
+      const tag=step?'p':'h3';
+      output.push(`<${tag} class="${step?'grammar-step':'grammar-subhead'} grammar-numbered-subhead">${escape(line)}</${tag}>`);continue;
     }
     if (glossaryEntry.test(line) && !/[.!?;]/u.test(line.split(/-{2,}/u)[0]) && glossaryEntry.test(lines[i + 1] ?? '')) {
       const rows = [];
