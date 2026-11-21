@@ -47,3 +47,5 @@ hash路由与相对静态资源支持子路径。PWA并不代表已在应用商�
 - `docs/public-access.md`：当前免登录模式验证
 
 Codex 订阅作文评估的 Mac 启动、配对和教师审核流程见 [配置说明](docs/codex-essay-review.md)。
+
+学习总览会根据登录角色显示学生个人进度或教师的全体学生进度，覆盖基础法语与 TCF CA 听、读、写、说。计算口径和权限见 [学习看板](docs/learning-dashboard.md)。发音录音与当前例词的对应审计见 [发音录音审计](docs/pronunciation-audio-audit.md)。

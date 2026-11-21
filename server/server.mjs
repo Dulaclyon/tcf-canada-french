@@ -1,3 +1,4 @@
+import {learningDashboard} from './learning-dashboard.mjs';
 import http from 'node:http';
 import {writingSubmissions} from './writing-submissions.mjs';
 import {sections,allSections,basicOnly,validPermissions} from './section-permissions.mjs';
@@ -34,6 +35,7 @@ if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
  db.prepare('INSERT INTO users VALUES(?,?,?,?,0,1)').run(randomBytes(16).toString('hex'),e,hash(p),'admin');
 }
 const handleWriting=writingSubmissions(db,root,permissionsFor);
+const dashboard=learningDashboard(db,root,permissionsFor);
 const keys=new Set(['french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1']);
 const publicFiles=new Set(['brand.css','assets/fonts/source-sans-3-latin.woff2','assets/fonts/source-sans-3-ext.woff2','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','account.css','login.js']);
 const types={'.woff2':'font/woff2','.ttf':'font/ttf','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.m4a':'audio/mp4','.mp3':'audio/mpeg','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
@@ -66,6 +68,8 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/logout'&&req.method==='POST'){db.prepare('DELETE FROM sessions WHERE token=?').run(user.token);return send(200,{ok:true},{'Set-Cookie':'tcf_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0'});}
  if(route==='/api/password'&&req.method==='POST'){const b=await body();if(typeof b.password!=='string'||b.password.length<12||b.password.length>256||b.password===b.current||!verify(String(b.current||''),user.password))return send(400,{error:'当前密码错误，或新密码不足 12 位'});db.prepare('UPDATE users SET password=?,must_change=0 WHERE id=?').run(hash(b.password),user.id);db.prepare('DELETE FROM sessions WHERE user_id=? AND token<>?').run(user.id,user.token);return send(200,{ok:true});}
  if(user.must_change)return send(403,{error:'请先修改临时密码'});
+ if(route==='/api/learning-progress'&&req.method==='GET')return send(200,await dashboard.student(user));
+ if(route==='/api/admin/learning-progress'&&req.method==='GET'){if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});return send(200,await dashboard.teacher());}
  if(route.startsWith('/api/writing/')||route.startsWith('/api/admin/writing'))return await handleWriting({route,req,url,user,body,send});
  if(route==='/api/progress'&&req.method==='GET')return send(200,Object.fromEntries(db.prepare('SELECT key,value FROM progress WHERE user_id=?').all(user.id).map(r=>[r.key,JSON.parse(r.value)])));
  if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);handleWriting.syncCompleted(user,b.value,stored?JSON.parse(stored.value):{});}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}

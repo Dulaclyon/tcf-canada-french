@@ -2,17 +2,1409 @@
   "voice": "fr-FR-DeniseNeural",
   "rate": "-8%",
   "origin": "generated-speech",
+  "catalogVersion": 2,
   "clips": {
-    "e": "Thé. Été. Mes amis. Assez. Venez. Aller. Cet été, mes amis prennent le thé.",
-    "open-e": "Faire. Lait. Père. Très. Fête. Tête. Seize. Jouet. Mon père fait la fête.",
-    "i": "Île. Si. Fanny. Ici. Une petite île. Fanny habite ici.",
-    "wa": "Moi. Toi. Loi. Foie. Soi. Viens avec moi. Toi et moi.",
-    "tion": "La situation. La nation. La conversation. La solution. La décision. Nous cherchons une solution.",
-    "nasal-in": "Pain. Train. Matin. Impossible. Demain. Je prends le train demain matin.",
-    "o": "Eau. Chaud. Beau. Aux. Un beau cadeau. Il fait chaud. Je bois de l’eau.",
-    "eu": "Feu. Peu. Eux. Heureux. Sœur. Heure. Un peu. Deux heures. Ma sœur est heureuse.",
-    "j": "Bien. Pied. Voyage. Travail. Détail. Fille. Famille. Bouteille. Ma famille prépare un voyage.",
-    "ou": "Nous. Vous. Tout. Doux. Loup. Joue. Goût. Jouer. Nous jouons avec vous.",
-    "nasal-an": "Enfant. Manger. Temps. Penser. Chambre. Ambulance. Emballer. Un enfant entre dans la chambre."
+    "e": {
+      "examples": [
+        "mes",
+        "fée",
+        "été",
+        "assez",
+        "thé",
+        "tes",
+        "dé",
+        "épée",
+        "étaler",
+        "venez",
+        "ses",
+        "chez",
+        "aller",
+        "limiter",
+        "clé",
+        "les",
+        "nez",
+        "quitter",
+        "répéter",
+        "cet été",
+        "c’est assez"
+      ],
+      "text": "mes. fée. été. assez. thé. tes. dé. épée. étaler. venez. ses. chez. aller. limiter. clé. les. nez. quitter. répéter. cet été. c’est assez.",
+      "fingerprint": "a363e61f",
+      "file": "e.mp3",
+      "duration": 30.744,
+      "sha256": "6181e8a841732cb0a1de819ecd9080f2e93427664fb90e5a46e876c0756421b9",
+      "boundaries": [
+        {
+          "text": "mes",
+          "offset": 1032500,
+          "duration": 3532500
+        },
+        {
+          "text": "fée",
+          "offset": 13983750,
+          "duration": 3804160
+        },
+        {
+          "text": "été",
+          "offset": 27152080,
+          "duration": 5162910
+        },
+        {
+          "text": "assez",
+          "offset": 41690410,
+          "duration": 5434580
+        },
+        {
+          "text": "thé",
+          "offset": 56521660,
+          "duration": 3532500
+        },
+        {
+          "text": "tes",
+          "offset": 69429160,
+          "duration": 3532500
+        },
+        {
+          "text": "dé",
+          "offset": 82315410,
+          "duration": 3804160
+        },
+        {
+          "text": "épée",
+          "offset": 95494580,
+          "duration": 4891250
+        },
+        {
+          "text": "étaler",
+          "offset": 109760830,
+          "duration": 6385830
+        },
+        {
+          "text": "venez",
+          "offset": 125521660,
+          "duration": 5027080
+        },
+        {
+          "text": "ses",
+          "offset": 139945830,
+          "duration": 3940410
+        },
+        {
+          "text": "chez",
+          "offset": 153250000,
+          "duration": 3940410
+        },
+        {
+          "text": "aller",
+          "offset": 166554160,
+          "duration": 5027080
+        },
+        {
+          "text": "limiter",
+          "offset": 180956660,
+          "duration": 7744580
+        },
+        {
+          "text": "clé",
+          "offset": 197962080,
+          "duration": 4483750
+        },
+        {
+          "text": "les",
+          "offset": 211798750,
+          "duration": 3940410
+        },
+        {
+          "text": "nez",
+          "offset": 225114160,
+          "duration": 4076250
+        },
+        {
+          "text": "quitter",
+          "offset": 238565410,
+          "duration": 5978330
+        },
+        {
+          "text": "répéter",
+          "offset": 253918330,
+          "duration": 8016250
+        },
+        {
+          "text": "cet",
+          "offset": 271195830,
+          "duration": 3940410
+        },
+        {
+          "text": "été",
+          "offset": 275271660,
+          "duration": 4619580
+        },
+        {
+          "text": "c’est",
+          "offset": 289266250,
+          "duration": 2581660
+        },
+        {
+          "text": "assez",
+          "offset": 291983750,
+          "duration": 5978330
+        }
+      ]
+    },
+    "ou": {
+      "examples": [
+        "pou",
+        "bout",
+        "nous",
+        "loup",
+        "tout",
+        "doux",
+        "fou",
+        "vous",
+        "chou",
+        "joue",
+        "sous",
+        "zou",
+        "cou",
+        "goût",
+        "jouer",
+        "zoulou"
+      ],
+      "text": "pou. bout. nous. loup. tout. doux. fou. vous. chou. joue. sous. zou. cou. goût. jouer. zoulou.",
+      "fingerprint": "44593f98",
+      "file": "ou.mp3",
+      "duration": 22.152,
+      "sha256": "c89548e7baca442c0a26c08f165d7e2a46a99b58a4c1cf4c67699e8958755abe",
+      "boundaries": [
+        {
+          "text": "pou",
+          "offset": 1043330,
+          "duration": 3668330
+        },
+        {
+          "text": "bout",
+          "offset": 14108750,
+          "duration": 3940410
+        },
+        {
+          "text": "nous",
+          "offset": 27434580,
+          "duration": 4076250
+        },
+        {
+          "text": "loup",
+          "offset": 40875000,
+          "duration": 4212080
+        },
+        {
+          "text": "tout",
+          "offset": 54483750,
+          "duration": 3396660
+        },
+        {
+          "text": "doux",
+          "offset": 67233750,
+          "duration": 4212080
+        },
+        {
+          "text": "fou",
+          "offset": 80831660,
+          "duration": 4347910
+        },
+        {
+          "text": "vous",
+          "offset": 94554160,
+          "duration": 4347910
+        },
+        {
+          "text": "chou",
+          "offset": 108277080,
+          "duration": 4347910
+        },
+        {
+          "text": "joue",
+          "offset": 122000000,
+          "duration": 4755410
+        },
+        {
+          "text": "sous",
+          "offset": 136141250,
+          "duration": 4891250
+        },
+        {
+          "text": "zou",
+          "offset": 150396660,
+          "duration": 4347910
+        },
+        {
+          "text": "cou",
+          "offset": 164266250,
+          "duration": 4076250
+        },
+        {
+          "text": "goût",
+          "offset": 177695830,
+          "duration": 3804160
+        },
+        {
+          "text": "jouer",
+          "offset": 190875000,
+          "duration": 5978330
+        },
+        {
+          "text": "zoulou",
+          "offset": 206228330,
+          "duration": 5706660
+        }
+      ]
+    },
+    "y": {
+      "examples": [
+        "rue",
+        "roue"
+      ],
+      "text": "rue. roue.",
+      "fingerprint": "7463b692",
+      "file": "y.mp3",
+      "duration": 2.784,
+      "sha256": "f74f3038125714730d77e4a04a729d9298b6ea4bf768fb4c5484da25a5074f61",
+      "boundaries": [
+        {
+          "text": "rue",
+          "offset": 1043330,
+          "duration": 3804160
+        },
+        {
+          "text": "roue",
+          "offset": 14266250,
+          "duration": 4212080
+        }
+      ]
+    },
+    "open-e": {
+      "examples": [
+        "faire",
+        "faites",
+        "lait",
+        "mais",
+        "un père",
+        "très",
+        "une fête",
+        "une tête",
+        "seize",
+        "la peine",
+        "un jouet",
+        "un livret",
+        "très bien"
+      ],
+      "text": "faire. faites. lait. mais. un père. très. une fête. une tête. seize. la peine. un jouet. un livret. très bien.",
+      "fingerprint": "fe676345",
+      "file": "open-e.mp3",
+      "duration": 20.328,
+      "sha256": "4d2f583a8fa5ec824b5cc484fb14b2ccfb705a2e85867dbad239fb240d413656",
+      "boundaries": [
+        {
+          "text": "faire",
+          "offset": 1043330,
+          "duration": 4891250
+        },
+        {
+          "text": "faites",
+          "offset": 15353330,
+          "duration": 5298750
+        },
+        {
+          "text": "lait",
+          "offset": 30027080,
+          "duration": 3804160
+        },
+        {
+          "text": "mais",
+          "offset": 43206660,
+          "duration": 3668330
+        },
+        {
+          "text": "un",
+          "offset": 56228330,
+          "duration": 1630410
+        },
+        {
+          "text": "père",
+          "offset": 57994580,
+          "duration": 5570830
+        },
+        {
+          "text": "très",
+          "offset": 72962080,
+          "duration": 4619580
+        },
+        {
+          "text": "une",
+          "offset": 86934580,
+          "duration": 1902080
+        },
+        {
+          "text": "fête",
+          "offset": 88972910,
+          "duration": 5842500
+        },
+        {
+          "text": "une",
+          "offset": 104337080,
+          "duration": 2445830
+        },
+        {
+          "text": "tête",
+          "offset": 106918330,
+          "duration": 5162910
+        },
+        {
+          "text": "seize",
+          "offset": 121581660,
+          "duration": 6114160
+        },
+        {
+          "text": "la",
+          "offset": 137070830,
+          "duration": 1902080
+        },
+        {
+          "text": "peine",
+          "offset": 139108750,
+          "duration": 5434580
+        },
+        {
+          "text": "un",
+          "offset": 153918330,
+          "duration": 2037910
+        },
+        {
+          "text": "jouet",
+          "offset": 156092500,
+          "duration": 4619580
+        },
+        {
+          "text": "un",
+          "offset": 170087080,
+          "duration": 1902080
+        },
+        {
+          "text": "livret",
+          "offset": 172125000,
+          "duration": 5706660
+        },
+        {
+          "text": "très",
+          "offset": 187228330,
+          "duration": 2581660
+        },
+        {
+          "text": "bien",
+          "offset": 189945830,
+          "duration": 3804160
+        }
+      ]
+    },
+    "i": {
+      "examples": [
+        "une île",
+        "si",
+        "Fanny"
+      ],
+      "text": "une île. si. Fanny.",
+      "fingerprint": "cd2fc536",
+      "file": "i.mp3",
+      "duration": 4.608,
+      "sha256": "f449667bc057d396c59e45a40930fae25f392159842da2354c2af2a8d4934bb8",
+      "boundaries": [
+        {
+          "text": "une",
+          "offset": 1021660,
+          "duration": 1766250
+        },
+        {
+          "text": "île",
+          "offset": 2923750,
+          "duration": 4347910
+        },
+        {
+          "text": "si",
+          "offset": 16837080,
+          "duration": 4619580
+        },
+        {
+          "text": "Fanny",
+          "offset": 30820830,
+          "duration": 5706660
+        }
+      ]
+    },
+    "wa": {
+      "examples": [
+        "moi",
+        "toi",
+        "la foi",
+        "le foie",
+        "la loi",
+        "soi"
+      ],
+      "text": "moi. toi. la foi. le foie. la loi. soi.",
+      "fingerprint": "161d5ab3",
+      "file": "wa.mp3",
+      "duration": 9.456,
+      "sha256": "88deb19c835c475ec700a9a23c89c862ab60098a44cb662ece7e655610198cf2",
+      "boundaries": [
+        {
+          "text": "moi",
+          "offset": 1043330,
+          "duration": 5027080
+        },
+        {
+          "text": "toi",
+          "offset": 15489160,
+          "duration": 5027080
+        },
+        {
+          "text": "la",
+          "offset": 29891250,
+          "duration": 2445830
+        },
+        {
+          "text": "foi",
+          "offset": 32472910,
+          "duration": 4755410
+        },
+        {
+          "text": "le",
+          "offset": 46581660,
+          "duration": 1902080
+        },
+        {
+          "text": "foie",
+          "offset": 48619580,
+          "duration": 4619580
+        },
+        {
+          "text": "la",
+          "offset": 62635830,
+          "duration": 2581660
+        },
+        {
+          "text": "loi",
+          "offset": 65353330,
+          "duration": 4755410
+        },
+        {
+          "text": "soi",
+          "offset": 79483750,
+          "duration": 5706660
+        }
+      ]
+    },
+    "tion": {
+      "examples": [
+        "la situation",
+        "la nation",
+        "la conversation",
+        "la solution",
+        "la formation",
+        "la construction",
+        "la présentation",
+        "la protection",
+        "la traduction",
+        "Est-ce que je peux avoir une conversation avec toi ?"
+      ],
+      "text": "la situation. la nation. la conversation. la solution. la formation. la construction. la présentation. la protection. la traduction. Est-ce que je peux avoir une conversation avec toi ?",
+      "fingerprint": "324df678",
+      "file": "tion.mp3",
+      "duration": 21.36,
+      "sha256": "68781264e61e4444d997f1fd3f84c9e85cb4930cac8e50c9dcc65a114b2f5aca",
+      "boundaries": [
+        {
+          "text": "la",
+          "offset": 1043330,
+          "duration": 2173750
+        },
+        {
+          "text": "situation",
+          "offset": 3353330,
+          "duration": 8152080
+        },
+        {
+          "text": "la",
+          "offset": 20912910,
+          "duration": 1630410
+        },
+        {
+          "text": "nation",
+          "offset": 22679160,
+          "duration": 6250000
+        },
+        {
+          "text": "la",
+          "offset": 38315410,
+          "duration": 2173750
+        },
+        {
+          "text": "conversation",
+          "offset": 40625000,
+          "duration": 9510830
+        },
+        {
+          "text": "la",
+          "offset": 59510830,
+          "duration": 1902080
+        },
+        {
+          "text": "solution",
+          "offset": 61548750,
+          "duration": 7337080
+        },
+        {
+          "text": "la",
+          "offset": 78260830,
+          "duration": 2037910
+        },
+        {
+          "text": "formation",
+          "offset": 80434580,
+          "duration": 8152080
+        },
+        {
+          "text": "la",
+          "offset": 97962080,
+          "duration": 2037910
+        },
+        {
+          "text": "construction",
+          "offset": 100135830,
+          "duration": 8695830
+        },
+        {
+          "text": "la",
+          "offset": 118206660,
+          "duration": 1902080
+        },
+        {
+          "text": "présentation",
+          "offset": 120244580,
+          "duration": 9782500
+        },
+        {
+          "text": "la",
+          "offset": 139402080,
+          "duration": 2037910
+        },
+        {
+          "text": "protection",
+          "offset": 141576250,
+          "duration": 8287910
+        },
+        {
+          "text": "la",
+          "offset": 159239160,
+          "duration": 1494580
+        },
+        {
+          "text": "traduction",
+          "offset": 160869580,
+          "duration": 8287910
+        },
+        {
+          "text": "Est-ce",
+          "offset": 178532500,
+          "duration": 2581660
+        },
+        {
+          "text": "que",
+          "offset": 181250000,
+          "duration": 1494580
+        },
+        {
+          "text": "je",
+          "offset": 182880410,
+          "duration": 1494580
+        },
+        {
+          "text": "peux",
+          "offset": 184510830,
+          "duration": 1358750
+        },
+        {
+          "text": "avoir",
+          "offset": 186005410,
+          "duration": 2989160
+        },
+        {
+          "text": "une",
+          "offset": 189130410,
+          "duration": 1087080
+        },
+        {
+          "text": "conversation",
+          "offset": 190353330,
+          "duration": 7065410
+        },
+        {
+          "text": "avec",
+          "offset": 197554160,
+          "duration": 2717500
+        },
+        {
+          "text": "toi",
+          "offset": 200407500,
+          "duration": 3668330
+        }
+      ]
+    },
+    "sion": {
+      "examples": [
+        "la décision"
+      ],
+      "text": "la décision.",
+      "fingerprint": "cf9842a6",
+      "file": "sion.mp3",
+      "duration": 1.992,
+      "sha256": "4fe8b550bd9bd6d93c738ff991c6ac4ebe94d02a346a2c1c389f3c8ef8c0b106",
+      "boundaries": [
+        {
+          "text": "la",
+          "offset": 1021660,
+          "duration": 1902080
+        },
+        {
+          "text": "décision",
+          "offset": 3059580,
+          "duration": 7337080
+        }
+      ]
+    },
+    "nasal-an": {
+      "examples": [
+        "enfant",
+        "manger",
+        "temps",
+        "penser",
+        "chambre",
+        "ambulance",
+        "emballer"
+      ],
+      "text": "enfant. manger. temps. penser. chambre. ambulance. emballer.",
+      "fingerprint": "2eae800b",
+      "file": "nasal-an.mp3",
+      "duration": 10.896,
+      "sha256": "82d7d80c947ae6b5499ae8c4fdeb7694df02462e359b9e0dd2e17fdaa666d269",
+      "boundaries": [
+        {
+          "text": "enfant",
+          "offset": 1021660,
+          "duration": 5298750
+        },
+        {
+          "text": "manger",
+          "offset": 15739160,
+          "duration": 6250000
+        },
+        {
+          "text": "temps",
+          "offset": 31385830,
+          "duration": 3804160
+        },
+        {
+          "text": "penser",
+          "offset": 44565410,
+          "duration": 6114160
+        },
+        {
+          "text": "chambre",
+          "offset": 60032500,
+          "duration": 6114160
+        },
+        {
+          "text": "ambulance",
+          "offset": 75521660,
+          "duration": 8016250
+        },
+        {
+          "text": "emballer",
+          "offset": 93048750,
+          "duration": 6521660
+        }
+      ]
+    },
+    "nasal-in": {
+      "examples": [
+        "le vin",
+        "la fin",
+        "le matin",
+        "quinze",
+        "important",
+        "impossible",
+        "imbécile",
+        "impoli",
+        "imperméable",
+        "pain",
+        "demain",
+        "certain",
+        "humain",
+        "faim",
+        "daim",
+        "plein",
+        "rein",
+        "seins",
+        "ceinture",
+        "bientôt",
+        "syndicat",
+        "sympathique",
+        "symbole",
+        "J’ai faim."
+      ],
+      "text": "le vin. la fin. le matin. quinze. important. impossible. imbécile. impoli. imperméable. pain. demain. certain. humain. faim. daim. plein. rein. seins. ceinture. bientôt. syndicat. sympathique. symbole. J’ai faim.",
+      "fingerprint": "89b4f7d4",
+      "file": "nasal-in.mp3",
+      "duration": 37.896,
+      "sha256": "794c7fda78a090b245d0991f8b595e85cb4cc7244265d1eb328e020b86af313b",
+      "boundaries": [
+        {
+          "text": "le",
+          "offset": 1021660,
+          "duration": 2173750
+        },
+        {
+          "text": "vin",
+          "offset": 3331660,
+          "duration": 3532500
+        },
+        {
+          "text": "la",
+          "offset": 16418330,
+          "duration": 2173750
+        },
+        {
+          "text": "fin",
+          "offset": 18728330,
+          "duration": 4076250
+        },
+        {
+          "text": "le",
+          "offset": 32190410,
+          "duration": 1766250
+        },
+        {
+          "text": "matin",
+          "offset": 34092500,
+          "duration": 5298750
+        },
+        {
+          "text": "quinze",
+          "offset": 48777080,
+          "duration": 5298750
+        },
+        {
+          "text": "important",
+          "offset": 63429160,
+          "duration": 6929160
+        },
+        {
+          "text": "impossible",
+          "offset": 79733750,
+          "duration": 8695830
+        },
+        {
+          "text": "imbécile",
+          "offset": 97804160,
+          "duration": 8287910
+        },
+        {
+          "text": "impoli",
+          "offset": 115467500,
+          "duration": 6657500
+        },
+        {
+          "text": "imperméable",
+          "offset": 131500000,
+          "duration": 9646660
+        },
+        {
+          "text": "pain",
+          "offset": 150543330,
+          "duration": 3532500
+        },
+        {
+          "text": "demain",
+          "offset": 163429160,
+          "duration": 5298750
+        },
+        {
+          "text": "certain",
+          "offset": 178103330,
+          "duration": 6929160
+        },
+        {
+          "text": "humain",
+          "offset": 194407500,
+          "duration": 4619580
+        },
+        {
+          "text": "faim",
+          "offset": 208412910,
+          "duration": 4212080
+        },
+        {
+          "text": "daim",
+          "offset": 221989160,
+          "duration": 4212080
+        },
+        {
+          "text": "plein",
+          "offset": 235597910,
+          "duration": 4483750
+        },
+        {
+          "text": "rein",
+          "offset": 249456660,
+          "duration": 4076250
+        },
+        {
+          "text": "seins",
+          "offset": 262907500,
+          "duration": 4619580
+        },
+        {
+          "text": "ceinture",
+          "offset": 276902080,
+          "duration": 7337080
+        },
+        {
+          "text": "bientôt",
+          "offset": 293592500,
+          "duration": 6521660
+        },
+        {
+          "text": "syndicat",
+          "offset": 309510830,
+          "duration": 8016250
+        },
+        {
+          "text": "sympathique",
+          "offset": 326766250,
+          "duration": 9510830
+        },
+        {
+          "text": "symbole",
+          "offset": 345652080,
+          "duration": 7337080
+        },
+        {
+          "text": "J’ai",
+          "offset": 362478330,
+          "duration": 2989160
+        },
+        {
+          "text": "faim",
+          "offset": 365603330,
+          "duration": 3804160
+        }
+      ]
+    },
+    "o": {
+      "examples": [
+        "eau",
+        "chaud",
+        "cadeaux",
+        "aux"
+      ],
+      "text": "eau. chaud. cadeaux. aux.",
+      "fingerprint": "c3db437a",
+      "file": "o.mp3",
+      "duration": 5.424,
+      "sha256": "6642247dcfa63675fea8a755bde8888dcfa7477e9a2f7cb1cdf8dfc8f26901f0",
+      "boundaries": [
+        {
+          "text": "eau",
+          "offset": 1043330,
+          "duration": 2717500
+        },
+        {
+          "text": "chaud",
+          "offset": 13157500,
+          "duration": 4619580
+        },
+        {
+          "text": "cadeaux",
+          "offset": 27152080,
+          "duration": 5570830
+        },
+        {
+          "text": "aux",
+          "offset": 42119580,
+          "duration": 2717500
+        }
+      ]
+    },
+    "eu": {
+      "examples": [
+        "feu",
+        "peu",
+        "eux",
+        "heureux"
+      ],
+      "text": "feu. peu. eux. heureux.",
+      "fingerprint": "7aa9e405",
+      "file": "eu.mp3",
+      "duration": 5.52,
+      "sha256": "71db05b9a156cd54236df535ec778c8444f776262d1ad836f2eea9517990499b",
+      "boundaries": [
+        {
+          "text": "feu",
+          "offset": 1032500,
+          "duration": 4619580
+        },
+        {
+          "text": "peu",
+          "offset": 15081660,
+          "duration": 3668330
+        },
+        {
+          "text": "eux",
+          "offset": 28125000,
+          "duration": 2717500
+        },
+        {
+          "text": "heureux",
+          "offset": 40195830,
+          "duration": 5570830
+        }
+      ]
+    },
+    "j": {
+      "examples": [
+        "bien",
+        "pied",
+        "voyage",
+        "travail",
+        "détail",
+        "fille",
+        "famille",
+        "bouteille",
+        "ville",
+        "mille",
+        "tranquille"
+      ],
+      "text": "bien. pied. voyage. travail. détail. fille. famille. bouteille. ville. mille. tranquille.",
+      "fingerprint": "7f2ee80d",
+      "file": "j.mp3",
+      "duration": 17.28,
+      "sha256": "8407706ede6e42950ca6482a88eb5716e496eef789fbec71bc1a6ed108d6dfcc",
+      "boundaries": [
+        {
+          "text": "bien",
+          "offset": 1021660,
+          "duration": 4755410
+        },
+        {
+          "text": "pied",
+          "offset": 15217500,
+          "duration": 4212080
+        },
+        {
+          "text": "voyage",
+          "offset": 28782500,
+          "duration": 7880410
+        },
+        {
+          "text": "travail",
+          "offset": 46059580,
+          "duration": 7337080
+        },
+        {
+          "text": "détail",
+          "offset": 62750000,
+          "duration": 7201250
+        },
+        {
+          "text": "fille",
+          "offset": 79462080,
+          "duration": 5298750
+        },
+        {
+          "text": "famille",
+          "offset": 94135830,
+          "duration": 6250000
+        },
+        {
+          "text": "bouteille",
+          "offset": 109760830,
+          "duration": 7065410
+        },
+        {
+          "text": "ville",
+          "offset": 126201250,
+          "duration": 5298750
+        },
+        {
+          "text": "mille",
+          "offset": 140875000,
+          "duration": 5162910
+        },
+        {
+          "text": "tranquille",
+          "offset": 155434580,
+          "duration": 7880410
+        }
+      ]
+    },
+    "context-96232758": {
+      "examples": [
+        "L’école est près d’ici.",
+        "Les amis arrivent."
+      ],
+      "text": "L’école est près d’ici. Les amis arrivent.",
+      "fingerprint": "96232758",
+      "file": "context-96232758.mp3",
+      "duration": 4.584,
+      "sha256": "e40e2588d714a1d0ae18b040287a65b73152bb4f2bebdb39c2fd77b8534ec44c",
+      "boundaries": [
+        {
+          "text": "L’école",
+          "offset": 1043330,
+          "duration": 4891250
+        },
+        {
+          "text": "est",
+          "offset": 6070830,
+          "duration": 543330
+        },
+        {
+          "text": "près",
+          "offset": 6750000,
+          "duration": 2173750
+        },
+        {
+          "text": "d’ici",
+          "offset": 9059580,
+          "duration": 5842500
+        },
+        {
+          "text": "Les",
+          "offset": 24298750,
+          "duration": 2037910
+        },
+        {
+          "text": "amis",
+          "offset": 26472910,
+          "duration": 3668330
+        },
+        {
+          "text": "arrivent",
+          "offset": 30277080,
+          "duration": 5978330
+        }
+      ]
+    },
+    "context-84c5fe26": {
+      "examples": [
+        "Mes amis prennent le thé.",
+        "Nous jouons avec vous.",
+        "La roue est petite.",
+        "Cette rue est calme.",
+        "Vous venez avec nous.",
+        "Je vais aller chez elle."
+      ],
+      "text": "Mes amis prennent le thé. Nous jouons avec vous. La roue est petite. Cette rue est calme. Vous venez avec nous. Je vais aller chez elle.",
+      "fingerprint": "84c5fe26",
+      "file": "context-84c5fe26.mp3",
+      "duration": 13.368,
+      "sha256": "0c74b62e0069e46781614731d96c939bc66c3e9acca75bc7fb061e23068147c7",
+      "boundaries": [
+        {
+          "text": "Mes",
+          "offset": 1043330,
+          "duration": 2309580
+        },
+        {
+          "text": "amis",
+          "offset": 3489160,
+          "duration": 3125000
+        },
+        {
+          "text": "prennent",
+          "offset": 6750000,
+          "duration": 2581660
+        },
+        {
+          "text": "le",
+          "offset": 9467500,
+          "duration": 1358750
+        },
+        {
+          "text": "thé",
+          "offset": 10962080,
+          "duration": 3260830
+        },
+        {
+          "text": "Nous",
+          "offset": 23641250,
+          "duration": 2717500
+        },
+        {
+          "text": "jouons",
+          "offset": 26494580,
+          "duration": 2989160
+        },
+        {
+          "text": "avec",
+          "offset": 29619580,
+          "duration": 3260830
+        },
+        {
+          "text": "vous",
+          "offset": 33016250,
+          "duration": 2717500
+        },
+        {
+          "text": "La",
+          "offset": 45244580,
+          "duration": 2445830
+        },
+        {
+          "text": "roue",
+          "offset": 47826250,
+          "duration": 1902080
+        },
+        {
+          "text": "est",
+          "offset": 49864160,
+          "duration": 951250
+        },
+        {
+          "text": "petite",
+          "offset": 50951250,
+          "duration": 6657500
+        },
+        {
+          "text": "Cette",
+          "offset": 66983750,
+          "duration": 3668330
+        },
+        {
+          "text": "rue",
+          "offset": 70787910,
+          "duration": 1902080
+        },
+        {
+          "text": "est",
+          "offset": 72826250,
+          "duration": 815410
+        },
+        {
+          "text": "calme",
+          "offset": 73777080,
+          "duration": 4891250
+        },
+        {
+          "text": "Vous",
+          "offset": 88043330,
+          "duration": 2581660
+        },
+        {
+          "text": "venez",
+          "offset": 90760830,
+          "duration": 3125000
+        },
+        {
+          "text": "avec",
+          "offset": 94021660,
+          "duration": 3532500
+        },
+        {
+          "text": "nous",
+          "offset": 97690410,
+          "duration": 3125000
+        },
+        {
+          "text": "Je",
+          "offset": 110190410,
+          "duration": 2717500
+        },
+        {
+          "text": "vais",
+          "offset": 113043330,
+          "duration": 1494580
+        },
+        {
+          "text": "aller",
+          "offset": 114673750,
+          "duration": 2445830
+        },
+        {
+          "text": "chez",
+          "offset": 117255410,
+          "duration": 1766250
+        },
+        {
+          "text": "elle",
+          "offset": 119157500,
+          "duration": 5027080
+        }
+      ]
+    },
+    "context-8e67ac08": {
+      "examples": [
+        "Mon pied me fait mal.",
+        "Nous préparons un voyage.",
+        "Ce détail est important.",
+        "La bouteille est sur la table.",
+        "Ma fille habite en ville.",
+        "La famille est tranquille."
+      ],
+      "text": "Mon pied me fait mal. Nous préparons un voyage. Ce détail est important. La bouteille est sur la table. Ma fille habite en ville. La famille est tranquille.",
+      "fingerprint": "8e67ac08",
+      "file": "context-8e67ac08.mp3",
+      "duration": 14.664,
+      "sha256": "63ed32371d85755270f4756931e0a4b36ad6562fcfb1965718af5029bffd8184",
+      "boundaries": [
+        {
+          "text": "Mon",
+          "offset": 1032500,
+          "duration": 2173750
+        },
+        {
+          "text": "pied",
+          "offset": 3342500,
+          "duration": 2037910
+        },
+        {
+          "text": "me",
+          "offset": 5516250,
+          "duration": 1358750
+        },
+        {
+          "text": "fait",
+          "offset": 7010830,
+          "duration": 1494580
+        },
+        {
+          "text": "mal",
+          "offset": 8641250,
+          "duration": 4891250
+        },
+        {
+          "text": "Nous",
+          "offset": 22962080,
+          "duration": 2309580
+        },
+        {
+          "text": "préparons",
+          "offset": 25407500,
+          "duration": 5434580
+        },
+        {
+          "text": "un",
+          "offset": 30978330,
+          "duration": 815410
+        },
+        {
+          "text": "voyage",
+          "offset": 31929160,
+          "duration": 6657500
+        },
+        {
+          "text": "Ce",
+          "offset": 47962080,
+          "duration": 2309580
+        },
+        {
+          "text": "détail",
+          "offset": 50407500,
+          "duration": 4483750
+        },
+        {
+          "text": "est",
+          "offset": 55027080,
+          "duration": 407500
+        },
+        {
+          "text": "important",
+          "offset": 55570830,
+          "duration": 7201250
+        },
+        {
+          "text": "La",
+          "offset": 72146660,
+          "duration": 2037910
+        },
+        {
+          "text": "bouteille",
+          "offset": 74320830,
+          "duration": 4755410
+        },
+        {
+          "text": "est",
+          "offset": 79212080,
+          "duration": 543330
+        },
+        {
+          "text": "sur",
+          "offset": 79891250,
+          "duration": 1902080
+        },
+        {
+          "text": "la",
+          "offset": 81929160,
+          "duration": 1358750
+        },
+        {
+          "text": "table",
+          "offset": 83423750,
+          "duration": 5570830
+        },
+        {
+          "text": "Ma",
+          "offset": 98369580,
+          "duration": 1902080
+        },
+        {
+          "text": "fille",
+          "offset": 100407500,
+          "duration": 2853330
+        },
+        {
+          "text": "habite",
+          "offset": 103396660,
+          "duration": 3260830
+        },
+        {
+          "text": "en",
+          "offset": 106793330,
+          "duration": 951250
+        },
+        {
+          "text": "ville",
+          "offset": 107880410,
+          "duration": 5162910
+        },
+        {
+          "text": "La",
+          "offset": 122418330,
+          "duration": 1766250
+        },
+        {
+          "text": "famille",
+          "offset": 124320830,
+          "duration": 4619580
+        },
+        {
+          "text": "est",
+          "offset": 129076250,
+          "duration": 407500
+        },
+        {
+          "text": "tranquille",
+          "offset": 129619580,
+          "duration": 7472910
+        }
+      ]
+    }
   }
 }

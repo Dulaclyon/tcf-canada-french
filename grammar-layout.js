@@ -1,5 +1,5 @@
-import {renderPronunciation,pronunciationKeys} from './pronunciation-layout.js';
-export {renderPronunciation} from './pronunciation-layout.js';
+import {renderPronunciation,pronunciationKeys,renderSoundGroups} from './pronunciation-layout.js';
+export {renderPronunciation,pronunciationExamplesAudio} from './pronunciation-layout.js';
 import {correctTeachingText} from './course-editorial.js';
 // Present original teaching text by grammatical role. The source dataset stays intact.
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -19,7 +19,7 @@ function example(text, title) {
 function table(headers, rows, caption = '') {
   return `<div class="grammar-table-wrap"><table class="grammar-table">${caption ? `<caption>${escape(caption)}</caption>` : ''}<thead><tr>${headers.map(h=>`<th scope="col">${escape(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((cell,i)=>i===0?`<th scope="row">${escape(cell)}</th>`:`<td>${escape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
-function pronunciationAudio(key){return `<figure class="phonics-playback"><figcaption>示范发音 <small>合成语音 · 听后跟读</small></figcaption><audio controls preload="none" data-phonics-audio src="./pronunciation-audio/${key}.mp3" aria-label="${key} 发音示范"></audio></figure>`;}
+
 function formula(text) {
   const pieces = text.split(/(→|\+)/u);
   return `<div class="grammar-formula" aria-label="句型结构">${pieces.map(p=>/^(→|\+)$/u.test(p)?`<span class="formula-operator">${escape(p)}</span>`:`<span class="formula-term">${escape(p)}</span>`).join('')}</div>`;
@@ -277,15 +277,12 @@ export function renderGrammar(text, title = '') {
     ];
     const soundRule = soundRules.find(([start]) => line === start || (start.length > 2 && line.startsWith(start)));
     if (soundRule) {
-      output.push('<section class="sound-rule"><h3 class="grammar-subhead">'+escape(line)+'</h3>' +
-        pronunciationAudio(({'an / en / am / em':'nasal-an','et 在单字末尾':'open-e','i, î, y':'i','oi':'wa','tion 的发音':'tion','发音部分 in, im':'nasal-in','eau / au / aux':'o','u / eux':'eu','[j]':'j','ou':'ou'})[soundRule[0]]) + table(['拼写', '读音', '例词'], [[soundRule[1],soundRule[2],soundRule[4]]]) + '<p class="grammar-rule">'+escape(soundRule[3])+'</p></section>');
+      const key=({'an / en / am / em':'nasal-an','et 在单字末尾':'open-e','i, î, y':'i','oi':'wa','tion 的发音':'tion','发音部分 in, im':'nasal-in','eau / au / aux':'o','u / eux':'eu','[j]':'j','ou':'ou'})[soundRule[0]];
+      output.push('<h3 class="grammar-subhead">'+escape(line)+'</h3>'+renderSoundGroups(key==='tion'?['tion','sion']:key==='eu'?['eu','y']:[key]));
       if (!/^[^（(]+[（(][^）)]+[）)]\s*[-–—]\s*[^（(]+[（(][^）)]+[）)]$/u.test(lines[i+1]??'')) continue;
     }
     if (/^(?:phonics|发音)$/iu.test(title) && /^é;\s*单词末尾的\s*es;\s*ez;\s*er$/u.test(line)) {
-      output.push('<section class="sound-rule"><h3 class="grammar-subhead">发音 [e]</h3>' +
-        '<p class="grammar-rule">下面几组拼写在所列例词中都读 [e]。按“拼写 → 读音 → 例词”一起记。</p>' + pronunciationAudio('e') +
-        table(['拼写', '读音', '例词'], [['é', '[e]', 'thé（茶）、été（夏天）'], ['-es（部分单音节词）', '[e]', 'mes（我的）、tes（你的）、ses（他／她的）、les（定冠词复数）'], ['-ez（本组词尾）', '[e]', 'assez（足够）、venez（来）'], ['-er（本组动词原形词尾）', '[e]', 'aller（去）、quitter（离开）']]) +
-        '<p class="grammar-rule">注意：并非所有 -es 都读 [e]；很多词尾 -es 不发音。-er 也有例外，如 mer [mɛʁ]（海）。</p></section>');
+      output.push(renderSoundGroups(['e','ou','y']));
       continue;
     }
     const soundPair = value => value?.match(/^([^（(]+)([（(][^）)]+[）)])\s*[-–—]\s*([^（(]+)([（(][^）)]+[）)])$/u);

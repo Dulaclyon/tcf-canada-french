@@ -121,5 +121,5 @@ const recordings = [
 ];
 export {recordings};
 export function originalLessonAudio(lesson,title) {
- return recordings.filter(r=>r.lesson===lesson && r.title===title).map(r=>`<figure class="lesson-original-audio" data-human-recording><figcaption><span data-ui-label>真人录音</span> · <span data-ui-label>${r.label}</span></figcaption><audio controls preload="none" src="./human-audio/${r.file}"></audio></figure>`).join('');
+ return recordings.filter(r=>r.lesson===lesson && r.title===title).map(r=>`<figure class="lesson-original-audio" data-human-recording><figcaption><span data-ui-label>真人录音</span> · <span data-ui-label>${r.title==='发音'?'原始课堂发音录音':r.label}</span></figcaption><audio controls preload="none" src="./human-audio/${r.file}"></audio></figure>`).join('');
 }

@@ -12,7 +12,9 @@
     "start": "node server/server.mjs",
     "test:students": "node scripts/check-student-auth.mjs",
     "test:essay-ai": "node scripts/check-essay-assessment.mjs && node scripts/check-writing-submissions.mjs",
-    "test:codex-review": "node scripts/check-codex-review.mjs && node scripts/check-writing-submissions.mjs"
+    "test:codex-review": "node scripts/check-codex-review.mjs && node scripts/check-writing-submissions.mjs",
+    "test:dashboard": "node scripts/check-learning-dashboard.mjs",
+    "test:pronunciation": "node scripts/check-pronunciation.mjs && node scripts/check-human-audio.mjs && node scripts/check-phonics-separation.mjs"
   },
   "engines": {
     "node": ">=20"
