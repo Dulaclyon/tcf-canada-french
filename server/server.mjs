@@ -43,6 +43,11 @@ const server=http.createServer(async(req,res)=>{
  const url=new URL(req.url,'http://localhost'),route=url.pathname;
  const token=/(?:^|;\s*)tcf_session=([a-f0-9]+)/.exec(req.headers.cookie||'')?.[1];
  const user=token?db.prepare('SELECT users.*,sessions.token FROM sessions JOIN users ON users.id=sessions.user_id WHERE sessions.token=? AND expires>? AND active=1').get(digest(token),Date.now()):null;
+ // Narrow bearer-only worker channel. It cannot publish feedback or access admin APIs.
+ if(route.startsWith('/api/codex-connector/')){
+  const body=async()=>{let s='';for await(const c of req){s+=c;if(Buffer.byteLength(s)>160000)throw Error('Too large');}return JSON.parse(s||'{}');};
+  return await handleWriting.connector({route,req,body,send});
+ }
  const mutation=!['GET','HEAD'].includes(req.method);
  if(mutation){const origin=req.headers.origin;const expected=process.env.PUBLIC_ORIGIN||`http://${req.headers.host}`;if(origin!==expected)return send(403,{error:'请求来源无法验证'});if(!req.headers['content-type']?.startsWith('application/json'))return send(415,{error:'需要 JSON 请求'});}
  const body=async()=>{let s='';for await(const c of req){s+=c;if(Buffer.byteLength(s)>2*1024*1024)throw Error('请求过大');}return JSON.parse(s||'{}')};

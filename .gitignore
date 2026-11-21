@@ -15,3 +15,6 @@ bank-pack/
 
 # Generated from translations/course-content.json during build.
 course-translations.js
+
+# Private Mac connector pairing token and process lock.
+.codex-review-connector/

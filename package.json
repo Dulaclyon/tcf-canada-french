@@ -11,7 +11,8 @@
     "build:hosted": "node scripts/build-hosted.mjs",
     "start": "node server/server.mjs",
     "test:students": "node scripts/check-student-auth.mjs",
-    "test:essay-ai": "node scripts/check-essay-assessment.mjs && node scripts/check-writing-submissions.mjs"
+    "test:essay-ai": "node scripts/check-essay-assessment.mjs && node scripts/check-writing-submissions.mjs",
+    "test:codex-review": "node scripts/check-codex-review.mjs && node scripts/check-writing-submissions.mjs"
   },
   "engines": {
     "node": ">=20"
