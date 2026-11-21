@@ -1,10 +1,12 @@
-import {spawn} from 'node:child_process';
+import {spawn,spawnSync} from 'node:child_process';
 import {mkdtemp,writeFile,readFile,rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {assessmentRequest,assessmentSchema,validateAssessment} from '../server/essay-assessment.mjs';
 export function subscriptionEnv(env=process.env){const clean={};for(const key of ['PATH','HOME','USER','LOGNAME','TMPDIR','LANG','CODEX_HOME'])if(env[key])clean[key]=env[key];return clean;}
 export async function runCodex(job,{binary='codex',env=process.env,timeout=480000}={}){
+ const login=spawnSync(binary,['login','status'],{env:subscriptionEnv(env),encoding:'utf8',timeout:15000});
+ if(login.status!==0||!/Logged in using ChatGPT/i.test(login.stdout+login.stderr))throw Object.assign(Error('Sign into Codex with ChatGPT. API-key authentication is not permitted.'),{code:'auth'});
  const dir=await mkdtemp(path.join(tmpdir(),'french-codex-review-'));
  try{
   const schema=path.join(dir,'schema.json'),output=path.join(dir,'assessment.json');
