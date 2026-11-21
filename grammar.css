@@ -374,6 +374,3 @@
 
 .grammar-bilingual:not(.grammar-sentence){grid-template-columns:minmax(0,20ch) minmax(0,1fr);max-width:58ch;gap:12px 20px}
 @media(max-width:600px){.grammar-bilingual:not(.grammar-sentence){grid-template-columns:minmax(0,1fr);gap:5px}}
-
-/* Numbered topic labels remain consistent regardless of label length or language. */
-.grammar-content .grammar-numbered-subhead{font-size:17px!important;font-weight:600;line-height:1.65;color:inherit;margin:28px 0 14px;padding:0;border:0;border-radius:0;background:none;max-width:none;text-align:left;text-align-last:auto}.grammar-content .grammar-step.grammar-numbered-subhead{margin:14px 0}.grammar-content .grammar-numbered-subhead .grammar-zh{font:inherit;color:inherit}

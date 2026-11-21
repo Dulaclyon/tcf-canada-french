@@ -122,3 +122,6 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .map-reading .article-rule-card:first-child{padding-top:0;border-top:0}
 .map-reading .article-reference .article-rule-card>.grammar-subhead{padding:0;margin:0 0 18px;background:transparent;border-radius:0}
 @media(max-width:760px){.mindmap-lesson .map-reading{padding:18px}}
+
+/* Numbered topic labels remain consistent regardless of label length or language. */
+.grammar-content .grammar-numbered-subhead{font-size:17px!important;font-weight:600;line-height:1.65;color:inherit;margin:28px 0 14px;padding:0;border:0;border-radius:0;background:none;max-width:none;text-align:left;text-align-last:auto}.grammar-content .grammar-step.grammar-numbered-subhead{margin:14px 0}.grammar-content .grammar-numbered-subhead .grammar-zh{font:inherit;color:inherit}
