@@ -88,3 +88,4 @@ execFileSync(process.execPath,['scripts/check-course-language.mjs'],{stdio:'inhe
 execFileSync(process.execPath,['scripts/check-content-structure.mjs'],{stdio:'inherit'});
 
 execFileSync(process.execPath,['scripts/check-recalled-training.mjs'],{stdio:'inherit'});
+execFileSync(process.execPath,['scripts/check-transition.mjs'],{stdio:'inherit'});

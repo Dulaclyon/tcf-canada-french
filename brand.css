@@ -201,3 +201,4 @@ button:disabled{opacity:.5;cursor:not-allowed}
 #sidebar .brand .wordmark{gap:.1em;font-size:25px}
 #sidebar .brand .wordmark em{font-family:'Allura',cursive;font-size:1.08em;line-height:1.05;letter-spacing:-.035em}
 .editorial-header .wordmark em{font-size:1.08em}
+.transition-phrase-examples .transition-usage{font-size:14px;line-height:1.75;color:var(--muted);margin:8px 0 16px;max-width:80ch}

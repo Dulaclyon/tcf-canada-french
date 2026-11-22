@@ -102,7 +102,7 @@ const server=http.createServer(async(req,res)=>{
  const access=user?permissionsFor(user):null;
  if(user&&user.role!=='admin'){
   const denied=()=>send(403,{error:'此板块尚未开放，请联系老师。'});
-  if(['transition-to-prep.js','transition-content.js','transition-phrases.js','pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
+  if(['transition-to-prep.js','transition-content.js','transition-phrases.js','transition-prepositions.js','pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
   if((name.startsWith('human-audio/')||name.startsWith('pronunciation-audio/'))&&!access.basics)return denied();
   if(name==='src/data/materials.json'||name==='src/data/courses.json'){
    if(!access.basics)return send(200,[]);
