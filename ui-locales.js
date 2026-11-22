@@ -1,4 +1,11 @@
 export const messages = {
+"基础课程":{"en": "Foundations", "zh-TW": "基礎課程"},
+"听力":{"en": "Listening", "zh-TW": "聽力"},
+"阅读":{"en": "Reading", "zh-TW": "閱讀"},
+"口语":{"en": "Speaking", "zh-TW": "口語"},
+"写作":{"en": "Writing", "zh-TW": "寫作"},
+"来源资料":{"en": "Sources", "zh-TW": "來源資料"},
+"进度已保存至账号":{"en": "Progress saved to your account", "zh-TW": "進度已儲存至帳號"},
 "查看组别":{"en":"View sets","zh-TW":"查看組別"},
 "收起组别":{"en":"Hide sets","zh-TW":"收起組別"},
 "我的笔记":{"en": "My notes", "zh-TW": "我的筆記"},

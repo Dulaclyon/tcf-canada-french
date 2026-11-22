@@ -34,15 +34,15 @@ function save(){if(recoveryRaw!==null&&!recoveryExported){toast('为保护原档
 const wordCount=s=>(s.trim().match(/[^\s]+/gu)||[]).filter(token=>/[\p{L}\p{N}]/u.test(token)).length;
 const normalize=(s,accent=true)=>{let n=s.normalize('NFC').toLocaleLowerCase('fr').replace(/[’‘]/g,"'").replace(/[.,!?;:«»“”]/g,' ').replace(/\s+/g,' ').trim();return accent?n:n.normalize('NFD').replace(/[\u0300-\u036f]/g,'')};
 const navGroups = [
-  ['基础学习', [['courses', '基础语法'], ['review', '复习']]],
-  ['TCF CA 考试准备', [['listening', '听力训练'], ['reading', '阅读训练'], ['oral', '口语训练'], ['writing', '写作训练']]],
-  ['说明', [['sources', '内容与来源']]],
+  ['基础学习', [['courses', '基础课程'], ['review', '复习']]],
+  ['TCF CA 考试准备', [['listening', '听力'], ['reading', '阅读'], ['oral', '口语'], ['writing', '写作']]],
+  ['说明', [['sources', '来源资料']]],
 ];
 const navigationIcons={home:'layout-dashboard',courses:'book-2',review:'rotate-clockwise',listening:'headphones',reading:'book',oral:'microphone',writing:'pencil',sources:'info-circle'};
 const navLink = (id, label) => `<a href="#${id}" data-nav="${id}"><span class="nav-icon" data-icon="${navigationIcons[id]}" aria-hidden="true"></span>${label}</a>`;
 document.querySelector('#nav').innerHTML = navLink('home', '学习总览') + navGroups.map(([title, links]) =>
-  `<div class="nav-section" role="group" aria-label="${title}">
-    <p class="nav-group">${title}</p>
+  `<div class="nav-section ${title==='TCF CA 考试准备'?'nav-exam-section':'nav-quiet-section'}" role="group" aria-label="${title}">
+    ${title==='TCF CA 考试准备'?`<p class="nav-group">${title}</p>`:''}
     ${links.map(([id, label]) => navLink(id, label)).join('')}
   </div>`
 ).join('');

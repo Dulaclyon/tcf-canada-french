@@ -20,5 +20,5 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&accountMenu
 accountMenu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{accountMenu.open=false;}));
 document.querySelector('#cloud-retry').onclick=()=>{for(const k of keys)if(values[k])storage.setItem(k,JSON.stringify(values[k]));};
 document.querySelector('#student-logout').onclick=async()=>{await queue;await fetch('/api/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});location.replace('/');};
-for(const node of document.querySelectorAll('.sidebar-bottom small'))node.textContent='学习进度保存至个人账号';
+for(const node of document.querySelectorAll('.sidebar-bottom small'))node.textContent='进度已保存至账号';
 if('serviceWorker' in navigator){for(const registration of await navigator.serviceWorker.getRegistrations())await registration.unregister();for(const key of await caches.keys())if(key.startsWith('tcf-french-'))await caches.delete(key);}
