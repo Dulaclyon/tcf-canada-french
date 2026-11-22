@@ -233,3 +233,4 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .transition-all-tenses th,.transition-all-tenses td{white-space:normal;padding:11px 9px;overflow-wrap:normal}
 .transition-all-tenses th:first-child{width:90px;white-space:nowrap}
 @media(min-width:601px){.student-progress-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.preposition-example-group{margin:24px 0 30px}.preposition-example-group>h3{font-size:18px;line-height:1.5;margin-bottom:12px}.preposition-example-group>p{font-size:14px;line-height:1.8;color:var(--muted);margin-bottom:16px}.preposition-example-group td:first-child{width:60%}

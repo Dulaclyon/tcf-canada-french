@@ -131,15 +131,18 @@ export const prepositionEntries=[
       "zh-TW": "在……家；到……處"
     },
     "note": {
-      "en": "Use before a person, professional or business name; not a generic place such as the station.",
-      "zh-CN": "接人、职业称谓或商家名称，不接车站等一般地点。",
-      "zh-TW": "接人、職業稱謂或商家名稱，不接車站等一般地點。"
+      "en": "Use chez with a person, stressed pronoun, professional or business name: someone’s home, a professional’s premises or a company. Use à for an ordinary place, as in à la gare.",
+      "zh-CN": "chez 后接人、重读代词、职业称谓或商家名称，可表示在某人家、去某人处或在某公司；一般地点用 à，如 à la gare。",
+      "zh-TW": "chez 後接人、重讀代名詞、職業稱謂或商家名稱，可表示在某人家、去某人處或在某公司；一般地點用 à，如 à la gare。"
     },
     "pattern": "chez + personne",
     "examples": [
-      "Je vais chez mon ami.",
-      "Elle est chez le dentiste.",
-      "Nous restons chez nous ce soir."
+      "Je suis chez moi.",
+      "Tu viens chez moi ce soir ?",
+      "Nous dînons chez nos amis.",
+      "Elle va chez le médecin demain.",
+      "Je passe chez le boulanger avant de rentrer.",
+      "Ils travaillent chez Renault."
     ]
   },
   {
@@ -803,15 +806,18 @@ export const prepositionEntries=[
       "zh-TW": "和……一起；用……"
     },
     "note": {
-      "en": "Can express company, an instrument or a manner.",
-      "zh-CN": "可表示陪同、工具或方式。",
-      "zh-TW": "可表示陪同、工具或方式。"
+      "en": "Avec can express company, an instrument, an accompanying ingredient or manner. Use stressed pronouns: moi, toi, lui, elle, nous, vous, eux, elles.",
+      "zh-CN": "avec 可表示和某人一起、使用工具、伴随成分或做事的方式；重读代词用 moi、toi、lui、elle、nous、vous、eux、elles。",
+      "zh-TW": "avec 可表示和某人一起、使用工具、伴隨成分或做事的方式；重讀代名詞用 moi、toi、lui、elle、nous、vous、eux、elles。"
     },
     "pattern": "avec + nom",
     "examples": [
-      "Je vais au cinéma avec mes amis.",
+      "J’habite à Toronto avec Julien.",
+      "Tu viens avec nous ?",
       "Elle coupe le papier avec des ciseaux.",
-      "Il répond avec patience."
+      "Je prends un café avec du lait.",
+      "Il explique la règle avec patience.",
+      "Avec un peu de pratique, tu progresseras."
     ]
   },
   {

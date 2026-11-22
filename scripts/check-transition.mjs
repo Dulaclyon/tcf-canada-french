@@ -19,12 +19,12 @@ assert.equal(get('se brosser les dents').past[5],'se sont brossé les dents');
 assert.equal(prep.length,46);assert.equal(phrases.length,100);
 for(const [rows,groups] of [[prep,prepositionGroups],[phrases,transitionPhraseGroups]]){
  assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);assert.equal(new Set(rows.map(r=>r.phrase)).size,rows.length);
- for(const r of rows){assert.ok(groups.some(g=>g.id===r.group));assert.equal(r.examples.length,3);for(const l of languages){assert.ok(r.meaning[l]);if(rows===prep)assert.ok(r.note[l]);}for(const e of r.examples)assert.ok(e.length>10&&!/\p{Script=Han}/u.test(e));}
+ for(const r of rows){assert.ok(groups.some(g=>g.id===r.group));assert.equal(r.examples.length,rows===prep&&['chez','avec'].includes(r.phrase)?6:3);for(const l of languages){assert.ok(r.meaning[l]);if(rows===prep)assert.ok(r.note[l]);}for(const e of r.examples)assert.ok(e.length>10&&!/\p{Script=Han}/u.test(e));}
 }
 for(const phrase of ['à côté de','près de','au bout de','le long de','au centre de','autour de','au coin de','afin de','avec','à cause de','grâce à','en raison de','faute de','à force de','compte tenu de'])assert.ok(prep.some(p=>p.phrase===phrase),phrase);
 assert.ok(prep.find(p=>p.phrase==='faute de').examples.some(e=>e.includes('Faute de temps')));
 assert.ok(prep.find(p=>p.phrase==='à force de').examples.some(e=>e.includes('À force d’efforts')));
-console.log('Transition checks passed: 200 verbs × 6 tenses, pronoun/auxiliary/spelling regressions, 46 dedicated prepositions with 138 examples, and all 100 original phrases retained.');
+console.log('Transition checks passed: 200 verbs × 6 tenses, pronoun/auxiliary/spelling regressions, 46 dedicated prepositions with 144 examples, and all 100 original phrases retained.');
 
 assert.deepEqual(new Set(verbs.map(v=>v.id)),new Set(JSON.parse(readFileSync('docs/transition-verb-inventory.json','utf8')).verbs));
 for(const v of verbs){assert.equal(verbExamples[v.id]?.length,3,v.id);}

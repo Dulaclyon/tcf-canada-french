@@ -13,6 +13,14 @@ let checked=0;
 for(const m of materials)for(const p of m.pages)for(const b of p.sections){
  const html=renderGrammar(b.text,b.title);
  const rendered=canonical(plain(html));
+ // This source paragraph is intentionally replaced by the requested richer chez/avec lesson.
+ if(m.id==='lesson-03'&&b.title==='介词'&&b.text.includes('chez 在....家')){
+  for(const phrase of ['à Paris','au cinéma','Je suis chez moi.','Elle va chez le médecin demain.','Ils travaillent chez Renault.','J’habite à Toronto avec Julien.','Elle coupe le papier avec des ciseaux.','Il explique la règle avec patience.'])assert(rendered.includes(canonical(phrase)),phrase);
+  assert.equal((html.match(/<section class="preposition-example-group">/g)||[]).length,2);
+  assert.equal((html.match(/<td lang="fr">/g)||[]).length,12);
+  continue;
+ }
+
  if(/^(?:phonics|发音)$/iu.test(b.title)&&pronunciationKeys(b.text).length){assert(html.includes('phonics-word-list'));continue;}
  const lines=correctTeachingText(b.text).split('\n').map(x=>x.trim()).filter(Boolean);
  if(lines[0]===b.title.trim())lines.shift();
@@ -45,7 +53,8 @@ console.log('Post-reading vocabulary and sentence notes are distinct from articl
 const annotatedDialogue=renderArticle(find(3,'对话部分').text);
 assert.equal((annotatedDialogue.match(/class="article-notes"/g)||[]).length,2);
 assert.match(plain(annotatedDialogue), /词汇与句型备注.*游泳池.*Cécile :/u);
-assert.match(plain(annotatedDialogue), /là-bas \? （là-bas）/u);
+assert.match(plain(annotatedDialogue), /DUFOUR là-bas \?/u);
+assert(!plain(annotatedDialogue).includes('（là-bas）'));
 
 assert.match(plain(annotatedDialogue), /piscine n\.f （游泳池）/u);
 assert.match(plain(annotatedDialogue), /Je suis chez moi\. （我在家。）/u);
@@ -105,3 +114,8 @@ console.log('Annie spacing, corrected glossary boundaries, dialogue continuation
 
 const timeNotes=renderArticle("Annie : Merci.\nDéjà ---- Already\nheure----- time, hour");
 assert(/Déjà<\/th><td>Already<\/td>/u.test(timeNotes)||/Déjà<\/td><td>Already<\/td>/u.test(timeNotes),'Separate glossary entries cannot merge after an English gloss');
+
+const beginner=materials.find(m=>m.id==='lesson-03');
+assert(!JSON.stringify(beginner.supplements).includes('C’est elle qui organise'));
+assert(!JSON.stringify(beginner.supplements.find(s=>s.id==='lesson-03-extra-5')).includes('lequel'));
+assert(JSON.stringify(materials.find(m=>m.id==='lesson-20').supplements).includes('C’est elle qui organise la réunion.'));

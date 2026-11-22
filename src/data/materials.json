@@ -990,8 +990,8 @@
             "zh": "你和我们一起去吗？"
           },
           {
-            "fr": "C’est elle qui organise la réunion.",
-            "zh": "是她组织会议。"
+            "fr": "C’est elle.",
+            "zh": "是她。"
           },
           {
             "fr": "Tu viens avec moi ?",
@@ -1036,7 +1036,7 @@
       {
         "id": "lesson-03-extra-5",
         "title": "疑问词选择",
-        "rule": "先判断询问人还是物，再判断疑问词在句中作主语还是宾语。quel 修饰名词，lequel 代替已知名词。",
+        "rule": "问人用 qui，问地点用 où，问时间用 quand；用 qu’est-ce que 询问事物。",
         "table": {
           "headers": [
             "形式 / 结构",
@@ -1044,34 +1044,42 @@
           ],
           "rows": [
             [
-              "Qui est-ce qui / Qu’est-ce qui",
-              "询问人／物作主语"
+              "qui",
+              "Qui est-ce ?"
             ],
             [
-              "Qui est-ce que / Qu’est-ce que",
-              "询问人／物作宾语"
+              "où",
+              "Où est la gare ?"
             ],
             [
-              "quel / quelle / quels / quelles + 名词",
-              "Quel trajet choisissez-vous ?"
+              "quand",
+              "Quand est-ce que tu pars ?"
             ],
             [
-              "lequel / laquelle / lesquels / lesquelles",
-              "Parmi ces trajets, lequel choisissez-vous ?"
+              "qu’est-ce que",
+              "Qu’est-ce que tu cherches ?"
             ]
           ]
         },
         "examples": [
           {
-            "fr": "Qu’est-ce qui vous inquiète ?",
-            "zh": "什么让您担心？"
+            "fr": "Qui est-ce ? — C’est Paul.",
+            "zh": "这是谁？——这是 Paul。"
           },
           {
-            "fr": "Qu’est-ce que vous cherchez ?",
-            "zh": "您在找什么？"
+            "fr": "Où est la gare ? — Elle est près d’ici.",
+            "zh": "火车站在哪里？——就在这附近。"
+          },
+          {
+            "fr": "Quand est-ce que tu pars ? — Demain.",
+            "zh": "你什么时候出发？——明天。"
+          },
+          {
+            "fr": "Qu’est-ce que tu cherches ? — Mon livre.",
+            "zh": "你在找什么？——我的书。"
           }
         ],
-        "pitfall": "主语疑问词后直接接谓语，勿额外补一个重复的主语。",
+        "pitfall": "où 问地点，quand 问时间；本课先掌握这些简单问句。",
         "application": "",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
@@ -8052,7 +8060,7 @@
       {
         "id": "lesson-20-supp-01",
         "title": "qui 与 que",
-        "rule": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。",
+        "rule": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。 在强调结构 C’est…qui… 中，qui 引出被强调的主语。",
         "examples": [
           {
             "fr": "Le livre qui est ici est à Paul.",
@@ -8061,6 +8069,10 @@
           {
             "fr": "Le livre que tu lis est intéressant.",
             "zh": "你读的那本书很有趣。"
+          },
+          {
+            "fr": "C’est elle qui organise la réunion.",
+            "zh": "是她组织会议。"
           }
         ],
         "pitfall": "看从句中缺的是主语还是宾语，而不是只按先行词是人还是物判断。",

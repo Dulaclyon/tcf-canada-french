@@ -1,5 +1,6 @@
 // Display corrections only: retain the imported PDFs and source text verbatim.
 export const editorialCorrections = [
+ ['là-bas ? là-bas','là-bas ?'],
  ['记得将来时(特别是特殊的常用动词的将来时)和\nimparfait， 基本就没有问题了！！！','现在条件式：将来时词干 + 未完成过去时词尾（-ais、-ais、-ait、-ions、-iez、-aient）。'],
  ['passé composé 结构 avoir + .....é （er --> é）','passé composé：avoir 的现在时 + 过去分词；规则 -er 动词的过去分词以 -é 结尾。'],
  ['voir → 看见see regarder -> watch','voir → 看见；regarder 表示有意识地看。'],

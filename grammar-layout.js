@@ -178,6 +178,8 @@ function reflowSourceLines(text) {
 
 export function renderGrammar(text, title = '') {
   text=correctTeachingText(text);
+  const chezStart=String(text).indexOf('chez 在....家 Je suis chez moi, 我在我家');
+  if(chezStart>=0&&String(text).includes("J'habite à Toronto avec Julien."))return renderGrammar(String(text).slice(0,chezStart),title)+chezAvecExamples();
   if(/^(?:phonics|发音)$/iu.test(title)&&pronunciationKeys(text).length)return renderPronunciation(text);
   if (/^ce qui, ce que, ce dont\s*\n/u.test(String(text))) {
     const organized = relativePronounGroups(text);
@@ -518,4 +520,9 @@ export function renderArticle(text) {
   flush();
   flushNotes();
   return `<div class="article-typeset">${output.join('')}</div>`;
+}
+
+function chezAvecExamples(){
+ const groups=[{"word": "chez", "note": "chez 后接人、重读代词、职业称谓或商家名称，可表示在某人家、去某人处或在某公司；一般地点用 à，如 à la gare。", "examples": [["Je suis chez moi.", "我在家。"], ["Tu viens chez moi ce soir ?", "你今晚来我家吗？"], ["Nous dînons chez nos amis.", "我们在朋友家吃晚饭。"], ["Elle va chez le médecin demain.", "她明天去看医生。"], ["Je passe chez le boulanger avant de rentrer.", "我回家前去一趟面包店。"], ["Ils travaillent chez Renault.", "他们在雷诺公司工作。"]]}, {"word": "avec", "note": "avec 可表示和某人一起、使用工具、伴随成分或做事的方式；重读代词用 moi、toi、lui、elle、nous、vous、eux、elles。", "examples": [["J’habite à Toronto avec Julien.", "我和 Julien 一起住在多伦多。"], ["Tu viens avec nous ?", "你和我们一起去吗？"], ["Elle coupe le papier avec des ciseaux.", "她用剪刀剪纸。"], ["Je prends un café avec du lait.", "我喝一杯加牛奶的咖啡。"], ["Il explique la règle avec patience.", "他耐心地解释规则。"], ["Avec un peu de pratique, tu progresseras.", "稍加练习，你就会进步。"]]}];
+ return groups.map(g=>`<section class="preposition-example-group"><h3 lang="fr">${g.word}</h3><p>${escape(g.note)}</p><div class="grammar-table-wrap"><table class="grammar-table"><thead><tr><th>例句</th><th>释义</th></tr></thead><tbody>${g.examples.map(([fr,zh])=>`<tr><td lang="fr">${escape(fr)}</td><td>${escape(zh)}</td></tr>`).join('')}</tbody></table></div></section>`).join('');
 }

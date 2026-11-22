@@ -20830,5 +20830,110 @@
     "source": "现在条件式：将来时词干 + 未完成过去时词尾（-ais、-ais、-ait、-ions、-iez、-aient）。",
     "en": "Present conditional: future stem + imperfect endings (-ais, -ais, -ait, -ions, -iez, -aient).",
     "zh-TW": "現在條件式：將來式詞幹 + 未完成過去式詞尾（-ais、-ais、-ait、-ions、-iez、-aient）。"
+  },
+  {
+    "source": "我在家。",
+    "en": "I am at home.",
+    "zh-TW": "我在家。"
+  },
+  {
+    "source": "你今晚来我家吗？",
+    "en": "Are you coming to my place tonight?",
+    "zh-TW": "你今晚來我家嗎？"
+  },
+  {
+    "source": "我们在朋友家吃晚饭。",
+    "en": "We are having dinner at our friends’ home.",
+    "zh-TW": "我們在朋友家吃晚餐。"
+  },
+  {
+    "source": "她明天去看医生。",
+    "en": "She is going to the doctor’s tomorrow.",
+    "zh-TW": "她明天去看醫生。"
+  },
+  {
+    "source": "我回家前去一趟面包店。",
+    "en": "I am stopping at the baker’s before going home.",
+    "zh-TW": "我回家前去一趟麵包店。"
+  },
+  {
+    "source": "他们在雷诺公司工作。",
+    "en": "They work at Renault.",
+    "zh-TW": "他們在雷諾公司工作。"
+  },
+  {
+    "source": "我和 Julien 一起住在多伦多。",
+    "en": "I live in Toronto with Julien.",
+    "zh-TW": "我和 Julien 一起住在多倫多。"
+  },
+  {
+    "source": "她用剪刀剪纸。",
+    "en": "She cuts the paper with scissors.",
+    "zh-TW": "她用剪刀剪紙。"
+  },
+  {
+    "source": "我喝一杯加牛奶的咖啡。",
+    "en": "I am having a coffee with milk.",
+    "zh-TW": "我喝一杯加牛奶的咖啡。"
+  },
+  {
+    "source": "他耐心地解释规则。",
+    "en": "He explains the rule patiently.",
+    "zh-TW": "他耐心地解釋規則。"
+  },
+  {
+    "source": "稍加练习，你就会进步。",
+    "en": "With a little practice, you will improve.",
+    "zh-TW": "稍加練習，你就會進步。"
+  },
+  {
+    "source": "chez 后接人、重读代词、职业称谓或商家名称，可表示在某人家、去某人处或在某公司；一般地点用 à，如 à la gare。",
+    "en": "Use chez with a person, stressed pronoun, professional or business name: someone’s home, a professional’s premises or a company. Use à for an ordinary place, as in à la gare.",
+    "zh-TW": "chez 後接人、重讀代名詞、職業稱謂或商家名稱，可表示在某人家、去某人處或在某公司；一般地點用 à，如 à la gare。"
+  },
+  {
+    "source": "avec 可表示和某人一起、使用工具、伴随成分或做事的方式；重读代词用 moi、toi、lui、elle、nous、vous、eux、elles。",
+    "en": "Avec can express company, an instrument, an accompanying ingredient or manner. Use stressed pronouns: moi, toi, lui, elle, nous, vous, eux, elles.",
+    "zh-TW": "avec 可表示和某人一起、使用工具、伴隨成分或做事的方式；重讀代名詞用 moi、toi、lui、elle、nous、vous、eux、elles。"
+  },
+  {
+    "source": "问人用 qui，问地点用 où，问时间用 quand；用 qu’est-ce que 询问事物。",
+    "en": "Use qui for people, où for places, quand for time, and qu’est-ce que to ask about things.",
+    "zh-TW": "問人用 qui，問地點用 où，問時間用 quand；用 qu’est-ce que 詢問事物。"
+  },
+  {
+    "source": "où 问地点，quand 问时间；本课先掌握这些简单问句。",
+    "en": "Où asks about places and quand asks about time. Focus on these simple questions in this lesson.",
+    "zh-TW": "où 問地點，quand 問時間；本課先掌握這些簡單問句。"
+  },
+  {
+    "source": "这是谁？——这是 Paul。",
+    "en": "Who is this? — This is Paul.",
+    "zh-TW": "這是誰？——這是 Paul。"
+  },
+  {
+    "source": "火车站在哪里？——就在这附近。",
+    "en": "Where is the station? — It is near here.",
+    "zh-TW": "火車站在哪裡？——就在這附近。"
+  },
+  {
+    "source": "你什么时候出发？——明天。",
+    "en": "When are you leaving? — Tomorrow.",
+    "zh-TW": "你什麼時候出發？——明天。"
+  },
+  {
+    "source": "你在找什么？——我的书。",
+    "en": "What are you looking for? — My book.",
+    "zh-TW": "你在找什麼？——我的書。"
+  },
+  {
+    "source": "是她。",
+    "en": "It is her.",
+    "zh-TW": "是她。"
+  },
+  {
+    "source": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。 在强调结构 C’est…qui… 中，qui 引出被强调的主语。",
+    "en": "Qui is the subject of a relative clause and is usually followed by a verb. Que is a direct object; its clause has its own subject, and que becomes qu’ before a vowel. In C’est…qui…, qui introduces the highlighted subject.",
+    "zh-TW": "qui 在關係子句中作主詞，後面通常直接跟動詞；que 作直接受詞，子句另有主詞，母音前省音為 qu’。在強調結構 C’est…qui… 中，qui 引出被強調的主詞。"
   }
 ]
