@@ -238,7 +238,7 @@ function comprehensionPage(kind, id) {
     <div class="card-meta"><span class="tag">${esc(passage.level)}</span><span class="tag">${esc(passage.source)}</span></div>
     <h2>${esc(passage.title)}</h2>${passage.sourceNote?`<p class="muted">${esc(passage.sourceNote)}</p><a class="text-link" href="${esc(passage.sourceUrl)}" target="_blank" rel="noreferrer">回忆主题出处 ↗</a>`:''}
     ${listening ? `<div class="listening-playback"><h3>播放听力</h3><p class="muted">法语合成语音 · 优先使用自然音色</p><div class="listening-audio-target" data-listening-text="${esc(passage.text)}"></div></div>
-    <details open class="listening-transcript"><summary>查看听力原文</summary>${text}</details>` : text}
+    <details class="listening-transcript"><summary>查看听力原文</summary>${text}</details>` : text}
     </section><form class="card comprehension-questions" id="comprehension-form">
     <h2>理解练习</h2>
     ${passage.questions.map((question, i) => `<fieldset><legend>${i + 1}. ${esc(question.prompt)}</legend>
