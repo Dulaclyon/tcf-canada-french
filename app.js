@@ -36,7 +36,7 @@ const wordCount=s=>(s.trim().match(/[^\s]+/gu)||[]).filter(token=>/[\p{L}\p{N}]/
 const normalize=(s,accent=true)=>{let n=s.normalize('NFC').toLocaleLowerCase('fr').replace(/[’‘]/g,"'").replace(/[.,!?;:«»“”]/g,' ').replace(/\s+/g,' ').trim();return accent?n:n.normalize('NFD').replace(/[\u0300-\u036f]/g,'')};
 const navGroups = [
   ['基础学习', [['courses', '基础课程'], ['review', '复习']]],
-  ['过渡到备考', [['transition', '过渡到备考']]],
+  ['备考过渡', [['transition', '备考过渡']]],
   ['TCF CA 考试准备', [['listening', '听力'], ['reading', '阅读'], ['oral', '口语'], ['writing', '写作']]],
   ['说明', [['sources', '来源资料']]],
 ];
