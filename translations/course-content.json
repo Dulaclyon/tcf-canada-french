@@ -21555,5 +21555,225 @@
     "source": "si 中的 i 读 [i]。",
     "en": "The i in si is pronounced [i].",
     "zh-TW": "si 中的 i 讀 [i]。"
+  },
+  {
+    "source": "qui：主语的不同用法",
+    "en": "qui: subject uses",
+    "zh-TW": "qui：主语的不同用法"
+  },
+  {
+    "source": "qui 代替从句主语，可以指人或物；合并后不再重复 il、elle 等主语。",
+    "en": "qui replaces the subject of the relative clause, whether a person or thing. Do not repeat that subject.",
+    "zh-TW": "qui 代替子句主語，可以指人或物；合併後不再重複 il、elle 等主語。"
+  },
+  {
+    "source": "我认识一个学生，她会说中文。",
+    "en": "I know a student who speaks Chinese.",
+    "zh-TW": "我認識一個學生，她會說中文。"
+  },
+  {
+    "source": "这是一辆开往市中心的公交车。",
+    "en": "Here is a bus that goes downtown.",
+    "zh-TW": "這是一輛開往市中心的公車。"
+  },
+  {
+    "source": "在这里工作的人都很友善。",
+    "en": "The people who work here are friendly.",
+    "zh-TW": "在這裡工作的人都很友善。"
+  },
+  {
+    "source": "我在找租金更便宜的住处。",
+    "en": "I am looking for accommodation that costs less.",
+    "zh-TW": "我在找租金更便宜的住處。"
+  },
+  {
+    "source": "我们乘坐八点出发的火车。",
+    "en": "We take the train that leaves at eight.",
+    "zh-TW": "我們乘坐八點出發的火車。"
+  },
+  {
+    "source": "que：直接宾语与省音",
+    "en": "que: direct objects and elision",
+    "zh-TW": "que：直接受詞與省音"
+  },
+  {
+    "source": "que 代替直接宾语，从句保留自己的主语；元音或哑音 h 前写作 qu’。",
+    "en": "que replaces a direct object; the clause keeps its own subject. Use qu’ before a vowel or silent h.",
+    "zh-TW": "que 代替直接受詞，子句保留自己的主語；母音或啞音 h 前寫作 qu’。"
+  },
+  {
+    "source": "我在读你推荐给我的书。",
+    "en": "I am reading the book you recommended to me.",
+    "zh-TW": "我在讀你推薦給我的書。"
+  },
+  {
+    "source": "这是一位你认识的朋友。",
+    "en": "Here is a friend you know.",
+    "zh-TW": "這是一位你認識的朋友。"
+  },
+  {
+    "source": "他正在看的电影是法国电影。",
+    "en": "The film he is watching is French.",
+    "zh-TW": "他正在看的電影是法國電影。"
+  },
+  {
+    "source": "我们正在参观的房子很大。",
+    "en": "The house we are visiting is large.",
+    "zh-TW": "我們正在參觀的房子很大。"
+  },
+  {
+    "source": "你们做的练习很有用。",
+    "en": "The exercises you are doing are useful.",
+    "zh-TW": "你們做的練習很有用。"
+  },
+  {
+    "source": "我喜欢她听的那些歌。",
+    "en": "I like the songs she listens to.",
+    "zh-TW": "我喜歡她聽的那些歌。"
+  },
+  {
+    "source": "où：地点与时间",
+    "en": "où: place and time",
+    "zh-TW": "où：地点與時間"
+  },
+  {
+    "source": "où 连接地点或时间；从句中不再重复 là 或 à ce moment-là。",
+    "en": "où introduces a place or time. Do not repeat là or à ce moment-là in the clause.",
+    "zh-TW": "où 連接地點或時間；子句中不再重複 là 或 à ce moment-là。"
+  },
+  {
+    "source": "这是我居住的街区。",
+    "en": "This is the neighbourhood where I live.",
+    "zh-TW": "這是我居住的街區。"
+  },
+  {
+    "source": "我们是在一个星期天相遇的。",
+    "en": "We met on a Sunday.",
+    "zh-TW": "我們是在一個星期天相遇的。"
+  },
+  {
+    "source": "我们吃午饭的餐厅在车站附近。",
+    "en": "The restaurant where we have lunch is near the station.",
+    "zh-TW": "我們吃午飯的餐廳在車站附近。"
+  },
+  {
+    "source": "我记得开始这份工作的那一天。",
+    "en": "I remember the day I started this job.",
+    "zh-TW": "我記得開始這份工作的那一天。"
+  },
+  {
+    "source": "她到来的那一年，下了很多雪。",
+    "en": "It snowed a lot the year she arrived.",
+    "zh-TW": "她到來的那一年，下了很多雪。"
+  },
+  {
+    "source": "这是一间可以安静学习的图书馆。",
+    "en": "This is a library where you can study quietly.",
+    "zh-TW": "這是一間可以安靜學習的圖書館。"
+  },
+  {
+    "source": "dont：动词、形容词与所属关系",
+    "en": "dont: verbs, adjectives and possession",
+    "zh-TW": "dont：動詞、形容词與所屬關係"
+  },
+  {
+    "source": "先找回 de 搭配：parler de、avoir besoin de、être fier de；dont 也能表示所属关系，如 le père de mon ami。",
+    "en": "Identify the de construction: parler de, avoir besoin de, être fier de. dont also expresses possession, as in le père de mon ami.",
+    "zh-TW": "先找回 de 搭配：parler de、avoir besoin de、être fier de；dont 也能表示所屬關係，如 le père de mon ami。"
+  },
+  {
+    "source": "这就是我跟你提过的那本书。",
+    "en": "Here is the book I told you about.",
+    "zh-TW": "這就是我跟你提過的那本書。"
+  },
+  {
+    "source": "我有一位朋友，她的父亲是医生。",
+    "en": "I have a friend whose father is a doctor.",
+    "zh-TW": "我有一位朋友，她的父親是醫生。"
+  },
+  {
+    "source": "这是我需要的文件。",
+    "en": "This is the document I need.",
+    "zh-TW": "這是我需要的文件。"
+  },
+  {
+    "source": "她介绍一个令她自豪的项目。",
+    "en": "She presents a project she is proud of.",
+    "zh-TW": "她介紹一個令她自豪的計畫。"
+  },
+  {
+    "source": "我们讨论的问题与每个人都有关。",
+    "en": "The problem we are discussing concerns everyone.",
+    "zh-TW": "我們討論的問題與每個人都有關。"
+  },
+  {
+    "source": "我们参观一座街道十分安静的城市。",
+    "en": "We are visiting a town whose streets are very quiet.",
+    "zh-TW": "我們參觀一座街道十分安靜的城市。"
+  },
+  {
+    "source": "lequel：性数配合与介词缩合",
+    "en": "lequel: agreement and preposition contractions",
+    "zh-TW": "lequel：性数配合與介词縮合"
+  },
+  {
+    "source": "lequel 系列与先行词的性数一致；à + lequel → auquel，de + lequel → duquel；laquelle 不缩合。",
+    "en": "The lequel forms agree with the antecedent in gender and number. à + lequel becomes auquel; de + lequel becomes duquel. laquelle does not contract.",
+    "zh-TW": "lequel 系列與先行詞的性數一致；à + lequel → auquel，de + lequel → duquel；laquelle 不縮合。"
+  },
+  {
+    "source": "这就是我伏案工作的那张桌子。",
+    "en": "Here is the table I work at.",
+    "zh-TW": "這就是我伏案工作的那張桌子。"
+  },
+  {
+    "source": "这是我参与的项目。",
+    "en": "This is the project I am taking part in.",
+    "zh-TW": "這是我參與的計畫。"
+  },
+  {
+    "source": "我查找这条信息的那些文件年代久远。",
+    "en": "The documents in which I am looking for this information are old.",
+    "zh-TW": "我查找這條資訊的那些文件年代久遠。"
+  },
+  {
+    "source": "她离开的原因属于个人私事。",
+    "en": "Her reasons for leaving are personal.",
+    "zh-TW": "她離開的原因屬於個人私事。"
+  },
+  {
+    "source": "我报名参加的培训周一开始。",
+    "en": "The course I am enrolling in starts on Monday.",
+    "zh-TW": "我報名參加的培訓週一開始。"
+  },
+  {
+    "source": "我住处旁边的那栋楼是一所学校。",
+    "en": "The building next to which I live is a school.",
+    "zh-TW": "我住處旁邊的那棟樓是一所學校。"
+  },
+  {
+    "source": "qui 后的动词与先行词保持单复数一致。",
+    "en": "The verb after qui agrees in number with its antecedent.",
+    "zh-TW": "qui 後的動詞與先行詞保持單複數一致。"
+  },
+  {
+    "source": "que 从句中不能重复同一个直接宾语。",
+    "en": "Do not repeat the same direct object in a que clause.",
+    "zh-TW": "que 子句中不能重複同一個直接受詞。"
+  },
+  {
+    "source": "où 带重音符号；ou 不带重音表示“或者”。",
+    "en": "où has an accent; ou without an accent means “or”.",
+    "zh-TW": "où 帶重音符號；ou 不帶重音表示「或者」。"
+  },
+  {
+    "source": "dont 已包含 de；所属关系用 dont le père，不用 dont son père。",
+    "en": "dont already represents de. For possession, use dont le père, not dont son père.",
+    "zh-TW": "dont 已包含 de；所屬關係用 dont le père，不用 dont son père。"
+  },
+  {
+    "source": "复合介词 à côté de 后用 duquel 系列，不用 dont。",
+    "en": "After the compound preposition à côté de, use a duquel form rather than dont.",
+    "zh-TW": "複合介詞 à côté de 後用 duquel 系列，不用 dont。"
   }
 ]

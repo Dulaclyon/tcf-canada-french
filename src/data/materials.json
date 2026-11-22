@@ -8139,69 +8139,184 @@
     ],
     "supplements": [
       {
-        "id": "lesson-20-supp-01",
-        "title": "qui 与 que",
-        "rule": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。 在强调结构 C’est…qui… 中，qui 引出被强调的主语。",
+        "id": "lesson-20-examples-1",
+        "title": "qui：主语的不同用法",
+        "anchor": "qui 作主语，指人或物",
+        "rule": "qui 代替从句主语，可以指人或物；合并后不再重复 il、elle 等主语。",
         "examples": [
           {
-            "fr": "Le livre qui est ici est à Paul.",
-            "zh": "这里的书是保罗的。"
+            "fr": "Je connais une étudiante. Elle parle chinois. → Je connais une étudiante qui parle chinois.",
+            "zh": "我认识一个学生，她会说中文。"
           },
           {
-            "fr": "Le livre que tu lis est intéressant.",
-            "zh": "你读的那本书很有趣。"
+            "fr": "Voici un bus. Il va au centre-ville. → Voici un bus qui va au centre-ville.",
+            "zh": "这是一辆开往市中心的公交车。"
+          },
+          {
+            "fr": "Les personnes qui travaillent ici sont aimables.",
+            "zh": "在这里工作的人都很友善。"
+          },
+          {
+            "fr": "Je cherche un logement qui coûte moins cher.",
+            "zh": "我在找租金更便宜的住处。"
+          },
+          {
+            "fr": "Nous prenons le train qui part à huit heures.",
+            "zh": "我们乘坐八点出发的火车。"
           },
           {
             "fr": "C’est elle qui organise la réunion.",
             "zh": "是她组织会议。"
           }
         ],
-        "pitfall": "看从句中缺的是主语还是宾语，而不是只按先行词是人还是物判断。",
-        "application": "用同一个名词对照：le livre qui est sur la table；le livre que je lis。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
+        "pitfall": "qui 后的动词与先行词保持单复数一致。",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "qui 作主语，指人或物"
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pror1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas"
       },
       {
-        "id": "lesson-20-supp-02",
-        "title": "où 与 dont",
-        "rule": "où 引出地点或时间；dont 对应从句里需要 de 的成分。",
+        "id": "lesson-20-examples-2",
+        "title": "que：直接宾语与省音",
+        "anchor": "que 作直接宾语，指人或物",
+        "rule": "que 代替直接宾语，从句保留自己的主语；元音或哑音 h 前写作 qu’。",
         "examples": [
           {
-            "fr": "C’est la ville où je suis né.",
-            "zh": "这是我出生的城市。"
+            "fr": "Je lis un livre. Tu m’as conseillé ce livre. → Je lis le livre que tu m’as conseillé.",
+            "zh": "我在读你推荐给我的书。"
           },
           {
-            "fr": "Voici le livre dont je t’ai parlé.",
-            "zh": "这是我跟你提过的书。"
+            "fr": "Voici une amie. Tu connais cette amie. → Voici une amie que tu connais.",
+            "zh": "这是一位你认识的朋友。"
+          },
+          {
+            "fr": "Le film qu’il regarde est français.",
+            "zh": "他正在看的电影是法国电影。"
+          },
+          {
+            "fr": "La maison que nous visitons est grande.",
+            "zh": "我们正在参观的房子很大。"
+          },
+          {
+            "fr": "Les exercices que vous faites sont utiles.",
+            "zh": "你们做的练习很有用。"
+          },
+          {
+            "fr": "J’aime les chansons qu’elle écoute.",
+            "zh": "我喜欢她听的那些歌。"
           }
         ],
-        "pitfall": "dont 已包含 de 的关系，不再在从句重复 de ce livre。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
+        "pitfall": "que 从句中不能重复同一个直接宾语。",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "dont 替代 “de + 名词”"
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pror1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas"
       },
       {
-        "id": "lesson-20-supp-03",
-        "title": "介词与 lequel",
-        "rule": "介词后指事物常用 lequel 系列；à、de 与 le/les 缩合为 auquel/auxquels、duquel/desquels 等。",
+        "id": "lesson-20-examples-3",
+        "title": "où：地点与时间",
+        "anchor": "où 表示地点或时间",
+        "rule": "où 连接地点或时间；从句中不再重复 là 或 à ce moment-là。",
         "examples": [
           {
-            "fr": "La chaise sur laquelle je suis assis est neuve.",
-            "zh": "我坐的椅子是新的。"
+            "fr": "Voici le quartier. J’habite dans ce quartier. → Voici le quartier où j’habite.",
+            "zh": "这是我居住的街区。"
           },
           {
-            "fr": "Le projet auquel je pense est utile.",
-            "zh": "我想到的项目很有用。"
+            "fr": "Nous nous sommes rencontrés un dimanche. → Le jour où nous nous sommes rencontrés était un dimanche.",
+            "zh": "我们是在一个星期天相遇的。"
+          },
+          {
+            "fr": "Le restaurant où nous déjeunons est près de la gare.",
+            "zh": "我们吃午饭的餐厅在车站附近。"
+          },
+          {
+            "fr": "Je me souviens du jour où j’ai commencé ce travail.",
+            "zh": "我记得开始这份工作的那一天。"
+          },
+          {
+            "fr": "L’année où elle est arrivée, il a beaucoup neigé.",
+            "zh": "她到来的那一年，下了很多雪。"
+          },
+          {
+            "fr": "C’est une bibliothèque où l’on peut étudier au calme.",
+            "zh": "这是一间可以安静学习的图书馆。"
           }
         ],
-        "pitfall": "复合介词 près de、à côté de 后常用 duquel 系列，不能一律替换为 dont。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
+        "pitfall": "où 带重音符号；ou 不带重音表示“或者”。",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "lequel / laquelle / lesquels / lesquelles"
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pror1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas"
+      },
+      {
+        "id": "lesson-20-examples-4",
+        "title": "dont：动词、形容词与所属关系",
+        "anchor": "dont 替代 “de + 名词”",
+        "rule": "先找回 de 搭配：parler de、avoir besoin de、être fier de；dont 也能表示所属关系，如 le père de mon ami。",
+        "examples": [
+          {
+            "fr": "Voici un livre. Je t’ai parlé de ce livre. → Voici le livre dont je t’ai parlé.",
+            "zh": "这就是我跟你提过的那本书。"
+          },
+          {
+            "fr": "J’ai une amie. Le père de cette amie est médecin. → J’ai une amie dont le père est médecin.",
+            "zh": "我有一位朋友，她的父亲是医生。"
+          },
+          {
+            "fr": "C’est le document dont j’ai besoin.",
+            "zh": "这是我需要的文件。"
+          },
+          {
+            "fr": "Elle présente un projet dont elle est fière.",
+            "zh": "她介绍一个令她自豪的项目。"
+          },
+          {
+            "fr": "Le problème dont nous discutons concerne tout le monde.",
+            "zh": "我们讨论的问题与每个人都有关。"
+          },
+          {
+            "fr": "Nous visitons une ville dont les rues sont très calmes.",
+            "zh": "我们参观一座街道十分安静的城市。"
+          }
+        ],
+        "pitfall": "dont 已包含 de；所属关系用 dont le père，不用 dont son père。",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pror1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas"
+      },
+      {
+        "id": "lesson-20-examples-5",
+        "title": "lequel：性数配合与介词缩合",
+        "anchor": "lequel / laquelle / lesquels / lesquelles",
+        "rule": "lequel 系列与先行词的性数一致；à + lequel → auquel，de + lequel → duquel；laquelle 不缩合。",
+        "examples": [
+          {
+            "fr": "Voici une table. Je travaille sur cette table. → Voici la table sur laquelle je travaille.",
+            "zh": "这就是我伏案工作的那张桌子。"
+          },
+          {
+            "fr": "C’est un projet. Je participe à ce projet. → C’est le projet auquel je participe.",
+            "zh": "这是我参与的项目。"
+          },
+          {
+            "fr": "Les documents dans lesquels je cherche cette information sont anciens.",
+            "zh": "我查找这条信息的那些文件年代久远。"
+          },
+          {
+            "fr": "Les raisons pour lesquelles elle part sont personnelles.",
+            "zh": "她离开的原因属于个人私事。"
+          },
+          {
+            "fr": "La formation à laquelle je m’inscris commence lundi.",
+            "zh": "我报名参加的培训周一开始。"
+          },
+          {
+            "fr": "L’immeuble à côté duquel j’habite est une école.",
+            "zh": "我住处旁边的那栋楼是一所学校。"
+          }
+        ],
+        "pitfall": "复合介词 à côté de 后用 duquel 系列，不用 dont。",
+        "status": "新增教学补充，非原课件；未经独立教师复核",
+        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/pror1.html",
+        "sourceName": "Tex’s French Grammar · University of Texas"
       }
     ],
     "exercises": [
