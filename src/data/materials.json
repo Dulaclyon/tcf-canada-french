@@ -6034,22 +6034,164 @@
       {
         "id": "lesson-16-supp-03",
         "title": "序数词",
-        "rule": "多数序数词在基数词后加 -ième，词尾 e 通常先去掉；premier/première 特殊，cinq → cinquième，neuf → neuvième。",
+        "rule": "基数词回答“几个”，序数词回答“第几个”。多数序数词在基数词后加 -ième；词尾有 e 时先去 e，如 quatre → quatrième。第一用 premier / première；cinq 加 u 变 cinquième，neuf 的 f 变 v，写作 neuvième。",
         "examples": [
           {
-            "fr": "C’est la première leçon.",
-            "zh": "这是第一课。"
+            "fr": "C’est mon premier jour ici.",
+            "zh": "这是我在这里的第一天。"
+          },
+          {
+            "fr": "C’est la première fois que je viens en France.",
+            "zh": "这是我第一次来法国。"
+          },
+          {
+            "fr": "Nous sommes dans la deuxième salle.",
+            "zh": "我们在第二个房间里。"
+          },
+          {
+            "fr": "Le troisième chapitre est difficile.",
+            "zh": "第三章很难。"
+          },
+          {
+            "fr": "Tournez à droite à la quatrième rue.",
+            "zh": "到第四条街向右转。"
           },
           {
             "fr": "Il habite au cinquième étage.",
             "zh": "他住在五楼。"
+          },
+          {
+            "fr": "Elle arrive en neuvième position.",
+            "zh": "她排在第九位到达。"
+          },
+          {
+            "fr": "Ouvrez le livre à la vingt et unième page.",
+            "zh": "请把书翻到第二十一页。"
+          },
+          {
+            "fr": "Elle habite au quatre-vingt-unième étage.",
+            "zh": "她住在八十一楼。"
+          },
+          {
+            "fr": "Les trois premières leçons sont courtes.",
+            "zh": "前三课很短。"
           }
         ],
-        "pitfall": "表示楼层等顺序时，premier 以外的 -ième 通常不随名词性别变化。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
+        "pitfall": "premier / première 要配合名词性别；-ième 形式不分阴阳性，但复数要加 s，如 les deuxièmes places。常用缩写：1er、1re、2e、3e。日期通常用基数词，只有每月第一天用序数词：le premier mai，但 le deux mai。",
+        "sourceUrl": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/nombres-ordinaux",
+        "sourceName": "Portail linguistique du Canada · Nombres ordinaux",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "法语中的序数词"
+        "anchor": "法语中的序数词",
+        "table": {
+          "headers": [
+            "数字",
+            "基数词",
+            "序数词"
+          ],
+          "rows": [
+            [
+              "1",
+              "un / une",
+              "premier / première"
+            ],
+            [
+              "2",
+              "deux",
+              "deuxième"
+            ],
+            [
+              "3",
+              "trois",
+              "troisième"
+            ],
+            [
+              "4",
+              "quatre",
+              "quatrième"
+            ],
+            [
+              "5",
+              "cinq",
+              "cinquième"
+            ],
+            [
+              "6",
+              "six",
+              "sixième"
+            ],
+            [
+              "7",
+              "sept",
+              "septième"
+            ],
+            [
+              "8",
+              "huit",
+              "huitième"
+            ],
+            [
+              "9",
+              "neuf",
+              "neuvième"
+            ],
+            [
+              "10",
+              "dix",
+              "dixième"
+            ],
+            [
+              "11",
+              "onze",
+              "onzième"
+            ],
+            [
+              "12",
+              "douze",
+              "douzième"
+            ],
+            [
+              "20",
+              "vingt",
+              "vingtième"
+            ],
+            [
+              "21",
+              "vingt et un",
+              "vingt et unième"
+            ],
+            [
+              "30",
+              "trente",
+              "trentième"
+            ],
+            [
+              "31",
+              "trente et un",
+              "trente et unième"
+            ],
+            [
+              "80",
+              "quatre-vingts",
+              "quatre-vingtième"
+            ],
+            [
+              "81",
+              "quatre-vingt-un",
+              "quatre-vingt-unième"
+            ],
+            [
+              "100",
+              "cent",
+              "centième"
+            ],
+            [
+              "101",
+              "cent un",
+              "cent unième"
+            ]
+          ]
+        },
+        "application": "复合数只改最后部分：vingt et un → vingt et unième，cent un → cent unième；不写 vingt et premier。80 的 quatre-vingts 去掉 s，变成 quatre-vingtième。这里采用传统拼写；1990 年新拼写也接受 vingt-et-unième。"
       },
       {
         "id": "lesson-16-extra-4",
