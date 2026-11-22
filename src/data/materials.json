@@ -900,47 +900,6 @@
     ],
     "supplements": [
       {
-        "id": "lesson-03-supp-01",
-        "title": "地点介词",
-        "rule": "城市用 à；阴性国家和元音开头的阳性国家通常用 en，辅音开头的阳性国家用 au，复数国家用 aux。",
-        "examples": [
-          {
-            "fr": "Elle habite à Lyon, en France.",
-            "zh": "她住在法国里昂。"
-          },
-          {
-            "fr": "Nous allons au Canada et aux États-Unis.",
-            "zh": "我们去加拿大和美国。"
-          }
-        ],
-        "pitfall": "à Toronto，但 au Canada；不要只按中文“在”选择介词。",
-        "application": "问“去哪儿”和“在哪里”时都可用同一搭配：aller à Montréal、habiter à Montréal。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "介词"
-      },
-      {
-        "id": "lesson-03-supp-02",
-        "title": "chez 与 à",
-        "rule": "chez 指某人的住处或以人为中心的机构；à 与具体地点搭配，并按冠词缩合。",
-        "examples": [
-          {
-            "fr": "Je vais chez le médecin.",
-            "zh": "我去看医生。"
-          },
-          {
-            "fr": "Je vais à la pharmacie.",
-            "zh": "我去药店。"
-          }
-        ],
-        "pitfall": "à + le → au，à + les → aux；à la 和 à l’ 不缩合。",
-        "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
-        "sourceName": "Tex’s French Grammar · University of Texas",
-        "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "介词"
-      },
-      {
         "id": "lesson-03-supp-03",
         "title": "省音与连读",
         "rule": "省音改变拼写，连读只改变发音。先分清需要省音、必须连读和不能连读的情况。",
@@ -1126,10 +1085,6 @@
             "zh": "这个座位是给您的。"
           },
           {
-            "fr": "Nous allons au cinéma avec eux.",
-            "zh": "我们和他们一起去看电影。"
-          },
-          {
             "fr": "Je pars avec elles.",
             "zh": "我和她们一起走。"
           }
@@ -1139,7 +1094,7 @@
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "介词"
+        "anchor": "课件内容"
       },
       {
         "id": "lesson-03-extra-5",
@@ -1411,6 +1366,12 @@
         "pitfall": "les amis 之间必须连读；h aspiré 阻止 les héros 和 les haricots 连读。",
         "accentSensitive": true,
         "curriculumTopic": "liaison"
+      }
+    ],
+    "relocatedSections": [
+      {
+        "title": "介词",
+        "target": "lesson-04"
       }
     ]
   },

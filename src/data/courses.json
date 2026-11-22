@@ -832,172 +832,214 @@
     },
     "exercises": [
       {
-        "id": "grammar-04-ex-01",
+        "id": "lesson-03-curriculum-v3-01",
         "knowledgeId": "grammar-04",
         "type": "choice",
         "level": "A1",
-        "prompt": "Je vais ___ cinéma.",
+        "prompt": "Paul ___ français.",
         "answers": [
-          "au"
+          "est"
         ],
-        "explanation": "à + le 缩合为 au。",
-        "pitfall": "à + le 缩合为 au。",
+        "explanation": "Paul 是第三人称单数，être 用 est。",
+        "pitfall": "Paul 是第三人称单数，être 用 est。",
         "source": "原创模拟练习",
         "accentSensitive": true,
         "reviewStatus": "待人工复核",
         "options": [
-          "à le",
-          "au",
-          "du"
-        ]
+          "est",
+          "sommes",
+          "êtes"
+        ],
+        "curriculumTopic": "present-tense"
       },
       {
-        "id": "grammar-04-ex-02-aligned-v2",
+        "id": "lesson-03-curriculum-v3-02",
         "knowledgeId": "grammar-04",
         "type": "choice",
         "level": "A1",
-        "prompt": "Je suis ___ Paul ce soir.",
+        "prompt": "Tu ___ à l’école.",
         "answers": [
-          "avec"
+          "vas"
         ],
-        "explanation": "avec 表示“和……一起”。",
-        "pitfall": "avec 表示“和……一起”。",
+        "explanation": "主语 tu 搭配 vas。",
+        "pitfall": "主语 tu 搭配 vas。",
         "source": "原创模拟练习",
         "accentSensitive": true,
         "reviewStatus": "待人工复核",
         "options": [
-          "avec",
-          "au",
-          "aux"
+          "vas",
+          "va",
+          "vont"
         ],
-        "curriculumTopic": "avec"
+        "curriculumTopic": "present-tense"
       },
       {
-        "id": "grammar-04-ex-03",
-        "knowledgeId": "grammar-04",
-        "type": "fill",
-        "level": "A1",
-        "prompt": "Nous habitons ___ France.",
-        "answers": [
-          "en"
-        ],
-        "explanation": "阴性国家前用 en。",
-        "pitfall": "阴性国家前用 en。",
-        "source": "原创模拟练习",
-        "accentSensitive": true,
-        "reviewStatus": "待人工复核"
-      },
-      {
-        "id": "grammar-04-ex-04",
-        "knowledgeId": "grammar-04",
-        "type": "fill",
-        "level": "A1",
-        "prompt": "Ils vont ___ États-Unis.",
-        "answers": [
-          "aux"
-        ],
-        "explanation": "复数国家用 aux。",
-        "pitfall": "复数国家用 aux。",
-        "source": "原创模拟练习",
-        "accentSensitive": true,
-        "reviewStatus": "待人工复核"
-      },
-      {
-        "id": "grammar-04-ex-05",
-        "knowledgeId": "grammar-04",
-        "type": "correction",
-        "level": "A1",
-        "prompt": "改正：Je vais à le marché.",
-        "answers": [
-          "Je vais au marché."
-        ],
-        "explanation": "à le 必须缩合。",
-        "pitfall": "à le 必须缩合。",
-        "source": "原创模拟练习",
-        "accentSensitive": true,
-        "reviewStatus": "待人工复核"
-      },
-      {
-        "id": "grammar-04-ex-06",
-        "knowledgeId": "grammar-04",
-        "type": "translation",
-        "level": "A1",
-        "prompt": "译成法语：我去保罗家。",
-        "answers": [
-          "Je vais chez Paul."
-        ],
-        "explanation": "某人的家用 chez。",
-        "pitfall": "某人的家用 chez。",
-        "source": "原创模拟练习",
-        "accentSensitive": true,
-        "reviewStatus": "待人工复核"
-      },
-      {
-        "id": "grammar-04-ex-07",
-        "knowledgeId": "grammar-04",
-        "type": "order",
-        "level": "A1",
-        "prompt": "排序：à Montréal / habite / elle",
-        "answers": [
-          "Elle habite à Montréal."
-        ],
-        "explanation": "城市前用 à。",
-        "pitfall": "城市前用 à。",
-        "source": "原创模拟练习",
-        "accentSensitive": true,
-        "reviewStatus": "待人工复核"
-      },
-      {
-        "id": "grammar-04-ex-08-aligned-v2",
+        "id": "lesson-03-curriculum-v3-03",
         "knowledgeId": "grammar-04",
         "type": "choice",
         "level": "A1",
-        "prompt": "Tu es ___ toi ce matin ?",
+        "prompt": "Ils ___ leurs devoirs.",
         "answers": [
-          "chez"
+          "font"
         ],
-        "explanation": "chez toi 表示“在你家”。",
-        "pitfall": "chez toi 表示“在你家”。",
+        "explanation": "主语 ils 搭配 font。",
+        "pitfall": "主语 ils 搭配 font。",
         "source": "原创模拟练习",
         "accentSensitive": true,
         "reviewStatus": "待人工复核",
         "options": [
-          "chez",
-          "avec",
-          "au"
+          "font",
+          "fait",
+          "faites"
         ],
-        "curriculumTopic": "chez"
+        "curriculumTopic": "present-tense"
       },
       {
-        "id": "grammar-04-ex-09",
+        "id": "lesson-03-curriculum-v3-04",
         "knowledgeId": "grammar-04",
-        "type": "translation",
+        "type": "choice",
         "level": "A1",
-        "prompt": "译成法语：她去学校。",
+        "prompt": "Nous ___ de Paris.",
         "answers": [
-          "Elle va à l’école.",
-          "Elle va à l'école."
+          "venons"
         ],
-        "explanation": "à l’ 不缩合。",
-        "pitfall": "à l’ 不缩合。",
+        "explanation": "主语 nous 搭配 venons。",
+        "pitfall": "主语 nous 搭配 venons。",
         "source": "原创模拟练习",
         "accentSensitive": true,
-        "reviewStatus": "待人工复核"
+        "reviewStatus": "待人工复核",
+        "options": [
+          "venons",
+          "venez",
+          "vient"
+        ],
+        "curriculumTopic": "present-tense"
       },
       {
-        "id": "grammar-04-ex-10",
+        "id": "lesson-03-curriculum-v3-05",
         "knowledgeId": "grammar-04",
-        "type": "scenario",
+        "type": "choice",
         "level": "A1",
-        "prompt": "告诉朋友你在面包店，用“我在面包师的店里”。",
+        "prompt": "Voici ___ livre.",
         "answers": [
-          "Je suis chez le boulanger."
+          "un"
         ],
-        "explanation": "chez 也可用于从业者营业处。",
-        "pitfall": "chez 也可用于从业者营业处。",
+        "explanation": "livre 是阳性单数名词，使用 un。",
+        "pitfall": "livre 是阳性单数名词，使用 un。",
         "source": "原创模拟练习",
         "accentSensitive": true,
-        "reviewStatus": "待人工复核"
+        "reviewStatus": "待人工复核",
+        "options": [
+          "un",
+          "une",
+          "des"
+        ],
+        "curriculumTopic": "articles"
+      },
+      {
+        "id": "lesson-03-curriculum-v3-06",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Voici ___ maison.",
+        "answers": [
+          "une"
+        ],
+        "explanation": "maison 是阴性单数名词，使用 une。",
+        "pitfall": "maison 是阴性单数名词，使用 une。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "une",
+          "un",
+          "le"
+        ],
+        "curriculumTopic": "articles"
+      },
+      {
+        "id": "lesson-03-curriculum-v3-07",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "Voici ___ livres.",
+        "answers": [
+          "des"
+        ],
+        "explanation": "livres 是复数，不定冠词用 des。",
+        "pitfall": "livres 是复数，不定冠词用 des。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "des",
+          "un",
+          "une"
+        ],
+        "curriculumTopic": "articles"
+      },
+      {
+        "id": "lesson-03-curriculum-v3-08",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "faire : ___",
+        "answers": [
+          "[fɛʁ]"
+        ],
+        "explanation": "faire 中的 ai 在这里读 [ɛ]。",
+        "pitfall": "faire 中的 ai 在这里读 [ɛ]。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "[fɛʁ]",
+          "[fiʁ]",
+          "[fwaʁ]"
+        ],
+        "curriculumTopic": "pronunciation"
+      },
+      {
+        "id": "lesson-03-curriculum-v3-09",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "moi : ___",
+        "answers": [
+          "[mwa]"
+        ],
+        "explanation": "moi 中的 oi 读 [wa]。",
+        "pitfall": "moi 中的 oi 读 [wa]。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "[mwa]",
+          "[mi]",
+          "[mɛ]"
+        ],
+        "curriculumTopic": "pronunciation"
+      },
+      {
+        "id": "lesson-03-curriculum-v3-10",
+        "knowledgeId": "grammar-04",
+        "type": "choice",
+        "level": "A1",
+        "prompt": "si : ___",
+        "answers": [
+          "[si]"
+        ],
+        "explanation": "si 中的 i 读 [i]。",
+        "pitfall": "si 中的 i 读 [i]。",
+        "source": "原创模拟练习",
+        "accentSensitive": true,
+        "reviewStatus": "待人工复核",
+        "options": [
+          "[si]",
+          "[sɛ]",
+          "[swa]"
+        ],
+        "curriculumTopic": "pronunciation"
       }
     ],
     "reviewStatus": "待人工复核",

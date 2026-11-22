@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {buildLessonFlow} from '../lesson-flow.js';
 import assert from 'node:assert/strict';
 import {buildPracticeCatalogue,pronunciationHomes} from '../lesson-practice.js';
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
@@ -31,6 +32,9 @@ assert(!six.some(a=>seven.some(b=>a.id===b.id||normalize(a.prompt)===normalize(b
 // Unit 2 must assess the simple structures actually introduced in this lesson.
 const unitTwo=pool.filter(q=>q.course.id==='lesson-03');
 assert.equal(unitTwo.length,22);
+assert(!unitTwo.some(q=>/cinéma|marché|Canada|France|États-Unis|boulanger/u.test(q.prompt)), 'Unit 2 does not test the prepositions taught in Unit 3');
+const flowTwo=buildLessonFlow(materials.find(m=>m.id==='lesson-03'));
+assert(!flowTwo.grammar.some(s=>s.title==='介词'), 'Repeated preposition teaching belongs to Unit 3');
 assert(unitTwo.every(q=>q.level==='A1'),'Unit 2 remains beginner level');
 for(const topic of ['stressed-pronouns','questions','present-tense','articles','elision','liaison'])
  assert(unitTwo.some(q=>q.curriculumTopic===topic),`Unit 2 covers ${topic}`);

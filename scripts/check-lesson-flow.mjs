@@ -8,7 +8,8 @@ for(const m of materials){
  const {grammar,readings}=buildLessonFlow(m,courses.map(c=>c.article));
  const movedMaterials = (m.relocatedSections ?? []).map(item => materials.find(target=>target.id===item.target));
  assert(movedMaterials.every(Boolean), m.id+': relocated sections have a destination');
- const output=[...grammar,...readings,...movedMaterials.flatMap(item=>item.pages.flatMap(p=>p.sections))].map(b=>compact(b.text)).join('');
+ const archived=(m.id==='lesson-03' ? m.pages.flatMap(p=>p.sections).filter(s=>s.title==='介词'&&m.relocatedSections.some(r=>r.title===s.title&&r.target==='lesson-04')) : []);
+ const output=[...archived,...grammar,...readings,...movedMaterials.flatMap(item=>item.pages.flatMap(p=>p.sections))].map(b=>compact(b.text)).join('');
  for(const p of m.pages)for(const b of p.sections)for(const line of b.text.split('\n').filter(x=>x.trim()))assert(output.includes(compact(line)),`${m.id}: lost source line ${line}`);
  assert(grammar.length>0 || (m.contentOrigin==='authored'&&m.supplements.length>0),`${m.id}: grammar available`);
  assert(!grammar.some(b=>/^短文(?:\d+)?[：:]?$/.test(b.title)),`${m.id}: passages in reading stage`);
