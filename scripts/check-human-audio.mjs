@@ -11,7 +11,7 @@ for(const r of recordings){
  const titles=[...combineBasicVerbs(m,flow.grammar),...flow.readings].map(x=>x.title);
  assert(titles.includes(r.title),`Missing topic ${r.lesson}: ${r.title}; actual: ${titles}`);
  assert((await stat(`human-audio/${r.file}`)).size>10000);
- assert(originalLessonAudio(r.lesson,r.title).includes(r.file));
+ if(r.visible===false)assert.equal(originalLessonAudio(r.lesson,r.title),'');else assert(originalLessonAudio(r.lesson,r.title).includes(r.file));
 }
 assert(originalLessonAudio(6,'短文&对话').includes('62.m4a'));
 assert(originalLessonAudio(6,'现在时').includes('63.m4a'));

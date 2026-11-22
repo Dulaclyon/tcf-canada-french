@@ -943,22 +943,130 @@
       {
         "id": "lesson-03-supp-03",
         "title": "省音与连读",
-        "rule": "le、la 在元音或哑音 h 前写作 l’；省音属于拼写，连读属于发音，两者不同。",
+        "rule": "省音改变拼写，连读只改变发音。先分清需要省音、必须连读和不能连读的情况。",
         "examples": [
           {
             "fr": "L’école est près d’ici.",
             "zh": "学校在这附近。"
           },
           {
+            "fr": "L’hôtel est près de la gare.",
+            "zh": "旅馆在火车站附近。"
+          },
+          {
+            "fr": "J’habite à Paris.",
+            "zh": "我住在巴黎。"
+          },
+          {
+            "fr": "Il n’est pas ici.",
+            "zh": "他不在这里。"
+          },
+          {
             "fr": "Les amis arrivent.",
             "zh": "朋友们来了。"
+          },
+          {
+            "fr": "Nous avons un livre.",
+            "zh": "我们有一本书。"
+          },
+          {
+            "fr": "Vous êtes ici.",
+            "zh": "你们在这里。"
+          },
+          {
+            "fr": "Un ami arrive.",
+            "zh": "一个朋友来了。"
+          },
+          {
+            "fr": "Les héros arrivent.",
+            "zh": "英雄们来了。"
+          },
+          {
+            "fr": "Les haricots sont verts.",
+            "zh": "这些菜豆是绿色的。"
+          },
+          {
+            "fr": "Paul et Anne arrivent.",
+            "zh": "Paul 和 Anne 来了。"
+          },
+          {
+            "fr": "Le chat arrive.",
+            "zh": "猫来了。"
           }
         ],
-        "pitfall": "h aspiré 阻止省音和连读，例如 le héros；需查词典，不能只看字母 h。",
+        "pitfall": "h 是否阻止省音和连读，需要查词典；不要仅凭字母 h 判断。",
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "冠词"
+        "anchor": "冠词",
+        "pronunciationGroups": [
+          {
+            "title": "省音：用撇号连接",
+            "rule": "le、la、je、ne 等在元音或哑音 h 前省去末尾元音，用撇号连接；例如 l’école、l’hôtel、j’habite、n’est。",
+            "examples": [
+              {
+                "fr": "L’école est près d’ici.",
+                "zh": "学校在这附近。"
+              },
+              {
+                "fr": "L’hôtel est près de la gare.",
+                "zh": "旅馆在火车站附近。"
+              },
+              {
+                "fr": "J’habite à Paris.",
+                "zh": "我住在巴黎。"
+              },
+              {
+                "fr": "Il n’est pas ici.",
+                "zh": "他不在这里。"
+              }
+            ]
+          },
+          {
+            "title": "必须连读：听清连接音",
+            "rule": "限定词或主语代词后接元音时，这些搭配要连读：les‿amis、nous‿avons、vous‿êtes 中听到 [z]，un‿ami 中听到 [n]。拼写不变。",
+            "examples": [
+              {
+                "fr": "Les amis arrivent.",
+                "zh": "朋友们来了。"
+              },
+              {
+                "fr": "Nous avons un livre.",
+                "zh": "我们有一本书。"
+              },
+              {
+                "fr": "Vous êtes ici.",
+                "zh": "你们在这里。"
+              },
+              {
+                "fr": "Un ami arrive.",
+                "zh": "一个朋友来了。"
+              }
+            ]
+          },
+          {
+            "title": "不连读：不要多读辅音",
+            "rule": "嘘音 h 阻止省音和连读：les héros、les haricots；et 后不连读 [t]；单数名词 chat 后也不把词尾 t 连到 arrive。",
+            "examples": [
+              {
+                "fr": "Les héros arrivent.",
+                "zh": "英雄们来了。"
+              },
+              {
+                "fr": "Les haricots sont verts.",
+                "zh": "这些菜豆是绿色的。"
+              },
+              {
+                "fr": "Paul et Anne arrivent.",
+                "zh": "Paul 和 Anne 来了。"
+              },
+              {
+                "fr": "Le chat arrive.",
+                "zh": "猫来了。"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "lesson-03-extra-4",

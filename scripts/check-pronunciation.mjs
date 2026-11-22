@@ -23,3 +23,6 @@ for(const [heading,key] of groups){const html=renderGrammar(heading+'\nexemple',
 assert.deepEqual(manifest.clips.eu.examples,['feu','peu','eux','heureux']);assert(!manifest.clips.eu.text.includes('Sœur'));
 assert.deepEqual(manifest.clips.y.examples,['rue','roue']);assert.deepEqual(manifest.clips.sion.examples,['la décision']);assert(!manifest.clips.tion.examples.includes('la décision'));
 console.log(`${Object.keys(soundGroups).length} sound groups and ${Object.keys(catalog).length} saved clips match displayed examples, synthesis word timings and audio hashes; missing [y]/[zjɔ̃] recordings are covered.`);
+const starter=JSON.parse(fs.readFileSync('src/data/materials.json','utf8')).find(m=>m.id==='lesson-03').supplements.find(t=>t.title==='省音与连读');
+assert.equal(starter.pronunciationGroups.length,3);
+for(const group of starter.pronunciationGroups){assert.equal(group.examples.length,4);const clip=Object.values(manifest.clips).find(c=>JSON.stringify(c.examples)===JSON.stringify(speechExamples(group.examples)));assert(clip);assert.equal(clip.pauseBetweenExamplesMs,1000);assert(clip.duration>10);}

@@ -20935,5 +20935,95 @@
     "source": "qui 在关系从句中作主语，后面通常直接跟动词；que 作直接宾语，从句另有主语，元音前省音为 qu’。 在强调结构 C’est…qui… 中，qui 引出被强调的主语。",
     "en": "Qui is the subject of a relative clause and is usually followed by a verb. Que is a direct object; its clause has its own subject, and que becomes qu’ before a vowel. In C’est…qui…, qui introduces the highlighted subject.",
     "zh-TW": "qui 在關係子句中作主詞，後面通常直接跟動詞；que 作直接受詞，子句另有主詞，母音前省音為 qu’。在強調結構 C’est…qui… 中，qui 引出被強調的主詞。"
+  },
+  {
+    "source": "省音：用撇号连接",
+    "en": "Elision: join with an apostrophe",
+    "zh-TW": "省音：用撇號連接"
+  },
+  {
+    "source": "必须连读：听清连接音",
+    "en": "Required liaison: listen for the linking sound",
+    "zh-TW": "必須連讀：聽清連接音"
+  },
+  {
+    "source": "不连读：不要多读辅音",
+    "en": "No liaison: do not add a consonant",
+    "zh-TW": "不連讀：不要多讀子音"
+  },
+  {
+    "source": "le、la、je、ne 等在元音或哑音 h 前省去末尾元音，用撇号连接；例如 l’école、l’hôtel、j’habite、n’est。",
+    "en": "Before a vowel or silent h, le, la, je, ne and similar words drop their final vowel and join with an apostrophe: l’école, l’hôtel, j’habite, n’est.",
+    "zh-TW": "le、la、je、ne 等在母音或不發音的 h 前省去末尾母音，用撇號連接；例如 l’école、l’hôtel、j’habite、n’est。"
+  },
+  {
+    "source": "限定词或主语代词后接元音时，这些搭配要连读：les‿amis、nous‿avons、vous‿êtes 中听到 [z]，un‿ami 中听到 [n]。拼写不变。",
+    "en": "These determiner or subject-pronoun combinations require liaison before a vowel: hear [z] in les‿amis, nous‿avons and vous‿êtes, and [n] in un‿ami. The spelling stays the same.",
+    "zh-TW": "限定詞或主詞代名詞後接母音時，這些搭配要連讀：les‿amis、nous‿avons、vous‿êtes 中聽到 [z]，un‿ami 中聽到 [n]。拼寫不變。"
+  },
+  {
+    "source": "嘘音 h 阻止省音和连读：les héros、les haricots；et 后不连读 [t]；单数名词 chat 后也不把词尾 t 连到 arrive。",
+    "en": "An aspirated h blocks elision and liaison: les héros, les haricots. Do not link a [t] after et, or pronounce the final t of singular chat before arrive.",
+    "zh-TW": "噓音 h 阻止省音和連讀：les héros、les haricots；et 後不連讀 [t]；單數名詞 chat 後也不把詞尾 t 連到 arrive。"
+  },
+  {
+    "source": "省音改变拼写，连读只改变发音。先分清需要省音、必须连读和不能连读的情况。",
+    "en": "Elision changes spelling; liaison changes pronunciation only. Distinguish elision, required liaison and places where liaison is forbidden.",
+    "zh-TW": "省音改變拼寫，連讀只改變發音。先分清需要省音、必須連讀和不能連讀的情況。"
+  },
+  {
+    "source": "h 是否阻止省音和连读，需要查词典；不要仅凭字母 h 判断。",
+    "en": "Check a dictionary to see whether a word beginning with h blocks elision and liaison; the letter h alone is not enough.",
+    "zh-TW": "h 是否阻止省音和連讀，需要查詞典；不要僅憑字母 h 判斷。"
+  },
+  {
+    "source": "旅馆在火车站附近。",
+    "en": "The hotel is near the station.",
+    "zh-TW": "旅館在火車站附近。"
+  },
+  {
+    "source": "我住在巴黎。",
+    "en": "I live in Paris.",
+    "zh-TW": "我住在巴黎。"
+  },
+  {
+    "source": "他不在这里。",
+    "en": "He is not here.",
+    "zh-TW": "他不在這裡。"
+  },
+  {
+    "source": "我们有一本书。",
+    "en": "We have a book.",
+    "zh-TW": "我們有一本書。"
+  },
+  {
+    "source": "你们在这里。",
+    "en": "You are here.",
+    "zh-TW": "你們在這裡。"
+  },
+  {
+    "source": "一个朋友来了。",
+    "en": "A friend is arriving.",
+    "zh-TW": "一個朋友來了。"
+  },
+  {
+    "source": "英雄们来了。",
+    "en": "The heroes are arriving.",
+    "zh-TW": "英雄們來了。"
+  },
+  {
+    "source": "这些菜豆是绿色的。",
+    "en": "These beans are green.",
+    "zh-TW": "這些菜豆是綠色的。"
+  },
+  {
+    "source": "Paul 和 Anne 来了。",
+    "en": "Paul and Anne are arriving.",
+    "zh-TW": "Paul 和 Anne 來了。"
+  },
+  {
+    "source": "猫来了。",
+    "en": "The cat is arriving.",
+    "zh-TW": "貓來了。"
   }
 ]

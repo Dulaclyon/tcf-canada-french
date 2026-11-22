@@ -1054,54 +1054,6 @@
         }
       ]
     },
-    "context-96232758": {
-      "examples": [
-        "L’école est près d’ici.",
-        "Les amis arrivent."
-      ],
-      "text": "L’école est près d’ici. Les amis arrivent.",
-      "fingerprint": "96232758",
-      "file": "context-96232758.mp3",
-      "duration": 4.584,
-      "sha256": "e40e2588d714a1d0ae18b040287a65b73152bb4f2bebdb39c2fd77b8534ec44c",
-      "boundaries": [
-        {
-          "text": "L’école",
-          "offset": 1043330,
-          "duration": 4891250
-        },
-        {
-          "text": "est",
-          "offset": 6070830,
-          "duration": 543330
-        },
-        {
-          "text": "près",
-          "offset": 6750000,
-          "duration": 2173750
-        },
-        {
-          "text": "d’ici",
-          "offset": 9059580,
-          "duration": 5842500
-        },
-        {
-          "text": "Les",
-          "offset": 24298750,
-          "duration": 2037910
-        },
-        {
-          "text": "amis",
-          "offset": 26472910,
-          "duration": 3668330
-        },
-        {
-          "text": "arrivent",
-          "offset": 30277080,
-          "duration": 5978330
-        }
-      ]
-    },
     "context-84c5fe26": {
       "examples": [
         "Mes amis prennent le thé.",
@@ -1405,6 +1357,280 @@
           "duration": 7472910
         }
       ]
+    },
+    "context-fe2881e1": {
+      "examples": [
+        "L’école est près d’ici.",
+        "L’hôtel est près de la gare.",
+        "J’habite à Paris.",
+        "Il n’est pas ici."
+      ],
+      "text": "L’école est près d’ici. L’hôtel est près de la gare. J’habite à Paris. Il n’est pas ici.",
+      "fingerprint": "fe2881e1",
+      "file": "context-fe2881e1.mp3",
+      "duration": 12.384,
+      "sha256": "a17a1d202d5bc1dbba29c7be9be949c74553908fa8809ee932c60aed20e94868",
+      "boundaries": [
+        {
+          "text": "L’école",
+          "offset": 1043330,
+          "duration": 4891250
+        },
+        {
+          "text": "est",
+          "offset": 6070830,
+          "duration": 543330
+        },
+        {
+          "text": "près",
+          "offset": 6750000,
+          "duration": 2173750
+        },
+        {
+          "text": "d’ici",
+          "offset": 9059580,
+          "duration": 5842500
+        },
+        {
+          "text": "L’hôtel",
+          "offset": 35501660,
+          "duration": 4212080
+        },
+        {
+          "text": "est",
+          "offset": 39849580,
+          "duration": 543330
+        },
+        {
+          "text": "près",
+          "offset": 40528750,
+          "duration": 2037910
+        },
+        {
+          "text": "de",
+          "offset": 42702910,
+          "duration": 951250
+        },
+        {
+          "text": "la",
+          "offset": 43789580,
+          "duration": 1222910
+        },
+        {
+          "text": "gare",
+          "offset": 45148330,
+          "duration": 5027080
+        },
+        {
+          "text": "J’habite",
+          "offset": 70723330,
+          "duration": 5434580
+        },
+        {
+          "text": "à",
+          "offset": 76294160,
+          "duration": 679160
+        },
+        {
+          "text": "Paris",
+          "offset": 77109160,
+          "duration": 5434580
+        },
+        {
+          "text": "Il",
+          "offset": 103043330,
+          "duration": 1902080
+        },
+        {
+          "text": "n’est",
+          "offset": 105081660,
+          "duration": 1358750
+        },
+        {
+          "text": "pas",
+          "offset": 106576250,
+          "duration": 1630410
+        },
+        {
+          "text": "ici",
+          "offset": 108342500,
+          "duration": 5570830
+        }
+      ],
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "-8%",
+      "pauseBetweenExamplesMs": 1000
+    },
+    "context-04bfcd08": {
+      "examples": [
+        "Les amis arrivent.",
+        "Nous avons un livre.",
+        "Vous êtes ici.",
+        "Un ami arrive."
+      ],
+      "text": "Les amis arrivent. Nous avons un livre. Vous êtes ici. Un ami arrive.",
+      "fingerprint": "04bfcd08",
+      "file": "context-04bfcd08.mp3",
+      "duration": 11.784,
+      "sha256": "9f971653621c21b4f47dd2f9a97e2b25dc2cb16cc59a1f5d5d9aec9c17484650",
+      "boundaries": [
+        {
+          "text": "Les",
+          "offset": 1021660,
+          "duration": 2037910
+        },
+        {
+          "text": "amis",
+          "offset": 3195830,
+          "duration": 3668330
+        },
+        {
+          "text": "arrivent",
+          "offset": 7000000,
+          "duration": 5978330
+        },
+        {
+          "text": "Nous",
+          "offset": 33603330,
+          "duration": 2309580
+        },
+        {
+          "text": "avons",
+          "offset": 36049160,
+          "duration": 3668330
+        },
+        {
+          "text": "un",
+          "offset": 39853330,
+          "duration": 1222910
+        },
+        {
+          "text": "livre",
+          "offset": 41212080,
+          "duration": 4891250
+        },
+        {
+          "text": "Vous",
+          "offset": 66643330,
+          "duration": 1902080
+        },
+        {
+          "text": "êtes",
+          "offset": 68681660,
+          "duration": 2853330
+        },
+        {
+          "text": "ici",
+          "offset": 71670830,
+          "duration": 5027080
+        },
+        {
+          "text": "Un",
+          "offset": 97261660,
+          "duration": 1222910
+        },
+        {
+          "text": "ami",
+          "offset": 98620410,
+          "duration": 3260830
+        },
+        {
+          "text": "arrive",
+          "offset": 102017080,
+          "duration": 5842500
+        }
+      ],
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "-8%",
+      "pauseBetweenExamplesMs": 1000
+    },
+    "context-6456e6a8": {
+      "examples": [
+        "Les héros arrivent.",
+        "Les haricots sont verts.",
+        "Paul et Anne arrivent.",
+        "Le chat arrive."
+      ],
+      "text": "Les héros arrivent. Les haricots sont verts. Paul et Anne arrivent. Le chat arrive.",
+      "fingerprint": "6456e6a8",
+      "file": "context-6456e6a8.mp3",
+      "duration": 12.144,
+      "sha256": "89bc56ed62ee3b019835b6b5305ab423261a1e7de858a6aba73d31039c89c069",
+      "boundaries": [
+        {
+          "text": "Les",
+          "offset": 1021660,
+          "duration": 1902080
+        },
+        {
+          "text": "héros",
+          "offset": 3059580,
+          "duration": 2989160
+        },
+        {
+          "text": "arrivent",
+          "offset": 6184580,
+          "duration": 6929160
+        },
+        {
+          "text": "Les",
+          "offset": 33581660,
+          "duration": 2173750
+        },
+        {
+          "text": "haricots",
+          "offset": 35891660,
+          "duration": 4755410
+        },
+        {
+          "text": "sont",
+          "offset": 40782910,
+          "duration": 1902080
+        },
+        {
+          "text": "verts",
+          "offset": 42820830,
+          "duration": 5298750
+        },
+        {
+          "text": "Paul",
+          "offset": 68563330,
+          "duration": 2717500
+        },
+        {
+          "text": "et",
+          "offset": 71416660,
+          "duration": 679160
+        },
+        {
+          "text": "Anne",
+          "offset": 72232080,
+          "duration": 1766250
+        },
+        {
+          "text": "arrivent",
+          "offset": 74134160,
+          "duration": 5978330
+        },
+        {
+          "text": "Le",
+          "offset": 100632500,
+          "duration": 1766250
+        },
+        {
+          "text": "chat",
+          "offset": 102534580,
+          "duration": 2173750
+        },
+        {
+          "text": "arrive",
+          "offset": 104844580,
+          "duration": 6657500
+        }
+      ],
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "-8%",
+      "pauseBetweenExamplesMs": 1000
     }
   }
 }
