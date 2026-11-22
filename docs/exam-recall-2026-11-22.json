@@ -1,0 +1,42 @@
+{
+  "receivedAt": "2026-11-22",
+  "collections": [
+    {
+      "id": "recall-1102",
+      "sourceLabel": "11.02 — Vancouver, selon la capture fournie",
+      "questionIds": [
+        "recall-1102-w1-sports-victory",
+        "recall-1102-w3-urban-expansion",
+        "recall-1102-o1-weekend",
+        "recall-1102-o2-hosting-friends",
+        "recall-1102-o3-animals-happiness",
+        "w2-04"
+      ]
+    },
+    {
+      "id": "recall-1118",
+      "sourceLabel": "11.18 — GB, selon la capture fournie",
+      "questionIds": [
+        "recall-1118-w1-pet-care",
+        "recall-1118-w2-nature-cleanup",
+        "recall-1118-w3-university-age",
+        "recall-1118-o1-studies-career",
+        "recall-1118-o2-canadian-weekends",
+        "recall-1118-o3-managing-stress"
+      ]
+    },
+    {
+      "id": "recall-work-travel",
+      "sourceLabel": "Souvenir sans date : travail, installation et tourisme",
+      "questionIds": [
+        "recall-undated-w1-new-job",
+        "recall-undated-w2-study-abroad",
+        "recall-undated-w3-help-poverty",
+        "recall-undated-o1-work-duties",
+        "recall-undated-o2-life-canada",
+        "recall-undated-o3-tourism-value"
+      ]
+    }
+  ],
+  "excludedCapture": "11.21 Montreal venue/procedure account: no concrete listening or reading questions."
+}

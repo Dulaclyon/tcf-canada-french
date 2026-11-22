@@ -172,3 +172,7 @@ button:disabled{opacity:.5;cursor:not-allowed}
 #sidebar .sidebar-bottom{border:0;padding:16px 10px 0;margin-top:auto;font-size:11px;line-height:1.5}
 #sidebar .sidebar-bottom small{display:block;margin:0;font-size:11px;line-height:1.5;color:#8a909b}
 @media(max-width:760px){#sidebar{padding-top:58px}#sidebar .brand{margin-bottom:24px}}
+/* Subtle separators make the navigation groups easy to scan. */
+#sidebar #nav .nav-quiet-section{border-top:1px solid #e8ebef;margin-top:10px;padding-top:10px}
+#sidebar #nav .nav-exam-section{border-top:1px solid #e8ebef;margin-top:18px;padding-top:18px}
+#sidebar #nav .nav-quiet-section:last-child{border-top:1px solid #e8ebef;margin-top:18px;padding-top:12px}
