@@ -1,13 +1,13 @@
 import {translate as t} from './i18n.js';
 const message=document.querySelector('#message');
-const sectionLabels={basics:'基础法语',listening:'听力训练',reading:'阅读训练',oral:'口语训练',writing:'写作训练'};
+const sectionLabels={basics:'基础法语',transition:'备考过渡',listening:'听力训练',reading:'阅读训练',oral:'口语训练',writing:'写作训练'};
 async function api(path,body){const r=await fetch(path,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,cache:'no-store'});const b=await r.json();if(!r.ok)throw Error(b.error);return b;}
 function credentials(b){message.textContent=`用户名：${b.email}\n临时密码：${b.password}\n请安全保存并交给该学生。首次登录必须修改。`;} 
 function permissionsForm(u,approval=false){
  const form=document.createElement('form');form.className='student-permissions';
  const fieldset=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent='开放板块';fieldset.append(legend);
  for(const [key,text] of Object.entries(sectionLabels)){
-  const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.name=key;input.checked=(u.permissions||{basics:true,listening:false,reading:false,oral:false,writing:false})[key];label.append(input,document.createTextNode(text));fieldset.append(label);
+  const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.name=key;input.checked=(u.permissions||{basics:true,transition:false,listening:false,reading:false,oral:false,writing:false})[key];label.append(input,document.createTextNode(text));fieldset.append(label);
  }
  const save=document.createElement('button');save.type='submit';save.textContent=approval?'批准并创建账号':'保存权限';
  const status=document.createElement('span');status.setAttribute('role','status');

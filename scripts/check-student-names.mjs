@@ -8,7 +8,7 @@ try{
  await start();let admin=await login('teacher@example.test','teacher-password-test');const legacy=await login('legacy@example.test','legacy-password-test');assert.equal((await json(await req('/api/me',legacy))).name,'');
  const created=await json(await req('/api/admin/users',admin,{email:'named@example.test',name:'  李明 Élodie  '}));assert.equal(created.name,'李明 Élodie');const student=await login(created.email,created.password);await json(await req('/api/password',student,{current:created.password,password:'student-password-test'}));
  const users=await json(await req('/api/admin/users',admin)),id=users.find(u=>u.email===created.email).id;assert.equal(users.find(u=>u.id===id).name,created.name);
- await json(await req('/api/admin/permissions',admin,{id,permissions:{basics:true,listening:false,reading:false,oral:false,writing:true}}));
+ await json(await req('/api/admin/permissions',admin,{id,permissions:{basics:true,transition:true,listening:false,reading:false,oral:false,writing:true}}));
  const exam=JSON.parse(await readFile('src/data/exam.json','utf8')),submission=await json(await req('/api/writing/submissions',student,{questionId:exam.writing[0].id,text:'Bonjour, voici mon texte.'}));
  assert.equal((await req('/api/admin/profile',student,{id,name:'Not allowed'})).status,403);assert.equal((await req('/api/admin/profile',admin,{id,name:'Wrong origin'},'https://evil.test')).status,403);
  for(const name of ['x'.repeat(101),'line\nbreak',42])assert.equal((await req('/api/admin/profile',admin,{id,name})).status,400);

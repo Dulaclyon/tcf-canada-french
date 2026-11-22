@@ -1,1 +1,1 @@
-export function routeSection(page){return ({transition:'basics',courses:'basics',course:'basics',material:'basics',articles:'basics',article:'basics',practice:'basics',review:'basics',listening:'listening',reading:'reading',oral:'oral',writing:'writing'})[page];}
+export function routeSection(page){return ({transition:'transition',courses:'basics',course:'basics',material:'basics',articles:'basics',article:'basics',practice:'basics',review:'basics',listening:'listening',reading:'reading',oral:'oral',writing:'writing'})[page];}

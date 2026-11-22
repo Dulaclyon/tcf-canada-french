@@ -4,7 +4,7 @@ import {registrationRequests} from './registration-requests.mjs';
 import {learningDashboard} from './learning-dashboard.mjs';
 import http from 'node:http';
 import {writingSubmissions} from './writing-submissions.mjs';
-import {sections,allSections,basicOnly,validPermissions} from './section-permissions.mjs';
+import {sections,allSections,basicOnly,validPermissions,normalizePermissions} from './section-permissions.mjs';
 import {DatabaseSync} from 'node:sqlite';
 import {randomBytes,scryptSync,timingSafeEqual,createHash} from 'node:crypto';
 import {readFile,mkdir,stat} from 'node:fs/promises';
@@ -13,7 +13,7 @@ const root=path.resolve(process.env.STATIC_DIR||'dist'),data=path.resolve(proces
 const db=new DatabaseSync(path.join(data,'students.sqlite'));db.exec(`PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,email TEXT UNIQUE NOT NULL,password TEXT NOT NULL,role TEXT NOT NULL,must_change INTEGER NOT NULL DEFAULT 1,active INTEGER NOT NULL DEFAULT 1); CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user_id TEXT NOT NULL,expires INTEGER NOT NULL); CREATE TABLE IF NOT EXISTS progress(user_id TEXT NOT NULL,key TEXT NOT NULL,value TEXT NOT NULL,PRIMARY KEY(user_id,key)); CREATE TABLE IF NOT EXISTS attempts(ip TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);`);
 if(!db.prepare('PRAGMA table_info(users)').all().some(c=>c.name==='name'))db.exec("ALTER TABLE users ADD COLUMN name TEXT NOT NULL DEFAULT ''");
 db.exec("CREATE TABLE IF NOT EXISTS permissions(user_id TEXT PRIMARY KEY,value TEXT NOT NULL)");
-const permissionsFor=u=>u.role==='admin'?allSections:JSON.parse(db.prepare('SELECT value FROM permissions WHERE user_id=?').get(u.id)?.value||JSON.stringify(allSections));
+const permissionsFor=u=>u.role==='admin'?allSections:normalizePermissions(JSON.parse(db.prepare('SELECT value FROM permissions WHERE user_id=?').get(u.id)?.value||JSON.stringify(allSections)));
 let bankAssetsPromise;
 async function bankAssets(){
  if(!bankAssetsPromise)bankAssetsPromise=(async()=>{
@@ -79,7 +79,7 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/admin/learning-progress'&&req.method==='GET'){if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});return send(200,await dashboard.teacher());}
  if(route.startsWith('/api/writing/')||route.startsWith('/api/admin/writing'))return await handleWriting({route,req,url,user,body,send});
  if(route==='/api/progress'&&req.method==='GET')return send(200,Object.fromEntries(db.prepare('SELECT key,value FROM progress WHERE user_id=?').all(user.id).map(r=>[r.key,JSON.parse(r.value)])));
- if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});if(b.key===TRANSITION_PROGRESS_KEY&&!permissionsFor(user).basics)return send(403,{error:'此板块尚未开放'});if(b.key===TRANSITION_PROGRESS_KEY&&!validTransitionProgress(b.value))return send(400,{error:'无效备考过渡进度'});if(isSectionNoteKey(b.key)&&!validSectionNote(b.value))return send(400,{error:'笔记最多 2000 个字符。'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);handleWriting.syncCompleted(user,b.value,stored?JSON.parse(stored.value):{});}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
+ if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});if(b.key===TRANSITION_PROGRESS_KEY&&!permissionsFor(user).transition)return send(403,{error:'此板块尚未开放'});if(b.key===TRANSITION_PROGRESS_KEY&&!validTransitionProgress(b.value))return send(400,{error:'无效备考过渡进度'});if(isSectionNoteKey(b.key)&&!validSectionNote(b.value))return send(400,{error:'笔记最多 2000 个字符。'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);handleWriting.syncCompleted(user,b.value,stored?JSON.parse(stored.value):{});}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
  if(route.startsWith('/api/admin/')){
  if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
  if(route==='/api/admin/users'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,active,must_change FROM users WHERE role='student' ORDER BY email").all().map(u=>({...u,permissions:permissionsFor({...u,role:'student'})})));
@@ -103,14 +103,15 @@ const server=http.createServer(async(req,res)=>{
  const access=user?permissionsFor(user):null;
  if(user&&user.role!=='admin'){
   const denied=()=>send(403,{error:'此板块尚未开放，请联系老师。'});
-  if(['transition-to-prep.js','transition-content.js','transition-phrases.js','transition-prepositions.js','transition-extra-verbs.js','transition-verb-examples.js','transition-progress.js','pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
+  if(['transition-to-prep.js','transition-content.js','transition-phrases.js','transition-prepositions.js','transition-extra-verbs.js','transition-verb-examples.js','transition-progress.js'].includes(name)&&!access.transition)return denied();
+  if(['pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
   if((name.startsWith('human-audio/')||name.startsWith('pronunciation-audio/'))&&!access.basics)return denied();
   if(name==='src/data/materials.json'||name==='src/data/courses.json'){
    if(!access.basics)return send(200,[]);
   }
   if(name==='src/data/exam.json'){
    const exam=JSON.parse(await readFile(path.join(root,name),'utf8'));
-   for(const section of sections.filter(k=>k!=='basics'))if(!access[section]){
+   for(const section of sections.filter(k=>!['basics','transition'].includes(k)))if(!access[section]){
     exam[section]=[];if(exam[section+'Tasks'])exam[section+'Tasks']=[];
    }
    return send(200,exam);

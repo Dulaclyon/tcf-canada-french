@@ -17,5 +17,5 @@ export function summarizeLearning({courses=[],materials=[],exam={},sets=null,sta
  const writingQuestions=array(exam.writing),oralQuestions=array(exam.oral);
  const writing=metric(writingQuestions.filter(q=>submittedIds.has(q.id)||drafts[q.id]?.completed===true).length,writingQuestions.length,writingQuestions.filter(q=>!submittedIds.has(q.id)&&drafts[q.id]?.completed!==true&&typeof drafts[q.id]?.text==='string'&&drafts[q.id].text.trim()).length);
  const oral=metric(oralQuestions.filter(q=>oralIds.has(q.id)).length,oralQuestions.length);
- return Object.fromEntries(Object.entries({basics:foundations,transition:transitionMetric(transitionProgress),listening:sectionBank('listening'),reading:sectionBank('reading'),writing,oral}).map(([key,value])=>[key,permissions[key==='transition'?'basics':key]===false?{locked:true}:value]));
+ return Object.fromEntries(Object.entries({basics:foundations,transition:transitionMetric(transitionProgress),listening:sectionBank('listening'),reading:sectionBank('reading'),writing,oral}).map(([key,value])=>[key,permissions[key]===false?{locked:true}:value]));
 }

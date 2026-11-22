@@ -1,3 +1,4 @@
+import {normalizePermissions} from '../server/section-permissions.mjs';
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {spawn} from 'node:child_process';
@@ -13,13 +14,14 @@ let child,base;
 async function start(){child=spawn(process.execPath,['server/server.mjs'],{env:{...process.env,PUBLIC_ORIGIN:'',PORT:'0',STATIC_DIR:root,DATA_DIR:path.join(dir,'db'),ADMIN_EMAIL:'teacher@example.test',ADMIN_PASSWORD:'teacher-password-test'},stdio:['ignore','pipe','pipe']});let output='';base=await new Promise((resolve,reject)=>{child.stdout.on('data',b=>{output+=b;const m=/listening on (\d+)/.exec(output);if(m)resolve('http://127.0.0.1:'+m[1]);});child.once('exit',()=>reject(Error('Server exited: '+output)));});}
 const request=(route,{method='GET',cookie,body}={})=>fetch(base+route,{method,redirect:'manual',headers:{...(cookie?{cookie}:{}),...(body?{'content-type':'application/json',origin:base}:{})},body:body?JSON.stringify(body):undefined});
 const login=async(email,password)=>{const r=await request('/api/login',{method:'POST',body:{email,password}});assert.equal(r.status,200);return r.headers.get('set-cookie').split(';')[0];};
-const all={basics:true,listening:true,reading:true,oral:true,writing:true};
+assert.equal(normalizePermissions({basics:true}).transition,true);assert.equal(normalizePermissions({basics:false}).transition,false);assert.equal(normalizePermissions({basics:true,transition:false}).transition,false);
+const all={basics:true,transition:true,listening:true,reading:true,oral:true,writing:true};
 try{
  await start();assert.equal((await request('/course-translations.js')).status,303);let admin=await login('teacher@example.test','teacher-password-test');
  const add=await request('/api/admin/users',{cookie:admin,method:'POST',body:{email:'student@example.test'}}),created=await add.json();
  let student=await login(created.email,created.password);await request('/api/password',{cookie:student,method:'POST',body:{current:created.password,password:'student-password-test'}});
  let users=await (await request('/api/admin/users',{cookie:admin})).json();const id=users[0].id;
- assert.deepEqual(users[0].permissions,{...all,listening:false,reading:false,oral:false,writing:false});
+ assert.deepEqual(users[0].permissions,{...all,transition:false,listening:false,reading:false,oral:false,writing:false});
  const set=permissions=>request('/api/admin/permissions',{cookie:admin,method:'POST',body:{id,permissions}});
  assert.equal((await request('/api/admin/permissions',{cookie:student,method:'POST',body:{id,permissions:all}})).status,403);
  assert.equal((await set({basics:true})).status,400);
@@ -29,11 +31,17 @@ try{
  assert.equal((await request('/bank/audio/listening.m4a',{cookie:student})).status,403);
  let exam=await (await request('/src/data/exam.json',{cookie:student})).json();assert.deepEqual(exam.oral,[]);assert.deepEqual(exam.writing,[]);
  let index=await (await request('/bank/index.json',{cookie:student})).json();assert.deepEqual(index.sets,[]);
- await set({...all,basics:false,listening:false,oral:false});
+ await set({...all,basics:false,transition:false,listening:false,oral:false});
  assert.deepEqual(await (await request('/src/data/materials.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src//data/courses.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src%2fdata%2fmaterials.json',{cookie:student})).json(),[]);
  for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/pronunciation-layout.js','/course-editorial.js','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/transition-to-prep.js','/transition-content.js','/transition-phrases.js','/transition-prepositions.js','/transition-extra-verbs.js','/transition-verb-examples.js','/transition-progress.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
+ await set({...all,basics:false,transition:true});
+ assert.equal((await request('/transition-content.js',{cookie:student})).status,200);
+ assert.equal((await request('/basic-verbs.js',{cookie:student})).status,403);
+ await set({...all,basics:true,transition:false,listening:false,oral:false});
+ assert.equal((await request('/transition-content.js',{cookie:student})).status,403);
+ assert.equal((await request('/basic-verbs.js',{cookie:student})).status,200);
  assert.equal((await request('/bank/sets/reading-test.json',{cookie:student})).status,200);
  assert.equal((await request('/bank/images/reading.jpg',{cookie:student})).status,200);
  index=await (await request('/bank/index.json',{cookie:student})).json();assert.deepEqual(index.sets.map(s=>s.kind),['reading']);

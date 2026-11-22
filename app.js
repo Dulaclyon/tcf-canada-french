@@ -9,7 +9,7 @@ import {routeSection} from './section-access.js';
 import {originalLessonAudio} from './human-audio.js?v=2';
 import {storage as studentStorage, account} from './student-storage.js';
 if(account.permissions.basics){const {courseTranslations}=await import('./course-translations.js?v=1');registerCourseTranslations(courseTranslations);}
-const {renderTransition}=account.permissions.basics?await import('./transition-to-prep.js'):{renderTransition:()=>''};
+const {renderTransition}=account.permissions.transition?await import('./transition-to-prep.js'):{renderTransition:()=>''};
 const {renderSeparatedLessonRecap}=account.permissions.basics?await import('./lesson-recaps.js?v=1'):{renderSeparatedLessonRecap:()=>''};
 const {renderWeatherLesson}=account.permissions.basics?await import('./weather-lesson.js?v=1'):{renderWeatherLesson:()=>''};
 const {renderPossessiveRecap}=account.permissions.basics?await import('./possessive-recap.js?v=1'):{renderPossessiveRecap:()=>''};

@@ -12,7 +12,7 @@ try{
  const body={questionId:q.id,text:'Bonjour, voici mon premier texte.'};
  assert.equal((await req('/api/writing/submissions',null,body)).status,401);
  assert.equal((await req('/api/writing/submissions',a,body)).status,403);
- await req('/api/admin/permissions',admin,{id,permissions:{basics:true,listening:false,reading:false,oral:false,writing:true}});
+ await req('/api/admin/permissions',admin,{id,permissions:{basics:true,transition:true,listening:false,reading:false,oral:false,writing:true}});
  assert.equal((await req('/api/writing/submissions',a,body,'https://evil.test')).status,403);
  assert.equal((await req('/api/writing/submissions',a,{...body,text:' '})).status,400);
  assert.equal((await req('/api/writing/submissions',a,{...body,text:'a'.repeat(20001)})).status,400);

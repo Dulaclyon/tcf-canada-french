@@ -506,7 +506,7 @@ export function renderArticle(text) {
       flush();
       flushNotes();
       hasDialogue=dialogue=true;
-      paragraph=line.replace(/(là-bas \?) là-bas$/u,'$1 （là-bas）');
+      paragraph=line.replace(/(là-bas \?) là-bas$/u,'$1');
       continue;
     }
     const phraseHeading=/^(?:avoir |être |faire |se |s[’'])/u.test(line)&&((paragraph.length>100&&line.length<65&&!/[.!?;]$/u.test(line))||/\([^)]*\)\s*=/u.test(line));
