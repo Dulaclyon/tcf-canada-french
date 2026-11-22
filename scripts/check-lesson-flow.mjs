@@ -23,3 +23,7 @@ console.log(`${materials.length} lesson flows preserve source lines; ${passages}
 const lessonEight=buildLessonFlow(materials.find(m=>m.lesson===8),courses.map(c=>c.article));
 assert(lessonEight.grammar.some(b=>b.title==='发音'&&b.text.includes('eau / au / aux')));
 assert(!lessonEight.readings.some(b=>b.text.includes('Phonic 发音')));
+const timeFlow=buildLessonFlow(materials.find(m=>m.id==='lesson-04'));
+const numberAt=timeFlow.grammar.findIndex(s=>s.numbersTopic);
+assert(numberAt>=0);assert(timeFlow.grammar[numberAt+1].timeQuestions);
+assert(!timeFlow.readings.some(r=>/^numbers\s+数字/mu.test(r.text)));

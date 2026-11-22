@@ -21175,5 +21175,60 @@
     "source": "含义",
     "en": "Meaning",
     "zh-TW": "含義"
+  },
+  {
+    "source": "两种常用问法",
+    "en": "Two common ways to ask",
+    "zh-TW": "兩種常用問法"
+  },
+  {
+    "source": "回答时间",
+    "en": "Telling the time",
+    "zh-TW": "回答時間"
+  },
+  {
+    "source": "Quelle heure est-il ? 直接询问时间；Est-ce que tu as l’heure ? 也常用来问时间，对不熟悉的人用 vous。",
+    "en": "Quelle heure est-il ? asks the time directly. Est-ce que tu as l’heure ? is another common way to ask; use vous when addressing someone you do not know well.",
+    "zh-TW": "Quelle heure est-il ? 直接詢問時間；Est-ce que tu as l’heure ? 也常用來問時間，對不熟悉的人用 vous。"
+  },
+  {
+    "source": "报时用 il est；une heure 用单数，deux heures 等用复数。中午和午夜分别说 midi、minuit。",
+    "en": "Use il est to tell the time. Une heure is singular; deux heures and higher numbers are plural. Noon is midi and midnight is minuit.",
+    "zh-TW": "報時用 il est；une heure 用單數，deux heures 等用複數。中午和午夜分別說 midi、minuit。"
+  },
+  {
+    "source": "现在几点？",
+    "en": "What time is it?",
+    "zh-TW": "現在幾點？"
+  },
+  {
+    "source": "不好意思，请问现在几点？",
+    "en": "Excuse me, what time is it?",
+    "zh-TW": "不好意思，請問現在幾點？"
+  },
+  {
+    "source": "你知道现在几点吗？",
+    "en": "Do you have the time?",
+    "zh-TW": "你知道現在幾點嗎？"
+  },
+  {
+    "source": "请问您知道现在几点吗？",
+    "en": "Do you have the time, please?",
+    "zh-TW": "請問您知道現在幾點嗎？"
+  },
+  {
+    "source": "现在七点。",
+    "en": "It is seven o’clock.",
+    "zh-TW": "現在七點。"
+  },
+  {
+    "source": "现在快三点半了。",
+    "en": "It is almost half past three.",
+    "zh-TW": "現在快三點半了。"
+  },
+  {
+    "source": "现在十四点三十分。",
+    "en": "It is 14:30.",
+    "zh-TW": "現在十四點三十分。"
   }
 ]

@@ -43,6 +43,16 @@ export function buildLessonFlow(material,candidates=[]){
   for(const a of articles){const where=span(text,a.text);if(where){add({title:a.title,text:text.slice(...where),page:b.page,kind:'reading'});text=(text.slice(0,where[0])+'\n'+text.slice(where[1])).trim();}}
   if(text)grammar.push({...b,text});
  }
+ if(material.id==='lesson-04'){
+  for(const reading of readings){
+   const start=/^问时间\s*$/mu.exec(reading.text);if(!start)continue;
+   const appendix=reading.text.slice(start.index);const numberStart=/^numbers\s+数字\s*$/mu.exec(appendix);if(!numberStart)continue;
+   const tail=appendix.slice(numberStart.index);const questionStart=/^Quelle heure est-il\s*\?/mu.exec(tail);if(!questionStart)continue;
+   grammar.push({...reading,title:'数字',numbersTopic:true,text:tail.slice(0,questionStart.index).trim()});
+   grammar.push({...reading,title:'问时间',timeQuestions:true,text:appendix.slice(0,numberStart.index).trim()+'\n'+tail.slice(questionStart.index).trim()});
+   reading.text=reading.text.slice(0,start.index).trim();
+  }
+ }
  const organized=grammar.flatMap(section=>{
   if(material.id!=='lesson-05'||section.title!=='天气')return [section];
   const marker=/^tion 的发音\s*$/mu.exec(section.text);

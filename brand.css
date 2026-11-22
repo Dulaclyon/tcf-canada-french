@@ -236,3 +236,4 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .preposition-example-group{margin:24px 0 30px}.preposition-example-group>h3{font-size:18px;line-height:1.5;margin-bottom:12px}.preposition-example-group>p{font-size:14px;line-height:1.8;color:var(--muted);margin-bottom:16px}.preposition-example-group td:first-child{width:60%}
 .phonics-context-group{margin:28px 0 36px}.phonics-context-group h4{font-size:18px;line-height:1.5;margin-bottom:12px}.phonics-context-group>p{font-size:14px;line-height:1.8;color:var(--muted)}.phonics-context-group .grammar-table{margin-top:16px}
 .modal-verb-lesson>h3{margin:26px 0 16px}.modal-verb-lesson>h3:first-child{margin-top:0}.modal-verb-examples{margin:24px 0}.modal-verb-examples>h4{font-size:18px;margin:0 0 12px}
+.time-question-lesson>h3{font-size:18px;margin:24px 0 14px}.time-question-lesson>h3:first-child{margin-top:0}.time-question-lesson>p{font-size:14px;line-height:1.8;color:var(--muted)}
