@@ -1,5 +1,10 @@
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function combineBasicVerbs(material,sections){
+ if(material.id==='lesson-04'){
+  const modal=sections.filter(s=>/^(Pouvoir|Vouloir)/u.test(s.title));
+  if(modal.length!==2)return sections;
+  return sections.flatMap(s=>s===modal[0]?[{...s,title:'pouvoir、vouloir 与 devoir',sourceTitles:modal.map(v=>v.title),modalVerbs:true,text:modal.map(v=>v.text).join('\n')}]:s===modal[1]?[]:[s]);
+ }
  if(material.id!=='lesson-02')return sections;
  const verbs=sections.filter(s=>['être','aller'].includes(s.title));
  if(verbs.length!==2)return sections;
@@ -36,3 +41,9 @@ export function renderTimeExpressions(){
 }
 
 export function visibleLessonTopics(sections){return sections.map((b,index)=>({...b,index})).filter(b=>b.pronunciationSections||b.timeExpressions||b.origin==='supplement'||b.text.length>30||b.topics?.length);}
+
+export function renderModalVerbs(audio={}){
+ const rows=[['je','peux','veux','dois'],['tu','peux','veux','dois'],['il / elle / on','peut','veut','doit'],['nous','pouvons','voulons','devons'],['vous','pouvez','voulez','devez'],['ils / elles','peuvent','veulent','doivent']];
+ const verbs=[["pouvoir", "能够；可以", "pouvoir + 动词原形", [["Je peux faire mon lit.", "我可以整理自己的床铺。"], ["Je peux venir chez toi.", "我可以来你家。"], ["Je peux aller à Paris avec Julien.", "我可以和 Julien 一起去巴黎。"], ["Nous pouvons faire nos devoirs avec eux.", "我们可以和他们一起做作业。"], ["Nous pouvons faire nos valises.", "我们可以收拾自己的行李。"], ["Vous pouvez faire vos devoirs.", "你们可以做自己的作业。"]]], ["vouloir", "想要；愿意", "vouloir + 动词原形；也可直接接名词", [["Ils veulent un livre.", "他们想要一本书。"], ["Nous voulons aller à la piscine.", "我们想去游泳池。"], ["Tu veux venir avec nous ?", "你想和我们一起来吗？"], ["Elle veut apprendre le français.", "她想学法语。"], ["Je veux faire mon lit.", "我想整理自己的床铺。"], ["Tu veux faire ta valise.", "你想收拾自己的行李箱。"], ["Elles veulent faire leurs devoirs.", "她们想做自己的作业。"]]], ["devoir", "必须；应当", "devoir + 动词原形", [["Je dois faire mes devoirs.", "我必须做作业。"], ["Tu dois arriver à l’heure.", "你应该准时到。"], ["Nous devons faire nos devoirs.", "我们必须做自己的作业。"], ["Vous devez lire les consignes.", "你们必须阅读说明。"], ["Il doit faire son lit.", "他必须整理自己的床铺。"], ["Nous devons faire nos valises.", "我们必须收拾自己的行李。"]]]];
+ return `<div class="modal-verb-lesson"><h3>现在时变位</h3><div class="grammar-table-wrap"><table class="grammar-table"><thead><tr>${['主语','pouvoir','vouloir','devoir'].map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(([subject,...forms])=>`<tr><th scope="row" lang="fr">${subject}</th>${forms.map(f=>`<td lang="fr">${f}</td>`).join('')}</tr>`).join('')}</tbody></table></div><h3>用法对照</h3><p>只变位第一个动词，后面的动词保留原形。否定时，ne…pas 围住已变位的动词。</p><div class="grammar-table-wrap"><table class="grammar-table"><thead><tr><th>动词</th><th>含义</th><th>结构</th></tr></thead><tbody>${verbs.map(([id,meaning,pattern])=>`<tr><th scope="row" lang="fr">${id}</th><td>${esc(meaning)}</td><td>${esc(pattern)}</td></tr>`).join('')}</tbody></table></div><h3>例句</h3>${verbs.map(([id,, ,items])=>`<section class="modal-verb-examples"><h4 lang="fr">${id}</h4>${audio[id]||''}<table class="grammar-table"><thead><tr><th>法语例句</th><th>释义</th></tr></thead><tbody>${items.map(([fr,zh])=>`<tr><td lang="fr">${esc(fr)}</td><td>${esc(zh)}</td></tr>`).join('')}</tbody></table></section>`).join('')}<p>比较：Je peux partir.（我可以走。）Je veux partir.（我想走。）Je dois partir.（我必须走。）</p></div>`;
+}

@@ -21025,5 +21025,155 @@
     "source": "猫来了。",
     "en": "The cat is arriving.",
     "zh-TW": "貓來了。"
+  },
+  {
+    "source": "pouvoir、vouloir 与 devoir",
+    "en": "pouvoir, vouloir and devoir",
+    "zh-TW": "pouvoir、vouloir 與 devoir"
+  },
+  {
+    "source": "能够；可以",
+    "en": "can / may",
+    "zh-TW": "能夠；可以"
+  },
+  {
+    "source": "想要；愿意",
+    "en": "to want / be willing",
+    "zh-TW": "想要；願意"
+  },
+  {
+    "source": "必须；应当",
+    "en": "must / should",
+    "zh-TW": "必須；應當"
+  },
+  {
+    "source": "只变位第一个动词，后面的动词保留原形。否定时，ne…pas 围住已变位的动词。",
+    "en": "Conjugate only the first verb; keep the following verb in the infinitive. In a negative sentence, ne…pas surrounds the conjugated verb.",
+    "zh-TW": "只變位第一個動詞，後面的動詞保留原形。否定時，ne…pas 圍住已變位的動詞。"
+  },
+  {
+    "source": "pouvoir + 动词原形",
+    "en": "pouvoir + infinitive",
+    "zh-TW": "pouvoir + 動詞原形"
+  },
+  {
+    "source": "vouloir + 动词原形；也可直接接名词",
+    "en": "vouloir + infinitive; it can also take a noun directly",
+    "zh-TW": "vouloir + 動詞原形；也可直接接名詞"
+  },
+  {
+    "source": "devoir + 动词原形",
+    "en": "devoir + infinitive",
+    "zh-TW": "devoir + 動詞原形"
+  },
+  {
+    "source": "比较：Je peux partir.（我可以走。）Je veux partir.（我想走。）Je dois partir.（我必须走。）",
+    "en": "Compare: Je peux partir. (I can leave.) Je veux partir. (I want to leave.) Je dois partir. (I must leave.)",
+    "zh-TW": "比較：Je peux partir.（我可以走。）Je veux partir.（我想走。）Je dois partir.（我必須走。）"
+  },
+  {
+    "source": "我可以整理自己的床铺。",
+    "en": "I can make my bed.",
+    "zh-TW": "我可以整理自己的床鋪。"
+  },
+  {
+    "source": "我可以来你家。",
+    "en": "I can come to your place.",
+    "zh-TW": "我可以來你家。"
+  },
+  {
+    "source": "我可以和 Julien 一起去巴黎。",
+    "en": "I can go to Paris with Julien.",
+    "zh-TW": "我可以和 Julien 一起去巴黎。"
+  },
+  {
+    "source": "我们可以和他们一起做作业。",
+    "en": "We can do our homework with them.",
+    "zh-TW": "我們可以和他們一起做作業。"
+  },
+  {
+    "source": "他们想要一本书。",
+    "en": "They want a book.",
+    "zh-TW": "他們想要一本書。"
+  },
+  {
+    "source": "我们想去游泳池。",
+    "en": "We want to go to the swimming pool.",
+    "zh-TW": "我們想去游泳池。"
+  },
+  {
+    "source": "你想和我们一起来吗？",
+    "en": "Do you want to come with us?",
+    "zh-TW": "你想和我們一起來嗎？"
+  },
+  {
+    "source": "她想学法语。",
+    "en": "She wants to learn French.",
+    "zh-TW": "她想學法語。"
+  },
+  {
+    "source": "我必须做作业。",
+    "en": "I must do my homework.",
+    "zh-TW": "我必須做作業。"
+  },
+  {
+    "source": "你应该准时到。",
+    "en": "You should arrive on time.",
+    "zh-TW": "你應該準時到。"
+  },
+  {
+    "source": "我们需要预订一张餐桌。",
+    "en": "We need to reserve a table.",
+    "zh-TW": "我們需要預訂一張餐桌。"
+  },
+  {
+    "source": "你们必须阅读说明。",
+    "en": "You must read the instructions.",
+    "zh-TW": "你們必須閱讀說明。"
+  },
+  {
+    "source": "我们可以收拾自己的行李。",
+    "en": "We can pack our bags.",
+    "zh-TW": "我們可以收拾自己的行李。"
+  },
+  {
+    "source": "你们可以做自己的作业。",
+    "en": "You can do your homework.",
+    "zh-TW": "你們可以做自己的作業。"
+  },
+  {
+    "source": "我想整理自己的床铺。",
+    "en": "I want to make my bed.",
+    "zh-TW": "我想整理自己的床鋪。"
+  },
+  {
+    "source": "你想收拾自己的行李箱。",
+    "en": "You want to pack your suitcase.",
+    "zh-TW": "你想收拾自己的行李箱。"
+  },
+  {
+    "source": "她们想做自己的作业。",
+    "en": "They want to do their homework.",
+    "zh-TW": "她們想做自己的作業。"
+  },
+  {
+    "source": "他必须整理自己的床铺。",
+    "en": "He must make his bed.",
+    "zh-TW": "他必須整理自己的床鋪。"
+  },
+  {
+    "source": "我们必须收拾自己的行李。",
+    "en": "We must pack our bags.",
+    "zh-TW": "我們必須收拾自己的行李。"
+  },
+  {
+    "source": "我们必须做自己的作业。",
+    "en": "We must do our homework.",
+    "zh-TW": "我們必須做自己的作業。"
+  },
+  {
+    "source": "含义",
+    "en": "Meaning",
+    "zh-TW": "含義"
   }
 ]
