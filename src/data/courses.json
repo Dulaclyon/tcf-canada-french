@@ -852,19 +852,25 @@
         ]
       },
       {
-        "id": "grammar-04-ex-02",
+        "id": "grammar-04-ex-02-aligned-v2",
         "knowledgeId": "grammar-04",
-        "type": "fill",
+        "type": "choice",
         "level": "A1",
-        "prompt": "Elle revient ___ Canada.（从加拿大回来，用de与定冠词缩合）",
+        "prompt": "Je suis ___ Paul ce soir.",
         "answers": [
-          "du"
+          "avec"
         ],
-        "explanation": "de + le 缩合为 du。",
-        "pitfall": "de + le 缩合为 du。",
+        "explanation": "avec 表示“和……一起”。",
+        "pitfall": "avec 表示“和……一起”。",
         "source": "原创模拟练习",
         "accentSensitive": true,
-        "reviewStatus": "待人工复核"
+        "reviewStatus": "待人工复核",
+        "options": [
+          "avec",
+          "au",
+          "aux"
+        ],
+        "curriculumTopic": "avec"
       },
       {
         "id": "grammar-04-ex-03",
@@ -942,19 +948,25 @@
         "reviewStatus": "待人工复核"
       },
       {
-        "id": "grammar-04-ex-08",
+        "id": "grammar-04-ex-08-aligned-v2",
         "knowledgeId": "grammar-04",
-        "type": "fill",
+        "type": "choice",
         "level": "A1",
-        "prompt": "Je parle ___ voisins.（de + les）",
+        "prompt": "Tu es ___ toi ce matin ?",
         "answers": [
-          "des"
+          "chez"
         ],
-        "explanation": "de les 缩合为 des。",
-        "pitfall": "de les 缩合为 des。",
+        "explanation": "chez toi 表示“在你家”。",
+        "pitfall": "chez toi 表示“在你家”。",
         "source": "原创模拟练习",
         "accentSensitive": true,
-        "reviewStatus": "待人工复核"
+        "reviewStatus": "待人工复核",
+        "options": [
+          "chez",
+          "avec",
+          "au"
+        ],
+        "curriculumTopic": "chez"
       },
       {
         "id": "grammar-04-ex-09",

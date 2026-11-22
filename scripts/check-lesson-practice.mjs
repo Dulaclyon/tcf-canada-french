@@ -28,6 +28,14 @@ const allOriginal=[...courses,...materials].flatMap(c=>c.exercises||[]);
 assert.equal(pool.length,allOriginal.length,'Every question remains available exactly once');
 const six=pool.filter(q=>q.course.id===units[5].id),seven=pool.filter(q=>q.course.id===units[6].id);
 assert(!six.some(a=>seven.some(b=>a.id===b.id||normalize(a.prompt)===normalize(b.prompt))),'Visible Units 6 and 7 share no questions');
+// Unit 2 must assess the simple structures actually introduced in this lesson.
+const unitTwo=pool.filter(q=>q.course.id==='lesson-03');
+assert.equal(unitTwo.length,22);
+assert(unitTwo.every(q=>q.level==='A1'),'Unit 2 remains beginner level');
+for(const topic of ['stressed-pronouns','questions','present-tense','articles','elision','liaison'])
+ assert(unitTwo.some(q=>q.curriculumTopic===topic),`Unit 2 covers ${topic}`);
+assert(!unitTwo.some(q=>/revien|reviens|viens ___|inquiète|la poste et le café|la chaise|la table/u.test(q.prompt)),
+ 'Unit 2 does not assess untaught source-country contractions, advanced questions or spatial vocabulary');
 const ui=fs.readFileSync('app.js','utf8');
 assert(ui.includes('return buildPracticeCatalogue(courses,materials)'));
 assert(ui.includes("if(c.practiceUnit)return material(c.practiceUnit)"),'Legacy course links lead to the question home');

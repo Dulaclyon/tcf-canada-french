@@ -1197,9 +1197,9 @@
     ],
     "exercises": [
       {
-        "id": "lesson-03-extra-practice-2",
+        "id": "lesson-03-extra-practice-2-aligned-v2",
         "type": "choice",
-        "level": "A2–B1",
+        "level": "A1",
         "prompt": "Vous venez avec ___ ?",
         "options": [
           "je",
@@ -1210,195 +1210,207 @@
           "moi"
         ],
         "explanation": "介词 avec 后用重读代词 moi。",
-        "pitfall": "注意本课新增规则的适用条件。",
-        "accentSensitive": true
+        "pitfall": "介词 avec 后用重读代词 moi。",
+        "accentSensitive": true,
+        "curriculumTopic": "stressed-pronouns"
       },
       {
-        "id": "lesson-03-extra-practice-3",
+        "id": "lesson-03-extra-practice-3-aligned-v2",
         "type": "choice",
-        "level": "A2–B1",
-        "prompt": "___ vous inquiète ?",
+        "level": "A1",
+        "prompt": "— Qui est-ce ? — C’est ___.",
         "options": [
-          "Qu’est-ce qui",
-          "Qu’est-ce que",
-          "Quel"
+          "elle",
+          "la",
+          "le"
         ],
         "answers": [
-          "Qu’est-ce qui"
+          "elle"
         ],
-        "explanation": "询问“什么”在句中作主语，使用 qu’est-ce qui。",
-        "pitfall": "注意本课新增规则的适用条件。",
-        "accentSensitive": true
+        "explanation": "c’est 后可以用重读代词 elle。",
+        "pitfall": "c’est 后可以用重读代词 elle。",
+        "accentSensitive": true,
+        "curriculumTopic": "stressed-pronouns"
       },
       {
-        "prompt": "Je vais ___ Canada.",
+        "prompt": "Paul vient avec nous ; Marie vient avec ___.",
         "answers": [
-          "au"
+          "eux"
         ],
         "options": [
-          "en",
-          "à la",
-          "au"
+          "ils",
+          "eux",
+          "les"
         ],
-        "explanation": "阳性国家 Canada 前用 au。",
+        "explanation": "介词后用重读代词 eux。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-01",
-        "level": "A2",
-        "pitfall": "阳性国家 Canada 前用 au。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-01-aligned-v2",
+        "level": "A1",
+        "pitfall": "介词后用重读代词 eux。",
+        "accentSensitive": true,
+        "curriculumTopic": "stressed-pronouns"
       },
       {
-        "prompt": "Elle habite ___ France.",
+        "prompt": "___ est la gare ? — Elle est près d’ici.",
         "answers": [
-          "en"
+          "Où"
         ],
         "options": [
-          "aux",
-          "en",
-          "au"
+          "Où",
+          "Qui",
+          "Quand"
         ],
-        "explanation": "阴性国家 France 前用 en。",
+        "explanation": "询问地点用 où。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-02",
-        "level": "A2",
-        "pitfall": "阴性国家 France 前用 en。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-02-aligned-v2",
+        "level": "A1",
+        "pitfall": "询问地点用 où。",
+        "accentSensitive": true,
+        "curriculumTopic": "questions"
       },
       {
-        "prompt": "Nous allons ___ États-Unis.",
+        "prompt": "___ est-ce ? — C’est Paul.",
         "answers": [
-          "aux"
+          "Qui"
         ],
         "options": [
-          "aux",
-          "au",
-          "en"
+          "Qui",
+          "Où",
+          "Quand"
         ],
-        "explanation": "复数国家 États-Unis 前用 aux。",
+        "explanation": "询问人物用 qui。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-03",
-        "level": "A2",
-        "pitfall": "复数国家 États-Unis 前用 aux。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-03-aligned-v2",
+        "level": "A1",
+        "pitfall": "询问人物用 qui。",
+        "accentSensitive": true,
+        "curriculumTopic": "questions"
       },
       {
-        "prompt": "Il travaille ___ Paris.",
+        "prompt": "___ est-ce que tu pars ? — Demain.",
         "answers": [
-          "à"
+          "Quand"
         ],
         "options": [
-          "en",
-          "au",
-          "à"
+          "Quand",
+          "Qui",
+          "Où"
         ],
-        "explanation": "城市名前通常用 à。",
+        "explanation": "询问时间用 quand。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-04",
-        "level": "A2",
-        "pitfall": "城市名前通常用 à。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-04-aligned-v2",
+        "level": "A1",
+        "pitfall": "询问时间用 quand。",
+        "accentSensitive": true,
+        "curriculumTopic": "questions"
       },
       {
-        "prompt": "Je viens ___ Canada.",
+        "prompt": "Qu’est-ce que tu ___ ? — Mon livre.",
         "answers": [
-          "du"
+          "cherches"
         ],
         "options": [
-          "des",
-          "du",
-          "au"
+          "cherches",
+          "cherchez",
+          "cherchons"
         ],
-        "explanation": "来自阳性国家，用 de + le = du。",
+        "explanation": "主语 tu 搭配 cherches。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-05",
-        "level": "A2",
-        "pitfall": "来自阳性国家，用 de + le = du。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-05-aligned-v2",
+        "level": "A1",
+        "pitfall": "主语 tu 搭配 cherches。",
+        "accentSensitive": true,
+        "curriculumTopic": "present-tense"
       },
       {
-        "prompt": "Elle revient ___ France.",
+        "prompt": "Nous ___ à Paris.",
         "answers": [
-          "de"
+          "habitons"
         ],
         "options": [
-          "de",
-          "du",
-          "aux"
+          "habitons",
+          "habitez",
+          "habitent"
         ],
-        "explanation": "来自阴性国家，用 de，不保留冠词。",
+        "explanation": "主语 nous 搭配 habitons。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-06",
-        "level": "A2",
-        "pitfall": "来自阴性国家，用 de，不保留冠词。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-06-aligned-v2",
+        "level": "A1",
+        "pitfall": "主语 nous 搭配 habitons。",
+        "accentSensitive": true,
+        "curriculumTopic": "present-tense"
       },
       {
-        "prompt": "Nous revenons ___ États-Unis.",
+        "prompt": "Vous ___ un livre.",
         "answers": [
-          "des"
+          "avez"
         ],
         "options": [
-          "aux",
-          "du",
-          "des"
+          "avez",
+          "avons",
+          "ont"
         ],
-        "explanation": "来自复数国家，用 de + les = des。",
+        "explanation": "主语 vous 搭配 avez。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-07",
-        "level": "A2",
-        "pitfall": "来自复数国家，用 de + les = des。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-07-aligned-v2",
+        "level": "A1",
+        "pitfall": "主语 vous 搭配 avez。",
+        "accentSensitive": true,
+        "curriculumTopic": "present-tense"
       },
       {
-        "prompt": "La banque est ___ la poste et le café.",
+        "prompt": "___ maison est près d’ici.",
         "answers": [
-          "entre"
+          "La"
         ],
         "options": [
-          "chez",
-          "entre",
-          "dans"
+          "La",
+          "Le",
+          "Les"
         ],
-        "explanation": "两处地点之间用 entre。",
+        "explanation": "maison 是阴性单数名词，使用 la。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-08",
-        "level": "A2",
-        "pitfall": "两处地点之间用 entre。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-08-aligned-v2",
+        "level": "A1",
+        "pitfall": "maison 是阴性单数名词，使用 la。",
+        "accentSensitive": true,
+        "curriculumTopic": "articles"
       },
       {
-        "prompt": "Le livre est ___ la table.",
+        "prompt": "___ école est près de la gare.",
         "answers": [
-          "sur"
+          "L’"
         ],
         "options": [
-          "sur",
-          "entre",
-          "chez"
+          "L’",
+          "Le",
+          "La"
         ],
-        "explanation": "在桌面上用 sur。",
+        "explanation": "école 以元音开头，la 省音为 l’。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-09",
-        "level": "A2",
-        "pitfall": "在桌面上用 sur。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-09-aligned-v2",
+        "level": "A1",
+        "pitfall": "école 以元音开头，la 省音为 l’。",
+        "accentSensitive": true,
+        "curriculumTopic": "elision"
       },
       {
-        "prompt": "Le chat est ___ la chaise.",
+        "prompt": "Les ___ arrivent. [lez‿ami]",
         "answers": [
-          "sous"
+          "amis"
         ],
         "options": [
-          "entre",
-          "chez",
-          "sous"
+          "amis",
+          "héros",
+          "haricots"
         ],
-        "explanation": "在椅子下面用 sous。",
+        "explanation": "les amis 之间必须连读；h aspiré 阻止 les héros 和 les haricots 连读。",
         "type": "choice",
-        "id": "lesson-03-practice-expanded-10",
-        "level": "A2",
-        "pitfall": "在椅子下面用 sous。",
-        "accentSensitive": true
+        "id": "lesson-03-practice-expanded-10-aligned-v2",
+        "level": "A1",
+        "pitfall": "les amis 之间必须连读；h aspiré 阻止 les héros 和 les haricots 连读。",
+        "accentSensitive": true,
+        "curriculumTopic": "liaison"
       }
     ]
   },
