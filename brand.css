@@ -194,3 +194,10 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .editorial-header .wordmark{font-size:clamp(27px,2.8vw,38px)}
 .editorial-header .wordmark em{font-size:.94em}
 @media(max-width:760px){.editorial-header .wordmark,body>header .wordmark{font-size:28px}}
+
+/* Compact signature accent with Allura's long descending y. */
+.wordmark{gap:.1em;letter-spacing:-.05em}
+.wordmark em{font-family:'Allura',cursive;font-style:normal;font-weight:400;font-size:1.08em;letter-spacing:-.035em;line-height:1.05}
+#sidebar .brand .wordmark{gap:.1em;font-size:25px}
+#sidebar .brand .wordmark em{font-family:'Allura',cursive;font-size:1.08em;line-height:1.05;letter-spacing:-.035em}
+.editorial-header .wordmark em{font-size:1.08em}
