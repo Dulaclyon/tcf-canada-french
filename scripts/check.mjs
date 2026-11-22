@@ -92,3 +92,5 @@ execFileSync(process.execPath,['scripts/check-recalled-training.mjs'],{stdio:'in
 execFileSync(process.execPath,['scripts/check-transition.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/check-speech.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/check-modal-lesson.mjs'],{stdio:'inherit'});
+
+execFileSync(process.execPath,['scripts/check-culture-readings.mjs'],{stdio:'inherit'});

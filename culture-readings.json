@@ -1,0 +1,2916 @@
+[
+  {
+    "id": "lecture-01",
+    "title": "Un bonjour qui ouvre la porte",
+    "category": "culture",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "La porte de la petite boutique est ouverte. Anna entre et regarde les livres. Avant de poser une question, elle dit bonjour à la libraire. La dame lui répond avec un sourire. Quelques mots suffisent pour commencer une conversation.",
+      "Anna cherche un livre facile en français. La libraire lui montre une petite histoire. Anna remercie la dame, puis dit au revoir en partant. Dans cette rencontre, elle n’a pas utilisé beaucoup de mots. Pourtant, elle a déjà trouvé sa place dans la conversation."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une boutique",
+        "meaning": {
+          "zh-CN": "小商店",
+          "en": "small shop",
+          "zh-TW": "小商店"
+        }
+      },
+      {
+        "fr": "une libraire",
+        "meaning": {
+          "zh-CN": "女书商",
+          "en": "female bookseller",
+          "zh-TW": "女書商"
+        }
+      },
+      {
+        "fr": "un sourire",
+        "meaning": {
+          "zh-CN": "微笑",
+          "en": "smile",
+          "zh-TW": "微笑"
+        }
+      },
+      {
+        "fr": "suffire",
+        "meaning": {
+          "zh-CN": "足够",
+          "en": "to be enough",
+          "zh-TW": "足夠"
+        }
+      },
+      {
+        "fr": "pourtant",
+        "meaning": {
+          "zh-CN": "然而",
+          "en": "yet",
+          "zh-TW": "然而"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-02",
+    "title": "Une heure en terrasse",
+    "category": "culture",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Sur une petite place, les tables du café regardent la rue. Luc commande un café et s’assoit près de la fenêtre. Il n’est pas pressé. Il ouvre son livre, puis le referme pour regarder les passants.",
+      "Une amie arrive à vélo. Ils parlent de leur semaine et du film qu’ils veulent voir. Autour d’eux, les conversations se croisent. La terrasse devient un petit théâtre : chacun a son histoire, sa voix et sa manière d’occuper ce moment. Luc oublie son téléphone dans sa poche."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une terrasse",
+        "meaning": {
+          "zh-CN": "露天座位区",
+          "en": "outdoor café seating",
+          "zh-TW": "露天座位區"
+        }
+      },
+      {
+        "fr": "pressé",
+        "meaning": {
+          "zh-CN": "匆忙的",
+          "en": "in a hurry",
+          "zh-TW": "匆忙的"
+        }
+      },
+      {
+        "fr": "un passant",
+        "meaning": {
+          "zh-CN": "路人",
+          "en": "passer-by",
+          "zh-TW": "路人"
+        }
+      },
+      {
+        "fr": "se croiser",
+        "meaning": {
+          "zh-CN": "交错",
+          "en": "to cross paths",
+          "zh-TW": "交錯"
+        }
+      },
+      {
+        "fr": "une poche",
+        "meaning": {
+          "zh-CN": "衣袋",
+          "en": "pocket",
+          "zh-TW": "衣袋"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-03",
+    "title": "Le marché du samedi",
+    "category": "culture",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Le samedi matin, une place vide se remplit de couleurs. Sous les toiles des stands, on trouve des pommes, des fleurs et des légumes. Une vendeuse dispose ses tomates avec soin. Un client demande ce qui est de saison.",
+      "Inès marche lentement entre les étals. Elle compare, pose une question et choisit trois poires. Elle apporte son propre sac. Le marché n’est pas seulement un endroit pour acheter : c’est aussi une occasion de parler avec les personnes qui produisent ou vendent les aliments."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un étal",
+        "meaning": {
+          "zh-CN": "摊位",
+          "en": "market stall",
+          "zh-TW": "攤位"
+        }
+      },
+      {
+        "fr": "de saison",
+        "meaning": {
+          "zh-CN": "当季的",
+          "en": "in season",
+          "zh-TW": "當季的"
+        }
+      },
+      {
+        "fr": "une poire",
+        "meaning": {
+          "zh-CN": "梨",
+          "en": "pear",
+          "zh-TW": "梨"
+        }
+      },
+      {
+        "fr": "avec soin",
+        "meaning": {
+          "zh-CN": "仔细地",
+          "en": "carefully",
+          "zh-TW": "仔細地"
+        }
+      },
+      {
+        "fr": "produire",
+        "meaning": {
+          "zh-CN": "生产",
+          "en": "to produce",
+          "zh-TW": "生產"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-04",
+    "title": "Marcher sans se presser",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Paul sort sans destination précise. Il pourrait prendre le bus, mais il préfère marcher. Au coin d’une rue, il remarque une porte bleue qu’il n’avait jamais vue. Un peu plus loin, une cour apparaît derrière une grille.",
+      "Flâner, c’est laisser de la place à ce genre de découverte. On ne cherche pas forcément un monument célèbre. Une vitrine, une lumière sur un mur ou le bruit d’une fontaine peuvent suffire. Paul revient chez lui avec peu de photos, mais avec une image nouvelle de son quartier."
+    ],
+    "vocabulary": [
+      {
+        "fr": "flâner",
+        "meaning": {
+          "zh-CN": "悠闲漫步",
+          "en": "to stroll without hurry",
+          "zh-TW": "悠閒漫步"
+        }
+      },
+      {
+        "fr": "une grille",
+        "meaning": {
+          "zh-CN": "铁栅门",
+          "en": "metal gate",
+          "zh-TW": "鐵柵門"
+        }
+      },
+      {
+        "fr": "une vitrine",
+        "meaning": {
+          "zh-CN": "橱窗",
+          "en": "shop window",
+          "zh-TW": "櫥窗"
+        }
+      },
+      {
+        "fr": "une fontaine",
+        "meaning": {
+          "zh-CN": "喷泉",
+          "en": "fountain",
+          "zh-TW": "噴泉"
+        }
+      },
+      {
+        "fr": "forcément",
+        "meaning": {
+          "zh-CN": "必然",
+          "en": "necessarily",
+          "zh-TW": "必然"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-05",
+    "title": "Une histoire dans le métro",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans le métro parisien, Léa lit les noms des stations comme les titres d’un livre. Certains évoquent un lieu, d’autres une personne ou un événement. Elle ne connaît pas encore toutes ces histoires, mais elle note les noms qui l’intriguent.",
+      "À sa sortie, la ville lui semble différente. Ce qui n’était qu’un trajet devient une petite enquête. Le soir, elle cherche pourquoi sa station porte ce nom. Pour apprendre une langue, il suffit parfois de regarder avec curiosité les mots que l’on rencontre chaque jour."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un trajet",
+        "meaning": {
+          "zh-CN": "路程",
+          "en": "journey",
+          "zh-TW": "路程"
+        }
+      },
+      {
+        "fr": "évoquer",
+        "meaning": {
+          "zh-CN": "使人想起",
+          "en": "to evoke",
+          "zh-TW": "使人想起"
+        }
+      },
+      {
+        "fr": "intriguer",
+        "meaning": {
+          "zh-CN": "引起好奇",
+          "en": "to intrigue",
+          "zh-TW": "引起好奇"
+        }
+      },
+      {
+        "fr": "une enquête",
+        "meaning": {
+          "zh-CN": "调查",
+          "en": "investigation",
+          "zh-TW": "調查"
+        }
+      },
+      {
+        "fr": "la curiosité",
+        "meaning": {
+          "zh-CN": "好奇心",
+          "en": "curiosity",
+          "zh-TW": "好奇心"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-06",
+    "title": "Les livres au bord de la Seine",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Le long de la Seine, les boîtes des bouquinistes s’ouvrent comme de petites bibliothèques. On peut y trouver des livres d’occasion, des gravures ou de vieilles cartes. Le regard passe d’une couverture à une autre.",
+      "Mina n’achète rien tout de suite. Elle feuillette un roman et imagine les lecteurs qui l’ont tenu avant elle. Une page porte une petite marque au crayon. Le livre a déjà voyagé, même s’il reste sur le même quai. Mina le referme doucement et demande son prix."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un bouquiniste",
+        "meaning": {
+          "zh-CN": "旧书商",
+          "en": "second-hand bookseller",
+          "zh-TW": "舊書商"
+        }
+      },
+      {
+        "fr": "un quai",
+        "meaning": {
+          "zh-CN": "河岸码头",
+          "en": "riverside quay",
+          "zh-TW": "河岸碼頭"
+        }
+      },
+      {
+        "fr": "feuilleter",
+        "meaning": {
+          "zh-CN": "翻阅",
+          "en": "to leaf through",
+          "zh-TW": "翻閱"
+        }
+      },
+      {
+        "fr": "une gravure",
+        "meaning": {
+          "zh-CN": "版画",
+          "en": "engraving",
+          "zh-TW": "版畫"
+        }
+      },
+      {
+        "fr": "d’occasion",
+        "meaning": {
+          "zh-CN": "二手的",
+          "en": "second-hand",
+          "zh-TW": "二手的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "Paris je t’aime · Les bouquinistes",
+      "url": "https://parisjetaime.com/shopping/les-bouquinistes-de-paris-p3737"
+    }
+  },
+  {
+    "id": "lecture-07",
+    "title": "Devant un tableau",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Au musée, Sami décide de regarder un seul tableau pendant plusieurs minutes. Au début, il voit surtout les couleurs. Puis il remarque une main, une fenêtre et un objet presque caché dans l’ombre.",
+      "Son amie ne voit pas exactement la même chose. Ils comparent leurs impressions sans chercher une réponse unique. Devant une œuvre, apprendre à décrire est déjà une façon de comprendre. Sami essaie de dire ce qu’il ressent en français. Les mots lui manquent parfois, mais l’image lui donne envie de continuer."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un tableau",
+        "meaning": {
+          "zh-CN": "绘画",
+          "en": "painting",
+          "zh-TW": "繪畫"
+        }
+      },
+      {
+        "fr": "une œuvre",
+        "meaning": {
+          "zh-CN": "作品",
+          "en": "work of art",
+          "zh-TW": "作品"
+        }
+      },
+      {
+        "fr": "une ombre",
+        "meaning": {
+          "zh-CN": "阴影",
+          "en": "shadow",
+          "zh-TW": "陰影"
+        }
+      },
+      {
+        "fr": "ressentir",
+        "meaning": {
+          "zh-CN": "感受到",
+          "en": "to feel",
+          "zh-TW": "感受到"
+        }
+      },
+      {
+        "fr": "une impression",
+        "meaning": {
+          "zh-CN": "印象",
+          "en": "impression",
+          "zh-TW": "印象"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-08",
+    "title": "La bibliothèque du quartier",
+    "category": "culture",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Il pleut et Nora pousse la porte de la bibliothèque. À l’intérieur, elle trouve des romans, des bandes dessinées et un espace pour lire. Elle demande comment emprunter un livre. La bibliothécaire lui explique les conditions d’inscription.",
+      "Nora choisit une histoire courte. Elle ne comprend pas chaque mot, mais les images l’aident. Avant de partir, elle regarde les activités proposées : une rencontre, une lecture et un atelier. La bibliothèque lui offre des livres, mais aussi une nouvelle manière de rencontrer son quartier."
+    ],
+    "vocabulary": [
+      {
+        "fr": "emprunter",
+        "meaning": {
+          "zh-CN": "借阅",
+          "en": "to borrow",
+          "zh-TW": "借閱"
+        }
+      },
+      {
+        "fr": "une bande dessinée",
+        "meaning": {
+          "zh-CN": "漫画",
+          "en": "comic book",
+          "zh-TW": "漫畫"
+        }
+      },
+      {
+        "fr": "une inscription",
+        "meaning": {
+          "zh-CN": "登记注册",
+          "en": "registration",
+          "zh-TW": "登記註冊"
+        }
+      },
+      {
+        "fr": "un atelier",
+        "meaning": {
+          "zh-CN": "工作坊",
+          "en": "workshop",
+          "zh-TW": "工作坊"
+        }
+      },
+      {
+        "fr": "proposer",
+        "meaning": {
+          "zh-CN": "提供；提议",
+          "en": "to offer; to suggest",
+          "zh-TW": "提供；提議"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-09",
+    "title": "Une séance de cinéma",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "La lumière s’éteint et la salle devient silencieuse. Pour une fois, Emma laisse son téléphone dans son sac. Elle regarde un film français avec des sous-titres. Au début, elle essaie de comprendre chaque phrase. Peu à peu, elle écoute aussi les voix et les silences.",
+      "Après la séance, elle parle d’une scène avec son ami. Ils ne racontent pas toute l’histoire. Ils choisissent un moment qui les a touchés. Le cinéma devient ainsi un point de départ pour exprimer une émotion et échanger un avis."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une séance",
+        "meaning": {
+          "zh-CN": "场次",
+          "en": "screening",
+          "zh-TW": "場次"
+        }
+      },
+      {
+        "fr": "un sous-titre",
+        "meaning": {
+          "zh-CN": "字幕",
+          "en": "subtitle",
+          "zh-TW": "字幕"
+        }
+      },
+      {
+        "fr": "peu à peu",
+        "meaning": {
+          "zh-CN": "渐渐地",
+          "en": "little by little",
+          "zh-TW": "漸漸地"
+        }
+      },
+      {
+        "fr": "toucher",
+        "meaning": {
+          "zh-CN": "打动",
+          "en": "to move emotionally",
+          "zh-TW": "打動"
+        }
+      },
+      {
+        "fr": "un avis",
+        "meaning": {
+          "zh-CN": "意见",
+          "en": "opinion",
+          "zh-TW": "意見"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-10",
+    "title": "La musique dans la rue",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Le 21 juin, la Fête de la musique invite à écouter autrement la ville. Des musiciens amateurs et professionnels peuvent jouer dans des lieux très différents. Une place, un jardin ou une cour deviennent parfois des scènes.",
+      "Dans ce récit, Hugo suit une mélodie jusqu’à une petite rue. Il ne connaît pas le groupe, mais il reste pour écouter. À côté de lui, des voisins se retrouvent. La musique n’efface pas les différences de goût ; elle crée simplement un moment où plusieurs personnes partagent le même espace."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une mélodie",
+        "meaning": {
+          "zh-CN": "旋律",
+          "en": "melody",
+          "zh-TW": "旋律"
+        }
+      },
+      {
+        "fr": "un amateur",
+        "meaning": {
+          "zh-CN": "业余爱好者",
+          "en": "amateur",
+          "zh-TW": "業餘愛好者"
+        }
+      },
+      {
+        "fr": "une scène",
+        "meaning": {
+          "zh-CN": "舞台",
+          "en": "stage",
+          "zh-TW": "舞台"
+        }
+      },
+      {
+        "fr": "partager",
+        "meaning": {
+          "zh-CN": "分享；共用",
+          "en": "to share",
+          "zh-TW": "分享；共用"
+        }
+      },
+      {
+        "fr": "se retrouver",
+        "meaning": {
+          "zh-CN": "相聚",
+          "en": "to meet up",
+          "zh-TW": "相聚"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "Ministère de la Culture · Fête de la musique",
+      "url": "https://www.culture.gouv.fr/evenements-nationaux/fete-de-la-musique"
+    }
+  },
+  {
+    "id": "lecture-11",
+    "title": "Un soir de 14 juillet",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Le 14 juillet est la fête nationale française. Selon les villes, des cérémonies, des bals ou des feux d’artifice peuvent marquer cette journée. Les programmes et les habitudes ne sont pas identiques partout.",
+      "Dans un village, une famille attend la nuit sur une place. Les enfants regardent le ciel, les adultes discutent. Quand les premières lumières apparaissent, les conversations s’arrêtent un instant. Le spectacle rassemble les regards. Le lendemain, chacun racontera une couleur, un bruit ou un détail différent de la même soirée."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un bal",
+        "meaning": {
+          "zh-CN": "舞会",
+          "en": "public dance",
+          "zh-TW": "舞會"
+        }
+      },
+      {
+        "fr": "un feu d’artifice",
+        "meaning": {
+          "zh-CN": "烟花",
+          "en": "firework display",
+          "zh-TW": "煙火"
+        }
+      },
+      {
+        "fr": "rassembler",
+        "meaning": {
+          "zh-CN": "聚集",
+          "en": "to bring together",
+          "zh-TW": "聚集"
+        }
+      },
+      {
+        "fr": "une cérémonie",
+        "meaning": {
+          "zh-CN": "仪式",
+          "en": "ceremony",
+          "zh-TW": "儀式"
+        }
+      },
+      {
+        "fr": "marquer",
+        "meaning": {
+          "zh-CN": "纪念；标志",
+          "en": "to mark",
+          "zh-TW": "紀念；標誌"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-12",
+    "title": "Une partie de pétanque",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Sous les arbres, quatre amis jouent à la pétanque. Ils observent une petite boule, le cochonnet, puis lancent leurs boules pour s’en approcher. Le terrain semble calme, mais chaque lancer peut changer la partie.",
+      "L’un des joueurs mesure la distance. Un autre explique son choix, et tout le monde regarde. On peut discuter longtemps d’un geste qui ne dure qu’une seconde. Pour le visiteur, le plaisir est aussi dans ces échanges : attendre, commenter, encourager et recommencer. La partie se joue autant avec les mots qu’avec les mains."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une boule",
+        "meaning": {
+          "zh-CN": "球",
+          "en": "ball used in pétanque",
+          "zh-TW": "球"
+        }
+      },
+      {
+        "fr": "un cochonnet",
+        "meaning": {
+          "zh-CN": "滚球游戏的小目标球",
+          "en": "small target ball in pétanque",
+          "zh-TW": "滾球遊戲的小目標球"
+        }
+      },
+      {
+        "fr": "un lancer",
+        "meaning": {
+          "zh-CN": "投掷",
+          "en": "throw",
+          "zh-TW": "投擲"
+        }
+      },
+      {
+        "fr": "s’approcher",
+        "meaning": {
+          "zh-CN": "靠近",
+          "en": "to come closer",
+          "zh-TW": "靠近"
+        }
+      },
+      {
+        "fr": "encourager",
+        "meaning": {
+          "zh-CN": "鼓励",
+          "en": "to encourage",
+          "zh-TW": "鼓勵"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-13",
+    "title": "Un jardin à la française",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Depuis la terrasse, les chemins du jardin dessinent des lignes nettes. Les haies sont taillées et les bassins reflètent le ciel. Le jardin à la française donne une place importante à l’ordre et à la perspective.",
+      "Pourtant, une promenade ne ressemble jamais exactement à une autre. La lumière change, une feuille tombe, un oiseau traverse une allée. Julie découvre que même un espace très organisé reste vivant. Elle suit un chemin droit, puis s’arrête devant un reflet qu’aucun plan ne pouvait fixer."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une haie",
+        "meaning": {
+          "zh-CN": "树篱",
+          "en": "hedge",
+          "zh-TW": "樹籬"
+        }
+      },
+      {
+        "fr": "tailler",
+        "meaning": {
+          "zh-CN": "修剪",
+          "en": "to trim",
+          "zh-TW": "修剪"
+        }
+      },
+      {
+        "fr": "un bassin",
+        "meaning": {
+          "zh-CN": "水池",
+          "en": "ornamental pool",
+          "zh-TW": "水池"
+        }
+      },
+      {
+        "fr": "une allée",
+        "meaning": {
+          "zh-CN": "园中小径",
+          "en": "garden path",
+          "zh-TW": "園中小徑"
+        }
+      },
+      {
+        "fr": "un reflet",
+        "meaning": {
+          "zh-CN": "倒影",
+          "en": "reflection",
+          "zh-TW": "倒影"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "Château de Versailles · Les jardins",
+      "url": "https://www.chateauversailles.fr/decouvrir/domaine/les-jardins"
+    }
+  },
+  {
+    "id": "lecture-14",
+    "title": "Une promenade au bord de la Loire",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Au bord de la Loire, le paysage mêle l’eau, les arbres et les traces de l’histoire. La région est connue pour ses châteaux, mais une visite ne se limite pas aux grandes salles et aux escaliers.",
+      "Camille préfère regarder depuis la rive. Elle voit une tour au loin et imagine les personnes qui ont traversé ce lieu avant elle. Le fleuve continue son chemin sans attendre les visiteurs. Entre un monument et un paysage, elle découvre deux façons de raconter le temps : conserver une forme et laisser passer l’eau."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une rive",
+        "meaning": {
+          "zh-CN": "河岸",
+          "en": "riverbank",
+          "zh-TW": "河岸"
+        }
+      },
+      {
+        "fr": "un château",
+        "meaning": {
+          "zh-CN": "城堡",
+          "en": "castle",
+          "zh-TW": "城堡"
+        }
+      },
+      {
+        "fr": "un fleuve",
+        "meaning": {
+          "zh-CN": "入海河流",
+          "en": "river flowing to the sea",
+          "zh-TW": "入海河流"
+        }
+      },
+      {
+        "fr": "une trace",
+        "meaning": {
+          "zh-CN": "痕迹",
+          "en": "trace",
+          "zh-TW": "痕跡"
+        }
+      },
+      {
+        "fr": "conserver",
+        "meaning": {
+          "zh-CN": "保存",
+          "en": "to preserve",
+          "zh-TW": "保存"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-15",
+    "title": "Les couleurs de Provence",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans ce paysage de Provence, les murs clairs renvoient la lumière. Une place offre un peu d’ombre, et l’on entend de l’eau près d’une fontaine. Sur le marché, les couleurs des fruits répondent à celles des façades.",
+      "Sarah s’assoit pour dessiner. Elle ne veut pas tout reproduire : elle choisit trois couleurs et une ligne. Une région n’est jamais une seule image. Derrière les cartes postales, il y a aussi des habitants, du travail et des journées ordinaires. Son dessin garde seulement la lumière de ce matin."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une façade",
+        "meaning": {
+          "zh-CN": "建筑正面",
+          "en": "building façade",
+          "zh-TW": "建築正面"
+        }
+      },
+      {
+        "fr": "renvoyer",
+        "meaning": {
+          "zh-CN": "反射",
+          "en": "to reflect back",
+          "zh-TW": "反射"
+        }
+      },
+      {
+        "fr": "reproduire",
+        "meaning": {
+          "zh-CN": "再现",
+          "en": "to reproduce",
+          "zh-TW": "再現"
+        }
+      },
+      {
+        "fr": "un habitant",
+        "meaning": {
+          "zh-CN": "居民",
+          "en": "resident",
+          "zh-TW": "居民"
+        }
+      },
+      {
+        "fr": "ordinaire",
+        "meaning": {
+          "zh-CN": "日常的",
+          "en": "ordinary",
+          "zh-TW": "日常的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-16",
+    "title": "Sur un sentier de Bretagne",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Le vent accompagne la marche. En Bretagne, près de la mer, le paysage change avec la lumière et les marées. Un chemin longe la côte ; plus loin, des maisons apparaissent derrière un mur de pierre.",
+      "Nicolas marche avec une amie qui connaît le sentier. Ils s’arrêtent pour regarder les vagues. Elle lui apprend quelques mots : une falaise, une crique, un phare. Les mots nouveaux ont ici une forme et une couleur. Le soir, il les retrouvera plus facilement dans son carnet."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une marée",
+        "meaning": {
+          "zh-CN": "潮汐",
+          "en": "tide",
+          "zh-TW": "潮汐"
+        }
+      },
+      {
+        "fr": "une falaise",
+        "meaning": {
+          "zh-CN": "悬崖",
+          "en": "cliff",
+          "zh-TW": "懸崖"
+        }
+      },
+      {
+        "fr": "une crique",
+        "meaning": {
+          "zh-CN": "小海湾",
+          "en": "small cove",
+          "zh-TW": "小海灣"
+        }
+      },
+      {
+        "fr": "un phare",
+        "meaning": {
+          "zh-CN": "灯塔",
+          "en": "lighthouse",
+          "zh-TW": "燈塔"
+        }
+      },
+      {
+        "fr": "longer",
+        "meaning": {
+          "zh-CN": "沿着走",
+          "en": "to follow alongside",
+          "zh-TW": "沿著走"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-17",
+    "title": "Une rue en Alsace",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans une rue d’Alsace, Élodie observe des maisons à colombages. Des pièces de bois dessinent des lignes sur les façades. Elle lève les yeux, puis regarde les détails d’une porte. Chaque maison semble proposer un motif différent.",
+      "La promenade continue jusqu’à une boulangerie. Élodie entend plusieurs langues autour d’elle. Les régions françaises possèdent des histoires et des traditions variées ; elles ne se résument pas à Paris. Voyager lui permet de découvrir cette diversité, mais aussi de poser de meilleures questions sur ce qu’elle voit."
+    ],
+    "vocabulary": [
+      {
+        "fr": "à colombages",
+        "meaning": {
+          "zh-CN": "木骨架外露式的",
+          "en": "half-timbered",
+          "zh-TW": "木骨架外露式的"
+        }
+      },
+      {
+        "fr": "un motif",
+        "meaning": {
+          "zh-CN": "图案",
+          "en": "pattern",
+          "zh-TW": "圖案"
+        }
+      },
+      {
+        "fr": "la diversité",
+        "meaning": {
+          "zh-CN": "多样性",
+          "en": "diversity",
+          "zh-TW": "多樣性"
+        }
+      },
+      {
+        "fr": "se résumer à",
+        "meaning": {
+          "zh-CN": "仅仅归结为",
+          "en": "to be reduced to",
+          "zh-TW": "僅僅歸結為"
+        }
+      },
+      {
+        "fr": "une pièce de bois",
+        "meaning": {
+          "zh-CN": "木构件",
+          "en": "piece of timber",
+          "zh-TW": "木構件"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-18",
+    "title": "Traverser Lyon à pied",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "À Lyon, la Saône et le Rhône dessinent deux chemins d’eau dans la ville. Alice traverse un pont et s’arrête au milieu. D’un côté, elle voit les immeubles ; de l’autre, une rive où des personnes marchent.",
+      "Elle visite ensuite une vieille rue. Une porte ouverte laisse apercevoir une cour. La ville se découvre par couches : l’eau, les façades, les passages et les voix. Alice avait prévu de suivre une liste de monuments. Elle choisit finalement de garder un peu de temps pour les détours."
+    ],
+    "vocabulary": [
+      {
+        "fr": "apercevoir",
+        "meaning": {
+          "zh-CN": "瞥见",
+          "en": "to catch sight of",
+          "zh-TW": "瞥見"
+        }
+      },
+      {
+        "fr": "un détour",
+        "meaning": {
+          "zh-CN": "绕路",
+          "en": "detour",
+          "zh-TW": "繞路"
+        }
+      },
+      {
+        "fr": "une couche",
+        "meaning": {
+          "zh-CN": "层",
+          "en": "layer",
+          "zh-TW": "層"
+        }
+      },
+      {
+        "fr": "un passage",
+        "meaning": {
+          "zh-CN": "通道",
+          "en": "passageway",
+          "zh-TW": "通道"
+        }
+      },
+      {
+        "fr": "prévoir",
+        "meaning": {
+          "zh-CN": "计划",
+          "en": "to plan",
+          "zh-TW": "計畫"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-19",
+    "title": "Un village et sa place",
+    "category": "culture",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Au centre du village, une place relie la mairie, un café et quelques commerces. Le matin, un camion livre du pain. Plus tard, des enfants passent avec leurs parents. Une personne s’arrête pour lire une affiche.",
+      "Tout n’est pas calme et tout le monde ne se connaît pas. Pourtant, la place permet aux chemins de se rencontrer. Pour un visiteur, il est agréable de s’asseoir et de regarder la vie quotidienne. On découvre un lieu autrement quand on lui donne un peu de son temps."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une mairie",
+        "meaning": {
+          "zh-CN": "市镇政府",
+          "en": "town hall",
+          "zh-TW": "市鎮政府"
+        }
+      },
+      {
+        "fr": "livrer",
+        "meaning": {
+          "zh-CN": "送货",
+          "en": "to deliver",
+          "zh-TW": "送貨"
+        }
+      },
+      {
+        "fr": "une affiche",
+        "meaning": {
+          "zh-CN": "海报",
+          "en": "poster",
+          "zh-TW": "海報"
+        }
+      },
+      {
+        "fr": "relier",
+        "meaning": {
+          "zh-CN": "连接",
+          "en": "to connect",
+          "zh-TW": "連接"
+        }
+      },
+      {
+        "fr": "quotidien",
+        "meaning": {
+          "zh-CN": "日常的",
+          "en": "everyday",
+          "zh-TW": "日常的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-20",
+    "title": "Les ponts de Paris",
+    "category": "culture",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Un pont sert d’abord à passer d’une rive à l’autre. Mais à Paris, il peut aussi devenir un endroit où l’on ralentit. Entre deux rues, on découvre soudain un espace ouvert et la lumière sur la Seine.",
+      "Mei traverse le pont à la fin de l’après-midi. Elle entend une conversation, un vélo et le moteur d’un bateau. Elle regarde la ville sans chercher le meilleur angle pour une photo. Pendant quelques minutes, elle n’est plus seulement en route vers un lieu : elle habite le trajet lui-même."
+    ],
+    "vocabulary": [
+      {
+        "fr": "ralentir",
+        "meaning": {
+          "zh-CN": "放慢",
+          "en": "to slow down",
+          "zh-TW": "放慢"
+        }
+      },
+      {
+        "fr": "soudain",
+        "meaning": {
+          "zh-CN": "突然",
+          "en": "suddenly",
+          "zh-TW": "突然"
+        }
+      },
+      {
+        "fr": "un moteur",
+        "meaning": {
+          "zh-CN": "发动机",
+          "en": "engine",
+          "zh-TW": "引擎"
+        }
+      },
+      {
+        "fr": "un angle",
+        "meaning": {
+          "zh-CN": "角度",
+          "en": "angle",
+          "zh-TW": "角度"
+        }
+      },
+      {
+        "fr": "traverser",
+        "meaning": {
+          "zh-CN": "穿过",
+          "en": "to cross",
+          "zh-TW": "穿過"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-21",
+    "title": "La baguette encore tiède",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "À la boulangerie, une odeur de pain accompagne l’ouverture de la porte. La baguette a une croûte fine et une mie claire. Sa forme allongée permet de la partager facilement à table.",
+      "Dans notre histoire, Louis en achète une pour le déjeuner. Il la porte dans un sac en papier et résiste mal à l’envie d’en goûter le bout. Les savoir-faire artisanaux et la culture de la baguette ont été inscrits au patrimoine culturel immatériel de l’UNESCO en 2022. Derrière ce pain simple, il y a un métier et des gestes précis."
+    ],
+    "vocabulary": [
+      {
+        "fr": "la croûte",
+        "meaning": {
+          "zh-CN": "面包外皮",
+          "en": "crust",
+          "zh-TW": "麵包外皮"
+        }
+      },
+      {
+        "fr": "la mie",
+        "meaning": {
+          "zh-CN": "面包内部",
+          "en": "soft inside of bread",
+          "zh-TW": "麵包內部"
+        }
+      },
+      {
+        "fr": "tiède",
+        "meaning": {
+          "zh-CN": "温热的",
+          "en": "lukewarm",
+          "zh-TW": "溫熱的"
+        }
+      },
+      {
+        "fr": "allongé",
+        "meaning": {
+          "zh-CN": "细长的",
+          "en": "elongated",
+          "zh-TW": "細長的"
+        }
+      },
+      {
+        "fr": "un savoir-faire",
+        "meaning": {
+          "zh-CN": "专业技艺",
+          "en": "craft skill",
+          "zh-TW": "專業技藝"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "UNESCO · La culture de la baguette",
+      "url": "https://ich.unesco.org/fr/RL/les-savoir-faire-artisanaux-et-la-culture-de-la-baguette-de-pain-01883"
+    }
+  },
+  {
+    "id": "lecture-22",
+    "title": "Un croissant du dimanche",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Le croissant arrive sur une petite assiette. Quand on le coupe, des couches fines se séparent. Cette pâte feuilletée demande du temps et un travail régulier. On peut l’apprécier nature, sans ajouter de confiture.",
+      "Ce dimanche, Clara en partage un avec son frère. Ils comparent le bruit de la croûte et la douceur de l’intérieur. Le croissant ne représente pas tous les petits-déjeuners en France : les habitudes changent selon les personnes et les jours. Ici, il accompagne simplement un matin où personne n’est pressé."
+    ],
+    "vocabulary": [
+      {
+        "fr": "feuilleté",
+        "meaning": {
+          "zh-CN": "层酥的",
+          "en": "made in thin pastry layers",
+          "zh-TW": "層酥的"
+        }
+      },
+      {
+        "fr": "une couche",
+        "meaning": {
+          "zh-CN": "一层",
+          "en": "layer",
+          "zh-TW": "一層"
+        }
+      },
+      {
+        "fr": "nature",
+        "meaning": {
+          "zh-CN": "原味的",
+          "en": "plain",
+          "zh-TW": "原味的"
+        }
+      },
+      {
+        "fr": "une assiette",
+        "meaning": {
+          "zh-CN": "盘子",
+          "en": "plate",
+          "zh-TW": "盤子"
+        }
+      },
+      {
+        "fr": "la douceur",
+        "meaning": {
+          "zh-CN": "柔软；甜美",
+          "en": "softness; sweetness",
+          "zh-TW": "柔軟；甜美"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-23",
+    "title": "La tartine du matin",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Une tartine commence par une tranche de pain. On peut y mettre du beurre, de la confiture ou autre chose, selon ses goûts. Elle est simple, mais elle invite à choisir : pain frais ou grillé, saveur douce ou plus légère.",
+      "Lina prépare la sienne près de la fenêtre. Elle entend la pluie et fait chauffer de l’eau. Son petit-déjeuner n’est pas une grande recette. C’est une suite de gestes familiers : couper, étaler, verser et s’asseoir. Elle commence la journée par quelques minutes de calme."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une tartine",
+        "meaning": {
+          "zh-CN": "涂抹配料的面包片",
+          "en": "slice of bread with a spread",
+          "zh-TW": "塗抹配料的麵包片"
+        }
+      },
+      {
+        "fr": "étaler",
+        "meaning": {
+          "zh-CN": "涂开",
+          "en": "to spread",
+          "zh-TW": "塗開"
+        }
+      },
+      {
+        "fr": "grillé",
+        "meaning": {
+          "zh-CN": "烤过的",
+          "en": "toasted",
+          "zh-TW": "烤過的"
+        }
+      },
+      {
+        "fr": "verser",
+        "meaning": {
+          "zh-CN": "倒入",
+          "en": "to pour",
+          "zh-TW": "倒入"
+        }
+      },
+      {
+        "fr": "une tranche",
+        "meaning": {
+          "zh-CN": "一片",
+          "en": "slice",
+          "zh-TW": "一片"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-24",
+    "title": "La crêpe et sa poêle",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Dans la cuisine, la pâte repose dans un grand bol. Avec une louche, Marc en verse un peu dans la poêle chaude. Il la fait tourner pour obtenir une couche fine. Les bords se détachent : il est temps de retourner la crêpe.",
+      "Sur la table, chacun choisit sa garniture. Un peu de sucre suffit à sa sœur ; son ami préfère du citron. La recette devient une activité à partager. La première crêpe est parfois moins réussie que les suivantes, ce qui donne à tout le monde une bonne raison de rire."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une poêle",
+        "meaning": {
+          "zh-CN": "平底锅",
+          "en": "frying pan",
+          "zh-TW": "平底鍋"
+        }
+      },
+      {
+        "fr": "une louche",
+        "meaning": {
+          "zh-CN": "长柄勺",
+          "en": "ladle",
+          "zh-TW": "長柄勺"
+        }
+      },
+      {
+        "fr": "une garniture",
+        "meaning": {
+          "zh-CN": "配料",
+          "en": "filling or topping",
+          "zh-TW": "配料"
+        }
+      },
+      {
+        "fr": "retourner",
+        "meaning": {
+          "zh-CN": "翻面",
+          "en": "to turn over",
+          "zh-TW": "翻面"
+        }
+      },
+      {
+        "fr": "un bord",
+        "meaning": {
+          "zh-CN": "边缘",
+          "en": "edge",
+          "zh-TW": "邊緣"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-25",
+    "title": "Une galette en Bretagne",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "À la crêperie, le menu distingue les crêpes et les galettes. Le vocabulaire peut varier selon les lieux, mais la galette de sarrasin est souvent associée aux garnitures salées en Bretagne. Sa couleur est plus sombre que celle d’une crêpe de froment.",
+      "Eva choisit une galette avec un œuf et du fromage. Elle regarde les bords repliés, puis goûte doucement. Elle découvre une autre saveur, un peu plus marquée. Un plat régional n’est pas seulement un nom à mémoriser : c’est aussi une texture, une odeur et une manière de le servir."
+    ],
+    "vocabulary": [
+      {
+        "fr": "le sarrasin",
+        "meaning": {
+          "zh-CN": "荞麦",
+          "en": "buckwheat",
+          "zh-TW": "蕎麥"
+        }
+      },
+      {
+        "fr": "le froment",
+        "meaning": {
+          "zh-CN": "小麦",
+          "en": "wheat",
+          "zh-TW": "小麥"
+        }
+      },
+      {
+        "fr": "salé",
+        "meaning": {
+          "zh-CN": "咸味的",
+          "en": "savoury",
+          "zh-TW": "鹹味的"
+        }
+      },
+      {
+        "fr": "replié",
+        "meaning": {
+          "zh-CN": "折叠的",
+          "en": "folded",
+          "zh-TW": "摺疊的"
+        }
+      },
+      {
+        "fr": "une texture",
+        "meaning": {
+          "zh-CN": "口感；质地",
+          "en": "texture",
+          "zh-TW": "口感；質地"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "France.fr · Gastronomie régionale",
+      "url": "https://www.france.fr/fr/liste-theme/gastronomie-vin/"
+    }
+  },
+  {
+    "id": "lecture-26",
+    "title": "La ratatouille de l’été",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Sur la planche, les légumes forment une petite palette : tomates, courgettes, aubergines et poivrons. Pour préparer une ratatouille, on les coupe et on les fait cuire avec des aromates. Les recettes et l’ordre des étapes peuvent varier.",
+      "Dans cette cuisine, la casserole mijote doucement. La personne qui cuisine goûte, attend et ajuste l’assaisonnement. Le plat associé à la Provence met les légumes au centre de la table. Avec du pain ou un autre accompagnement, il rappelle qu’une cuisine généreuse ne dépend pas toujours d’une longue liste d’ingrédients."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une aubergine",
+        "meaning": {
+          "zh-CN": "茄子",
+          "en": "aubergine",
+          "zh-TW": "茄子"
+        }
+      },
+      {
+        "fr": "une courgette",
+        "meaning": {
+          "zh-CN": "西葫芦",
+          "en": "courgette",
+          "zh-TW": "櫛瓜"
+        }
+      },
+      {
+        "fr": "mijoter",
+        "meaning": {
+          "zh-CN": "小火慢炖",
+          "en": "to simmer",
+          "zh-TW": "小火慢燉"
+        }
+      },
+      {
+        "fr": "un assaisonnement",
+        "meaning": {
+          "zh-CN": "调味",
+          "en": "seasoning",
+          "zh-TW": "調味"
+        }
+      },
+      {
+        "fr": "un accompagnement",
+        "meaning": {
+          "zh-CN": "配菜",
+          "en": "side dish",
+          "zh-TW": "配菜"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-27",
+    "title": "Une quiche à partager",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "La quiche sort du four dans un plat rond. Une pâte entoure une garniture liée par les œufs et la crème. La quiche lorraine est associée à la Lorraine et aux lardons ; d’autres tartes salées utilisent des légumes ou d’autres ingrédients.",
+      "Pour le déjeuner, Thomas coupe des parts et ajoute une salade. Il demande qui en veut encore. Le plat passe d’une personne à l’autre. Facile à partager, une tarte salée permet aussi de parler de ce que l’on mange : une pâte croustillante, un intérieur moelleux, une saveur douce ou prononcée."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un lardon",
+        "meaning": {
+          "zh-CN": "小块培根",
+          "en": "small piece of bacon",
+          "zh-TW": "小塊培根"
+        }
+      },
+      {
+        "fr": "une part",
+        "meaning": {
+          "zh-CN": "一份；一块",
+          "en": "portion; slice",
+          "zh-TW": "一份；一塊"
+        }
+      },
+      {
+        "fr": "croustillant",
+        "meaning": {
+          "zh-CN": "酥脆的",
+          "en": "crisp",
+          "zh-TW": "酥脆的"
+        }
+      },
+      {
+        "fr": "moelleux",
+        "meaning": {
+          "zh-CN": "松软的",
+          "en": "soft and tender",
+          "zh-TW": "鬆軟的"
+        }
+      },
+      {
+        "fr": "prononcé",
+        "meaning": {
+          "zh-CN": "浓郁的",
+          "en": "strong; pronounced",
+          "zh-TW": "濃郁的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-28",
+    "title": "La soupe à l’oignon",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "L’oignon cru fait parfois pleurer ; une fois cuit lentement, il devient doux et doré. Dans la soupe à l’oignon, le temps transforme cet ingrédient ordinaire. On ajoute du bouillon, puis, dans une version gratinée, du pain et du fromage.",
+      "À table, la cuillère traverse une surface chaude et dorée. La soupe demande d’attendre un peu avant la première bouchée. C’est un plat qui apprend la patience aussi bien à celui qui le prépare qu’à celui qui le mange. La simplicité des ingrédients n’empêche pas la richesse du goût."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un oignon",
+        "meaning": {
+          "zh-CN": "洋葱",
+          "en": "onion",
+          "zh-TW": "洋蔥"
+        }
+      },
+      {
+        "fr": "un bouillon",
+        "meaning": {
+          "zh-CN": "高汤",
+          "en": "stock",
+          "zh-TW": "高湯"
+        }
+      },
+      {
+        "fr": "doré",
+        "meaning": {
+          "zh-CN": "金黄色的",
+          "en": "golden",
+          "zh-TW": "金黃色的"
+        }
+      },
+      {
+        "fr": "une bouchée",
+        "meaning": {
+          "zh-CN": "一口食物",
+          "en": "mouthful",
+          "zh-TW": "一口食物"
+        }
+      },
+      {
+        "fr": "gratiner",
+        "meaning": {
+          "zh-CN": "烤至表面金黄",
+          "en": "to brown under heat",
+          "zh-TW": "烤至表面金黃"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-29",
+    "title": "Le pot-au-feu prend son temps",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans une grande marmite, la viande et les légumes cuisent doucement. Le pot-au-feu n’aime pas la précipitation. On surveille le bouillon, on enlève parfois l’écume et l’on attend que les ingrédients deviennent tendres.",
+      "Une carotte, un poireau et un morceau de viande racontent ici une cuisine de patience. Les recettes familiales diffèrent, et chacun possède ses petits gestes. À la fin, le bouillon peut être servi à part. Un seul plat offre alors plusieurs moments : sentir le parfum, boire un peu de bouillon, puis partager ce qui a cuit ensemble."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une marmite",
+        "meaning": {
+          "zh-CN": "大炖锅",
+          "en": "large cooking pot",
+          "zh-TW": "大燉鍋"
+        }
+      },
+      {
+        "fr": "un poireau",
+        "meaning": {
+          "zh-CN": "韭葱",
+          "en": "leek",
+          "zh-TW": "韭蔥"
+        }
+      },
+      {
+        "fr": "l’écume",
+        "meaning": {
+          "zh-CN": "浮沫",
+          "en": "foam on a broth",
+          "zh-TW": "浮沫"
+        }
+      },
+      {
+        "fr": "tendre",
+        "meaning": {
+          "zh-CN": "软嫩的",
+          "en": "tender",
+          "zh-TW": "軟嫩的"
+        }
+      },
+      {
+        "fr": "la précipitation",
+        "meaning": {
+          "zh-CN": "匆忙",
+          "en": "haste",
+          "zh-TW": "匆忙"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-30",
+    "title": "Le gratin dauphinois",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Les pommes de terre sont coupées en fines rondelles. Elles vont cuire lentement dans un plat, avec du lait ou de la crème selon la recette. Le gratin dauphinois est associé au Dauphiné. Dans sa préparation traditionnelle, le fromage n’est pas nécessaire.",
+      "Au four, les rondelles s’attendrissent et la surface se colore. Julien pose le plat au centre de la table. Il attend quelques minutes avant de servir. Sous une apparence simple, ce gratin montre l’importance de l’épaisseur des tranches, de la chaleur et du temps de cuisson."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une rondelle",
+        "meaning": {
+          "zh-CN": "圆薄片",
+          "en": "thin round slice",
+          "zh-TW": "圓薄片"
+        }
+      },
+      {
+        "fr": "s’attendrir",
+        "meaning": {
+          "zh-CN": "变软",
+          "en": "to become tender",
+          "zh-TW": "變軟"
+        }
+      },
+      {
+        "fr": "une épaisseur",
+        "meaning": {
+          "zh-CN": "厚度",
+          "en": "thickness",
+          "zh-TW": "厚度"
+        }
+      },
+      {
+        "fr": "une cuisson",
+        "meaning": {
+          "zh-CN": "烹煮过程",
+          "en": "cooking process",
+          "zh-TW": "烹煮過程"
+        }
+      },
+      {
+        "fr": "une pomme de terre",
+        "meaning": {
+          "zh-CN": "土豆",
+          "en": "potato",
+          "zh-TW": "馬鈴薯"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "Tables & Auberges · Le gratin dauphinois",
+      "url": "https://www.tables-auberges.com/blog/au-fil-des-saisons/dans-les-secrets-du-gratin-dauphinois-le-seul-le-vrai"
+    }
+  },
+  {
+    "id": "lecture-31",
+    "title": "Le cassoulet, un plat de patience",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans le Sud-Ouest, le cassoulet associe des haricots blancs et différentes viandes. Les versions de Toulouse, de Castelnaudary ou de Carcassonne ne sont pas identiques. Cette diversité fait partie de l’histoire du plat.",
+      "Pour un lecteur qui apprend le français, un menu devient une petite leçon de géographie. Il découvre un nom de ville, un ingrédient et une façon de cuire. Le cassoulet demande du temps ; le lire aussi invite à ralentir. On comprend mieux une spécialité quand on accepte qu’il existe plusieurs manières de la préparer."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un haricot blanc",
+        "meaning": {
+          "zh-CN": "白豆",
+          "en": "white bean",
+          "zh-TW": "白豆"
+        }
+      },
+      {
+        "fr": "associer",
+        "meaning": {
+          "zh-CN": "结合",
+          "en": "to combine",
+          "zh-TW": "結合"
+        }
+      },
+      {
+        "fr": "une spécialité",
+        "meaning": {
+          "zh-CN": "地方特色菜",
+          "en": "regional speciality",
+          "zh-TW": "地方特色菜"
+        }
+      },
+      {
+        "fr": "une version",
+        "meaning": {
+          "zh-CN": "版本；做法",
+          "en": "version",
+          "zh-TW": "版本；做法"
+        }
+      },
+      {
+        "fr": "différentes",
+        "meaning": {
+          "zh-CN": "不同的",
+          "en": "different",
+          "zh-TW": "不同的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "France.fr · Spécialités d’Occitanie",
+      "url": "https://www.france.fr/fr/article/specialites-occitanie/"
+    }
+  },
+  {
+    "id": "lecture-32",
+    "title": "Chez le fromager",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "La vitrine du fromager ressemble à une carte de paysages. Des fromages ronds, carrés, petits ou grands attendent sur leurs plateaux. Certains sont doux, d’autres ont un goût plus fort. Tous ne se conservent pas de la même manière.",
+      "Manon demande un conseil au lieu de choisir seulement avec les yeux. Elle explique ce qu’elle aime et pour combien de personnes elle achète. Le fromager lui propose deux morceaux. Poser ces questions en français transforme un achat en conversation : doux ou fort, frais ou affiné, pour aujourd’hui ou pour plus tard ?"
+    ],
+    "vocabulary": [
+      {
+        "fr": "un fromager",
+        "meaning": {
+          "zh-CN": "奶酪商",
+          "en": "cheesemonger",
+          "zh-TW": "乳酪商"
+        }
+      },
+      {
+        "fr": "affiné",
+        "meaning": {
+          "zh-CN": "熟成的",
+          "en": "matured",
+          "zh-TW": "熟成的"
+        }
+      },
+      {
+        "fr": "se conserver",
+        "meaning": {
+          "zh-CN": "保存；保鲜",
+          "en": "to keep well",
+          "zh-TW": "保存；保鮮"
+        }
+      },
+      {
+        "fr": "un morceau",
+        "meaning": {
+          "zh-CN": "一块",
+          "en": "piece",
+          "zh-TW": "一塊"
+        }
+      },
+      {
+        "fr": "un conseil",
+        "meaning": {
+          "zh-CN": "建议",
+          "en": "piece of advice",
+          "zh-TW": "建議"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-33",
+    "title": "Composer un petit plateau",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Pour découvrir les fromages, il n’est pas nécessaire d’en choisir beaucoup. Un petit plateau peut montrer des textures et des goûts différents. On peut commencer par une saveur douce, puis essayer quelque chose de plus prononcé.",
+      "À table, les invités décrivent ce qu’ils sentent. L’un pense à la noisette, l’autre remarque surtout le sel. Il n’y a pas une seule bonne phrase pour parler d’un goût. L’important est d’observer et de comparer. Un morceau de pain et un verre d’eau suffisent pour poursuivre la découverte, sans chercher des mots compliqués."
+    ],
+    "vocabulary": [
+      {
+        "fr": "composer",
+        "meaning": {
+          "zh-CN": "搭配；组成",
+          "en": "to put together",
+          "zh-TW": "搭配；組成"
+        }
+      },
+      {
+        "fr": "un plateau",
+        "meaning": {
+          "zh-CN": "托盘；拼盘",
+          "en": "platter",
+          "zh-TW": "托盤；拼盤"
+        }
+      },
+      {
+        "fr": "une noisette",
+        "meaning": {
+          "zh-CN": "榛子",
+          "en": "hazelnut",
+          "zh-TW": "榛果"
+        }
+      },
+      {
+        "fr": "un invité",
+        "meaning": {
+          "zh-CN": "客人",
+          "en": "guest",
+          "zh-TW": "客人"
+        }
+      },
+      {
+        "fr": "comparer",
+        "meaning": {
+          "zh-CN": "比较",
+          "en": "to compare",
+          "zh-TW": "比較"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-34",
+    "title": "La tarte Tatin se retourne",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans une tarte Tatin, les pommes cuisent sous la pâte avant que l’on retourne le dessert pour le servir. Le caramel donne aux fruits une couleur dorée. Ce geste final transforme ce que l’on voit : le fond devient le dessus.",
+      "Julie pose une assiette sur le moule. Elle protège ses mains et retourne l’ensemble avec précaution. Quelques secondes plus tard, les pommes apparaissent. Le dessert se partage encore tiède. Autour de la table, on parle de sa texture et de son parfum, sans avoir besoin d’une histoire compliquée sur son origine."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un moule",
+        "meaning": {
+          "zh-CN": "烘焙模具",
+          "en": "baking tin",
+          "zh-TW": "烘焙模具"
+        }
+      },
+      {
+        "fr": "avec précaution",
+        "meaning": {
+          "zh-CN": "小心地",
+          "en": "carefully",
+          "zh-TW": "小心地"
+        }
+      },
+      {
+        "fr": "le dessus",
+        "meaning": {
+          "zh-CN": "上面",
+          "en": "top",
+          "zh-TW": "上面"
+        }
+      },
+      {
+        "fr": "le fond",
+        "meaning": {
+          "zh-CN": "底部",
+          "en": "bottom",
+          "zh-TW": "底部"
+        }
+      },
+      {
+        "fr": "le caramel",
+        "meaning": {
+          "zh-CN": "焦糖",
+          "en": "caramel",
+          "zh-TW": "焦糖"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-35",
+    "title": "Une madeleine et un souvenir",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "La madeleine est un petit gâteau dont la forme rappelle une coquille. Sa taille permet de la tenir entre les doigts. On la reconnaît aussi à sa bosse, qui apparaît pendant la cuisson.",
+      "Dans la littérature, Marcel Proust a rendu célèbre le lien entre une madeleine, une boisson chaude et le retour d’un souvenir. Sans reprendre son texte, on peut faire la même expérience d’attention : sentir, goûter, puis chercher une image du passé. Pour Ana, ce n’est pas un gâteau, mais une soupe qui rappelle la cuisine de sa grand-mère."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une coquille",
+        "meaning": {
+          "zh-CN": "贝壳",
+          "en": "shell",
+          "zh-TW": "貝殼"
+        }
+      },
+      {
+        "fr": "une bosse",
+        "meaning": {
+          "zh-CN": "隆起",
+          "en": "bump",
+          "zh-TW": "隆起"
+        }
+      },
+      {
+        "fr": "un souvenir",
+        "meaning": {
+          "zh-CN": "回忆",
+          "en": "memory",
+          "zh-TW": "回憶"
+        }
+      },
+      {
+        "fr": "rappeler",
+        "meaning": {
+          "zh-CN": "使想起",
+          "en": "to bring to mind",
+          "zh-TW": "使想起"
+        }
+      },
+      {
+        "fr": "le passé",
+        "meaning": {
+          "zh-CN": "过去",
+          "en": "past",
+          "zh-TW": "過去"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-36",
+    "title": "Les couleurs du macaron",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Dans la vitrine, les macarons forment de petites rangées colorées. Deux coques entourent une garniture. La première bouchée associe une surface légère et un cœur plus tendre. Les parfums peuvent être classiques ou plus inattendus.",
+      "Noé choisit deux macarons différents au lieu d’une grande boîte. Il essaie de deviner les ingrédients avant de lire leur nom. La couleur donne un indice, mais elle ne dit pas tout. Goûter devient un jeu d’observation : reconnaître une odeur, décrire une texture et accepter de ne pas trouver tout de suite le mot juste."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une coque",
+        "meaning": {
+          "zh-CN": "外壳",
+          "en": "outer shell",
+          "zh-TW": "外殼"
+        }
+      },
+      {
+        "fr": "une rangée",
+        "meaning": {
+          "zh-CN": "一排",
+          "en": "row",
+          "zh-TW": "一排"
+        }
+      },
+      {
+        "fr": "un indice",
+        "meaning": {
+          "zh-CN": "线索",
+          "en": "clue",
+          "zh-TW": "線索"
+        }
+      },
+      {
+        "fr": "deviner",
+        "meaning": {
+          "zh-CN": "猜测",
+          "en": "to guess",
+          "zh-TW": "猜測"
+        }
+      },
+      {
+        "fr": "inattendu",
+        "meaning": {
+          "zh-CN": "意想不到的",
+          "en": "unexpected",
+          "zh-TW": "意想不到的"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-37",
+    "title": "Une tasse de chocolat chaud",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Après une promenade sous la pluie, une tasse chaude paraît précieuse. Dans le café, le chocolat arrive avec une petite cuillère. On le remue, puis on attend. Certaines préparations sont épaisses, d’autres plus légères.",
+      "Zoé tient la tasse entre ses mains. À travers la vitre, elle regarde les parapluies passer. Elle décrit la boisson avec trois mots : chaude, douce, réconfortante. Elle n’a pas besoin d’un vocabulaire immense pour raconter ce moment. Une sensation simple peut déjà devenir une petite histoire en français."
+    ],
+    "vocabulary": [
+      {
+        "fr": "remuer",
+        "meaning": {
+          "zh-CN": "搅拌",
+          "en": "to stir",
+          "zh-TW": "攪拌"
+        }
+      },
+      {
+        "fr": "épais",
+        "meaning": {
+          "zh-CN": "浓稠的",
+          "en": "thick",
+          "zh-TW": "濃稠的"
+        }
+      },
+      {
+        "fr": "réconfortant",
+        "meaning": {
+          "zh-CN": "令人感到慰藉的",
+          "en": "comforting",
+          "zh-TW": "令人感到慰藉的"
+        }
+      },
+      {
+        "fr": "une vitre",
+        "meaning": {
+          "zh-CN": "窗玻璃",
+          "en": "windowpane",
+          "zh-TW": "窗玻璃"
+        }
+      },
+      {
+        "fr": "une sensation",
+        "meaning": {
+          "zh-CN": "感受",
+          "en": "sensation",
+          "zh-TW": "感受"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-38",
+    "title": "Le pique-nique au jardin",
+    "category": "food",
+    "level": "A1",
+    "kind": "original",
+    "paragraphs": [
+      "Dans le panier, il y a du pain, des tomates, des fruits et une bouteille d’eau. Chacun apporte quelque chose. On choisit un endroit où il est permis de s’installer, puis on étend une couverture sur l’herbe.",
+      "Le repas n’a rien de compliqué. On coupe, on passe les assiettes et on fait attention aux miettes. Un ami a oublié les serviettes ; quelqu’un en a prévu quelques-unes de plus. Avant de partir, le groupe ramasse ses déchets. Le plaisir du lieu dépend aussi du soin que l’on en prend."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un panier",
+        "meaning": {
+          "zh-CN": "篮子",
+          "en": "basket",
+          "zh-TW": "籃子"
+        }
+      },
+      {
+        "fr": "une couverture",
+        "meaning": {
+          "zh-CN": "毯子",
+          "en": "blanket",
+          "zh-TW": "毯子"
+        }
+      },
+      {
+        "fr": "une miette",
+        "meaning": {
+          "zh-CN": "面包屑",
+          "en": "crumb",
+          "zh-TW": "麵包屑"
+        }
+      },
+      {
+        "fr": "un déchet",
+        "meaning": {
+          "zh-CN": "垃圾",
+          "en": "piece of waste",
+          "zh-TW": "垃圾"
+        }
+      },
+      {
+        "fr": "ramasser",
+        "meaning": {
+          "zh-CN": "收拾；拾起",
+          "en": "to gather up",
+          "zh-TW": "收拾；拾起"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-39",
+    "title": "Le repas comme rencontre",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Le repas gastronomique des Français, reconnu par l’UNESCO, ne désigne pas seulement une liste de plats coûteux. Il concerne aussi une manière de célébrer un moment, de choisir les mets et de les partager.",
+      "Dans une famille, le repas d’anniversaire commence bien avant de s’asseoir. On prépare la table, on discute du menu et l’on pense aux invités. Pendant le repas, on raconte, on écoute et on transmet parfois une recette. Les pratiques varient beaucoup, mais cette scène montre comment manger ensemble peut devenir une manière de prendre soin d’une relation."
+    ],
+    "vocabulary": [
+      {
+        "fr": "un mets",
+        "meaning": {
+          "zh-CN": "菜肴",
+          "en": "dish",
+          "zh-TW": "菜餚"
+        }
+      },
+      {
+        "fr": "transmettre",
+        "meaning": {
+          "zh-CN": "传承",
+          "en": "to pass on",
+          "zh-TW": "傳承"
+        }
+      },
+      {
+        "fr": "célébrer",
+        "meaning": {
+          "zh-CN": "庆祝",
+          "en": "to celebrate",
+          "zh-TW": "慶祝"
+        }
+      },
+      {
+        "fr": "coûteux",
+        "meaning": {
+          "zh-CN": "昂贵的",
+          "en": "expensive",
+          "zh-TW": "昂貴的"
+        }
+      },
+      {
+        "fr": "une relation",
+        "meaning": {
+          "zh-CN": "关系",
+          "en": "relationship",
+          "zh-TW": "關係"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": {
+      "name": "UNESCO · Le repas gastronomique des Français",
+      "url": "https://ich.unesco.org/fr/listes?RL=00437"
+    }
+  },
+  {
+    "id": "lecture-40",
+    "title": "Lire un menu sans se perdre",
+    "category": "food",
+    "level": "A2",
+    "kind": "original",
+    "paragraphs": [
+      "Au restaurant, le mot entrée désigne le plat qui peut précéder le plat principal. Viennent ensuite, selon le repas choisi, le fromage ou le dessert. Il est utile de distinguer la carte, qui présente les choix, et un menu proposant une formule.",
+      "Karim lit lentement et demande ce que contient un plat. Il précise aussi les ingrédients qu’il ne peut pas manger. Poser une question n’est pas un échec : c’est une compétence. Quand le serveur répond, Karim découvre à la fois du vocabulaire et une façon naturelle d’exprimer ses besoins."
+    ],
+    "vocabulary": [
+      {
+        "fr": "une entrée",
+        "meaning": {
+          "zh-CN": "前菜",
+          "en": "starter",
+          "zh-TW": "前菜"
+        }
+      },
+      {
+        "fr": "un plat principal",
+        "meaning": {
+          "zh-CN": "主菜",
+          "en": "main course",
+          "zh-TW": "主菜"
+        }
+      },
+      {
+        "fr": "une formule",
+        "meaning": {
+          "zh-CN": "套餐",
+          "en": "set meal",
+          "zh-TW": "套餐"
+        }
+      },
+      {
+        "fr": "contenir",
+        "meaning": {
+          "zh-CN": "包含",
+          "en": "to contain",
+          "zh-TW": "包含"
+        }
+      },
+      {
+        "fr": "préciser",
+        "meaning": {
+          "zh-CN": "说明清楚",
+          "en": "to specify",
+          "zh-TW": "說明清楚"
+        }
+      }
+    ],
+    "author": "French with Ryan",
+    "source": null
+  },
+  {
+    "id": "lecture-41",
+    "title": "Le Corbeau et le Renard",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Jean de La Fontaine",
+    "work": "Fables · Livre I",
+    "paragraphs": [
+      "Maître corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître renard, par l’odeur alléché,\nLui tint à peu près ce langage :\nHé ! bonjour, monsieur du corbeau.\nQue vous êtes joli ! que vous me semblez beau !\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nÀ ces mots le corbeau ne se sent pas de joie ;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe renard s’en saisit, et dit : Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l’écoute :\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu’on ne l’y prendrait plus."
+    ],
+    "poem": true,
+    "context": "Un renard utilise des compliments pour obtenir le fromage d’un corbeau. Observez la différence entre ce qu’il dit et ce qu’il veut.",
+    "vocabulary": [
+      {
+        "fr": "un corbeau",
+        "meaning": {
+          "zh-CN": "乌鸦",
+          "en": "raven",
+          "zh-TW": "烏鴉"
+        }
+      },
+      {
+        "fr": "un renard",
+        "meaning": {
+          "zh-CN": "狐狸",
+          "en": "fox",
+          "zh-TW": "狐狸"
+        }
+      },
+      {
+        "fr": "perché",
+        "meaning": {
+          "zh-CN": "栖在高处的",
+          "en": "perched",
+          "zh-TW": "棲在高處的"
+        }
+      },
+      {
+        "fr": "un bec",
+        "meaning": {
+          "zh-CN": "鸟嘴",
+          "en": "beak",
+          "zh-TW": "鳥嘴"
+        }
+      },
+      {
+        "fr": "un flatteur",
+        "meaning": {
+          "zh-CN": "奉承者",
+          "en": "flatterer",
+          "zh-TW": "奉承者"
+        }
+      },
+      {
+        "fr": "aux dépens de",
+        "meaning": {
+          "zh-CN": "以……为代价",
+          "en": "at the expense of",
+          "zh-TW": "以……為代價"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Fables · Livre I",
+      "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Corbeau_et_le_Renard",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-42",
+    "title": "La Cigale et la Fourmi",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Jean de La Fontaine",
+    "work": "Fables · Livre I",
+    "paragraphs": [
+      "La cigale, ayant chanté\nTout l’été,\nSe trouva fort dépourvue\nQuand la bise fut venue :\nPas un seul petit morceau\nDe mouche ou de vermisseau.\nElle alla crier famine\nChez la fourmi, sa voisine,\nLa priant de lui prêter\nQuelque grain pour subsister\nJusqu’à la saison nouvelle.\nJe vous paierai, lui dit-elle,\nAvant l’oût, foi d’animal,\nIntérêt et principal.\nLa fourmi n’est pas prêteuse :\nC’est là son moindre défaut.\nQue faisiez-vous au temps chaud ?\nDit-elle à cette emprunteuse. —\nNuit et jour à tout venant\nJe chantais, ne vous déplaise. —\nVous chantiez, j’en suis fort aise !\nEh bien ! dansez maintenant."
+    ],
+    "poem": true,
+    "context": "L’hiver arrive. La cigale demande de l’aide à sa voisine. Les animaux parlent comme des humains ; certains mots sont anciens.",
+    "vocabulary": [
+      {
+        "fr": "une cigale",
+        "meaning": {
+          "zh-CN": "蝉",
+          "en": "cicada",
+          "zh-TW": "蟬"
+        }
+      },
+      {
+        "fr": "une fourmi",
+        "meaning": {
+          "zh-CN": "蚂蚁",
+          "en": "ant",
+          "zh-TW": "螞蟻"
+        }
+      },
+      {
+        "fr": "dépourvu",
+        "meaning": {
+          "zh-CN": "缺少所需的",
+          "en": "without necessities",
+          "zh-TW": "缺少所需的"
+        }
+      },
+      {
+        "fr": "la bise",
+        "meaning": {
+          "zh-CN": "寒冷的北风",
+          "en": "cold north wind",
+          "zh-TW": "寒冷的北風"
+        }
+      },
+      {
+        "fr": "subsister",
+        "meaning": {
+          "zh-CN": "维持生计",
+          "en": "to survive",
+          "zh-TW": "維持生計"
+        }
+      },
+      {
+        "fr": "l’oût",
+        "meaning": {
+          "zh-CN": "收获季节（古语）",
+          "en": "harvest season (archaic)",
+          "zh-TW": "收穫季節（古語）"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Fables · Livre I",
+      "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/La_Cigale_et_la_Fourmi",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-43",
+    "title": "Le Lièvre et la Tortue — la fin de la course",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Jean de La Fontaine",
+    "work": "Fables · Livre VI",
+    "paragraphs": [
+      "Elle part, elle s’évertue ;\nElle se hâte avec lenteur.\nLui cependant méprise une telle victoire,\nTient la gageure à peu de gloire,\nCroit qu’il y va de son honneur\nDe partir tard. Il broute, il se repose ;\nIl s’amuse à toute autre chose\nQu’à la gageure. À la fin, quand il vit\nQue l’autre touchait presque au bout de la carrière,\nIl partit comme un trait ; mais les élans qu’il fit\nFurent vains : la tortue arriva la première.\nEh bien ! lui cria-t-elle, avais-je pas raison ?\nDe quoi vous sert votre vitesse ?\nMoi l’emporter ! et que serait-ce\nSi vous portiez une maison ?"
+    ],
+    "poem": true,
+    "context": "La tortue avance depuis le début. Le lièvre, certain de gagner, a attendu trop longtemps. Voici la fin de la course.",
+    "vocabulary": [
+      {
+        "fr": "un lièvre",
+        "meaning": {
+          "zh-CN": "野兔",
+          "en": "hare",
+          "zh-TW": "野兔"
+        }
+      },
+      {
+        "fr": "une tortue",
+        "meaning": {
+          "zh-CN": "乌龟",
+          "en": "tortoise",
+          "zh-TW": "烏龜"
+        }
+      },
+      {
+        "fr": "s’évertuer",
+        "meaning": {
+          "zh-CN": "努力",
+          "en": "to strive",
+          "zh-TW": "努力"
+        }
+      },
+      {
+        "fr": "se hâter",
+        "meaning": {
+          "zh-CN": "赶快",
+          "en": "to hurry",
+          "zh-TW": "趕快"
+        }
+      },
+      {
+        "fr": "une gageure",
+        "meaning": {
+          "zh-CN": "赌约",
+          "en": "wager",
+          "zh-TW": "賭約"
+        }
+      },
+      {
+        "fr": "vain",
+        "meaning": {
+          "zh-CN": "徒劳的",
+          "en": "in vain",
+          "zh-TW": "徒勞的"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Fables · Livre VI",
+      "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Lièvre_et_la_Tortue",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-44",
+    "title": "Le Petit Chaperon rouge — le départ",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Charles Perrault",
+    "work": "Contes des fées · édition de 1886",
+    "paragraphs": [
+      "Il était une fois une petite fille de village, la plus jolie qu’on eût su voir, sa mère en était folle, et sa mère-grand plus folle encore. Cette bonne femme lui fit faire un petit chaperon rouge qui lui seyait si bien, que partout on l’appelait le Petit Chaperon Rouge. Un jour, sa mère ayant fait des galettes, lui dit : Va voir comment se porte ta mère-grand ; car on m’a dit qu’elle était malade : porte-lui une galette et ce petit pot de beurre."
+    ],
+    "poem": false,
+    "context": "La mère envoie sa fille rendre visite à sa grand-mère. Ce début présente les personnages et la mission de l’enfant.",
+    "vocabulary": [
+      {
+        "fr": "il était une fois",
+        "meaning": {
+          "zh-CN": "从前（童话开头）",
+          "en": "once upon a time",
+          "zh-TW": "從前（童話開頭）"
+        }
+      },
+      {
+        "fr": "un chaperon",
+        "meaning": {
+          "zh-CN": "带帽披肩",
+          "en": "hooded cape",
+          "zh-TW": "帶帽披肩"
+        }
+      },
+      {
+        "fr": "une mère-grand",
+        "meaning": {
+          "zh-CN": "祖母（旧称）",
+          "en": "grandmother (old usage)",
+          "zh-TW": "祖母（舊稱）"
+        }
+      },
+      {
+        "fr": "se porter",
+        "meaning": {
+          "zh-CN": "身体状况如何",
+          "en": "to be in a state of health",
+          "zh-TW": "身體狀況如何"
+        }
+      },
+      {
+        "fr": "un pot",
+        "meaning": {
+          "zh-CN": "罐",
+          "en": "pot",
+          "zh-TW": "罐"
+        }
+      },
+      {
+        "fr": "seoir",
+        "meaning": {
+          "zh-CN": "适合（seyait 是未完成过去时）",
+          "en": "to suit (seyait: imperfect)",
+          "zh-TW": "適合（seyait 是未完成過去式）"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Contes des fées · édition de 1886",
+      "url": "https://fr.wikisource.org/wiki/Contes_des_fées_(Montréal,_1886)/Le_Petit_Chaperon_Rouge",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-45",
+    "title": "Cendrillon — la citrouille",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Charles Perrault",
+    "work": "Contes des fées · édition de 1886",
+    "paragraphs": [
+      "Elle la mena dans sa chambre, et lui dit : Va dans le jardin et apporte-moi une citrouille. Cendrillon alla aussitôt cueillir la plus belle qu’elle put trouver, et la porta à sa marraine, ne pouvant deviner comment cette citrouille la pourrait faire aller au bal. Sa marraine la creusa, et n’ayant laissé que l’écorce, la frappa de sa baguette, et la citrouille fut aussitôt changée en un beau carrosse tout doré ;"
+    ],
+    "poem": false,
+    "context": "La marraine est une fée. Elle aide Cendrillon à aller au bal en transformant une citrouille.",
+    "vocabulary": [
+      {
+        "fr": "une marraine",
+        "meaning": {
+          "zh-CN": "教母",
+          "en": "godmother",
+          "zh-TW": "教母"
+        }
+      },
+      {
+        "fr": "une citrouille",
+        "meaning": {
+          "zh-CN": "南瓜",
+          "en": "pumpkin",
+          "zh-TW": "南瓜"
+        }
+      },
+      {
+        "fr": "cueillir",
+        "meaning": {
+          "zh-CN": "采摘",
+          "en": "to pick",
+          "zh-TW": "採摘"
+        }
+      },
+      {
+        "fr": "une écorce",
+        "meaning": {
+          "zh-CN": "外皮",
+          "en": "outer rind",
+          "zh-TW": "外皮"
+        }
+      },
+      {
+        "fr": "une baguette",
+        "meaning": {
+          "zh-CN": "魔杖（此处）",
+          "en": "magic wand (here)",
+          "zh-TW": "魔杖（此處）"
+        }
+      },
+      {
+        "fr": "un carrosse",
+        "meaning": {
+          "zh-CN": "豪华马车",
+          "en": "carriage",
+          "zh-TW": "豪華馬車"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Contes des fées · édition de 1886",
+      "url": "https://fr.wikisource.org/wiki/Contes_des_fées_(Montréal,_1886)/Cendrillon",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-46",
+    "title": "La chèvre de monsieur Seguin — la montagne",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Alphonse Daudet",
+    "work": "Lettres de mon moulin · édition de 1895",
+    "paragraphs": [
+      "Quand la chèvre blanche arriva dans la montagne, ce fut un ravissement général. Jamais les vieux sapins n’avaient rien vu d’aussi joli. On la reçut comme une petite reine. Les châtaigniers se baissaient jusqu’à terre pour la caresser du bout de leurs branches. Les genêts d’or s’ouvraient sur son passage, et sentaient bon tant qu’ils pouvaient. Toute la montagne lui fit fête."
+    ],
+    "poem": false,
+    "context": "Blanquette quitte son enclos pour découvrir la montagne. Dans cet extrait, la nature l’accueille comme une reine.",
+    "vocabulary": [
+      {
+        "fr": "une chèvre",
+        "meaning": {
+          "zh-CN": "山羊",
+          "en": "goat",
+          "zh-TW": "山羊"
+        }
+      },
+      {
+        "fr": "un ravissement",
+        "meaning": {
+          "zh-CN": "狂喜",
+          "en": "delight",
+          "zh-TW": "狂喜"
+        }
+      },
+      {
+        "fr": "un sapin",
+        "meaning": {
+          "zh-CN": "冷杉",
+          "en": "fir tree",
+          "zh-TW": "冷杉"
+        }
+      },
+      {
+        "fr": "un châtaignier",
+        "meaning": {
+          "zh-CN": "栗树",
+          "en": "chestnut tree",
+          "zh-TW": "栗樹"
+        }
+      },
+      {
+        "fr": "caresser",
+        "meaning": {
+          "zh-CN": "轻抚",
+          "en": "to caress",
+          "zh-TW": "輕撫"
+        }
+      },
+      {
+        "fr": "faire fête à",
+        "meaning": {
+          "zh-CN": "热烈欢迎",
+          "en": "to give a warm welcome",
+          "zh-TW": "熱烈歡迎"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Lettres de mon moulin · édition de 1895",
+      "url": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/La_chèvre_de_monsieur_Seguin",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-47",
+    "title": "Installation — écrire en Provence",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Alphonse Daudet",
+    "work": "Lettres de mon moulin · édition de 1895",
+    "paragraphs": [
+      "C’est de là que je vous écris, ma porte grande ouverte, au bon soleil. Un joli bois de pins tout étincelant de lumière dégringole devant moi jusqu’au bas de la côte. À l’horizon, les Alpilles découpent leurs crêtes fines… Pas de bruit… À peine, de loin en loin, un son de fifre, un courlis dans les lavandes, un grelot de mules sur la route… Tout ce beau paysage provençal ne vit que par la lumière. Et maintenant, comment voulez-vous que je le regrette, votre Paris bruyant et noir ? Je suis si bien dans mon moulin !"
+    ],
+    "poem": false,
+    "context": "Le narrateur vient de s’installer dans un moulin. Il décrit le paysage qu’il voit depuis sa porte.",
+    "vocabulary": [
+      {
+        "fr": "un pin",
+        "meaning": {
+          "zh-CN": "松树",
+          "en": "pine tree",
+          "zh-TW": "松樹"
+        }
+      },
+      {
+        "fr": "étincelant",
+        "meaning": {
+          "zh-CN": "闪耀的",
+          "en": "sparkling",
+          "zh-TW": "閃耀的"
+        }
+      },
+      {
+        "fr": "une crête",
+        "meaning": {
+          "zh-CN": "山脊",
+          "en": "ridge",
+          "zh-TW": "山脊"
+        }
+      },
+      {
+        "fr": "un grelot",
+        "meaning": {
+          "zh-CN": "小铃铛",
+          "en": "small bell",
+          "zh-TW": "小鈴鐺"
+        }
+      },
+      {
+        "fr": "une lavande",
+        "meaning": {
+          "zh-CN": "薰衣草",
+          "en": "lavender",
+          "zh-TW": "薰衣草"
+        }
+      },
+      {
+        "fr": "un moulin",
+        "meaning": {
+          "zh-CN": "磨坊",
+          "en": "mill",
+          "zh-TW": "磨坊"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Lettres de mon moulin · édition de 1895",
+      "url": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/Installation",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-48",
+    "title": "Passepartout entre en scène",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Jules Verne",
+    "work": "Le Tour du monde en quatre-vingts jours · chapitre I",
+    "paragraphs": [
+      "— Passepartout me convient, répondit le gentleman. Vous m’êtes recommandé. J’ai de bons renseignements sur votre compte. Vous connaissez mes conditions ? — Oui, monsieur. — Bien. Quelle heure avez-vous ? — Onze heures vingt-deux, répondit Passepartout, en tirant des profondeurs de son gousset une énorme montre d’argent. — Vous retardez, dit Mr. Fogg. — Que monsieur me pardonne, mais c’est impossible. — Vous retardez de quatre minutes. N’importe. Il suffit de constater l’écart. Donc, à partir de ce moment, onze heures vingt-neuf du matin, ce mercredi 2 octobre 1872, vous êtes à mon service. »"
+    ],
+    "poem": false,
+    "context": "Phileas Fogg engage un domestique français, Passepartout. Leur conversation montre combien l’heure est importante pour Fogg.",
+    "vocabulary": [
+      {
+        "fr": "convenir",
+        "meaning": {
+          "zh-CN": "合适",
+          "en": "to suit",
+          "zh-TW": "合適"
+        }
+      },
+      {
+        "fr": "un renseignement",
+        "meaning": {
+          "zh-CN": "信息",
+          "en": "piece of information",
+          "zh-TW": "資訊"
+        }
+      },
+      {
+        "fr": "un gousset",
+        "meaning": {
+          "zh-CN": "怀表袋",
+          "en": "watch pocket",
+          "zh-TW": "懷錶袋"
+        }
+      },
+      {
+        "fr": "retarder",
+        "meaning": {
+          "zh-CN": "钟表走慢",
+          "en": "to run slow (a clock)",
+          "zh-TW": "鐘錶走慢"
+        }
+      },
+      {
+        "fr": "un écart",
+        "meaning": {
+          "zh-CN": "差距",
+          "en": "difference",
+          "zh-TW": "差距"
+        }
+      },
+      {
+        "fr": "être au service de",
+        "meaning": {
+          "zh-CN": "为……工作",
+          "en": "to be employed by",
+          "zh-TW": "為……工作"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Le Tour du monde en quatre-vingts jours · chapitre I",
+      "url": "https://fr.wikisource.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours/Chapitre_1",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-49",
+    "title": "Demain, dès l’aube",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Victor Hugo",
+    "work": "Les Contemplations · édition Nelson de 1911",
+    "paragraphs": [
+      "Demain, dès l’aube, à l’heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m’attends.\nJ’irai par la forêt, j’irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\nJe ne regarderai ni l’or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j’arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur.\n3 septembre 1847."
+    ],
+    "poem": true,
+    "context": "Le poète raconte une marche vers la tombe d’une personne aimée. Le dernier quatrain éclaire le sens du voyage.",
+    "vocabulary": [
+      {
+        "fr": "l’aube",
+        "meaning": {
+          "zh-CN": "黎明",
+          "en": "dawn",
+          "zh-TW": "黎明"
+        }
+      },
+      {
+        "fr": "demeurer",
+        "meaning": {
+          "zh-CN": "停留",
+          "en": "to remain",
+          "zh-TW": "停留"
+        }
+      },
+      {
+        "fr": "courbé",
+        "meaning": {
+          "zh-CN": "弯曲的",
+          "en": "bent",
+          "zh-TW": "彎曲的"
+        }
+      },
+      {
+        "fr": "une voile",
+        "meaning": {
+          "zh-CN": "船帆",
+          "en": "sail",
+          "zh-TW": "船帆"
+        }
+      },
+      {
+        "fr": "le houx",
+        "meaning": {
+          "zh-CN": "冬青",
+          "en": "holly",
+          "zh-TW": "冬青"
+        }
+      },
+      {
+        "fr": "la bruyère",
+        "meaning": {
+          "zh-CN": "石楠",
+          "en": "heather",
+          "zh-TW": "石楠"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Les Contemplations · édition Nelson de 1911",
+      "url": "https://fr.wikisource.org/wiki/Les_Contemplations/«_Demain,_dès_l’aube,_à_l’heure_où_blanchit_la_campagne_»",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  },
+  {
+    "id": "lecture-50",
+    "title": "Le Dormeur du val",
+    "category": "classics",
+    "level": "B1",
+    "kind": "excerpt",
+    "author": "Arthur Rimbaud",
+    "work": "Poésies · édition Vanier de 1895",
+    "paragraphs": [
+      "C’est un trou de verdure où chante une rivière\nAccrochant follement aux herbes des haillons\nD’argent ; où le soleil, de la montagne fière,\nLuit : c’est un petit val qui mousse de rayons.\nUn soldat jeune, bouche ouverte, tête nue,\nEt la nuque baignant dans le frais cresson bleu,\nDort ; il est étendu dans l’herbe, sous la nue,\nPâle dans son lit vert où la lumière pleut.\nLes pieds dans les glaïeuls, il dort. Souriant comme\nSourirait un enfant malade, il fait un somme :\nNature, berce-le chaudement : il a froid.\nLes parfums ne font pas frissonner sa narine ;\nIl dort dans le soleil, la main sur sa poitrine\nTranquille. Il a deux trous rouges au côté droit."
+    ],
+    "poem": true,
+    "context": "Le paysage semble paisible, mais la dernière phrase révèle la mort du soldat. Lisez ce contraste entre la nature et la guerre.",
+    "vocabulary": [
+      {
+        "fr": "un val",
+        "meaning": {
+          "zh-CN": "山谷",
+          "en": "valley",
+          "zh-TW": "山谷"
+        }
+      },
+      {
+        "fr": "un haillon",
+        "meaning": {
+          "zh-CN": "破布（此处比喻水中银光）",
+          "en": "rag (here, a metaphor for silver light)",
+          "zh-TW": "破布（此處比喻水中銀光）"
+        }
+      },
+      {
+        "fr": "la nuque",
+        "meaning": {
+          "zh-CN": "后颈",
+          "en": "nape of the neck",
+          "zh-TW": "後頸"
+        }
+      },
+      {
+        "fr": "la nue",
+        "meaning": {
+          "zh-CN": "天空（诗歌用语）",
+          "en": "sky (poetic)",
+          "zh-TW": "天空（詩歌用語）"
+        }
+      },
+      {
+        "fr": "bercer",
+        "meaning": {
+          "zh-CN": "轻摇；哄睡",
+          "en": "to rock gently",
+          "zh-TW": "輕搖；哄睡"
+        }
+      },
+      {
+        "fr": "frissonner",
+        "meaning": {
+          "zh-CN": "颤抖",
+          "en": "to shiver",
+          "zh-TW": "顫抖"
+        }
+      }
+    ],
+    "source": {
+      "name": "Wikisource · Poésies · édition Vanier de 1895",
+      "url": "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895/Le_Dormeur_du_val",
+      "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    }
+  }
+]

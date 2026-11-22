@@ -35,13 +35,14 @@ try{
  assert.deepEqual(await (await request('/src/data/materials.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src//data/courses.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src%2fdata%2fmaterials.json',{cookie:student})).json(),[]);
- for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/pronunciation-layout.js','/course-editorial.js','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/transition-to-prep.js','/transition-content.js','/transition-phrases.js','/transition-prepositions.js','/transition-extra-verbs.js','/transition-verb-examples.js','/transition-progress.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
+ for(const route of ['/culture-readings.json','/culture-reader.js','/culture-reader-model.js','/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/pronunciation-layout.js','/course-editorial.js','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/transition-to-prep.js','/transition-content.js','/transition-phrases.js','/transition-prepositions.js','/transition-extra-verbs.js','/transition-verb-examples.js','/transition-progress.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
  await set({...all,basics:false,transition:true});
  assert.equal((await request('/transition-content.js',{cookie:student})).status,200);
  assert.equal((await request('/basic-verbs.js',{cookie:student})).status,403);
  await set({...all,basics:true,transition:false,listening:false,oral:false});
  assert.equal((await request('/transition-content.js',{cookie:student})).status,403);
  assert.equal((await request('/basic-verbs.js',{cookie:student})).status,200);
+ for(const file of ['/culture-readings.json','/culture-reader.js','/culture-reader-model.js'])assert.equal((await request(file,{cookie:student})).status,200);
  assert.equal((await request('/bank/sets/reading-test.json',{cookie:student})).status,200);
  assert.equal((await request('/bank/images/reading.jpg',{cookie:student})).status,200);
  index=await (await request('/bank/index.json',{cookie:student})).json();assert.deepEqual(index.sets.map(s=>s.kind),['reading']);

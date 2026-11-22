@@ -104,7 +104,7 @@ const server=http.createServer(async(req,res)=>{
  if(user&&user.role!=='admin'){
   const denied=()=>send(403,{error:'此板块尚未开放，请联系老师。'});
   if(['transition-to-prep.js','transition-content.js','transition-phrases.js','transition-prepositions.js','transition-extra-verbs.js','transition-verb-examples.js','transition-progress.js'].includes(name)&&!access.transition)return denied();
-  if(['pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
+  if(['culture-reader-model.js','culture-reader.js','culture-readings.json','pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();
   if((name.startsWith('human-audio/')||name.startsWith('pronunciation-audio/'))&&!access.basics)return denied();
   if(name==='src/data/materials.json'||name==='src/data/courses.json'){
    if(!access.basics)return send(200,[]);
