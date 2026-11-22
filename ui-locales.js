@@ -1,4 +1,5 @@
 export const messages = {
+"过渡到备考":{"en":"Transition to Prep","zh-TW":"過渡到備考"},
 "回忆不完整，本题为同主题训练，并非原题复现。":{"en": "The recall is incomplete. This is a theme-based practice question, not the original wording.", "zh-TW": "回憶不完整，本題為同主題訓練，並非原題重現。"},
 "题干根据回忆改编；两份观点材料为本站原创。":{"en": "The prompt is adapted from a candidate’s recall; both documents were written for this practice exercise.", "zh-TW": "題幹根據回憶改編；兩份觀點材料為本站原創。"},
 "基础课程":{"en": "Foundations", "zh-TW": "基礎課程"},

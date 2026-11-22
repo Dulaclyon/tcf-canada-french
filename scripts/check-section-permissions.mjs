@@ -33,7 +33,7 @@ try{
  assert.deepEqual(await (await request('/src/data/materials.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src//data/courses.json',{cookie:student})).json(),[]);
  assert.deepEqual(await (await request('/src%2fdata%2fmaterials.json',{cookie:student})).json(),[]);
- for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/pronunciation-layout.js','/course-editorial.js','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
+ for(const route of ['/human-audio/penny-cres-62.m4a','/pronunciation-audio/e.mp3','/pronunciation-layout.js','/course-editorial.js','/course-translations.js','/basic-verbs.js','/weather-lesson.js','/transition-to-prep.js','/transition-content.js','/transition-phrases.js','/bank/images/listening.jpg','/bank/sets/listening-test.json'])assert.equal((await request(route,{cookie:student})).status,403,route);
  assert.equal((await request('/bank/sets/reading-test.json',{cookie:student})).status,200);
  assert.equal((await request('/bank/images/reading.jpg',{cookie:student})).status,200);
  index=await (await request('/bank/index.json',{cookie:student})).json();assert.deepEqual(index.sets.map(s=>s.kind),['reading']);
