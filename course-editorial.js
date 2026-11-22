@@ -1,5 +1,6 @@
 // Display corrections only: retain the imported PDFs and source text verbatim.
 export const editorialCorrections = [
+ ['记得将来时(特别是特殊的常用动词的将来时)和\nimparfait， 基本就没有问题了！！！','现在条件式：将来时词干 + 未完成过去时词尾（-ais、-ais、-ait、-ions、-iez、-aient）。'],
  ['passé composé 结构 avoir + .....é （er --> é）','passé composé：avoir 的现在时 + 过去分词；规则 -er 动词的过去分词以 -é 结尾。'],
  ['voir → 看见see regarder -> watch','voir → 看见；regarder 表示有意识地看。'],
  ['Crystal est moi','C’est moi'],['Jasper est toi','C’est toi'],['Julien est lui','C’est lui'],['Lucy est elle','C’est elle'],['Julien et Crystal sont nous','C’est nous'],['Julien et Crystal sont vous','C’est vous'],['Julien et Crystal sont eux','Ce sont eux'],['Crystal et Lucy sont elles','Ce sont elles'],

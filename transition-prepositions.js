@@ -876,5 +876,152 @@ export const prepositionEntries=[
       "Nous avons discuté par téléphone.",
       "Le colis sera expédié par train."
     ]
+  },
+  {
+    "id": "prep-doc-1",
+    "group": "time",
+    "phrase": "avant",
+    "meaning": {
+      "en": "before",
+      "zh-CN": "在……之前",
+      "zh-TW": "在……之前"
+    },
+    "note": {
+      "en": "Use avant de before an infinitive; avant que takes a conjugated clause in the subjunctive.",
+      "zh-CN": "动词原形前用 avant de；avant que 后接虚拟式从句。",
+      "zh-TW": "動詞原形前用 avant de；avant que 後接虛擬式子句。"
+    },
+    "pattern": "avant + nom / avant de + infinitif",
+    "examples": [
+      "J’arrive avant neuf heures.",
+      "Relisez le message avant de l’envoyer.",
+      "Elle prépare ses affaires avant le départ."
+    ]
+  },
+  {
+    "id": "prep-doc-2",
+    "group": "time",
+    "phrase": "après",
+    "meaning": {
+      "en": "after",
+      "zh-CN": "在……之后",
+      "zh-TW": "在……之後"
+    },
+    "note": {
+      "en": "After a completed action, use après avoir or après être + past participle.",
+      "zh-CN": "表示完成某动作之后，用 après avoir 或 après être + 过去分词。",
+      "zh-TW": "表示完成某動作之後，用 après avoir 或 après être + 過去分詞。"
+    },
+    "pattern": "après + nom",
+    "examples": [
+      "Nous discutons après la réunion.",
+      "Après avoir terminé son travail, elle rentre chez elle.",
+      "Après être arrivés, nous avons appelé nos amis."
+    ]
+  },
+  {
+    "id": "prep-doc-3",
+    "group": "place",
+    "phrase": "hors de",
+    "meaning": {
+      "en": "outside / out of",
+      "zh-CN": "在……之外；脱离",
+      "zh-TW": "在……之外；脫離"
+    },
+    "note": {
+      "en": "Often in fixed expressions such as hors de portée and hors de question.",
+      "zh-CN": "常用于 hors de portée、hors de question 等固定表达。",
+      "zh-TW": "常用於 hors de portée、hors de question 等固定表達。"
+    },
+    "pattern": "hors de + nom",
+    "examples": [
+      "Gardez ce produit hors de portée des enfants.",
+      "Il est hors de question de partir sans prévenir.",
+      "Le véhicule est hors d’usage."
+    ]
+  },
+  {
+    "id": "prep-doc-4",
+    "group": "place",
+    "phrase": "au bord de",
+    "meaning": {
+      "en": "on the edge of / beside",
+      "zh-CN": "在……边上",
+      "zh-TW": "在……邊上"
+    },
+    "note": {
+      "en": "Au bord de marks an edge; le long de describes a position or movement along it.",
+      "zh-CN": "au bord de 强调边缘位置，le long de 强调沿着某处。",
+      "zh-TW": "au bord de 強調邊緣位置，le long de 強調沿著某處。"
+    },
+    "pattern": "au bord de + nom",
+    "examples": [
+      "Nous pique-niquons au bord du lac.",
+      "Elle habite au bord de la mer.",
+      "Un banc se trouve au bord du chemin."
+    ]
+  },
+  {
+    "id": "prep-doc-5",
+    "group": "means",
+    "phrase": "en tant que",
+    "meaning": {
+      "en": "as / in the capacity of",
+      "zh-CN": "作为……",
+      "zh-TW": "作為……"
+    },
+    "note": {
+      "en": "Before a role or profession, usually omit the article.",
+      "zh-CN": "接身份或职业时，通常不加冠词。",
+      "zh-TW": "接身分或職業時，通常不加冠詞。"
+    },
+    "pattern": "en tant que + nom",
+    "examples": [
+      "En tant que professeur, je prépare les cours.",
+      "Elle intervient en tant que représentante des étudiants.",
+      "En tant que parent, il participe aux réunions de l’école."
+    ]
+  },
+  {
+    "id": "prep-doc-6",
+    "group": "time",
+    "phrase": "au cours de",
+    "meaning": {
+      "en": "during / over the course of",
+      "zh-CN": "在……期间",
+      "zh-TW": "在……期間"
+    },
+    "note": {
+      "en": "Introduces the period or event during which something happens.",
+      "zh-CN": "引出某事发生的时间段或事件。",
+      "zh-TW": "引出某事發生的時間段或事件。"
+    },
+    "pattern": "au cours de + nom",
+    "examples": [
+      "J’ai posé une question au cours de la réunion.",
+      "Elle a progressé au cours de cette année.",
+      "Nous avons rencontré des habitants au cours du voyage."
+    ]
+  },
+  {
+    "id": "prep-doc-7",
+    "group": "means",
+    "phrase": "d’après",
+    "meaning": {
+      "en": "according to / based on",
+      "zh-CN": "根据……；按照……",
+      "zh-TW": "根據……；按照……"
+    },
+    "note": {
+      "en": "Introduces a source or a person’s view: d’après vous.",
+      "zh-CN": "可引出信息来源或某人的看法，如 d’après vous。",
+      "zh-TW": "可引出資訊來源或某人的看法，如 d’après vous。"
+    },
+    "pattern": "d’après + nom",
+    "examples": [
+      "D’après vous, quelle est la meilleure solution ?",
+      "D’après le programme, la réunion commence à dix heures.",
+      "Ce film est adapté d’après un roman."
+    ]
   }
 ];

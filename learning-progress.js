@@ -1,8 +1,9 @@
+import {transitionMetric} from './transition-progress.js';
 // Shared by the protected student and teacher endpoints; no personal text is returned.
 const array=value=>Array.isArray(value)?value:[];
 const object=value=>value&&typeof value==='object'&&!Array.isArray(value)?value:{};
 const metric=(done,total,inProgress=0,available=true)=>({done,total,inProgress,percent:total?Math.round(done/total*1000)/10:0,available});
-export function summarizeLearning({courses=[],materials=[],exam={},sets=null,state={},bankProgress={},bankCompleted={},submitted=[],permissions={}}){
+export function summarizeLearning({courses=[],materials=[],exam={},sets=null,state={},bankProgress={},bankCompleted={},submitted=[],transitionProgress={},permissions={}}){
  const attempts=new Set(array(state.attempts).map(a=>a?.id));
  const exercises=[...new Map([...courses,...materials].flatMap(item=>array(item.exercises)).map(e=>[e.id,e])).values()];
  const foundations=metric(exercises.filter(e=>attempts.has(e.id)).length,exercises.length);
@@ -16,5 +17,5 @@ export function summarizeLearning({courses=[],materials=[],exam={},sets=null,sta
  const writingQuestions=array(exam.writing),oralQuestions=array(exam.oral);
  const writing=metric(writingQuestions.filter(q=>submittedIds.has(q.id)||drafts[q.id]?.completed===true).length,writingQuestions.length,writingQuestions.filter(q=>!submittedIds.has(q.id)&&drafts[q.id]?.completed!==true&&typeof drafts[q.id]?.text==='string'&&drafts[q.id].text.trim()).length);
  const oral=metric(oralQuestions.filter(q=>oralIds.has(q.id)).length,oralQuestions.length);
- return Object.fromEntries(Object.entries({basics:foundations,listening:sectionBank('listening'),reading:sectionBank('reading'),writing,oral}).map(([key,value])=>[key,permissions[key]===false?{locked:true}:value]));
+ return Object.fromEntries(Object.entries({basics:foundations,transition:transitionMetric(transitionProgress),listening:sectionBank('listening'),reading:sectionBank('reading'),writing,oral}).map(([key,value])=>[key,permissions[key==='transition'?'basics':key]===false?{locked:true}:value]));
 }

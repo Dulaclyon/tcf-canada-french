@@ -1,3 +1,4 @@
+import {speechPlan} from './speech-segments.js';
 import {mountSectionNotes} from './section-notes.js';
 import {buildPracticeCatalogue} from './lesson-practice.js';
 import {renderStudentDashboard,renderTeacherDashboard,setupTeacherSearch} from './learning-dashboard.js';
@@ -91,8 +92,9 @@ function ruleSummary(rules) {
 }
 function topicLabel(title){const aliases={'Pouvoir 能，能够':'pouvoir（能够）','Vouloir 想要 ，愿意 =':'vouloir（想要）','Préposition':'介词','Prépositions (介词)':'介词','Quantité (数量表达)':'数量表达','Négation (否定表达)':'否定表达','Verbes (动词及变位)':'动词及变位','Se + Verbe (代动词)':'代动词',phonics:'发音'};return aliases[title]||title.replace(/^\d+\.\s*/u,'').replace(/\s*=\s*$/u,'').trim();}
 function topicHeading(title,index,total){return `<header class="topic-heading"><span class="topic-number">${String(index).padStart(2,'0')}</span><div><p class="topic-position" data-topic-label>知识点 ${index} / ${total}</p><h2 data-topic-label>${esc(topicLabel(title))}</h2></div></header>`;}
-let activeReadingButton;
+let activeReadingButton,readingTimer,readingGeneration=0;
 function stopReading() {
+  clearTimeout(readingTimer);readingGeneration++;
   document.querySelectorAll('audio[data-phonics-audio]').forEach(audio=>audio.pause());
   if (!activeReadingButton) return;
   activeReadingButton.textContent = '合成朗读';
@@ -117,8 +119,8 @@ function addReadingAudio(root) {
     const card = block.classList.contains('conjugation-card');
     if (!card && block.tHead?.rows[0]?.cells[0]?.textContent !== 'Singulier') return [];
     const forms = card ? [...block.querySelectorAll('li span[lang="fr"]')] :
-      [...block.querySelectorAll('tbody th, tbody td')];
-    return [{container: block.closest('.grammar-table-wrap') ?? block, lines: forms.map(form => form.textContent)}];
+      [0,1].flatMap(column=>[...block.querySelectorAll('tbody tr')].map(row=>row.cells[column]).filter(Boolean));
+    return [{container: block.closest('.grammar-table-wrap') ?? block, lines: forms.map(form => form.textContent),conjugation:true}];
   });
 
   const pronunciation = [...root.querySelectorAll('.article-rule-card')].flatMap(block => {
@@ -136,7 +138,7 @@ function addReadingAudio(root) {
     container,
     lines: [container.dataset.listeningText],
   }));
-  for (const {container, lines, pronunciation: isPronunciation} of [...passages, ...conjugations, ...pronunciation, ...listening]) {
+  for (const {container, lines, pronunciation: isPronunciation,conjugation: isConjugation} of [...passages, ...conjugations, ...pronunciation, ...listening]) {
     if (!lines.some(Boolean) || container.closest('.map-reading')?.querySelector('.lesson-original-audio')) continue;
     const button = document.createElement('button');
     button.type = 'button';
@@ -154,25 +156,24 @@ function addReadingAudio(root) {
       const preferred = french.length ? french : voices;
       const voice = preferred.find(v => /premium|enhanced|natural|增强|优质/i.test(v.name)) ?? preferred[0];
       if (!voice && engine.getVoices().length) return toast('设备还没有法语语音。');
-      const segments = lines.filter(Boolean);
+      const {segments,rate,pause}=speechPlan(lines,{conjugation:isConjugation,pronunciation:isPronunciation});
+      const generation=readingGeneration;
       activeReadingButton = button;
       button.textContent = '停止朗读';
       const speak = index => {
-        if (activeReadingButton !== button) return;
+        if (activeReadingButton !== button||generation!==readingGeneration) return;
         if (index >= segments.length) return stopReading();
         const utterance = new SpeechSynthesisUtterance(segments[index]);
         utterance.lang = voice?.lang ?? 'fr-FR';
         if (voice) utterance.voice = voice;
-        utterance.rate = isPronunciation ? 0.72 : 0.84;
+        utterance.rate = rate;
         utterance.onend = () => {
-          if (isPronunciation) {
-            setTimeout(() => {
-              if (activeReadingButton === button) speak(index + 1);
-            }, 800);
-          } else speak(index + 1);
+          if(activeReadingButton!==button||generation!==readingGeneration)return;
+          if(index+1>=segments.length)return stopReading();
+          readingTimer=setTimeout(()=>{if(activeReadingButton===button&&generation===readingGeneration)speak(index+1);},pause);
         };
         utterance.onerror = () => {
-          if (activeReadingButton !== button) return;
+          if (activeReadingButton !== button||generation!==readingGeneration) return;
           stopReading();
           toast('无法播放法语朗读，请检查设备的语音设置。');
         };
@@ -281,4 +282,4 @@ window.addEventListener('hashchange',route);
 try{const result=await Promise.all([fetch('./src/data/courses.json'),fetch('./src/data/exam.json?v=8'),fetch('./src/data/materials.json?v=34')]);if(result.some(r=>!r.ok))throw Error('内容文件加载失败');[courses,exam,materials]=await Promise.all(result.map(r=>r.json()));if(!Array.isArray(courses))throw Error('课程格式错误');route();if(false&&'serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(reg=>{reg.addEventListener('updatefound',()=>{const w=reg.installing;w?.addEventListener('statechange',()=>{if(w.state==='installed'&&navigator.serviceWorker.controller)toast('发现新版本，关闭所有本应用窗口后重新打开即可更新。')})})}).catch(err=>console.warn('离线功能不可用',err));}catch(err){console.error(err);empty('学习内容未能载入','请检查网络并刷新。离线使用需先在线打开一次。');}
 export {normalize,wordCount,valid};
 
-document.addEventListener('play',event=>{if(event.target.matches?.('audio[data-phonics-audio], .lesson-original-audio audio')){if(activeReadingButton){window.speechSynthesis.cancel();activeReadingButton.textContent='合成朗读';activeReadingButton=undefined;}document.querySelectorAll('audio').forEach(audio=>{if(audio!==event.target)audio.pause();});}},true);
+document.addEventListener('play',event=>{if(event.target.matches?.('audio[data-phonics-audio], .lesson-original-audio audio')){if(activeReadingButton){clearTimeout(readingTimer);readingGeneration++;window.speechSynthesis.cancel();activeReadingButton.textContent='合成朗读';activeReadingButton=undefined;}document.querySelectorAll('audio').forEach(audio=>{if(audio!==event.target)audio.pause();});}},true);

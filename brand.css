@@ -202,3 +202,34 @@ button:disabled{opacity:.5;cursor:not-allowed}
 #sidebar .brand .wordmark em{font-family:'Allura',cursive;font-size:1.08em;line-height:1.05;letter-spacing:-.035em}
 .editorial-header .wordmark em{font-size:1.08em}
 .transition-phrase-examples .transition-usage{font-size:14px;line-height:1.75;color:var(--muted);margin:8px 0 16px;max-width:80ch}
+
+/* Full reference pages: every table, explanation and example stays visible. */
+.transition-progress-summary{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:0 0 22px;font-size:13px;color:var(--muted)}
+.transition-progress-summary progress{width:180px;height:7px;accent-color:var(--brand)}
+.transition-jump{display:flex;flex-wrap:wrap;gap:5px 8px;padding-bottom:20px;margin-bottom:24px;border-bottom:1px solid #e5e8ed}
+.transition-jump a{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:36px;margin:0;padding:6px 10px;font-size:13px;border:1px solid #e5e8ed;border-radius:5px;color:var(--brand);background:#fff}
+.transition-letter{scroll-margin-top:90px;margin:32px 0 12px;color:var(--brand);font-size:23px}
+.transition-item-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:16px}
+.transition-item-heading h3{margin:0;font-size:21px;line-height:1.45;font-weight:600}
+.transition-item-heading h3 small{display:block;font-size:14px;font-weight:400;color:var(--muted);margin-top:5px}
+.transition-item-number{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;margin-right:7px}
+.transition-complete{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:13px;white-space:nowrap;color:var(--muted);cursor:pointer;flex-shrink:0}
+.transition-complete input{width:17px;height:17px;accent-color:var(--brand)}
+.transition-verb-block,.transition-reference-entry{padding:24px 0 28px;border-bottom:1px solid #e5e8ed}
+.transition-topic-group{scroll-margin-top:90px;margin-bottom:38px}
+.transition-topic-group>h2{font-size:22px;margin:24px 0 8px;color:var(--brand)}
+.transition-all-tenses{min-width:1040px;table-layout:auto}
+.transition-all-tenses th,.transition-all-tenses td{font-size:14px;padding:11px 13px;white-space:nowrap}
+.transition-all-tenses thead th{font-size:12px}
+.transition-visible-examples{padding-left:24px;margin:18px 0 0;line-height:1.8;font-size:15px}
+.transition-visible-examples li{margin:7px 0}
+.transition-usage,.transition-agreement-note{font-size:13px;line-height:1.75;color:var(--muted);margin:14px 0}
+.transition-pattern{margin:10px 0;font-size:13px;color:var(--muted)}
+.transition-save-status{position:sticky;bottom:10px;background:#fff;padding:8px 12px;border-radius:5px;font-size:12px;color:var(--muted);width:max-content;max-width:100%;box-shadow:0 1px 6px #0000000d}
+.transition-save-status:empty{display:none}
+.dashboard-foundations{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media(max-width:650px){.transition-item-heading{gap:10px}.transition-item-heading h3{font-size:19px}.transition-complete{font-size:12px}.transition-progress-summary{gap:10px}.transition-progress-summary progress{width:100px}.dashboard-foundations{grid-template-columns:1fr}}
+.transition-all-tenses{min-width:880px;table-layout:fixed;width:100%}
+.transition-all-tenses th,.transition-all-tenses td{white-space:normal;padding:11px 9px;overflow-wrap:normal}
+.transition-all-tenses th:first-child{width:90px;white-space:nowrap}
+@media(min-width:601px){.student-progress-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}

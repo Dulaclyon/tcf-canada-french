@@ -1,3 +1,4 @@
+import {additionalVerbs} from './transition-extra-verbs.js';
 import {prepositionEntries} from './transition-prepositions.js';
 import {transitionPhraseEntries} from './transition-phrases.js';
 const L=(en,zh,tw)=>({en,'zh-CN':zh,'zh-TW':tw});
@@ -97,3 +98,5 @@ const brosser=reflexive(regular('brosser','bross'),'se brosser les dents',L('to 
 for(const [tense,forms] of Object.entries(brosser.forms))brosser.forms[tense]=forms.map(f=>f.replace(/\(e\)\(s\)|\(e\)s|\(e\)/g,'')+' les dents');
 brosser.note=L('Les dents is a direct object placed after the verb: elle s’est brossé les dents, without agreement on brossé.','les dents 是后置的直接宾语，因此说 elle s’est brossé les dents，brossé 不配合。','les dents 是後置的直接受詞，因此說 elle s’est brossé les dents，brossé 不配合。');
 transitionVerbs.push(brosser);
+
+transitionVerbs.push(...additionalVerbs);
