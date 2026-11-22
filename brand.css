@@ -183,3 +183,14 @@ button:disabled{opacity:.5;cursor:not-allowed}
 
 .transition-phrase-tools{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:20px}.transition-phrase-tools label{display:flex;flex-direction:column;gap:8px;flex:1;min-width:180px;font-size:13px;color:var(--muted)}.transition-phrase-tools select,.transition-phrase-tools input{width:100%;padding:10px 12px;font-size:14px;min-height:44px;border:1px solid #c5cbd4;border-radius:6px;background:#fff;color:var(--ink)}.transition-result-count{font-size:13px;color:var(--muted);padding-block:12px;white-space:nowrap}.transition-phrase{padding:0;border:0;border-bottom:1px solid #e5e8ed;background:transparent;border-radius:0;margin:0}.transition-phrase:last-child{border-bottom:0}.transition-phrase summary{padding:15px 4px;cursor:pointer;color:var(--ink);font-size:16px;line-height:1.6}.transition-phrase summary strong{font-weight:550;color:var(--brand)}.transition-phrase-meaning{display:block;margin-inline-start:18px;font-size:14px;color:var(--muted)}.transition-example-count{float:right;margin-inline-start:12px;font-size:12px;color:var(--muted)}.transition-phrase-examples{padding:0 22px 18px}.transition-pattern{font-size:13px!important;color:var(--muted)!important;margin:0 0 12px}.transition-phrase-examples ol{margin:0;padding-inline-start:22px}.transition-phrase-examples li{font-size:16px;line-height:1.8;color:var(--ink);padding:4px 0}
 @media(max-width:650px){.transition-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}.transition-tabs a{display:flex;align-items:center;justify-content:center;text-align:center;padding:10px 5px;line-height:1.4}.transition-phrase-tools{gap:12px}.transition-phrase-tools label{min-width:100%;flex-basis:100%}.transition-result-count{padding:0}.transition-phrase summary{font-size:15px}.transition-phrase-meaning{font-size:13px}.transition-phrase-examples{padding-inline:12px}.transition-phrase-examples li{font-size:15px}}
+
+/* Restrained editorial wordmark: clear name, quieter handwritten accent. */
+.wordmark,.wordmark strong{font-family:Georgia,'Times New Roman',serif;font-style:normal;font-weight:400;letter-spacing:-.045em;color:var(--brand)}
+.wordmark{display:inline-flex;align-items:baseline;gap:.23em;font-size:34px;line-height:1.25;white-space:nowrap;padding:3px 0}
+.wordmark em{font-family:var(--font-editorial);font-style:italic;font-weight:600;font-size:.94em;letter-spacing:-.025em;color:var(--brand)}
+#sidebar .brand .wordmark{display:inline-flex;align-items:baseline;gap:.23em;font-size:25px;line-height:1.35;white-space:nowrap;padding:0}
+#sidebar .brand .wordmark strong{font-size:inherit;line-height:inherit}
+#sidebar .brand .wordmark em{display:inline;font-size:.94em;line-height:inherit;margin:0}
+.editorial-header .wordmark{font-size:clamp(27px,2.8vw,38px)}
+.editorial-header .wordmark em{font-size:.94em}
+@media(max-width:760px){.editorial-header .wordmark,body>header .wordmark{font-size:28px}}
