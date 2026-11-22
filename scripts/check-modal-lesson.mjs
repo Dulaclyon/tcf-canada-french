@@ -12,3 +12,6 @@ const html=renderModalVerbs();
 for(const phrase of ['Je peux faire mon lit.','Nous pouvons faire nos valises.','Vous pouvez faire vos devoirs.','Je veux faire mon lit.','Tu veux faire ta valise.','Elles veulent faire leurs devoirs.','Il doit faire son lit.','Nous devons faire nos valises.','Je dois faire mes devoirs.'])assert(html.includes(phrase),phrase);
 const first=renderBasicVerbs()+renderPossessiveRecap();for(const p of ['faire le lit','faire la valise','faire les devoirs','mon lit','ma valise','mes devoirs','ton lit','ta valise','tes devoirs','son lit','sa valise','ses devoirs'])assert(first.includes(p),p);
 console.log('Modal lesson passed: one shared knowledge point, all three present paradigms, usage, original source coverage and nine faire/possessive combinations; phrase teaching remains in Unit 1.');
+const {renderPlacePrepositions}=await import('../basic-verbs.js');
+const prepHTML=renderPlacePrepositions();assert.equal((prepHTML.match(/class="place-preposition-group"/g)||[]).length,4);assert.equal((prepHTML.match(/<td lang="fr">/g)||[]).length,32);
+for(const phrase of ['Je peux faire mes devoirs avec Paul.','Je suis dans la gare.','Je suis chez Paul.','Nous voulons aller au cinéma avec eux.'])assert(prepHTML.includes(phrase));

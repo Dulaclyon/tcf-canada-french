@@ -21230,5 +21230,215 @@
     "source": "现在十四点三十分。",
     "en": "It is 14:30.",
     "zh-TW": "現在十四點三十分。"
+  },
+  {
+    "source": "和……一起；带有……",
+    "en": "with / together with",
+    "zh-TW": "和……一起；帶有……"
+  },
+  {
+    "source": "表示和谁一起做事，也可以说明工具、配料或做事的方式。",
+    "en": "Avec expresses company and can also introduce an instrument, ingredient or manner.",
+    "zh-TW": "表示和誰一起做事，也可以說明工具、配料或做事的方式。"
+  },
+  {
+    "source": "在……；到……",
+    "en": "at / to",
+    "zh-TW": "在……；到……"
+  },
+  {
+    "source": "城市前用 à；具体场所按冠词搭配：à la、à l’、au、aux。",
+    "en": "Use à with cities. For specific places, combine it with the article: à la, à l’, au, aux.",
+    "zh-TW": "城市前用 à；具體場所按冠詞搭配：à la、à l’、au、aux。"
+  },
+  {
+    "source": "强调人或物处于某个空间内部；dans 后接名词及其限定词。",
+    "en": "Dans emphasizes being inside a space; it is followed by a noun and its determiner.",
+    "zh-TW": "強調人或物處於某個空間內部；dans 後接名詞及其限定詞。"
+  },
+  {
+    "source": "在某人家；到某人处",
+    "en": "at / to someone’s home or premises",
+    "zh-TW": "在某人家；到某人處"
+  },
+  {
+    "source": "后接人、重读代词或职业称谓；chez moi、chez toi、chez lui、chez elle、chez nous、chez vous、chez eux、chez elles。",
+    "en": "Use chez with a person, stressed pronoun or profession: chez moi, chez toi, chez lui, chez elle, chez nous, chez vous, chez eux, chez elles.",
+    "zh-TW": "後接人、重讀代名詞或職業稱謂；chez moi、chez toi、chez lui、chez elle、chez nous、chez vous、chez eux、chez elles。"
+  },
+  {
+    "source": "先区分：和谁一起、到什么地方、在空间里面、在谁家或到谁处。",
+    "en": "Distinguish company, destination or location, being inside a space, and someone’s home or premises.",
+    "zh-TW": "先區分：和誰一起、到什麼地方、在空間裡面、在誰家或到誰處。"
+  },
+  {
+    "source": "简单搭配",
+    "en": "Common combinations",
+    "zh-TW": "簡單搭配"
+  },
+  {
+    "source": "和谁一起",
+    "en": "Company",
+    "zh-TW": "和誰一起"
+  },
+  {
+    "source": "城市或具体场所",
+    "en": "City or specific place",
+    "zh-TW": "城市或具體場所"
+  },
+  {
+    "source": "在空间里面",
+    "en": "Inside a space",
+    "zh-TW": "在空間裡面"
+  },
+  {
+    "source": "某人家或某人处",
+    "en": "Someone’s home or premises",
+    "zh-TW": "某人家或某人處"
+  },
+  {
+    "source": "放在一起比较",
+    "en": "Compare the meanings",
+    "zh-TW": "放在一起比較"
+  },
+  {
+    "source": "人称代词在介词后用重读形式：avec moi、avec toi、avec lui、avec elle；不要说 avec je。",
+    "en": "After a preposition, use stressed pronouns: avec moi, avec toi, avec lui, avec elle; not avec je.",
+    "zh-TW": "人稱代名詞在介詞後用重讀形式：avec moi、avec toi、avec lui、avec elle；不要說 avec je。"
+  },
+  {
+    "source": "原始课堂介词录音",
+    "en": "Original classroom recording: prepositions",
+    "zh-TW": "原始課堂介詞錄音"
+  },
+  {
+    "source": "我和 Julien 一起住在加拿大。",
+    "en": "I live in Canada with Julien.",
+    "zh-TW": "我和 Julien 一起住在加拿大。"
+  },
+  {
+    "source": "我可以和 Paul 一起做作业。",
+    "en": "I can do my homework with Paul.",
+    "zh-TW": "我可以和 Paul 一起做作業。"
+  },
+  {
+    "source": "我们想和他们一起去电影院。",
+    "en": "We want to go to the cinema with them.",
+    "zh-TW": "我們想和他們一起去電影院。"
+  },
+  {
+    "source": "她和老师交谈。",
+    "en": "She talks with her teacher.",
+    "zh-TW": "她和老師交談。"
+  },
+  {
+    "source": "他们和朋友们一起做作业。",
+    "en": "They do their homework with their friends.",
+    "zh-TW": "他們和朋友們一起做作業。"
+  },
+  {
+    "source": "他住在 North York。",
+    "en": "He lives in North York.",
+    "zh-TW": "他住在 North York。"
+  },
+  {
+    "source": "我去学校。",
+    "en": "I go to school.",
+    "zh-TW": "我去學校。"
+  },
+  {
+    "source": "我们去电影院。",
+    "en": "We go to the cinema.",
+    "zh-TW": "我們去電影院。"
+  },
+  {
+    "source": "你去火车站。",
+    "en": "You go to the station.",
+    "zh-TW": "你去火車站。"
+  },
+  {
+    "source": "她住在巴黎。",
+    "en": "She lives in Paris.",
+    "zh-TW": "她住在巴黎。"
+  },
+  {
+    "source": "我们在家。",
+    "en": "We are at home.",
+    "zh-TW": "我們在家。"
+  },
+  {
+    "source": "盒子里有一本书。",
+    "en": "There is a book in the box.",
+    "zh-TW": "盒子裡有一本書。"
+  },
+  {
+    "source": "我在房间里。",
+    "en": "I am in the room.",
+    "zh-TW": "我在房間裡。"
+  },
+  {
+    "source": "我的作业在我的包里。",
+    "en": "My homework is in my bag.",
+    "zh-TW": "我的作業在我的包裡。"
+  },
+  {
+    "source": "他在自己的房间里铺床。",
+    "en": "He makes his bed in his room.",
+    "zh-TW": "他在自己的房間裡鋪床。"
+  },
+  {
+    "source": "我们在教室里。",
+    "en": "We are in the classroom.",
+    "zh-TW": "我們在教室裡。"
+  },
+  {
+    "source": "她在客厅里收拾自己的行李箱。",
+    "en": "She packs her suitcase in the living room.",
+    "zh-TW": "她在客廳裡收拾自己的行李箱。"
+  },
+  {
+    "source": "你想来我家吗？",
+    "en": "Do you want to come to my place?",
+    "zh-TW": "你想來我家嗎？"
+  },
+  {
+    "source": "我们去看医生。",
+    "en": "We are going to the doctor’s.",
+    "zh-TW": "我們去看醫生。"
+  },
+  {
+    "source": "他们在自己家里做作业。",
+    "en": "They do their homework at home.",
+    "zh-TW": "他們在自己家裡做作業。"
+  },
+  {
+    "source": "我们可以去 Paul 家。",
+    "en": "We can go to Paul’s place.",
+    "zh-TW": "我們可以去 Paul 家。"
+  },
+  {
+    "source": "她在自己家里收拾行李箱。",
+    "en": "She packs her suitcase at home.",
+    "zh-TW": "她在自己家裡收拾行李箱。"
+  },
+  {
+    "source": "我在火车站，说明所在地点。",
+    "en": "I am at the station: this identifies the location.",
+    "zh-TW": "我在火車站，說明所在位置。"
+  },
+  {
+    "source": "我在火车站里面，强调内部空间。",
+    "en": "I am inside the station: this emphasizes the interior.",
+    "zh-TW": "我在火車站裡面，強調內部空間。"
+  },
+  {
+    "source": "我在 Paul 家。",
+    "en": "I am at Paul’s home.",
+    "zh-TW": "我在 Paul 家。"
+  },
+  {
+    "source": "我和 Paul 在一起，不说明具体在哪里。",
+    "en": "I am with Paul; the exact location is not specified.",
+    "zh-TW": "我和 Paul 在一起，不說明具體在哪裡。"
   }
 ]
