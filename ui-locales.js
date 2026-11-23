@@ -1,4 +1,39 @@
 export const messages = {
+"通知":{"en": "Notifications", "zh-TW": "通知"},
+"正在读取通知…":{"en": "Loading notifications…", "zh-TW": "正在讀取通知…"},
+"通知暂时无法读取":{"en": "Notifications are temporarily unavailable", "zh-TW": "通知暫時無法讀取"},
+"已发送通知":{"en": "Sent notifications", "zh-TW": "已發送通知"},
+"我的通知":{"en": "My notifications", "zh-TW": "我的通知"},
+"全部标记已读":{"en": "Mark all as read", "zh-TW": "全部標記已讀"},
+"还没有发送通知":{"en": "No notifications sent yet", "zh-TW": "還沒有發送通知"},
+"暂无通知":{"en": "No notifications yet", "zh-TW": "暫無通知"},
+"保留最近 200 条通知。":{"en": "The latest 200 notifications are retained.", "zh-TW": "保留最近 200 則通知。"},
+"未读":{"en": "Unread", "zh-TW": "未讀"},
+"已读":{"en": "Read", "zh-TW": "已讀"},
+"标记已读":{"en": "Mark as read", "zh-TW": "標記已讀"},
+"全体学生":{"en": "All students", "zh-TW": "全體學生"},
+"指定学生":{"en": "Selected students", "zh-TW": "指定學生"},
+"发送通知":{"en": "Send notification", "zh-TW": "發送通知"},
+"收件人":{"en": "Recipients", "zh-TW": "收件人"},
+"输入 @姓名选择学生":{"en": "Type @name to select students", "zh-TW": "輸入 @姓名選擇學生"},
+"@姓名或邮箱":{"en": "@name or email", "zh-TW": "@姓名或電子郵件"},
+"学生建议":{"en": "Matching students", "zh-TW": "符合的學生"},
+"通知标题":{"en": "Notification title", "zh-TW": "通知標題"},
+"通知内容":{"en": "Message", "zh-TW": "通知內容"},
+"移除收件人":{"en": "Remove recipient", "zh-TW": "移除收件人"},
+"名学生将收到通知":{"en": "students will receive this notification", "zh-TW": "名學生將收到通知"},
+"没有找到学生":{"en": "No matching students", "zh-TW": "沒有找到學生"},
+"请选择有效的学生":{"en": "Select valid students", "zh-TW": "請選擇有效的學生"},
+"正在发送…":{"en": "Sending…", "zh-TW": "正在發送…"},
+"通知已发送":{"en": "Notification sent", "zh-TW": "通知已發送"},
+"名学生":{"en": "students", "zh-TW": "名學生"},
+"标题最多 120 字，通知内容最多 2000 字。":{"en": "Use up to 120 characters for the title and 2000 for the message.", "zh-TW": "標題最多 120 字，通知內容最多 2000 字。"},
+"没有可接收通知的学生":{"en": "No active students can receive this notification", "zh-TW": "沒有可接收通知的學生"},
+"无效通知":{"en": "Invalid notification", "zh-TW": "無效通知"},
+"通知不存在":{"en": "Notification not found", "zh-TW": "通知不存在"},
+
+"词汇复习":{"en":"Vocabulary review","zh-TW":"詞彙複習"},
+"分类发音录音":{"en":"Category pronunciation audio","zh-TW":"分類發音錄音"},
 "先学最直接的读法：sur":{"en": "Start with the simplest reading: sur", "zh-TW": "先學最直接的讀法：sur"},
 "再学常用的分数名称":{"en": "Then learn common fraction names", "zh-TW": "再學常用的分數名稱"},
 "用 sur 读":{"en": "Reading with sur", "zh-TW": "用 sur 讀"},
@@ -3111,3 +3146,7 @@ messages['导图缩放']={en:'Topic map zoom','zh-TW':'導圖縮放'};
 messages['缩小导图']={en:'Zoom out','zh-TW':'縮小導圖'};
 messages['还原导图大小']={en:'Reset zoom','zh-TW':'還原導圖大小'};
 messages['放大导图']={en:'Zoom in','zh-TW':'放大導圖'};
+
+messages["学生提交"]={"en": "Student submissions", "zh-TW": "學生提交"};
+messages["查看提交"]={"en": "View submission", "zh-TW": "查看提交"};
+messages["学生新提交"]={"en": "New student submission", "zh-TW": "學生新提交"};

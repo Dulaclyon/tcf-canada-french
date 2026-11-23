@@ -47,12 +47,12 @@ console.log('Article soft-wrap reflow, dialogue boundaries and source preservati
 const withNotes=renderArticle("Hier, je suis arrivé à la gare.\nLe train était déjà parti.\nêtre en retard – 迟到\nj’étais ← être（我是）");
 assert(withNotes.includes('class="article-notes"'));
 assert(!withNotes.split('class="article-notes"')[0].includes('être en retard'),'Glossary must not be inside the prose paragraph');
-assert(withNotes.includes('词汇与句型')&&withNotes.includes('grammar-table'));
+assert(withNotes.includes('词汇复习')&&(withNotes.includes('grammar-table')||withNotes.includes('review-word-list')));
 console.log('Post-reading vocabulary and sentence notes are distinct from article prose.');
 
 const annotatedDialogue=renderArticle(find(3,'对话部分').text);
 assert.equal((annotatedDialogue.match(/class="article-notes"/g)||[]).length,2);
-assert.match(plain(annotatedDialogue), /词汇与句型备注.*游泳池.*Cécile :/u);
+assert.match(plain(annotatedDialogue), /词汇复习.*游泳池.*Cécile :/u);
 assert.match(plain(annotatedDialogue), /DUFOUR là-bas \?/u);
 assert(!plain(annotatedDialogue).includes('（là-bas）'));
 
@@ -62,21 +62,21 @@ assert.match(plain(annotatedDialogue), /^Marc/u);
 const inlineGlosses=plain(renderArticle('Paris est plus grande que Lyon 巴黎比里昂大. Lyon est belle（里昂很美） !'));
 assert.match(inlineGlosses, /Lyon （巴黎比里昂大）\. Lyon est belle（里昂很美）/u);
 assert.match(plain(annotatedDialogue), /（在……家里）/u);
-assert.match(plain(annotatedDialogue), /（和……一起）/u);
-assert.match(plain(annotatedDialogue), /（可以指“你们”，也可礼貌地称呼一个人，译为“您”。）/u);
+assert.match(plain(annotatedDialogue), /和……一起/u);
+assert.match(plain(annotatedDialogue), /可以指“你们”，也可礼貌地称呼一个人，译为“您”。/u);
 
 const courses=JSON.parse(fs.readFileSync('src/data/courses.json','utf8'));
 const articles=courses.flatMap(c=>c.article&&/原文|对话/u.test(c.article.kind)?[c.article]:[]);
 const readingPassages=[...materials.flatMap(m=>buildLessonFlow(m,articles).readings),...articles];
 for(const passage of readingPassages){
  const body=renderArticle(passage.text)
-   .replace(/<h3 class="article-subtitle">.*?<\/h3>|<h3 lang="zh-CN">词汇与句型备注<\/h3>/gu,'')
+   .replace(/<h3 class="article-subtitle">.*?<\/h3>|<h3 lang="zh-CN">词汇复习<\/h3>/gu,'')
    .replace(/<(?:h3 class="grammar-subhead"|h3 class="grammar-topic-term"|p class="grammar-rule")>(?:<span class="grammar-zh">)?(?:第[一二三]类动词|代动词|动词短语|副词短语|介词短语|问时间|充满)[：:]?(?:<\/span>)?<\/(?:h3|p)>/gu,'');
- let unmarked=plain(body.replace(/<thead>[\s\S]*?<\/thead>/gu,'').replace(/<th scope="col">(?:法语|英文)<\/th>/gu,'').replace(/<h4 lang="zh-CN">(?:单数|复数)<\/h4>/gu,''));
+ let unmarked=plain(body.replace(/<dd lang="zh-CN" class="review-meaning">[\s\S]*?<\/dd>/gu,'').replace(/<thead>[\s\S]*?<\/thead>/gu,'').replace(/<th scope="col">(?:法语|英文)<\/th>/gu,'').replace(/<h4 lang="zh-CN">(?:单数|复数)<\/h4>/gu,''));
  while(/\([^()（）]*\)|（[^()（）]*）/u.test(unmarked))unmarked=unmarked.replace(/\([^()（）]*\)|（[^()（）]*）/gu,'');
  assert(!/[\u3400-\u9fff]/u.test(unmarked),`Unmarked Chinese in ${passage.title}: ${unmarked}`);
 }
-console.log(`Chinese glosses are bracketed in all ${readingPassages.length} rendered reading passages.`);
+console.log(`Chinese glosses are bracketed or separated into labelled review meanings in all ${readingPassages.length} rendered reading passages.`);
 
 const separatePrepositions=renderGrammar("à Paris 在巴黎\nà la maison 没有缩合\nchez 在家",'介词');
 assert.equal((separatePrepositions.match(/class="grammar-bilingual/g)||[]).length,2,'Independent bilingual entries must remain separate');
@@ -113,7 +113,7 @@ assert(!plain(honte.split('class="article-notes"')[0]).includes('avoir honte'),'
 console.log('Annie spacing, corrected glossary boundaries, dialogue continuations and quoted-prose boundaries passed.');
 
 const timeNotes=renderArticle("Annie : Merci.\nDéjà ---- Already\nheure----- time, hour");
-assert(/Déjà<\/th><td>Already<\/td>/u.test(timeNotes)||/Déjà<\/td><td>Already<\/td>/u.test(timeNotes),'Separate glossary entries cannot merge after an English gloss');
+assert(/Déjà<\/th><td>Already<\/td>/u.test(timeNotes)||/Déjà<\/td><td>Already<\/td>/u.test(timeNotes)||/Déjà<\/dt><dd[^>]*>Already<\/dd>/u.test(timeNotes),'Separate glossary entries cannot merge after an English gloss');
 
 const beginner=materials.find(m=>m.id==='lesson-03');
 assert(!JSON.stringify(beginner.supplements).includes('C’est elle qui organise'));

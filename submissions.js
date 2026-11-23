@@ -20,3 +20,5 @@ async function load(append=false){const version=++generation;$('load-more').disa
 $('student-filter').onchange=()=>load();$('review-filter').onchange=()=>load();$('refresh-submissions').onclick=()=>load();$('load-more').onclick=()=>load(true);
 $('feedback-form').onsubmit=async e=>{e.preventDefault();if(!selected)return;const button=e.currentTarget.querySelector('button[type=submit]'),submissionId=selected;button.disabled=true;try{await api('/api/admin/writing/feedback',{id:submissionId,feedback:$('teacher-feedback').value});if(selected===submissionId)$('feedback-status').textContent='评语已保存，学生现在可以查看。';await load();}catch(e){$('feedback-status').textContent=e.message;}finally{button.disabled=false;}};
 try{for(const user of await api('/api/admin/users')){const option=document.createElement('option');option.value=user.id;option.textContent=identity(user);option.dataset.i18nSkip='';$('student-filter').append(option);}await load();}catch(e){$('submission-status').textContent=e.message;}
+
+const requestedSubmission=new URLSearchParams(location.search).get('id');if(requestedSubmission)await openEssay(requestedSubmission);

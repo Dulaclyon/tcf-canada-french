@@ -8,6 +8,7 @@ assert.equal(readings.length,50);assert.equal(new Set(readings.map(a=>a.id)).siz
 assert.deepEqual(['culture','food','classics'].map(category=>selectReadings(readings,{category}).length),[20,20,10]);
 for(const a of readings){
  assert(a.title&&a.author&&['A1','A2','B1'].includes(a.level));
+ assert(['linen','sage','sky','rose','lavender','slate'].includes(a.palette),`${a.id}: reading palette`);
  const body=a.paragraphs.join(' ');assert(!/\p{Script=Han}/u.test(body));assert(body.split(/\s+/u).length>=55&&body.split(/\s+/u).length<200,`${a.id}: short, substantive text`);
  assert(a.vocabulary.length>=5);for(const v of a.vocabulary){assert(v.fr);for(const l of ['en','zh-CN','zh-TW'])assert(v.meaning[l]?.trim(),`${a.id}: ${l} glossary`);}
  if(a.category==='classics')assert(a.kind==='excerpt'&&a.work&&a.context&&a.source.url.startsWith('https://fr.wikisource.org/wiki/'));

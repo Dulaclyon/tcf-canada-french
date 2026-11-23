@@ -68,14 +68,16 @@ const recordings = [
     "title": "发音",
     "label": "-tion 发音示范",
     "file": "original-05-10.m4a",
-    "source": "leçon 5/Amica Swan Lake 73(1).m4a"
+    "source": "leçon 5/Amica Swan Lake 73(1).m4a",
+    "visible": false
   },
   {
     "lesson": 6,
     "title": "发音",
     "label": "鼻化元音示范",
     "file": "original-05-11.m4a",
-    "source": "leçon 5/Amica Swan Lake 80(1).m4a"
+    "source": "leçon 5/Amica Swan Lake 80(1).m4a",
+    "visible": false
   },
   {
     "lesson": 7,
@@ -122,5 +124,7 @@ const recordings = [
 ];
 export {recordings};
 export function originalLessonAudio(lesson,title) {
+ // Phonics uses only exact, category-specific synthesized recordings.
+ if(/发音|拼读|phonics?|prononciation/iu.test(String(title)))return ''; 
  return recordings.filter(r=>r.visible!==false && r.lesson===lesson && r.title===title).map(r=>`<figure class="lesson-original-audio" data-human-recording><figcaption><span data-ui-label>真人录音</span> · <span data-ui-label>${r.title==='发音'?'原始课堂发音录音':r.title==='Préposition'?'原始课堂介词录音':r.label}</span></figcaption><audio controls preload="none" src="./human-audio/${r.file}"></audio></figure>`).join('');
 }

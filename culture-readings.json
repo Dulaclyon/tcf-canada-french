@@ -59,7 +59,8 @@
       "alt": "Une lectrice salue la libraire dans une petite librairie française.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-02",
@@ -121,7 +122,8 @@
       "alt": "Deux amis prennent un café en terrasse, près d’un vélo.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-03",
@@ -183,7 +185,8 @@
       "alt": "Un marché français avec des étals de fruits et des sacs en tissu.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-04",
@@ -245,7 +248,8 @@
       "alt": "Une porte bleue et une cour au détour d’une rue tranquille.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-05",
@@ -307,7 +311,8 @@
       "alt": "Une personne lit sur le quai du métro parisien.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-06",
@@ -372,7 +377,8 @@
       "alt": "Les boîtes vertes des bouquinistes ouvertes au bord de la Seine.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-07",
@@ -434,7 +440,8 @@
       "alt": "Une personne observe un tableau dans un musée.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-08",
@@ -496,7 +503,8 @@
       "alt": "Des rayonnages et une table de lecture dans une bibliothèque de quartier.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-09",
@@ -558,7 +566,8 @@
       "alt": "Une salle de cinéma aux fauteuils rouges devant un écran lumineux.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-10",
@@ -623,7 +632,8 @@
       "alt": "Des musiciens jouent dans une rue de village devant leurs voisins.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-11",
@@ -685,7 +695,8 @@
       "alt": "Des familles regardent un feu d’artifice dans le ciel du village.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-12",
@@ -747,7 +758,8 @@
       "alt": "Une partie de pétanque sous les arbres, avec boules et cochonnet.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-13",
@@ -812,7 +824,8 @@
       "alt": "Un jardin régulier avec haies taillées, bassin et château.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-14",
@@ -874,7 +887,8 @@
       "alt": "Un château et des arbres sur les rives de la Loire.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-15",
@@ -936,7 +950,8 @@
       "alt": "Une place provençale avec fontaine, fruits et façades ocres.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-16",
@@ -998,7 +1013,8 @@
       "alt": "Un sentier de Bretagne entre falaises, vagues et phare.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-17",
@@ -1060,7 +1076,8 @@
       "alt": "Une rue d’Alsace bordée de maisons à colombages et de fleurs.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-18",
@@ -1122,7 +1139,8 @@
       "alt": "Un pont sur la Saône devant les façades du vieux Lyon.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-19",
@@ -1184,7 +1202,8 @@
       "alt": "Une place de village avec café, mairie et livraison de pain.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-20",
@@ -1246,7 +1265,8 @@
       "alt": "Un pont de Paris et un bateau sur la Seine au soleil du soir.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-21",
@@ -1311,7 +1331,8 @@
       "alt": "Une baguette dorée posée sur du lin près d’un sac en papier.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-22",
@@ -1373,7 +1394,8 @@
       "alt": "Un croissant feuilleté coupé sur une assiette, avec une tasse de café.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-23",
@@ -1435,7 +1457,8 @@
       "alt": "Une tartine au beurre et à la confiture près d’une fenêtre pluvieuse.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-24",
@@ -1497,7 +1520,8 @@
       "alt": "Une crêpe dans sa poêle, avec une louche, du citron et du sucre.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-25",
@@ -1562,7 +1586,8 @@
       "alt": "Une galette de sarrasin pliée autour d’un œuf et de fromage.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-26",
@@ -1624,7 +1649,8 @@
       "alt": "Une ratatouille de tomates, courgettes, aubergines et poivrons.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-27",
@@ -1686,7 +1712,8 @@
       "alt": "Une quiche lorraine dont une part a été découpée, avec une salade.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-28",
@@ -1748,7 +1775,8 @@
       "alt": "Une soupe à l’oignon gratinée dans un bol de céramique.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-29",
@@ -1810,7 +1838,8 @@
       "alt": "Une marmite de pot-au-feu avec viande, carottes, poireaux et bouillon.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-30",
@@ -1875,7 +1904,8 @@
       "alt": "Un gratin dauphinois de pommes de terre et de crème dans un plat doré.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-31",
@@ -1940,7 +1970,8 @@
       "alt": "Un cassoulet de haricots blancs, saucisse et confit dans une cassole.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-32",
@@ -2002,7 +2033,8 @@
       "alt": "Des fromages variés au comptoir d’un fromager.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-33",
@@ -2064,7 +2096,8 @@
       "alt": "Un petit plateau de fromages avec pain et verre d’eau.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-34",
@@ -2126,7 +2159,8 @@
       "alt": "Une tarte Tatin aux pommes caramélisées, à côté de son moule.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-35",
@@ -2188,7 +2222,8 @@
       "alt": "Des madeleines en forme de coquille près d’une tasse et d’un livre.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-36",
@@ -2250,7 +2285,8 @@
       "alt": "Des macarons pastel à la pistache, à la rose et au chocolat.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-37",
@@ -2312,7 +2348,8 @@
       "alt": "Des mains entourent une tasse de chocolat chaud près d’une fenêtre.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-38",
@@ -2374,7 +2411,8 @@
       "alt": "Un panier de pique-nique, du pain, des fruits et une couverture dans l’herbe.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-39",
@@ -2439,7 +2477,8 @@
       "alt": "Une famille partage un repas autour d’une table soigneusement dressée.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-40",
@@ -2501,7 +2540,8 @@
       "alt": "Une personne pose une question au serveur devant un menu sans texte.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-41",
@@ -2577,7 +2617,8 @@
       "alt": "Un corbeau tient un fromage dans son bec, tandis qu’un renard le regarde.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-42",
@@ -2653,7 +2694,8 @@
       "alt": "Une cigale devant la porte d’une fourmi au début de l’hiver.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sky"
   },
   {
     "id": "lecture-43",
@@ -2729,7 +2771,8 @@
       "alt": "Une tortue atteint le bout du chemin tandis qu’un lièvre court derrière.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "linen"
   },
   {
     "id": "lecture-44",
@@ -2805,7 +2848,8 @@
       "alt": "Le Petit Chaperon rouge part sur un chemin avec son panier.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   },
   {
     "id": "lecture-45",
@@ -2881,7 +2925,8 @@
       "alt": "La marraine de Cendrillon transforme une citrouille en carrosse.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-46",
@@ -2957,7 +3002,8 @@
       "alt": "La chèvre blanche Blanquette découvre une prairie dans la montagne.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "rose"
   },
   {
     "id": "lecture-47",
@@ -3033,7 +3079,8 @@
       "alt": "Un moulin provençal ouvert sur les pins, les lavandes et les Alpilles.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-48",
@@ -3109,7 +3156,8 @@
       "alt": "Phileas Fogg et Passepartout comparent l’heure dans un salon victorien.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "slate"
   },
   {
     "id": "lecture-49",
@@ -3185,7 +3233,8 @@
       "alt": "Un voyageur solitaire marche à l’aube avec un bouquet de houx et de bruyère.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "lavender"
   },
   {
     "id": "lecture-50",
@@ -3261,6 +3310,7 @@
       "alt": "Un jeune soldat immobile dans l’herbe, au bord d’une rivière paisible.",
       "width": 960,
       "height": 640
-    }
+    },
+    "palette": "sage"
   }
 ]

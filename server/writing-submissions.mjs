@@ -5,7 +5,7 @@ import {migrateCompletedWriting,submitCompletedDraft} from './completed-writing.
 import {randomBytes} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
-export function writingSubmissions(db,root,permissionsFor){
+export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{}){
  db.exec(`CREATE TABLE IF NOT EXISTS writing_submissions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,question_id TEXT NOT NULL,title TEXT NOT NULL,task INTEGER NOT NULL,prompt TEXT NOT NULL,text TEXT NOT NULL,submitted_at INTEGER NOT NULL,feedback TEXT NOT NULL DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);CREATE INDEX IF NOT EXISTS writing_by_user ON writing_submissions(user_id,submitted_at);`);
  if(!db.prepare('PRAGMA table_info(writing_submissions)').all().some(c=>c.name==='feedback_version'))db.exec('ALTER TABLE writing_submissions ADD COLUMN feedback_version INTEGER NOT NULL DEFAULT 0');
  const latestFeedback=(userId,questionId)=>db.prepare("SELECT id,title,task,feedback,reviewed_at FROM writing_submissions WHERE user_id=? AND question_id=? AND reviewed_at IS NOT NULL AND feedback<>'' ORDER BY feedback_version DESC,reviewed_at DESC,rowid DESC LIMIT 1").get(userId,questionId)||null;
@@ -35,6 +35,7 @@ export function writingSubmissions(db,root,permissionsFor){
    if(latest?.text===b.text.trim())return send(409,{error:'这份作文已经提交；修改后可再次提交'});
    const id=randomBytes(16).toString('hex'),at=Date.now();
    db.prepare('INSERT INTO writing_submissions(id,user_id,question_id,title,task,prompt,text,submitted_at) VALUES(?,?,?,?,?,?,?,?)').run(id,user.id,q.id,q.title,q.task,q.prompt,b.text.trim(),at);
+   notifySubmission(user,{key:'writing:'+id,title:q.title,url:'/submissions.html?id='+encodeURIComponent(id)});
    return send(201,{id,submitted_at:at});
   }
   if(route.startsWith('/api/admin/writing')){
@@ -89,6 +90,6 @@ export function writingSubmissions(db,root,permissionsFor){
    return send(404,{error:'Not found'});
   }catch(e){return send(e.status||400,{error:e.status?e.message:'Invalid connector result'});}
  };
- handler.syncCompleted=(user,value,previous)=>{if(user.role!=='student'||!permissionsFor(user).writing)return;for(const [id,draft] of Object.entries(value.drafts||{})){if(previous?.drafts?.[id]?.completed!==true)submitCompletedDraft(db,questions,user.id,id,draft);}};
+ handler.syncCompleted=(user,value,previous)=>{if(user.role!=='student'||!permissionsFor(user).writing)return;for(const [id,draft] of Object.entries(value.drafts||{})){if(previous?.drafts?.[id]?.completed!==true){if(submitCompletedDraft(db,questions,user.id,id,draft)){const row=db.prepare('SELECT id,title FROM writing_submissions WHERE user_id=? AND question_id=? ORDER BY submitted_at DESC,rowid DESC LIMIT 1').get(user.id,id);notifySubmission(user,{key:'writing:'+row.id,title:row.title,url:'/submissions.html?id='+encodeURIComponent(row.id)});}}}};
  return handler;
 }

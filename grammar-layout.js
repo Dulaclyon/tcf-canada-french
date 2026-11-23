@@ -479,13 +479,26 @@ export function polishReadingChinese(text) {
   return readingCorrections.reduce((result, [original, revised]) => result.replaceAll(original, revised), text).replace(/\b([Cc][’']est)(?=[A-ZÀ-Ÿ])/gu,'$1 ');
 }
 
+// Word review has its own compact presentation; grammar charts keep their structure.
+function reviewNotesMarkup(html) {
+ const tidy=value=>value.replace(/^\s*[（(]\s*/u,'').replace(/\s*[）)]\s*$/u,'');
+ const term=value=>value.replace(/\s+(n\.[mf]\.?|prép\.|prep\.|adj\.|adv\.|pron\.|v[ti]?\.)\s*$/iu,' <small class="review-pos">$1</small>');
+ return html.replace(/<div class="grammar-table-wrap"><table class="grammar-table"><thead><tr>([\s\S]*?)<\/tr><\/thead><tbody>([\s\S]*?)<\/tbody><\/table><\/div>/gu,(whole,head,body)=>{
+  const headers=[...head.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/gu)].map(m=>m[1].replace(/<[^>]*>/gu,''));
+  if(headers.length!==2||!/词语|法语|原文|英文/u.test(headers[0])||!/释义|意思|中文/u.test(headers[1]))return whole;
+  const rows=[...body.matchAll(/<tr>([\s\S]*?)<\/tr>/gu)].map(m=>[...m[1].matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/gu)].map(c=>c[1]));
+  if(!rows.length||rows.some(r=>r.length!==2))return whole;
+  return `<dl class="review-word-list">${rows.map(([word,meaning])=>`<div><dt lang="fr">${term(word)}</dt><dd lang="zh-CN" class="review-meaning">${tidy(meaning)}</dd></div>`).join('')}</dl>`;
+ });
+}
+
 export function renderArticle(text) {
   const lines=reflowSourceLines(polishReadingChinese(correctTeachingText(text)).replace(/（下次）/gu,'').replace(/（下次[：:]\s*/gu,'（'));
   const output=[],notes=[];
   const noteLabel=/^(?:第[一二三]类动词|代动词|动词短语|名词|动词|形容词|副词(?:短语)?|介词短语|表达|搭配|问时间|充满)[：:]?$/u;let paragraph='',dialogue=false,hasDialogue=false;
   const flushNotes=()=>{
     if(!notes.length)return;
-    output.push(`<section class="article-notes"><h3 lang="zh-CN">词汇与句型备注</h3>${renderGrammar(notes.map(line=>noteLabel.test(line)?line:markReadingGlosses(line)).join('\n'))}</section>`);
+    output.push(`<section class="article-notes"><h3 lang="zh-CN">词汇复习</h3>${reviewNotesMarkup(renderGrammar(notes.map(line=>noteLabel.test(line)?line:markReadingGlosses(line)).join('\n')))}</section>`);
     notes.length=0;
   };
   const flush=()=> {

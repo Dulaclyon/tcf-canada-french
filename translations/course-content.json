@@ -21920,5 +21920,1590 @@
     "source": "注意 premier / première 要配合名词性别；-ième 形式不分阴阳性，但复数要加 s，如 les deuxièmes places。常用缩写：1er、1re、2e、3e。日期通常用基数词，只有每月第一天用序数词：le premier mai，但 le deux mai。",
     "en": "Note: premier / première agrees in gender. The -ième forms are the same in both genders, but take s in the plural: les deuxièmes places. Usual abbreviations: 1er, 1re, 2e, 3e. Dates normally use cardinal numbers except the first day: le premier mai, but le deux mai.",
     "zh-TW": "注意 premier / première 要配合名詞性別；-ième 形式不分陰陽性，但複數要加 s，如 les deuxièmes places。常用縮寫：1er、1re、2e、3e。日期通常用基數詞，只有每月第一天用序數詞：le premier mai，但 le deux mai。"
+  },
+  {
+    "source": "足够的",
+    "en": "enough",
+    "zh-TW": "足夠的"
+  },
+  {
+    "source": "他的/她的/它的",
+    "en": "his/her/its",
+    "zh-TW": "他的/她的/它的"
+  },
+  {
+    "source": "在……家",
+    "en": "at someone's home",
+    "zh-TW": "在……家"
+  },
+  {
+    "source": "他们/她们/它们",
+    "en": "them",
+    "zh-TW": "他們/她們/它們"
+  },
+  {
+    "source": "疯子",
+    "en": "mad; crazy",
+    "zh-TW": "瘋子"
+  },
+  {
+    "source": "您/你们",
+    "en": "you, polite or plural",
+    "zh-TW": "您/你們"
+  },
+  {
+    "source": "走吧！",
+    "en": "let's go!",
+    "zh-TW": "走吧！"
+  },
+  {
+    "source": "祖鲁人，非洲民族之一",
+    "en": "Zulu, a people of southern Africa",
+    "zh-TW": "祖魯人，非洲民族之一"
+  },
+  {
+    "source": "我是朱利安。",
+    "en": "I am Julien.",
+    "zh-TW": "我是朱利安。"
+  },
+  {
+    "source": "你是克里斯托。",
+    "en": "You are Crystal.",
+    "zh-TW": "你是克里斯托。"
+  },
+  {
+    "source": "他是鲍勃。",
+    "en": "He is Bob.",
+    "zh-TW": "他是鮑勃。"
+  },
+  {
+    "source": "她是露西。",
+    "en": "She is Lucy.",
+    "zh-TW": "她是露西。"
+  },
+  {
+    "source": "我们是朋友。",
+    "en": "We are friends.",
+    "zh-TW": "我們是朋友。"
+  },
+  {
+    "source": "你们是朋友。",
+    "en": "You are friends.",
+    "zh-TW": "你們是朋友。"
+  },
+  {
+    "source": "他们是学生。",
+    "en": "They are students.",
+    "zh-TW": "他們是學生。"
+  },
+  {
+    "source": "她们是学生。",
+    "en": "They are female students.",
+    "zh-TW": "她們是學生。"
+  },
+  {
+    "source": "我累了。（男性说话者）",
+    "en": "I am tired; male speaker.",
+    "zh-TW": "我累了。（男性說話者）"
+  },
+  {
+    "source": "我有一本书。",
+    "en": "I have a book.",
+    "zh-TW": "我有一本書。"
+  },
+  {
+    "source": "你有一辆车。",
+    "en": "You have a car.",
+    "zh-TW": "你有一輛車。"
+  },
+  {
+    "source": "她二十岁。",
+    "en": "She is twenty years old.",
+    "zh-TW": "她二十歲。"
+  },
+  {
+    "source": "我们饿了。",
+    "en": "We are hungry.",
+    "zh-TW": "我們餓了。"
+  },
+  {
+    "source": "您有一栋房子。",
+    "en": "You have a house.",
+    "zh-TW": "您有一棟房子。"
+  },
+  {
+    "source": "他们有两个行李箱。",
+    "en": "They have two suitcases.",
+    "zh-TW": "他們有兩個行李箱。"
+  },
+  {
+    "source": "我去巴黎。",
+    "en": "I am going to Paris.",
+    "zh-TW": "我去巴黎。"
+  },
+  {
+    "source": "你去学校。",
+    "en": "You are going to school.",
+    "zh-TW": "你去學校。"
+  },
+  {
+    "source": "我们去餐厅。",
+    "en": "We are going to the restaurant.",
+    "zh-TW": "我們去餐廳。"
+  },
+  {
+    "source": "他们去北京。",
+    "en": "They are going to Beijing.",
+    "zh-TW": "他們去北京。"
+  },
+  {
+    "source": "我来你家。",
+    "en": "I am coming to your place.",
+    "zh-TW": "我來你家。"
+  },
+  {
+    "source": "你和我们一起来。",
+    "en": "You are coming with us.",
+    "zh-TW": "你和我們一起來。"
+  },
+  {
+    "source": "她来自蒙特利尔。",
+    "en": "She is from Montreal.",
+    "zh-TW": "她來自蒙特利爾。"
+  },
+  {
+    "source": "我们来参加聚会。",
+    "en": "We are coming to the party.",
+    "zh-TW": "我們來參加聚會。"
+  },
+  {
+    "source": "您明天来。",
+    "en": "You are coming tomorrow.",
+    "zh-TW": "您明天來。"
+  },
+  {
+    "source": "他们来这里。",
+    "en": "They are coming here.",
+    "zh-TW": "他們來這裡。"
+  },
+  {
+    "source": "我做一个蛋糕。",
+    "en": "I am making a cake.",
+    "zh-TW": "我做一個蛋糕。"
+  },
+  {
+    "source": "我们做一道练习。",
+    "en": "We are doing an exercise.",
+    "zh-TW": "我們做一道練習。"
+  },
+  {
+    "source": "您画一幅画。",
+    "en": "You are drawing a picture.",
+    "zh-TW": "您畫一幅畫。"
+  },
+  {
+    "source": "她是一位很有耐心的医生。",
+    "en": "She is a very patient doctor.",
+    "zh-TW": "她是一位很有耐心的醫生。"
+  },
+  {
+    "source": "她是医生。",
+    "en": "She is a doctor.",
+    "zh-TW": "她是醫生。"
+  },
+  {
+    "source": "这些是我的朋友。",
+    "en": "These are my friends.",
+    "zh-TW": "這些是我的朋友。"
+  },
+  {
+    "source": "我收拾行李箱。",
+    "en": "I am packing the suitcase.",
+    "zh-TW": "我收拾行李箱。"
+  },
+  {
+    "source": "她出发前收拾自己的行李箱。",
+    "en": "She packs her suitcase before leaving.",
+    "zh-TW": "她出發前收拾自己的行李箱。"
+  },
+  {
+    "source": "我们今晚收拾行李。",
+    "en": "We are packing our suitcases this evening.",
+    "zh-TW": "我們今晚收拾行李。"
+  },
+  {
+    "source": "我每天早上铺床。",
+    "en": "I make the bed every morning.",
+    "zh-TW": "我每天早上鋪床。"
+  },
+  {
+    "source": "你整理自己的床铺。",
+    "en": "You make your bed.",
+    "zh-TW": "你整理自己的床鋪。"
+  },
+  {
+    "source": "他们整理几张床。",
+    "en": "They make the beds.",
+    "zh-TW": "他們整理幾張床。"
+  },
+  {
+    "source": "我晚饭后做作业。",
+    "en": "I do my homework after dinner.",
+    "zh-TW": "我晚飯後做作業。"
+  },
+  {
+    "source": "她做自己的作业。",
+    "en": "She does her homework.",
+    "zh-TW": "她做自己的作業。"
+  },
+  {
+    "source": "你们一起做作业。",
+    "en": "You do your homework together.",
+    "zh-TW": "你們一起做作業。"
+  },
+  {
+    "source": "我正在吃饭。",
+    "en": "I am eating.",
+    "zh-TW": "我正在吃飯。"
+  },
+  {
+    "source": "你正在阅读。",
+    "en": "You are reading.",
+    "zh-TW": "你正在閱讀。"
+  },
+  {
+    "source": "我正在铺床。",
+    "en": "I am making the bed.",
+    "zh-TW": "我正在鋪床。"
+  },
+  {
+    "source": "他正在收拾行李箱。",
+    "en": "He is packing the suitcase.",
+    "zh-TW": "他正在收拾行李箱。"
+  },
+  {
+    "source": "我们正在工作。",
+    "en": "We are working.",
+    "zh-TW": "我們正在工作。"
+  },
+  {
+    "source": "她们正在建造一栋房子。",
+    "en": "They are building a house.",
+    "zh-TW": "她們正在建造一棟房子。"
+  },
+  {
+    "source": "我打算吃饭。",
+    "en": "I am going to eat.",
+    "zh-TW": "我打算吃飯。"
+  },
+  {
+    "source": "你打算读这本书。",
+    "en": "You are going to read this book.",
+    "zh-TW": "你打算讀這本書。"
+  },
+  {
+    "source": "她今晚打算学习。",
+    "en": "She is going to study this evening.",
+    "zh-TW": "她今晚打算學習。"
+  },
+  {
+    "source": "我们明天打算工作。",
+    "en": "We are going to work tomorrow.",
+    "zh-TW": "我們明天打算工作。"
+  },
+  {
+    "source": "她们打算建造一栋房子。",
+    "en": "They are going to build a house.",
+    "zh-TW": "她們打算建造一棟房子。"
+  },
+  {
+    "source": "我刚刚吃完饭。",
+    "en": "I have just eaten.",
+    "zh-TW": "我剛剛吃完飯。"
+  },
+  {
+    "source": "你刚刚读了这条消息。",
+    "en": "You have just read this message.",
+    "zh-TW": "你剛剛讀了這條訊息。"
+  },
+  {
+    "source": "她刚刚到达。",
+    "en": "She has just arrived.",
+    "zh-TW": "她剛剛到達。"
+  },
+  {
+    "source": "我们刚刚完成工作。",
+    "en": "We have just finished the work.",
+    "zh-TW": "我們剛剛完成工作。"
+  },
+  {
+    "source": "他们刚刚离开。",
+    "en": "They have just left.",
+    "zh-TW": "他們剛剛離開。"
+  },
+  {
+    "source": "我现在没有在吃饭。",
+    "en": "I am not eating right now.",
+    "zh-TW": "我現在沒有在吃飯。"
+  },
+  {
+    "source": "我不打算在这里吃饭。",
+    "en": "I am not going to eat here.",
+    "zh-TW": "我不打算在這裡吃飯。"
+  },
+  {
+    "source": "我并不是刚刚吃过饭。",
+    "en": "It is not the case that I have just eaten.",
+    "zh-TW": "我並不是剛剛吃過飯。"
+  },
+  {
+    "source": "法语 / 原结构",
+    "en": "French / original form",
+    "zh-TW": "法語／原結構"
+  },
+  {
+    "source": "释义 / 对应形式",
+    "en": "Meaning / equivalent",
+    "zh-TW": "釋義／對應形式"
+  },
+  {
+    "source": "我正在整理自己的床铺。",
+    "en": "I am making my bed.",
+    "zh-TW": "我正在整理自己的床鋪。"
+  },
+  {
+    "source": "你打算整理自己的床铺。",
+    "en": "You are going to make your bed.",
+    "zh-TW": "你打算整理自己的床鋪。"
+  },
+  {
+    "source": "他们刚刚整理好了各自的床铺。",
+    "en": "They have just made their beds.",
+    "zh-TW": "他們剛剛整理好了各自的床鋪。"
+  },
+  {
+    "source": "你正在收拾自己的行李箱。",
+    "en": "You are packing your suitcase.",
+    "zh-TW": "你正在收拾自己的行李箱。"
+  },
+  {
+    "source": "我们打算收拾各自的行李。",
+    "en": "We are going to pack our suitcases.",
+    "zh-TW": "我們打算收拾各自的行李。"
+  },
+  {
+    "source": "她刚刚收拾好了自己的行李箱。",
+    "en": "She has just packed her suitcase.",
+    "zh-TW": "她剛剛收拾好了自己的行李箱。"
+  },
+  {
+    "source": "她正在做自己的作业。",
+    "en": "She is doing her homework.",
+    "zh-TW": "她正在做自己的作業。"
+  },
+  {
+    "source": "你们打算做自己的作业。",
+    "en": "You are going to do your homework.",
+    "zh-TW": "你們打算做自己的作業。"
+  },
+  {
+    "source": "我刚刚做完自己的作业。",
+    "en": "I have just finished my homework.",
+    "zh-TW": "我剛剛做完自己的作業。"
+  },
+  {
+    "source": "词语",
+    "en": "Word",
+    "zh-TW": "詞語"
+  },
+  {
+    "source": "火车站",
+    "en": "train station",
+    "zh-TW": "火車站"
+  },
+  {
+    "source": "和……一起",
+    "en": "with; together with",
+    "zh-TW": "和……一起"
+  },
+  {
+    "source": "可以指“你们”，也可礼貌地称呼一个人，译为“您”。",
+    "en": "vous can mean plural you or address one person politely.",
+    "zh-TW": "可以指“你們”，也可禮貌地稱呼一個人，譯為“您”。"
+  },
+  {
+    "source": "你是谁？——我是 Crystal。",
+    "en": "Who are you? — I am Crystal.",
+    "zh-TW": "你是誰？——我是 Crystal。"
+  },
+  {
+    "source": "是我。我和你一起来。",
+    "en": "It's me. I am coming with you.",
+    "zh-TW": "是我。我和你一起來。"
+  },
+  {
+    "source": "你去哪里？——我去保罗家。",
+    "en": "Where are you going? — I am going to Paul's place.",
+    "zh-TW": "你去哪裡？——我去保羅家。"
+  },
+  {
+    "source": "你为什么离开？——因为我明天要工作。",
+    "en": "Why are you leaving? — Because I have to work tomorrow.",
+    "zh-TW": "你為什麼離開？——因為我明天要工作。"
+  },
+  {
+    "source": "词语 / 原结构",
+    "en": "Word / original form",
+    "zh-TW": "詞語／原結構"
+  },
+  {
+    "source": "天气怎么样？",
+    "en": "What is the weather like?",
+    "zh-TW": "天氣怎麼樣？"
+  },
+  {
+    "source": "今天天气怎么样？",
+    "en": "What is the weather like today?",
+    "zh-TW": "今天天氣怎麼樣？"
+  },
+  {
+    "source": "天气多云。",
+    "en": "The weather is cloudy.",
+    "zh-TW": "天氣多雲。"
+  },
+  {
+    "source": "——天气怎么样？——天气很好，不过有风。",
+    "en": "— What is the weather like? — It is fine, but windy.",
+    "zh-TW": "——天氣怎麼樣？——天氣很好，不過有風。"
+  },
+  {
+    "source": "——今天天气怎么样？——天气冷，而且在下雪。",
+    "en": "— What is the weather like today? — It is cold and snowing.",
+    "zh-TW": "——今天天氣怎麼樣？——天氣冷，而且在下雪。"
+  },
+  {
+    "source": "——你那里天气怎么样？——在下雨，还有雷声。",
+    "en": "— What is the weather like where you are? — It is raining and there is thunder.",
+    "zh-TW": "——你那裡天氣怎麼樣？——在下雨，還有雷聲。"
+  },
+  {
+    "source": "天空是灰色的。",
+    "en": "The sky is grey.",
+    "zh-TW": "天空是灰色的。"
+  },
+  {
+    "source": "树叶在秋天落下。",
+    "en": "Leaves fall in autumn.",
+    "zh-TW": "樹葉在秋天落下。"
+  },
+  {
+    "source": "春天在三月到来。",
+    "en": "Spring arrives in March.",
+    "zh-TW": "春天在三月到來。"
+  },
+  {
+    "source": "在 b、m、p 前使用",
+    "en": "used before b, m and p",
+    "zh-TW": "在 b、m、p 前使用"
+  },
+  {
+    "source": "空闲的",
+    "en": "free; available",
+    "zh-TW": "空閒的"
+  },
+  {
+    "source": "今天",
+    "en": "today",
+    "zh-TW": "今天"
+  },
+  {
+    "source": "也",
+    "en": "also",
+    "zh-TW": "也"
+  },
+  {
+    "source": "单独地",
+    "en": "alone",
+    "zh-TW": "單獨地"
+  },
+  {
+    "source": "整理",
+    "en": "to tidy",
+    "zh-TW": "整理"
+  },
+  {
+    "source": "检查",
+    "en": "to check",
+    "zh-TW": "檢查"
+  },
+  {
+    "source": "忘记",
+    "en": "to forget",
+    "zh-TW": "忘記"
+  },
+  {
+    "source": "与某人会面",
+    "en": "to meet someone",
+    "zh-TW": "與某人會面"
+  },
+  {
+    "source": "思考、想",
+    "en": "to think",
+    "zh-TW": "思考、想"
+  },
+  {
+    "source": "吃，乘坐",
+    "en": "to take; to have food",
+    "zh-TW": "吃，乘坐"
+  },
+  {
+    "source": "正在做某事",
+    "en": "to be doing something",
+    "zh-TW": "正在做某事"
+  },
+  {
+    "source": "拜访某人",
+    "en": "to visit someone",
+    "zh-TW": "拜訪某人"
+  },
+  {
+    "source": "坐火车",
+    "en": "to take the train",
+    "zh-TW": "坐火車"
+  },
+  {
+    "source": "什么都不忘",
+    "en": "to forget nothing",
+    "zh-TW": "什麼都不忘"
+  },
+  {
+    "source": "我不想离开。",
+    "en": "I do not want to leave.",
+    "zh-TW": "我不想離開。"
+  },
+  {
+    "source": "我不想忘记任何东西。",
+    "en": "I do not want to forget anything.",
+    "zh-TW": "我不想忘記任何東西。"
+  },
+  {
+    "source": "我们什么也不想喝。",
+    "en": "We do not want to drink anything.",
+    "zh-TW": "我們什麼也不想喝。"
+  },
+  {
+    "source": "她不能来。",
+    "en": "She cannot come.",
+    "zh-TW": "她不能來。"
+  },
+  {
+    "source": "passé composé） passé composé 结构 avoir + .....é （er --> é",
+    "en": "Passé composé: avoir + past participle ending in -é (-er → -é)",
+    "zh-TW": "passé composé） passé composé 結構 avoir + .....é （er --> é"
+  },
+  {
+    "source": "准备",
+    "en": "to prepare",
+    "zh-TW": "準備"
+  },
+  {
+    "source": "整理、收拾",
+    "en": "to tidy; to put away",
+    "zh-TW": "整理、收拾"
+  },
+  {
+    "source": "洗",
+    "en": "to wash",
+    "zh-TW": "洗"
+  },
+  {
+    "source": "学习",
+    "en": "to study",
+    "zh-TW": "學習"
+  },
+  {
+    "source": "看",
+    "en": "to look",
+    "zh-TW": "看"
+  },
+  {
+    "source": "跳",
+    "en": "to jump",
+    "zh-TW": "跳"
+  },
+  {
+    "source": "喊叫",
+    "en": "to shout",
+    "zh-TW": "喊叫"
+  },
+  {
+    "source": "听",
+    "en": "to listen",
+    "zh-TW": "聽"
+  },
+  {
+    "source": "说话",
+    "en": "to speak",
+    "zh-TW": "說話"
+  },
+  {
+    "source": "某地",
+    "en": "a place",
+    "zh-TW": "某地"
+  },
+  {
+    "source": "我在学校。",
+    "en": "I am at school.",
+    "zh-TW": "我在學校。"
+  },
+  {
+    "source": "我去奶奶家。",
+    "en": "I am going to my grandmother's.",
+    "zh-TW": "我去奶奶家。"
+  },
+  {
+    "source": "她在医生那里工作。",
+    "en": "She works at the doctor's.",
+    "zh-TW": "她在醫生那裡工作。"
+  },
+  {
+    "source": "他在房子里面。",
+    "en": "He is inside the house.",
+    "zh-TW": "他在房子裡面。"
+  },
+  {
+    "source": "用于国家、月份、交通工具",
+    "en": "used with countries, months and means of transport",
+    "zh-TW": "用於國家、月份、交通工具"
+  },
+  {
+    "source": "我在法国。",
+    "en": "I am in France.",
+    "zh-TW": "我在法國。"
+  },
+  {
+    "source": "我坐车去。",
+    "en": "I am going by car.",
+    "zh-TW": "我坐車去。"
+  },
+  {
+    "source": "我们在二月。",
+    "en": "It is February.",
+    "zh-TW": "我們在二月。"
+  },
+  {
+    "source": "房子周围有花。",
+    "en": "There are flowers around the house.",
+    "zh-TW": "房子周圍有花。"
+  },
+  {
+    "source": "她们走路",
+    "en": "They walk; female group.",
+    "zh-TW": "她們走路"
+  },
+  {
+    "source": "朱莉很喜欢",
+    "en": "Julie likes it very much.",
+    "zh-TW": "朱莉很喜歡"
+  },
+  {
+    "source": "朱莉脸红了",
+    "en": "Julie blushed.",
+    "zh-TW": "朱莉臉紅了"
+  },
+  {
+    "source": "她内心成熟了不少",
+    "en": "She has become much more mature.",
+    "zh-TW": "她內心成熟了不少"
+  },
+  {
+    "source": "保罗跳了起来",
+    "en": "Paul jumped.",
+    "zh-TW": "保羅跳了起來"
+  },
+  {
+    "source": "父母鼓掌",
+    "en": "The parents applauded.",
+    "zh-TW": "父母鼓掌"
+  },
+  {
+    "source": "因为主语是“）elles”（阴性复数），（所以过去分",
+    "en": "Because the subject is elles (feminine plural), the past participle",
+    "zh-TW": "因為主詞是“）elles”（陰性複數），（所以過去分"
+  },
+  {
+    "source": "沿着……",
+    "en": "along",
+    "zh-TW": "沿著……"
+  },
+  {
+    "source": "我沿着河边走。",
+    "en": "I walk along the river.",
+    "zh-TW": "我沿著河邊走。"
+  },
+  {
+    "source": "他们沿着海滩散步。",
+    "en": "They walk along the beach.",
+    "zh-TW": "他們沿著海灘散步。"
+  },
+  {
+    "source": "我们沿着公路走。",
+    "en": "We walk along the road.",
+    "zh-TW": "我們沿著公路走。"
+  },
+  {
+    "source": "在……边上",
+    "en": "beside; at the edge of",
+    "zh-TW": "在……邊上"
+  },
+  {
+    "source": "她在海边散步。",
+    "en": "She walks by the sea.",
+    "zh-TW": "她在海邊散步。"
+  },
+  {
+    "source": "孩子们在池塘边走。",
+    "en": "The children walk beside the pond.",
+    "zh-TW": "孩子們在池塘邊走。"
+  },
+  {
+    "source": "他喜欢晚上在河边散步。",
+    "en": "He likes walking by the river in the evening.",
+    "zh-TW": "他喜歡晚上在河邊散步。"
+  },
+  {
+    "source": "比...更...",
+    "en": "more ... than",
+    "zh-TW": "比...更..."
+  },
+  {
+    "source": "他比我高。",
+    "en": "He is taller than me.",
+    "zh-TW": "他比我高。"
+  },
+  {
+    "source": "她说话比她哥哥快。",
+    "en": "She speaks faster than her brother.",
+    "zh-TW": "她說話比她哥哥快。"
+  },
+  {
+    "source": "和...一样...",
+    "en": "as ... as",
+    "zh-TW": "和...一樣..."
+  },
+  {
+    "source": "他和他姐姐一样聪明。",
+    "en": "He is as intelligent as his sister.",
+    "zh-TW": "他和他姐姐一樣聰明。"
+  },
+  {
+    "source": "她跑得和我一样快。",
+    "en": "She runs as fast as me.",
+    "zh-TW": "她跑得和我一樣快。"
+  },
+  {
+    "source": "比...更不... / 比...少",
+    "en": "less ... than",
+    "zh-TW": "比...更不... / 比...少"
+  },
+  {
+    "source": "这部电影没那部有趣。",
+    "en": "This film is less interesting than that one.",
+    "zh-TW": "這部電影沒那部有趣。"
+  },
+  {
+    "source": "他工作没你认真。",
+    "en": "He works less carefully than you.",
+    "zh-TW": "他工作沒你認真。"
+  },
+  {
+    "source": "壮丽的",
+    "en": "magnificent",
+    "zh-TW": "壯麗的"
+  },
+  {
+    "source": "不同的",
+    "en": "different",
+    "zh-TW": "不同的"
+  },
+  {
+    "source": "大的",
+    "en": "big",
+    "zh-TW": "大的"
+  },
+  {
+    "source": "著名的",
+    "en": "famous",
+    "zh-TW": "著名的"
+  },
+  {
+    "source": "热闹的",
+    "en": "lively",
+    "zh-TW": "熱鬧的"
+  },
+  {
+    "source": "贵的",
+    "en": "expensive",
+    "zh-TW": "貴的"
+  },
+  {
+    "source": "旅游的",
+    "en": "touristy",
+    "zh-TW": "旅遊的"
+  },
+  {
+    "source": "有压力的",
+    "en": "stressful",
+    "zh-TW": "有壓力的"
+  },
+  {
+    "source": "令人印象深刻的",
+    "en": "impressive",
+    "zh-TW": "令人印象深刻的"
+  },
+  {
+    "source": "舒适的",
+    "en": "pleasant; comfortable",
+    "zh-TW": "舒適的"
+  },
+  {
+    "source": "城市",
+    "en": "city",
+    "zh-TW": "城市"
+  },
+  {
+    "source": "年",
+    "en": "year",
+    "zh-TW": "年"
+  },
+  {
+    "source": "纪念碑）/（著名建筑",
+    "en": "monument; landmark",
+    "zh-TW": "紀念碑）/（著名建築"
+  },
+  {
+    "source": "价格",
+    "en": "price",
+    "zh-TW": "價格"
+  },
+  {
+    "source": "美食）/（烹饪",
+    "en": "cuisine; cooking",
+    "zh-TW": "美食）/（烹飪"
+  },
+  {
+    "source": "生活",
+    "en": "life",
+    "zh-TW": "生活"
+  },
+  {
+    "source": "意见",
+    "en": "opinion",
+    "zh-TW": "意見"
+  },
+  {
+    "source": "去）（passe compose",
+    "en": "to go; passé composé",
+    "zh-TW": "去）（passe compose"
+  },
+  {
+    "source": "认为",
+    "en": "to think",
+    "zh-TW": "認為"
+  },
+  {
+    "source": "更喜欢",
+    "en": "to prefer",
+    "zh-TW": "更喜歡"
+  },
+  {
+    "source": "相比之下",
+    "en": "in contrast",
+    "zh-TW": "相比之下"
+  },
+  {
+    "source": "尤其是",
+    "en": "especially",
+    "zh-TW": "尤其是"
+  },
+  {
+    "source": "您呢？",
+    "en": "and you?",
+    "zh-TW": "您呢？"
+  },
+  {
+    "source": "这是城里最高的建筑。",
+    "en": "This is the tallest building in the city.",
+    "zh-TW": "這是城裡最高的建築。"
+  },
+  {
+    "source": "她是班上最聪明的。",
+    "en": "She is the most intelligent in the class.",
+    "zh-TW": "她是班上最聰明的。"
+  },
+  {
+    "source": "副词无性数变化",
+    "en": "Adverbs do not change for gender or number.",
+    "zh-TW": "副詞無性數變化"
+  },
+  {
+    "source": "他跑得最快。",
+    "en": "He runs the fastest.",
+    "zh-TW": "他跑得最快。"
+  },
+  {
+    "source": "这是最不贵的餐厅。",
+    "en": "This is the least expensive restaurant.",
+    "zh-TW": "這是最不貴的餐廳。"
+  },
+  {
+    "source": "她是小组里最不害羞的。",
+    "en": "She is the least shy person in the group.",
+    "zh-TW": "她是小組裡最不害羞的。"
+  },
+  {
+    "source": "他工作得最慢。",
+    "en": "He works the slowest.",
+    "zh-TW": "他工作得最慢。"
+  },
+  {
+    "source": "这是今年最好的电影。",
+    "en": "This is the best film of the year.",
+    "zh-TW": "這是今年最好的電影。"
+  },
+  {
+    "source": "这是我人生中最糟糕的一天。",
+    "en": "This is the worst day of my life.",
+    "zh-TW": "這是我人生中最糟糕的一天。"
+  },
+  {
+    "source": "我是",
+    "en": "I was",
+    "zh-TW": "我是"
+  },
+  {
+    "source": "我住在",
+    "en": "I lived",
+    "zh-TW": "我住在"
+  },
+  {
+    "source": "那里有",
+    "en": "there was / were",
+    "zh-TW": "那裡有"
+  },
+  {
+    "source": "我起床",
+    "en": "I got up",
+    "zh-TW": "我起床"
+  },
+  {
+    "source": "我看",
+    "en": "I looked",
+    "zh-TW": "我看"
+  },
+  {
+    "source": "天空是",
+    "en": "the sky was",
+    "zh-TW": "天空是"
+  },
+  {
+    "source": "太阳照耀",
+    "en": "the sun shone",
+    "zh-TW": "太陽照耀"
+  },
+  {
+    "source": "我们去",
+    "en": "we went",
+    "zh-TW": "我們去"
+  },
+  {
+    "source": "我们跑",
+    "en": "we ran",
+    "zh-TW": "我們跑"
+  },
+  {
+    "source": "我们喊",
+    "en": "we shouted",
+    "zh-TW": "我們喊"
+  },
+  {
+    "source": "我们捡",
+    "en": "we picked up",
+    "zh-TW": "我們撿"
+  },
+  {
+    "source": "妹妹来",
+    "en": "my younger sister came",
+    "zh-TW": "妹妹來"
+  },
+  {
+    "source": "她留下",
+    "en": "she stayed",
+    "zh-TW": "她留下"
+  },
+  {
+    "source": "我们是",
+    "en": "we were",
+    "zh-TW": "我們是"
+  },
+  {
+    "source": "爸爸讲",
+    "en": "Dad told",
+    "zh-TW": "爸爸講"
+  },
+  {
+    "source": "那是",
+    "en": "that was",
+    "zh-TW": "那是"
+  },
+  {
+    "source": "他回来的时候我正在看电视",
+    "en": "I was watching television when he came back.",
+    "zh-TW": "他回來的時候我正在看電視"
+  },
+  {
+    "source": "是",
+    "en": "to be",
+    "zh-TW": "是"
+  },
+  {
+    "source": "说",
+    "en": "to say",
+    "zh-TW": "說"
+  },
+  {
+    "source": "看见",
+    "en": "to see",
+    "zh-TW": "看見"
+  },
+  {
+    "source": "拿",
+    "en": "to take",
+    "zh-TW": "拿"
+  },
+  {
+    "source": "放、穿",
+    "en": "to put; to put on",
+    "zh-TW": "放、穿"
+  },
+  {
+    "source": "读",
+    "en": "to read",
+    "zh-TW": "讀"
+  },
+  {
+    "source": "写",
+    "en": "to write",
+    "zh-TW": "寫"
+  },
+  {
+    "source": "打开",
+    "en": "to open",
+    "zh-TW": "開啟"
+  },
+  {
+    "source": "赠送",
+    "en": "to give; to offer",
+    "zh-TW": "贈送"
+  },
+  {
+    "source": "能够",
+    "en": "to be able to",
+    "zh-TW": "能夠"
+  },
+  {
+    "source": "想要",
+    "en": "to want",
+    "zh-TW": "想要"
+  },
+  {
+    "source": "应该",
+    "en": "to have to; should",
+    "zh-TW": "應該"
+  },
+  {
+    "source": "知道",
+    "en": "to know a fact",
+    "zh-TW": "知道"
+  },
+  {
+    "source": "认识、了解",
+    "en": "to know; to be familiar with",
+    "zh-TW": "認識、瞭解"
+  },
+  {
+    "source": "喝",
+    "en": "to drink",
+    "zh-TW": "喝"
+  },
+  {
+    "source": "收到",
+    "en": "to receive",
+    "zh-TW": "收到"
+  },
+  {
+    "source": "跑",
+    "en": "to run",
+    "zh-TW": "跑"
+  },
+  {
+    "source": "他喝了半杯水：Il a bu un demi-verre d’eau.",
+    "en": "He drank half a glass of water: Il a bu un demi-verre d’eau.",
+    "zh-TW": "他喝了半杯水：Il a bu un demi-verre d’eau."
+  },
+  {
+    "source": "三分之一的人迟到了：Un tiers des élèves est en retard.",
+    "en": "One third of the students are late: Un tiers des élèves est en retard.",
+    "zh-TW": "三分之一的人遲到了：Un tiers des élèves est en retard."
+  },
+  {
+    "source": "我们只吃了四分之一：Nous n’avons mangé qu’un quart.",
+    "en": "We ate only one quarter: Nous n’avons mangé qu’un quart.",
+    "zh-TW": "我們只吃了四分之一：Nous n’avons mangé qu’un quart."
+  },
+  {
+    "source": "他完成了四分之三的任务：Il a terminé les trois quarts de la tâche.",
+    "en": "He completed three quarters of the task: Il a terminé les trois quarts de la tâche.",
+    "zh-TW": "他完成了四分之三的任務：Il a terminé les trois quarts de la tâche."
+  },
+  {
+    "source": "我需要睡眠。",
+    "en": "I need sleep.",
+    "zh-TW": "我需要睡眠。"
+  },
+  {
+    "source": "她需要学习。",
+    "en": "She needs to study.",
+    "zh-TW": "她需要學習。"
+  },
+  {
+    "source": "开始下雨了。",
+    "en": "It starts to rain.",
+    "zh-TW": "開始下雨了。"
+  },
+  {
+    "source": "她被迫撒了谎。",
+    "en": "She was forced to lie.",
+    "zh-TW": "她被迫撒了謊。"
+  },
+  {
+    "source": "我想喝咖啡。",
+    "en": "I feel like having coffee.",
+    "zh-TW": "我想喝咖啡。"
+  },
+  {
+    "source": "他想旅行。",
+    "en": "He wants to travel.",
+    "zh-TW": "他想旅行。"
+  },
+  {
+    "source": "她很细心地照顾植物。",
+    "en": "She takes great care of the plants.",
+    "zh-TW": "她很細心地照顧植物。"
+  },
+  {
+    "source": "迟到） / （晚了",
+    "en": "late",
+    "zh-TW": "遲到） / （晚了"
+  },
+  {
+    "source": "我赶火车快迟到了。",
+    "en": "I am running late for my train.",
+    "zh-TW": "我趕火車快遲到了。"
+  },
+  {
+    "source": "想到某事） / （某人",
+    "en": "to think about something or someone",
+    "zh-TW": "想到某事） / （某人"
+  },
+  {
+    "source": "我在想接下来的计划。",
+    "en": "I am thinking about the plans that follow.",
+    "zh-TW": "我在想接下來的計劃。"
+  },
+  {
+    "source": "在）（街道的）（拐角处",
+    "en": "at the street corner",
+    "zh-TW": "在）（街道的）（拐角處"
+  },
+  {
+    "source": "街角有一家咖啡馆。",
+    "en": "There is a café on the corner.",
+    "zh-TW": "街角有一家咖啡館。"
+  },
+  {
+    "source": "害怕）（做某事",
+    "en": "to be afraid of doing something",
+    "zh-TW": "害怕）（做某事"
+  },
+  {
+    "source": "我害怕忘记带一份重要文件。",
+    "en": "I am afraid of forgetting an important document.",
+    "zh-TW": "我害怕忘記帶一份重要檔案。"
+  },
+  {
+    "source": "记得） / （想起",
+    "en": "to remember; to recall",
+    "zh-TW": "記得） / （想起"
+  },
+  {
+    "source": "我想起自己还有个约。",
+    "en": "I remember that I still have an appointment.",
+    "zh-TW": "我想起自己還有個約。"
+  },
+  {
+    "source": "利用某事）/（某时去做某事",
+    "en": "to use an opportunity or time to do something",
+    "zh-TW": "利用某事）/（某時去做某事"
+  },
+  {
+    "source": "我趁这段时间回复了邮件。",
+    "en": "I used this time to answer emails.",
+    "zh-TW": "我趁這段時間回覆了郵件。"
+  },
+  {
+    "source": "回复邮件） / （回复某人",
+    "en": "to reply to an email or to someone",
+    "zh-TW": "回覆郵件） / （回覆某人"
+  },
+  {
+    "source": "我得回复客户。",
+    "en": "I have to reply to the client.",
+    "zh-TW": "我得回覆客戶。"
+  },
+  {
+    "source": "安顿下来） / （坐下） / （住下",
+    "en": "to settle in; to sit down; to move in",
+    "zh-TW": "安頓下來） / （坐下） / （住下"
+  },
+  {
+    "source": "我坐在窗边。",
+    "en": "I sit down by the window.",
+    "zh-TW": "我坐在窗邊。"
+  },
+  {
+    "source": "避免某事） / （避免做某事",
+    "en": "to avoid something or doing something",
+    "zh-TW": "避免某事） / （避免做某事"
+  },
+  {
+    "source": "别出发太晚。",
+    "en": "Do not leave too late.",
+    "zh-TW": "別出發太晚。"
+  },
+  {
+    "source": "在路上",
+    "en": "on the way",
+    "zh-TW": "在路上"
+  },
+  {
+    "source": "在路上我遇到了一个朋友。",
+    "en": "I met a friend on the way.",
+    "zh-TW": "在路上我遇到了一個朋友。"
+  },
+  {
+    "source": "一起翻阅副词短语：",
+    "en": "Reviewing together; adverb phrases:",
+    "zh-TW": "一起翻閱副詞短語："
+  },
+  {
+    "source": "立刻",
+    "en": "immediately",
+    "zh-TW": "立刻"
+  },
+  {
+    "source": "真心实意地，高兴地介词短语：",
+    "en": "wholeheartedly; happily. Prepositional phrases:",
+    "zh-TW": "真心實意地，高興地介詞短語："
+  },
+  {
+    "source": "在厨房里",
+    "en": "in the kitchen",
+    "zh-TW": "在廚房裡"
+  },
+  {
+    "source": "围坐在桌子旁",
+    "en": "sitting around the table",
+    "zh-TW": "圍坐在桌子旁"
+  },
+  {
+    "source": "关于他们的周末计划",
+    "en": "about their weekend plans",
+    "zh-TW": "關於他們的週末計劃"
+  },
+  {
+    "source": "正在讲话的那个人是我的老师。",
+    "en": "The person who is speaking is my teacher.",
+    "zh-TW": "正在講話的那個人是我的老師。"
+  },
+  {
+    "source": "这就是那本很有趣的书。",
+    "en": "This is the book that is very interesting.",
+    "zh-TW": "這就是那本很有趣的書。"
+  },
+  {
+    "source": "她想发展自己的音乐才能。",
+    "en": "She wants to develop her musical talent.",
+    "zh-TW": "她想發展自己的音樂才能。"
+  },
+  {
+    "source": "他和我聊起了他去意大利的旅行。",
+    "en": "He told me about his trip to Italy.",
+    "zh-TW": "他和我聊起了他去義大利的旅行。"
+  },
+  {
+    "source": "我们明天要参加一场会议。",
+    "en": "We are attending a meeting tomorrow.",
+    "zh-TW": "我們明天要參加一場會議。"
+  },
+  {
+    "source": "我梦想环游世界。",
+    "en": "I dream of travelling around the world.",
+    "zh-TW": "我夢想環遊世界。"
+  },
+  {
+    "source": "地点",
+    "en": "place",
+    "zh-TW": "地點"
+  },
+  {
+    "source": "我们早上8点到达机场。",
+    "en": "We arrive at the airport at eight a.m.",
+    "zh-TW": "我們早上8點到達機場。"
+  },
+  {
+    "source": "他在演讲前改进了他的项目。",
+    "en": "He improved his project before the presentation.",
+    "zh-TW": "他在演講前改進了他的專案。"
+  },
+  {
+    "source": "她在舞蹈比赛中获得了一等奖。",
+    "en": "She won first prize in the dance competition.",
+    "zh-TW": "她在舞蹈比賽中獲得了一等獎。"
+  },
+  {
+    "source": "他因努力而获得荣誉奖。",
+    "en": "He received an honorary prize for his effort.",
+    "zh-TW": "他因努力而獲得榮譽獎。"
+  },
+  {
+    "source": "他连晚上也继续工作。",
+    "en": "He continues working even in the evening.",
+    "zh-TW": "他連晚上也繼續工作。"
+  },
+  {
+    "source": "她努力学习，争取通过考试。",
+    "en": "She studies hard to pass the exam.",
+    "zh-TW": "她努力學習，爭取透過考試。"
+  },
+  {
+    "source": "我确信他说的是实话。",
+    "en": "I am sure he is telling the truth.",
+    "zh-TW": "我確信他說的是實話。"
+  },
+  {
+    "source": "候选人，参赛者",
+    "en": "candidate; contestant",
+    "zh-TW": "候選人，參賽者"
+  },
+  {
+    "source": "女学生",
+    "en": "female student",
+    "zh-TW": "女學生"
+  },
+  {
+    "source": "全国比赛",
+    "en": "national competition",
+    "zh-TW": "全國比賽"
+  },
+  {
+    "source": "经历，经验",
+    "en": "experience",
+    "zh-TW": "經歷，經驗"
+  },
+  {
+    "source": "项目",
+    "en": "project",
+    "zh-TW": "專案"
+  },
+  {
+    "source": "荣誉奖",
+    "en": "honorary prize",
+    "zh-TW": "榮譽獎"
+  },
+  {
+    "source": "才能",
+    "en": "talent",
+    "zh-TW": "才能"
+  },
+  {
+    "source": "建议",
+    "en": "advice",
+    "zh-TW": "建議"
+  },
+  {
+    "source": "方法",
+    "en": "method",
+    "zh-TW": "方法"
+  },
+  {
+    "source": "骄傲，自豪",
+    "en": "pride",
+    "zh-TW": "驕傲，自豪"
+  },
+  {
+    "source": "动力来源",
+    "en": "source of motivation",
+    "zh-TW": "動力來源"
+  },
+  {
+    "source": "失败",
+    "en": "failure",
+    "zh-TW": "失敗"
+  },
+  {
+    "source": "美食",
+    "en": "cuisine",
+    "zh-TW": "美食"
+  },
+  {
+    "source": "时刻",
+    "en": "moment",
+    "zh-TW": "時刻"
+  },
+  {
+    "source": "原因",
+    "en": "reason",
+    "zh-TW": "原因"
+  },
+  {
+    "source": "你认识的那个女孩是我表妹。",
+    "en": "The girl you know is my cousin.",
+    "zh-TW": "你認識的那個女孩是我表妹。"
+  },
+  {
+    "source": "这是我昨天看的电影。",
+    "en": "This is the film I watched yesterday.",
+    "zh-TW": "這是我昨天看的電影。"
+  },
+  {
+    "source": "我出生的城市很小。",
+    "en": "The city where I was born is small.",
+    "zh-TW": "我出生的城市很小。"
+  },
+  {
+    "source": "我们相遇的那一天难忘。",
+    "en": "The day we met is unforgettable.",
+    "zh-TW": "我們相遇的那一天難忘。"
+  },
+  {
+    "source": "这就是我跟你提到过的人。",
+    "en": "This is the person I told you about.",
+    "zh-TW": "這就是我跟你提到過的人。"
+  },
+  {
+    "source": "她有一个朋友，他的父亲是医生。",
+    "en": "She has a friend whose father is a doctor.",
+    "zh-TW": "她有一個朋友，他的父親是醫生。"
+  },
+  {
+    "source": "他住的那栋房子很旧。",
+    "en": "The house where he lives is old.",
+    "zh-TW": "他住的那棟房子很舊。"
+  },
+  {
+    "source": "我们讨论的那些话题很难。",
+    "en": "The topics we discussed are difficult.",
+    "zh-TW": "我們討論的那些話題很難。"
+  },
+  {
+    "source": "他为自己的行为感到羞愧。",
+    "en": "He is ashamed of his behaviour.",
+    "zh-TW": "他為自己的行為感到羞愧。"
+  },
+  {
+    "source": "她为自己的兄弟感到羞愧。",
+    "en": "She is ashamed of her brother.",
+    "zh-TW": "她為自己的兄弟感到羞愧。"
+  },
+  {
+    "source": "我不好意思当众讲话。",
+    "en": "I feel embarrassed speaking in public.",
+    "zh-TW": "我不好意思當眾講話。"
+  },
+  {
+    "source": "努力",
+    "en": "effort",
+    "zh-TW": "努力"
+  },
+  {
+    "source": "学会管理时间",
+    "en": "to learn to manage time",
+    "zh-TW": "學會管理時間"
+  },
+  {
+    "source": "管理者",
+    "en": "manager",
+    "zh-TW": "管理者"
+  },
+  {
+    "source": "管理",
+    "en": "management; to manage",
+    "zh-TW": "管理"
+  },
+  {
+    "source": "信守诺言",
+    "en": "to keep a promise",
+    "zh-TW": "信守諾言"
+  },
+  {
+    "source": "做决定",
+    "en": "to make a decision",
+    "zh-TW": "做決定"
+  },
+  {
+    "source": "想要）（旅行",
+    "en": "to want to travel",
+    "zh-TW": "想要）（旅行"
+  },
+  {
+    "source": "适应环境",
+    "en": "to adapt to the environment",
+    "zh-TW": "適應環境"
+  },
+  {
+    "source": "把握机会",
+    "en": "to seize an opportunity",
+    "zh-TW": "把握機會"
+  },
+  {
+    "source": "必须……",
+    "en": "it is necessary to ...",
+    "zh-TW": "必須……"
+  },
+  {
+    "source": "规则",
+    "en": "regular",
+    "zh-TW": "規則"
+  },
+  {
+    "source": "使自己醒来",
+    "en": "to wake up",
+    "zh-TW": "使自己醒來"
+  },
+  {
+    "source": "双干动词",
+    "en": "two-stem verbs",
+    "zh-TW": "雙幹動詞"
+  },
+  {
+    "source": "nous/ vous 的词干不同于 je/tu/il/ils",
+    "en": "nous / vous use a different stem from je / tu / il / ils",
+    "zh-TW": "nous/ vous 的詞幹不同於 je/tu/il/ils"
+  },
+  {
+    "source": "握住、坚持",
+    "en": "hold; keep",
+    "zh-TW": "握住、堅持"
   }
 ]
