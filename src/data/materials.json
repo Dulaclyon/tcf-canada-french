@@ -5996,12 +5996,20 @@
         "rule": "分数常用基数词作分子、序数词作分母；二分之一 un demi、三分之一 un tiers、四分之一 un quart 有特殊形式。小数点读 virgule。",
         "examples": [
           {
-            "fr": "trois quarts ; deux tiers",
-            "zh": "四分之三；三分之二。"
+            "fr": "Il a bu un demi-verre d’eau.",
+            "zh": "他喝了半杯水。"
           },
           {
-            "fr": "zéro virgule cinq",
-            "zh": "0.5。"
+            "fr": "Nous avons mangé un quart du gâteau.",
+            "zh": "我们吃了蛋糕的四分之一。"
+          },
+          {
+            "fr": "Il a terminé les trois quarts de la tâche.",
+            "zh": "他完成了任务的四分之三。"
+          },
+          {
+            "fr": "Deux cinquièmes du budget ont été utilisés.",
+            "zh": "预算的五分之二已经用掉了。"
           }
         ],
         "pitfall": "demi 在名词后只作性别变化：une heure et demie；名词前用连字符且不变：une demi-heure。",
@@ -6009,7 +6017,47 @@
         "sourceUrl": "https://www.laits.utexas.edu/tex/gr/index.html?viewClass=Print",
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
-        "anchor": "法语中的分数"
+        "anchor": "法语中的分数",
+        "table": {
+          "headers": [
+            "分数",
+            "法语表达"
+          ],
+          "rows": [
+            [
+              "1/2",
+              "un demi"
+            ],
+            [
+              "1/3",
+              "un tiers"
+            ],
+            [
+              "1/4",
+              "un quart"
+            ],
+            [
+              "3/4",
+              "trois quarts"
+            ],
+            [
+              "2/5",
+              "deux cinquièmes"
+            ],
+            [
+              "4/7",
+              "quatre septièmes"
+            ],
+            [
+              "2 1/2",
+              "deux et demi"
+            ],
+            [
+              "1 3/4",
+              "un et trois quarts"
+            ]
+          ]
+        }
       },
       {
         "id": "lesson-16-supp-02",
@@ -6269,6 +6317,66 @@
         "sourceName": "Tex’s French Grammar · University of Texas",
         "status": "新增教学补充，非原课件；未经独立教师复核",
         "anchor": null
+      },
+      {
+        "id": "lesson-16-fractions-sur",
+        "title": "先学最直接的读法：sur",
+        "anchor": "法语中的分数",
+        "rule": "先读分子，再说 sur，最后读分母；两边都用基数词。例如 2/5 读 deux sur cinq。这种读法适合读分数算式、比例和评分。",
+        "table": {
+          "headers": [
+            "分数",
+            "用 sur 读"
+          ],
+          "rows": [
+            [
+              "1/2",
+              "un sur deux"
+            ],
+            [
+              "1/3",
+              "un sur trois"
+            ],
+            [
+              "3/4",
+              "trois sur quatre"
+            ],
+            [
+              "2/5",
+              "deux sur cinq"
+            ],
+            [
+              "4/7",
+              "quatre sur sept"
+            ],
+            [
+              "18/20",
+              "dix-huit sur vingt"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "fr": "La fraction deux sur cinq est égale à zéro virgule quatre.",
+            "zh": "五分之二等于零点四。"
+          },
+          {
+            "fr": "Deux élèves sur cinq viennent à vélo.",
+            "zh": "五名学生中有两名骑自行车来。"
+          },
+          {
+            "fr": "Une personne sur deux a choisi cette réponse.",
+            "zh": "每两个人中有一个选择了这个答案。"
+          },
+          {
+            "fr": "J’ai obtenu dix-huit sur vingt à cet examen.",
+            "zh": "这次考试满分二十分，我得了十八分。"
+          }
+        ],
+        "pitfall": "读数学分数时说 un sur deux；表达“一半的人”通常说 une personne sur deux。实际数量也常用 un demi-verre d’eau、un quart du gâteau 等表达。",
+        "sourceUrl": "https://nos-langues.canada.ca/fr/cles-de-la-redaction/nombre",
+        "sourceName": "Portail linguistique du Canada · Nombre",
+        "status": "新增教学补充，非原课件；未经独立教师复核"
       }
     ],
     "exercises": [
