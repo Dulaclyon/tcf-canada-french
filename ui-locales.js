@@ -1,4 +1,8 @@
 export const messages = {
+"先学最直接的读法：sur":{"en": "Start with the simplest reading: sur", "zh-TW": "先學最直接的讀法：sur"},
+"再学常用的分数名称":{"en": "Then learn common fraction names", "zh-TW": "再學常用的分數名稱"},
+"用 sur 读":{"en": "Reading with sur", "zh-TW": "用 sur 讀"},
+
 "篇目插画":{"en":"Illustration for this reading","zh-TW":"篇目插畫"},
 "法文美文":{"en": "French reading room", "zh-TW": "法文美文"},
 "法国文化":{"en": "French culture", "zh-TW": "法國文化"},
