@@ -1,0 +1,306 @@
+{
+  "generator": "Built-in ImageGen; no API-key workflow",
+  "style": "Classical French travel-journal watercolor; sepia ink, warm ivory paper and restrained burgundy accents.",
+  "assets": [
+    {
+      "id": "lecture-01",
+      "image": "assets/readings/lecture-01.jpg",
+      "thumbnail": "assets/readings/lecture-01-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: A reader entering a small French bookshop, a woman bookseller smiling in greeting across a wooden counter, shelves of old books, open door."
+    },
+    {
+      "id": "lecture-02",
+      "image": "assets/readings/lecture-02.jpg",
+      "thumbnail": "assets/readings/lecture-02-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Two friends having espresso at a French café terrace overlooking a little square, bicycle leaning nearby, slow peaceful afternoon."
+    },
+    {
+      "id": "lecture-03",
+      "image": "assets/readings/lecture-03.jpg",
+      "thumbnail": "assets/readings/lecture-03-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: A French Saturday produce market, canvas awnings, tomatoes and pears on wooden stalls, a shopper carrying a cloth bag."
+    },
+    {
+      "id": "lecture-04",
+      "image": "assets/readings/lecture-04.jpg",
+      "thumbnail": "assets/readings/lecture-04-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: A quiet French street for wandering, a distinctive blue wooden door and an iron gate revealing a small courtyard, no people necessary."
+    },
+    {
+      "id": "lecture-05",
+      "image": "assets/readings/lecture-05.jpg",
+      "thumbnail": "assets/readings/lecture-05-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: A Paris Métro train standing at a tiled platform, a young adult reading a pocket book, no readable station signs."
+    },
+    {
+      "id": "lecture-06",
+      "image": "assets/readings/lecture-06.jpg",
+      "thumbnail": "assets/readings/lecture-06-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: Paris Seine-side bouquinistes with open green book boxes of old books and prints beside the river, stone bridge in distance."
+    },
+    {
+      "id": "lecture-07",
+      "image": "assets/readings/lecture-07.jpg",
+      "thumbnail": "assets/readings/lecture-07-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A visitor quietly viewing a landscape painting in a traditional French museum with gilded frames and soft daylight."
+    },
+    {
+      "id": "lecture-08",
+      "image": "assets/readings/lecture-08.jpg",
+      "thumbnail": "assets/readings/lecture-08-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A neighborhood French library with wooden bookshelves and a quiet reading table, welcoming atmosphere."
+    },
+    {
+      "id": "lecture-09",
+      "image": "assets/readings/lecture-09.jpg",
+      "thumbnail": "assets/readings/lecture-09-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A small classic French cinema with red velvet seats, viewer silhouettes, blank softly glowing screen."
+    },
+    {
+      "id": "lecture-10",
+      "image": "assets/readings/lecture-10.jpg",
+      "thumbnail": "assets/readings/lecture-10-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: An acoustic guitar violin and accordion trio performing outdoors in a French village street, neighbors listening."
+    },
+    {
+      "id": "lecture-11",
+      "image": "assets/readings/lecture-11.jpg",
+      "thumbnail": "assets/readings/lecture-11-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: Village families gathered in a French square watching delicate golden Bastille Day fireworks at night."
+    },
+    {
+      "id": "lecture-12",
+      "image": "assets/readings/lecture-12.jpg",
+      "thumbnail": "assets/readings/lecture-12-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: Four friends playing pétanque under plane trees, metal boules and small wooden target ball prominent on gravel foreground."
+    },
+    {
+      "id": "lecture-13",
+      "image": "assets/readings/lecture-13.jpg",
+      "thumbnail": "assets/readings/lecture-13-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: Formal French garden with symmetric clipped hedges, reflecting pool, straight paths and distant classical château."
+    },
+    {
+      "id": "lecture-14",
+      "image": "assets/readings/lecture-14.jpg",
+      "thumbnail": "assets/readings/lecture-14-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A calm Loire riverbank with trees and a small stone château across the river, warm gentle light."
+    },
+    {
+      "id": "lecture-15",
+      "image": "assets/readings/lecture-15.jpg",
+      "thumbnail": "assets/readings/lecture-15-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A Provençal ochre village square with a fountain and market fruits, a sketchbook in foreground."
+    },
+    {
+      "id": "lecture-16",
+      "image": "assets/readings/lecture-16.jpg",
+      "thumbnail": "assets/readings/lecture-16-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A Brittany coast footpath with sea cliffs, waves and distant lighthouse in soft windy light."
+    },
+    {
+      "id": "lecture-17",
+      "image": "assets/readings/lecture-17.jpg",
+      "thumbnail": "assets/readings/lecture-17-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: An Alsatian street of authentic half-timbered houses, flower boxes and small bakery window without words."
+    },
+    {
+      "id": "lecture-18",
+      "image": "assets/readings/lecture-18.jpg",
+      "thumbnail": "assets/readings/lecture-18-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space. No text, lettering, logos, watermark, frame, collage or webpage. Subject: A pedestrian bridge over the Saône in Lyon, old-town façades and riverside walkers in warm afternoon light."
+    },
+    {
+      "id": "lecture-19",
+      "image": "assets/readings/lecture-19.jpg",
+      "thumbnail": "assets/readings/lecture-19-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A small French village square with a modest stone town hall, cafe tables, a bread-delivery small vintage van and neighbors going about a calm morning."
+    },
+    {
+      "id": "lecture-20",
+      "image": "assets/readings/lecture-20.jpg",
+      "thumbnail": "assets/readings/lecture-20-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A graceful Paris stone bridge over the Seine at late afternoon, a passing riverboat and small pedestrian silhouettes, warm reflected evening light. Authentic Paris architecture, calm river."
+    },
+    {
+      "id": "lecture-21",
+      "image": "assets/readings/lecture-21.jpg",
+      "thumbnail": "assets/readings/lecture-21-thumb.jpg",
+      "prompt": "Create one finished horizontal editorial illustration for a French learning reading titled 'La baguette encore tiède'. A fresh golden artisan French baguette on a warm ivory linen cloth with a paper bread bag, a few wheat grains, rustic French bakery counter, close still life. Classical French travel journal watercolor and delicate sepia ink, restrained burgundy accents, warm parchment ivory, elegant muted natural colors, sophisticated authentic food detail, generous clean breathing space, no text, no lettering, no logo, no border, no collage. Landscape aspect ratio 3:2. Full image is the illustration, not a mockup or webpage."
+    },
+    {
+      "id": "lecture-22",
+      "image": "assets/readings/lecture-22.jpg",
+      "thumbnail": "assets/readings/lecture-22-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A single beautifully laminated golden French croissant cut in half on a porcelain plate, visible airy pastry layers, white coffee cup and ivory linen napkin, rustic Sunday breakfast table. Food close still life."
+    },
+    {
+      "id": "lecture-23",
+      "image": "assets/readings/lecture-23.jpg",
+      "thumbnail": "assets/readings/lecture-23-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A simple French morning tartine of buttered toast and apricot jam, butter knife, small jam pot and kettle, rainy window in the background, serene breakfast still life."
+    },
+    {
+      "id": "lecture-24",
+      "image": "assets/readings/lecture-24.jpg",
+      "thumbnail": "assets/readings/lecture-24-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A thin French crêpe cooking in a dark shallow skillet on a rustic kitchen table, a ladle and bowl of pale batter beside it, lemon and sugar nearby, delicate golden edges lifting slightly, authentic French home cooking."
+    },
+    {
+      "id": "lecture-25",
+      "image": "assets/readings/lecture-25.jpg",
+      "thumbnail": "assets/readings/lecture-25-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: Authentic Breton galette complète: a single square-folded browned buckwheat crêpe on a stoneware plate, the four folded edges reveal a clearly visible sunny-side-up egg and melted cheese in the center, a little ham underneath, rustic Breton table. NOT a sweet crepe or pancake stack."
+    },
+    {
+      "id": "lecture-26",
+      "image": "assets/readings/lecture-26.jpg",
+      "thumbnail": "assets/readings/lecture-26-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A rustic clay casserole pot of Provençal ratatouille with visibly chopped tomatoes, courgettes, aubergines and peppers, an olive oil bottle and herbs nearby, warm French country kitchen. Vegetables only, no meat. Classic chunky stew rather than meticulously arranged sliced vegetable spirals."
+    },
+    {
+      "id": "lecture-27",
+      "image": "assets/readings/lecture-27.jpg",
+      "thumbnail": "assets/readings/lecture-27-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: Authentic quiche lorraine in a round ceramic tart dish: golden pastry crust enclosing pale egg custard and visible small lardons, one slice removed on a server to reveal the filling, a modest green salad nearby. Rustic French lunch still life."
+    },
+    {
+      "id": "lecture-28",
+      "image": "assets/readings/lecture-28.jpg",
+      "thumbnail": "assets/readings/lecture-28-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: Traditional French onion soup in a brown ceramic handled bowl, golden bubbling browned cheese over a slice of toasted bread, rich onion broth visible at edge, a spoon and whole onions beside it. Cozy rustic French kitchen food still life."
+    },
+    {
+      "id": "lecture-29",
+      "image": "assets/readings/lecture-29.jpg",
+      "thumbnail": "assets/readings/lecture-29-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: Authentic French pot-au-feu in a large rustic cooking pot: pieces of boiled beef, whole carrots, leeks and potatoes in clear golden broth, gentle steam and a wooden serving spoon. Country kitchen with modest linen and warm stone background, generous appetizing food still life."
+    },
+    {
+      "id": "lecture-30",
+      "image": "assets/readings/lecture-30.jpg",
+      "thumbnail": "assets/readings/lecture-30-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: Authentic gratin dauphinois: overlapping thin potato slices baked in cream in a shallow oval ceramic baking dish, gently browned golden potato surface, no grated-cheese topping and no cheese garnish. A few raw potatoes, a small cream jug and garlic nearby, rustic French kitchen food still life."
+    },
+    {
+      "id": "lecture-31",
+      "image": "assets/readings/lecture-31.jpg",
+      "thumbnail": "assets/readings/lecture-31-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A traditional Southwestern French cassoulet in an earthenware cassole, creamy white beans with duck confit and browned Toulouse sausage, gentle browned top and steam, a spoon and linen on rustic kitchen table. Authentic generous provincial food still life."
+    },
+    {
+      "id": "lecture-32",
+      "image": "assets/readings/lecture-32.jpg",
+      "thumbnail": "assets/readings/lecture-32-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep main subjects centered with breathing space, complete natural scene. No text, lettering, logo, watermark, border, collage or webpage. Subject: A welcoming French cheesemonger counter with varied small cheese wheels and wedges on wooden shelves and stone counter, round soft cheese, a blue cheese wedge and firm golden cheese, attentive friendly shopkeeper behind counter helping a customer choose, no labels or readable text."
+    },
+    {
+      "id": "lecture-33",
+      "image": "assets/readings/lecture-33.jpg",
+      "thumbnail": "assets/readings/lecture-33-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: A modest French cheese platter with three contrasting varieties, sliced bread and a glass of water on a rustic table."
+    },
+    {
+      "id": "lecture-34",
+      "image": "assets/readings/lecture-34.jpg",
+      "thumbnail": "assets/readings/lecture-34-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: An upside-down tarte Tatin on a serving plate, glossy caramelized apples and golden pastry, baking tin beside it."
+    },
+    {
+      "id": "lecture-35",
+      "image": "assets/readings/lecture-35.jpg",
+      "thumbnail": "assets/readings/lecture-35-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: Three shell-shaped French madeleines beside a teacup and an old open book, nostalgic afternoon still life."
+    },
+    {
+      "id": "lecture-36",
+      "image": "assets/readings/lecture-36.jpg",
+      "thumbnail": "assets/readings/lecture-36-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: A few elegant pastel macarons with distinct sandwich shells and cream filling, ivory plate, pistachio, rose and chocolate colors."
+    },
+    {
+      "id": "lecture-37",
+      "image": "assets/readings/lecture-37.jpg",
+      "thumbnail": "assets/readings/lecture-37-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: Hands gently around a cup of hot chocolate at a French café by a rainy window, teaspoon nearby, no marshmallows."
+    },
+    {
+      "id": "lecture-38",
+      "image": "assets/readings/lecture-38.jpg",
+      "thumbnail": "assets/readings/lecture-38-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: A simple French garden picnic on a blanket with basket, baguette, tomatoes, fruit and water."
+    },
+    {
+      "id": "lecture-39",
+      "image": "assets/readings/lecture-39.jpg",
+      "thumbnail": "assets/readings/lecture-39-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: A welcoming French family meal with adults of several ages talking and passing a dish, warm connection, no alcohol focus."
+    },
+    {
+      "id": "lecture-40",
+      "image": "assets/readings/lecture-40.jpg",
+      "thumbnail": "assets/readings/lecture-40-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: A restaurant diner politely asking a server about food, blank cream menu booklet and place setting, no readable words."
+    },
+    {
+      "id": "lecture-41",
+      "image": "assets/readings/lecture-41.jpg",
+      "thumbnail": "assets/readings/lecture-41-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: La Fontaine fable: raven perched in oak tree holding cheese in its beak, red fox looking up flatteringly beneath."
+    },
+    {
+      "id": "lecture-42",
+      "image": "assets/readings/lecture-42.jpg",
+      "thumbnail": "assets/readings/lecture-42-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: La Fontaine fable: anthropomorphic cicada at an ant's small door in early winter, dry leaves, grain store, dignified classic book art."
+    },
+    {
+      "id": "lecture-43",
+      "image": "assets/readings/lecture-43.jpg",
+      "thumbnail": "assets/readings/lecture-43-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: La Fontaine hare and tortoise: steady tortoise reaching the end of a woodland path, surprised hare racing far behind."
+    },
+    {
+      "id": "lecture-44",
+      "image": "assets/readings/lecture-44.jpg",
+      "thumbnail": "assets/readings/lecture-44-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: Perrault Little Red Riding Hood starting her journey: red hooded cape, basket with butter pot and galette, gentle village forest path."
+    },
+    {
+      "id": "lecture-45",
+      "image": "assets/readings/lecture-45.jpg",
+      "thumbnail": "assets/readings/lecture-45-thumb.jpg",
+      "prompt": "One finished horizontal landscape 3:2 classical French travel-journal watercolor illustration, delicate sepia ink on warm ivory paper, muted natural colors, subtle burgundy accents, refined vintage book art, centered subject and generous breathing space. No text, lettering, logo, watermark, frame, collage or webpage. Subject: Perrault Cinderella: kind fairy godmother touches pumpkin with wand as it begins transforming into golden carriage in a cottage garden, Cinderella watches, no modern franchise costume."
+    },
+    {
+      "id": "lecture-46",
+      "image": "assets/readings/lecture-46.jpg",
+      "thumbnail": "assets/readings/lecture-46-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Daudet's white goat Blanquette joyfully exploring a sunlit Provençal mountain meadow, chestnut trees and yellow broom flowers, no wolf or violence."
+    },
+    {
+      "id": "lecture-47",
+      "image": "assets/readings/lecture-47.jpg",
+      "thumbnail": "assets/readings/lecture-47-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Daudet's writing retreat: a modest old Provençal stone windmill with open door, pine woods, lavender and distant Alpilles hills, a writing desk visible within."
+    },
+    {
+      "id": "lecture-48",
+      "image": "assets/readings/lecture-48.jpg",
+      "thumbnail": "assets/readings/lecture-48-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Jules Verne's Phileas Fogg and Jean Passepartout in a restrained Victorian London drawing room, a pocket watch between them and a precise mantel clock, no readable numerals."
+    },
+    {
+      "id": "lecture-49",
+      "image": "assets/readings/lecture-49.jpg",
+      "thumbnail": "assets/readings/lecture-49-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Victor Hugo's Demain dès l'aube: a solitary nineteenth-century traveler walks at dawn along a quiet forest and hill path, carrying a small bouquet of holly and heather, contemplative and tender."
+    },
+    {
+      "id": "lecture-50",
+      "image": "assets/readings/lecture-50.jpg",
+      "thumbnail": "assets/readings/lecture-50-thumb.jpg",
+      "prompt": "One finished horizontal 3:2 editorial illustration for a French learning reader. Classical French travel-journal watercolor with delicate sepia ink on warm ivory paper, muted natural colors and subtle burgundy accents, refined vintage book illustration, calm composition, authentic subject detail. Keep the main subject centered with breathing space; complete natural scene across the canvas. No text, no lettering, no logo, no watermark, no frame, no collage, no webpage. Subject: Rimbaud's Le Dormeur du val: peaceful green valley with a stream and a young uniformed soldier lying still in sunlit grass beside irises, eyes closed, solemn anti-war feeling, no blood, no visible wounds."
+    }
+  ]
+}

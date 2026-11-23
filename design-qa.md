@@ -5,3 +5,9 @@ Scope: new reading-room extension within the existing French with Ryan product, 
 Verified the current interface and screenshots at desktop and 390px mobile widths. Fine borders, compact index entries and serif reading typography maintain the existing product identity while differentiating longer reading content. Article header background was corrected to match the ivory page. Verse hyphenation was disabled; natural narrow-screen wrapping remains available. No horizontal page overflow was observed. Theme, level and search controls, glossary language switching and back/adjacent links were exercised. All text and glossary content remains visible without disclosure controls. No P0, P1 or P2 issues remain.
 
 final result: passed
+
+## Illustrated collection QA
+
+50 subject-specific watercolor illustrations and 50 matching thumbnails verified for unique content hashes, dimensions, compressed size budgets and metadata. Culture, food and fable scenes checked in the existing ivory/burgundy interface. The 390px article view scales artwork proportionally (309 × 206 px), with no horizontal overflow. The index retains all 50 entries and compact thumbnails. English and traditional Chinese captions verified. Text/glossary comparison confirms no changes to the 50 source readings. Browser console: no errors. Direct image requests tested under granted and denied Foundations permissions. Screenshots: `/tmp/illustrated-reading-index.jpg` and `/tmp/illustrated-reading-article.jpg`.
+
+final result: passed

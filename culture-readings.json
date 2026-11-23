@@ -52,7 +52,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-01.jpg",
+      "thumbnail": "assets/readings/lecture-01-thumb.jpg",
+      "alt": "Une lectrice salue la libraire dans une petite librairie française.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-02",
@@ -107,7 +114,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-02.jpg",
+      "thumbnail": "assets/readings/lecture-02-thumb.jpg",
+      "alt": "Deux amis prennent un café en terrasse, près d’un vélo.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-03",
@@ -162,7 +176,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-03.jpg",
+      "thumbnail": "assets/readings/lecture-03-thumb.jpg",
+      "alt": "Un marché français avec des étals de fruits et des sacs en tissu.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-04",
@@ -217,7 +238,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-04.jpg",
+      "thumbnail": "assets/readings/lecture-04-thumb.jpg",
+      "alt": "Une porte bleue et une cour au détour d’une rue tranquille.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-05",
@@ -272,7 +300,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-05.jpg",
+      "thumbnail": "assets/readings/lecture-05-thumb.jpg",
+      "alt": "Une personne lit sur le quai du métro parisien.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-06",
@@ -330,6 +365,13 @@
     "source": {
       "name": "Paris je t’aime · Les bouquinistes",
       "url": "https://parisjetaime.com/shopping/les-bouquinistes-de-paris-p3737"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-06.jpg",
+      "thumbnail": "assets/readings/lecture-06-thumb.jpg",
+      "alt": "Les boîtes vertes des bouquinistes ouvertes au bord de la Seine.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -385,7 +427,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-07.jpg",
+      "thumbnail": "assets/readings/lecture-07-thumb.jpg",
+      "alt": "Une personne observe un tableau dans un musée.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-08",
@@ -440,7 +489,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-08.jpg",
+      "thumbnail": "assets/readings/lecture-08-thumb.jpg",
+      "alt": "Des rayonnages et une table de lecture dans une bibliothèque de quartier.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-09",
@@ -495,7 +551,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-09.jpg",
+      "thumbnail": "assets/readings/lecture-09-thumb.jpg",
+      "alt": "Une salle de cinéma aux fauteuils rouges devant un écran lumineux.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-10",
@@ -553,6 +616,13 @@
     "source": {
       "name": "Ministère de la Culture · Fête de la musique",
       "url": "https://www.culture.gouv.fr/evenements-nationaux/fete-de-la-musique"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-10.jpg",
+      "thumbnail": "assets/readings/lecture-10-thumb.jpg",
+      "alt": "Des musiciens jouent dans une rue de village devant leurs voisins.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -608,7 +678,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-11.jpg",
+      "thumbnail": "assets/readings/lecture-11-thumb.jpg",
+      "alt": "Des familles regardent un feu d’artifice dans le ciel du village.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-12",
@@ -663,7 +740,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-12.jpg",
+      "thumbnail": "assets/readings/lecture-12-thumb.jpg",
+      "alt": "Une partie de pétanque sous les arbres, avec boules et cochonnet.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-13",
@@ -721,6 +805,13 @@
     "source": {
       "name": "Château de Versailles · Les jardins",
       "url": "https://www.chateauversailles.fr/decouvrir/domaine/les-jardins"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-13.jpg",
+      "thumbnail": "assets/readings/lecture-13-thumb.jpg",
+      "alt": "Un jardin régulier avec haies taillées, bassin et château.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -776,7 +867,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-14.jpg",
+      "thumbnail": "assets/readings/lecture-14-thumb.jpg",
+      "alt": "Un château et des arbres sur les rives de la Loire.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-15",
@@ -831,7 +929,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-15.jpg",
+      "thumbnail": "assets/readings/lecture-15-thumb.jpg",
+      "alt": "Une place provençale avec fontaine, fruits et façades ocres.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-16",
@@ -886,7 +991,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-16.jpg",
+      "thumbnail": "assets/readings/lecture-16-thumb.jpg",
+      "alt": "Un sentier de Bretagne entre falaises, vagues et phare.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-17",
@@ -941,7 +1053,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-17.jpg",
+      "thumbnail": "assets/readings/lecture-17-thumb.jpg",
+      "alt": "Une rue d’Alsace bordée de maisons à colombages et de fleurs.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-18",
@@ -996,7 +1115,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-18.jpg",
+      "thumbnail": "assets/readings/lecture-18-thumb.jpg",
+      "alt": "Un pont sur la Saône devant les façades du vieux Lyon.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-19",
@@ -1051,7 +1177,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-19.jpg",
+      "thumbnail": "assets/readings/lecture-19-thumb.jpg",
+      "alt": "Une place de village avec café, mairie et livraison de pain.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-20",
@@ -1106,7 +1239,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-20.jpg",
+      "thumbnail": "assets/readings/lecture-20-thumb.jpg",
+      "alt": "Un pont de Paris et un bateau sur la Seine au soleil du soir.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-21",
@@ -1164,6 +1304,13 @@
     "source": {
       "name": "UNESCO · La culture de la baguette",
       "url": "https://ich.unesco.org/fr/RL/les-savoir-faire-artisanaux-et-la-culture-de-la-baguette-de-pain-01883"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-21.jpg",
+      "thumbnail": "assets/readings/lecture-21-thumb.jpg",
+      "alt": "Une baguette dorée posée sur du lin près d’un sac en papier.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -1219,7 +1366,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-22.jpg",
+      "thumbnail": "assets/readings/lecture-22-thumb.jpg",
+      "alt": "Un croissant feuilleté coupé sur une assiette, avec une tasse de café.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-23",
@@ -1274,7 +1428,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-23.jpg",
+      "thumbnail": "assets/readings/lecture-23-thumb.jpg",
+      "alt": "Une tartine au beurre et à la confiture près d’une fenêtre pluvieuse.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-24",
@@ -1329,7 +1490,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-24.jpg",
+      "thumbnail": "assets/readings/lecture-24-thumb.jpg",
+      "alt": "Une crêpe dans sa poêle, avec une louche, du citron et du sucre.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-25",
@@ -1387,6 +1555,13 @@
     "source": {
       "name": "France.fr · Gastronomie régionale",
       "url": "https://www.france.fr/fr/liste-theme/gastronomie-vin/"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-25.jpg",
+      "thumbnail": "assets/readings/lecture-25-thumb.jpg",
+      "alt": "Une galette de sarrasin pliée autour d’un œuf et de fromage.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -1442,7 +1617,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-26.jpg",
+      "thumbnail": "assets/readings/lecture-26-thumb.jpg",
+      "alt": "Une ratatouille de tomates, courgettes, aubergines et poivrons.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-27",
@@ -1497,7 +1679,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-27.jpg",
+      "thumbnail": "assets/readings/lecture-27-thumb.jpg",
+      "alt": "Une quiche lorraine dont une part a été découpée, avec une salade.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-28",
@@ -1552,7 +1741,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-28.jpg",
+      "thumbnail": "assets/readings/lecture-28-thumb.jpg",
+      "alt": "Une soupe à l’oignon gratinée dans un bol de céramique.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-29",
@@ -1607,7 +1803,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-29.jpg",
+      "thumbnail": "assets/readings/lecture-29-thumb.jpg",
+      "alt": "Une marmite de pot-au-feu avec viande, carottes, poireaux et bouillon.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-30",
@@ -1665,6 +1868,13 @@
     "source": {
       "name": "Tables & Auberges · Le gratin dauphinois",
       "url": "https://www.tables-auberges.com/blog/au-fil-des-saisons/dans-les-secrets-du-gratin-dauphinois-le-seul-le-vrai"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-30.jpg",
+      "thumbnail": "assets/readings/lecture-30-thumb.jpg",
+      "alt": "Un gratin dauphinois de pommes de terre et de crème dans un plat doré.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -1723,6 +1933,13 @@
     "source": {
       "name": "France.fr · Spécialités d’Occitanie",
       "url": "https://www.france.fr/fr/article/specialites-occitanie/"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-31.jpg",
+      "thumbnail": "assets/readings/lecture-31-thumb.jpg",
+      "alt": "Un cassoulet de haricots blancs, saucisse et confit dans une cassole.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -1778,7 +1995,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-32.jpg",
+      "thumbnail": "assets/readings/lecture-32-thumb.jpg",
+      "alt": "Des fromages variés au comptoir d’un fromager.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-33",
@@ -1833,7 +2057,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-33.jpg",
+      "thumbnail": "assets/readings/lecture-33-thumb.jpg",
+      "alt": "Un petit plateau de fromages avec pain et verre d’eau.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-34",
@@ -1888,7 +2119,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-34.jpg",
+      "thumbnail": "assets/readings/lecture-34-thumb.jpg",
+      "alt": "Une tarte Tatin aux pommes caramélisées, à côté de son moule.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-35",
@@ -1943,7 +2181,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-35.jpg",
+      "thumbnail": "assets/readings/lecture-35-thumb.jpg",
+      "alt": "Des madeleines en forme de coquille près d’une tasse et d’un livre.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-36",
@@ -1998,7 +2243,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-36.jpg",
+      "thumbnail": "assets/readings/lecture-36-thumb.jpg",
+      "alt": "Des macarons pastel à la pistache, à la rose et au chocolat.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-37",
@@ -2053,7 +2305,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-37.jpg",
+      "thumbnail": "assets/readings/lecture-37-thumb.jpg",
+      "alt": "Des mains entourent une tasse de chocolat chaud près d’une fenêtre.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-38",
@@ -2108,7 +2367,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-38.jpg",
+      "thumbnail": "assets/readings/lecture-38-thumb.jpg",
+      "alt": "Un panier de pique-nique, du pain, des fruits et une couverture dans l’herbe.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-39",
@@ -2166,6 +2432,13 @@
     "source": {
       "name": "UNESCO · Le repas gastronomique des Français",
       "url": "https://ich.unesco.org/fr/listes?RL=00437"
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-39.jpg",
+      "thumbnail": "assets/readings/lecture-39-thumb.jpg",
+      "alt": "Une famille partage un repas autour d’une table soigneusement dressée.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2221,7 +2494,14 @@
       }
     ],
     "author": "French with Ryan",
-    "source": null
+    "source": null,
+    "illustration": {
+      "src": "assets/readings/lecture-40.jpg",
+      "thumbnail": "assets/readings/lecture-40-thumb.jpg",
+      "alt": "Une personne pose une question au serveur devant un menu sans texte.",
+      "width": 960,
+      "height": 640
+    }
   },
   {
     "id": "lecture-41",
@@ -2290,6 +2570,13 @@
       "name": "Wikisource · Fables · Livre I",
       "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Corbeau_et_le_Renard",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-41.jpg",
+      "thumbnail": "assets/readings/lecture-41-thumb.jpg",
+      "alt": "Un corbeau tient un fromage dans son bec, tandis qu’un renard le regarde.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2359,6 +2646,13 @@
       "name": "Wikisource · Fables · Livre I",
       "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/La_Cigale_et_la_Fourmi",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-42.jpg",
+      "thumbnail": "assets/readings/lecture-42-thumb.jpg",
+      "alt": "Une cigale devant la porte d’une fourmi au début de l’hiver.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2428,6 +2722,13 @@
       "name": "Wikisource · Fables · Livre VI",
       "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Lièvre_et_la_Tortue",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-43.jpg",
+      "thumbnail": "assets/readings/lecture-43-thumb.jpg",
+      "alt": "Une tortue atteint le bout du chemin tandis qu’un lièvre court derrière.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2497,6 +2798,13 @@
       "name": "Wikisource · Contes des fées · édition de 1886",
       "url": "https://fr.wikisource.org/wiki/Contes_des_fées_(Montréal,_1886)/Le_Petit_Chaperon_Rouge",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-44.jpg",
+      "thumbnail": "assets/readings/lecture-44-thumb.jpg",
+      "alt": "Le Petit Chaperon rouge part sur un chemin avec son panier.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2566,6 +2874,13 @@
       "name": "Wikisource · Contes des fées · édition de 1886",
       "url": "https://fr.wikisource.org/wiki/Contes_des_fées_(Montréal,_1886)/Cendrillon",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-45.jpg",
+      "thumbnail": "assets/readings/lecture-45-thumb.jpg",
+      "alt": "La marraine de Cendrillon transforme une citrouille en carrosse.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2635,6 +2950,13 @@
       "name": "Wikisource · Lettres de mon moulin · édition de 1895",
       "url": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/La_chèvre_de_monsieur_Seguin",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-46.jpg",
+      "thumbnail": "assets/readings/lecture-46-thumb.jpg",
+      "alt": "La chèvre blanche Blanquette découvre une prairie dans la montagne.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2704,6 +3026,13 @@
       "name": "Wikisource · Lettres de mon moulin · édition de 1895",
       "url": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/Installation",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-47.jpg",
+      "thumbnail": "assets/readings/lecture-47-thumb.jpg",
+      "alt": "Un moulin provençal ouvert sur les pins, les lavandes et les Alpilles.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2773,6 +3102,13 @@
       "name": "Wikisource · Le Tour du monde en quatre-vingts jours · chapitre I",
       "url": "https://fr.wikisource.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours/Chapitre_1",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-48.jpg",
+      "thumbnail": "assets/readings/lecture-48-thumb.jpg",
+      "alt": "Phileas Fogg et Passepartout comparent l’heure dans un salon victorien.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2842,6 +3178,13 @@
       "name": "Wikisource · Les Contemplations · édition Nelson de 1911",
       "url": "https://fr.wikisource.org/wiki/Les_Contemplations/«_Demain,_dès_l’aube,_à_l’heure_où_blanchit_la_campagne_»",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-49.jpg",
+      "thumbnail": "assets/readings/lecture-49-thumb.jpg",
+      "alt": "Un voyageur solitaire marche à l’aube avec un bouquet de houx et de bruyère.",
+      "width": 960,
+      "height": 640
     }
   },
   {
@@ -2911,6 +3254,13 @@
       "name": "Wikisource · Poésies · édition Vanier de 1895",
       "url": "https://fr.wikisource.org/wiki/Poésies_(Rimbaud)/éd._Vanier,_1895/Le_Dormeur_du_val",
       "edition": "Texte du domaine public ; ponctuation et graphies de l’édition source."
+    },
+    "illustration": {
+      "src": "assets/readings/lecture-50.jpg",
+      "thumbnail": "assets/readings/lecture-50-thumb.jpg",
+      "alt": "Un jeune soldat immobile dans l’herbe, au bord d’une rivière paisible.",
+      "width": 960,
+      "height": 640
     }
   }
 ]

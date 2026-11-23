@@ -23,3 +23,7 @@ Theme buttons, a level selector and accent-insensitive French search work togeth
 - Full existing `scripts/check.mjs` passed.
 - In-app browser: desktop index and article, 10-classic filter, accent-insensitive search, English/simplified/traditional switching, previous/back navigation, and 390px mobile layout with no horizontal page overflow. No browser console errors observed.
 - Screenshots: `/tmp/french-reading-room.jpg`, `/tmp/french-reading-article.jpg`.
+
+## Per-reading artwork
+
+All 50 articles have distinct built-in ImageGen watercolor illustrations, each paired with a compressed 240px thumbnail. Original PNGs remain outside the deployed project; 960px JPEGs and thumbnails live under `assets/readings/`. Directory thumbnails load lazily. Full article plates preserve the complete 3:2 composition without cropping. French alternative text describes each scene; the short illustration caption follows the interface language. Exact generation prompts are recorded in `docs/reading-illustrations.json`. No API-key workflow or paid image-hosting service is required. The image directory follows the Foundations permission.

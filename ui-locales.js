@@ -1,4 +1,5 @@
 export const messages = {
+"篇目插画":{"en":"Illustration for this reading","zh-TW":"篇目插畫"},
 "法文美文":{"en": "French reading room", "zh-TW": "法文美文"},
 "法国文化":{"en": "French culture", "zh-TW": "法國文化"},
 "法国美食":{"en": "French food", "zh-TW": "法國美食"},
