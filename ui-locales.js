@@ -3176,5 +3176,5 @@ messages['评估已完成']={en:'Your assessment is ready','zh-TW':'評估已完
 messages['保存']={en:'Save','zh-TW':'儲存'};
 
 messages['本题记忆点']={en:'Memory note','zh-TW':'本題記憶點'};
-messages['关键词、易错点，最多 20 字']={en:'Keywords or reminders · up to 20 characters','zh-TW':'關鍵詞、易錯點，最多 20 字'};
+messages['关键词、易错点，最多 100 字']={en:'Keywords or reminders · up to 100 characters','zh-TW':'關鍵詞、易錯點，最多 100 字'};
 messages['保存失败，请稍后重试。']={en:'Could not save. Please try again.','zh-TW':'儲存失敗，請稍後重試。'};

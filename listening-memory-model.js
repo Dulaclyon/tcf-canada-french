@@ -1,5 +1,5 @@
 export const LISTENING_MEMORY_KEY='listening-question-memory-v1';
-export const LISTENING_MEMORY_LIMIT=20;
+export const LISTENING_MEMORY_LIMIT=100;
 export const memoryLength=text=>Array.from(text).length;
 export const trimMemory=text=>Array.from(text).slice(0,LISTENING_MEMORY_LIMIT).join('');
 export function validListeningMemory(value){
