@@ -1,3 +1,4 @@
+import {mountGuestView} from './guest-view.js';
 import {translate as t} from './i18n.js';
 const message=document.querySelector('#message');
 const sectionLabels={basics:'基础法语',transition:'备考过渡',listening:'听力训练',reading:'阅读训练',oral:'口语训练',writing:'写作训练'};
@@ -42,4 +43,7 @@ async function load(){const [rows,requests]=await Promise.all([api('/api/admin/u
 }if(!shown){const row=document.createElement('tr'),cell=document.createElement('td');cell.colSpan=3;cell.textContent='暂无此状态的学生或申请。';row.append(cell);container.append(row);}}
 document.querySelector('#add').onsubmit=async e=>{e.preventDefault();try{credentials(await api('/api/admin/users',{email:document.querySelector('#email').value,name:document.querySelector('#name').value}));e.target.reset();await load();}catch(e){message.textContent=e.message;}};
 const initialStatus=new URLSearchParams(location.search).get('status');if(['pending','registered','declined'].includes(initialStatus))document.querySelector('#student-status').value=initialStatus;document.querySelector('#student-status').onchange=()=>load().catch(e=>{message.textContent=e.message;});
+await mountGuestView();
 try{await load();}catch(e){message.textContent=e.message;}
+
+try{const me=await api('/api/me');document.querySelector('#owner-role-link').hidden=!['owner','guest'].includes(me.role);}catch{}

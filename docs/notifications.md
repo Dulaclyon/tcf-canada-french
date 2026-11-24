@@ -7,3 +7,5 @@ New essay submissions notify every active teacher/admin with student identity an
 Notifications appear in the website inbox; no email, SMS, push service, or additional paid storage is required. The header checks unread counts every minute while visible and when returning to the tab.
 
 Validation: scripts/check-notifications.mjs covers recipient isolation, active accounts, selected/all delivery, read ownership, persistence, retention, submission linking and duplicate suppression.
+
+Published feedback now creates an assessment-ready notice for the student (or Guest who submitted their own essay). It links to the writing question so the latest published feedback is displayed. Publication and notification are committed together. Draft assessments do not notify students.

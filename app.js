@@ -65,7 +65,7 @@ const lessonRoute=id=>(materials.some(m=>m.id===id)?'material/':'course/')+id;
 const courseOf=id=>courses.find(c=>c.id===id)||courses[0];
 async function home(){
  const ticket=routeVersion;main.innerHTML='<h1>学习总览</h1><p role="status">正在读取学习进度…</p>';
- try{await studentStorage.flush();const response=await fetch(account.role==='admin'?'/api/admin/learning-progress':'/api/learning-progress',{cache:'no-store'});if(!response.ok)throw Error('Progress unavailable');const data=await response.json();if(ticket!==routeVersion)return;main.innerHTML=account.role==='admin'?renderTeacherDashboard(data):renderStudentDashboard(data);if(account.role==='admin')setupTeacherSearch(main);}
+ try{await studentStorage.flush();const response=await fetch((['owner','admin','teacher'].includes(account.role)||(account.role==='guest'&&location.hash==='#home/owner'))?'/api/admin/learning-progress':'/api/learning-progress',{cache:'no-store'});if(!response.ok)throw Error('Progress unavailable');const data=await response.json();if(ticket!==routeVersion)return;main.innerHTML=(['owner','admin','teacher'].includes(account.role)||(account.role==='guest'&&location.hash==='#home/owner'))?renderTeacherDashboard(data):renderStudentDashboard(data);if((['owner','admin','teacher'].includes(account.role)||(account.role==='guest'&&location.hash==='#home/owner')))setupTeacherSearch(main);}
  catch{if(ticket!==routeVersion)return;main.innerHTML='<h1>学习总览</h1><p>进度暂时无法读取</p><button id="dashboard-retry" type="button">重试</button>';main.querySelector('#dashboard-retry').onclick=home;}
 }
 

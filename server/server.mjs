@@ -14,7 +14,7 @@ const root=path.resolve(process.env.STATIC_DIR||'dist'),data=path.resolve(proces
 const db=new DatabaseSync(path.join(data,'students.sqlite'));db.exec(`PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,email TEXT UNIQUE NOT NULL,password TEXT NOT NULL,role TEXT NOT NULL,must_change INTEGER NOT NULL DEFAULT 1,active INTEGER NOT NULL DEFAULT 1); CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user_id TEXT NOT NULL,expires INTEGER NOT NULL); CREATE TABLE IF NOT EXISTS progress(user_id TEXT NOT NULL,key TEXT NOT NULL,value TEXT NOT NULL,PRIMARY KEY(user_id,key)); CREATE TABLE IF NOT EXISTS attempts(ip TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);`);
 if(!db.prepare('PRAGMA table_info(users)').all().some(c=>c.name==='name'))db.exec("ALTER TABLE users ADD COLUMN name TEXT NOT NULL DEFAULT ''");
 db.exec("CREATE TABLE IF NOT EXISTS permissions(user_id TEXT PRIMARY KEY,value TEXT NOT NULL)");
-const permissionsFor=u=>u.role==='admin'?allSections:normalizePermissions(JSON.parse(db.prepare('SELECT value FROM permissions WHERE user_id=?').get(u.id)?.value||JSON.stringify(allSections)));
+const permissionsFor=u=>['owner','admin','teacher','guest'].includes(u.role)?allSections:normalizePermissions(JSON.parse(db.prepare('SELECT value FROM permissions WHERE user_id=?').get(u.id)?.value||JSON.stringify(allSections)));
 let bankAssetsPromise;
 async function bankAssets(){
  if(!bankAssetsPromise)bankAssetsPromise=(async()=>{
@@ -36,13 +36,20 @@ const email=v=>typeof v==='string'&&v.length<=254&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.
 const validName=value=>typeof value==='string'&&value.length<=100&&!/[\u0000-\u001f\u007f]/u.test(value);
 const digest=s=>createHash('sha256').update(s).digest('hex');
 const registrations=registrationRequests(db,{validName,validEmail:email,hash,digest});
-if(!db.prepare("SELECT id FROM users WHERE role='admin'").get()){
+if(!db.prepare("SELECT id FROM users WHERE role IN ('owner','admin')").get()){
  const e=process.env.ADMIN_EMAIL?.trim().toLowerCase(),p=process.env.ADMIN_PASSWORD;
  if(!email(e)||!p||p.length<12)throw Error('First start requires ADMIN_EMAIL and ADMIN_PASSWORD (12+ characters).');
  db.prepare('INSERT INTO users(id,email,password,role,must_change,active) VALUES(?,?,?,?,0,1)').run(randomBytes(16).toString('hex'),e,hash(p),'admin');
 }
+// Preserve the original administrator as the protected site owner.
+if(!db.prepare("SELECT id FROM users WHERE role='owner'").get()){
+ const owner=db.prepare("SELECT id FROM users WHERE role='admin' ORDER BY CASE WHEN email=? THEN 0 ELSE 1 END,rowid LIMIT 1").get(process.env.ADMIN_EMAIL?.trim().toLowerCase()||'');
+ if(owner)db.prepare("UPDATE users SET role='owner' WHERE id=?").run(owner.id);
+}
+const staff=u=>['owner','admin','teacher','guest'].includes(u?.role);
+const managers=u=>['owner','admin','guest'].includes(u?.role);
 const handleNotifications=notificationService(db);
-const handleWriting=writingSubmissions(db,root,permissionsFor,handleNotifications.notifySubmission);
+const handleWriting=writingSubmissions(db,root,permissionsFor,handleNotifications.notifySubmission,handleNotifications.notifyFeedback);
 const dashboard=learningDashboard(db,root,permissionsFor);
 const keys=new Set([TRANSITION_PROGRESS_KEY,'french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1',...Object.values(SECTION_NOTE_KEYS)]);
 const publicFiles=new Set(['brand.css','assets/fonts/allura-regular.ttf','assets/fonts/source-sans-3-latin.woff2','assets/fonts/source-sans-3-ext.woff2','assets/paris-editorial.jpg','assets/french-notebook.jpg','assets/fonts/dm-sans-regular.ttf','assets/fonts/dm-sans-bold.ttf','assets/fonts/dm-sans-extrabold.ttf','assets/fonts/cormorant-italic.ttf','i18n.js','ui-locales.js','index.html','landing.css','icon.svg','privacy.html','login.html','register.html','register.js','account.css','login.js']);
@@ -77,15 +84,43 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/logout'&&req.method==='POST'){db.prepare('DELETE FROM sessions WHERE token=?').run(user.token);return send(200,{ok:true},{'Set-Cookie':'tcf_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0'});}
  if(route==='/api/password'&&req.method==='POST'){const b=await body();if(typeof b.password!=='string'||b.password.length<12||b.password.length>256||b.password===b.current||!verify(String(b.current||''),user.password))return send(400,{error:'当前密码错误，或新密码不足 12 位'});db.prepare('UPDATE users SET password=?,must_change=0 WHERE id=?').run(hash(b.password),user.id);db.prepare('DELETE FROM sessions WHERE user_id=? AND token<>?').run(user.id,user.token);return send(200,{ok:true});}
  if(user.must_change)return send(403,{error:'请先修改临时密码'});
+ if(user.role==='guest'&&mutation&&!['/api/progress','/api/writing/submissions','/api/notifications/read'].includes(route))return send(403,{error:'Guest access: management and assessments are view-only.'});
  if(route.startsWith('/api/notifications')||route.startsWith('/api/admin/notifications'))return await handleNotifications({route,req,user,body,send});
  if(route==='/api/learning-progress'&&req.method==='GET')return send(200,await dashboard.student(user));
- if(route==='/api/admin/learning-progress'&&req.method==='GET'){if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});return send(200,await dashboard.teacher());}
+ if(route==='/api/admin/learning-progress'&&req.method==='GET'){if(!staff(user))return send(403,{error:'仅管理员可操作'});return send(200,await dashboard.teacher());}
  if(route.startsWith('/api/writing/')||route.startsWith('/api/admin/writing'))return await handleWriting({route,req,url,user,body,send});
  if(route==='/api/progress'&&req.method==='GET')return send(200,Object.fromEntries(db.prepare('SELECT key,value FROM progress WHERE user_id=?').all(user.id).map(r=>[r.key,JSON.parse(r.value)])));
- if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});if(b.key===TRANSITION_PROGRESS_KEY&&!permissionsFor(user).transition)return send(403,{error:'此板块尚未开放'});if(b.key===TRANSITION_PROGRESS_KEY&&!validTransitionProgress(b.value))return send(400,{error:'无效备考过渡进度'});if(isSectionNoteKey(b.key)&&!validSectionNote(b.value))return send(400,{error:'笔记最多 2000 个字符。'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);const previous=stored?JSON.parse(stored.value):{};handleWriting.syncCompleted(user,b.value,previous);if(user.role==='student'&&permissionsFor(user).oral){const seen=new Set((previous.oralRecords||[]).map(r=>r.id+':'+r.at));for(const r of Array.isArray(b.value.oralRecords)?b.value.oralRecords:[]){if(typeof r.id==='string'&&typeof r.at==='string'&&Number.isFinite(Date.parse(r.at))&&!seen.has(r.id+':'+r.at))handleNotifications.notifySubmission(user,{key:'oral:'+r.id+':'+r.at,title:'Speaking practice · '+r.id+(typeof r.notes==='string'?' · '+r.notes.slice(0,500):''),url:''});}}}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
+ if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});if(b.key===TRANSITION_PROGRESS_KEY&&!permissionsFor(user).transition)return send(403,{error:'此板块尚未开放'});if(b.key===TRANSITION_PROGRESS_KEY&&!validTransitionProgress(b.value))return send(400,{error:'无效备考过渡进度'});if(isSectionNoteKey(b.key)&&!validSectionNote(b.value))return send(400,{error:'笔记最多 2000 个字符。'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);const previous=stored?JSON.parse(stored.value):{};handleWriting.syncCompleted(user,b.value,previous);if(['student','guest'].includes(user.role)&&permissionsFor(user).oral){const seen=new Set((previous.oralRecords||[]).map(r=>r.id+':'+r.at));for(const r of Array.isArray(b.value.oralRecords)?b.value.oralRecords:[]){if(typeof r.id==='string'&&typeof r.at==='string'&&Number.isFinite(Date.parse(r.at))&&!seen.has(r.id+':'+r.at))handleNotifications.notifySubmission(user,{key:'oral:'+r.id+':'+r.at,title:'Speaking practice · '+r.id+(typeof r.notes==='string'?' · '+r.notes.slice(0,500):''),url:''});}}}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
+ if(route.startsWith('/api/owner/accounts')){
+ if(!['owner','guest'].includes(user.role))return send(403,{error:'Only the owner can manage roles.'});
+ if(route==='/api/owner/accounts'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,role,active,must_change FROM users WHERE role<>'student' ORDER BY CASE WHEN role='owner' THEN 0 ELSE 1 END,name,email").all());
+ const b=await body(),roles=['admin','teacher','guest'];
+ if(route==='/api/owner/accounts'&&req.method==='POST'){
+  const e=String(b.email||'').trim().toLowerCase(),name=b.name??'';
+  if(!email(e)||!validName(name)||!roles.includes(b.role))return send(400,{error:'Enter a valid name, email and role.'});
+  if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'This email already has an account.'});
+  if(db.prepare("SELECT count(*) AS n FROM users WHERE role<>'student'").get().n>=50)return send(400,{error:'Staff and guest account limit reached.'});
+  const id=randomBytes(16).toString('hex'),password=randomBytes(15).toString('base64url');
+  db.prepare('INSERT INTO users(id,email,password,role,must_change,active,name) VALUES(?,?,?,?,1,1,?)').run(id,e,hash(password),b.role,name.trim().normalize('NFC'));
+  return send(201,{id,email:e,password});
+ }
+ const target=db.prepare('SELECT id,role,email FROM users WHERE id=?').get(b.id);
+ if(!target)return send(404,{error:'Account not found.'});
+ if(target.role==='owner'||target.role==='student')return send(403,{error:'This account cannot be changed here.'});
+ if(route==='/api/owner/accounts/update'&&req.method==='POST'){
+  if(!roles.includes(b.role)||typeof b.active!=='boolean')return send(400,{error:'Invalid role or account status.'});
+  db.prepare('UPDATE users SET role=?,active=? WHERE id=?').run(b.role,b.active?1:0,target.id);
+  db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{ok:true});
+ }
+ if(route==='/api/owner/accounts/reset'&&req.method==='POST'){
+  const password=randomBytes(15).toString('base64url');db.prepare('UPDATE users SET password=?,must_change=1 WHERE id=?').run(hash(password),target.id);db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{email:target.email,password});
+ }
+ return send(404,{error:'Not found.'});
+ }
  if(route.startsWith('/api/admin/')){
- if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
+ if(!staff(user))return send(403,{error:'仅管理员可操作'});
  if(route==='/api/admin/users'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,active,must_change FROM users WHERE role='student' ORDER BY email").all().map(u=>({...u,permissions:permissionsFor({...u,role:'student'})})));
+ if(!managers(user))return send(403,{error:'Account management requires an administrator.'});
  if(route==='/api/admin/registration-requests'&&req.method==='GET')return send(200,registrations.list());
  const b=await body();
  if(route==='/api/admin/registration-requests/approve'&&req.method==='POST'){try{return send(201,registrations.approve(b.id,b.permissions));}catch(e){return send(e.status||400,{error:e.status?e.message:'请求无法处理'});}}
@@ -101,10 +136,12 @@ const server=http.createServer(async(req,res)=>{
  }
  let name=path.posix.normalize(decodeURIComponent(route)).replace(/^\//,'')||'index.html';if(name==='login')name='login.html';if(name==='admin')name='admin.html';
  if(!publicFiles.has(name)&&(!user||user.must_change)){res.writeHead(303,{Location:'/login.html','Cache-Control':'no-store'});return res.end();}
- if(['admin.html','submissions.html','submissions.js','essay-assessment.js'].includes(name)&&user?.role!=='admin')return send(403,{error:'仅管理员可操作'});
+ if(['admin.html','admin.js'].includes(name)&&!managers(user))return send(403,{error:'仅管理员可操作'});
+ if(['roles.html','roles.js'].includes(name)&&!['owner','guest'].includes(user?.role))return send(403,{error:'Only the owner can manage roles.'});
+ if(['submissions.html','submissions.js','essay-assessment.js'].includes(name)&&!staff(user))return send(403,{error:'仅管理员可操作'});
  if(name==='sw.js')return send(404,'');
  const access=user?permissionsFor(user):null;
- if(user&&user.role!=='admin'){
+ if(user&&!staff(user)){
   const denied=()=>send(403,{error:'此板块尚未开放，请联系老师。'});
   if(['transition-to-prep.js','transition-content.js','transition-phrases.js','transition-prepositions.js','transition-extra-verbs.js','transition-verb-examples.js','transition-progress.js'].includes(name)&&!access.transition)return denied();
   if(['culture-reader-model.js','culture-reader.js','culture-readings.json','pronunciation-layout.js','course-editorial.js','course-translations.js','basic-verbs.js','weather-lesson.js','possessive-recap.js','lesson-recaps.js'].includes(name)&&!access.basics)return denied();

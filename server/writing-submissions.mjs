@@ -5,7 +5,7 @@ import {migrateCompletedWriting,submitCompletedDraft} from './completed-writing.
 import {randomBytes} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
-export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{}){
+export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{},notifyFeedback=()=>{}){
  db.exec(`CREATE TABLE IF NOT EXISTS writing_submissions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,question_id TEXT NOT NULL,title TEXT NOT NULL,task INTEGER NOT NULL,prompt TEXT NOT NULL,text TEXT NOT NULL,submitted_at INTEGER NOT NULL,feedback TEXT NOT NULL DEFAULT '',reviewed_at INTEGER,reviewer_id TEXT);CREATE INDEX IF NOT EXISTS writing_by_user ON writing_submissions(user_id,submitted_at);`);
  if(!db.prepare('PRAGMA table_info(writing_submissions)').all().some(c=>c.name==='feedback_version'))db.exec('ALTER TABLE writing_submissions ADD COLUMN feedback_version INTEGER NOT NULL DEFAULT 0');
  const latestFeedback=(userId,questionId)=>db.prepare("SELECT id,title,task,feedback,reviewed_at FROM writing_submissions WHERE user_id=? AND question_id=? AND reviewed_at IS NOT NULL AND feedback<>'' ORDER BY feedback_version DESC,reviewed_at DESC,rowid DESC LIMIT 1").get(userId,questionId)||null;
@@ -25,7 +25,7 @@ export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{
    return send(200,latestFeedback(user.id,question));
   }
   if(route==='/api/writing/submissions'&&req.method==='POST'){
-   if(user.role!=='student')return send(403,{error:'请使用学生账号提交作文'});
+   if(!['student','guest'].includes(user.role))return send(403,{error:'请使用学生账号提交作文'});
    if(!permissionsFor(user).writing)return send(403,{error:'写作板块尚未开放'});
    const b=await body();
    if(typeof b.text!=='string'||!b.text.trim()||b.text.length>20000)return send(400,{error:'请输入作文，最多 20,000 个字符'});
@@ -39,7 +39,9 @@ export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{
    return send(201,{id,submitted_at:at});
   }
   if(route.startsWith('/api/admin/writing')){
-   if(user.role!=='admin')return send(403,{error:'仅管理员可操作'});
+   if(user.role==='guest'&&!['GET','HEAD'].includes(req.method))return send(403,{error:'Guest assessment access is view-only.'});
+   if(!['owner','admin','teacher','guest'].includes(user.role))return send(403,{error:'仅管理员可操作'});
+   if(user.role==='teacher'&&['/api/admin/writing/codex/pair','/api/admin/writing/codex/disconnect'].includes(route))return send(403,{error:'Only the owner or administrator can connect a Mac.'});
    if(route==='/api/admin/writing/codex/pair'&&req.method==='POST'){const b=await body();try{return send(200,codex.pair(b.token,user.id));}catch(e){return send(e.status||400,{error:e.message});}}
    if(route==='/api/admin/writing/codex/disconnect'&&req.method==='POST'){codex.revoke();return send(200,{ok:true});}
    if(route==='/api/admin/writing/codex'&&req.method==='GET'){
@@ -74,7 +76,8 @@ export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{
    if(route==='/api/admin/writing/feedback'&&req.method==='POST'){
     const b=await body();if(typeof b.feedback!=='string'||!b.feedback.trim()||b.feedback.length>12000)return send(400,{error:'请输入评语，最多 12,000 个字符'});
     if(!db.prepare('SELECT id FROM writing_submissions WHERE id=?').get(b.id))return send(404,{error:'作文不存在'});
-    const at=Date.now();db.prepare('UPDATE writing_submissions SET feedback=?,reviewed_at=?,reviewer_id=?,feedback_version=(SELECT COALESCE(MAX(feedback_version),0)+1 FROM writing_submissions) WHERE id=?').run(b.feedback.trim(),at,user.id,b.id);
+    const at=Date.now();db.exec('BEGIN IMMEDIATE');try{db.prepare('UPDATE writing_submissions SET feedback=?,reviewed_at=?,reviewer_id=?,feedback_version=(SELECT COALESCE(MAX(feedback_version),0)+1 FROM writing_submissions) WHERE id=?').run(b.feedback.trim(),at,user.id,b.id);
+    const published=db.prepare('SELECT user_id,question_id,title,feedback_version FROM writing_submissions WHERE id=?').get(b.id);notifyFeedback({studentId:published.user_id,questionId:published.question_id,title:published.title,version:published.feedback_version});db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}
     return send(200,{ok:true,reviewed_at:at});
    }
   }
@@ -90,6 +93,6 @@ export function writingSubmissions(db,root,permissionsFor,notifySubmission=()=>{
    return send(404,{error:'Not found'});
   }catch(e){return send(e.status||400,{error:e.status?e.message:'Invalid connector result'});}
  };
- handler.syncCompleted=(user,value,previous)=>{if(user.role!=='student'||!permissionsFor(user).writing)return;for(const [id,draft] of Object.entries(value.drafts||{})){if(previous?.drafts?.[id]?.completed!==true){if(submitCompletedDraft(db,questions,user.id,id,draft)){const row=db.prepare('SELECT id,title FROM writing_submissions WHERE user_id=? AND question_id=? ORDER BY submitted_at DESC,rowid DESC LIMIT 1').get(user.id,id);notifySubmission(user,{key:'writing:'+row.id,title:row.title,url:'/submissions.html?id='+encodeURIComponent(row.id)});}}}};
+ handler.syncCompleted=(user,value,previous)=>{if(!['student','guest'].includes(user.role)||!permissionsFor(user).writing)return;for(const [id,draft] of Object.entries(value.drafts||{})){if(previous?.drafts?.[id]?.completed!==true){if(submitCompletedDraft(db,questions,user.id,id,draft)){const row=db.prepare('SELECT id,title FROM writing_submissions WHERE user_id=? AND question_id=? ORDER BY submitted_at DESC,rowid DESC LIMIT 1').get(user.id,id);notifySubmission(user,{key:'writing:'+row.id,title:row.title,url:'/submissions.html?id='+encodeURIComponent(row.id)});}}}};
  return handler;
 }

@@ -3150,3 +3150,27 @@ messages['放大导图']={en:'Zoom in','zh-TW':'放大導圖'};
 messages["学生提交"]={"en": "Student submissions", "zh-TW": "學生提交"};
 messages["查看提交"]={"en": "View submission", "zh-TW": "查看提交"};
 messages["学生新提交"]={"en": "New student submission", "zh-TW": "學生新提交"};
+
+messages["账号与角色"]={"en": "Accounts and roles", "zh-TW": "帳號與角色"};
+messages["所有者"]={"en": "Owner", "zh-TW": "所有者"};
+messages["访客"]={"en": "Guest", "zh-TW": "訪客"};
+messages["老师"]={"en": "Teacher", "zh-TW": "老師"};
+messages["管理员"]={"en": "Administrator", "zh-TW": "管理員"};
+messages["添加账号"]={"en": "Add account", "zh-TW": "新增帳號"};
+messages["现有账号"]={"en": "Existing accounts", "zh-TW": "現有帳號"};
+messages["角色"]={"en": "Role", "zh-TW": "角色"};
+messages["姓名"]={"en": "Name", "zh-TW": "姓名"};
+messages["邮箱"]={"en": "Email", "zh-TW": "電子郵件"};
+messages["创建账号"]={"en": "Create account", "zh-TW": "建立帳號"};
+messages["临时密码"]={"en": "Temporary password", "zh-TW": "臨時密碼"};
+messages["首次登录必须修改密码。"]={"en": "A password change is required on first login.", "zh-TW": "首次登入必須修改密碼。"};
+messages["所有者拥有全部权限。访客可正常学习，并只读查看管理页面。"]={"en": "The Owner has full access. Guests can learn normally and inspect management pages in view-only mode.", "zh-TW": "所有者擁有全部權限。訪客可正常學習，並唯讀查看管理頁面。"};
+messages["修改角色或停用账号会立即结束该账号的现有登录。所有者账号受保护。"]={"en": "Changing a role or disabling an account ends its existing sessions. The Owner account is protected.", "zh-TW": "修改角色或停用帳號會立即結束該帳號的現有登入。所有者帳號受保護。"};
+messages["访客：可以练习并保存自己的学习记录；管理与批改页面仅供查看。"]={"en": "Guest: practise and save your own learning records. Management and assessment pages are view-only.", "zh-TW": "訪客：可以練習並儲存自己的學習記錄；管理與批改頁面僅供查看。"};
+messages["管理页面仅供查看"]={"en": "Management pages are view-only", "zh-TW": "管理頁面僅供查看"};
+messages["查看管理概览"]={"en": "View management overview", "zh-TW": "查看管理總覽"};
+messages["确认重置密码？"]={"en": "Reset this account password?", "zh-TW": "確認重設密碼？"};
+
+messages['评估已完成']={en:'Your assessment is ready','zh-TW':'評估已完成'};
+
+messages['保存']={en:'Save','zh-TW':'儲存'};
