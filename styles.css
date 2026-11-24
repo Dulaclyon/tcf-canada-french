@@ -105,3 +105,5 @@ html[lang="en"] .section-locked::after{content:"Locked"}html[lang="zh-Hant-TW"] 
 .dashboard-student-email{display:block;font-size:13px;color:var(--muted);margin-top:4px;overflow-wrap:anywhere}
 
 .dashboard-pending-requests{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;background:#f7ecef;border:1px solid #e5c7cf;border-radius:10px;margin:24px 0;color:var(--brand);font-weight:600}.dashboard-pending-requests strong{border-radius:20px;background:var(--brand);color:#fff;min-width:28px;text-align:center;padding:2px 8px}
+
+.listening-memory{margin-top:22px;padding-top:16px;border-top:1px solid #e2e5e9}.listening-memory label{display:block;font-size:14px;font-weight:600;margin-bottom:7px;color:#5e4650}.listening-memory textarea{width:100%;max-width:420px;min-height:64px;resize:vertical;padding:9px 12px;font:inherit;font-size:14px;border:1px solid #d6dce3;border-radius:5px;background:#fff}.listening-memory-footer{display:flex;gap:14px;align-items:center;color:#77808c;font-size:12px;margin-top:4px}

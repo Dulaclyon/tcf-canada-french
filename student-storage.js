@@ -1,7 +1,8 @@
+import {LISTENING_MEMORY_KEY} from './listening-memory-model.js';
 import {mountGuestView} from './guest-view.js';
 import {SECTION_NOTE_KEYS} from './section-notes-model.js';
 import {headerActions} from './i18n.js';
-const keys=['transition-completed-v1','french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1',...Object.values(SECTION_NOTE_KEYS)];
+const keys=[LISTENING_MEMORY_KEY,'transition-completed-v1','french-learning-v1','tcf-bank-progress-v1','tcf-bank-completed-v1',...Object.values(SECTION_NOTE_KEYS)];
 const response=await fetch('/api/me',{cache:'no-store'});
 if(!response.ok){location.replace('/login.html');throw Error('Login required');}
 export const account=await response.json();
