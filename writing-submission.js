@@ -4,8 +4,8 @@ export function mountWritingSubmission(editor,question,account,onSubmit){
  const section=document.createElement('section');section.className='card writing-submission';
  const heading=document.createElement('h2');heading.textContent='提交与教师反馈';
  const note=document.createElement('p');note.className='muted';note.textContent='完成即提交给老师；修改后可再次提交。';
- const button=document.createElement('button');button.className='primary';button.textContent='提交作文';button.disabled=account.role!=='student';
- if(account.role!=='student')note.textContent='管理员请在“作文批改”中查看学生提交；提交作文需使用学生账号。';
+ const button=document.createElement('button');button.className='primary';button.textContent='提交作文';button.disabled=!['student','guest'].includes(account.role);
+ if(!['student','guest'].includes(account.role))note.textContent='管理员请在“作文批改”中查看学生提交；提交作文需使用学生账号。';
  const status=document.createElement('p');status.setAttribute('role','status');
  const reload=document.createElement('button');reload.className='secondary';reload.textContent='刷新反馈';reload.type='button';const history=document.createElement('div');section.append(heading,note,reload,status,history);editor.closest('section').querySelectorAll('.editor-bar')[1].append(button);editor.closest('section').after(section);
  const refresh=async()=>{
