@@ -36,6 +36,7 @@ try{
  const exam=JSON.parse(await readFile('src/data/exam.json','utf8'));r=await req('/api/writing/submissions',guest,{questionId:exam.writing[0].id,text:'Bonjour, je découvre ce cours.'});assert.equal(r.status,201);const essay=await r.json();assert.equal((await req('/api/admin/writing/detail?id='+essay.id,guest)).status,200);assert.equal((await req('/api/admin/writing/feedback',guest,{id:essay.id,feedback:'Bad'})).status,403);assert.equal((await req('/api/admin/writing/feedback',owner,{id:essay.id,feedback:'Bien joué.'})).status,200);
  assert.equal((await (await req('/api/notifications',guest)).json()).items.filter(n=>n.title==='Your assessment is ready').length,1);
  assert.equal((await (await req('/api/writing/feedback?questionId='+exam.writing[0].id,guest)).json()).feedback,'Bien joué.');
+ assert(!(await (await req('/api/admin/learning-progress',owner)).json()).students.some(a=>a.id===accounts.guest.id));
  // Role conversion retains identity, password, progress and published feedback.
  assert.equal((await req('/api/owner/accounts/update',owner,{id:accounts.guest.id,role:'student',active:true})).status,200);
  assert.equal((await req('/api/me',guest)).status,401);
@@ -44,6 +45,7 @@ try{
  assert.equal((await req('/api/owner/accounts',converted)).status,403);
  assert.equal((await (await req('/api/progress',converted)).json())['french-learning-v1'].attempts[0].correct,true);
  assert.equal((await (await req('/api/writing/feedback?questionId='+exam.writing[0].id,converted)).json()).feedback,'Bien joué.');
+ assert((await (await req('/api/admin/learning-progress',owner)).json()).students.some(a=>a.id===accounts.guest.id));
  assert((await (await req('/api/admin/users',owner)).json()).some(a=>a.id===accounts.guest.id));
  assert((await (await req('/api/owner/accounts',owner)).json()).some(a=>a.id===accounts.guest.id&&a.role==='student'));
  assert.equal((await req('/api/admin/permissions',owner,{id:accounts.guest.id,permissions:me.permissions})).status,200);
@@ -51,6 +53,7 @@ try{
  assert.equal((await req('/api/owner/accounts/update',owner,{id:accounts.guest.id,role:'student',active:true})).status,200);
  assert(Object.values((await (await req('/api/me',await login(accounts.guest.email,'changed-password-test'))).json()).permissions).every(Boolean));
  assert.equal((await req('/api/owner/accounts/update',owner,{id:accounts.guest.id,role:'guest',active:false})).status,200);assert.equal((await req('/api/me',guest)).status,401);
+ assert(!(await (await req('/api/admin/learning-progress',owner)).json()).students.some(a=>a.id===accounts.guest.id));
  child.kill();await once(child,'exit');await start();owner=await login('owner@example.test','owner-password-test');assert.equal((await (await req('/api/me',owner)).json()).role,'owner');assert.equal((await (await req('/api/owner/accounts',owner)).json()).filter(a=>a.role==='owner').length,1);
  console.log('Account roles passed: owner migration/protection, staff restrictions, Guest private management inspection, server-enforced mutation denial, own learning/submissions, session revocation and restart persistence.');
 }finally{if(child?.exitCode===null){child.kill();await once(child,'exit');}await rm(dir,{recursive:true,force:true});}

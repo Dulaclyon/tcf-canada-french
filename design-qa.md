@@ -22,3 +22,8 @@ Implemented teacher @name recipient selection and all-student notices, private s
 ## November 25 — consolidated practice controls
 
 Grouped mode, level, set and question selectors into one practice settings panel shared by Listening and Reading. Replaced the mode dropdown with quiet underline tabs, grouped review/help actions in the panel footer, and combined question context and progress into one compact header. Preserved original question identifiers, answers, notes and difficulty estimates. Checked both modes, question selection and desktop/mobile wrapping; mobile top navigation now wraps rather than forcing horizontal overflow. Automated build and checks passed.
+
+
+## November 25 — unified account roles
+
+Replaced tall account cards with compact identity/action rows. All roles, including students, share one directory with name/email search and one role filter; account creation stays collapsed initially. Preserved existing brand styling. Verified search, student filter, student role option, Chinese reload, and mobile width (390px viewport and document). Isolated API tests verify student-only dashboard membership, identity/progress/feedback retention and section-grant preservation through conversions. No production accounts or grants were modified.

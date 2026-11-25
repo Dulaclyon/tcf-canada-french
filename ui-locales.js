@@ -3196,3 +3196,8 @@ messages["此等级暂时没有题目。请选择其他等级。"]={"en": "No qu
 messages["标签是根据文本、词汇、句式及题目要求自动估算的教学参考，不是官方 TCF 定级，也不代表你的考试成绩。听力语速、口音及清晰度尚未人工审核；资料不足的题目标记为“尚未评估”。C2 需老师复核后指定。"]={"en": "Labels are automated teaching estimates based on the text, vocabulary, sentence structure and task. They are not official TCF classifications or predictions of your score. Listening speed, accent and clarity have not been reviewed. Questions with insufficient source material remain unassessed; C2 requires teacher review.", "zh-TW": "標籤是根據文本、詞彙、句式及題目要求自動估算的教學參考，不是官方 TCF 定級，也不代表你的考試成績。聽力語速、口音及清晰度尚未人工審核；資料不足的題目標記為「尚未評估」。C2 需老師複核後指定。"};
 
 messages['练习设置']={en:'Practice settings','zh-TW':'練習設定'};
+
+messages["姓名 / 邮箱"]={"en": "Name / email", "zh-TW": "姓名 / 郵箱"};
+messages["没有匹配的账号。"]={"en": "No matching accounts.", "zh-TW": "沒有符合的帳號。"};
+messages["在此统一分配所有账号的角色。学生进度面板仅统计学生账号。"]={"en": "Manage every account role here. Only students appear in the student progress dashboard.", "zh-TW": "在此統一分配所有帳號的角色。學生進度面板僅統計學生帳號。"};
+messages["学生：按授权学习 · 访客：学习及只读管理 · 老师：批改与查看进度 · 管理员：学生管理与批改"]={"en": "Student: assigned learning access · Guest: learning and read-only management · Teacher: assessments and progress · Administrator: student management and assessments", "zh-TW": "學生：按授權學習 · 訪客：學習及唯讀管理 · 老師：批改與查看進度 · 管理員：學生管理與批改"};
