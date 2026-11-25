@@ -97,24 +97,35 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/progress'&&req.method==='PUT'){const b=await body();if(!keys.has(b.key)||!b.value||typeof b.value!=='object'||Array.isArray(b.value))return send(400,{error:'无效学习记录'});if(b.key===LISTENING_MEMORY_KEY&&(!permissionsFor(user).listening||!validListeningMemory(b.value)))return send(400,{error:'Listening memory notes must be at most 100 characters per question.'});if(b.key===TRANSITION_PROGRESS_KEY&&!permissionsFor(user).transition)return send(403,{error:'此板块尚未开放'});if(b.key===TRANSITION_PROGRESS_KEY&&!validTransitionProgress(b.value))return send(400,{error:'无效备考过渡进度'});if(isSectionNoteKey(b.key)&&!validSectionNote(b.value))return send(400,{error:'笔记最多 2000 个字符。'});db.exec('BEGIN IMMEDIATE');try{if(b.key==='french-learning-v1'){const stored=db.prepare('SELECT value FROM progress WHERE user_id=? AND key=?').get(user.id,b.key);const previous=stored?JSON.parse(stored.value):{};handleWriting.syncCompleted(user,b.value,previous);if(['student','guest'].includes(user.role)&&permissionsFor(user).oral){const seen=new Set((previous.oralRecords||[]).map(r=>r.id+':'+r.at));for(const r of Array.isArray(b.value.oralRecords)?b.value.oralRecords:[]){if(typeof r.id==='string'&&typeof r.at==='string'&&Number.isFinite(Date.parse(r.at))&&!seen.has(r.id+':'+r.at))handleNotifications.notifySubmission(user,{key:'oral:'+r.id+':'+r.at,title:'Speaking practice · '+r.id+(typeof r.notes==='string'?' · '+r.notes.slice(0,500):''),url:''});}}}db.prepare('INSERT INTO progress VALUES(?,?,?) ON CONFLICT(user_id,key) DO UPDATE SET value=excluded.value').run(user.id,b.key,JSON.stringify(b.value));db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}return send(200,{ok:true});}
  if(route.startsWith('/api/owner/accounts')){
  if(!['owner','guest'].includes(user.role))return send(403,{error:'Only the owner can manage roles.'});
- if(route==='/api/owner/accounts'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,role,active,must_change FROM users WHERE role<>'student' ORDER BY CASE WHEN role='owner' THEN 0 ELSE 1 END,name,email").all());
- const b=await body(),roles=['admin','teacher','guest'];
+ if(route==='/api/owner/accounts'&&req.method==='GET')return send(200,db.prepare("SELECT id,email,name,role,active,must_change FROM users ORDER BY CASE WHEN role='owner' THEN 0 ELSE 1 END,name,email").all());
+ const b=await body(),roles=['student','admin','teacher','guest'];
  if(route==='/api/owner/accounts'&&req.method==='POST'){
   const e=String(b.email||'').trim().toLowerCase(),name=b.name??'';
   if(!email(e)||!validName(name)||!roles.includes(b.role))return send(400,{error:'Enter a valid name, email and role.'});
   if(db.prepare('SELECT id FROM users WHERE email=?').get(e))return send(409,{error:'This email already has an account.'});
-  if(db.prepare("SELECT count(*) AS n FROM users WHERE role<>'student'").get().n>=50)return send(400,{error:'Staff and guest account limit reached.'});
+  if(b.role!=='student'&&db.prepare("SELECT count(*) AS n FROM users WHERE role<>'student'").get().n>=50)return send(400,{error:'Staff and guest account limit reached.'});
+  if(b.role==='student'&&db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});
   const id=randomBytes(16).toString('hex'),password=randomBytes(15).toString('base64url');
   db.prepare('INSERT INTO users(id,email,password,role,must_change,active,name) VALUES(?,?,?,?,1,1,?)').run(id,e,hash(password),b.role,name.trim().normalize('NFC'));
+  if(b.role==='student'){db.prepare('INSERT INTO permissions VALUES(?,?)').run(id,JSON.stringify(basicOnly));registrations.reconcile(e,id);}
   return send(201,{id,email:e,password});
  }
  const target=db.prepare('SELECT id,role,email FROM users WHERE id=?').get(b.id);
  if(!target)return send(404,{error:'Account not found.'});
- if(target.role==='owner'||target.role==='student')return send(403,{error:'This account cannot be changed here.'});
+ if(target.role==='owner')return send(403,{error:'This account cannot be changed here.'});
  if(route==='/api/owner/accounts/update'&&req.method==='POST'){
   if(!roles.includes(b.role)||typeof b.active!=='boolean')return send(400,{error:'Invalid role or account status.'});
-  db.prepare('UPDATE users SET role=?,active=? WHERE id=?').run(b.role,b.active?1:0,target.id);
-  db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{ok:true});
+  if(target.role!==b.role){
+   if(b.role==='student'&&db.prepare("SELECT count(*) AS n FROM users WHERE role='student'").get().n>=100)return send(400,{error:'已达到 100 名学生上限'});
+   if(target.role==='student'&&b.role!=='student'&&db.prepare("SELECT count(*) AS n FROM users WHERE role<>'student'").get().n>=50)return send(400,{error:'Staff and guest account limit reached.'});
+  }
+  db.exec('BEGIN IMMEDIATE');try{
+   if(b.role==='student')db.prepare('INSERT INTO permissions VALUES(?,?) ON CONFLICT(user_id) DO NOTHING').run(target.id,JSON.stringify(basicOnly));
+   db.prepare('UPDATE users SET role=?,active=? WHERE id=?').run(b.role,b.active?1:0,target.id);
+   if(b.role==='student')registrations.reconcile(target.email,target.id);
+   db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);db.exec('COMMIT');
+  }catch(e){db.exec('ROLLBACK');throw e;}
+  return send(200,{ok:true});
  }
  if(route==='/api/owner/accounts/reset'&&req.method==='POST'){
   const password=randomBytes(15).toString('base64url');db.prepare('UPDATE users SET password=?,must_change=1 WHERE id=?').run(hash(password),target.id);db.prepare('DELETE FROM sessions WHERE user_id=?').run(target.id);return send(200,{email:target.email,password});
