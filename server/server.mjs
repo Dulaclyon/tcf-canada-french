@@ -1,3 +1,4 @@
+import {questionLevels} from './question-levels.mjs';
 import {LISTENING_MEMORY_KEY,validListeningMemory} from '../listening-memory-model.js';
 import {notificationService} from './notifications.mjs';
 import {TRANSITION_PROGRESS_KEY,validTransitionProgress} from '../transition-progress.js';
@@ -19,7 +20,7 @@ const permissionsFor=u=>['owner','admin','teacher','guest'].includes(u.role)?all
 let bankAssetsPromise;
 async function bankAssets(){
  if(!bankAssetsPromise)bankAssetsPromise=(async()=>{
-  const index=JSON.parse(await readFile(path.join(root,'bank/index.json'),'utf8')),map=new Map();
+  const index=JSON.parse(await readFile(path.join(root,'bank/index.json'),'utf8')),map=new Map([['bank/difficulty-listening.json',new Set(['listening'])],['bank/difficulty-reading.json',new Set(['reading'])]]);
   for(const set of index.sets){
    map.set('bank/sets/'+set.id+'.json',new Set([set.kind]));
    const body=JSON.parse(await readFile(path.join(root,'bank/sets',set.id+'.json'),'utf8'));
@@ -49,6 +50,7 @@ if(!db.prepare("SELECT id FROM users WHERE role='owner'").get()){
 }
 const staff=u=>['owner','admin','teacher','guest'].includes(u?.role);
 const managers=u=>['owner','admin','guest'].includes(u?.role);
+const handleLevels=questionLevels(db,root,permissionsFor);
 const handleNotifications=notificationService(db);
 const handleWriting=writingSubmissions(db,root,permissionsFor,handleNotifications.notifySubmission,handleNotifications.notifyFeedback);
 const dashboard=learningDashboard(db,root,permissionsFor);
@@ -86,6 +88,7 @@ const server=http.createServer(async(req,res)=>{
  if(route==='/api/password'&&req.method==='POST'){const b=await body();if(typeof b.password!=='string'||b.password.length<12||b.password.length>256||b.password===b.current||!verify(String(b.current||''),user.password))return send(400,{error:'当前密码错误，或新密码不足 12 位'});db.prepare('UPDATE users SET password=?,must_change=0 WHERE id=?').run(hash(b.password),user.id);db.prepare('DELETE FROM sessions WHERE user_id=? AND token<>?').run(user.id,user.token);return send(200,{ok:true});}
  if(user.must_change)return send(403,{error:'请先修改临时密码'});
  if(user.role==='guest'&&mutation&&!['/api/progress','/api/writing/submissions','/api/notifications/read'].includes(route))return send(403,{error:'Guest access: management and assessments are view-only.'});
+ if(['/api/question-levels','/api/admin/question-levels'].includes(route))return await handleLevels({route,req,url,user,body,send});
  if(route.startsWith('/api/notifications')||route.startsWith('/api/admin/notifications'))return await handleNotifications({route,req,user,body,send});
  if(route==='/api/learning-progress'&&req.method==='GET')return send(200,await dashboard.student(user));
  if(route==='/api/admin/learning-progress'&&req.method==='GET'){if(!staff(user))return send(403,{error:'仅管理员可操作'});return send(200,await dashboard.teacher());}

@@ -28,3 +28,6 @@ for item in index['sets']:
   assert (q['answer'] in 'ABCD') if data['answerComplete'] else q['answer'] is None
 assert count==7332 and unscored==['listening-opal-189']
 print('Restored and validated 188 sets / 7332 questions; all listening audio, available transcripts and images present.')
+
+import subprocess
+subprocess.run(['node','scripts/build-bank-difficulty.mjs'],cwd=root,check=True)
