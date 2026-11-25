@@ -3194,3 +3194,5 @@ messages["保存复核等级"]={"en": "Save reviewed level", "zh-TW": "儲存複
 messages["恢复自动估算"]={"en": "Restore automatic estimate", "zh-TW": "恢復自動估算"};
 messages["此等级暂时没有题目。请选择其他等级。"]={"en": "No questions at this level yet. Please choose another level.", "zh-TW": "此等級暫時沒有題目。請選擇其他等級。"};
 messages["标签是根据文本、词汇、句式及题目要求自动估算的教学参考，不是官方 TCF 定级，也不代表你的考试成绩。听力语速、口音及清晰度尚未人工审核；资料不足的题目标记为“尚未评估”。C2 需老师复核后指定。"]={"en": "Labels are automated teaching estimates based on the text, vocabulary, sentence structure and task. They are not official TCF classifications or predictions of your score. Listening speed, accent and clarity have not been reviewed. Questions with insufficient source material remain unassessed; C2 requires teacher review.", "zh-TW": "標籤是根據文本、詞彙、句式及題目要求自動估算的教學參考，不是官方 TCF 定級，也不代表你的考試成績。聽力語速、口音及清晰度尚未人工審核；資料不足的題目標記為「尚未評估」。C2 需老師複核後指定。"};
+
+messages['练习设置']={en:'Practice settings','zh-TW':'練習設定'};
