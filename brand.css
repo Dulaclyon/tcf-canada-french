@@ -238,3 +238,29 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .modal-verb-lesson>h3{margin:26px 0 16px}.modal-verb-lesson>h3:first-child{margin-top:0}.modal-verb-examples{margin:24px 0}.modal-verb-examples>h4{font-size:18px;margin:0 0 12px}
 .time-question-lesson>h3{font-size:18px;margin:24px 0 14px}.time-question-lesson>h3:first-child{margin-top:0}.time-question-lesson>p{font-size:14px;line-height:1.8;color:var(--muted)}
 .place-preposition-group{margin:28px 0;padding-top:20px;border-top:1px solid #e5e8ed}.place-preposition-group>h3{font-size:21px;margin:0 0 6px}.place-preposition-group>p{font-size:14px;line-height:1.75;margin:8px 0 16px}.place-preposition-meaning{font-weight:600;color:var(--brand)}.place-prepositions .grammar-table td{vertical-align:top}.place-preposition-group td:first-child,.place-preposition-contrast td:first-child{width:60%}.place-preposition-contrast{margin-top:28px;padding-top:20px;border-top:1px solid #e5e8ed}
+
+/* Shared workspace header controls: one size, shape and interaction treatment. */
+.workspace>header .header-actions,.workspace>header .account-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.workspace>header .account-tools{flex-basis:auto}
+.workspace>header .notification-trigger,
+.workspace>header .account-tools>a,
+.workspace>header .account-menu>summary,
+.workspace>header .header-actions .language-control select{
+ display:inline-flex;align-items:center;justify-content:center;gap:7px;
+ box-sizing:border-box;height:44px;min-height:44px;max-height:44px;
+ padding:0 12px;margin:0;border:1px solid #d5dbe3;border-radius:6px;
+ background:#fff;color:#4b5563;font-family:var(--font-ui);font-size:14px;
+ font-weight:500;line-height:1.25;letter-spacing:0;white-space:nowrap;
+ text-decoration:none;flex-shrink:0;max-width:none;cursor:pointer;
+}
+.workspace>header .notification-trigger:hover,
+.workspace>header .account-tools>a:hover,
+.workspace>header .account-menu>summary:hover,
+.workspace>header .header-actions .language-control select:hover{background:#f8f3f5;border-color:#b99ba6;color:var(--brand)}
+.workspace>header .account-menu[open]>summary{background:#f5e9ed;border-color:#cbaab6;color:var(--brand)}
+.workspace>header .account-menu>summary{list-style:none}
+.workspace>header .account-menu>summary::-webkit-details-marker{display:none}
+.workspace>header .language-control{height:44px;margin:0;align-items:center}
+.workspace>header .header-actions .language-control select{display:block;min-width:116px;padding-right:10px}
+.workspace>header .notification-bell{width:20px;height:20px;flex-shrink:0}
+@media(max-width:700px){.workspace>header .header-actions,.workspace>header .account-tools{gap:8px}.workspace>header .account-tools{flex:1 1 220px}.workspace>header .header-actions .language-control select{min-width:116px}}

@@ -47,3 +47,8 @@ Added a duration control and expiry status beside each section checkbox, plus an
 ## November 25 — Foundations Unit 8
 
 Imported the supplied one-page lesson as the eighth Foundations unit, retaining stable IDs for all prior lessons. Verified 27 catalogue entries and the sequence Unit 7 pronominal verbs → Unit 8 irregular verbs/routines → Unit 9 passé composé. Reused existing topic navigation, conjugation presentation, reading/vocabulary and exercise components. Source text, 24 unique questions, original audio paths and progress identities passed checks. No production student data or permissions changed.
+
+
+## November 25 — consistent header actions
+
+Unified notifications, account-role link, student-management link, account menu and language selector with a 44px height, 14px medium text, 6px corners, 1px neutral border and consistent horizontal padding. Removed mixed filled/plain treatments and native account disclosure marker while retaining accessible expanded state. Verified all five computed dimensions on desktop and 390px mobile (document width 390px), plus account menu toggle. Scoped to the workspace header; no role or authorization changes.
