@@ -8,14 +8,15 @@ function permissionsForm(u,approval=false){
  const form=document.createElement('form');form.className='student-permissions';
  const fieldset=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent='开放板块';fieldset.append(legend);
  for(const [key,text] of Object.entries(sectionLabels)){
-  const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.name=key;input.checked=(u.permissions||{basics:true,transition:false,listening:false,reading:false,oral:false,writing:false})[key];label.append(input,document.createTextNode(text));fieldset.append(label);
+  const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.name=key;input.checked=(u.permissions||{basics:true,transition:false,listening:false,reading:false,oral:false,writing:false})[key];label.append(input,document.createTextNode(text));const row=document.createElement('div');row.className='access-grant-row';const duration=document.createElement('select');duration.name='months-'+key;duration.setAttribute('aria-label',text+' · '+t('授权月数'));const old=!!u.permissions?.[key];if(old){const keep=document.createElement('option');keep.value='keep';keep.textContent=t('保持原期限');duration.append(keep);}for(let n=1;n<=36;n++){const option=document.createElement('option');option.value=String(n);option.textContent=n===1?t('1 个月'):String(n)+' '+t('个月');duration.append(option);}duration.value=old?'keep':'1';duration.disabled=!input.checked;input.onchange=()=>{duration.disabled=!input.checked;};const expiry=document.createElement('small');const showExpiry=()=>{const at=u.accessExpiresAt?.[key];expiry.textContent=at?(at<=Date.now()?t('已到期')+' · ':t('到期时间')+' · ')+new Date(at).toLocaleString():old?t('原授权无到期日'):t('新授权默认 1 个月');};showExpiry();row.append(label,duration,expiry);fieldset.append(row);
  }
  const save=document.createElement('button');save.type='submit';save.textContent=approval?'批准并创建账号':'保存权限';
  const status=document.createElement('span');status.setAttribute('role','status');
  form.append(fieldset,save,status);
  form.onsubmit=async e=>{e.preventDefault();save.disabled=true;try{
   const permissions=Object.fromEntries(Object.keys(sectionLabels).map(k=>[k,form.elements.namedItem(k).checked]));
-  const result=await api(approval?'/api/admin/registration-requests/approve':'/api/admin/permissions',{id:u.id,permissions});if(approval){credentials(result);await load();}else status.textContent='已保存';
+  const accessMonths=Object.fromEntries(Object.keys(sectionLabels).filter(k=>permissions[k]).map(k=>{const value=form.elements.namedItem('months-'+k).value;return [k,value==='keep'?'keep':Number(value)];}));
+  const result=await api(approval?'/api/admin/registration-requests/approve':'/api/admin/permissions',{id:u.id,permissions,accessMonths});if(approval){credentials(result);await load();}else{await load();message.textContent=t('已保存');}
  }catch(e){status.textContent=e.message;}finally{save.disabled=false;}};
  return form;
 }
@@ -41,7 +42,7 @@ async function load(){const [rows,requests]=await Promise.all([api('/api/admin/u
  const td=document.createElement('td');for(const [label,route,extra] of [['重置密码','reset',{}],[u.active?'停用':'启用','access',{active:!u.active}]]){const b=document.createElement('button');b.textContent=label;b.onclick=async()=>{if(!confirm(t(`确认${label}：${u.email}？`)))return;try{const result=await api('/api/admin/'+route,{id:u.id,...extra});if(result.password)credentials(result);await load();}catch(e){message.textContent=e.message;}};td.append(b);}tr.append(td);container.append(tr);
  const permissionsRow=document.createElement('tr'),permissionsCell=document.createElement('td');permissionsCell.colSpan=3;permissionsCell.append(permissionsForm(u));permissionsRow.className='permissions-row';permissionsRow.append(permissionsCell);container.append(permissionsRow);
 }if(!shown){const row=document.createElement('tr'),cell=document.createElement('td');cell.colSpan=3;cell.textContent='暂无此状态的学生或申请。';row.append(cell);container.append(row);}}
-document.querySelector('#add').onsubmit=async e=>{e.preventDefault();try{credentials(await api('/api/admin/users',{email:document.querySelector('#email').value,name:document.querySelector('#name').value}));e.target.reset();await load();}catch(e){message.textContent=e.message;}};
+document.querySelector('#add').onsubmit=async e=>{e.preventDefault();try{credentials(await api('/api/admin/users',{email:document.querySelector('#email').value,name:document.querySelector('#name').value,accessMonths:{basics:Number(document.querySelector('#new-access-months').value)}}));e.target.reset();await load();}catch(e){message.textContent=e.message;}};
 const initialStatus=new URLSearchParams(location.search).get('status');if(['pending','registered','declined'].includes(initialStatus))document.querySelector('#student-status').value=initialStatus;document.querySelector('#student-status').onchange=()=>load().catch(e=>{message.textContent=e.message;});
 await mountGuestView();
 try{await load();}catch(e){message.textContent=e.message;}

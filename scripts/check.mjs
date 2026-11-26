@@ -98,3 +98,5 @@ execFileSync(process.execPath,['scripts/check-culture-readings.mjs'],{stdio:'inh
 execFileSync(process.execPath,['scripts/check-question-difficulty.mjs'],{stdio:'inherit'});
 
 execFileSync(process.execPath,['scripts/check-exercise-restore.mjs'],{stdio:'inherit'});
+
+execFileSync(process.execPath,['scripts/check-access-expiry.mjs'],{stdio:'inherit'});

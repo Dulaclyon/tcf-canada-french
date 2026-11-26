@@ -37,3 +37,8 @@ Added four mutually exclusive teaching categories to the existing 200-verb refer
 ## November 25 — French writing characters
 
 Added a compact character palette beside the writing draft, stacking below it on small screens. Character buttons insert at the current selection, dispatch the existing input event for autosave, support keyboard activation, and expose plain-text drag data for native textarea drops. Added uppercase accents and French punctuation. Verified selection replacement (ecole → école), uppercase insertion, caret position, and saved text after reload in the isolated localhost preview.
+
+
+## November 25 — timed section access
+
+Added a duration control and expiry status beside each section checkbox, plus an initial Foundations duration when creating a student. Existing grants default to Keep current expiry; no production authorizations were edited. Local dummy-student grant verified two-month expiry display and renewal controls. Unit tests cover legacy preservation, calendar clamping, exact expiry boundary and renewal; account integration tests verify protected API/assets deny expired access and recover after renewal. Registration and main checks pass.

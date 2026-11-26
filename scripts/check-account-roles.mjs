@@ -1,3 +1,4 @@
+import {DatabaseSync} from 'node:sqlite';
 import assert from 'node:assert/strict';
 import {spawn} from 'node:child_process';
 import {mkdtemp,rm,readFile} from 'node:fs/promises';
@@ -26,8 +27,19 @@ try{
  assert.equal((await (await req('/api/question-levels?kind=listening',guest)).json())[question.setId+':'+question.number].level,null);
  assert.equal((await req('/api/admin/question-levels',owner,{...labelBody,reset:true})).status,200);
  assert.equal((await (await req('/api/question-levels?kind=listening',guest)).json())[question.setId+':'+question.number],undefined);
- let r=await req('/api/admin/users',owner,{email:'student@example.test'});const student=await r.json();const studentCookie=await login(student.email,student.password);await req('/api/password',studentCookie,{current:student.password,password:'changed-password-test'});
+ let r=await req('/api/admin/users',owner,{email:'student@example.test'});const student=await r.json();assert.equal(r.status,201,JSON.stringify(student));const studentCookie=await login(student.email,student.password);await req('/api/password',studentCookie,{current:student.password,password:'changed-password-test'});
  const studentId=(await (await req('/api/admin/users',owner)).json())[0].id;
+ const accessDb=new DatabaseSync(path.join(dir,'students.sqlite'));
+ const before=await (await req('/api/admin/users',owner)).json();assert(before.find(a=>a.id===studentId).accessExpiresAt.basics>Date.now());
+ assert.equal((await req('/api/admin/permissions',owner,{id:studentId,permissions:me.permissions,accessMonths:{listening:2,writing:1}})).status,200);
+ accessDb.prepare('INSERT INTO permission_expiry VALUES(?,?) ON CONFLICT(user_id) DO UPDATE SET value=excluded.value').run(studentId,JSON.stringify({listening:Date.now()-1000,writing:Date.now()-1000}));
+ assert.equal((await (await req('/api/me',studentCookie)).json()).permissions.listening,false);
+ assert.equal((await req('/bank/difficulty-listening.json',studentCookie)).status,403);
+ assert.equal((await req('/api/question-levels?kind=listening',studentCookie)).status,403);
+ assert.equal((await req('/api/admin/permissions',owner,{id:studentId,permissions:me.permissions,accessMonths:{listening:1,writing:1}})).status,200);
+ assert.equal((await (await req('/api/me',studentCookie)).json()).permissions.listening,true);
+ accessDb.close();
+
  for(const route of ['/admin.html','/submissions.html','/roles.html','/api/admin/users','/api/admin/registration-requests','/api/admin/learning-progress','/api/admin/writing','/api/owner/accounts','/api/admin/notifications'])assert.equal((await req(route,guest)).status,200,route);
  assert.equal((await req('/api/admin/users',studentCookie)).status,403);assert.equal((await req('/api/owner/accounts',admin)).status,403);assert.equal((await req('/api/admin/users',teacher)).status,200);assert.equal((await req('/api/admin/users',teacher,{email:'blocked@example.test'})).status,403);
  for(const [route,body] of [['/api/admin/users',{email:'bad@example.test'}],['/api/admin/profile',{id:studentId,name:'Changed'}],['/api/admin/access',{id:studentId,active:false}],['/api/admin/reset',{id:studentId}],['/api/admin/permissions',{id:studentId,permissions:me.permissions}],['/api/owner/accounts/update',{id:accounts.guest.id,role:'admin',active:true}],['/api/admin/notifications',{audience:'all',title:'Bad',message:'Bad'}],['/api/admin/writing/codex/pair',{token:'a'.repeat(64)}],['/api/admin/writing/codex/disconnect',{}],['/api/admin/writing/codex',{id:'fake'}],['/api/admin/writing/feedback',{id:'fake',feedback:'Not allowed'}]])assert.equal((await req(route,guest,body)).status,403,route);

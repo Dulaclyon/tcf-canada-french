@@ -14,3 +14,6 @@ Validation: scripts/check-account-roles.mjs and existing authentication, submiss
 
 
 Owner can switch an existing non-owner account between Student, Guest, Teacher and Administrator in Accounts and roles. Identity, password, submissions and progress remain unchanged; sessions are revoked immediately. New student conversions start with Foundations only unless prior student section permissions exist. Student management controls section access. Existing student grants survive role changes. The 100-student and 50-staff/guest limits apply to conversions.
+
+
+Timed student access: each of the six sections has an independent 1–36 calendar-month grant. New grants default to one month; unchanged legacy grants have no automatic expiry migration. Existing permissions remain assigned for renewal but effective access becomes false at the stored expiry timestamp. Renewals add calendar months from the later of expiry and current time, clamping to the last day of shorter months. Student accounts and learning records remain intact. Staff/Guest roles retain their existing role behavior. Student management displays dates and offers Keep current expiry. Open student sessions recheck every minute and on visibility return; protected endpoints and content assets enforce expiry on every request.

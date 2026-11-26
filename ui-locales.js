@@ -3206,3 +3206,15 @@ messages['已恢复上次提交']={en:'Your previous submission is restored','zh
 messages['法语特殊字符']={en:'French characters','zh-TW':'法語特殊字元'};
 messages['大写字母']={en:'Uppercase','zh-TW':'大寫字母'};
 messages['点击插入光标处，或拖拽到正文中。']={en:'Click to insert at the cursor, or drag into your text.','zh-TW':'點擊插入游標處，或拖曳到正文中。'};
+
+messages['访问权限未开通或已到期，请联系网站所有者或管理员开通或续期。']={en:'Access has not been granted or has expired. Contact the website owner or administrator to request access or renew it.','zh-TW':'存取權限未開通或已到期，請聯絡網站所有者或管理員開通或續期。'};
+
+messages["授权月数"]={"en": "Access duration (months)", "zh-TW": "授權月數"};
+messages["个月"]={"en": "months", "zh-TW": "個月"};
+messages["保持原期限"]={"en": "Keep current expiry", "zh-TW": "保持原期限"};
+messages["已到期"]={"en": "Expired", "zh-TW": "已到期"};
+messages["到期时间"]={"en": "Expires", "zh-TW": "到期時間"};
+messages["原授权无到期日"]={"en": "Existing access has no expiry", "zh-TW": "原授權無到期日"};
+messages["新授权默认 1 个月"]={"en": "New access defaults to 1 month", "zh-TW": "新授權預設 1 個月"};
+messages["新学生默认开放基础法语 1 个月。各板块可单独选择 1–36 个月；续期从原到期日或当前时间中较晚者起算。保持原期限不会改变现有授权。"]={"en": "New students receive Foundations for 1 month by default. Choose 1–36 months per section. Renewals extend from the later of the current expiry or now. Keeping the current expiry preserves existing access.", "zh-TW": "新學生預設開放基礎法語 1 個月。各板塊可單獨選擇 1–36 個月；續期從原到期日或目前時間中較晚者起算。保持原期限不會改變現有授權。"};
+messages['1 个月']={en:'1 month','zh-TW':'1 個月'};

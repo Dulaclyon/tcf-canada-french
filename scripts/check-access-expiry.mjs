@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import {accessExpiry,addAccessMonths,validAccessMonths} from '../server/access-expiry.mjs';
+import {basicOnly,allSections} from '../server/section-permissions.mjs';
+const db=new DatabaseSync(':memory:');db.exec('CREATE TABLE permissions(user_id TEXT PRIMARY KEY,value TEXT NOT NULL)');
+let now=Date.parse('2028-01-31T15:30:00Z');const access=accessExpiry(db,()=>now);
+assert.equal(new Date(addAccessMonths(now,1)).toISOString(),'2028-02-29T15:30:00.000Z');assert.equal(new Date(addAccessMonths(Date.parse('2027-01-31T15:30:00Z'),1)).toISOString(),'2027-02-28T15:30:00.000Z');
+assert(validAccessMonths({basics:1,listening:36}));for(const v of [{basics:0},{basics:37},{basics:1.5},{basics:'1'},{fake:1},[]])assert(!validAccessMonths(v));
+db.prepare('INSERT INTO permissions VALUES(?,?)').run('legacy',JSON.stringify(allSections));assert.deepEqual(access.effective({id:'legacy',role:'student'}),allSections);access.apply('legacy',allSections,{basics:'keep'});assert.deepEqual(access.expires('legacy'),{});
+const user={id:'new',role:'student'};access.apply(user.id,basicOnly,undefined,{newGrant:true});const first=access.expires(user.id).basics;assert.equal(first,addAccessMonths(now,1));assert(access.effective(user).basics);now=first;assert(!access.effective(user).basics);assert(access.assigned(user.id).basics);
+access.apply(user.id,{...basicOnly,listening:true},{basics:2,listening:3});assert(access.effective(user).basics);assert.equal(access.expires(user.id).basics,addAccessMonths(now,2));const future=access.expires(user.id).listening;access.apply(user.id,{...basicOnly,listening:true},{listening:1,basics:'keep'});assert.equal(access.expires(user.id).listening,addAccessMonths(future,1));
+access.apply(user.id,basicOnly);assert(!access.expires(user.id).listening);assert(access.effective({...user,role:'owner'}).listening);db.close();
+console.log('Access expiry passed: legacy grants untouched, calendar month clamping, exact expiry boundary, per-section renewal, validation and staff bypass.');
