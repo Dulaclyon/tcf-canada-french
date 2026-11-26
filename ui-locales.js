@@ -3227,3 +3227,4 @@ messages["常用动词（1）"]={"en": "Everyday verbs (1)", "zh-TW": "常用動
 messages["常用动词（2）"]={"en": "Everyday verbs (2)", "zh-TW": "常用動詞（2）"};
 messages["常用动词（3）"]={"en": "Everyday verbs (3)", "zh-TW": "常用動詞（3）"};
 messages["常用动词（4）"]={"en": "Everyday verbs (4)", "zh-TW": "常用動詞（4）"};
+messages['不规则动词']={en:'Irregular verbs','zh-TW':'不規則動詞'};
