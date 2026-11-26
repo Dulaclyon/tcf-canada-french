@@ -27,3 +27,24 @@ export function mountWritingSubmission(editor,question,account,onSubmit){
  refresh().catch(e=>{if(section.isConnected)status.textContent='无法读取提交记录：'+e.message;});
  return submit;
 }
+
+export function insertFrenchCharacter(editor,character){
+ if(editor.disabled||editor.readOnly)return;
+ const start=editor.selectionStart,end=editor.selectionEnd;
+ editor.setRangeText(character,start,end,'end');editor.focus({preventScroll:true});
+ editor.dispatchEvent(new Event('input',{bubbles:true}));
+}
+export function mountFrenchCharacters(editor){
+ const panel=document.createElement('section');panel.className='french-character-panel';panel.setAttribute('aria-label','法语特殊字符');
+ const heading=document.createElement('div');heading.className='french-character-heading';
+ const title=document.createElement('strong');title.textContent='法语特殊字符';
+ const toggle=document.createElement('button');toggle.type='button';toggle.className='french-case-toggle';toggle.textContent='大写字母';toggle.setAttribute('aria-pressed','false');heading.append(title,toggle);
+ const hint=document.createElement('p');hint.textContent='点击插入光标处，或拖拽到正文中。';
+ const keys=document.createElement('div');keys.className='french-character-keys';keys.lang='fr';keys.dataset.i18nSkip='';
+ const status=document.createElement('span');status.className='sr-only';status.setAttribute('role','status');
+ let uppercase=false;
+ const render=()=>{keys.replaceChildren();for(const base of [...'àâäéèêëîïôöùûüÿçœæ','«','»','’','–']){const character=uppercase?base.toLocaleUpperCase('fr'):base;const button=document.createElement('button');button.type='button';button.textContent=character;button.draggable=true;button.setAttribute('aria-label',character);button.onclick=()=>{insertFrenchCharacter(editor,character);status.textContent=character;};button.ondragstart=e=>{e.dataTransfer.setData('text/plain',character);e.dataTransfer.effectAllowed='copy';};keys.append(button);}};
+ toggle.onclick=()=>{uppercase=!uppercase;toggle.setAttribute('aria-pressed',String(uppercase));render();};
+ panel.append(heading,hint,keys,status);
+ const wrap=document.createElement('div');wrap.className='french-writing-layout';editor.before(wrap);wrap.append(editor,panel);render();
+}

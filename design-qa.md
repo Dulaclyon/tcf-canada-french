@@ -32,3 +32,8 @@ Replaced tall account cards with compact identity/action rows. All roles, includ
 ## November 25 — verb teaching categories and exercise restoration
 
 Added four mutually exclusive teaching categories to the existing 200-verb reference, retaining alphabetical ordering and existing progress identities. Pronominal structures take precedence; regular -ir membership requires the nous -issons pattern. Added teaching notes for spelling changes and traditional conjugation groups. Foundation exercise cards now restore the latest submitted choice/text and feedback; pending open responses persist through self-assessment. Verified a submitted answer remains checked and graded after a full browser reload using a dummy localhost account. Build/main checks and rendering regressions passed; no production records were changed.
+
+
+## November 25 — French writing characters
+
+Added a compact character palette beside the writing draft, stacking below it on small screens. Character buttons insert at the current selection, dispatch the existing input event for autosave, support keyboard activation, and expose plain-text drag data for native textarea drops. Added uppercase accents and French punctuation. Verified selection replacement (ecole → école), uppercase insertion, caret position, and saved text after reload in the isolated localhost preview.
