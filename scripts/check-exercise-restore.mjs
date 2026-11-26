@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+const source=readFileSync('app.js','utf8');
+const functions=source.slice(source.indexOf('function exerciseFeedback('),source.indexOf('\nfunction practice('));
+const state={attempts:[],drafts:{},favorites:[]};
+const escape=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const context=vm.createContext({state,esc:escape,arr:v=>Array.isArray(v)?v:v==null?[]:[v],typeName:v=>v,lessonRoute:v=>v,link:()=>''});
+vm.runInContext(functions,context);
+const e={id:'one',course:{id:'unit',title:'Unit'},type:'choice',level:'A1',prompt:'Je ___ étudiant.',options:['est','suis'],answers:['suis'],explanation:'Use suis.',pitfall:'Use suis.'};
+state.attempts.push({id:'one',answer:'est',correct:false},{id:'other',answer:'x',correct:true},{id:'one',answer:'suis',correct:true});
+let html=context.exerciseCard(e);assert.match(html,/value="suis" checked/);assert.doesNotMatch(html,/value="est" checked/);assert.match(html,/✓ 回答正确/);
+state.attempts.push({id:'one',answer:'est',correct:false});html=context.exerciseCard(e);assert.match(html,/value="est" checked/);assert.match(html,/feedback wrong/);
+const open={...e,options:[],type:'scenario'};state.drafts['exercise:one']={text:'<bonjour "ami">',at:new Date().toISOString()};html=context.exerciseCard(open);assert.match(html,/value="&lt;bonjour &quot;ami&quot;&gt;"/);assert.match(html,/data-action="selfpass"/);assert.doesNotMatch(html,/feedback wrong/);
+console.log('Exercise restoration passed: latest saved answer, correct/incorrect feedback, pending open response, self-assessment and escaped input.');

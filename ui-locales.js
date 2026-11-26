@@ -3201,3 +3201,4 @@ messages["姓名 / 邮箱"]={"en": "Name / email", "zh-TW": "姓名 / 郵箱"};
 messages["没有匹配的账号。"]={"en": "No matching accounts.", "zh-TW": "沒有符合的帳號。"};
 messages["在此统一分配所有账号的角色。学生进度面板仅统计学生账号。"]={"en": "Manage every account role here. Only students appear in the student progress dashboard.", "zh-TW": "在此統一分配所有帳號的角色。學生進度面板僅統計學生帳號。"};
 messages["学生：按授权学习 · 访客：学习及只读管理 · 老师：批改与查看进度 · 管理员：学生管理与批改"]={"en": "Student: assigned learning access · Guest: learning and read-only management · Teacher: assessments and progress · Administrator: student management and assessments", "zh-TW": "學生：按授權學習 · 訪客：學習及唯讀管理 · 老師：批改與查看進度 · 管理員：學生管理與批改"};
+messages['已恢复上次提交']={en:'Your previous submission is restored','zh-TW':'已恢復上次提交'};

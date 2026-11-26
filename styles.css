@@ -119,3 +119,5 @@ html[lang="en"] .section-locked::after{content:"Locked"}html[lang="zh-Hant-TW"] 
 @media(max-width:700px){.workspace>header{height:auto;min-height:64px;flex-wrap:wrap;padding:10px 16px;gap:8px}.workspace>header .header-actions,.workspace>header .account-tools{display:flex;flex-wrap:wrap;min-width:0;max-width:100%;gap:6px}}
 
 @media(max-width:700px){.workspace>header .header-actions{flex:1 1 280px;width:auto}.workspace>header .account-tools{flex:1 1 220px;width:auto}}
+
+.transition-verb-categories{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid #dfe3e8;margin-bottom:14px;padding-bottom:10px}.transition-verb-categories button{background:transparent;border:1px solid transparent;border-radius:5px;color:#626b78;padding:9px 12px;font-size:14px}.transition-verb-categories button[aria-pressed=true]{background:#f5e9ed;border-color:#e6ccd4;color:#742438;font-weight:650}.transition-verb-categories small{font-size:11px;margin-left:5px;color:inherit}.transition-category-note{font-size:13px;line-height:1.8;color:#687181;margin-bottom:18px}

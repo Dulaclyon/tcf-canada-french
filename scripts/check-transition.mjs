@@ -1,7 +1,7 @@
 import {verbExamples} from '../transition-verb-examples.js';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
-import {transitionVerbs as verbs,transitionPrepositions as prep,transitionPhrases as phrases} from '../transition-content.js';
+import {transitionVerbs as verbs,transitionVerbCategory,transitionPrepositions as prep,transitionPhrases as phrases} from '../transition-content.js';
 import {prepositionGroups} from '../transition-prepositions.js';
 import {transitionPhraseGroups} from '../transition-phrases.js';
 const languages=['en','zh-CN','zh-TW'];
@@ -29,3 +29,9 @@ console.log('Transition checks passed: 200 verbs × 6 tenses, pronoun/auxiliary/
 assert.deepEqual(new Set(verbs.map(v=>v.id)),new Set(JSON.parse(readFileSync('docs/transition-verb-inventory.json','utf8')).verbs));
 for(const v of verbs){assert.equal(verbExamples[v.id]?.length,3,v.id);}
 assert.equal(get('interdire').present[4],'interdisez');assert.equal(get('protéger').present[3],'protégeons');assert.equal(get('protéger').imperfect[0],'protégeais');assert.equal(get('envoyer').future[0],'enverrai');assert.equal(get('convenir').past[0],'ai convenu');
+
+for(const id of ['parler','manger','appeler','envoyer'])assert.equal(transitionVerbCategory(verbs.find(v=>v.id===id)),'er');
+for(const id of ['finir','choisir','grandir'])assert.equal(transitionVerbCategory(verbs.find(v=>v.id===id)),'ir');
+for(const id of ['aller','sortir','venir','ouvrir','entendre'])assert.equal(transitionVerbCategory(verbs.find(v=>v.id===id)),'irregular');
+for(const id of ['se lever','s’habiller','se souvenir'])assert.equal(transitionVerbCategory(verbs.find(v=>v.id===id)),'pronominal');
+assert.equal(verbs.filter(v=>['er','ir','irregular','pronominal'].includes(transitionVerbCategory(v))).length,200);

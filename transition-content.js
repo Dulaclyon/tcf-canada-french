@@ -100,3 +100,11 @@ brosser.note=L('Les dents is a direct object placed after the verb: elle s’est
 transitionVerbs.push(brosser);
 
 transitionVerbs.push(...additionalVerbs);
+
+// Teaching categories: pronominal constructions take precedence over conjugation group.
+export function transitionVerbCategory(verb){
+ if(/^(se\s|s[’'])/u.test(verb.id))return 'pronominal';
+ if(verb.id.endsWith('er')&&verb.id!=='aller')return 'er';
+ if(verb.id.endsWith('ir')&&verb.forms.present[3].endsWith('issons'))return 'ir';
+ return 'irregular';
+}

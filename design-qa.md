@@ -27,3 +27,8 @@ Grouped mode, level, set and question selectors into one practice settings panel
 ## November 25 — unified account roles
 
 Replaced tall account cards with compact identity/action rows. All roles, including students, share one directory with name/email search and one role filter; account creation stays collapsed initially. Preserved existing brand styling. Verified search, student filter, student role option, Chinese reload, and mobile width (390px viewport and document). Isolated API tests verify student-only dashboard membership, identity/progress/feedback retention and section-grant preservation through conversions. No production accounts or grants were modified.
+
+
+## November 25 — verb teaching categories and exercise restoration
+
+Added four mutually exclusive teaching categories to the existing 200-verb reference, retaining alphabetical ordering and existing progress identities. Pronominal structures take precedence; regular -ir membership requires the nous -issons pattern. Added teaching notes for spelling changes and traditional conjugation groups. Foundation exercise cards now restore the latest submitted choice/text and feedback; pending open responses persist through self-assessment. Verified a submitted answer remains checked and graded after a full browser reload using a dummy localhost account. Build/main checks and rendering regressions passed; no production records were changed.
