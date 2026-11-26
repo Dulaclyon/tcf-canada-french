@@ -42,3 +42,8 @@ Added a compact character palette beside the writing draft, stacking below it on
 ## November 25 — timed section access
 
 Added a duration control and expiry status beside each section checkbox, plus an initial Foundations duration when creating a student. Existing grants default to Keep current expiry; no production authorizations were edited. Local dummy-student grant verified two-month expiry display and renewal controls. Unit tests cover legacy preservation, calendar clamping, exact expiry boundary and renewal; account integration tests verify protected API/assets deny expired access and recover after renewal. Registration and main checks pass.
+
+
+## November 25 — Foundations Unit 8
+
+Imported the supplied one-page lesson as the eighth Foundations unit, retaining stable IDs for all prior lessons. Verified 27 catalogue entries and the sequence Unit 7 pronominal verbs → Unit 8 irregular verbs/routines → Unit 9 passé composé. Reused existing topic navigation, conjugation presentation, reading/vocabulary and exercise components. Source text, 24 unique questions, original audio paths and progress identities passed checks. No production student data or permissions changed.

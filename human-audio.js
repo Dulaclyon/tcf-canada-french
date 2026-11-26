@@ -1,4 +1,6 @@
 const recordings = [
+ {lesson:31,title:'课文',label:'本课课堂录音 1',file:'penny-cres-67.m4a',source:'新增加的单元/Penny Cres 67.m4a'},
+ {lesson:31,title:'课文',label:'本课课堂录音 2',file:'penny-cres-68.m4a',source:'新增加的单元/Penny Cres 68.m4a'},
   {
     "lesson": 2,
     "title": "基础动词与变位",

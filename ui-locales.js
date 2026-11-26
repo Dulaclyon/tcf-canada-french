@@ -3218,3 +3218,12 @@ messages["原授权无到期日"]={"en": "Existing access has no expiry", "zh-TW
 messages["新授权默认 1 个月"]={"en": "New access defaults to 1 month", "zh-TW": "新授權預設 1 個月"};
 messages["新学生默认开放基础法语 1 个月。各板块可单独选择 1–36 个月；续期从原到期日或当前时间中较晚者起算。保持原期限不会改变现有授权。"]={"en": "New students receive Foundations for 1 month by default. Choose 1–36 months per section. Renewals extend from the later of the current expiry or now. Keeping the current expiry preserves existing access.", "zh-TW": "新學生預設開放基礎法語 1 個月。各板塊可單獨選擇 1–36 個月；續期從原到期日或目前時間中較晚者起算。保持原期限不會改變現有授權。"};
 messages['1 个月']={en:'1 month','zh-TW':'1 個月'};
+
+messages["不规则动词与日常作息"]={"en": "Irregular verbs and daily routines", "zh-TW": "不規則動詞與日常作息"};
+messages["本课课堂录音 1"]={"en": "Lesson recording 1", "zh-TW": "本課課堂錄音 1"};
+messages["本课课堂录音 2"]={"en": "Lesson recording 2", "zh-TW": "本課課堂錄音 2"};
+messages["代词式动词与日常作息"]={"en": "Pronominal verbs and daily routines", "zh-TW": "代詞式動詞與日常作息"};
+messages["常用动词（1）"]={"en": "Everyday verbs (1)", "zh-TW": "常用動詞（1）"};
+messages["常用动词（2）"]={"en": "Everyday verbs (2)", "zh-TW": "常用動詞（2）"};
+messages["常用动词（3）"]={"en": "Everyday verbs (3)", "zh-TW": "常用動詞（3）"};
+messages["常用动词（4）"]={"en": "Everyday verbs (4)", "zh-TW": "常用動詞（4）"};

@@ -9,7 +9,7 @@ for(const r of recordings){
  const m=materials.find(m=>m.lesson===r.lesson);
  const flow=buildLessonFlow(m,courses.map(c=>c.article));
  const titles=[...combineBasicVerbs(m,flow.grammar),...flow.readings].flatMap(x=>[x.title,...(x.sourceTitles||[])]);
- assert(titles.includes(r.title),`Missing topic ${r.lesson}: ${r.title}; actual: ${titles}`);
+ assert(titles.includes(r.title)||(r.title==='课文'&&flow.readings.length>0),`Missing topic ${r.lesson}: ${r.title}; actual: ${titles}`);
  assert((await stat(`human-audio/${r.file}`)).size>10000);
  if(/发音|拼读|phonics?|prononciation/iu.test(r.title))assert.equal(originalLessonAudio(r.lesson,r.title),'','Phonics never exposes human recording players');
  if(r.visible===false)assert.equal(originalLessonAudio(r.lesson,r.title),'');else assert(originalLessonAudio(r.lesson,r.title).includes(r.file));

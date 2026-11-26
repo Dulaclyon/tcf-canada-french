@@ -1,5 +1,10 @@
 // Display corrections only: retain the imported PDFs and source text verbatim.
 export const editorialCorrections = [
+ ['je me lave, tu te laves...','je me lave, tu te laves, il se lave, nous nous lavons, vous vous lavez, ils se lavent'],
+ ['je m’habille, tu t’habilles...','je m’habille, tu t’habilles, il s’habille, nous nous habillons, vous vous habillez, ils s’habillent'],
+ ['je me couche, tu te couches...','je me couche, tu te couches, il se couche, nous nous couchons, vous vous couchez, ils se couchent'],
+ ['se brosser les dent (','se brosser les dents ('],
+ ['lechat saute','le chat saute'],
  ['là-bas ? là-bas','là-bas ?'],
  ['记得将来时(特别是特殊的常用动词的将来时)和\nimparfait， 基本就没有问题了！！！','现在条件式：将来时词干 + 未完成过去时词尾（-ais、-ais、-ait、-ions、-iez、-aient）。'],
  ['passé composé 结构 avoir + .....é （er --> é）','passé composé：avoir 的现在时 + 过去分词；规则 -er 动词的过去分词以 -é 结尾。'],

@@ -36,10 +36,10 @@ console.log('Courseware attribution, reading types, prerequisite links and writi
 
 const materials=JSON.parse(fs.readFileSync('src/data/materials.json','utf8'));
 const originals=materials.filter(m=>m.contentOrigin!=='authored');
-assert.equal(originals.length,22);assert.equal(new Set(materials.map(x=>x.file)).size,materials.length);
-assert.deepEqual(originals.map(x=>x.lesson),[2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24]);
+assert.equal(originals.length,23);assert.equal(new Set(materials.map(x=>x.file)).size,materials.length);
+assert.deepEqual(originals.map(x=>x.lesson),[2,3,4,5,6,7,8,31,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24]);
 for(const m of materials){assert(m.pages.length&&m.id&&m.file);for(const p of m.pages){const text=p.sections.map(x=>x.text).join('').replace(/\s+/g,'');assert.equal(text.length,p.characters);assert.equal(createHash('sha256').update(text).digest('hex'),p.textSha256,`${m.id}: text integrity`);}}
-console.log('All 22 original PDF text records and page integrity hashes validated.');
+console.log('All 23 original PDF text records and page integrity hashes validated.');
 
 const supplementIds=new Set();let supplements=0;
 for(const m of materials){assert(m.supplements?.length>=3,`${m.id}: supplement coverage`);for(const b of m.supplements){assert(!supplementIds.has(b.id));supplementIds.add(b.id);assert(b.title&&b.rule&&b.pitfall&&b.status);assert(b.examples.length>=2&&b.examples.every(x=>x.fr&&x.zh));assert(/^https:\/\//.test(b.sourceUrl));if(b.table)assert(b.table.rows.every(r=>r.length===b.table.headers.length));supplements++;}}
@@ -100,3 +100,5 @@ execFileSync(process.execPath,['scripts/check-question-difficulty.mjs'],{stdio:'
 execFileSync(process.execPath,['scripts/check-exercise-restore.mjs'],{stdio:'inherit'});
 
 execFileSync(process.execPath,['scripts/check-access-expiry.mjs'],{stdio:'inherit'});
+
+execFileSync(process.execPath,['scripts/check-new-foundation-unit.mjs'],{stdio:'inherit'});
